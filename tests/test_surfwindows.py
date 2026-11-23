@@ -178,6 +178,12 @@ def test_quota_exhausted_publishes_what_arrived(tmp_path):
     assert asked == ["scheveningen", "wijk-aan-zee"]                 # the third spot is never asked for
     assert [s["id"] for s in read_data(tmp_path)["spots"]] == ["scheveningen"]
 
+    # after a full run, a run that loses spots keeps their previous data on the page
+    sw.run(cfg, now, fetch=fake_fetch_factory(now.replace(hour=0)), out_dir=tmp_path)
+    asked.clear()
+    sw.run(cfg, now, fetch=fetch, out_dir=tmp_path)
+    assert [s["id"] for s in read_data(tmp_path)["spots"]] == ["scheveningen", "wijk-aan-zee", "zandvoort"]
+
 
 def test_merge_api_shape():
     times = ["2026-11-24T07:00", "2026-11-24T08:00", "2026-11-24T09:00"]

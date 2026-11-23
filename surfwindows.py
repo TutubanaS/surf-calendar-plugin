@@ -81,8 +81,9 @@ class QuotaExhausted(Exception):
     """Open-Meteo will not serve more requests for a while; retrying only burns the job's time."""
 
 
-WAIT_BUDGET_S = 300     # total time one run may spend waiting on rate limits (GitHub's runners share their addresses)
-MIN_GAP_S = 0.45        # between request starts: about 130 a minute, under the 600 weighted calls a minute we may use
+WAIT_BUDGET_S = 480     # total time one run may spend waiting on rate limits (GitHub's runners share their addresses)
+MIN_GAP_S = 0.9         # between request starts: about 65 a minute. At twice that rate a run on GitHub's shared
+                        # runners ran into the per-minute quota and lost 46 of 117 spots
 _waited = 0.0
 _next_slot = 0.0
 _lock = threading.Lock()
@@ -506,7 +507,7 @@ def to_markdown(spot_hours: dict[str, tuple[dict, list[Hour]]], windows: list[Wi
 
 
 def to_data(cfg: dict, spot_hours: dict[str, tuple[dict, list[Hour]]],
-            by_spot: dict[str, list[Window]], now: datetime) -> str:
+            by_spot: dict[str, list[Window]], now: datetime, previous: dict[str, dict] | None = None) -> str:
     """docs/data.js: everything the page needs, as one script that sets window.SURF.
 
     A script rather than JSON so the page also works when opened straight from disk.
@@ -558,6 +559,11 @@ def to_data(cfg: dict, spot_hours: dict[str, tuple[dict, list[Hour]]],
         if any(h.sst is not None for h in hours):
             d["sst"] = [None if h.sst is None else round(h.sst, 1) for h in hours]
         spots.append({k: v for k, v in d.items() if v is not None})
+    # a spot that could not be fetched this time stays on the page with what we had, in the configured order
+    fresh = {d["id"]: d for d in spots}
+    wanted = [s["id"] for s in cfg["spots"] if s.get("enabled", True)]
+    spots = [fresh.get(sid) or (previous or {}).get(sid) for sid in wanted]
+    spots = [d for d in spots if d]
     data = {
         "generated": int(now.timestamp()), "min_score": cfg["min_score"], "forecast_days": cfg["forecast_days"],
         "min_window_hours": cfg["min_window_hours"],
@@ -656,7 +662,14 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
     (out_dir / "FORECAST.md").write_text(
         to_markdown({sid: v for sid, v in spot_hours.items() if sid in cal_ids}, windows, now, len(spot_hours))
         + "\n", encoding="utf-8")
-    (docs / "data.js").write_text(to_data(cfg, spot_hours, by_spot, now), encoding="utf-8")
+    data_path, previous = docs / "data.js", {}
+    if data_path.exists():
+        try:
+            text = data_path.read_text(encoding="utf-8")
+            previous = {d["id"]: d for d in json.loads(text[len("window.SURF="):].rstrip().rstrip(";"))["spots"]}
+        except Exception:      # an unreadable old file only means there is nothing to carry over
+            previous = {}
+    data_path.write_text(to_data(cfg, spot_hours, by_spot, now, previous), encoding="utf-8")
     print(f"{sum(map(len, by_spot.values()))} window(s) at {len(fresh)} of {len(spots)} spots; "
           f"{len(windows)} in the main feed.")
     return windows
