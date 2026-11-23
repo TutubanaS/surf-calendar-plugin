@@ -7,4 +7,24 @@ X-WR-CALNAME:Surf: Terschelling (Midsland aan Zee)
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:37347f98cf67373d@surf-windows
+DTSTAMP:20261123T170000Z
+DTSTART:20261124T070000Z
+DTEND:20261124T160000Z
+SUMMARY:🤏 Terschelling (Midsland aan Zee) 5/10 · 0.7m 6s N · 4kn S
+DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: high. 5 wave models sa
+ y 0.5 to 0.7 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
+      5   0.7m  6.3s   N    4kn (g6)   S glassy\nTue 09:00       5   0.6m  
+ 6.3s   N    7kn (g11) SSE offshore\nTue 10:00       5   0.6m  6.3s   N    
+ 7kn (g13) SSE offshore\nTue 11:00       5   0.6m  6.3s   N    8kn (g14) SS
+ E offshore\nTue 12:00       5   0.6m  6.3s   N    8kn (g14) SSE offshore\n
+ Tue 13:00       5   0.6m  6.3s   N    7kn (g15) SSE offshore\nTue 14:00   
+     5   0.6m  6.3s   N    7kn (g13)  SE offshore\nTue 15:00       5   0.6m
+   6.5s   N    7kn (g13)  SE offshore\nTue 16:00       5   0.6m  6.3s   N  
+   8kn (g14) ESE offshore\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo
+ .
+LOCATION:Terschelling (Midsland aan Zee)
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

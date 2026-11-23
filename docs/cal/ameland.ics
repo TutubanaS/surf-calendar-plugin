@@ -7,4 +7,22 @@ X-WR-CALNAME:Surf: Ameland (Nes)
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:0b2755850b3615a1@surf-windows
+DTSTAMP:20261123T170000Z
+DTSTART:20261124T070000Z
+DTEND:20261124T140000Z
+SUMMARY:🤏 Ameland (Nes) 5/10 · 0.5m 6s N · 6kn SE
+DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: high. 5 wave models sa
+ y 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
+      5   0.5m  6.3s   N    6kn (g11)  SE offshore\nTue 09:00       5   0.5
+ m  6.3s   N    6kn (g11) SSE offshore\nTue 10:00       5   0.5m  6.3s   N 
+    7kn (g12) SSE offshore\nTue 11:00       5   0.5m  6.3s   N    8kn (g13)
+  SSE offshore\nTue 12:00       5   0.5m  6.3s   N    7kn (g13) SSE offshor
+ e\nTue 13:00       5   0.5m  6.3s   N    7kn (g12) SSE offshore\nTue 14:00
+        5   0.5m  6.3s   N    7kn (g12) SSE offshore\n\nGenerated 2026-11-2
+ 3 17:00 UTC from Open-Meteo.
+LOCATION:Ameland (Nes)
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
