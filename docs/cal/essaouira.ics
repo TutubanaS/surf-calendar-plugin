@@ -19,11 +19,11 @@ DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 5 wave models sa
  1.2s NNW    2kn (g4)   E glassy\nMon 09:00       9   1.9m 11.2s NNW    2kn
   (g4) ENE glassy\nMon 10:00     7.5   1.9m 11.2s  NW    2kn (g4) NNW glass
  y\nMon 11:00     7.5   1.8m 11.2s  NW    3kn (g6) NNW glassy\nMon 12:00   
-   7.5   1.8m 11.2s  NW    3kn (g7) NNW glassy\nMon 13:00     6.5   1.8m 10
- .8s  NW    4kn (g8) NNW glassy\nMon 14:00     6.5   1.7m 10.4s  NW    4kn 
- (g8) NNW glassy\nMon 15:00     6.5   1.7m 10.2s  NW    4kn (g8) NNW glassy
- \nMon 16:00       7   1.7m 10.2s  NW    4kn (g8)   N glassy\nMon 17:00    
-    7   1.7m 10.2s  NW    3kn (g8) NNE glassy\n\nNotes: Wide bay\, usually 
+   7.5   1.8m 11.2s  NW    2kn (g7) NNW glassy\nMon 13:00     6.5   1.8m 10
+ .8s  NW    3kn (g7) NNW glassy\nMon 14:00     6.5   1.7m 10.4s  NW    4kn 
+ (g7)  NW glassy\nMon 15:00     6.5   1.7m 10.2s  NW    3kn (g7)  NW glassy
+ \nMon 16:00     6.5   1.7m 10.2s  NW    3kn (g6) NNW glassy\nMon 17:00    
+    7   1.7m 10.2s  NW    2kn (g6)   N glassy\n\nNotes: Wide bay\, usually 
  windy.\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Essaouira
 TRANSP:TRANSPARENT
@@ -33,18 +33,18 @@ UID:4758b0640aa4dc8d@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
-SUMMARY:🔥 Essaouira 8/10 · 1.5m 12s NW · 3kn ESE
+SUMMARY:🔥 Essaouira 8/10 · 1.5m 12s NW · 2kn ESE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: high. 5 wave models sa
  y 1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
-      8   1.5m 12.1s  NW    3kn (g5) ESE glassy\nTue 08:00       8   1.5m 1
+      8   1.5m 12.1s  NW    2kn (g5) ESE glassy\nTue 08:00       8   1.5m 1
  1.6s  NW    3kn (g5) ESE glassy\nTue 09:00       8   1.4m 11.2s  NW    2kn
   (g5) ESE glassy\nTue 10:00       8   1.4m 11.1s  NW    1kn (g4) ENE glass
- y\nTue 11:00       7   1.4m 11.1s  NW    4kn (g8)   N glassy\nTue 12:00   
-     7   1.4m 11.2s  NW    7kn (g13)   N cross\nTue 13:00     5.5   1.4m 11
- .2s  NW    8kn (g15)   N cross\nTue 14:00     5.5   1.4m 11.2s  NW    8kn 
- (g16)   N cross\nTue 15:00     5.5   1.4m 11.2s  NW    8kn (g16)   N cross
- \nTue 16:00     5.5   1.4m 11.2s  NW    9kn (g16)   N cross\nTue 17:00    
-    7   1.4m 11.2s  NW    7kn (g16) NNE cross\n\nNotes: Wide bay\, usually 
+ y\nTue 11:00     6.5   1.4m 11.1s  NW    4kn (g9) NNW glassy\nTue 12:00   
+   5.5   1.4m 11.2s  NW    8kn (g15)   N cross\nTue 13:00     5.5   1.4m 11
+ .2s  NW    9kn (g16)   N cross\nTue 14:00     5.5   1.4m 11.2s  NW    9kn 
+ (g17)   N cross\nTue 15:00     5.5   1.4m 11.2s  NW    8kn (g17) NNE cross
+ \nTue 16:00     5.5   1.4m 11.2s  NW    9kn (g16) NNE cross\nTue 17:00    
+  5.5   1.4m 11.2s  NW    8kn (g16) NNE cross\n\nNotes: Wide bay\, usually 
  windy.\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Essaouira
 TRANSP:TRANSPARENT
@@ -54,15 +54,15 @@ UID:6a0fdda8841eb8ca@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T140000Z
-SUMMARY:👍 Essaouira 7/10 · 2.3m 13s NW · 14kn NNE
+SUMMARY:👍 Essaouira 7/10 · 2.3m 13s NW · 13kn NNE
 DESCRIPTION:Best 7/10 at 10:00. Forecast confidence: medium. 5 wave models 
  say 1.7 to 2.5 m.\n\nHour (local)  score  waves            wind\nWed 07:00
-      6.5   2.1m 12.3s  NW   12kn (g22) NNE cross\nWed 08:00     6.5   2.2m
-  12.2s  NW   13kn (g24) NNE cross\nWed 09:00     6.5   2.3m 12.3s  NW   14
- kn (g25) NNE cross\nWed 10:00       7   2.3m 12.7s  NW   14kn (g26) NNE cr
+      6.5   2.1m 12.3s  NW   10kn (g18) NNE cross\nWed 08:00     6.5   2.2m
+  12.2s  NW   11kn (g20) NNE cross\nWed 09:00     6.5   2.3m 12.3s  NW   12
+ kn (g22) NNE cross\nWed 10:00       7   2.3m 12.7s  NW   13kn (g24) NNE cr
  oss\nWed 11:00     5.5   2.4m 13.2s  NW   14kn (g26) NNE cross\nWed 12:00 
      5.5   2.4m 13.5s NNW   16kn (g29) NNE cross\nWed 13:00       5   2.5m 
- 11.9s NNW   17kn (g31) NNE cross\n\nNotes: Wide bay\, usually windy.\nGene
+ 11.9s NNW   17kn (g32) NNE cross\n\nNotes: Wide bay\, usually windy.\nGene
  rated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Essaouira
 TRANSP:TRANSPARENT
@@ -72,13 +72,13 @@ UID:2f3be17f3c005b0b@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T120000Z
-SUMMARY:🤏 Essaouira 5.5/10 · 2.3m 12s N · 10kn NE
+SUMMARY:🤏 Essaouira 5.5/10 · 2.3m 12s N · 10kn NNE
 DESCRIPTION:Best 5.5/10 at 07:00. Forecast confidence: medium. 4 wave model
  s say 1.9 to 2.4 m.\n\nHour (local)  score  waves            wind\nThu 07:
- 00     5.5   2.3m 12.2s   N   10kn (g17)  NE cross\nThu 08:00     5.5   2.
- 3m 12.2s   N   10kn (g17)  NE cross\nThu 09:00     5.5   2.2m 12.1s   N   
- 10kn (g19)  NE cross\nThu 10:00     5.5   2.2m 12.1s   N   13kn (g23)  NE 
- cross\nThu 11:00     5.5   2.2m 12.0s   N   14kn (g25)  NE cross\n\nNotes:
+ 00     5.5   2.3m 12.2s   N   10kn (g18) NNE cross\nThu 08:00     5.5   2.
+ 3m 12.2s   N    9kn (g18)  NE cross\nThu 09:00     5.5   2.2m 12.1s   N   
+  9kn (g17)  NE cross\nThu 10:00     5.5   2.2m 12.1s   N   12kn (g21) NNE 
+ cross\nThu 11:00     5.5   2.2m 12.0s   N   13kn (g24) NNE cross\n\nNotes:
   Wide bay\, usually windy.\nGenerated 2026-11-23 15:00 UTC from Open-Meteo
  .
 LOCATION:Essaouira
@@ -89,16 +89,16 @@ UID:2741607b414bbe52@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T140000Z
-SUMMARY:🔥 Essaouira 8/10 · 1.4m 11s NNW · 4kn ESE
+SUMMARY:🔥 Essaouira 8/10 · 1.4m 11s NNW · 3kn E
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
   1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     8   1.4m 11.4s NNW    4kn (g6) ESE glassy\nSat 08:00       8   1.4m 11
- .4s NNW    4kn (g6) ESE glassy\nSat 09:00       8   1.4m 11.3s NNW    3kn 
- (g6) ESE glassy\nSat 10:00       8   1.4m 11.3s NNW    1kn (g7)   E glassy
- \nSat 11:00     6.5   1.4m 11.2s NNW    1kn (g7)  NW glassy\nSat 12:00    
-  6.5   1.4m 11.2s NNW    3kn (g7) WNW glassy\nSat 13:00     6.5   1.4m 11.
- 2s NNW    5kn (g12)  NW onshore\n\nNotes: Wide bay\, usually windy.\nGener
- ated 2026-11-23 15:00 UTC from Open-Meteo.
+     8   1.4m 11.4s NNW    3kn (g5)   E glassy\nSat 08:00       8   1.4m 11
+ .4s NNW    3kn (g5)   E glassy\nSat 09:00       8   1.4m 11.3s NNW    3kn 
+ (g5) ENE glassy\nSat 10:00       7   1.4m 11.3s NNW    3kn (g12)  NE glass
+ y\nSat 11:00       7   1.4m 11.2s NNW    4kn (g10) SSE glassy\nSat 12:00  
+    6.5   1.4m 11.2s NNW    4kn (g8)  SW glassy\nSat 13:00     6.5   1.4m 1
+ 1.2s NNW    5kn (g12)  NW onshore\n\nNotes: Wide bay\, usually windy.\nGen
+ erated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Essaouira
 TRANSP:TRANSPARENT
 END:VEVENT

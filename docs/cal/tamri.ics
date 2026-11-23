@@ -19,11 +19,11 @@ DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models
   11.2s NNW    4kn (g7) ESE glassy\nMon 09:00     9.5   1.7m 11.2s NNW    2
  kn (g6)   E glassy\nMon 10:00       8   1.7m 11.2s  NW    3kn (g5)  NW gla
  ssy\nMon 11:00       8   1.7m 11.2s  NW    3kn (g5) WNW glassy\nMon 12:00 
-       8   1.7m 11.2s  NW    3kn (g6) WNW glassy\nMon 13:00       7   1.7m 
- 10.8s  NW    3kn (g7) WNW glassy\nMon 14:00       7   1.7m 10.6s  NW    3k
- n (g7)  NW glassy\nMon 15:00       7   1.7m 10.6s  NW    4kn (g7)  NW glas
- sy\nMon 16:00       7   1.7m 10.2s  NW    4kn (g7) NNW glassy\nMon 17:00  
-      7   1.7m 10.2s  NW    4kn (g7) NNW glassy\n\nNotes: Picks up more swe
+       8   1.7m 11.2s  NW    2kn (g6) WNW glassy\nMon 13:00       7   1.7m 
+ 10.8s  NW    3kn (g6) WNW glassy\nMon 14:00       7   1.7m 10.6s  NW    3k
+ n (g6) WNW glassy\nMon 15:00       7   1.7m 10.6s  NW    3kn (g6) WNW glas
+ sy\nMon 16:00       7   1.7m 10.2s  NW    3kn (g6)  NW glassy\nMon 17:00  
+      7   1.7m 10.2s  NW    4kn (g6) NNW glassy\n\nNotes: Picks up more swe
  ll than anywhere nearby.\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Tamri
 TRANSP:TRANSPARENT
@@ -37,16 +37,16 @@ SUMMARY:🔥 Tamri 9.5/10 · 1.5m 12s NW · 5kn ESE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models 
  say 1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 07:00
       9.5   1.5m 12.3s  NW    5kn (g7) ESE glassy\nTue 08:00     9.5   1.5m
-  12.3s  NW    4kn (g7)   E glassy\nTue 09:00     9.5   1.5m 12.3s  NW    3
- kn (g6)   E glassy\nTue 10:00       8   1.4m 11.9s  NW    3kn (g5) NNW gla
- ssy\nTue 11:00       8   1.4m 11.5s  NW    5kn (g8) NNW glassy\nTue 12:00 
-       8   1.4m 11.2s  NW    6kn (g10) NNW onshore\nTue 13:00       6   1.4
- m 11.1s  NW    6kn (g10) NNW onshore\nTue 14:00       6   1.4m 11.1s  NW  
-   7kn (g11) NNW onshore\nTue 15:00       6   1.4m 11.2s  NW    6kn (g11) N
- NW onshore\nTue 16:00       8   1.5m 11.2s  NW    6kn (g10) NNW onshore\nT
- ue 17:00       8   1.5m 11.2s  NW    6kn (g9) NNW onshore\n\nNotes: Picks 
- up more swell than anywhere nearby.\nGenerated 2026-11-23 15:00 UTC from O
- pen-Meteo.
+  12.3s  NW    5kn (g7) ESE glassy\nTue 09:00     9.5   1.5m 12.3s  NW    4
+ kn (g7)   E glassy\nTue 10:00       8   1.4m 11.9s  NW    2kn (g5) NNW gla
+ ssy\nTue 11:00       8   1.4m 11.5s  NW    4kn (g7) NNW glassy\nTue 12:00 
+       8   1.4m 11.2s  NW    5kn (g9) NNW onshore\nTue 13:00       8   1.4m
+  11.1s  NW    6kn (g10) NNW onshore\nTue 14:00       8   1.4m 11.1s  NW   
+  6kn (g10) NNW onshore\nTue 15:00       6   1.4m 11.2s  NW    6kn (g10) NN
+ W onshore\nTue 16:00     8.5   1.5m 11.2s  NW    5kn (g10)   N cross\nTue 
+ 17:00     8.5   1.5m 11.2s  NW    5kn (g8)   N cross\n\nNotes: Picks up mo
+ re swell than anywhere nearby.\nGenerated 2026-11-23 15:00 UTC from Open-M
+ eteo.
 LOCATION:Tamri
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -54,16 +54,17 @@ BEGIN:VEVENT
 UID:3c9a83dc05af61b9@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261125T070000Z
-DTEND:20261125T120000Z
+DTEND:20261125T130000Z
 SUMMARY:👍 Tamri 7.5/10 · 2.1m 12s NW · 4kn ESE
 DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: medium. 5 wave model
  s say 1.6 to 2.1 m.\n\nHour (local)  score  waves            wind\nWed 07:
- 00     7.5   2.1m 12.3s  NW    4kn (g5) ESE glassy\nWed 08:00     7.5   2.
- 1m 12.2s  NW    3kn (g5) ESE glassy\nWed 09:00     7.5   2.2m 12.3s  NW   
+ 00     7.5   2.1m 12.3s  NW    4kn (g6) ESE glassy\nWed 08:00     7.5   2.
+ 1m 12.2s  NW    4kn (g6)  SE glassy\nWed 09:00     7.5   2.2m 12.3s  NW   
   2kn (g5)   E glassy\nWed 10:00       6   2.2m 12.3s  NW    3kn (g5) NNW g
- lassy\nWed 11:00     6.5   2.2m 13.2s  NW    4kn (g8)  NW glassy\n\nNotes:
-  Picks up more swell than anywhere nearby.\nGenerated 2026-11-23 15:00 UTC
-  from Open-Meteo.
+ lassy\nWed 11:00     6.5   2.2m 13.2s  NW    5kn (g8) NNW glassy\nWed 12:0
+ 0     6.5   2.3m 13.5s  NW    5kn (g10) NNW onshore\n\nNotes: Picks up mor
+ e swell than anywhere nearby.\nGenerated 2026-11-23 15:00 UTC from Open-Me
+ teo.
 LOCATION:Tamri
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -76,7 +77,7 @@ SUMMARY:👍 Tamri 6.5/10 · 2.5m 12s NNW · 4kn E
 DESCRIPTION:Best 6.5/10 at 07:00. Forecast confidence: medium. 4 wave model
  s say 2.4 to 2.6 m.\n\nHour (local)  score  waves            wind\nThu 07:
  00     6.5   2.5m 11.8s NNW    4kn (g6)   E glassy\nThu 08:00     6.5   2.
- 5m 11.7s NNW    4kn (g7)   E glassy\n\nNotes: Picks up more swell than any
+ 5m 11.7s NNW    3kn (g6)   E glassy\n\nNotes: Picks up more swell than any
  where nearby.\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Tamri
 TRANSP:TRANSPARENT
@@ -89,16 +90,16 @@ DTEND:20261127T180000Z
 SUMMARY:👍 Tamri 7.5/10 · 1.9m 10s NNW · 4kn ESE
 DESCRIPTION:Best 7.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.8 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 07:00 
-     5.5   1.9m  9.9s NNW    5kn (g7) ESE glassy\nFri 08:00     7.5   1.9m 
+     5.5   1.9m  9.9s NNW    4kn (g7) ESE glassy\nFri 08:00     7.5   1.9m 
   9.8s NNW    4kn (g7) ESE glassy\nFri 09:00     7.5   1.9m  9.7s NNW    3k
- n (g7) ESE glassy\nFri 10:00     7.5   1.8m  9.8s NNW    0kn (g8)  SE glas
- sy\nFri 11:00       6   1.8m 10.0s NNW    3kn (g8) WNW glassy\nFri 12:00  
-      6   1.7m 10.1s NNW    5kn (g8) WNW glassy\nFri 13:00       6   1.7m 1
- 0.1s NNW    5kn (g8) WNW glassy\nFri 14:00       6   1.7m 10.0s NNW    4kn
-  (g8) WNW glassy\nFri 15:00       6   1.6m  9.9s NNW    3kn (g8) WNW glass
- y\nFri 16:00       6   1.6m  9.8s NNW    2kn (g4) WNW glassy\nFri 17:00   
-   6.5   1.6m  9.7s NNW    1kn (g4)   S glassy\n\nNotes: Picks up more swel
- l than anywhere nearby.\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
+ n (g7) ESE glassy\nFri 10:00     6.5   1.8m  9.8s NNW    1kn (g9)   S glas
+ sy\nFri 11:00       6   1.8m 10.0s NNW    3kn (g9)   W glassy\nFri 12:00  
+      6   1.7m 10.1s NNW    5kn (g9) WNW onshore\nFri 13:00       6   1.7m 
+ 10.1s NNW    5kn (g9) WNW onshore\nFri 14:00       6   1.7m 10.0s NNW    5
+ kn (g9)  NW glassy\nFri 15:00       6   1.6m  9.9s NNW    4kn (g9) NNW gla
+ ssy\nFri 16:00       6   1.6m  9.8s NNW    3kn (g2) NNW glassy\nFri 17:00 
+     6.5   1.6m  9.7s NNW    1kn (g2)   N glassy\n\nNotes: Picks up more sw
+ ell than anywhere nearby.\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Tamri
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -107,20 +108,20 @@ UID:2b143892354e6489@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Tamri 9.5/10 · 1.4m 11s NNW · 5kn E
+SUMMARY:🔥 Tamri 9.5/10 · 1.4m 11s NNW · 4kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 07:00 
-     8.5   1.4m 10.6s NNW    5kn (g8)   E offshore\nSat 08:00     9.5   1.4
- m 11.0s NNW    5kn (g8)   E glassy\nSat 09:00     9.5   1.4m 11.3s NNW    
- 4kn (g8)   E glassy\nSat 10:00     9.5   1.4m 11.4s NNW    2kn (g7) ESE gl
- assy\nSat 11:00       8   1.4m 11.3s NNW    2kn (g7)  SW glassy\nSat 12:00
-        8   1.4m 11.2s NNW    4kn (g7) WSW glassy\nSat 13:00       8   1.4m
-  11.2s NNW    5kn (g10)   W glassy\nSat 14:00       8   1.4m 11.2s NNW    
- 6kn (g10) WNW onshore\nSat 15:00       6   1.4m 11.2s NNW    6kn (g10)  NW
-  onshore\nSat 16:00       8   1.4m 11.2s NNW    6kn (g9)  NW onshore\nSat 
- 17:00       8   1.4m 11.3s  NW    5kn (g9) NNW onshore\n\nNotes: Picks up 
- more swell than anywhere nearby.\nGenerated 2026-11-23 15:00 UTC from Open
- -Meteo.
+     8.5   1.4m 10.6s NNW    5kn (g7) ESE glassy\nSat 08:00     9.5   1.4m 
+ 11.0s NNW    4kn (g7) ESE glassy\nSat 09:00     9.5   1.4m 11.3s NNW    3k
+ n (g7) ESE glassy\nSat 10:00     9.5   1.4m 11.4s NNW    1kn (g8)   E glas
+ sy\nSat 11:00       8   1.4m 11.3s NNW    2kn (g7) WSW glassy\nSat 12:00  
+      8   1.4m 11.2s NNW    4kn (g7) WSW glassy\nSat 13:00       8   1.4m 1
+ 1.2s NNW    5kn (g10)   W glassy\nSat 14:00       8   1.4m 11.2s NNW    6k
+ n (g10) WNW onshore\nSat 15:00       6   1.4m 11.2s NNW    6kn (g10)  NW o
+ nshore\nSat 16:00       8   1.4m 11.2s NNW    6kn (g9)  NW onshore\nSat 17
+ :00       8   1.4m 11.3s  NW    5kn (g9) NNW onshore\n\nNotes: Picks up mo
+ re swell than anywhere nearby.\nGenerated 2026-11-23 15:00 UTC from Open-M
+ eteo.
 LOCATION:Tamri
 TRANSP:TRANSPARENT
 END:VEVENT

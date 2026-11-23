@@ -12,19 +12,19 @@ UID:6b8960b8d95aa2ae@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261123T070000Z
 DTEND:20261123T180000Z
-SUMMARY:🔥 São Lourenço 9.5/10 · 2.0m 11s WNW · 4kn E
+SUMMARY:🔥 São Lourenço 9.5/10 · 2.0m 11s WNW · 6kn E
 DESCRIPTION:Best 9.5/10 at 12:00. Forecast confidence: high. 5 wave models 
  say 1.9 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 07:00
       8.5   2.1m 10.2s WNW    3kn (g6) ESE glassy\nMon 08:00     8.5   2.1m
   10.2s WNW    3kn (g6) ESE glassy\nMon 09:00     8.5   2.1m 10.2s WNW    2
  kn (g6) ESE glassy\nMon 10:00     8.5   2.1m 10.4s WNW    2kn (g6)   E gla
  ssy\nMon 11:00     8.5   2.0m 10.8s WNW    4kn (g9)   E glassy\nMon 12:00 
-     9.5   2.0m 11.2s WNW    4kn (g10)   E glassy\nMon 13:00     9.5   2.0m
-  11.2s WNW    4kn (g9)   E glassy\nMon 14:00     9.5   2.0m 11.2s WNW    2
- kn (g8)   E glassy\nMon 15:00     8.5   1.9m 11.2s WNW    2kn (g5) ENE gla
- ssy\nMon 16:00     8.5   1.9m 11.2s WNW    1kn (g4)  NE glassy\nMon 17:00 
-     8.5   1.8m 11.2s WNW    1kn (g3)  NE glassy\n\nGenerated 2026-11-23 15
- :00 UTC from Open-Meteo.
+     9.5   2.0m 11.2s WNW    6kn (g10)   E offshore\nMon 13:00     9.5   2.
+ 0m 11.2s WNW    5kn (g9)   E offshore\nMon 14:00     9.5   2.0m 11.2s WNW 
+    4kn (g8)   E glassy\nMon 15:00     9.5   1.9m 11.2s WNW    3kn (g5) ESE
+  glassy\nMon 16:00     9.5   1.9m 11.2s WNW    2kn (g4)   E glassy\nMon 17
+ :00     8.5   1.8m 11.2s WNW    2kn (g3) ENE glassy\n\nGenerated 2026-11-2
+ 3 15:00 UTC from Open-Meteo.
 LOCATION:São Lourenço
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -32,43 +32,45 @@ BEGIN:VEVENT
 UID:12e32ec86d5de63a@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261124T070000Z
-DTEND:20261124T120000Z
-SUMMARY:🔥 São Lourenço 9.5/10 · 1.7m 11s WNW · 8kn SSE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.4 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 07:00
-      8.5   1.6m 11.2s WNW    6kn (g11)   S cross\nTue 08:00     9.5   1.7m
-  11.2s WNW    8kn (g16) SSE offshore\nTue 09:00     8.5   1.8m 11.2s   W  
-   8kn (g16) SSW cross\nTue 10:00       6   1.9m 11.2s   W    9kn (g19) WSW
-  onshore\nTue 11:00       6   1.9m 11.2s WNW    9kn (g18) WNW onshore\n\nG
- enerated 2026-11-23 15:00 UTC from Open-Meteo.
+DTEND:20261124T130000Z
+SUMMARY:🔥 São Lourenço 9.5/10 · 1.6m 11s WNW · 6kn SSE
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models 
+ say 1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00
+      9.5   1.6m 11.2s WNW    6kn (g11) SSE offshore\nTue 08:00     9.5   1
+ .7m 11.2s WNW    8kn (g16) SSE offshore\nTue 09:00       7   1.8m 11.2s   
+ W    8kn (g16) SSW cross\nTue 10:00       6   1.9m 11.2s   W   11kn (g19) 
+ WSW onshore\nTue 11:00       6   1.9m 11.2s WNW    8kn (g18) WNW onshore\n
+ Tue 12:00       6   2.0m 11.2s WNW   11kn (g24)  NW onshore\n\nGenerated 2
+ 026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:São Lourenço
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c209cd897700fc8f@surf-windows
+UID:aa7b4d3f8b35253a@surf-windows
 DTSTAMP:20261123T150000Z
-DTSTART:20261124T140000Z
+DTSTART:20261124T150000Z
 DTEND:20261124T170000Z
-SUMMARY:🤏 São Lourenço 6/10 · 2.1m 11s WNW · 11kn NW
-DESCRIPTION:Best 6/10 at 14:00. Forecast confidence: high. 5 wave models sa
- y 2.1 to 2.3 m.\n\nHour (local)  score  waves            wind\nTue 14:00  
-      6   2.1m 11.2s WNW   11kn (g24)  NW onshore\nTue 15:00       6   2.2m
-  11.2s WNW   12kn (g23)  NW onshore\nTue 16:00       6   2.3m 11.2s WNW   
- 10kn (g22)  NW onshore\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
+SUMMARY:🤏 São Lourenço 6/10 · 2.2m 11s WNW · 12kn NW
+DESCRIPTION:Best 6/10 at 15:00. Forecast confidence: high. 5 wave models sa
+ y 2.2 to 2.4 m.\n\nHour (local)  score  waves            wind\nTue 15:00  
+      6   2.2m 11.2s WNW   12kn (g23)  NW onshore\nTue 16:00       6   2.3m
+  11.2s WNW   11kn (g22)  NW onshore\n\nGenerated 2026-11-23 15:00 UTC from
+  Open-Meteo.
 LOCATION:São Lourenço
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:90b22a08889e7d3e@surf-windows
+UID:da60b989a7463739@surf-windows
 DTSTAMP:20261123T150000Z
-DTSTART:20261125T160000Z
+DTSTART:20261125T140000Z
 DTEND:20261125T180000Z
-SUMMARY:🤏 São Lourenço 6/10 · 2.7m 11s NW · 6kn NNW
-DESCRIPTION:Best 6/10 at 16:00. Forecast confidence: medium. 5 wave models 
- say 2.6 to 3.1 m.\n\nHour (local)  score  waves            wind\nWed 16:00
-        6   2.7m 11.2s  NW    6kn (g19) NNW onshore\nWed 17:00       6   2.
- 6m 11.2s  NW    4kn (g16) NNW glassy\n\nGenerated 2026-11-23 15:00 UTC fro
- m Open-Meteo.
+SUMMARY:🤏 São Lourenço 6/10 · 2.8m 11s NW · 5kn N
+DESCRIPTION:Best 6/10 at 14:00. Forecast confidence: medium. 5 wave models 
+ say 2.7 to 3.2 m.\n\nHour (local)  score  waves            wind\nWed 14:00
+        6   2.8m 11.2s  NW    5kn (g20)   N glassy\nWed 15:00       6   2.7
+ m 11.2s  NW    4kn (g19)  NW glassy\nWed 16:00       6   2.7m 11.2s  NW   
+  2kn (g19)  NW glassy\nWed 17:00       6   2.6m 11.2s  NW    4kn (g16)  NW
+  glassy\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:São Lourenço
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -77,17 +79,17 @@ UID:e4a4f3517b49e714@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 São Lourenço 8.5/10 · 2.0m 11s NW · 3kn SE
+SUMMARY:🔥 São Lourenço 8.5/10 · 2.0m 11s NW · 1kn E
 DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 4 wave model
  s say 1.9 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 08:
- 00     8.5   2.0m 10.5s  NW    3kn (g5)  SE glassy\nThu 09:00     8.5   1.
- 9m 10.6s  NW    2kn (g5)  SE glassy\nThu 10:00     8.5   1.9m 10.5s  NW   
-  2kn (g5)  SE glassy\nThu 11:00     7.5   1.8m 10.5s  NW    2kn (g5)   S g
- lassy\nThu 12:00       7   1.8m 10.4s  NW    3kn (g7)   W glassy\nThu 13:0
- 0       7   1.8m 10.4s  NW    4kn (g10)   W glassy\nThu 14:00       7   1.
- 7m 10.3s  NW    4kn (g10)   W glassy\nThu 15:00       7   1.7m 10.2s  NW  
-   4kn (g10)   W glassy\nThu 16:00       7   1.7m 10.2s  NW    4kn (g5)   W
-  glassy\nThu 17:00       7   1.7m 10.1s  NW    3kn (g5) WSW glassy\n\nGene
+ 00     8.5   2.0m 10.5s  NW    1kn (g5)   E glassy\nThu 09:00     8.5   1.
+ 9m 10.6s  NW    1kn (g5)   E glassy\nThu 10:00     7.5   1.9m 10.5s  NW   
+  2kn (g5) ENE glassy\nThu 11:00       7   1.8m 10.5s  NW    3kn (g5)   N g
+ lassy\nThu 12:00       7   1.8m 10.4s  NW    4kn (g7) NNW glassy\nThu 13:0
+ 0       7   1.8m 10.4s  NW    5kn (g10)  NW glassy\nThu 14:00       7   1.
+ 7m 10.3s  NW    4kn (g10)  NW glassy\nThu 15:00       7   1.7m 10.2s  NW  
+   4kn (g10)  NW glassy\nThu 16:00       7   1.7m 10.2s  NW    4kn (g5)  NW
+  glassy\nThu 17:00       7   1.7m 10.1s  NW    2kn (g5)  NW glassy\n\nGene
  rated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:São Lourenço
 TRANSP:TRANSPARENT
@@ -97,18 +99,18 @@ UID:3513e68625434d81@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
-SUMMARY:🔥 São Lourenço 9.5/10 · 1.7m 11s NW · 2kn SE
-DESCRIPTION:Best 9.5/10 at 17:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nFri 08:00 
-     8.5   1.7m 10.2s  NW    2kn (g6)   E glassy\nFri 09:00     8.5   1.7m 
- 10.2s  NW    2kn (g6) ESE glassy\nFri 10:00     8.5   1.7m 10.1s  NW    3k
- n (g9)  SE glassy\nFri 11:00     8.5   1.7m 10.1s  NW    4kn (g9)  SE glas
- sy\nFri 12:00     8.5   1.7m 10.2s  NW    4kn (g9) SSE glassy\nFri 13:00  
-    8.5   1.7m 10.6s  NW    4kn (g8) SSE glassy\nFri 14:00     8.5   1.8m 1
- 1.0s  NW    4kn (g8)   S glassy\nFri 15:00     8.5   1.7m 11.4s  NW    3kn
-  (g8)   S glassy\nFri 16:00     8.5   1.7m 11.4s  NW    2kn (g5)   S glass
- y\nFri 17:00     9.5   1.7m 11.5s  NW    2kn (g5)  SE glassy\n\nGenerated 
- 2026-11-23 15:00 UTC from Open-Meteo.
+SUMMARY:🔥 São Lourenço 9.5/10 · 1.8m 11s NW · 7kn SSE
+DESCRIPTION:Best 9.5/10 at 14:00. Forecast confidence: low. 4 wave models s
+ ay 1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:00 
+     8.5   1.7m 10.2s  NW    3kn (g6) ESE glassy\nFri 09:00     8.5   1.7m 
+ 10.2s  NW    3kn (g6) ESE glassy\nFri 10:00     8.5   1.7m 10.1s  NW    4k
+ n (g9)  SE glassy\nFri 11:00     8.5   1.7m 10.1s  NW    5kn (g9)  SE offs
+ hore\nFri 12:00     8.5   1.7m 10.2s  NW    6kn (g9)  SE offshore\nFri 13:
+ 00     8.5   1.7m 10.6s  NW    7kn (g8) SSE offshore\nFri 14:00     9.5   
+ 1.8m 11.0s  NW    7kn (g8) SSE offshore\nFri 15:00     9.5   1.7m 11.4s  N
+ W    7kn (g8) SSE offshore\nFri 16:00     9.5   1.7m 11.4s  NW    6kn (g5)
+  SSE offshore\nFri 17:00     9.5   1.7m 11.5s  NW    5kn (g5)  SE glassy\n
+ \nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:São Lourenço
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -117,12 +119,12 @@ UID:afc84106a8001bc5@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 São Lourenço 9.5/10 · 1.8m 12s NW · 4kn ESE
+SUMMARY:🔥 São Lourenço 9.5/10 · 1.8m 12s NW · 5kn SE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
-     9.5   1.8m 11.9s  NW    4kn (g8) ESE glassy\nSat 09:00     9.5   1.9m 
- 11.9s  NW    4kn (g8) ESE glassy\nSat 10:00     9.5   1.9m 11.9s  NW    5k
- n (g13) ESE offshore\nSat 11:00     9.5   1.9m 11.9s  NW    6kn (g13) ESE 
+     9.5   1.8m 11.9s  NW    5kn (g8)  SE offshore\nSat 09:00     9.5   1.9
+ m 11.9s  NW    5kn (g8)  SE glassy\nSat 10:00     9.5   1.9m 11.9s  NW    
+ 5kn (g13)  SE glassy\nSat 11:00     9.5   1.9m 11.9s  NW    6kn (g13)  SE 
  offshore\nSat 12:00     9.5   1.9m 12.0s  NW    6kn (g13) ESE offshore\nSa
  t 13:00     9.5   1.9m 12.0s  NW    6kn (g9) ESE offshore\nSat 14:00     9
  .5   1.9m 12.0s  NW    4kn (g9) ESE glassy\nSat 15:00     9.5   1.9m 12.1s

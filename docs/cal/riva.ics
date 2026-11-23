@@ -8,16 +8,16 @@ X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:1abc58c97f1068c1@surf-windows
+UID:d6c75b1bfc941882@surf-windows
 DTSTAMP:20261123T150000Z
-DTSTART:20261124T130000Z
+DTSTART:20261124T120000Z
 DTEND:20261124T150000Z
-SUMMARY:🤏 Riva 5.5/10 · 1.3m 7s N · 6kn NW
-DESCRIPTION:Best 5.5/10 at 16:00. Forecast confidence: high. 4 wave models 
- say 1.1 to 1.4 m.\n\nHour (local)  score  waves            wind\nTue 16:00
-      5.5   1.3m  7.0s   N    6kn (g14)  NW onshore\nTue 17:00     5.5   1.
- 2m  7.0s   N    4kn (g13)  NW glassy\n\nGenerated 2026-11-23 15:00 UTC fro
- m Open-Meteo.
+SUMMARY:🤏 Riva 5.5/10 · 1.4m 7s N · 6kn NW
+DESCRIPTION:Best 5.5/10 at 15:00. Forecast confidence: high. 4 wave models 
+ say 1.2 to 1.4 m.\n\nHour (local)  score  waves            wind\nTue 15:00
+      5.5   1.4m  7.0s   N    6kn (g14)  NW onshore\nTue 16:00     5.5   1.
+ 3m  7.0s   N    5kn (g13)  NW onshore\nTue 17:00     5.5   1.2m  7.0s   N 
+    4kn (g12)  NW glassy\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Riva
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -26,18 +26,18 @@ UID:20e3534663a9afa0@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261125T050000Z
 DTEND:20261125T150000Z
-SUMMARY:👍 Riva 7/10 · 1.4m 6s NNW · 3kn S
+SUMMARY:👍 Riva 7/10 · 1.4m 6s NNW · 3kn SSW
 DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 4 wave models 
  say 1.2 to 1.6 m.\n\nHour (local)  score  waves            wind\nWed 08:00
-        7   1.4m  6.3s NNW    3kn (g6)   S glassy\nWed 09:00       7   1.3m
+        7   1.4m  6.3s NNW    3kn (g7) SSW glassy\nWed 09:00       7   1.3m
    6.3s NNW    3kn (g6)   S glassy\nWed 10:00       7   1.2m  6.3s NNW    3
- kn (g6)   S glassy\nWed 11:00       7   1.1m  6.3s NNW    3kn (g8)   S gla
+ kn (g6)   S glassy\nWed 11:00       7   1.1m  6.3s NNW    4kn (g9)   S gla
  ssy\nWed 12:00       7   1.0m  6.3s NNW    4kn (g10) SSW glassy\nWed 13:00
-      5.5   1.0m  6.3s NNW    6kn (g13)  SW offshore\nWed 14:00     5.5   0
- .9m  6.3s NNW    6kn (g14)  SW offshore\nWed 15:00     5.5   0.8m  6.3s NN
- W    6kn (g14)  SW offshore\nWed 16:00     5.5   0.8m  6.2s NNW    6kn (g1
- 3)  SW offshore\nWed 17:00     5.5   0.7m  6.0s NNW    4kn (g12)  SW glass
- y\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
+      5.5   1.0m  6.3s NNW    5kn (g12)  SW glassy\nWed 14:00     5.5   0.9
+ m  6.3s NNW    5kn (g12)  SW glassy\nWed 15:00     5.5   0.8m  6.3s NNW   
+  5kn (g12)  SW offshore\nWed 16:00     5.5   0.8m  6.2s NNW    5kn (g12)  
+ SW offshore\nWed 17:00     5.5   0.7m  6.0s NNW    4kn (g12)  SW glassy\n\
+ nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Riva
 TRANSP:TRANSPARENT
 END:VEVENT

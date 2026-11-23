@@ -12,19 +12,19 @@ UID:c9a5ae11a10a3e61@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261123T070000Z
 DTEND:20261123T180000Z
-SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 2.0m 11s WNW · 4kn E
+SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 2.0m 11s WNW · 6kn E
 DESCRIPTION:Best 9.5/10 at 12:00. Forecast confidence: high. 5 wave models 
  say 1.9 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 07:00
       8.5   2.1m 10.2s WNW    3kn (g7) ESE glassy\nMon 08:00     8.5   2.1m
   10.2s WNW    4kn (g8) ESE glassy\nMon 09:00     8.5   2.1m 10.2s WNW    3
  kn (g8)   E glassy\nMon 10:00     8.5   2.1m 10.4s WNW    2kn (g7)   E gla
  ssy\nMon 11:00     8.5   2.0m 10.8s WNW    5kn (g10)   E glassy\nMon 12:00
-      9.5   2.0m 11.2s WNW    4kn (g10)   E glassy\nMon 13:00     9.5   2.0
- m 11.2s WNW    3kn (g9)   E glassy\nMon 14:00     9.5   2.0m 11.2s WNW    
- 2kn (g7) ENE glassy\nMon 15:00     8.5   1.9m 11.2s WNW    1kn (g4) NNE gl
- assy\nMon 16:00     8.5   1.9m 11.2s WNW    1kn (g3) NNE glassy\nMon 17:00
-      8.5   1.8m 11.2s WNW    1kn (g3)   N glassy\n\nGenerated 2026-11-23 1
- 5:00 UTC from Open-Meteo.
+      9.5   2.0m 11.2s WNW    6kn (g10)   E offshore\nMon 13:00     9.5   2
+ .0m 11.2s WNW    5kn (g11)   E offshore\nMon 14:00     9.5   2.0m 11.2s WN
+ W    4kn (g10)   E glassy\nMon 15:00     9.5   1.9m 11.2s WNW    3kn (g9) 
+ ESE glassy\nMon 16:00     9.5   1.9m 11.2s WNW    2kn (g5)   E glassy\nMon
+  17:00     8.5   1.8m 11.2s WNW    2kn (g4) ENE glassy\n\nGenerated 2026-1
+ 1-23 15:00 UTC from Open-Meteo.
 LOCATION:Ribeira d'Ilhas
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -33,14 +33,29 @@ UID:70d6f77d2801816c@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T120000Z
-SUMMARY:🔥 Ribeira d'Ilhas 8.5/10 · 1.6m 11s WNW · 4kn S
+SUMMARY:🔥 Ribeira d'Ilhas 8.5/10 · 1.6m 11s WNW · 5kn SSE
 DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: high. 5 wave models 
  say 1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00
-      8.5   1.6m 11.2s WNW    4kn (g10)   S glassy\nTue 08:00     8.5   1.7
- m 11.2s WNW    7kn (g15) SSE cross\nTue 09:00     8.5   1.8m 11.2s   W    
- 6kn (g15)   S cross\nTue 10:00       6   1.9m 11.2s WNW   10kn (g21) WSW o
- nshore\nTue 11:00       6   1.9m 11.2s WNW   10kn (g20) WNW onshore\n\nGen
- erated 2026-11-23 15:00 UTC from Open-Meteo.
+      8.5   1.6m 11.2s WNW    5kn (g11) SSE cross\nTue 08:00     8.5   1.7m
+  11.2s WNW    8kn (g16) SSE cross\nTue 09:00     8.5   1.8m 11.2s   W    7
+ kn (g17)   S cross\nTue 10:00       6   1.9m 11.2s WNW   11kn (g23) WSW on
+ shore\nTue 11:00       6   1.9m 11.2s WNW   10kn (g24) WNW onshore\n\nGene
+ rated 2026-11-23 15:00 UTC from Open-Meteo.
+LOCATION:Ribeira d'Ilhas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:39415b5ba16e1f83@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261125T140000Z
+DTEND:20261125T180000Z
+SUMMARY:👍 Ribeira d'Ilhas 6.5/10 · 2.8m 11s NW · 5kn N
+DESCRIPTION:Best 6.5/10 at 14:00. Forecast confidence: medium. 5 wave model
+ s say 2.7 to 3.2 m.\n\nHour (local)  score  waves            wind\nWed 14:
+ 00     6.5   2.8m 11.2s  NW    5kn (g16)   N glassy\nWed 15:00       6   2
+ .7m 11.2s  NW    5kn (g11) NNW onshore\nWed 16:00       6   2.7m 11.2s  NW
+     2kn (g10) NNW glassy\nWed 17:00       6   2.6m 11.2s  NW    5kn (g13) 
+  NW onshore\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Ribeira d'Ilhas
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -49,17 +64,17 @@ UID:a21ece5c2feca87b@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Ribeira d'Ilhas 8.5/10 · 2.0m 11s NW · 2kn ESE
-DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 4 wave model
+SUMMARY:👍 Ribeira d'Ilhas 7.5/10 · 2.0m 11s NW · 1kn ENE
+DESCRIPTION:Best 7.5/10 at 08:00. Forecast confidence: medium. 4 wave model
  s say 1.9 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 08:
- 00     8.5   2.0m 10.5s  NW    2kn (g4) ESE glassy\nThu 09:00     8.5   1.
- 9m 10.6s  NW    2kn (g5) ESE glassy\nThu 10:00     8.5   1.9m 10.5s  NW   
-  2kn (g5)  SE glassy\nThu 11:00     7.5   1.8m 10.5s  NW    2kn (g4) SSW g
- lassy\nThu 12:00       7   1.8m 10.4s  NW    4kn (g8) WNW glassy\nThu 13:0
- 0       7   1.8m 10.4s  NW    5kn (g10) WNW glassy\nThu 14:00       7   1.
- 7m 10.3s  NW    5kn (g10)   W onshore\nThu 15:00       7   1.7m 10.2s  NW 
-    5kn (g10)   W onshore\nThu 16:00       7   1.7m 10.2s  NW    4kn (g6)  
-  W glassy\nThu 17:00       7   1.7m 10.1s  NW    3kn (g6) WSW glassy\n\nGe
+ 00     7.5   2.0m 10.5s  NW    1kn (g4) ENE glassy\nThu 09:00     7.5   1.
+ 9m 10.6s  NW    1kn (g4)  NE glassy\nThu 10:00     7.5   1.9m 10.5s  NW   
+  2kn (g5) NNE glassy\nThu 11:00       7   1.8m 10.5s  NW    3kn (g6)   N g
+ lassy\nThu 12:00       7   1.8m 10.4s  NW    5kn (g10) NNW onshore\nThu 13
+ :00       7   1.8m 10.4s  NW    6kn (g11) NNW onshore\nThu 14:00       7  
+  1.7m 10.3s  NW    4kn (g11)  NW glassy\nThu 15:00       7   1.7m 10.2s  N
+ W    4kn (g9)  NW glassy\nThu 16:00       7   1.7m 10.2s  NW    4kn (g9)  
+ NW glassy\nThu 17:00       7   1.7m 10.1s  NW    2kn (g8)  NW glassy\n\nGe
  nerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Ribeira d'Ilhas
 TRANSP:TRANSPARENT
@@ -69,18 +84,18 @@ UID:b3d56b320de98079@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
-SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 1.7m 11s NW · 3kn SSE
-DESCRIPTION:Best 9.5/10 at 17:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nFri 08:00 
-     8.5   1.7m 10.2s  NW    3kn (g7) ESE glassy\nFri 09:00     8.5   1.7m 
- 10.2s  NW    3kn (g7) ESE glassy\nFri 10:00     8.5   1.7m 10.1s  NW    3k
- n (g10)  SE glassy\nFri 11:00     8.5   1.7m 10.1s  NW    4kn (g10)  SE gl
- assy\nFri 12:00     8.5   1.7m 10.2s  NW    5kn (g10) SSE offshore\nFri 13
- :00     7.5   1.7m 10.6s  NW    5kn (g9) SSE cross\nFri 14:00     8.5   1.
- 8m 11.0s  NW    4kn (g9)   S glassy\nFri 15:00     8.5   1.7m 11.4s  NW   
-  4kn (g9)   S glassy\nFri 16:00     8.5   1.7m 11.4s  NW    3kn (g6)   S g
- lassy\nFri 17:00     9.5   1.7m 11.5s  NW    3kn (g6) SSE glassy\n\nGenera
- ted 2026-11-23 15:00 UTC from Open-Meteo.
+SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 1.8m 11s NW · 8kn SSE
+DESCRIPTION:Best 9.5/10 at 14:00. Forecast confidence: low. 4 wave models s
+ ay 1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:00 
+     8.5   1.7m 10.2s  NW    3kn (g8) ESE glassy\nFri 09:00     8.5   1.7m 
+ 10.2s  NW    3kn (g8) ESE glassy\nFri 10:00     8.5   1.7m 10.1s  NW    4k
+ n (g13)  SE glassy\nFri 11:00     8.5   1.7m 10.1s  NW    6kn (g13)  SE of
+ fshore\nFri 12:00     8.5   1.7m 10.2s  NW    7kn (g13) SSE offshore\nFri 
+ 13:00     8.5   1.7m 10.6s  NW    7kn (g14) SSE offshore\nFri 14:00     9.
+ 5   1.8m 11.0s  NW    8kn (g14) SSE offshore\nFri 15:00     9.5   1.7m 11.
+ 4s  NW    7kn (g14) SSE offshore\nFri 16:00     9.5   1.7m 11.4s  NW    6k
+ n (g10) SSE offshore\nFri 17:00     9.5   1.7m 11.5s  NW    5kn (g10)  SE 
+ offshore\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Ribeira d'Ilhas
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -89,18 +104,18 @@ UID:d6750074533c3a56@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 1.8m 12s NW · 5kn ESE
+SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 1.8m 12s NW · 5kn SE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
-     9.5   1.8m 11.9s  NW    5kn (g9) ESE glassy\nSat 09:00     9.5   1.9m 
- 11.9s  NW    5kn (g9) ESE offshore\nSat 10:00     9.5   1.9m 11.9s  NW    
- 5kn (g10) ESE offshore\nSat 11:00     9.5   1.9m 11.9s  NW    6kn (g10) ES
- E offshore\nSat 12:00     9.5   1.9m 12.0s  NW    6kn (g10) ESE offshore\n
- Sat 13:00     9.5   1.9m 12.0s  NW    5kn (g7) ESE glassy\nSat 14:00     9
- .5   1.9m 12.0s  NW    3kn (g7) ESE glassy\nSat 15:00     9.5   1.9m 12.1s
-   NW    2kn (g7)  SE glassy\nSat 16:00     9.5   1.9m 11.9s  NW    1kn (g3
- )  SE glassy\nSat 17:00     9.5   1.9m 11.8s  NW    2kn (g3) ESE glassy\n\
- nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
+     9.5   1.8m 11.9s  NW    5kn (g12)  SE offshore\nSat 09:00     9.5   1.
+ 9m 11.9s  NW    5kn (g12)  SE glassy\nSat 10:00     9.5   1.9m 11.9s  NW  
+   5kn (g12)  SE offshore\nSat 11:00     9.5   1.9m 11.9s  NW    6kn (g12) 
+  SE offshore\nSat 12:00     9.5   1.9m 12.0s  NW    6kn (g11)  SE offshore
+ \nSat 13:00     9.5   1.9m 12.0s  NW    5kn (g7) ESE glassy\nSat 14:00    
+  9.5   1.9m 12.0s  NW    3kn (g7) ESE glassy\nSat 15:00     9.5   1.9m 12.
+ 1s  NW    2kn (g7)  SE glassy\nSat 16:00     9.5   1.9m 11.9s  NW    1kn (
+ g3)  SE glassy\nSat 17:00     9.5   1.9m 11.8s  NW    2kn (g3) ESE glassy\
+ n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Ribeira d'Ilhas
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -19,12 +19,12 @@ DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: high. 5 wave models
   10.2s  NW    2kn (g5)  SE glassy\nMon 09:00     8.5   1.8m 10.2s  NW    2
  kn (g4)  SE glassy\nMon 10:00     8.5   1.8m 10.2s  NW    1kn (g5) SSE gla
  ssy\nMon 11:00       7   1.7m 10.2s  NW    0kn (g4)  NW glassy\nMon 12:00 
-       7   1.7m 10.2s  NW    3kn (g8) NNW glassy\nMon 13:00       7   1.7m 
+       7   1.7m 10.2s  NW    2kn (g8) NNW glassy\nMon 13:00       7   1.7m 
  10.2s  NW    4kn (g11) NNW glassy\nMon 14:00       7   1.7m 10.2s  NW    4
  kn (g12) NNW glassy\nMon 15:00       7   1.7m 10.2s  NW    4kn (g12) NNW g
- lassy\nMon 16:00       7   1.7m 10.2s  NW    3kn (g12) NNW glassy\nMon 17:
- 00       7   1.7m 10.2s  NW    2kn (g10)   N glassy\n\nGenerated 2026-11-2
- 3 15:00 UTC from Open-Meteo.
+ lassy\nMon 16:00       7   1.7m 10.2s  NW    3kn (g12)   N glassy\nMon 17:
+ 00       7   1.7m 10.2s  NW    2kn (g9)   N glassy\n\nGenerated 2026-11-23
+  15:00 UTC from Open-Meteo.
 LOCATION:Rabat (Oudayas)
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -37,15 +37,15 @@ SUMMARY:🔥 Rabat (Oudayas) 9/10 · 1.4m 11s NW · 2kn SE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 5 wave models sa
  y 1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
       9   1.4m 11.2s  NW    2kn (g5)  SE glassy\nTue 08:00       9   1.4m 1
- 1.2s  NW    2kn (g5) SSE glassy\nTue 09:00       8   1.4m 11.2s  NW    1kn
-  (g5)  SW glassy\nTue 10:00     7.5   1.4m 11.2s  NW    4kn (g11) WSW glas
- sy\nTue 11:00     7.5   1.4m 11.2s  NW    6kn (g14)   W onshore\nTue 12:00
-      7.5   1.3m 11.2s  NW    6kn (g15)   W onshore\nTue 13:00     5.5   1.
- 3m 11.2s  NW    6kn (g16)   W onshore\nTue 14:00     5.5   1.3m 11.2s  NW 
-    6kn (g16)   W onshore\nTue 15:00     5.5   1.3m 11.2s  NW    6kn (g17) 
-   W onshore\nTue 16:00     7.5   1.3m 11.2s  NW    6kn (g15)   W onshore\n
- Tue 17:00     7.5   1.3m 11.2s  NW    5kn (g14)   W onshore\n\nGenerated 2
- 026-11-23 15:00 UTC from Open-Meteo.
+ 1.2s  NW    2kn (g5)  SE glassy\nTue 09:00       9   1.4m 11.2s  NW    1kn
+  (g5) SSE glassy\nTue 10:00     7.5   1.4m 11.2s  NW    3kn (g9)   W glass
+ y\nTue 11:00     7.5   1.4m 11.2s  NW    5kn (g14)   W onshore\nTue 12:00 
+     7.5   1.3m 11.2s  NW    5kn (g15)   W onshore\nTue 13:00     7.5   1.3
+ m 11.2s  NW    6kn (g15)   W onshore\nTue 14:00     7.5   1.3m 11.2s  NW  
+   5kn (g15)   W onshore\nTue 15:00     7.5   1.3m 11.2s  NW    5kn (g14) W
+ SW onshore\nTue 16:00     7.5   1.3m 11.2s  NW    5kn (g13)   W onshore\nT
+ ue 17:00     7.5   1.3m 11.2s  NW    4kn (g13) WSW glassy\n\nGenerated 202
+ 6-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Rabat (Oudayas)
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -54,19 +54,19 @@ UID:bdef3eb0329331dc@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
-SUMMARY:🔥 Rabat (Oudayas) 8.5/10 · 1.8m 14s NW · 5kn NNE
-DESCRIPTION:Best 8.5/10 at 09:00. Forecast confidence: medium. 5 wave model
- s say 1.7 to 2.3 m.\n\nHour (local)  score  waves            wind\nWed 07:
- 00     7.5   1.6m 11.8s  NW    5kn (g15)   N onshore\nWed 08:00       8   
- 1.7m 12.7s  NW    5kn (g13)   N onshore\nWed 09:00     8.5   1.8m 13.5s  N
- W    5kn (g13) NNE onshore\nWed 10:00     8.5   1.9m 13.5s  NW    5kn (g15
- ) NNE onshore\nWed 11:00     8.5   2.0m 13.5s  NW    5kn (g14) NNE onshore
- \nWed 12:00     8.5   2.0m 13.5s  NW    4kn (g14) NNE glassy\nWed 13:00   
-   8.5   2.0m 13.5s  NW    5kn (g14)   N glassy\nWed 14:00     8.5   2.0m 1
- 3.5s  NW    6kn (g15)   N onshore\nWed 15:00     8.5   2.1m 13.5s  NW    6
- kn (g15)   N onshore\nWed 16:00     6.5   2.1m 13.5s  NW    6kn (g16)   N 
- onshore\nWed 17:00     8.5   2.1m 13.5s  NW    5kn (g16) NNE glassy\n\nGen
- erated 2026-11-23 15:00 UTC from Open-Meteo.
+SUMMARY:🔥 Rabat (Oudayas) 8.5/10 · 2.0m 14s NW · 6kn N
+DESCRIPTION:Best 8.5/10 at 13:00. Forecast confidence: medium. 5 wave model
+ s say 1.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nWed 07:
+ 00     5.5   1.6m 11.8s  NW    6kn (g15)   N onshore\nWed 08:00       8   
+ 1.7m 12.7s  NW    6kn (g15)   N onshore\nWed 09:00     6.5   1.8m 13.5s  N
+ W    6kn (g16) NNE onshore\nWed 10:00     6.5   1.9m 13.5s  NW    6kn (g16
+ ) NNE onshore\nWed 11:00     6.5   2.0m 13.5s  NW    6kn (g17) NNE onshore
+ \nWed 12:00     6.5   2.0m 13.5s  NW    6kn (g16) NNE onshore\nWed 13:00  
+    8.5   2.0m 13.5s  NW    6kn (g16)   N onshore\nWed 14:00     8.5   2.0m
+  13.5s  NW    6kn (g16)   N onshore\nWed 15:00     6.5   2.1m 13.5s  NW   
+  6kn (g16)   N onshore\nWed 16:00     6.5   2.1m 13.5s  NW    6kn (g16)   
+ N onshore\nWed 17:00     8.5   2.1m 13.5s  NW    5kn (g16) NNE onshore\n\n
+ Generated 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Rabat (Oudayas)
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -79,15 +79,15 @@ SUMMARY:🔥 Rabat (Oudayas) 9.5/10 · 1.8m 12s NW · 2kn SE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 4 wave model
  s say 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 07:
  00     9.5   1.8m 12.2s  NW    2kn (g4)  SE glassy\nThu 08:00     9.5   1.
- 9m 12.1s  NW    2kn (g5)  SE glassy\nThu 09:00     9.5   1.8m 12.1s  NW   
-  2kn (g5)  SE glassy\nThu 10:00     9.5   1.8m 12.0s  NW    2kn (g6) SSE g
- lassy\nThu 11:00     8.5   1.8m 11.9s  NW    0kn (g6)  NE glassy\nThu 12:0
- 0       8   1.8m 11.9s  NW    2kn (g7)   N glassy\nThu 13:00       8   1.8
- m 11.6s  NW    3kn (g15) NNW glassy\nThu 14:00       8   1.8m 11.3s  NW   
-  4kn (g15) NNW glassy\nThu 15:00       8   1.7m 11.2s  NW    5kn (g15) NNW
-  onshore\nThu 16:00       8   1.7m 11.1s  NW    5kn (g11) NNW glassy\nThu 
- 17:00       8   1.7m 11.1s  NW    4kn (g11)   N glassy\n\nGenerated 2026-1
- 1-23 15:00 UTC from Open-Meteo.
+ 9m 12.1s  NW    2kn (g4)  SE glassy\nThu 09:00     9.5   1.8m 12.1s  NW   
+  2kn (g4)  SE glassy\nThu 10:00     9.5   1.8m 12.0s  NW    3kn (g7) ESE g
+ lassy\nThu 11:00     8.5   1.8m 11.9s  NW    4kn (g12)  NE glassy\nThu 12:
+ 00       8   1.8m 11.9s  NW    5kn (g14) NNE onshore\nThu 13:00       8   
+ 1.8m 11.6s  NW    6kn (g15) NNE onshore\nThu 14:00       6   1.8m 11.3s  N
+ W    6kn (g17)   N onshore\nThu 15:00       6   1.7m 11.2s  NW    6kn (g17
+ )   N onshore\nThu 16:00       8   1.7m 11.1s  NW    6kn (g16)   N onshore
+ \nThu 17:00       8   1.7m 11.1s  NW    4kn (g14)   N glassy\n\nGenerated 
+ 2026-11-23 15:00 UTC from Open-Meteo.
 LOCATION:Rabat (Oudayas)
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -95,20 +95,17 @@ BEGIN:VEVENT
 UID:b4dc4449acfd184d@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261127T070000Z
-DTEND:20261127T180000Z
+DTEND:20261127T140000Z
 SUMMARY:🔥 Rabat (Oudayas) 8/10 · 1.3m 10s NW · 2kn SE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
   1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
      8   1.3m 10.2s  NW    2kn (g5)  SE glassy\nFri 08:00       8   1.3m 10
  .1s  NW    2kn (g5)  SE glassy\nFri 09:00       8   1.3m 10.1s  NW    2kn 
- (g5) ESE glassy\nFri 10:00       8   1.3m 10.1s  NW    2kn (g11)   E glass
- y\nFri 11:00       7   1.3m 10.0s  NW    3kn (g11) ENE glassy\nFri 12:00  
-      7   1.2m 10.0s  NW    4kn (g11) ENE glassy\nFri 13:00       7   1.2m 
- 10.0s  NW    4kn (g15)  NE glassy\nFri 14:00       7   1.3m 10.0s  NW    5
- kn (g15) NNE cross\nFri 15:00     6.5   1.3m 10.1s  NW    6kn (g15) NNE on
- shore\nFri 16:00     6.5   1.3m 10.1s  NW    5kn (g14) NNE onshore\nFri 17
- :00     6.5   1.3m 10.1s  NW    5kn (g14) NNE glassy\n\nGenerated 2026-11-
- 23 15:00 UTC from Open-Meteo.
+ (g5)  SE glassy\nFri 10:00       7   1.3m 10.1s  NW    2kn (g14)   E glass
+ y\nFri 11:00       7   1.3m 10.0s  NW    4kn (g14)  NE glassy\nFri 12:00  
+      7   1.2m 10.0s  NW    5kn (g14)  NE cross\nFri 13:00       7   1.2m 1
+ 0.0s  NW    6kn (g17) NNE cross\n\nGenerated 2026-11-23 15:00 UTC from Ope
+ n-Meteo.
 LOCATION:Rabat (Oudayas)
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -122,9 +119,9 @@ DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 4 wave models say
   1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
      9   1.3m 11.3s  NW    3kn (g6)  SE glassy\nSat 08:00       9   1.4m 11
  .3s  NW    3kn (g6)  SE glassy\nSat 09:00       9   1.4m 11.3s  NW    2kn 
- (g6) SSE glassy\nSat 10:00       9   1.4m 11.3s  NW    1kn (g5) SSE glassy
- \nSat 11:00       8   1.4m 11.4s  NW    1kn (g5) WSW glassy\nSat 12:00    
-  7.5   1.4m 11.4s  NW    2kn (g5) WNW glassy\nSat 13:00     7.5   1.4m 11.
+ (g6)  SE glassy\nSat 10:00       9   1.4m 11.3s  NW    1kn (g6)  SE glassy
+ \nSat 11:00     7.5   1.4m 11.4s  NW    1kn (g6) WNW glassy\nSat 12:00    
+  7.5   1.4m 11.4s  NW    2kn (g6) WNW glassy\nSat 13:00     7.5   1.4m 11.
  5s  NW    3kn (g10)  NW glassy\nSat 14:00     7.5   1.3m 11.6s  NW    4kn 
  (g10)  NW glassy\nSat 15:00     7.5   1.3m 11.7s  NW    4kn (g10) NNW glas
  sy\nSat 16:00     7.5   1.3m 11.6s  NW    3kn (g4) NNW glassy\nSat 17:00  

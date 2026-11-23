@@ -19,12 +19,12 @@ DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models
   11.2s NNW    4kn (g8)   E glassy\nMon 09:00     9.5   1.7m 11.2s NNW    1
  kn (g8)   E glassy\nMon 10:00       8   1.7m 11.2s NNW    2kn (g10)  NW gl
  assy\nMon 11:00       8   1.7m 11.2s NNW    2kn (g11)  NW glassy\nMon 12:0
- 0       8   1.7m 11.2s  NW    2kn (g12) WNW glassy\nMon 13:00       7   1.
- 7m 10.8s  NW    2kn (g13) WNW glassy\nMon 14:00     7.5   1.7m 10.4s  NW  
-   3kn (g11)  NW glassy\nMon 15:00     7.5   1.7m 10.2s  NW    4kn (g12) NN
- W glassy\nMon 16:00     7.5   1.7m 10.2s  NW    6kn (g12)   N cross\nMon 1
- 7:00     7.5   1.7m 10.2s  NW    7kn (g12)   N cross\n\nGenerated 2026-11-
- 23 15:00 UTC from Open-Meteo.
+ 0       8   1.7m 11.2s  NW    2kn (g12)   W glassy\nMon 13:00       7   1.
+ 7m 10.8s  NW    2kn (g13)   W glassy\nMon 14:00       7   1.7m 10.4s  NW  
+   2kn (g11) WNW glassy\nMon 15:00     7.5   1.7m 10.2s  NW    3kn (g12)  N
+ W glassy\nMon 16:00     7.5   1.7m 10.2s  NW    4kn (g12) NNW glassy\nMon 
+ 17:00     7.5   1.7m 10.2s  NW    6kn (g10)   N cross\n\nGenerated 2026-11
+ -23 15:00 UTC from Open-Meteo.
 LOCATION:Boilers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -37,15 +37,15 @@ SUMMARY:🔥 Boilers 9/10 · 1.5m 11s NW · 4kn ENE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 5 wave models sa
  y 1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
       9   1.5m 11.2s  NW    4kn (g8) ENE glassy\nTue 08:00       9   1.5m 1
- 1.2s  NW    3kn (g8) ENE glassy\nTue 09:00       9   1.5m 11.2s  NW    3kn
-  (g6)  NE glassy\nTue 10:00       8   1.4m 11.2s  NW    5kn (g9)   N cross
- \nTue 11:00       8   1.4m 11.2s  NW    7kn (g13) NNW cross\nTue 12:00    
-  6.5   1.4m 11.2s  NW    9kn (g15) NNW cross\nTue 13:00     6.5   1.4m 11.
- 1s  NW   10kn (g20)   N cross\nTue 14:00     6.5   1.4m 11.1s  NW   11kn (
- g24)   N cross\nTue 15:00     6.5   1.4m 11.2s NNW   12kn (g26)   N cross\
- nTue 16:00     6.5   1.5m 11.2s NNW   11kn (g26)   N cross\nTue 17:00     
- 6.5   1.5m 11.2s NNW   11kn (g26)   N cross\n\nGenerated 2026-11-23 15:00 
- UTC from Open-Meteo.
+ 1.2s  NW    4kn (g8) ENE glassy\nTue 09:00       9   1.5m 11.2s  NW    3kn
+  (g7)  NE glassy\nTue 10:00       8   1.4m 11.2s  NW    4kn (g7) NNW glass
+ y\nTue 11:00       8   1.4m 11.2s  NW    5kn (g10) NNW cross\nTue 12:00   
+     8   1.4m 11.2s  NW    8kn (g13) NNW cross\nTue 13:00     6.5   1.4m 11
+ .1s  NW   10kn (g18)   N cross\nTue 14:00     6.5   1.4m 11.1s  NW   11kn 
+ (g22)   N cross\nTue 15:00     6.5   1.4m 11.2s NNW   11kn (g26)   N cross
+ \nTue 16:00     6.5   1.5m 11.2s NNW   11kn (g26)   N cross\nTue 17:00    
+  6.5   1.5m 11.2s NNW   11kn (g27)   N cross\n\nGenerated 2026-11-23 15:00
+  UTC from Open-Meteo.
 LOCATION:Boilers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -54,14 +54,14 @@ UID:ef3a99ebe8e10a7b@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T140000Z
-SUMMARY:🔥 Boilers 9.5/10 · 2.1m 12s NW · 3kn NE
+SUMMARY:🔥 Boilers 9.5/10 · 2.1m 12s NW · 3kn ENE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 5 wave model
  s say 1.7 to 2.1 m.\n\nHour (local)  score  waves            wind\nWed 07:
- 00     9.5   2.1m 12.3s  NW    3kn (g5)  NE glassy\nWed 08:00     9.5   2.
- 1m 12.2s  NW    3kn (g5)  NE glassy\nWed 09:00     8.5   2.2m 12.3s  NW   
-  4kn (g6) NNE glassy\nWed 10:00     8.5   2.2m 12.3s  NW    4kn (g8)   N g
+ 00     9.5   2.1m 12.3s  NW    3kn (g5) ENE glassy\nWed 08:00     9.5   2.
+ 1m 12.2s  NW    2kn (g5)   E glassy\nWed 09:00     9.5   2.2m 12.3s  NW   
+  2kn (g4)  NE glassy\nWed 10:00     8.5   2.2m 12.3s  NW    4kn (g7)   N g
  lassy\nWed 11:00     8.5   2.2m 12.3s  NW    5kn (g10)   N cross\nWed 12:0
- 0       9   2.3m 13.5s  NW    7kn (g13) NNW cross\nWed 13:00     5.5   2.3
+ 0       9   2.3m 13.5s  NW    6kn (g12) NNW cross\nWed 13:00     5.5   2.3
  m 13.5s  NW    9kn (g16) NNW cross\n\nGenerated 2026-11-23 15:00 UTC from 
  Open-Meteo.
 LOCATION:Boilers
@@ -72,12 +72,12 @@ UID:6f9da08ecdaba47c@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T090000Z
-SUMMARY:👍 Boilers 6.5/10 · 2.5m 12s NNW · 4kn NNE
-DESCRIPTION:Best 6.5/10 at 07:00. Forecast confidence: medium. 4 wave model
+SUMMARY:👍 Boilers 7.5/10 · 2.5m 12s NNW · 4kn NNE
+DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: medium. 4 wave model
  s say 2.4 to 2.6 m.\n\nHour (local)  score  waves            wind\nThu 07:
- 00     6.5   2.5m 11.8s NNW    4kn (g9) NNE glassy\nThu 08:00     6.5   2.
- 5m 11.7s NNW    5kn (g9) NNE glassy\n\nGenerated 2026-11-23 15:00 UTC from
-  Open-Meteo.
+ 00     7.5   2.5m 11.8s NNW    4kn (g10) NNE glassy\nThu 08:00     6.5   2
+ .5m 11.7s NNW    4kn (g7) NNE glassy\n\nGenerated 2026-11-23 15:00 UTC fro
+ m Open-Meteo.
 LOCATION:Boilers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -86,19 +86,19 @@ UID:21249ba68f3801d8@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261127T070000Z
 DTEND:20261127T180000Z
-SUMMARY:🔥 Boilers 8.5/10 · 1.9m 10s NNW · 4kn ESE
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: low. 4 wave models s
+SUMMARY:👍 Boilers 7.5/10 · 1.9m 10s NNW · 4kn ESE
+DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: low. 4 wave models s
  ay 1.9 to 2.0 m.\n\nHour (local)  score  waves            wind\nFri 07:00 
-     8.5   1.9m  9.9s NNW    4kn (g9) ESE glassy\nFri 08:00     7.5   1.9m 
-  9.8s NNW    5kn (g9)  SE glassy\nFri 09:00     7.5   1.9m  9.7s NNW    5k
- n (g9)  SE cross\nFri 10:00     7.5   1.8m  9.8s NNW    4kn (g7) SSE glass
- y\nFri 11:00       7   1.8m 10.0s NNW    3kn (g7) SSW glassy\nFri 12:00   
-     7   1.7m 10.1s NNW    3kn (g7)  SW glassy\nFri 13:00       7   1.7m 10
- .1s NNW    3kn (g10)   W glassy\nFri 14:00       7   1.6m 10.0s NNW    4kn
-  (g10)  NW glassy\nFri 15:00     7.5   1.6m  9.9s NNW    5kn (g10) NNW cro
- ss\nFri 16:00     7.5   1.6m  9.8s NNW    5kn (g9) NNW glassy\nFri 17:00  
-      7   1.6m  9.7s NNW    3kn (g9) NNW glassy\n\nGenerated 2026-11-23 15:
- 00 UTC from Open-Meteo.
+     7.5   1.9m  9.9s NNW    4kn (g10) ESE glassy\nFri 08:00     7.5   1.9m
+   9.8s NNW    4kn (g10)  SE glassy\nFri 09:00     7.5   1.9m  9.7s NNW    
+ 5kn (g10) SSE glassy\nFri 10:00     7.5   1.8m  9.8s NNW    5kn (g10) SSE 
+ glassy\nFri 11:00     7.5   1.8m 10.0s NNW    4kn (g10)   S glassy\nFri 12
+ :00       7   1.7m 10.1s NNW    3kn (g10)   S glassy\nFri 13:00       7   
+ 1.7m 10.1s NNW    1kn (g14)   W glassy\nFri 14:00     7.5   1.6m 10.0s NNW
+     5kn (g14) NNW cross\nFri 15:00     7.5   1.6m  9.9s NNW    8kn (g14) N
+ NW cross\nFri 16:00     7.5   1.6m  9.8s NNW    8kn (g13) NNW cross\nFri 1
+ 7:00       7   1.6m  9.7s NNW    6kn (g13)   N cross\n\nGenerated 2026-11-
+ 23 15:00 UTC from Open-Meteo.
 LOCATION:Boilers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -107,19 +107,19 @@ UID:026e5808057ceb9b@surf-windows
 DTSTAMP:20261123T150000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Boilers 9/10 · 1.4m 11s NNW · 5kn E
+SUMMARY:🔥 Boilers 9/10 · 1.4m 11s NNW · 3kn ENE
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
   1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     8   1.4m 10.6s NNW    5kn (g8)   E offshore\nSat 08:00       9   1.4m 
- 11.0s NNW    5kn (g8)   E glassy\nSat 09:00       9   1.4m 11.3s NNW    4k
- n (g8)   E glassy\nSat 10:00       8   1.4m 11.4s NNW    2kn (g7) ESE glas
- sy\nSat 11:00     7.5   1.4m 11.3s NNW    2kn (g7)  SW glassy\nSat 12:00  
-    7.5   1.4m 11.2s NNW    4kn (g7) WSW glassy\nSat 13:00     7.5   1.4m 1
- 1.2s NNW    5kn (g10)   W glassy\nSat 14:00     7.5   1.4m 11.2s NNW    6k
- n (g10) WNW onshore\nSat 15:00     5.5   1.4m 11.2s NNW    6kn (g10)  NW o
- nshore\nSat 16:00       8   1.4m 11.2s NNW    6kn (g9)  NW cross\nSat 17:0
- 0       8   1.4m 11.3s  NW    5kn (g9) NNW cross\n\nGenerated 2026-11-23 1
- 5:00 UTC from Open-Meteo.
+     8   1.4m 10.6s NNW    4kn (g6)  NE glassy\nSat 08:00       9   1.4m 11
+ .0s NNW    3kn (g6) ENE glassy\nSat 09:00       9   1.4m 11.3s NNW    2kn 
+ (g6) ENE glassy\nSat 10:00       9   1.4m 11.4s NNW    1kn (g7) ENE glassy
+ \nSat 11:00     7.5   1.4m 11.3s NNW    2kn (g7) WSW glassy\nSat 12:00    
+  7.5   1.4m 11.2s NNW    4kn (g7) WSW glassy\nSat 13:00     7.5   1.4m 11.
+ 2s NNW    5kn (g10)   W glassy\nSat 14:00     7.5   1.4m 11.2s NNW    6kn 
+ (g10) WNW onshore\nSat 15:00     5.5   1.4m 11.2s NNW    6kn (g10)  NW ons
+ hore\nSat 16:00       8   1.4m 11.2s NNW    6kn (g9)  NW cross\nSat 17:00 
+       8   1.4m 11.3s  NW    5kn (g9) NNW cross\n\nGenerated 2026-11-23 15:
+ 00 UTC from Open-Meteo.
 LOCATION:Boilers
 TRANSP:TRANSPARENT
 END:VEVENT
