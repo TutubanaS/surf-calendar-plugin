@@ -75,8 +75,17 @@ def in_arc(deg: float, arc: list[float]) -> bool:
     return start <= deg <= end if start <= end else deg >= start or deg <= end
 
 
+class QuotaExhausted(Exception):
+    """Open-Meteo will not serve more requests for a while; retrying only burns the job's time."""
+
+
+WAIT_BUDGET_S = 300     # total time one run may spend waiting on rate limits (GitHub's runners share their addresses)
+_waited = 0.0
+
+
 def get_json(url: str, params: dict, waits=(5, 20, 61)) -> dict:
-    """GET with retries: Open-Meteo answers 429 when the per-minute quota is used up."""
+    """GET with retries. Open-Meteo answers 429 when a quota is used up: per minute, per hour or per day."""
+    global _waited
     full = f"{url}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(full, headers={"User-Agent": "surf-windows (github.com/TutubanaS)"})
     for wait in (*waits, None):
@@ -84,12 +93,22 @@ def get_json(url: str, params: dict, waits=(5, 20, 61)) -> dict:
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
+            if e.code == 429:
+                try:
+                    reason = json.load(e).get("reason", "")
+                except Exception:
+                    reason = ""
+                if "inutely" not in reason:          # hourly or daily quota: a minute's wait will not help
+                    raise QuotaExhausted(reason or "rate limited") from e
+                wait = 61 if wait is not None else None
             if wait is None or e.code not in (429, 500, 502, 503, 504):
                 raise
-            wait = 61 if e.code == 429 else wait
         except (urllib.error.URLError, TimeoutError):
             if wait is None:
                 raise
+        if _waited + wait > WAIT_BUDGET_S:
+            raise QuotaExhausted(f"waited {_waited:.0f} s on rate limits already")
+        _waited += wait
         time.sleep(wait)
     raise AssertionError("unreachable")
 
@@ -183,6 +202,8 @@ def fetch_spot(spot: dict, days: int) -> list[Hour]:
             "latitude": spot["marine"]["lat"], "longitude": spot["marine"]["lon"],
             "hourly": "sea_level_height_msl,sea_surface_temperature", "forecast_days": days, "timezone": "GMT",
         }, waits=(5,))
+    except QuotaExhausted:
+        raise
     except Exception:
         tide = None
     return merge(marine, weather, tide)
@@ -566,6 +587,9 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
             hours = fetch(spot, cfg["forecast_days"])
             if not hours:
                 raise ValueError("no wave data at this point")
+        except QuotaExhausted as e:   # no point asking for the rest: publish what arrived, the others keep their old feeds
+            print(f"[warn] stopped at {spot['id']} ({i} of {len(spots)} spots fetched): {e}", file=sys.stderr)
+            break
         except Exception as e:  # this spot keeps its old feed if the API hiccups
             print(f"[warn] {spot['id']}: fetch failed: {e}", file=sys.stderr)
             continue

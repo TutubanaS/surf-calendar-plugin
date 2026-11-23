@@ -157,6 +157,21 @@ def test_main_feed_has_only_the_calendar_spots(tmp_path):
     assert events(cal / "wijk-aan-zee.ics") == 1
 
 
+def test_quota_exhausted_publishes_what_arrived(tmp_path):
+    now = datetime(2026, 11, 23, 4, tzinfo=UTC)
+    cfg = dict(CFG, spots=[SCHEV, SPOTS["wijk-aan-zee"], SPOTS["zandvoort"]])
+    asked = []
+
+    def fetch(spot, days):
+        asked.append(spot["id"])
+        if len(asked) == 2:
+            raise sw.QuotaExhausted("Hourly API request limit exceeded")
+        return fake_fetch_factory(now.replace(hour=0))(spot, days)
+    sw.run(cfg, now, fetch=fetch, out_dir=tmp_path)
+    assert asked == ["scheveningen", "wijk-aan-zee"]                 # the third spot is never asked for
+    assert [s["id"] for s in read_data(tmp_path)["spots"]] == ["scheveningen"]
+
+
 def test_merge_api_shape():
     times = ["2026-11-24T07:00", "2026-11-24T08:00", "2026-11-24T09:00"]
     marine = {"hourly": {"time": times, "wave_height": [1.2, None, 1.3], "wave_direction": [300, 300, 310],
