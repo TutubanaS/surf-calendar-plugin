@@ -4,9 +4,9 @@ Finds surfable windows on the Dutch coast for the next 5 days and publishes them
 
 - **Spots:** Scheveningen, Wijk aan Zee (edit `config.json`)
 - **Data:** [Open-Meteo](https://open-meteo.com) Marine API (waves) and Forecast API (wind, sunrise/sunset). Free, no API key needed.
-- **Output:** `docs/surf.ics` (calendar), `FORECAST.md` (readable table), `data/windows.json` (history of what was forecast)
+- **Output:** `docs/surf.ics` (calendar), `docs/index.html` (forecast page with hourly charts), `FORECAST.md` (plain table), `data/windows.json` (history of what was forecast)
 
-👉 **[Current forecast](FORECAST.md)**
+👉 **[Current forecast](https://tutubanas.github.io/surf-calendar-plugin/)** (needs GitHub Pages on `main` / `docs`) · [plain table](FORECAST.md)
 
 ## Subscribe
 

@@ -70,6 +70,10 @@ def test_end_to_end(tmp_path):
     assert starts == ["2026-11-24", "2026-11-26"]
     assert (tmp_path / "FORECAST.md").exists()
 
+    page = (tmp_path / "docs" / "index.html").read_text(encoding="utf-8")
+    assert page.startswith("<!doctype html>") and "Scheveningen" in page
+    assert 'class="windows"' in page and "win" in page  # tomorrow's window is listed and highlighted
+
 
 def test_merge_api_shape():
     times = ["2026-11-24T07:00", "2026-11-24T08:00", "2026-11-24T09:00"]

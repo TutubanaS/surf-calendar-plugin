@@ -7,6 +7,7 @@ Stdlib only, so the GitHub Action needs no dependencies.
 from __future__ import annotations
 
 import hashlib
+import html
 import json
 import sys
 import urllib.parse
@@ -300,6 +301,224 @@ def to_markdown(spot_hours: dict[str, tuple[dict, list[Hour]]], windows: list[Wi
     return "\n".join(md)
 
 
+HTML_HOURS = range(6, 21)  # local Amsterdam hours shown in the day strips
+
+HTML_CSS = """
+:root{--fog:#DDE4E3;--sea:#18343F;--mist:#566B71;--rule:#C2CECD;--night:rgba(24,52,63,.07);
+--flat:#B4C2C1;--ok:#6FA79C;--good:#1F6F7A;--fire:#F26B1D;--win:rgba(242,107,29,.14)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--fog);color:var(--sea);
+font:400 1rem/1.5 Archivo,system-ui,-apple-system,"Segoe UI",sans-serif;font-stretch:100%}
+main{max-width:52rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+a{color:inherit;text-underline-offset:.2em}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--fire);outline-offset:3px;border-radius:2px}
+.updated{color:var(--mist);font-size:.875rem;margin:0 0 1.75rem}
+.verdict{font-weight:800;font-stretch:125%;font-size:clamp(2rem,6.2vw,3.5rem);line-height:1.04;
+letter-spacing:-.015em;margin:0 0 1rem;max-width:20ch;text-wrap:balance}
+.sub{font-size:1.125rem;margin:0;max-width:60ch}
+.windows{list-style:none;padding:0;margin:2rem 0 0;border-top:1px solid var(--rule)}
+.windows li{display:grid;grid-template-columns:13rem 1fr auto;gap:.15rem 1rem;align-items:center;
+padding:.75rem 0;border-bottom:1px solid var(--rule)}
+.windows .when{font-weight:600;white-space:nowrap}
+.windows .where{display:flex;flex-wrap:wrap;column-gap:1rem}
+.windows .cond{color:var(--mist)}
+.num{font-stretch:75%;font-weight:700;font-variant-numeric:tabular-nums}
+.score{font-size:1.75rem;line-height:1}
+.score small{font-size:.8rem;font-weight:500;color:var(--mist)}
+.band-fire{color:var(--fire)} .band-good{color:var(--good)} .band-ok{color:var(--ok)} .band-flat{color:var(--mist)}
+.spot{margin-top:3.5rem}
+.spot h2{font-weight:700;font-stretch:112%;font-size:1.6rem;line-height:1.1;margin:0 0 .25rem}
+.spot .note{color:var(--mist);margin:0 0 1.25rem;font-size:.9375rem}
+.row{display:grid;grid-template-columns:5.25rem 1fr 2.75rem;gap:.75rem;align-items:end}
+.axis{font-size:.75rem;color:var(--mist);margin-bottom:.25rem}
+.axis .ticks{display:grid;grid-template-columns:repeat(15,1fr)}
+.axis .ticks span{text-align:left}
+details{border-top:1px solid var(--rule)}
+details:last-of-type{border-bottom:1px solid var(--rule)}
+summary{list-style:none;cursor:pointer;padding:.55rem 0}
+summary::-webkit-details-marker{display:none}
+.dname{font-weight:600;font-size:.9375rem;line-height:1.2;align-self:center;display:flex;gap:.4rem;align-items:center}
+.dname svg{width:.6rem;height:.6rem;flex:none;transition:transform .2s ease;fill:var(--mist)}
+details[open] .dname svg{transform:rotate(90deg)}
+.best{text-align:right;font-size:1.5rem;line-height:1;align-self:center}
+.strip{display:grid;grid-template-columns:repeat(15,1fr);gap:2px;height:3.25rem;position:relative}
+.strip::after{content:"";position:absolute;left:0;right:0;bottom:calc(var(--min) * 100%);
+border-top:1px dashed var(--mist);opacity:.55;pointer-events:none}
+.h{display:flex;align-items:flex-end;height:100%;border-radius:2px}
+.h.night{background:var(--night)}
+.h.win{background:var(--win)}
+.b{width:100%;height:calc(var(--s) * 100%);min-height:2px;border-radius:2px 2px 0 0;background:var(--flat)}
+.h.ok .b{background:var(--ok)} .h.good .b{background:var(--good)} .h.fire .b{background:var(--fire)}
+.h.past .b{opacity:.4}
+.hours{width:100%;border-collapse:collapse;font-size:.875rem;margin:.25rem 0 1rem}
+.hours th{font-weight:500;color:var(--mist);text-align:left;padding:.25rem .5rem .25rem 0}
+.hours td{padding:.3rem .5rem .3rem 0;border-top:1px solid var(--rule);vertical-align:middle}
+.hours td.num{font-size:1rem}
+.hours tr.win td:first-child{box-shadow:inset 3px 0 var(--fire);padding-left:.5rem}
+.arr{width:.85rem;height:.85rem;vertical-align:-.1em;fill:var(--sea);margin-right:.2rem}
+.dim{color:var(--mist)}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem 1.25rem;font-size:.8125rem;color:var(--mist);margin:3rem 0 0;padding:0;list-style:none}
+.legend i{display:inline-block;width:.7rem;height:.7rem;border-radius:2px;margin-right:.35rem;vertical-align:-.05em}
+footer{margin-top:3rem;font-size:.875rem;color:var(--mist);max-width:60ch}
+footer p{margin:.5rem 0}
+@media (max-width:34rem){
+ .row{grid-template-columns:3.6rem 1fr 2.1rem;gap:.5rem}
+ .best{font-size:1.2rem}
+ .strip{gap:1px;height:2.75rem}
+ .windows li{grid-template-columns:1fr auto}
+ .windows .where{grid-column:1}
+ .windows .score{grid-column:2;grid-row:1/3}
+ .hours .hide-s{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+"""
+
+
+def _band(score: float, min_score: float) -> str:
+    if score >= 8: return "fire"
+    if score >= 6.5: return "good"
+    if score >= min_score: return "ok"
+    return "flat"
+
+
+def _arrow(from_deg: float) -> str:
+    """Arrow pointing where the wind/swell is heading (it comes *from* from_deg)."""
+    return (f'<svg class="arr" viewBox="0 0 12 12" aria-hidden="true" '
+            f'style="transform:rotate({(from_deg + 180) % 360:.0f}deg)"><path d="M6 1 10 10 6 7.6 2 10Z"/></svg>')
+
+
+def _day_name(d, today, mid_sentence: bool = False) -> str:
+    delta = (d - today).days
+    name = "Today" if delta == 0 else "Tomorrow" if delta == 1 else f"{d:%A}"
+    return name.lower() if mid_sentence and delta in (0, 1) else name
+
+
+def _conditions(w: Window) -> str:
+    return ", ".join(p.strip() for p in w.summary.split("·")[1:])
+
+
+def to_html(spot_hours: dict[str, tuple[dict, list[Hour]]], windows: list[Window],
+            cfg: dict, now: datetime) -> str:
+    esc = html.escape
+    min_s = cfg["min_score"]
+    local_now = now.astimezone(AMS)
+    today = local_now.date()
+    upcoming = sorted((w for w in windows if datetime.fromisoformat(w.end) > now), key=lambda x: x.start)
+
+    # verdict
+    if upcoming:
+        w = upcoming[0]
+        s, e = (datetime.fromisoformat(x).astimezone(AMS) for x in (w.start, w.end))
+        verdict = f"{_day_name(s.date(), today)} {s:%H:%M}–{e:%H:%M} at {w.spot_name}."
+        cond = _conditions(w)
+        more = len(upcoming) - 1
+        sub = (f'Peaks at <span class="num band-{_band(w.best, min_s)}">{w.best:g}/10</span> with {esc(cond)}.'
+               + (f" {more} more window{'s' if more > 1 else ''} below." if more else ""))
+    else:
+        cands = [(h, sp) for sp, hs in spot_hours.values() for h in hs if h.daylight and h.time >= now]
+        verdict = f"Nothing worth the train in the next {cfg['forecast_days']} days."
+        if cands:
+            h, sp = max(cands, key=lambda x: x[0].score)
+            t = h.time.astimezone(AMS)
+            sub = (f"Closest call: {esc(sp['name'])}, {_day_name(t.date(), today, True)} {t:%H:%M}, "
+                   f'<span class="num">{h.score:g}/10</span> with {h.wave_h:.1f} m at {h.wave_t:.0f} s '
+                   f"and {h.wind_kn:.0f} kn {h.wind_kind} wind.")
+        else:
+            sub = "No forecast data came back this run."
+
+    out = ["<!doctype html>", '<html lang="en"><head><meta charset="utf-8">',
+           '<meta name="viewport" content="width=device-width,initial-scale=1">',
+           "<title>Surf windows NL</title>",
+           '<meta name="theme-color" content="#DDE4E3">',
+           '<link rel="preconnect" href="https://fonts.googleapis.com">',
+           '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
+           '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">',
+           f"<style>{HTML_CSS}</style></head><body><main>",
+           f'<p class="updated">Updated {local_now:%a %d %b, %H:%M} Amsterdam time</p>',
+           f'<h1 class="verdict">{esc(verdict)}</h1>', f'<p class="sub">{sub}</p>']
+
+    if upcoming:
+        out.append('<ul class="windows">')
+        for w in upcoming:
+            s, e = (datetime.fromisoformat(x).astimezone(AMS) for x in (w.start, w.end))
+            cond = _conditions(w)
+            out.append(f'<li><span class="when">{_day_name(s.date(), today)} {s:%H:%M}–{e:%H:%M}</span>'
+                       f'<span class="where">{esc(w.spot_name)}<span class="cond">{esc(cond)}</span></span>'
+                       f'<span class="score num band-{_band(w.best, min_s)}">{w.best:g}<small>/10</small></span></li>')
+        out.append("</ul>")
+
+    ticks = "".join(f"<span>{h:02d}</span>" if h % 3 == 0 else "<span></span>" for h in HTML_HOURS)
+    chevron = '<svg viewBox="0 0 10 10" aria-hidden="true"><path d="M2 0 8 5 2 10Z"/></svg>'
+    for spot, hours in spot_hours.values():
+        wins = [(datetime.fromisoformat(w.start), datetime.fromisoformat(w.end))
+                for w in windows if w.spot_id == spot["id"]]
+        in_win = lambda t: any(a <= t < b for a, b in wins)  # noqa: E731
+        days: dict = {}
+        for h in hours:
+            days.setdefault(h.time.astimezone(AMS).date(), {})[h.time.astimezone(AMS).hour] = h
+
+        out += [f'<section class="spot" aria-labelledby="s-{esc(spot["id"])}">',
+                f'<h2 id="s-{esc(spot["id"])}">{esc(spot["name"])}</h2>',
+                f'<p class="note">{esc(spot.get("notes", ""))}</p>',
+                f'<div class="row axis" aria-hidden="true"><span></span><span class="ticks">{ticks}</span>'
+                f"<span>best</span></div>"]
+        for d, by_hour in days.items():
+            day_hours = [h for h in by_hour.values() if h.daylight]
+            if not day_hours:
+                continue  # e.g. the trailing UTC hours spilling into an extra local day
+            best = max(day_hours, key=lambda x: x.score)
+            cells = []
+            for hh in HTML_HOURS:
+                h = by_hour.get(hh)
+                if h is None:
+                    cells.append('<span class="h"></span>')
+                    continue
+                cls = ["h", _band(h.score, min_s)]
+                if not h.daylight: cls.append("night")
+                if in_win(h.time): cls.append("win")
+                if h.time + timedelta(hours=1) <= now: cls.append("past")
+                tip = (f"{hh:02d}:00 {h.score:g}/10, {h.wave_h:.1f} m {h.wave_t:.0f} s {compass(h.wave_dir)}, "
+                       f"wind {h.wind_kn:.0f} kn {compass(h.wind_dir)}")
+                cells.append(f'<span class="{" ".join(cls)}" style="--s:{h.score / 10:.2f}" title="{tip}">'
+                             f'<span class="b"></span></span>')
+            best_html = f'<span class="best num band-{_band(best.score, min_s)}">{best.score:g}</span>'
+            label = d.strftime("%a %d").replace(" 0", " ")
+            out.append(f'<details><summary class="row" aria-label="{d:%A %d %B}, best score '
+                       f'{best.score:g}"><span class="dname">{chevron}{label}</span>'
+                       f'<span class="strip" style="--min:{min_s / 10:.2f}">{"".join(cells)}</span>'
+                       f"{best_html}</summary>")
+            out.append('<table class="hours"><thead><tr><th>Time</th><th>Score</th><th>Waves</th>'
+                       '<th>Wind</th><th class="hide-s">Gusts</th></tr></thead><tbody>')
+            for h in sorted(day_hours, key=lambda x: x.time):
+                t = h.time.astimezone(AMS)
+                out.append(f'<tr class="{"win" if in_win(h.time) else ""}"><td>{t:%H:%M}</td>'
+                           f'<td class="num band-{_band(h.score, min_s)}">{h.score:g}</td>'
+                           f"<td>{_arrow(h.wave_dir)}{h.wave_h:.1f} m, {h.wave_t:.0f} s "
+                           f'<span class="dim">{compass(h.wave_dir)}</span></td>'
+                           f"<td>{_arrow(h.wind_dir)}{h.wind_kn:.0f} kn {compass(h.wind_dir)} "
+                           f'<span class="dim">{h.wind_kind}</span></td>'
+                           f'<td class="hide-s">{h.gust_kn:.0f} kn</td></tr>')
+            out.append("</tbody></table></details>")
+        out.append("</section>")
+
+    out += ['<ul class="legend">',
+            '<li><i style="background:var(--flat)"></i>Flat at the beach</li>',
+            f'<li><i style="background:var(--ok)"></i>Rideable, {min_s:g}+</li>',
+            '<li><i style="background:var(--good)"></i>Good, 6.5+</li>',
+            '<li><i style="background:var(--fire)"></i>Go, 8+</li>',
+            '<li><i style="background:var(--win)"></i>Calendar window</li>',
+            '<li><i style="background:var(--night)"></i>Dark</li></ul>',
+            "<footer>",
+            "<p>Score is 0 to 10 per hour from wave height, period, swell direction and wind at the beach. "
+            "The dashed line is the minimum for a calendar window. Beyond about 3 days the forecast is rough. "
+            "Tap a day for hourly details.</p>",
+            '<p><a href="surf.ics">Subscribe to the calendar</a> · Forecast data from '
+            '<a href="https://open-meteo.com">Open-Meteo</a></p>',
+            "</footer></main></body></html>"]
+    return "\n".join(out) + "\n"
+
+
 try:
     from zoneinfo import ZoneInfo
     AMS = ZoneInfo("Europe/Amsterdam")
@@ -328,7 +547,7 @@ def merge_history(old: list[dict], new: list[Window], fresh_spots: set[str],
 
 def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> list[Window]:
     hist_path = out_dir / "data" / "windows.json"
-    old = json.loads(hist_path.read_text()) if hist_path.exists() else []
+    old = json.loads(hist_path.read_text(encoding="utf-8")) if hist_path.exists() else []
 
     new, spot_hours, fresh = [], {}, set()
     for spot in cfg["spots"]:
@@ -349,13 +568,15 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
     windows = merge_history(old, new, fresh, now, cfg["history_days"])
     (out_dir / "data").mkdir(exist_ok=True)
     (out_dir / "docs").mkdir(exist_ok=True)
-    hist_path.write_text(json.dumps([asdict(w) for w in windows], indent=1, ensure_ascii=False) + "\n")
-    (out_dir / "docs" / "surf.ics").write_text(to_ics(windows, now), newline="")
-    (out_dir / "FORECAST.md").write_text(to_markdown(spot_hours, windows, now) + "\n")
+    hist_path.write_text(json.dumps([asdict(w) for w in windows], indent=1, ensure_ascii=False) + "\n",
+                         encoding="utf-8")
+    (out_dir / "docs" / "surf.ics").write_text(to_ics(windows, now), encoding="utf-8", newline="")
+    (out_dir / "FORECAST.md").write_text(to_markdown(spot_hours, windows, now) + "\n", encoding="utf-8")
+    (out_dir / "docs" / "index.html").write_text(to_html(spot_hours, windows, cfg, now), encoding="utf-8")
     print(f"{len(new)} new window(s), {len(windows)} in feed.")
     return windows
 
 
 if __name__ == "__main__":
-    config = json.loads((ROOT / "config.json").read_text())
+    config = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
     run(config, datetime.now(UTC).replace(minute=0, second=0, microsecond=0))
