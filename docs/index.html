@@ -775,6 +775,7 @@ function daySummary(s, d) {
   else if (wt < L.chop) { tail = 'with weak wind chop'; word = 'weak'; why = 'The waves are too close together to have any push.'; }
   else if (kind === 'cross' && ws >= 14) { tail = 'and messy'; word = 'messy'; why = 'Strong cross-shore wind is tearing it up.'; }
   else if (s.blocked && most(h => inArc(h.wd, s.blocked))) { tail = 'and mostly blocked'; word = 'blocked'; why = 'The swell comes from a direction this beach is sheltered from.'; }
+  else if (got < P.best[0] * 0.5) { tail = 'with mild, small surf'; word = 'mild'; why = 'Mild: enough for a longboard or a first lesson, not more.'; }
   else if (got < P.best[0]) { tail = 'with small waves'; word = 'small'; why = 'Small, and not quite worth it.'; }
   else { tail = 'with so-so waves'; word = 'so-so'; why = 'The mix of wind and period is not there.'; }
 

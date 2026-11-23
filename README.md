@@ -32,11 +32,11 @@ Model height at sea on its own is misleading, so the score also uses period, swe
 
 | Factor | Wind swell (Netherlands, Türkiye) | Groundswell (Portugal, Morocco) |
 |---|---|---|
-| Size | <0.7 m ≈ nothing · 1–1.5 m decent · 1.5–2.5 m best | <0.5 m nothing · 1.6–2.3 m best · 3 m+ too big |
+| Size | <0.5 m flat · 0.5–0.7 m mild (never a calendar window) · 1–1.5 m decent · 1.5–2.5 m best | <0.5 m nothing · 1.6–2.3 m best · 3 m+ too big |
 | Period | peak period: <6 s worthless · 7 s+ needed · 8–10 s+ good | <7 s chop · 11 s+ needed · 13 s+ good |
 | Swell dir | within 60° of where the spot's swell comes from is good, and outside that the swell counts as smaller the further it is off; spots can list blocked directions (SW at Scheveningen, behind the harbour jetty) | same |
 | Wind | offshore or <5 kn glassy is best · cross-shore is so-so · strong onshore kills it | same |
-| Vetoes | <0.7 m, or <6 s and <1.2 m → capped at 1–2 (flat at the beach) · waves heading away from the beach → flat | <0.5 m, or <7 s and <2 m → capped · 3 m+ → capped at 3 |
+| Vetoes | <0.5 m, or <6 s and <1.2 m → capped at 1–2 (flat at the beach) · waves heading away from the beach → flat | <0.5 m, or <7 s and <2 m → capped · 3 m+ → capped at 3 |
 
 The wind-swell numbers come from real sessions in the Netherlands. The groundswell numbers are a first guess and have not been checked against real sessions yet. A spot can set `exposure` (how much of the swell at sea reaches the break: under 1 for sheltered bays, over 1 for swell magnets) and `swell_from` (when the swell wraps in from a different side than the beach faces).
 

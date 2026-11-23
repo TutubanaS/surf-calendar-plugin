@@ -43,9 +43,9 @@ MARINE_VARS = ["wave_height", "wave_direction", "wave_period", "wave_peak_period
 PROFILES = {
     # Short-period wind swell: North Sea, Black Sea, Mediterranean. Tuned on real sessions in the Netherlands.
     "windswell": {
-        "size": [(0.7, 0.0), (1.0, 1.0), (1.5, 2.5), (2.5, 3.5), (INF, 3.0)],   # big is usually stormy and messy
+        "size": [(0.5, 0.0), (0.7, 0.5), (1.0, 1.0), (1.5, 2.5), (2.5, 3.5), (INF, 3.0)],   # big is usually stormy and messy
         "period": [(6, 0.0), (7, 1.0), (8, 2.0), (10, 3.0), (INF, 3.5)],
-        "flat": 0.7, "best": [1.5, 2.5], "too_big": None,
+        "flat": 0.5, "mild": 0.7, "best": [1.5, 2.5], "too_big": None,   # 0.5 to 0.7 m is mild surf at Scheveningen, not flat
         "chop_t": 6, "chop_h": 1.2, "swell_t": 8,
     },
     # Open-ocean groundswell: Portugal, Morocco. A first guess that has not been checked against real sessions.
@@ -334,6 +334,8 @@ def score_hour(hr: Hour, spot: dict) -> float:
         pts = min(pts, 2.0)                     # short-period small stuff is flat at the beach
     if ang_diff(hr.wave_dir, swell_from(spot)) > 100:
         pts = min(pts, 1.0)                     # the waves are travelling away from the beach
+    if prof.get("mild") and h < prof["mild"]:
+        pts = min(pts, 4.5)                     # mild surf: worth knowing about, not worth a calendar event
     if prof["too_big"] and h >= prof["too_big"]:
         pts = min(pts, 3.0)                     # out of control
 
