@@ -1,4 +1,4 @@
-# surf-windows
+# surf-calendar-plugin
 
 Finds surfable windows on the Dutch coast for the next 5 days and publishes them as a calendar feed you can subscribe to. It updates twice a day through GitHub Actions.
 
@@ -13,7 +13,7 @@ Finds surfable windows on the Dutch coast for the next 5 days and publishes them
 Google Calendar → *Other calendars* → **+** → *From URL*:
 
 ```
-https://raw.githubusercontent.com/TutubanaS/surf-windows/main/docs/surf.ics
+https://raw.githubusercontent.com/TutubanaS/surf-calendar-plugin/main/docs/surf.ics
 ```
 
 Apple Calendar: *File → New Calendar Subscription*, same URL.
