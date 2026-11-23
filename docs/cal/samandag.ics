@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Surf: Samandağ
+X-WR-TIMEZONE:Europe/Istanbul
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:3322601dc1f59a20@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261123T040000Z
+DTEND:20261123T080000Z
+SUMMARY:🤏 Samandağ 5.5/10 · 0.8m 6s WSW · 6kn ENE
+DESCRIPTION:Best 5.5/10 at 07:00. Forecast confidence: high. 5 wave models 
+ say 0.5 to 0.8 m.\n\nHour (local)  score  waves            wind\nMon 07:00
+      5.5   0.8m  6.3s WSW    6kn (g9) ENE offshore\nMon 08:00     5.5   0.
+ 7m  6.3s WSW    6kn (g10)  NE offshore\nMon 09:00     5.5   0.7m  6.5s WSW
+     6kn (g11)  NE offshore\nMon 10:00     5.5   0.7m  7.0s WSW    6kn (g11
+ )  NE offshore\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
+LOCATION:Samandağ
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

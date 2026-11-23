@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Surf: Imsouane (Cathédrale)
+X-WR-TIMEZONE:Africa/Casablanca
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:2fd60874a6fc9d56@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261123T070000Z
+DTEND:20261123T180000Z
+SUMMARY:🔥 Imsouane (Cathédrale) 9.5/10 · 1.7m 11s NNW · 6kn E
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models 
+ say 1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 07:00
+      9.5   1.7m 11.2s NNW    6kn (g9)   E offshore\nMon 08:00     9.5   1.
+ 7m 11.2s NNW    5kn (g9)   E offshore\nMon 09:00     9.5   1.7m 11.2s NNW 
+    3kn (g9)   E glassy\nMon 10:00       8   1.7m 11.2s  NW    1kn (g5) WNW
+  glassy\nMon 11:00       8   1.7m 11.2s  NW    2kn (g6)   W glassy\nMon 12
+ :00       8   1.7m 11.2s  NW    3kn (g7)   W glassy\nMon 13:00       7   1
+ .7m 10.8s  NW    3kn (g10)   W glassy\nMon 14:00       7   1.7m 10.4s  NW 
+    3kn (g13) WNW glassy\nMon 15:00       7   1.7m 10.2s  NW    3kn (g14) W
+ NW glassy\nMon 16:00       7   1.7m 10.2s  NW    3kn (g13)  NW glassy\nMon
+  17:00       7   1.7m 10.2s  NW    3kn (g11) NNW glassy\n\nGenerated 2026-
+ 11-23 15:00 UTC from Open-Meteo.
+LOCATION:Imsouane (Cathédrale)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:becebc991c131861@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261124T070000Z
+DTEND:20261124T180000Z
+SUMMARY:🔥 Imsouane (Cathédrale) 9/10 · 1.5m 11s NW · 6kn E
+DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 5 wave models sa
+ y 1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
+      9   1.5m 11.2s  NW    6kn (g9)   E offshore\nTue 08:00       9   1.4m
+  11.2s  NW    5kn (g9)   E offshore\nTue 09:00       9   1.4m 11.2s  NW   
+  4kn (g8)   E glassy\nTue 10:00     7.5   1.4m 11.2s  NW    4kn (g7)  NW g
+ lassy\nTue 11:00     7.5   1.4m 11.2s  NW    5kn (g10)  NW glassy\nTue 12:
+ 00     5.5   1.4m 11.2s  NW    6kn (g12)  NW onshore\nTue 13:00     5.5   
+ 1.4m 11.1s  NW    7kn (g15)  NW onshore\nTue 14:00     5.5   1.4m 11.1s  N
+ W    8kn (g16)  NW onshore\nTue 15:00     5.5   1.4m 11.2s  NW    8kn (g17
+ ) NNW onshore\nTue 16:00     5.5   1.4m 11.2s  NW    7kn (g17) NNW onshore
+ \nTue 17:00     5.5   1.5m 11.2s  NW    6kn (g17) NNW onshore\n\nGenerated
+  2026-11-23 15:00 UTC from Open-Meteo.
+LOCATION:Imsouane (Cathédrale)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9cdab6ea3bade35e@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261125T070000Z
+DTEND:20261125T130000Z
+SUMMARY:🔥 Imsouane (Cathédrale) 9.5/10 · 2.0m 12s NW · 5kn E
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 5 wave model
+ s say 1.6 to 2.1 m.\n\nHour (local)  score  waves            wind\nWed 07:
+ 00     9.5   2.0m 12.3s  NW    5kn (g8)   E glassy\nWed 08:00     9.5   2.
+ 1m 12.2s  NW    4kn (g8)   E glassy\nWed 09:00     9.5   2.2m 12.3s  NW   
+  3kn (g7)   E glassy\nWed 10:00       8   2.2m 12.3s  NW    2kn (g6) NNW g
+ lassy\nWed 11:00       8   2.2m 12.3s  NW    4kn (g8)  NW glassy\nWed 12:0
+ 0     6.5   2.3m 13.5s  NW    8kn (g14)  NW onshore\n\nGenerated 2026-11-2
+ 3 15:00 UTC from Open-Meteo.
+LOCATION:Imsouane (Cathédrale)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1e8d4e31b2a131a8@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261126T070000Z
+DTEND:20261126T090000Z
+SUMMARY:👍 Imsouane (Cathédrale) 7.5/10 · 2.5m 12s NNW · 5kn ENE
+DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: medium. 4 wave model
+ s say 2.1 to 2.6 m.\n\nHour (local)  score  waves            wind\nThu 07:
+ 00     7.5   2.5m 11.8s NNW    5kn (g11) ENE glassy\nThu 08:00     7.5   2
+ .5m 11.7s NNW    5kn (g11) ENE offshore\n\nGenerated 2026-11-23 15:00 UTC 
+ from Open-Meteo.
+LOCATION:Imsouane (Cathédrale)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:199cd8d885312b7a@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261127T070000Z
+DTEND:20261127T180000Z
+SUMMARY:🔥 Imsouane (Cathédrale) 8.5/10 · 1.9m 10s NNW · 5kn E
+DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: low. 4 wave models s
+ ay 1.8 to 2.0 m.\n\nHour (local)  score  waves            wind\nFri 07:00 
+     8.5   1.9m  9.9s NNW    5kn (g9)   E offshore\nFri 08:00     8.5   1.9
+ m  9.8s NNW    5kn (g9)   E glassy\nFri 09:00     8.5   1.8m  9.7s NNW    
+ 4kn (g9)   E glassy\nFri 10:00     8.5   1.8m  9.8s NNW    1kn (g10)   E g
+ lassy\nFri 11:00       7   1.7m 10.0s NNW    2kn (g10) WNW glassy\nFri 12:
+ 00       7   1.7m 10.1s NNW    5kn (g10) WNW glassy\nFri 13:00       7   1
+ .7m 10.1s NNW    5kn (g10)   W onshore\nFri 14:00       7   1.6m 10.0s NNW
+     5kn (g10)   W glassy\nFri 15:00       7   1.6m  9.9s NNW    4kn (g10) 
+   W glassy\nFri 16:00       7   1.6m  9.8s NNW    2kn (g6) WSW glassy\nFri
+  17:00     7.5   1.6m  9.7s NNW    2kn (g6)   S glassy\n\nGenerated 2026-1
+ 1-23 15:00 UTC from Open-Meteo.
+LOCATION:Imsouane (Cathédrale)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8fa75515ef6062fb@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261128T070000Z
+DTEND:20261128T180000Z
+SUMMARY:🔥 Imsouane (Cathédrale) 9/10 · 1.4m 11s NNW · 5kn E
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
+  1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
+     8   1.4m 10.6s NNW    5kn (g8)   E offshore\nSat 08:00       9   1.4m 
+ 11.0s NNW    5kn (g8)   E glassy\nSat 09:00       9   1.4m 11.3s NNW    4k
+ n (g8)   E glassy\nSat 10:00       9   1.4m 11.4s NNW    2kn (g7) ESE glas
+ sy\nSat 11:00       8   1.4m 11.3s NNW    2kn (g7)  SW glassy\nSat 12:00  
+    7.5   1.4m 11.2s NNW    4kn (g7) WSW glassy\nSat 13:00     7.5   1.4m 1
+ 1.2s NNW    5kn (g10)   W glassy\nSat 14:00     7.5   1.4m 11.2s NNW    6k
+ n (g10) WNW onshore\nSat 15:00     5.5   1.4m 11.2s NNW    6kn (g10)  NW o
+ nshore\nSat 16:00     7.5   1.4m 11.2s NNW    6kn (g9)  NW onshore\nSat 17
+ :00     7.5   1.4m 11.3s  NW    5kn (g9) NNW onshore\n\nGenerated 2026-11-
+ 23 15:00 UTC from Open-Meteo.
+LOCATION:Imsouane (Cathédrale)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d51eaa682e797406@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261129T070000Z
+DTEND:20261129T180000Z
+SUMMARY:🔥 Imsouane (Cathédrale) 9.5/10 · 1.5m 13s NW · 5kn E
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.4 to 1.5 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
+       9   1.5m 12.4s  NW    5kn (g7)   E glassy\nSun 08:00     9.5   1.5m 
+ 13.3s  NW    5kn (g7)   E glassy\nSun 09:00     9.5   1.5m 14.0s  NW    4k
+ n (g7)   E glassy\nSun 10:00     9.5   1.5m 14.2s  NW    2kn (g7) ENE glas
+ sy\nSun 11:00       8   1.5m 14.1s  NW    2kn (g7)  NW glassy\nSun 12:00  
+      8   1.5m 14.1s  NW    4kn (g7) WNW glassy\nSun 13:00       8   1.5m 1
+ 4.2s  NW    5kn (g8) WNW glassy\nSun 14:00       8   1.5m 14.3s  NW    5kn
+  (g8) WNW glassy\nSun 15:00       8   1.5m 14.4s  NW    4kn (g8)  NW glass
+ y\nSun 16:00       8   1.5m 14.3s  NW    4kn (g6)  NW glassy\nSun 17:00   
+     8   1.5m 14.1s  NW    4kn (g6) NNW glassy\n\nGenerated 2026-11-23 15:0
+ 0 UTC from Open-Meteo.
+LOCATION:Imsouane (Cathédrale)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cd970e0fb20396fb@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261130T070000Z
+DTEND:20261130T180000Z
+SUMMARY:🔥 Imsouane (Cathédrale) 10/10 · 1.7m 13s NNW · 4kn E
+DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: low. 3 wave models sa
+ y 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
+     10   1.7m 13.3s NNW    4kn (g5)   E glassy\nMon 08:00      10   1.7m 1
+ 3.2s NNW    4kn (g5)   E glassy\nMon 09:00      10   1.7m 13.2s NNW    3kn
+  (g5) ENE glassy\nMon 10:00      10   1.7m 13.2s NNW    2kn (g7)   E glass
+ y\nMon 11:00     8.5   1.7m 13.2s NNW    2kn (g8) WNW glassy\nMon 12:00   
+   8.5   1.7m 13.2s NNW    3kn (g9)   W glassy\nMon 13:00     8.5   1.7m 13
+ .1s NNW    3kn (g10) WNW glassy\nMon 14:00       8   1.7m 12.9s NNW    2kn
+  (g11) WNW glassy\nMon 15:00       8   1.7m 12.8s NNW    2kn (g11) NNW gla
+ ssy\nMon 16:00     8.5   1.7m 12.8s NNW    2kn (g12) NNE glassy\nMon 17:00
+      8.5   1.7m 12.7s  NW    3kn (g12) NNE glassy\n\nGenerated 2026-11-23 
+ 15:00 UTC from Open-Meteo.
+LOCATION:Imsouane (Cathédrale)
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

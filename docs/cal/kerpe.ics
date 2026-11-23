@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Surf: Kerpe
+X-WR-TIMEZONE:Europe/Istanbul
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:53b3bf9422e19cd7@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261124T060000Z
+DTEND:20261124T080000Z
+SUMMARY:👍 Kerpe 7/10 · 1.6m 7s NNW · 8kn NW
+DESCRIPTION:Best 7/10 at 10:00. Forecast confidence: high. 4 wave models sa
+ y 1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 09:00  
+    5.5   1.6m  7.0s NNW    8kn (g19)  NW cross\nTue 10:00       7   1.6m  
+ 7.0s NNW    8kn (g18)  NW cross\n\nGenerated 2026-11-23 15:00 UTC from Ope
+ n-Meteo.
+LOCATION:Kerpe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:327aa013874ab5fe@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261124T090000Z
+DTEND:20261124T150000Z
+SUMMARY:🔥 Kerpe 8/10 · 1.6m 7s NNW · 6kn NW
+DESCRIPTION:Best 8/10 at 12:00. Forecast confidence: high. 4 wave models sa
+ y 1.2 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 12:00  
+      8   1.6m  7.0s NNW    6kn (g13)  NW cross\nTue 13:00       8   1.6m  
+ 7.2s NNW    6kn (g13)  NW cross\nTue 14:00     6.5   1.5m  7.5s NNW    9kn
+  (g18)  NW cross\nTue 15:00     6.5   1.5m  7.7s NNW    9kn (g18)  NW cros
+ s\nTue 16:00     5.5   1.5m  7.7s NNW    9kn (g19) WNW cross\nTue 17:00   
+   5.5   1.4m  7.7s NNW    8kn (g18) WNW cross\n\nGenerated 2026-11-23 15:0
+ 0 UTC from Open-Meteo.
+LOCATION:Kerpe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa178e635be356a6@surf-windows
+DTSTAMP:20261123T150000Z
+DTSTART:20261125T050000Z
+DTEND:20261125T140000Z
+SUMMARY:🔥 Kerpe 8/10 · 1.7m 7s NW · 5kn SSW
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: medium. 4 wave models 
+ say 1.4 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 08:00
+        8   1.7m  7.0s  NW    5kn (g10) SSW offshore\nWed 09:00       8   1
+ .6m  7.0s  NW    6kn (g12) SSW offshore\nWed 10:00       7   1.5m  7.0s  N
+ W    6kn (g12) SSW offshore\nWed 11:00       7   1.4m  7.0s  NW    6kn (g1
+ 4) SSW offshore\nWed 12:00       7   1.3m  7.0s  NW    5kn (g14)  SW offsh
+ ore\nWed 13:00       7   1.2m  6.8s  NW    4kn (g12)  SW glassy\nWed 14:00
+        7   1.1m  6.5s  NW    4kn (g10) WSW glassy\nWed 15:00       6   1.1
+ m  6.3s  NW    3kn (g9) WSW glassy\nWed 16:00       6   1.0m  6.3s  NW    
+ 3kn (g8) WSW glassy\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
+LOCATION:Kerpe
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
