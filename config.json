@@ -1,32 +1,10 @@
 {
-  "forecast_days": 5,
+  "forecast_days": 14,
+  "calendar_days": 7,
+  "hourly_days": 5,
   "min_score": 5.0,
   "min_window_hours": 2,
   "history_days": 30,
-  "spots": [
-    {
-      "id": "scheveningen",
-      "name": "Scheveningen",
-      "enabled": true,
-      "marine": {"lat": 52.12, "lon": 4.20},
-      "beach": {"lat": 52.110, "lon": 4.273},
-      "facing_deg": 300,
-      "good_swell_dir": [260, 20],
-      "blocked_swell_dir": [180, 245],
-      "webcam": "https://www.surfweer.nl/webcams/",
-      "notes": "SW swell blocked by harbour jetty; SW/SSW wind is cross-shore."
-    },
-    {
-      "id": "wijk-aan-zee",
-      "name": "Wijk aan Zee",
-      "enabled": true,
-      "marine": {"lat": 52.50, "lon": 4.50},
-      "beach": {"lat": 52.493, "lon": 4.588},
-      "facing_deg": 280,
-      "good_swell_dir": [250, 340],
-      "blocked_swell_dir": [5, 60],
-      "webcam": "https://www.surfweer.nl/webcams/",
-      "notes": "Picks up more swell than Scheveningen; north pier shelters from N."
-    }
-  ]
+  "calendar_spots": ["scheveningen", "wijk-aan-zee"],
+  "feed_base": "https://raw.githubusercontent.com/TutubanaS/surf-calendar-plugin/main/docs/"
 }

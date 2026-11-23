@@ -4,32 +4,40 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A single-script Python tool (`surfwindows.py`, stdlib only) that pulls Open-Meteo forecasts for Dutch surf spots, scores each hour 0–10, groups good daylight hours into "windows", and publishes them as an iCalendar feed. A GitHub Action runs it twice a day and commits the outputs. `README.md` documents the scoring rules for users. Keep it in sync when thresholds change.
+A single-script Python tool (`surfwindows.py`, stdlib only) that pulls Open-Meteo forecasts for wave-surfing spots (Netherlands, Portugal, Morocco, Türkiye), scores each hour 0–10, groups good daylight hours into "windows", and publishes them as iCalendar feeds plus the data file for a static forecast page (`docs/index.html`). A GitHub Action runs it every 3 hours and commits the outputs. `README.md` documents the scoring rules for users. Keep it in sync when thresholds change.
 
 ## Commands
 
 ```bash
-python surfwindows.py                          # live run: hits Open-Meteo, overwrites the tracked outputs
+python surfwindows.py                          # live run: fetches every spot (a few minutes), overwrites the tracked outputs
 pytest -q                                      # all tests (no network; the fetch is faked)
 pytest -q tests/test_surfwindows.py::test_end_to_end   # single test
 ```
 
-No dependencies beyond pytest. Don't add third-party imports to `surfwindows.py`. CI installs only pytest.
+No dependencies beyond pytest. Don't add third-party imports to `surfwindows.py`. CI installs only pytest. There is no build step for the page: open `docs/index.html` in a browser (it loads `docs/data.js` with a script tag, so it works from `file://`).
+
+To preview without touching the tracked outputs, call `run(load_config(), now, out_dir=<some temp dir>)` and copy `docs/index.html` next to the generated `docs/data.js`.
 
 ## Architecture / data flow
 
-`run()` is the pipeline: `fetch_spot` → `merge` → `find_windows` (calls `score_hour`) → `merge_history` → write the 4 outputs.
+Settings live in `config.json`, spots in `spots.json` (one spot per line); `load_config()` merges them.
 
-- **`merge`** joins marine hourly data (waves, from the offshore `marine` coordinate) with weather hourly data (wind, from the `beach` coordinate) by timestamp. It prefers `wave_peak_period` over `wave_period`, skips hours with nulls, and marks daylight as sunrise−30 min through sunset. All times are UTC (`timezone: GMT` in the API calls). Amsterdam time (`AMS`) is used only for display in `FORECAST.md` and `docs/index.html`.
-- **`score_hour`** applies the per-spot config: `facing_deg` (offshore = facing+180), `good_swell_dir` / `blocked_swell_dir` arcs (clockwise, can wrap over north, see `in_arc`), and the hard vetoes. It also sets `Hour.wind_kind` as a side effect.
+`run()` is the pipeline: for each spot `fetch_spot` → `merge` → `find_windows` (calls `score_hour`), then `merge_history` and the outputs.
+
+- **`merge`** joins marine hourly data (waves, from the spot's offshore `marine` coordinate) with weather hourly data (wind, weather code, temperature, from the `beach` coordinate) by timestamp. The marine request asks for several wave models (`MARINE_MODELS`), so keys come back suffixed with the model name. Per hour, wave height is the median across models (`wave_lo`/`wave_hi` keep the range, and a wide range lowers a window's confidence), direction comes from the finest model with data, and period is the median *peak* period (`_peak_period`: the model's own peak period, else the peak period of whichever of swell or wind sea is higher). Mean `wave_period` is only a last resort, because the scoring thresholds are for peak period and the default model returns no `wave_peak_period`. It skips hours with nulls, and marks daylight as sunrise−30 min through sunset. All stored times are UTC (`timezone: GMT` in the API calls); each spot's `tz` is used only for display.
+- **`score_hour`** picks the thresholds from `PROFILES` by the spot's `profile` (`windswell` default, `groundswell` for the Atlantic). Height is first multiplied by the spot's `exposure` and by `swell_reach` (1 inside the swell window, fading to 0 at 60° outside it). Swell direction is judged against `good_swell_dir` (default: `swell_from` ± 60°, where `swell_from` defaults to `facing_deg`) and optional `blocked_swell_dir`; arcs run clockwise and can wrap over north (`in_arc`). Wind is judged against `facing_deg` (offshore = facing + 180). Hard vetoes: flat, short-period chop, waves travelling away from the beach, too big. It also sets `Hour.wind_kind` as a side effect. Tide and water temperature (`Hour.tide`, `Hour.sst`, a third API call per spot) are shown on the page only; they are not part of the score. Wave energy is computed on the page from height and period (0.5 × H² × T, in kW per metre of wave).
+- **Horizon.** `forecast_days` (14) is fetched and shown on the page; `data.js` keeps every hour for `hourly_days` (5) and every third hour after that; only windows starting within `calendar_days` (7) go into the calendar feeds.
 - **`find_windows`** keeps runs of consecutive daylight hours with score ≥ `min_score` and length ≥ `min_window_hours`. Event UIDs are a hash of `spot_id` + start hour, so a window that moves or changes length gets a new UID.
-- **`merge_history`** keeps `data/windows.json` as a log. Past windows are kept for `history_days`. Future windows are replaced only for spots whose fetch succeeded this run, so if a spot's API call fails, its old future windows stay. If every fetch fails, the script exits without writing anything.
-- **Outputs** (all committed by the bot, so don't hand-edit them): `docs/surf.ics` (CRLF, RFC 5545 escaping and 75-octet folding via `ics_escape`/`ics_fold`), `docs/index.html` (static page served by GitHub Pages from `/docs`; `to_html` builds it with inline CSS, no JS), `FORECAST.md`, `data/windows.json`. The ICS URL on raw.githubusercontent.com is what users subscribe to, so don't move or rename `docs/surf.ics`.
+- **Calendar spots.** `calendar_spots` in `config.json` are the owner's own spots. Only they go into `docs/surf.ics`, `data/windows.json` (the history log, kept `history_days`) and `FORECAST.md`. `merge_history` replaces their future windows only when the fetch succeeded, so a failed fetch keeps the old ones. Every spot, calendar spot or not, gets its own feed `docs/cal/<id>.ics`; a failed fetch leaves that file untouched, and a spot removed from `spots.json` loses its file.
+- **Outputs** (all committed by the bot, so don't hand-edit them): `docs/surf.ics` and `docs/cal/*.ics` (CRLF, RFC 5545 escaping and 75-octet folding via `ics_escape`/`ics_fold`), `docs/data.js`, `FORECAST.md`, `data/windows.json`. The feed URLs on raw.githubusercontent.com (`feed_base` in `config.json`) are what users subscribe to, so don't move or rename `docs/surf.ics` or `docs/cal/`.
+- **The page.** `docs/index.html` is a hand-written static file (inline CSS and vanilla JS, no build, not generated). It reads `window.SURF` from `docs/data.js` (`to_data`): per spot, parallel hourly arrays (`score`, `wh`, `wt`, `ws`, …; `kind` and `day` are strings with one character per hour) plus that spot's windows, and the label thresholds from `PROFILES`. The left column is the summary (headline for "my spots", search, country tabs, spot list); the right column is the selected spot (day summary sentence, score by hour, wave height / period / wind charts). "My spots" are stored in the browser's `localStorage` and default to `calendar_spots`; the subscribe dialog hands out one feed link per starred spot. The `i` buttons open guide cards (`GUIDES` in the script). Times on the page are in the spot's own time zone. The small map loads standard OpenStreetMap tiles for the spot's `lat`/`lon` (darkened with a CSS filter; CARTO's free basemaps now need an API key); the wind and swell arrows are drawn on top by the page itself. `#spot=<id>` in the URL selects a spot; `#subscribe=1`, `#guide=<key>`, `#tab=` and `#q=` exist for screenshots.
 
-`run()` takes `fetch=` and `out_dir=` parameters so tests can inject fake hours and write to `tmp_path`.
+`run()` takes `fetch=` and `out_dir=` parameters so tests can inject fake hours and write to `tmp_path`. With the real `fetch_spot` it pauses between spots (`fetch_pause_s`) and `get_json` retries on HTTP 429, because Open-Meteo's free tier allows about 600 weighted calls a minute and one spot costs about 5.
 
 ## Gotchas
 
-- Tests load the real `config.json` and use `spots[0]` (Scheveningen) as the fixture. Changing that spot's arcs or `facing_deg`, or reordering spots, can break the scoring tests.
-- Scoring thresholds come from real sessions (e.g. the test about short-period swell being flat at the beach). When changing them, add or adjust a test that captures the real-world case.
-- The workflow (`.github/workflows/update.yml`) runs pytest before fetching, on cron at 04:17 and 16:17 UTC, on manual dispatch, and on pushes that touch `surfwindows.py`, `config.json`, or the workflow file. Bot commits are titled `forecast update <timestamp>`, so pull before pushing.
+- The page takes its chart labels (flat / best size / too big / chop / swell) from `PROFILES` through `data.js`, but the day-summary wording and the guide texts in `docs/index.html` describe the scoring rules in words. When the rules in `score_hour` change, reread `daySummary` and `GUIDES`.
+- Tests load the real `config.json` and `spots.json` and use a few spots by id as fixtures (`scheveningen`, `wijk-aan-zee`, `zandvoort`, `ribeira-dilhas`, `imsouane-bay`). Changing those spots' orientation, profile or exposure can break the scoring tests.
+- The wind-swell thresholds come from real sessions in the Netherlands (e.g. the test about short-period swell being flat at the beach). The groundswell thresholds and most spot parameters (coordinates, `facing_deg`, `exposure`, `swell_from`) are estimates. When changing thresholds, add or adjust a test that captures the real-world case.
+- Spot coordinates were sanity-checked against Open-Meteo's elevation data (sea within 2.5 km of the beach point, marine point at sea), not against a surf guide.
+- The workflow (`.github/workflows/update.yml`) runs pytest before fetching, on cron every 3 hours (minute 17), on manual dispatch, and on pushes that touch `surfwindows.py`, `config.json`, `spots.json` or the workflow file. Bot commits are titled `forecast update <timestamp>`, so pull before pushing.
