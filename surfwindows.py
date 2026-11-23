@@ -12,10 +12,12 @@ import json
 import math
 import statistics
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, asdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -80,7 +82,21 @@ class QuotaExhausted(Exception):
 
 
 WAIT_BUDGET_S = 300     # total time one run may spend waiting on rate limits (GitHub's runners share their addresses)
+MIN_GAP_S = 0.45        # between request starts: about 130 a minute, under the 600 weighted calls a minute we may use
 _waited = 0.0
+_next_slot = 0.0
+_lock = threading.Lock()
+
+
+def _take_slot() -> None:
+    """Requests run in parallel because each one is slow from GitHub's runners; this keeps their rate legal."""
+    global _next_slot
+    with _lock:
+        now = time.monotonic()
+        at = max(now, _next_slot)
+        _next_slot = at + MIN_GAP_S
+    if at > now:
+        time.sleep(at - now)
 
 
 def get_json(url: str, params: dict, waits=(5, 20, 61)) -> dict:
@@ -89,6 +105,7 @@ def get_json(url: str, params: dict, waits=(5, 20, 61)) -> dict:
     full = f"{url}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(full, headers={"User-Agent": "surf-windows (github.com/TutubanaS)"})
     for wait in (*waits, None):
+        _take_slot()
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
@@ -106,9 +123,10 @@ def get_json(url: str, params: dict, waits=(5, 20, 61)) -> dict:
         except (urllib.error.URLError, TimeoutError):
             if wait is None:
                 raise
-        if _waited + wait > WAIT_BUDGET_S:
-            raise QuotaExhausted(f"waited {_waited:.0f} s on rate limits already")
-        _waited += wait
+        with _lock:
+            if _waited + wait > WAIT_BUDGET_S:
+                raise QuotaExhausted(f"waited {_waited:.0f} s on rate limits already")
+            _waited += wait
         time.sleep(wait)
     raise AssertionError("unreachable")
 
@@ -576,25 +594,38 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
     spots = [s for s in cfg["spots"] if s.get("enabled", True)]
     # the main feed (surf.ics), its history and FORECAST.md cover these; every spot still gets its own feed
     cal_ids = set(cfg.get("calendar_spots") or [s["id"] for s in spots])
-    pause = cfg.get("fetch_pause_s", 0.5) if fetch is fetch_spot else 0   # stay under the per-minute quota
+    stop = threading.Event()         # set when the API quota is gone: the spots not yet asked for are skipped
 
-    spot_hours: dict[str, tuple[dict, list[Hour]]] = {}
-    by_spot: dict[str, list[Window]] = {}
-    for i, spot in enumerate(spots):
-        if i and pause:
-            time.sleep(pause)
+    def load(spot: dict):
+        if stop.is_set():
+            return spot, None, None
         try:
             hours = fetch(spot, cfg["forecast_days"])
             if not hours:
                 raise ValueError("no wave data at this point")
-        except QuotaExhausted as e:   # no point asking for the rest: publish what arrived, the others keep their old feeds
-            print(f"[warn] stopped at {spot['id']} ({i} of {len(spots)} spots fetched): {e}", file=sys.stderr)
-            break
-        except Exception as e:  # this spot keeps its old feed if the API hiccups
-            print(f"[warn] {spot['id']}: fetch failed: {e}", file=sys.stderr)
+            return spot, hours, None
+        except QuotaExhausted as e:
+            stop.set()
+            return spot, None, e
+        except Exception as e:       # this spot keeps its old feed if the API hiccups
+            return spot, None, e
+
+    started = time.monotonic()
+    with ThreadPoolExecutor(max_workers=cfg.get("fetch_workers", 6)) as pool:
+        results = list(pool.map(load, spots))
+    spot_hours: dict[str, tuple[dict, list[Hour]]] = {}
+    by_spot: dict[str, list[Window]] = {}
+    for spot, hours, err in results:
+        if hours is None:
+            if err is not None:
+                print(f"[warn] {spot['id']}: fetch failed: {err}", file=sys.stderr)
             continue
         by_spot[spot["id"]] = find_windows(hours, spot, cfg, now)
         spot_hours[spot["id"]] = (spot, hours)
+    if stop.is_set():
+        print(f"[warn] API quota exhausted: only {len(spot_hours)} of {len(spots)} spots fetched; "
+              "the others keep their old feeds", file=sys.stderr)
+    print(f"fetched {len(spot_hours)} of {len(spots)} spots in {time.monotonic() - started:.0f} s", flush=True)
     fresh = set(spot_hours)
     if not fresh:
         raise SystemExit("All fetches failed; leaving outputs untouched.")

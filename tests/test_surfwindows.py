@@ -159,7 +159,7 @@ def test_main_feed_has_only_the_calendar_spots(tmp_path):
 
 def test_quota_exhausted_publishes_what_arrived(tmp_path):
     now = datetime(2026, 11, 23, 4, tzinfo=UTC)
-    cfg = dict(CFG, spots=[SCHEV, SPOTS["wijk-aan-zee"], SPOTS["zandvoort"]])
+    cfg = dict(CFG, spots=[SCHEV, SPOTS["wijk-aan-zee"], SPOTS["zandvoort"]], fetch_workers=1)   # one at a time
     asked = []
 
     def fetch(spot, days):
