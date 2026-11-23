@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:87b0e2b32e974788@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261123T070000Z
 DTEND:20261123T180000Z
 SUMMARY:🔥 São Torpes (Sines) 8.5/10 · 1.9m 10s WNW · 4kn ENE
@@ -24,13 +24,13 @@ DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: high. 5 wave models
   WNW    3kn (g8)   E glassy\nMon 15:00     8.5   1.8m 11.2s WNW    2kn (g6
  )  SE glassy\nMon 16:00       8   1.7m 11.2s WNW    1kn (g3)   S glassy\nM
  on 17:00       8   1.7m 11.2s WNW    2kn (g3)   W glassy\n\nGenerated 2026
- -11-23 16:00 UTC from Open-Meteo.
+ -11-23 17:00 UTC from Open-Meteo.
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:87012628a5d15c72@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
 SUMMARY:🔥 São Torpes (Sines) 8.5/10 · 2.0m 12s WNW · 8kn NNW
@@ -45,13 +45,13 @@ DESCRIPTION:Best 8.5/10 at 17:00. Forecast confidence: high. 5 wave models
   12kn (g21) NNW cross\nTue 15:00       7   1.7m 11.2s WNW   13kn (g22)  NW
   cross\nTue 16:00       7   1.8m 11.6s WNW   11kn (g22) NNW cross\nTue 17:
  00     8.5   2.0m 11.8s WNW    8kn (g18) NNW cross\n\nGenerated 2026-11-23
-  16:00 UTC from Open-Meteo.
+  17:00 UTC from Open-Meteo.
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:811463f5b8320fdc@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
 SUMMARY:🔥 São Torpes (Sines) 8.5/10 · 2.3m 12s WNW · 8kn NNW
@@ -66,13 +66,13 @@ DESCRIPTION:Best 8.5/10 at 12:00. Forecast confidence: medium. 5 wave model
  6kn (g12) NNW cross\nWed 15:00     8.5   2.2m 12.3s WNW    7kn (g13) NNW c
  ross\nWed 16:00     8.5   2.3m 12.3s WNW    6kn (g13) NNW cross\nWed 17:00
       8.5   2.3m 12.3s WNW    4kn (g10) NNW glassy\n\nGenerated 2026-11-23 
- 16:00 UTC from Open-Meteo.
+ 17:00 UTC from Open-Meteo.
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:01ca8862e10be539@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 São Torpes (Sines) 9.5/10 · 1.8m 11s WNW · 2kn E
@@ -87,13 +87,13 @@ DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 5 wave model
  6kn (g10) NNW cross\nThu 15:00       7   1.5m 10.2s WNW    7kn (g12) NNW c
  ross\nThu 16:00       7   1.5m 10.2s WNW    5kn (g12) NNW cross\nThu 17:00
       6.5   1.4m 10.2s WNW    3kn (g9)  NW glassy\n\nGenerated 2026-11-23 1
- 6:00 UTC from Open-Meteo.
+ 7:00 UTC from Open-Meteo.
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e2626645abdab4cb@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261127T070000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 São Torpes (Sines) 8/10 · 1.4m 10s WNW · 5kn E
@@ -108,13 +108,13 @@ DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
  3kn (g5) SSE glassy\nFri 15:00       8   1.5m 11.2s  NW    2kn (g5)   S gl
  assy\nFri 16:00     7.5   1.5m 11.3s  NW    2kn (g4) SSW glassy\nFri 17:00
       7.5   1.5m 11.4s  NW    2kn (g4) SSW glassy\n\nGenerated 2026-11-23 1
- 6:00 UTC from Open-Meteo.
+ 7:00 UTC from Open-Meteo.
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b7d53dd6d1360568@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 São Torpes (Sines) 9.5/10 · 1.6m 12s NW · 4kn ESE
@@ -129,13 +129,13 @@ DESCRIPTION:Best 9.5/10 at 11:00. Forecast confidence: low. 4 wave models s
   2kn (g6)  SW glassy\nSat 15:00       8   1.7m 12.5s  NW    3kn (g6) WSW g
  lassy\nSat 16:00       8   1.7m 12.6s  NW    3kn (g3)  SW glassy\nSat 17:0
  0       8   1.7m 12.6s  NW    2kn (g3) SSW glassy\n\nGenerated 2026-11-23 
- 16:00 UTC from Open-Meteo.
+ 17:00 UTC from Open-Meteo.
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:98c72bda38ff2305@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 São Torpes (Sines) 9.5/10 · 1.7m 12s NW · 3kn ENE
@@ -149,14 +149,14 @@ DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
  2.2s  NW    2kn (g9) NNE glassy\nSun 14:00     8.5   1.6m 12.4s  NW    3kn
   (g9) NNW glassy\nSun 15:00     8.5   1.6m 12.5s  NW    5kn (g9)  NW glass
  y\nSun 16:00     8.5   1.6m 12.6s  NW    5kn (g10)  NW glassy\nSun 17:00  
-    8.5   1.6m 12.5s  NW    5kn (g10) NNW glassy\n\nGenerated 2026-11-23 16
+    8.5   1.6m 12.5s  NW    5kn (g10) NNW glassy\n\nGenerated 2026-11-23 17
  :00 UTC from Open-Meteo.
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:44d39c4cbb2565b2@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 São Torpes (Sines) 9.5/10 · 1.6m 13s NW · 5kn E
@@ -170,7 +170,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.6s  NW    1kn (g4)  SW glassy\nMon 15:00       8   1.6m 12.6s  NW    2kn
   (g4)   W glassy\nMon 16:00       8   1.6m 12.6s  NW    3kn (g6)   W glass
  y\nMon 17:00       8   1.6m 12.6s  NW    3kn (g6) WNW glassy\n\nGenerated 
- 2026-11-23 16:00 UTC from Open-Meteo.
+ 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT

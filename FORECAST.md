@@ -1,6 +1,6 @@
 # Surf windows
 
-_Updated 2026-11-23 16:00 UTC. Calendar spots only; the forecast page has all 71._
+_Updated 2026-11-23 17:00 UTC. Calendar spots only; the forecast page has all 117._
 
 ## Upcoming windows
 

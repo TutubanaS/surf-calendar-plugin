@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:f8b15d42aab2ddf2@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261123T070000Z
 DTEND:20261123T180000Z
 SUMMARY:🔥 Carcavelos 8/10 · 1.8m 11s W · 5kn ENE
@@ -24,14 +24,14 @@ DESCRIPTION:Best 8/10 at 11:00. Forecast confidence: high. 4 wave models sa
  kn (g12) ENE glassy\nMon 15:00       7   1.8m 11.9s   W    3kn (g10) ENE g
  lassy\nMon 16:00       7   1.7m 11.9s   W    2kn (g7) ENE glassy\nMon 17:0
  0       8   1.7m 11.8s   W    1kn (g4)  NE glassy\n\nNotes: Needs a big we
- st swell or a south swell to get in.\nGenerated 2026-11-23 16:00 UTC from 
+ st swell or a south swell to get in.\nGenerated 2026-11-23 17:00 UTC from 
  Open-Meteo.
 LOCATION:Carcavelos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:05f57d24b8f0bb5f@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T090000Z
 SUMMARY:👍 Carcavelos 6.5/10 · 1.4m 11s W · 4kn S
@@ -39,13 +39,13 @@ DESCRIPTION:Best 6.5/10 at 07:00. Forecast confidence: high. 4 wave models
  say 1.0 to 1.5 m.\n\nHour (local)  score  waves            wind\nTue 07:00
       6.5   1.4m 11.2s   W    4kn (g8)   S glassy\nTue 08:00     6.5   1.4m
   11.2s   W    5kn (g12)   S onshore\n\nNotes: Needs a big west swell or a 
- south swell to get in.\nGenerated 2026-11-23 16:00 UTC from Open-Meteo.
+ south swell to get in.\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Carcavelos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4df934cb32619710@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T140000Z
 DTEND:20261124T180000Z
 SUMMARY:👍 Carcavelos 7/10 · 2.0m 15s WNW · 11kn NW
@@ -55,13 +55,13 @@ DESCRIPTION:Best 7/10 at 15:00. Forecast confidence: high. 4 wave models sa
  4.7s WNW   11kn (g26)  NW cross\nTue 16:00       7   2.1m 15.0s WNW   10kn
   (g24)  NW cross\nTue 17:00       7   2.2m 14.6s WNW    8kn (g21) NNW cros
  s\n\nNotes: Needs a big west swell or a south swell to get in.\nGenerated 
- 2026-11-23 16:00 UTC from Open-Meteo.
+ 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Carcavelos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10e109f3a88fced0@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
 SUMMARY:🔥 Carcavelos 9.5/10 · 2.5m 13s WNW · 6kn NNW
@@ -77,13 +77,13 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 4 wave model
      5kn (g17) NNW offshore\nWed 16:00       9   2.4m 12.3s WNW    5kn (g13
  ) NNW offshore\nWed 17:00       8   2.3m 12.3s WNW    4kn (g12)  NW glassy
  \n\nNotes: Needs a big west swell or a south swell to get in.\nGenerated 2
- 026-11-23 16:00 UTC from Open-Meteo.
+ 026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Carcavelos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cc7c38acc19983a4@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Carcavelos 8/10 · 1.7m 11s WNW · 2kn NNE
@@ -97,14 +97,14 @@ DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
  1s WNW    6kn (g12) NNW cross\nThu 15:00       6   1.5m 10.2s WNW    5kn (
  g12) NNW glassy\nThu 16:00       6   1.5m 10.2s WNW    5kn (g11)  NW glass
  y\nThu 17:00       6   1.4m 10.2s WNW    4kn (g10)  NW glassy\n\nNotes: Ne
- eds a big west swell or a south swell to get in.\nGenerated 2026-11-23 16:
+ eds a big west swell or a south swell to get in.\nGenerated 2026-11-23 17:
  00 UTC from Open-Meteo.
 LOCATION:Carcavelos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0d643e99c0e15d09@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:👍 Carcavelos 7/10 · 1.5m 10s NW · 3kn ENE
@@ -119,13 +119,13 @@ DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 3 wave models say
   6kn (g14) SSE onshore\nFri 16:00     6.5   1.5m 12.3s  NW    5kn (g9) SSE
   onshore\nFri 17:00     6.5   1.5m 12.3s  NW    4kn (g9) SSE glassy\n\nNot
  es: Needs a big west swell or a south swell to get in.\nGenerated 2026-11-
- 23 16:00 UTC from Open-Meteo.
+ 23 17:00 UTC from Open-Meteo.
 LOCATION:Carcavelos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:452ce380943b3de6@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:👍 Carcavelos 7/10 · 1.5m 12s NW · 3kn ENE
@@ -139,14 +139,14 @@ DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 3 wave models say
  12.3s  NW    3kn (g8)  SE glassy\nSat 15:00     6.5   1.6m 12.3s  NW    3k
  n (g8)  SE glassy\nSat 16:00     6.5   1.6m 12.3s  NW    2kn (g4)  SE glas
  sy\nSat 17:00       7   1.7m 12.3s  NW    2kn (g4) ESE glassy\n\nNotes: Ne
- eds a big west swell or a south swell to get in.\nGenerated 2026-11-23 16:
+ eds a big west swell or a south swell to get in.\nGenerated 2026-11-23 17:
  00 UTC from Open-Meteo.
 LOCATION:Carcavelos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cff2c542ce222c5e@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:👍 Carcavelos 7.5/10 · 1.7m 13s NW · 2kn NE
@@ -160,14 +160,14 @@ DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: low. 3 wave models s
  3.2s  NW    2kn (g5)   E glassy\nSun 15:00     6.5   1.7m 13.1s  NW    1kn
   (g5) ESE glassy\nSun 16:00     5.5   1.7m 12.8s  NW    0kn (g3)  SE glass
  y\nSun 17:00       6   1.7m 12.6s  NW    1kn (g3)  NW glassy\n\nNotes: Nee
- ds a big west swell or a south swell to get in.\nGenerated 2026-11-23 16:0
+ ds a big west swell or a south swell to get in.\nGenerated 2026-11-23 17:0
  0 UTC from Open-Meteo.
 LOCATION:Carcavelos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5a7176c9c9424511@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:👍 Carcavelos 7/10 · 1.7m 12s NW · 2kn NE
@@ -182,7 +182,7 @@ DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 3 wave models say
  4kn (g10)  SE glassy\nMon 16:00       6   1.7m 12.3s  NW    4kn (g5)  SE g
  lassy\nMon 17:00     5.5   1.7m 12.3s  NW    3kn (g5)  SE glassy\n\nNotes:
   Needs a big west swell or a south swell to get in.\nGenerated 2026-11-23 
- 16:00 UTC from Open-Meteo.
+ 17:00 UTC from Open-Meteo.
 LOCATION:Carcavelos
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:2f46b9260aca4a1a@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261123T110000Z
 DTEND:20261123T180000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 7.5/10 · 2.1m 11s WNW · 1kn E
@@ -22,13 +22,13 @@ DESCRIPTION:Best 7.5/10 at 11:00. Forecast confidence: high. 5 wave models
      6.5   2.0m 11.2s WNW    1kn (g4)   S glassy\nMon 17:00       6   1.9m 
  11.2s WNW    2kn (g2) WSW glassy\n\nNotes: The canyon makes the waves much
   bigger than the forecast height. Experts only when it is big.\nGenerated 
- 2026-11-23 16:00 UTC from Open-Meteo.
+ 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Nazaré (Praia do Norte)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fc4c83340b39b0e7@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T110000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 7.5/10 · 1.7m 11s WNW · 6kn SE
@@ -38,14 +38,14 @@ DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: high. 5 wave models
  .7m 11.2s WNW    7kn (g13) SSE offshore\nTue 09:00     6.5   1.8m 11.2s WN
  W    7kn (g14)   S cross\nTue 10:00     6.5   2.0m 11.2s WNW    6kn (g12) 
    S cross\n\nNotes: The canyon makes the waves much bigger than the foreca
- st height. Experts only when it is big.\nGenerated 2026-11-23 16:00 UTC fr
+ st height. Experts only when it is big.\nGenerated 2026-11-23 17:00 UTC fr
  om Open-Meteo.
 LOCATION:Nazaré (Praia do Norte)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:27061b7d7e46f57d@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 7/10 · 1.6m 10s NW · 1kn W
@@ -60,13 +60,13 @@ DESCRIPTION:Best 7/10 at 17:00. Forecast confidence: medium. 5 wave models
  n (g6) WNW glassy\nThu 16:00       5   1.7m 10.2s  NW    2kn (g5) WNW glas
  sy\nThu 17:00       7   1.6m 10.2s  NW    1kn (g5)   W glassy\n\nNotes: Th
  e canyon makes the waves much bigger than the forecast height. Experts onl
- y when it is big.\nGenerated 2026-11-23 16:00 UTC from Open-Meteo.
+ y when it is big.\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Nazaré (Praia do Norte)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f08f2c69c1430e4@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 7.5/10 · 1.8m 11s NW · 8kn SSE
@@ -81,14 +81,14 @@ DESCRIPTION:Best 7.5/10 at 12:00. Forecast confidence: low. 4 wave models s
  4s  NW    7kn (g13) SSE offshore\nFri 16:00     7.5   1.7m 11.5s  NW    6k
  n (g10) SSE offshore\nFri 17:00     7.5   1.7m 11.6s  NW    5kn (g10)  SE 
  offshore\n\nNotes: The canyon makes the waves much bigger than the forecas
- t height. Experts only when it is big.\nGenerated 2026-11-23 16:00 UTC fro
+ t height. Experts only when it is big.\nGenerated 2026-11-23 17:00 UTC fro
  m Open-Meteo.
 LOCATION:Nazaré (Praia do Norte)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7cef0e84cbf0c18e@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T160000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 7.5/10 · 2.0m 12s NW · 6kn SSE
@@ -102,13 +102,13 @@ DESCRIPTION:Best 7.5/10 at 08:00. Forecast confidence: low. 4 wave models s
     2.1m 12.8s  NW    7kn (g12) SSE cross\nSat 15:00     6.5   2.1m 12.8s  
  NW    6kn (g12) SSE cross\n\nNotes: The canyon makes the waves much bigger
   than the forecast height. Experts only when it is big.\nGenerated 2026-11
- -23 16:00 UTC from Open-Meteo.
+ -23 17:00 UTC from Open-Meteo.
 LOCATION:Nazaré (Praia do Norte)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c403a7d434eb4e8@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261130T110000Z
 DTEND:20261130T180000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 7.5/10 · 2.1m 13s NW · 4kn SSE
@@ -121,7 +121,7 @@ DESCRIPTION:Best 7.5/10 at 11:00. Forecast confidence: low. 4 wave models s
  \nMon 16:00     7.5   2.0m 12.8s  NW    6kn (g9) SSE offshore\nMon 17:00  
     7.5   2.0m 12.8s  NW    6kn (g9)  SE offshore\n\nNotes: The canyon make
  s the waves much bigger than the forecast height. Experts only when it is 
- big.\nGenerated 2026-11-23 16:00 UTC from Open-Meteo.
+ big.\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Nazaré (Praia do Norte)
 TRANSP:TRANSPARENT
 END:VEVENT

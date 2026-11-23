@@ -9,12 +9,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:5a373e02b5cdc63e@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261123T070000Z
 DTEND:20261123T180000Z
 SUMMARY:🔥 Sagres (Tonel) 8.5/10 · 1.9m 10s WNW · 2kn SE
 DESCRIPTION:Best 8.5/10 at 12:00. Forecast confidence: high. 5 wave models 
- say 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 07:00
+ say 1.7 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 07:00
       7.5   2.0m 10.2s WNW    3kn (g7) NNE glassy\nMon 08:00     7.5   2.0m
   10.2s WNW    3kn (g7) NNE glassy\nMon 09:00     7.5   2.0m 10.2s WNW    3
  kn (g6) NNE glassy\nMon 10:00     7.5   1.9m 10.2s WNW    2kn (g6) NNE gla
@@ -23,14 +23,14 @@ DESCRIPTION:Best 8.5/10 at 12:00. Forecast confidence: high. 5 wave models
  10.3s WNW    2kn (g5)   S glassy\nMon 14:00     7.5   1.9m 10.6s WNW    4k
  n (g7)   S glassy\nMon 15:00     7.5   1.9m 10.9s WNW    4kn (g7)   S glas
  sy\nMon 16:00     8.5   1.9m 11.2s WNW    3kn (g7)   S glassy\nMon 17:00  
-    8.5   1.9m 11.8s WNW    2kn (g6) SSW glassy\n\nGenerated 2026-11-23 15:
+    8.5   1.9m 11.8s WNW    2kn (g6) SSW glassy\n\nGenerated 2026-11-23 17:
  00 UTC from Open-Meteo.
 LOCATION:Sagres (Tonel)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e4072e6d30df447@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T140000Z
 SUMMARY:🔥 Sagres (Tonel) 8/10 · 1.5m 11s NW · 2kn SSE
@@ -39,147 +39,147 @@ DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: high. 5 wave models sa
       8   1.5m 11.2s  NW    2kn (g4) SSE glassy\nTue 08:00     7.5   1.5m 1
  1.2s  NW    1kn (g4) SSW glassy\nTue 09:00       8   1.5m 11.2s  NW    3kn
   (g6) SSE glassy\nTue 10:00       8   1.5m 11.2s  NW    2kn (g6)   S glass
- y\nTue 11:00       8   1.5m 11.2s  NW    2kn (g5) SSW glassy\nTue 12:00   
+ y\nTue 11:00       8   1.6m 11.2s  NW    2kn (g5) SSW glassy\nTue 12:00   
    7.5   1.5m 11.2s  NW    4kn (g8)   W glassy\nTue 13:00     7.5   1.5m 11
- .2s  NW    6kn (g10) WNW onshore\n\nGenerated 2026-11-23 15:00 UTC from Op
+ .2s  NW    6kn (g10) WNW onshore\n\nGenerated 2026-11-23 17:00 UTC from Op
  en-Meteo.
 LOCATION:Sagres (Tonel)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0a9c159d805a6852@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T150000Z
 DTEND:20261124T180000Z
-SUMMARY:👍 Sagres (Tonel) 7/10 · 1.8m 11s NW · 13kn N
-DESCRIPTION:Best 7/10 at 17:00. Forecast confidence: high. 5 wave models sa
- y 1.6 to 2.2 m.\n\nHour (local)  score  waves            wind\nTue 15:00  
-      5   1.7m 11.2s WNW   15kn (g28) NNW cross\nTue 16:00       5   1.7m 1
- 1.2s  NW   15kn (g28) NNW cross\nTue 17:00       7   1.8m 11.2s  NW   13kn
-  (g27)   N cross\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
+SUMMARY:🤏 Sagres (Tonel) 6/10 · 2.1m 10s NW · 13kn N
+DESCRIPTION:Best 6/10 at 17:00. Forecast confidence: high. 5 wave models sa
+ y 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nTue 15:00  
+      5   1.7m 11.2s  NW   15kn (g28) NNW cross\nTue 16:00       5   2.0m 1
+ 1.0s  NW   15kn (g28) NNW cross\nTue 17:00       6   2.1m  9.7s  NW   13kn
+  (g27)   N cross\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Sagres (Tonel)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae8fc15da4f34adf@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261125T080000Z
 DTEND:20261125T180000Z
 SUMMARY:🔥 Sagres (Tonel) 8.5/10 · 2.3m 12s NW · 8kn N
 DESCRIPTION:Best 8.5/10 at 17:00. Forecast confidence: medium. 5 wave model
  s say 2.2 to 2.7 m.\n\nHour (local)  score  waves            wind\nWed 08:
- 00     5.5   2.5m 13.5s  NW   12kn (g21) NNW cross\nWed 09:00     5.5   2.
+ 00     5.5   2.5m 13.4s  NW   12kn (g21) NNW cross\nWed 09:00     5.5   2.
  5m 13.5s  NW   10kn (g22) NNW cross\nWed 10:00     5.5   2.5m 13.5s  NW   
  10kn (g19) NNW cross\nWed 11:00     5.5   2.4m 13.5s  NW   11kn (g20) NNW 
  cross\nWed 12:00     5.5   2.4m 13.5s  NW   10kn (g21)   N cross\nWed 13:0
- 0       5   2.4m 12.3s  NW   10kn (g19)   N cross\nWed 14:00       5   2.3
- m 12.3s  NW   10kn (g19)   N cross\nWed 15:00     6.5   2.3m 12.3s  NW    
+ 0     5.5   2.4m 13.2s  NW   10kn (g19)   N cross\nWed 14:00       5   2.3
+ m 12.7s  NW   10kn (g19)   N cross\nWed 15:00     6.5   2.3m 12.3s  NW    
  7kn (g18)   N cross\nWed 16:00       7   2.3m 12.2s  NW    8kn (g15) NNW c
  ross\nWed 17:00     8.5   2.3m 12.2s  NW    8kn (g15)   N cross\n\nGenerat
- ed 2026-11-23 15:00 UTC from Open-Meteo.
+ ed 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Sagres (Tonel)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8b2351c4b095dc@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T160000Z
 SUMMARY:🔥 Sagres (Tonel) 8.5/10 · 2.0m 11s NW · 4kn NNE
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: medium. 4 wave model
- s say 1.8 to 2.3 m.\n\nHour (local)  score  waves            wind\nThu 07:
- 00     8.5   2.0m 11.1s  NW    4kn (g7) NNE glassy\nThu 08:00     8.5   2.
- 0m 11.1s  NW    4kn (g7) NNE glassy\nThu 09:00     8.5   1.9m 11.1s  NW   
-  4kn (g8)   N glassy\nThu 10:00     8.5   1.9m 11.1s  NW    6kn (g11) NNW 
- cross\nThu 11:00     8.5   1.8m 11.1s  NW    8kn (g15) NNW cross\nThu 12:0
- 0       6   1.8m 11.1s  NW    8kn (g16) NNW onshore\nThu 13:00       5   1
- .7m 10.9s  NW    8kn (g16) NNW onshore\nThu 14:00       5   1.6m 10.7s  NW
-     8kn (g15) NNW onshore\nThu 15:00       5   1.6m 10.6s  NW    7kn (g15)
-  NNW onshore\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
+DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: medium. 5 wave model
+ s say 1.7 to 2.3 m.\n\nHour (local)  score  waves            wind\nThu 07:
+ 00     8.5   2.0m 11.2s  NW    4kn (g7) NNE glassy\nThu 08:00     8.5   1.
+ 9m 11.2s  NW    4kn (g7) NNE glassy\nThu 09:00     8.5   1.9m 11.2s  NW   
+  4kn (g8)   N glassy\nThu 10:00     8.5   1.9m 11.2s  NW    6kn (g11) NNW 
+ cross\nThu 11:00     8.5   1.8m 11.2s  NW    8kn (g15) NNW cross\nThu 12:0
+ 0       6   1.7m 11.2s  NW    8kn (g16) NNW onshore\nThu 13:00       6   1
+ .7m 11.2s  NW    8kn (g16) NNW onshore\nThu 14:00       6   1.6m 11.2s  NW
+     8kn (g15) NNW onshore\nThu 15:00       6   1.6m 11.2s  NW    7kn (g15)
+  NNW onshore\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Sagres (Tonel)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a9b1a798bb4cc480@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261127T070000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Sagres (Tonel) 8/10 · 1.4m 10s NW · 3kn ESE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
+  1.2 to 1.6 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
      8   1.4m 10.1s  NW    3kn (g7) ESE glassy\nFri 08:00       8   1.4m 10
  .2s  NW    3kn (g7) ESE glassy\nFri 09:00       8   1.4m 10.2s  NW    3kn 
  (g7) ESE glassy\nFri 10:00       8   1.4m 10.2s  NW    3kn (g9) ESE glassy
- \nFri 11:00       8   1.5m 10.3s  NW    4kn (g9)  SE glassy\nFri 12:00    
-    7   1.5m 10.3s  NW    4kn (g9)  SE glassy\nFri 13:00       7   1.5m 10.
- 2s  NW    5kn (g10) SSE glassy\nFri 14:00       7   1.5m 10.2s  NW    5kn 
- (g10) SSE cross\nFri 15:00       7   1.5m 10.2s  NW    5kn (g10) SSE cross
- \nFri 16:00       7   1.5m 10.4s  NW    4kn (g7) SSE glassy\nFri 17:00    
-    7   1.5m 10.7s  NW    4kn (g7)  SE glassy\n\nGenerated 2026-11-23 15:00
+ \nFri 11:00       8   1.4m 10.3s  NW    4kn (g9)  SE glassy\nFri 12:00    
+    7   1.4m 10.3s  NW    4kn (g9)  SE glassy\nFri 13:00       7   1.4m 10.
+ 2s  NW    5kn (g10) SSE glassy\nFri 14:00       7   1.4m 10.2s  NW    5kn 
+ (g10) SSE cross\nFri 15:00       7   1.4m 10.2s  NW    5kn (g10) SSE cross
+ \nFri 16:00       7   1.4m 10.5s  NW    4kn (g7) SSE glassy\nFri 17:00    
+    7   1.5m 10.9s  NW    4kn (g7)  SE glassy\n\nGenerated 2026-11-23 17:00
   UTC from Open-Meteo.
 LOCATION:Sagres (Tonel)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f72993fef3576b49@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Sagres (Tonel) 9.5/10 · 1.6m 12s NW · 5kn ESE
-DESCRIPTION:Best 9.5/10 at 13:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nSat 07:00 
-       9   1.5m 11.2s  NW    2kn (g6) ESE glassy\nSat 08:00       9   1.5m 
- 11.4s  NW    2kn (g6) ESE glassy\nSat 09:00       9   1.5m 11.6s  NW    3k
- n (g6) ESE glassy\nSat 10:00       9   1.5m 11.7s  NW    3kn (g10) ESE gla
- ssy\nSat 11:00       9   1.6m 11.8s  NW    4kn (g10) ESE glassy\nSat 12:00
-        9   1.6m 11.9s  NW    5kn (g10) ESE offshore\nSat 13:00     9.5   1
- .6m 11.9s  NW    5kn (g9) ESE offshore\nSat 14:00     9.5   1.6m 11.9s  NW
-     4kn (g9)  SE glassy\nSat 15:00     8.5   1.7m 11.9s  NW    3kn (g9)  S
- E glassy\nSat 16:00     8.5   1.7m 11.9s  NW    2kn (g2)  SE glassy\nSat 1
- 7:00     9.5   1.7m 11.9s  NW    0kn (g2)   E glassy\n\nGenerated 2026-11-
- 23 15:00 UTC from Open-Meteo.
+SUMMARY:🔥 Sagres (Tonel) 9/10 · 1.5m 12s NW · 2kn ESE
+DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 4 wave models say
+  1.3 to 1.7 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
+     9   1.5m 11.9s  NW    2kn (g6) ESE glassy\nSat 08:00       9   1.5m 12
+ .0s  NW    2kn (g6) ESE glassy\nSat 09:00       9   1.5m 12.1s  NW    3kn 
+ (g6) ESE glassy\nSat 10:00       9   1.5m 12.2s  NW    3kn (g10) ESE glass
+ y\nSat 11:00       9   1.6m 12.4s  NW    4kn (g9)  SE glassy\nSat 12:00   
+     8   1.6m 12.4s  NW    4kn (g9)  SE glassy\nSat 13:00     8.5   1.6m 12
+ .5s  NW    4kn (g6) SSE glassy\nSat 14:00     8.5   1.6m 12.5s  NW    3kn 
+ (g6)   S glassy\nSat 15:00     8.5   1.7m 12.5s  NW    3kn (g6) SSW glassy
+ \nSat 16:00       8   1.7m 12.5s  NW    2kn (g4)  SW glassy\nSat 17:00    
+    8   1.7m 12.5s  NW    2kn (g4)  SW glassy\n\nGenerated 2026-11-23 17:00
+  UTC from Open-Meteo.
 LOCATION:Sagres (Tonel)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a14c7504bae95ef6@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Sagres (Tonel) 9/10 · 1.8m 13s NW · 2kn NE
-DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nSun 07:00   
-     9   1.8m 13.4s  NW    2kn (g4)  NE glassy\nSun 08:00       9   1.8m 13
- .6s  NW    2kn (g4)  NE glassy\nSun 09:00       9   1.8m 13.8s  NW    2kn 
- (g4)  NE glassy\nSun 10:00       9   1.8m 13.8s  NW    2kn (g5) NNE glassy
- \nSun 11:00       9   1.8m 13.9s  NW    2kn (g5) NNW glassy\nSun 12:00    
-  8.5   1.9m 13.9s  NW    2kn (g5) NNW glassy\nSun 13:00     8.5   1.9m 13.
- 8s  NW    3kn (g10) NNW glassy\nSun 14:00     8.5   1.9m 13.5s  NW    5kn 
- (g10) NNW glassy\nSun 15:00     8.5   1.9m 13.3s  NW    6kn (g10) NNW onsh
- ore\nSun 16:00     8.5   1.9m 13.2s  NW    5kn (g7) NNW glassy\nSun 17:00 
-     8.5   1.9m 13.2s  NW    4kn (g7) NNW glassy\n\nGenerated 2026-11-23 15
- :00 UTC from Open-Meteo.
+SUMMARY:🔥 Sagres (Tonel) 9.5/10 · 1.8m 12s NW · 1kn NE
+DESCRIPTION:Best 9.5/10 at 10:00. Forecast confidence: low. 4 wave models s
+ ay 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
+     8.5   1.8m 12.3s  NW    2kn (g4) NNE glassy\nSun 08:00     8.5   1.8m 
+ 12.3s  NW    2kn (g4) NNE glassy\nSun 09:00     8.5   1.8m 12.3s  NW    2k
+ n (g4)  NE glassy\nSun 10:00     9.5   1.8m 12.3s  NW    1kn (g3)  NE glas
+ sy\nSun 11:00     9.5   1.8m 12.4s  NW    1kn (g3)   E glassy\nSun 12:00  
+    9.5   1.8m 12.5s  NW    1kn (g3)   E glassy\nSun 13:00       8   1.8m 1
+ 2.7s  NW    1kn (g8)   W glassy\nSun 14:00       8   1.8m 12.9s  NW    3kn
+  (g8) WNW glassy\nSun 15:00     8.5   1.8m 13.0s  NW    4kn (g8) WNW glass
+ y\nSun 16:00     8.5   1.8m 13.1s  NW    4kn (g9) WNW glassy\nSun 17:00   
+   8.5   1.8m 13.1s  NW    4kn (g9)  NW glassy\n\nGenerated 2026-11-23 17:0
+ 0 UTC from Open-Meteo.
 LOCATION:Sagres (Tonel)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:126f9f19e7114bd5@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Sagres (Tonel) 10/10 · 1.9m 13s NW · 6kn ESE
-DESCRIPTION:Best 10/10 at 11:00. Forecast confidence: low. 3 wave models sa
- y 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
-    8.5   1.9m 12.8s  NW    2kn (g4) NNE glassy\nMon 08:00     8.5   1.9m 1
- 2.8s  NW    2kn (g4)  NE glassy\nMon 09:00     9.5   1.9m 12.9s  NW    2kn
-  (g4)  NE glassy\nMon 10:00     9.5   1.9m 12.9s  NW    3kn (g8)   E glass
- y\nMon 11:00      10   1.9m 13.0s  NW    6kn (g12) ESE offshore\nMon 12:00
-       10   1.9m 13.1s  NW    9kn (g18) ESE offshore\nMon 13:00      10   2
- .0m 13.1s  NW   11kn (g23)   E offshore\nMon 14:00      10   2.0m 13.1s  N
- W   11kn (g23)   E offshore\nMon 15:00      10   2.0m 13.0s  NW   10kn (g2
- 3)   E offshore\nMon 16:00     9.5   2.0m 12.9s  NW   10kn (g23)   E offsh
- ore\nMon 17:00     9.5   2.0m 12.9s  NW    9kn (g23)   E offshore\n\nGener
- ated 2026-11-23 15:00 UTC from Open-Meteo.
+SUMMARY:🔥 Sagres (Tonel) 9.5/10 · 1.9m 13s NW · 2kn NE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
+     8.5   1.9m 12.5s  NW    2kn (g4)  NE glassy\nMon 08:00     9.5   1.9m 
+ 12.6s  NW    2kn (g4)  NE glassy\nMon 09:00     9.5   1.9m 12.6s  NW    2k
+ n (g4)  NE glassy\nMon 10:00     9.5   1.9m 12.6s  NW    1kn (g5)   E glas
+ sy\nMon 11:00     8.5   1.9m 12.7s  NW    1kn (g5)  SE glassy\nMon 12:00  
+    8.5   1.9m 12.7s  NW    2kn (g5)   S glassy\nMon 13:00     8.5   1.9m 1
+ 2.7s  NW    3kn (g6)   S glassy\nMon 14:00     8.5   1.9m 12.7s  NW    3kn
+  (g6) SSW glassy\nMon 15:00     8.5   1.9m 12.7s  NW    3kn (g6) SSW glass
+ y\nMon 16:00       8   1.9m 12.6s  NW    3kn (g4) SSW glassy\nMon 17:00   
+     8   1.9m 12.6s  NW    2kn (g4)  SW glassy\n\nGenerated 2026-11-23 17:0
+ 0 UTC from Open-Meteo.
 LOCATION:Sagres (Tonel)
 TRANSP:TRANSPARENT
 END:VEVENT

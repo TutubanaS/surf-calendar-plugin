@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:6fed32b7e6ac07e7@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261123T080000Z
 DTEND:20261123T180000Z
 SUMMARY:🔥 Ofir 9.5/10 · 2.2m 11s WNW · 4kn E
@@ -23,13 +23,13 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: high. 5 wave models
  5   2.0m 11.2s WNW    5kn (g11)  SE glassy\nMon 15:00     8.5   2.0m 11.2s
   WNW    4kn (g9) SSE glassy\nMon 16:00     8.5   1.9m 11.2s WNW    3kn (g8
  ) SSW glassy\nMon 17:00       8   1.9m 11.2s WNW    2kn (g5)  SW glassy\n\
- nGenerated 2026-11-23 16:00 UTC from Open-Meteo.
+ nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cef61fa39de63339@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T080000Z
 DTEND:20261124T110000Z
 SUMMARY:🤏 Ofir 5/10 · 2.3m 11s WSW · 9kn SSE
@@ -37,13 +37,13 @@ DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: high. 5 wave models sa
  y 2.0 to 2.6 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
       5   2.3m 11.2s WSW    9kn (g17) SSE cross\nTue 09:00       5   2.5m 1
  1.2s WSW   11kn (g21)   S cross\nTue 10:00       5   2.5m 11.0s WSW   10kn
-  (g21)   S cross\n\nGenerated 2026-11-23 16:00 UTC from Open-Meteo.
+  (g21)   S cross\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:36e992dac8fccd88@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261125T140000Z
 DTEND:20261125T180000Z
 SUMMARY:🤏 Ofir 5/10 · 2.8m 10s WNW · 5kn NNW
@@ -52,13 +52,13 @@ DESCRIPTION:Best 5/10 at 14:00. Forecast confidence: medium. 5 wave models
         5   2.8m 10.2s WNW    5kn (g12) NNW onshore\nWed 15:00       5   2.
  7m 10.2s WNW    4kn (g10)  NW glassy\nWed 16:00       5   2.6m 10.2s WNW  
    2kn (g13) NNW glassy\nWed 17:00       5   2.6m 10.2s WNW    2kn (g4)  NW
-  glassy\n\nGenerated 2026-11-23 16:00 UTC from Open-Meteo.
+  glassy\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:74bbd5997fc4fa76@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Ofir 8.5/10 · 1.7m 10s WNW · 4kn E
@@ -72,13 +72,13 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 5 wave model
  m 10.2s WNW    4kn (g8) SSE glassy\nThu 15:00       7   1.6m 10.2s WNW    
  4kn (g9) SSE glassy\nThu 16:00       7   1.6m 10.2s WNW    3kn (g8) SSE gl
  assy\nThu 17:00       8   1.5m 10.2s WNW    3kn (g6)  SE glassy\n\nGenerat
- ed 2026-11-23 16:00 UTC from Open-Meteo.
+ ed 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c57a24c2af1feea6@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Ofir 9.5/10 · 1.8m 11s WNW · 3kn E
@@ -92,13 +92,13 @@ DESCRIPTION:Best 9.5/10 at 09:00. Forecast confidence: low. 4 wave models s
  11.7s WNW    6kn (g13)   S cross\nFri 15:00     8.5   1.8m 11.8s WNW    6k
  n (g13)   S cross\nFri 16:00     8.5   1.8m 11.7s WNW    6kn (g6)   S cros
  s\nFri 17:00     8.5   1.8m 11.7s WNW    4kn (g6)   S glassy\n\nGenerated 
- 2026-11-23 16:00 UTC from Open-Meteo.
+ 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6d9478449bc4955c@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Ofir 8.5/10 · 2.3m 13s WNW · 5kn S
@@ -112,13 +112,13 @@ DESCRIPTION:Best 8.5/10 at 16:00. Forecast confidence: low. 4 wave models s
  2.7s WNW    6kn (g13)   S cross\nSat 15:00     6.5   2.3m 12.7s WNW    5kn
   (g13)   S cross\nSat 16:00     8.5   2.3m 12.7s WNW    5kn (g8)   S glass
  y\nSat 17:00     8.5   2.3m 12.7s WNW    4kn (g8)   S glassy\n\nGenerated 
- 2026-11-23 16:00 UTC from Open-Meteo.
+ 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:748fcbcb920f6812@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Ofir 9.5/10 · 2.2m 13s NW · 2kn ENE
@@ -132,13 +132,13 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.4s  NW    4kn (g9) WSW glassy\nSun 15:00       8   2.2m 12.4s  NW    4kn
   (g9)   W glassy\nSun 16:00       8   2.2m 12.4s  NW    3kn (g4)   W glass
  y\nSun 17:00       8   2.2m 12.4s  NW    2kn (g4) WNW glassy\n\nGenerated 
- 2026-11-23 16:00 UTC from Open-Meteo.
+ 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1744fcaf5c690348@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Ofir 9.5/10 · 2.1m 13s NW · 3kn NE
@@ -152,7 +152,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.8s  NW    4kn (g8)  SE glassy\nMon 15:00     9.5   1.9m 12.7s  NW    4kn
   (g8)  SE glassy\nMon 16:00     9.5   1.9m 12.7s  NW    3kn (g4)  SE glass
  y\nMon 17:00     9.5   1.9m 12.7s  NW    2kn (g4)   E glassy\n\nGenerated 
- 2026-11-23 16:00 UTC from Open-Meteo.
+ 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT

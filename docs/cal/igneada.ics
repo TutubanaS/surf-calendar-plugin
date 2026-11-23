@@ -9,44 +9,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:5a4b48fe929b570c@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T120000Z
 DTEND:20261124T150000Z
 SUMMARY:👍 İğneada 6.5/10 · 0.8m 8s NNE · 5kn NW
 DESCRIPTION:Best 6.5/10 at 16:00. Forecast confidence: high. 4 wave models 
  say 0.7 to 1.1 m.\n\nHour (local)  score  waves            wind\nTue 15:00
-      5.5   0.8m  7.7s   N    6kn (g17)  NW cross\nTue 16:00     6.5   0.8m
-   8.0s NNE    5kn (g15)  NW glassy\nTue 17:00     6.5   0.8m  8.2s NNE    
- 3kn (g12) WNW glassy\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
-LOCATION:İğneada
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f2a89ba6356f4cfd@surf-windows
-DTSTAMP:20261123T150000Z
-DTSTART:20261128T100000Z
-DTEND:20261128T130000Z
-SUMMARY:🔥 İğneada 8/10 · 1.7m 6s NE · 6kn SW
-DESCRIPTION:Best 8/10 at 14:00. Forecast confidence: low. 3 wave models say
-  0.4 to 2.4 m.\n\nHour (local)  score  waves            wind\nSat 13:00   
-     5   1.2m  5.8s  NE    5kn (g18) SSE cross\nSat 14:00       8   1.7m  6
- .3s  NE    6kn (g16)  SW offshore\nSat 15:00       8   2.1m  6.7s  NE    7
- kn (g14) WNW offshore\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
-LOCATION:İğneada
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8088488dfbc045d2@surf-windows
-DTSTAMP:20261123T150000Z
-DTSTART:20261130T110000Z
-DTEND:20261130T150000Z
-SUMMARY:🔥 İğneada 9.5/10 · 4.3m 9s NNE · 19kn W
-DESCRIPTION:Best 9.5/10 at 15:00. Forecast confidence: low. 2 wave models s
- ay 4.0 to 4.6 m.\n\nHour (local)  score  waves            wind\nMon 14:00 
-       5   4.3m  9.2s NNE   18kn (g37) SSW cross\nMon 15:00     9.5   4.3m 
-  9.2s NNE   19kn (g42)   W offshore\nMon 16:00       5   4.3m  9.2s NNE   
- 21kn (g46)   N cross\nMon 17:00       5   4.2m  9.2s NNE   21kn (g45)   N 
- cross\n\nGenerated 2026-11-23 15:00 UTC from Open-Meteo.
+      5.5   0.8m  7.8s   N    6kn (g17)  NW cross\nTue 16:00     6.5   0.8m
+   8.1s NNE    5kn (g15)  NW glassy\nTue 17:00     6.5   0.8m  8.1s NNE    
+ 3kn (g12) WNW glassy\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:İğneada
 TRANSP:TRANSPARENT
 END:VEVENT

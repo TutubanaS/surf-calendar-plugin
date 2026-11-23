@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:73b90bf5bc143f3c@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261123T070000Z
 DTEND:20261123T180000Z
 SUMMARY:🔥 Costa da Caparica 9/10 · 1.5m 11s W · 5kn NE
@@ -24,27 +24,27 @@ DESCRIPTION:Best 9/10 at 09:00. Forecast confidence: medium. 4 wave models
  2.1s   W    6kn (g12) ENE offshore\nMon 15:00       9   1.4m 12.3s   W    
  4kn (g11) ENE glassy\nMon 16:00       9   1.4m 12.1s   W    3kn (g9)  NE g
  lassy\nMon 17:00       9   1.3m 11.6s   W    3kn (g7)  NE glassy\n\nGenera
- ted 2026-11-23 16:00 UTC from Open-Meteo.
+ ted 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Costa da Caparica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1ff14e9419a00816@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T090000Z
 SUMMARY:👍 Costa da Caparica 7/10 · 1.1m 11s W · 4kn S
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: medium. 4 wave models 
  say 0.7 to 1.3 m.\n\nHour (local)  score  waves            wind\nTue 07:00
         7   1.1m 11.2s   W    4kn (g7)   S glassy\nTue 08:00       7   1.1m
-  11.2s   W    6kn (g11)   S cross\n\nGenerated 2026-11-23 16:00 UTC from O
+  11.2s   W    6kn (g11)   S cross\n\nGenerated 2026-11-23 17:00 UTC from O
  pen-Meteo.
 LOCATION:Costa da Caparica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2ad3fd8027beb9ff@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T150000Z
 DTEND:20261124T180000Z
 SUMMARY:👍 Costa da Caparica 6.5/10 · 1.6m 16s W · 10kn NW
@@ -52,14 +52,14 @@ DESCRIPTION:Best 6.5/10 at 16:00. Forecast confidence: high. 4 wave models
  say 1.2 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 15:00
         6   1.6m 16.4s   W   11kn (g22)  NW onshore\nTue 16:00     6.5   1.
  6m 16.3s   W   10kn (g20)  NW onshore\nTue 17:00     6.5   1.7m 15.5s   W 
-    8kn (g19) NNW onshore\n\nGenerated 2026-11-23 16:00 UTC from Open-Meteo
+    8kn (g19) NNW onshore\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo
  .
 LOCATION:Costa da Caparica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a5f535a5357c35fa@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
 SUMMARY:🔥 Costa da Caparica 9/10 · 2.0m 14s W · 4kn NNW
@@ -73,14 +73,14 @@ DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
  .2s   W    7kn (g14) NNW cross\nWed 14:00     8.5   1.8m 12.2s   W    7kn 
  (g14) NNW cross\nWed 15:00     8.5   1.8m 12.3s   W    6kn (g15) NNW cross
  \nWed 16:00       8   1.7m 12.3s   W    6kn (g12) NNW onshore\nWed 17:00  
-      8   1.7m 12.3s   W    4kn (g10)  NW glassy\n\nGenerated 2026-11-23 16
+      8   1.7m 12.3s   W    4kn (g10)  NW glassy\n\nGenerated 2026-11-23 17
  :00 UTC from Open-Meteo.
 LOCATION:Costa da Caparica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:012cb6dcaba1fe52@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Costa da Caparica 8/10 · 1.3m 11s W · 2kn N
@@ -94,14 +94,14 @@ DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
  8s   W    4kn (g7)  NW glassy\nThu 14:00     5.5   1.1m 10.7s   W    5kn (
  g9)  NW glassy\nThu 15:00     5.5   1.0m 10.2s   W    4kn (g10)  NW glassy
  \nThu 16:00     5.5   1.0m 10.2s   W    5kn (g9)  NW glassy\nThu 17:00    
-  5.5   1.0m 10.2s   W    4kn (g9)  NW glassy\n\nGenerated 2026-11-23 16:00
+  5.5   1.0m 10.2s   W    4kn (g9)  NW glassy\n\nGenerated 2026-11-23 17:00
   UTC from Open-Meteo.
 LOCATION:Costa da Caparica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1fe2fefda4731a6@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Costa da Caparica 9/10 · 1.3m 11s NW · 5kn E
@@ -115,13 +115,13 @@ DESCRIPTION:Best 9/10 at 12:00. Forecast confidence: low. 3 wave models say
   11.4s WNW    5kn (g11) SSE glassy\nFri 15:00       8   1.3m 11.4s WNW    
  6kn (g11) SSE cross\nFri 16:00       8   1.3m 11.4s WNW    5kn (g7) SSE cr
  oss\nFri 17:00       8   1.3m 11.4s WNW    4kn (g7) SSE glassy\n\nGenerate
- d 2026-11-23 16:00 UTC from Open-Meteo.
+ d 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Costa da Caparica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cee61c28285536c4@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Costa da Caparica 9/10 · 1.3m 12s WNW · 4kn ENE
@@ -135,13 +135,13 @@ DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
  6s WNW    4kn (g7)  SE glassy\nSat 15:00       8   1.4m 12.6s  NW    3kn (
  g7)  SE glassy\nSat 16:00       8   1.4m 12.6s  NW    3kn (g4)  SE glassy\
  nSat 17:00       9   1.5m 12.6s  NW    2kn (g4) ESE glassy\n\nGenerated 20
- 26-11-23 16:00 UTC from Open-Meteo.
+ 26-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Costa da Caparica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d76c7e52ff21ce12@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Costa da Caparica 9/10 · 1.5m 12s NW · 2kn NE
@@ -155,13 +155,13 @@ DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
  5s  NW    2kn (g6) ENE glassy\nSun 15:00       9   1.5m 12.4s  NW    2kn (
  g6)  NE glassy\nSun 16:00       8   1.5m 12.4s  NW    1kn (g2)  NE glassy\
  nSun 17:00       8   1.5m 12.4s  NW    1kn (g2)   N glassy\n\nGenerated 20
- 26-11-23 16:00 UTC from Open-Meteo.
+ 26-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Costa da Caparica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:05109a54823cda4f@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Costa da Caparica 9/10 · 1.4m 13s NW · 3kn ENE
@@ -175,7 +175,7 @@ DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
  12.6s  NW    4kn (g8)   E glassy\nMon 15:00       9   1.4m 12.6s  NW    4k
  n (g8) ESE glassy\nMon 16:00       9   1.4m 12.6s  NW    3kn (g4) ESE glas
  sy\nMon 17:00       9   1.4m 12.7s  NW    2kn (g4) ESE glassy\n\nGenerated
-  2026-11-23 16:00 UTC from Open-Meteo.
+  2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Costa da Caparica
 TRANSP:TRANSPARENT
 END:VEVENT

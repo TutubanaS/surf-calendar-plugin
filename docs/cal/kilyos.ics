@@ -9,18 +9,18 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:27324e5dd2a12105@surf-windows
-DTSTAMP:20261123T150000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261125T050000Z
 DTEND:20261125T120000Z
-SUMMARY:👍 Kilyos 7/10 · 1.3m 6s NNW · 4kn SW
+SUMMARY:👍 Kilyos 7/10 · 1.2m 7s NNW · 4kn SW
 DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 4 wave models 
- say 1.1 to 1.5 m.\n\nHour (local)  score  waves            wind\nWed 08:00
-        7   1.3m  6.3s NNW    4kn (g9)  SW glassy\nWed 09:00       7   1.2m
-   6.3s NNW    4kn (g8) SSW glassy\nWed 10:00       7   1.1m  6.3s NNW    4
- kn (g8) SSW glassy\nWed 11:00       7   1.1m  6.3s NNW    5kn (g9) SSW gla
- ssy\nWed 12:00       7   1.0m  6.3s NNW    6kn (g11) SSW offshore\nWed 13:
- 00     5.5   0.9m  6.3s NNW    6kn (g12) SSW offshore\nWed 14:00     5.5  
-  0.8m  6.3s NNW    6kn (g12)  SW offshore\n\nGenerated 2026-11-23 15:00 UT
+ say 1.1 to 1.2 m.\n\nHour (local)  score  waves            wind\nWed 08:00
+        7   1.2m  7.0s NNW    4kn (g9)  SW glassy\nWed 09:00       7   1.1m
+   7.0s NNW    4kn (g8) SSW glassy\nWed 10:00       7   1.0m  7.0s NNW    4
+ kn (g8) SSW glassy\nWed 11:00     5.5   0.9m  6.3s NNW    5kn (g9) SSW gla
+ ssy\nWed 12:00     5.5   0.9m  6.3s NNW    6kn (g11) SSW offshore\nWed 13:
+ 00     5.5   0.8m  6.3s NNW    6kn (g12) SSW offshore\nWed 14:00     5.5  
+  0.8m  6.0s   N    6kn (g12)  SW offshore\n\nGenerated 2026-11-23 17:00 UT
  C from Open-Meteo.
 LOCATION:Kilyos
 TRANSP:TRANSPARENT

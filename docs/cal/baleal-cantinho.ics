@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:b5033fb17d880d0f@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261123T070000Z
 DTEND:20261123T180000Z
 SUMMARY:🔥 Baleal (Cantinho da Baía) 8.5/10 · 2.3m 11s NW · 3kn SE
@@ -24,14 +24,14 @@ DESCRIPTION:Best 8.5/10 at 09:00. Forecast confidence: high. 5 wave models
   (g11) ESE cross\nMon 15:00     8.5   2.1m 11.2s  NW    4kn (g10) ESE glas
  sy\nMon 16:00     8.5   2.0m 11.2s  NW    3kn (g7) ESE glassy\nMon 17:00  
       8   2.0m 11.2s  NW    2kn (g5) ESE glassy\n\nNotes: Mellow corner of 
- the bay\; a good place to learn.\nGenerated 2026-11-23 16:00 UTC from Open
+ the bay\; a good place to learn.\nGenerated 2026-11-23 17:00 UTC from Open
  -Meteo.
 LOCATION:Baleal (Cantinho da Baía)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6bfa137c62af0fe6@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T120000Z
 SUMMARY:🔥 Baleal (Cantinho da Baía) 9/10 · 1.7m 11s NW · 8kn SSE
@@ -42,13 +42,13 @@ DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 5 wave models sa
     8kn (g15) SSW offshore\nTue 10:00       7   2.0m 11.1s WNW    9kn (g14)
   WSW cross\nTue 11:00       6   2.1m 11.1s WNW   11kn (g18) WNW onshore\n\
  nNotes: Mellow corner of the bay\; a good place to learn.\nGenerated 2026-
- 11-23 16:00 UTC from Open-Meteo.
+ 11-23 17:00 UTC from Open-Meteo.
 LOCATION:Baleal (Cantinho da Baía)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23d3571eabc6ee32@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:🤏 Baleal (Cantinho da Baía) 5/10 · 2.6m 13s NW · 13kn NW
@@ -56,13 +56,13 @@ DESCRIPTION:Best 5/10 at 16:00. Forecast confidence: high. 5 wave models sa
  y 2.4 to 2.7 m.\n\nHour (local)  score  waves            wind\nTue 16:00  
       5   2.6m 13.2s  NW   13kn (g21)  NW onshore\nTue 17:00       5   2.7m
   14.2s  NW   12kn (g21)  NW onshore\n\nNotes: Mellow corner of the bay\; a
-  good place to learn.\nGenerated 2026-11-23 16:00 UTC from Open-Meteo.
+  good place to learn.\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Baleal (Cantinho da Baía)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b7cb70ec59a53d97@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Baleal (Cantinho da Baía) 7/10 · 2.1m 11s NW · 3kn NNW
@@ -76,14 +76,14 @@ DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 5 wave models
   10.2s  NW    3kn (g6)  NW glassy\nThu 15:00     6.5   1.8m 10.2s  NW    2
  kn (g6)  NW glassy\nThu 16:00     6.5   1.8m 10.2s  NW    4kn (g6) WNW gla
  ssy\nThu 17:00     6.5   1.8m 10.2s  NW    3kn (g7)  NW glassy\n\nNotes: M
- ellow corner of the bay\; a good place to learn.\nGenerated 2026-11-23 16:
+ ellow corner of the bay\; a good place to learn.\nGenerated 2026-11-23 17:
  00 UTC from Open-Meteo.
 LOCATION:Baleal (Cantinho da Baía)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5c4b0bb31f78c02a@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Baleal (Cantinho da Baía) 9/10 · 1.8m 11s NW · 8kn SE
@@ -98,13 +98,13 @@ DESCRIPTION:Best 9/10 at 12:00. Forecast confidence: low. 4 wave models say
      7kn (g12) SSE offshore\nFri 16:00       9   1.8m 11.4s  NW    7kn (g10
  ) SSE offshore\nFri 17:00       9   1.8m 11.4s  NW    6kn (g10) SSE offsho
  re\n\nNotes: Mellow corner of the bay\; a good place to learn.\nGenerated 
- 2026-11-23 16:00 UTC from Open-Meteo.
+ 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Baleal (Cantinho da Baía)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e2710794061eb6e@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Baleal (Cantinho da Baía) 9.5/10 · 2.1m 12s NW · 8kn SE
@@ -119,13 +119,13 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.2m 12.8s  NW    6kn (g13) SSE offshore\nSat 16:00     9.5   2.2m 12.8s  
  NW    5kn (g7) SSE glassy\nSat 17:00     9.5   2.2m 12.7s  NW    4kn (g7) 
   SE glassy\n\nNotes: Mellow corner of the bay\; a good place to learn.\nGe
- nerated 2026-11-23 16:00 UTC from Open-Meteo.
+ nerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Baleal (Cantinho da Baía)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:294c62ed0ddac650@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Baleal (Cantinho da Baía) 10/10 · 2.2m 13s NW · 2kn SE
@@ -139,14 +139,14 @@ DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: low. 4 wave models sa
  .0s  NW    2kn (g5)  SW glassy\nSun 15:00     8.5   2.3m 12.8s  NW    2kn 
  (g5) WSW glassy\nSun 16:00     8.5   2.3m 12.7s  NW    2kn (g4)   W glassy
  \nSun 17:00       8   2.3m 12.5s  NW    2kn (g4) WNW glassy\n\nNotes: Mell
- ow corner of the bay\; a good place to learn.\nGenerated 2026-11-23 16:00 
+ ow corner of the bay\; a good place to learn.\nGenerated 2026-11-23 17:00 
  UTC from Open-Meteo.
 LOCATION:Baleal (Cantinho da Baía)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9cc99e68da73947b@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Baleal (Cantinho da Baía) 9.5/10 · 2.2m 13s NW · 3kn SE
@@ -161,7 +161,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  7s  NW    7kn (g15)  SE offshore\nMon 16:00     9.5   2.1m 12.7s  NW    6k
  n (g10)  SE offshore\nMon 17:00     9.5   2.1m 12.7s  NW    5kn (g10)  SE 
  offshore\n\nNotes: Mellow corner of the bay\; a good place to learn.\nGene
- rated 2026-11-23 16:00 UTC from Open-Meteo.
+ rated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Baleal (Cantinho da Baía)
 TRANSP:TRANSPARENT
 END:VEVENT

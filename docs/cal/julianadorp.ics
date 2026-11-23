@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:67a6d0047320381c@surf-windows
-DTSTAMP:20261123T160000Z
+DTSTAMP:20261123T170000Z
 DTSTART:20261123T120000Z
 DTEND:20261123T160000Z
 SUMMARY:🤏 Julianadorp aan Zee 5.5/10 · 0.7m 8s NNW · 4kn N
@@ -18,7 +18,7 @@ DESCRIPTION:Best 5.5/10 at 16:00. Forecast confidence: high. 5 wave models
         5   0.8m  7.7s NNW    2kn (g4)   W glassy\nMon 14:00       5   0.8m
    7.7s NNW    4kn (g7)   W glassy\nMon 15:00       5   0.8m  7.7s NNW    4
  kn (g7)   W glassy\nMon 16:00     5.5   0.7m  7.7s NNW    4kn (g7)   N gla
- ssy\n\nGenerated 2026-11-23 16:00 UTC from Open-Meteo.
+ ssy\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
 LOCATION:Julianadorp aan Zee
 TRANSP:TRANSPARENT
 END:VEVENT
