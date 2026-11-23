@@ -1400,7 +1400,7 @@ function renderDialog() {
   const my = mine().sort((a, b) => a.name.localeCompare(b.name));
   el('feeds').innerHTML = my.length ? my.map(s => {
     const url = feedUrl(s.id);
-    return `<li><span class="fn">${esc(s.name)}</span><a class="btn" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcal(url))}">Google Calendar</a>`
+    return `<li><span class="fn">${esc(s.name)}</span><a class="btn" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(url)}">Google Calendar</a>`
       + `<a class="btn" href="${esc(webcal(url))}">Apple or Outlook</a><button type="button" class="btn" data-copy="${esc(url)}">Copy link</button></li>`;
   }).join('') : '<li class="empty">Tick at least one spot above.</li>';
   const names = (D.defaults || []).map(id => byId[id] && byId[id].name).filter(Boolean);

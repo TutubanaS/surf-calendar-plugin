@@ -6,5 +6,5 @@
   "min_window_hours": 2,
   "history_days": 30,
   "calendar_spots": ["scheveningen", "wijk-aan-zee"],
-  "feed_base": "https://raw.githubusercontent.com/TutubanaS/surf-calendar-plugin/main/docs/"
+  "feed_base": "https://tutubanas.github.io/surf-calendar-plugin/"
 }

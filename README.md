@@ -13,13 +13,13 @@ Finds surfable windows at wave-surfing spots for the next two weeks and publishe
 Every spot has its own feed, so you only get the spots you want. On the forecast page press **Subscribe to the calendar**, tick your spots and add each feed to Google Calendar, Apple Calendar or Outlook. The feed address is:
 
 ```
-https://raw.githubusercontent.com/TutubanaS/surf-calendar-plugin/main/docs/cal/<spot-id>.ics
+https://tutubanas.github.io/surf-calendar-plugin/cal/<spot-id>.ics
 ```
 
 There is also one combined feed with only the spots listed under `calendar_spots` in `config.json` (Scheveningen and Wijk aan Zee by default):
 
 ```
-https://raw.githubusercontent.com/TutubanaS/surf-calendar-plugin/main/docs/surf.ics
+https://tutubanas.github.io/surf-calendar-plugin/surf.ics
 ```
 
 Google Calendar → *Other calendars* → **+** → *From URL*. Apple Calendar: *File → New Calendar Subscription*.
