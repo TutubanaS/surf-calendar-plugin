@@ -8,50 +8,29 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:acdaa415a8fbbd5e@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Peniche (Molhe Leste) 8.5/10 · 2.1m 11s WNW · 3kn SE
-DESCRIPTION:Best 8.5/10 at 09:00. Forecast confidence: high. 5 wave models 
- say 1.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-      7.5   2.1m 10.4s WNW    3kn (g4)  SE glassy\nMon 08:00     7.5   2.1m
-  10.8s WNW    3kn (g5)  SE glassy\nMon 09:00     8.5   2.1m 11.2s WNW    3
- kn (g5)  SE glassy\nMon 10:00     8.5   2.1m 11.2s WNW    4kn (g6)  SE gla
- ssy\nMon 11:00     8.5   2.1m 11.2s  NW    5kn (g9) ESE cross\nMon 12:00  
-    8.5   2.0m 11.2s  NW    7kn (g10) ESE cross\nMon 13:00     8.5   2.0m 1
- 1.2s  NW    6kn (g11) ESE cross\nMon 14:00       8   2.0m 11.2s  NW    6kn
-  (g11) ESE cross\nMon 15:00       8   2.0m 11.2s  NW    4kn (g10) ESE glas
- sy\nMon 16:00       8   1.9m 11.2s  NW    3kn (g7) ESE glassy\nMon 17:00  
-      8   1.9m 11.2s  NW    2kn (g5) ESE glassy\n\nGenerated 2026-11-23 17:
- 00 UTC from Open-Meteo.
-LOCATION:Peniche (Molhe Leste)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:33c95b1827c6dbb6@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
-SUMMARY:👍 Peniche (Molhe Leste) 7.5/10 · 2.6m 13s WNW · 13kn NW
+SUMMARY:👍 Peniche (Molhe Leste) 7.5/10 · 2.6m 13s WNW · 14kn NW
 DESCRIPTION:Best 7.5/10 at 16:00. Forecast confidence: high. 5 wave models 
  say 2.3 to 2.6 m.\n\nHour (local)  score  waves            wind\nTue 07:00
       5.5   1.6m 11.2s  NW    8kn (g13) SSE onshore\nTue 08:00     5.5   1.
- 7m 11.2s WNW    9kn (g15) SSE onshore\nTue 09:00     5.5   1.7m 11.2s WNW 
-    8kn (g15) SSW onshore\nTue 10:00     5.5   1.9m 11.1s WNW    9kn (g14) 
+ 7m 11.2s WNW   10kn (g15) SSE onshore\nTue 09:00     5.5   1.7m 11.2s WNW 
+    8kn (g15)   S onshore\nTue 10:00     5.5   1.9m 11.1s WNW   10kn (g20) 
  WSW onshore\nTue 11:00       7   2.0m 11.1s WNW   11kn (g18) WNW cross\nTu
- e 12:00       7   2.0m 11.2s WNW   13kn (g21)  NW cross\nTue 13:00       7
-    2.1m 11.2s WNW   14kn (g22)  NW cross\nTue 14:00       7   2.3m 11.2s W
- NW   14kn (g23)  NW cross\nTue 15:00       7   2.5m 12.4s WNW   13kn (g22)
-   NW cross\nTue 16:00     7.5   2.6m 13.2s WNW   13kn (g21)  NW cross\nTue
-  17:00     7.5   2.6m 14.2s WNW   12kn (g21)  NW cross\n\nGenerated 2026-1
- 1-23 17:00 UTC from Open-Meteo.
+ e 12:00       7   2.0m 11.2s WNW   13kn (g21)  NW cross\nTue 13:00       5
+    2.1m 11.2s WNW   14kn (g24)  NW cross\nTue 14:00       5   2.3m 11.2s W
+ NW   15kn (g23)  NW cross\nTue 15:00       7   2.5m 12.4s WNW   14kn (g23)
+   NW cross\nTue 16:00     7.5   2.6m 13.2s WNW   14kn (g22)  NW cross\nTue
+  17:00     7.5   2.6m 14.2s WNW   13kn (g22)  NW cross\n\nGenerated 2026-1
+ 1-23 18:00 UTC from Open-Meteo.
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5612b074e0e9525a@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261125T080000Z
 DTEND:20261125T180000Z
 SUMMARY:🔥 Peniche (Molhe Leste) 8.5/10 · 2.8m 12s NW · 6kn NW
@@ -65,13 +44,13 @@ DESCRIPTION:Best 8.5/10 at 16:00. Forecast confidence: medium. 5 wave model
     3.0m 12.3s  NW    6kn (g12) NNW cross\nWed 15:00     6.5   2.9m 12.3s  
  NW    6kn (g11) NNW cross\nWed 16:00     8.5   2.8m 11.9s  NW    6kn (g16)
    NW cross\nWed 17:00     8.5   2.8m 11.7s  NW    6kn (g15)  NW cross\n\nG
- enerated 2026-11-23 17:00 UTC from Open-Meteo.
+ enerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0cf2fde2eca61e8d@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Peniche (Molhe Leste) 8/10 · 1.8m 11s NW · 4kn NNW
@@ -85,13 +64,13 @@ DESCRIPTION:Best 8/10 at 09:00. Forecast confidence: medium. 5 wave models
   10.2s  NW    3kn (g6)  NW glassy\nThu 15:00       7   1.6m 10.2s  NW    2
  kn (g6)  NW glassy\nThu 16:00       7   1.6m 10.2s  NW    4kn (g6) WNW gla
  ssy\nThu 17:00       7   1.6m 10.2s  NW    3kn (g7)  NW glassy\n\nGenerate
- d 2026-11-23 17:00 UTC from Open-Meteo.
+ d 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e4d6355108d5ef34@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Peniche (Molhe Leste) 8/10 · 1.7m 11s NW · 8kn SE
@@ -105,13 +84,13 @@ DESCRIPTION:Best 8/10 at 12:00. Forecast confidence: low. 4 wave models say
  1.2s  NW    8kn (g12) SSE onshore\nFri 15:00     5.5   1.7m 11.2s  NW    7
  kn (g12) SSE onshore\nFri 16:00     5.5   1.7m 11.3s  NW    7kn (g10) SSE 
  onshore\nFri 17:00     5.5   1.7m 11.4s  NW    6kn (g10) SSE onshore\n\nGe
- nerated 2026-11-23 17:00 UTC from Open-Meteo.
+ nerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e08ef838db9fb5c4@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Peniche (Molhe Leste) 8/10 · 1.9m 12s NW · 8kn SE
@@ -125,13 +104,13 @@ DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
  7s  NW    5kn (g10)  SE cross\nSat 15:00       8   1.9m 12.7s  NW    5kn (
  g10)  SE glassy\nSat 16:00       8   1.9m 12.7s  NW    4kn (g6)  SE glassy
  \nSat 17:00       8   1.9m 12.7s  NW    3kn (g6) ESE glassy\n\nGenerated 2
- 026-11-23 17:00 UTC from Open-Meteo.
+ 026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:44a0dbb7116b68fd@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Peniche (Molhe Leste) 9/10 · 2.1m 13s NW · 3kn ESE
@@ -145,13 +124,13 @@ DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
  0s  NW    1kn (g4) WNW glassy\nSun 15:00     8.5   2.1m 12.8s  NW    2kn (
  g4) WNW glassy\nSun 16:00     8.5   2.1m 12.7s  NW    2kn (g4)  NW glassy\
  nSun 17:00     8.5   2.1m 12.4s  NW    2kn (g4)  NW glassy\n\nGenerated 20
- 26-11-23 17:00 UTC from Open-Meteo.
+ 26-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b8a92900a31b1132@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Peniche (Molhe Leste) 8.5/10 · 2.0m 13s NW · 3kn ESE
@@ -165,7 +144,7 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  12.6s  NW    8kn (g15)  SE cross\nMon 15:00     8.5   2.0m 12.6s  NW    8k
  n (g15)  SE cross\nMon 16:00       8   2.0m 12.7s  NW    6kn (g10)  SE cro
  ss\nMon 17:00       8   2.0m 12.7s  NW    5kn (g10) ESE cross\n\nGenerated
-  2026-11-23 17:00 UTC from Open-Meteo.
+  2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -8,47 +8,26 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:f0eca41d2218ac6f@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Costa Nova 9.5/10 · 1.9m 11s WNW · 3kn ESE
-DESCRIPTION:Best 9.5/10 at 09:00. Forecast confidence: high. 4 wave models 
- say 1.6 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-      8.5   2.0m 10.8s WNW    3kn (g6) ESE glassy\nMon 08:00     8.5   1.9m
-  10.8s WNW    3kn (g6) ESE glassy\nMon 09:00     9.5   1.9m 11.2s WNW    3
- kn (g6) ESE glassy\nMon 10:00     9.5   1.9m 11.2s WNW    4kn (g9)  SE gla
- ssy\nMon 11:00     9.5   1.9m 11.2s WNW    5kn (g11)  SE glassy\nMon 12:00
-      9.5   1.9m 11.2s WNW    5kn (g11) ESE glassy\nMon 13:00     9.5   1.8
- m 11.2s WNW    4kn (g10)  SE glassy\nMon 14:00     9.5   1.8m 11.2s WNW   
-  4kn (g10)  SE glassy\nMon 15:00     8.5   1.8m 11.2s WNW    4kn (g10) SSE
-  glassy\nMon 16:00     8.5   1.7m 11.2s WNW    3kn (g8) SSE glassy\nMon 17
- :00     8.5   1.7m 11.2s WNW    2kn (g6)   S glassy\n\nGenerated 2026-11-2
- 3 17:00 UTC from Open-Meteo.
-LOCATION:Costa Nova
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:f2776fc4034874a4@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261124T080000Z
 DTEND:20261124T150000Z
-SUMMARY:🔥 Costa Nova 8/10 · 1.7m 11s WNW · 5kn WSW
+SUMMARY:🔥 Costa Nova 8/10 · 1.7m 11s WNW · 5kn SSW
 DESCRIPTION:Best 8/10 at 09:00. Forecast confidence: high. 4 wave models sa
  y 1.5 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
-      7   1.6m 11.2s WNW    8kn (g17)  SE cross\nTue 09:00       8   1.7m 1
- 1.2s WNW    5kn (g17) WSW glassy\nTue 10:00       7   1.8m 11.0s WNW    8k
- n (g16) SSE cross\nTue 11:00       6   1.9m 10.9s WNW   10kn (g20)   S cro
- ss\nTue 12:00       6   2.0m 11.2s WNW    6kn (g21)  SW onshore\nTue 13:00
-        6   2.0m 11.2s WNW    9kn (g22)  NW onshore\nTue 14:00       6   2.
- 2m 11.8s WNW   10kn (g24) WNW onshore\n\nGenerated 2026-11-23 17:00 UTC fr
+      7   1.6m 11.2s WNW    8kn (g16)  SE cross\nTue 09:00       8   1.7m 1
+ 1.2s WNW    5kn (g16) SSW glassy\nTue 10:00       7   1.8m 11.0s WNW    8k
+ n (g16) SSE cross\nTue 11:00       6   1.9m 10.9s WNW    8kn (g19)   S cro
+ ss\nTue 12:00       6   2.0m 11.2s WNW    7kn (g19) SSW onshore\nTue 13:00
+        6   2.0m 11.2s WNW   10kn (g25) WNW onshore\nTue 14:00       6   2.
+ 2m 11.8s WNW   10kn (g24) WNW onshore\n\nGenerated 2026-11-23 18:00 UTC fr
  om Open-Meteo.
 LOCATION:Costa Nova
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:06ca5e89b0e341b7@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261125T130000Z
 DTEND:20261125T180000Z
 SUMMARY:👍 Costa Nova 6.5/10 · 2.5m 11s NW · 2kn N
@@ -58,13 +37,13 @@ DESCRIPTION:Best 6.5/10 at 17:00. Forecast confidence: medium. 4 wave model
  2.6m 11.2s  NW    6kn (g18) NNW onshore\nWed 15:00       6   2.6m 11.2s  N
  W    5kn (g17) NNW glassy\nWed 16:00       6   2.5m 11.2s  NW    4kn (g15)
   NNW glassy\nWed 17:00     6.5   2.5m 11.2s  NW    2kn (g14)   N glassy\n\
- nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Costa Nova
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f03bcbd021ebc71@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Costa Nova 8.5/10 · 1.7m 10s NW · 3kn ESE
@@ -78,13 +57,13 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 4 wave model
  5m 10.2s  NW    3kn (g7)   S glassy\nThu 15:00       7   1.4m 10.2s  NW   
   2kn (g7)   S glassy\nThu 16:00       7   1.4m 10.2s  NW    2kn (g5)   S g
  lassy\nThu 17:00       7   1.4m 10.2s  NW    4kn (g7) SSE glassy\n\nGenera
- ted 2026-11-23 17:00 UTC from Open-Meteo.
+ ted 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Costa Nova
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:57ab68912aa85977@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Costa Nova 9/10 · 1.4m 11s NW · 5kn SE
@@ -98,13 +77,13 @@ DESCRIPTION:Best 9/10 at 09:00. Forecast confidence: low. 3 wave models say
  8   1.4m 11.6s WNW    5kn (g12)   S cross\nFri 15:00       8   1.4m 11.7s 
  WNW    5kn (g12)   S cross\nFri 16:00       8   1.4m 11.8s WNW    5kn (g8)
     S glassy\nFri 17:00       8   1.4m 11.8s WNW    4kn (g8)   S glassy\n\n
- Generated 2026-11-23 17:00 UTC from Open-Meteo.
+ Generated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Costa Nova
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bd69b334df993449@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Costa Nova 8.5/10 · 1.6m 13s WNW · 6kn SSE
@@ -118,13 +97,13 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 3 wave models s
  2.8s  NW    6kn (g12) SSE cross\nSat 15:00     8.5   1.7m 12.8s  NW    5kn
   (g12) SSE cross\nSat 16:00     8.5   1.7m 12.8s  NW    5kn (g6) SSE glass
  y\nSat 17:00     8.5   1.8m 12.7s  NW    4kn (g6) SSE glassy\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+ 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Costa Nova
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1ce6277ba06f988c@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Costa Nova 9.5/10 · 1.6m 13s NW · 2kn SE
@@ -138,13 +117,13 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
  2.5s  NW    3kn (g8)  SW glassy\nSun 15:00       8   1.6m 12.5s  NW    4kn
   (g8)  SW glassy\nSun 16:00       8   1.6m 12.5s  NW    3kn (g5) WSW glass
  y\nSun 17:00       8   1.6m 12.5s  NW    2kn (g5) WNW glassy\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+ 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Costa Nova
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9e520e11915d466e@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Costa Nova 9/10 · 1.6m 13s NW · 2kn E
@@ -158,7 +137,7 @@ DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
  8s  NW    3kn (g6) SSE glassy\nMon 15:00       8   1.6m 12.8s  NW    2kn (
  g6) SSE glassy\nMon 16:00       8   1.6m 12.8s  NW    2kn (g4) SSE glassy\
  nMon 17:00       8   1.6m 12.8s  NW    2kn (g4) SSE glassy\n\nGenerated 20
- 26-11-23 17:00 UTC from Open-Meteo.
+ 26-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Costa Nova
 TRANSP:TRANSPARENT
 END:VEVENT

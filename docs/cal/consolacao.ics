@@ -8,45 +8,24 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:e8e1a44aac1603f8@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Consolação 9.5/10 · 2.1m 11s WNW · 4kn ESE
-DESCRIPTION:Best 9.5/10 at 09:00. Forecast confidence: high. 5 wave models 
- say 1.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-      8.5   2.1m 10.4s WNW    3kn (g6) ESE glassy\nMon 08:00     8.5   2.1m
-  10.8s WNW    4kn (g7) ESE glassy\nMon 09:00     9.5   2.1m 11.2s WNW    4
- kn (g7) ESE glassy\nMon 10:00     9.5   2.1m 11.2s WNW    4kn (g8) ESE gla
- ssy\nMon 11:00     9.5   2.1m 11.2s  NW    6kn (g11) ESE offshore\nMon 12:
- 00     9.5   2.0m 11.2s  NW    8kn (g12) ESE offshore\nMon 13:00     9.5  
-  2.0m 11.2s  NW    7kn (g13) ESE offshore\nMon 14:00     9.5   2.0m 11.2s 
-  NW    6kn (g12) ESE offshore\nMon 15:00     9.5   2.0m 11.2s  NW    4kn (
- g10) ESE glassy\nMon 16:00     9.5   1.9m 11.2s  NW    3kn (g8) ESE glassy
- \nMon 17:00     9.5   1.9m 11.2s  NW    2kn (g5)   E glassy\n\nGenerated 2
- 026-11-23 17:00 UTC from Open-Meteo.
-LOCATION:Consolação
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:81f76c37e857d9ca@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T120000Z
 SUMMARY:🔥 Consolação 9.5/10 · 1.6m 11s NW · 7kn SSE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models 
  say 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 07:00
-      9.5   1.6m 11.2s  NW    7kn (g13) SSE offshore\nTue 08:00     9.5   1
- .7m 11.2s WNW    8kn (g16) SSE offshore\nTue 09:00     8.5   1.7m 11.2s WN
- W    7kn (g16) SSW cross\nTue 10:00       6   1.9m 11.1s WNW    8kn (g15) 
-  SW onshore\nTue 11:00       6   2.0m 11.1s WNW   10kn (g19) WNW onshore\n
- \nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+      9.5   1.6m 11.2s  NW    7kn (g14) SSE offshore\nTue 08:00       7   1
+ .7m 11.2s WNW    9kn (g17) SSE cross\nTue 09:00     8.5   1.7m 11.2s WNW  
+   7kn (g17)   S cross\nTue 10:00       6   1.9m 11.1s WNW   10kn (g22) WSW
+  onshore\nTue 11:00       6   2.0m 11.1s WNW   11kn (g19) WNW onshore\n\nG
+ enerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4fa8ac0a7e68d4b6@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Consolação 7.5/10 · 1.8m 11s NW · 2kn N
@@ -60,13 +39,13 @@ DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: medium. 5 wave model
  .7m 10.2s  NW    4kn (g8)  NW glassy\nThu 15:00       7   1.6m 10.2s  NW  
    3kn (g8)  NW glassy\nThu 16:00       7   1.6m 10.2s  NW    4kn (g7) WNW 
  glassy\nThu 17:00     6.5   1.6m 10.2s  NW    3kn (g7)  NW glassy\n\nGener
- ated 2026-11-23 17:00 UTC from Open-Meteo.
+ ated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2cf8b8faa0d5a2a6@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Consolação 9.5/10 · 1.7m 11s NW · 8kn SE
@@ -80,13 +59,13 @@ DESCRIPTION:Best 9.5/10 at 12:00. Forecast confidence: low. 4 wave models s
      9.5   1.7m 11.2s  NW    8kn (g14)  SE offshore\nFri 15:00     9.5   1.
  7m 11.2s  NW    7kn (g14) SSE offshore\nFri 16:00     9.5   1.7m 11.3s  NW
      7kn (g10) SSE offshore\nFri 17:00     9.5   1.7m 11.4s  NW    6kn (g10
- )  SE offshore\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ )  SE offshore\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a678dc8a7a2f66b5@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Consolação 9.5/10 · 1.9m 12s NW · 7kn SE
@@ -100,13 +79,13 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  0     9.5   2.0m 12.7s  NW    5kn (g10)  SE offshore\nSat 15:00     9.5   
  1.9m 12.7s  NW    5kn (g10)  SE glassy\nSat 16:00     9.5   1.9m 12.7s  NW
      4kn (g6)  SE glassy\nSat 17:00     9.5   1.9m 12.7s  NW    3kn (g6) ES
- E glassy\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ E glassy\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2f21ab355c0a4e81@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Consolação 10/10 · 2.1m 13s NW · 3kn ESE
@@ -120,13 +99,13 @@ DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: low. 4 wave models sa
  .0s  NW    1kn (g4) WNW glassy\nSun 15:00       8   2.1m 12.8s  NW    2kn 
  (g4) WNW glassy\nSun 16:00       8   2.1m 12.7s  NW    2kn (g4)  NW glassy
  \nSun 17:00       8   2.1m 12.4s  NW    2kn (g4)  NW glassy\n\nGenerated 2
- 026-11-23 17:00 UTC from Open-Meteo.
+ 026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:25a46b1f6540c01b@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Consolação 9.5/10 · 2.0m 13s NW · 3kn ESE
@@ -140,7 +119,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  5   2.0m 12.6s  NW    8kn (g15)  SE offshore\nMon 15:00     9.5   2.0m 12.
  6s  NW    8kn (g15)  SE offshore\nMon 16:00     9.5   2.0m 12.7s  NW    6k
  n (g10)  SE offshore\nMon 17:00     9.5   2.0m 12.7s  NW    5kn (g10) ESE 
- offshore\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ offshore\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT

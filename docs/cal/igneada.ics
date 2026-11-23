@@ -9,15 +9,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:5a4b48fe929b570c@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261124T120000Z
 DTEND:20261124T150000Z
-SUMMARY:👍 İğneada 6.5/10 · 0.8m 8s NNE · 5kn NW
+SUMMARY:👍 İğneada 6.5/10 · 0.8m 8s NNE · 4kn WNW
 DESCRIPTION:Best 6.5/10 at 16:00. Forecast confidence: high. 4 wave models 
  say 0.7 to 1.1 m.\n\nHour (local)  score  waves            wind\nTue 15:00
-      5.5   0.8m  7.8s   N    6kn (g17)  NW cross\nTue 16:00     6.5   0.8m
-   8.1s NNE    5kn (g15)  NW glassy\nTue 17:00     6.5   0.8m  8.1s NNE    
- 3kn (g12) WNW glassy\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+      5.5   0.8m  7.8s   N    5kn (g16)  NW cross\nTue 16:00     6.5   0.8m
+   8.1s NNE    4kn (g14) WNW glassy\nTue 17:00     6.5   0.8m  8.1s NNE    
+ 3kn (g12) WNW glassy\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:İğneada
 TRANSP:TRANSPARENT
 END:VEVENT

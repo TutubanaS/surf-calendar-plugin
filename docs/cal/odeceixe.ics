@@ -8,68 +8,47 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:c6c6cece2a4806bc@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Odeceixe 8.5/10 · 2.1m 10s WNW · 4kn ENE
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: high. 5 wave models 
- say 2.0 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-      8.5   2.1m 10.2s WNW    4kn (g7) ENE glassy\nMon 08:00     8.5   2.0m
-  10.2s WNW    4kn (g7) ENE glassy\nMon 09:00     8.5   2.0m 10.2s WNW    4
- kn (g8) ENE glassy\nMon 10:00     8.5   2.0m 10.2s WNW    6kn (g10) ENE of
- fshore\nMon 11:00     8.5   2.0m 10.2s WNW    5kn (g11) ENE offshore\nMon 
- 12:00     8.5   2.0m 10.2s WNW    4kn (g10) ENE glassy\nMon 13:00     8.5 
-   2.0m 10.4s WNW    0kn (g7) ENE glassy\nMon 14:00       7   2.0m 10.8s WN
- W    3kn (g6) WSW glassy\nMon 15:00       8   2.0m 11.2s WNW    4kn (g8) W
- SW glassy\nMon 16:00       8   1.9m 11.2s WNW    3kn (g8)   W glassy\nMon 
- 17:00       8   1.9m 11.2s WNW    2kn (g6)   W glassy\n\nGenerated 2026-11
- -23 17:00 UTC from Open-Meteo.
-LOCATION:Odeceixe
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:e1436b44aab8743d@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T140000Z
-SUMMARY:🔥 Odeceixe 9/10 · 1.5m 11s WNW · 4kn ESE
+SUMMARY:🔥 Odeceixe 9/10 · 1.5m 11s WNW · 4kn SE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 5 wave models sa
- y 1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
-      9   1.5m 11.2s WNW    4kn (g6) ESE glassy\nTue 08:00       9   1.5m 1
- 1.2s WNW    3kn (g7)  SE glassy\nTue 09:00       9   1.5m 11.2s WNW    3kn
-  (g8)  SE glassy\nTue 10:00       8   1.5m 11.2s WNW    2kn (g6) SSE glass
+ y 1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
+      9   1.5m 11.2s WNW    4kn (g7)  SE glassy\nTue 08:00       9   1.5m 1
+ 1.2s WNW    4kn (g7)  SE glassy\nTue 09:00       9   1.5m 11.2s WNW    3kn
+  (g7)  SE glassy\nTue 10:00       8   1.5m 11.2s WNW    3kn (g7) SSE glass
  y\nTue 11:00       8   1.5m 11.2s WNW    4kn (g7)   S glassy\nTue 12:00   
-   7.5   1.5m 11.2s WNW    4kn (g7) WSW glassy\nTue 13:00     5.5   1.6m 11
- .2s WNW    6kn (g11) WSW onshore\n\nGenerated 2026-11-23 17:00 UTC from Op
- en-Meteo.
+     8   1.5m 11.2s WNW    2kn (g7) SSW glassy\nTue 13:00     7.5   1.6m 11
+ .2s WNW    3kn (g6) WSW glassy\n\nGenerated 2026-11-23 18:00 UTC from Open
+ -Meteo.
 LOCATION:Odeceixe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5e3d96f9be81ea8c@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Odeceixe 9.5/10 · 2.0m 11s NW · 2kn ESE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 5 wave model
  s say 1.8 to 2.4 m.\n\nHour (local)  score  waves            wind\nThu 07:
- 00     9.5   2.0m 11.2s  NW    2kn (g5) ESE glassy\nThu 08:00     9.5   1.
- 9m 11.2s  NW    3kn (g5) ESE glassy\nThu 09:00     9.5   1.9m 11.2s  NW   
-  2kn (g5) ESE glassy\nThu 10:00       8   1.8m 11.2s  NW    0kn (g4) WNW g
+ 00     9.5   2.0m 11.2s  NW    2kn (g5) ESE glassy\nThu 08:00     9.5   2.
+ 0m 11.2s  NW    3kn (g5) ESE glassy\nThu 09:00     9.5   1.9m 11.2s  NW   
+  2kn (g5) ESE glassy\nThu 10:00       8   1.9m 11.2s  NW    0kn (g4) WNW g
  lassy\nThu 11:00       8   1.8m 11.2s  NW    4kn (g8)  NW glassy\nThu 12:0
  0       6   1.8m 11.2s  NW    7kn (g13) NNW onshore\nThu 13:00       6   1
- .7m 11.0s  NW    7kn (g13) NNW onshore\nThu 14:00       5   1.7m 10.9s  NW
+ .8m 11.0s  NW    7kn (g13) NNW onshore\nThu 14:00       5   1.7m 10.9s  NW
      7kn (g13) NNW onshore\nThu 15:00       5   1.7m 10.2s  NW    7kn (g12)
   NNW onshore\nThu 16:00       5   1.6m 10.2s  NW    7kn (g12) NNW onshore\
  nThu 17:00       7   1.6m 10.2s  NW    5kn (g12) NNW onshore\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+ 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Odeceixe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9694d48cb43728d7@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T070000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Odeceixe 8/10 · 1.5m 10s NW · 4kn E
@@ -83,14 +62,14 @@ DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
  6s  NW    2kn (g7)   W glassy\nFri 14:00     6.5   1.5m 10.9s  NW    3kn (
  g7)   W glassy\nFri 15:00     7.5   1.6m 11.2s  NW    4kn (g7) WNW glassy\
  nFri 16:00     7.5   1.6m 11.3s  NW    3kn (g3)   W glassy\nFri 17:00     
-   8   1.6m 11.3s  NW    1kn (g3)   W glassy\n\nGenerated 2026-11-23 17:00 
+   8   1.6m 11.3s  NW    1kn (g3)   W glassy\n\nGenerated 2026-11-23 18:00 
  UTC from Open-Meteo.
 LOCATION:Odeceixe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:98db20bb3a39da6d@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Odeceixe 9.5/10 · 1.6m 12s NW · 4kn E
@@ -104,14 +83,14 @@ DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
  2.4s  NW    1kn (g6) WSW glassy\nSat 14:00       8   1.9m 12.4s  NW    2kn
   (g6)   W glassy\nSat 15:00       8   1.9m 12.4s  NW    3kn (g6)   W glass
  y\nSat 16:00       8   1.9m 12.5s  NW    3kn (g4)   W glassy\nSat 17:00   
-     8   1.9m 12.5s  NW    2kn (g4) WNW glassy\n\nGenerated 2026-11-23 17:0
+     8   1.9m 12.5s  NW    2kn (g4) WNW glassy\n\nGenerated 2026-11-23 18:0
  0 UTC from Open-Meteo.
 LOCATION:Odeceixe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3c7b0ac2ec7d2132@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Odeceixe 10/10 · 1.9m 13s NW · 4kn E
@@ -125,19 +104,19 @@ DESCRIPTION:Best 10/10 at 11:00. Forecast confidence: low. 4 wave models sa
  .3s  NW    3kn (g9) NNE glassy\nSun 14:00       9   1.9m 13.2s  NW    4kn 
  (g9)   N glassy\nSun 15:00     8.5   1.9m 13.2s  NW    5kn (g9) NNW onshor
  e\nSun 16:00     8.5   1.9m 13.2s  NW    5kn (g8) NNW onshore\nSun 17:00  
-    8.5   1.9m 13.2s  NW    4kn (g8) NNW glassy\n\nGenerated 2026-11-23 17:
+    8.5   1.9m 13.2s  NW    4kn (g8) NNW glassy\n\nGenerated 2026-11-23 18:
  00 UTC from Open-Meteo.
 LOCATION:Odeceixe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0041caa49322fceb@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Odeceixe 9.5/10 · 2.0m 13s NW · 4kn E
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
- ay 1.7 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
+ ay 1.7 to 2.5 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
      9.5   2.0m 12.6s  NW    4kn (g7)   E glassy\nMon 08:00     9.5   2.0m 
  12.6s  NW    4kn (g7)   E glassy\nMon 09:00     9.5   2.0m 12.6s  NW    4k
  n (g7)   E glassy\nMon 10:00     9.5   1.9m 12.6s  NW    4kn (g4)   E glas
@@ -146,7 +125,7 @@ DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
  2.6s  NW    1kn (g7)   W glassy\nMon 14:00       8   1.9m 12.6s  NW    3kn
   (g7)   W glassy\nMon 15:00       8   1.9m 12.6s  NW    4kn (g7) WNW glass
  y\nMon 16:00       8   1.9m 12.6s  NW    4kn (g5) WNW glassy\nMon 17:00   
-     8   1.9m 12.6s  NW    2kn (g5) WNW glassy\n\nGenerated 2026-11-23 17:0
+     8   1.9m 12.6s  NW    2kn (g5) WNW glassy\n\nGenerated 2026-11-23 18:0
  0 UTC from Open-Meteo.
 LOCATION:Odeceixe
 TRANSP:TRANSPARENT

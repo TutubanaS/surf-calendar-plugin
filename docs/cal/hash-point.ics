@@ -8,55 +8,34 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:91c62be0055b7246@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Hash Point 8/10 · 1.3m 11s NW · 6kn NE
-DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: medium. 5 wave models 
- say 0.7 to 1.7 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-        8   1.3m 11.2s  NW    6kn (g9)  NE offshore\nMon 08:00       8   1.
- 3m 11.2s  NW    6kn (g9)  NE offshore\nMon 09:00       8   1.3m 11.2s  NW 
-    2kn (g9)  NE glassy\nMon 10:00     6.5   1.3m 11.2s  NW    2kn (g5) WSW
-  glassy\nMon 11:00     6.5   1.3m 11.2s  NW    2kn (g6) WSW glassy\nMon 12
- :00     6.5   1.3m 11.2s  NW    2kn (g6)  SW glassy\nMon 13:00     5.5   1
- .3m 10.8s  NW    2kn (g6)  SW glassy\nMon 14:00     5.5   1.3m 10.3s  NW  
-   2kn (g6)  SW glassy\nMon 15:00     5.5   1.3m 10.2s  NW    2kn (g5)  SW 
- glassy\nMon 16:00     5.5   1.3m 10.2s  NW    1kn (g4) WNW glassy\nMon 17:
- 00       6   1.3m 10.2s  NW    2kn (g4) NNW glassy\n\nGenerated 2026-11-23
-  17:00 UTC from Open-Meteo.
-LOCATION:Hash Point
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:84cc6d48309ae2c5@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
-SUMMARY:👍 Hash Point 7/10 · 1.2m 11s NW · 6kn NE
+SUMMARY:👍 Hash Point 7/10 · 1.2m 11s NW · 7kn NE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: medium. 5 wave models 
  say 0.8 to 1.5 m.\n\nHour (local)  score  waves            wind\nTue 07:00
-        7   1.2m 10.8s  NW    6kn (g10)  NE offshore\nTue 08:00       7   1
+        7   1.2m 10.8s  NW    7kn (g10)  NE offshore\nTue 08:00       7   1
  .2m 10.8s  NW    6kn (g10)  NE offshore\nTue 09:00       7   1.2m 10.7s  N
- W    4kn (g10) NNE glassy\nTue 10:00     5.5   1.1m 11.2s  NW    2kn (g5) 
+ W    4kn (g10)  NE glassy\nTue 10:00     5.5   1.1m 11.2s  NW    2kn (g5) 
  WSW glassy\nTue 11:00     5.5   1.1m 11.2s  NW    2kn (g5)   W glassy\nTue
-  12:00     5.5   1.1m 11.2s  NW    3kn (g6)   W glassy\nTue 13:00     5.5 
-   1.1m 11.1s  NW    4kn (g8) WNW glassy\nTue 14:00       6   1.1m 11.1s  N
- W    5kn (g9)  NW cross\nTue 15:00       7   1.2m 11.2s  NW    7kn (g11) N
- NW cross\nTue 16:00       7   1.2m 11.2s  NW    7kn (g12)   N cross\nTue 1
+  12:00     5.5   1.1m 11.2s  NW    4kn (g8)   W glassy\nTue 13:00     5.5 
+   1.1m 11.1s  NW    4kn (g9) WNW glassy\nTue 14:00       6   1.1m 11.1s  N
+ W    5kn (g9)  NW cross\nTue 15:00       7   1.2m 11.2s  NW    6kn (g10) N
+ NW cross\nTue 16:00       7   1.2m 11.2s  NW    6kn (g11)   N cross\nTue 1
  7:00       7   1.2m 11.2s  NW    7kn (g12)   N cross\n\nGenerated 2026-11-
- 23 17:00 UTC from Open-Meteo.
+ 23 18:00 UTC from Open-Meteo.
 LOCATION:Hash Point
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:25e633d3455b9c83@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
 SUMMARY:🔥 Hash Point 8.5/10 · 1.5m 16s NW · 4kn NE
 DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: low. 5 wave models s
- ay 0.9 to 2.1 m.\n\nHour (local)  score  waves            wind\nWed 07:00 
+ ay 0.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nWed 07:00 
      8.5   1.5m 16.3s  NW    4kn (g7)  NE glassy\nWed 08:00     8.5   1.6m 
  14.8s  NW    4kn (g7)  NE glassy\nWed 09:00     8.5   1.6m 14.8s  NW    2k
  n (g6)  NE glassy\nWed 10:00       7   1.7m 14.8s  NW    2kn (g4)  SW glas
@@ -65,19 +44,19 @@ DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: low. 5 wave models s
  4.8s  NW    4kn (g8)  SW glassy\nWed 14:00       8   2.0m 14.8s  NW    3kn
   (g8) WSW glassy\nWed 15:00       8   2.1m 14.8s  NW    3kn (g7) WSW glass
  y\nWed 16:00     7.5   2.1m 12.9s  NW    4kn (g7) WNW glassy\nWed 17:00   
-     7   2.2m 10.3s  NW    3kn (g6)  NW glassy\n\nGenerated 2026-11-23 17:0
+     7   2.2m 10.3s  NW    3kn (g6)  NW glassy\n\nGenerated 2026-11-23 18:0
  0 UTC from Open-Meteo.
 LOCATION:Hash Point
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dd90dac19cef387f@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Hash Point 8/10 · 1.7m 12s NW · 5kn ENE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 5 wave models say
-  0.9 to 2.4 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
+  0.9 to 2.5 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
      8   1.7m 12.2s  NW    5kn (g7) ENE glassy\nThu 08:00       8   1.7m 12
  .2s  NW    5kn (g8) ENE glassy\nThu 09:00       8   1.6m 12.3s  NW    0kn 
  (g7)  NE glassy\nThu 10:00     6.5   1.6m 12.3s  NW    2kn (g5)  SW glassy
@@ -87,50 +66,50 @@ DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 5 wave models say
  n (g6)  SE glassy\nThu 15:00       7   2.1m  8.4s  NW    8kn (g13) NNE off
  shore\nThu 16:00       7   2.2m  8.4s  NW   12kn (g20) NNE offshore\nThu 1
  7:00       7   2.2m  8.4s  NW   11kn (g20) NNE offshore\n\nGenerated 2026-
- 11-23 17:00 UTC from Open-Meteo.
+ 11-23 18:00 UTC from Open-Meteo.
 LOCATION:Hash Point
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb48e513791dbf31@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T070000Z
 DTEND:20261127T150000Z
 SUMMARY:👍 Hash Point 7/10 · 1.6m 10s NNW · 5kn ENE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.0 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
+  1.0 to 2.1 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
      7   1.6m 10.0s NNW    5kn (g8) ENE glassy\nFri 08:00       7   1.6m 10
  .2s NNW    4kn (g8) ENE glassy\nFri 09:00       7   1.5m 10.2s NNW    2kn 
  (g8) ENE glassy\nFri 10:00       6   1.5m 10.2s NNW    1kn (g8)  SE glassy
  \nFri 11:00     5.5   1.4m 10.2s NNW    2kn (g8) SSW glassy\nFri 12:00    
   5.5   1.4m 10.1s NNW    4kn (g8)  SW glassy\nFri 13:00     5.5   1.4m 10.
  1s NNW    4kn (g11) WSW glassy\nFri 14:00     5.5   1.3m 10.0s NNW    6kn 
- (g11)   W onshore\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ (g11)   W onshore\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Hash Point
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:81789262d8e6d2dd@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:🤏 Hash Point 6/10 · 1.2m 10s NNW · 5kn NW
 DESCRIPTION:Best 6/10 at 17:00. Forecast confidence: low. 4 wave models say
-  0.9 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 16:00   
+  0.9 to 1.6 m.\n\nHour (local)  score  waves            wind\nFri 16:00   
    5.5   1.3m  9.9s NNW    6kn (g8)  NW onshore\nFri 17:00       6   1.2m  
- 9.9s NNW    5kn (g8)  NW glassy\n\nGenerated 2026-11-23 17:00 UTC from Ope
+ 9.9s NNW    5kn (g8)  NW glassy\n\nGenerated 2026-11-23 18:00 UTC from Ope
  n-Meteo.
 LOCATION:Hash Point
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30485da23fe6d8d3@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:👍 Hash Point 7/10 · 1.1m 11s NNW · 5kn NE
 DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 4 wave models say
-  0.8 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
+  0.8 to 1.5 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
      6   1.1m 10.6s NNW    6kn (g10)  NE offshore\nSat 08:00       7   1.1m
   11.0s NNW    5kn (g10)  NE offshore\nSat 09:00       7   1.1m 11.3s NNW  
    4kn (g10)  NE glassy\nSat 10:00       7   1.1m 11.4s NNW    2kn (g9)  NE
@@ -140,13 +119,13 @@ DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 4 wave models say
  W    4kn (g11) WSW glassy\nSat 15:00     5.5   1.1m 11.2s NNW    5kn (g11)
     W onshore\nSat 16:00     5.5   1.1m 11.2s NNW    6kn (g10) WNW onshore\
  nSat 17:00     5.5   1.1m 11.2s NNW    6kn (g10)  NW onshore\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+ 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Hash Point
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13eb44a1aa6a9768@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Hash Point 8/10 · 1.2m 12s NNW · 5kn NE
@@ -161,18 +140,18 @@ DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
  kn (g10) WSW glassy\nSun 15:00     6.5   1.2m 12.0s NNW    5kn (g10)   W o
  nshore\nSun 16:00     6.5   1.3m 12.1s NNW    6kn (g10) WNW onshore\nSun 1
  7:00       7   1.3m 12.1s NNW    6kn (g10)  NW cross\n\nGenerated 2026-11-
- 23 17:00 UTC from Open-Meteo.
+ 23 18:00 UTC from Open-Meteo.
 LOCATION:Hash Point
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fddbadbc169cd799@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Hash Point 8.5/10 · 1.4m 13s NNW · 4kn NE
 DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: low. 4 wave models s
- ay 0.9 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
+ ay 0.9 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
      8.5   1.4m 13.2s NNW    4kn (g9)  NE glassy\nMon 08:00     8.5   1.4m 
  13.2s NNW    4kn (g9)  NE glassy\nMon 09:00     8.5   1.4m 13.2s NNW    3k
  n (g9)  NE glassy\nMon 10:00     8.5   1.4m 13.3s NNW    1kn (g8) ENE glas
@@ -181,7 +160,7 @@ DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: low. 4 wave models s
  3.3s NNW    4kn (g8) WSW glassy\nMon 14:00       7   1.4m 13.3s NNW    4kn
   (g8) WSW glassy\nMon 15:00       7   1.4m 13.2s NNW    4kn (g8) WSW glass
  y\nMon 16:00     6.5   1.4m 13.0s NNW    4kn (g9)   W glassy\nMon 17:00   
-   6.5   1.4m 12.7s NNW    4kn (g9) WNW glassy\n\nGenerated 2026-11-23 17:0
+   6.5   1.4m 12.7s NNW    4kn (g9) WNW glassy\n\nGenerated 2026-11-23 18:0
  0 UTC from Open-Meteo.
 LOCATION:Hash Point
 TRANSP:TRANSPARENT

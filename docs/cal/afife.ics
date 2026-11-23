@@ -8,42 +8,22 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:2b8bb6118502a413@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T080000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Afife 9.5/10 · 2.1m 11s WNW · 5kn ESE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.9 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 08:00
-      9.5   2.1m 11.2s WNW    5kn (g16) ESE glassy\nMon 09:00     9.5   2.1
- m 11.2s WNW    5kn (g16) ESE offshore\nMon 10:00     9.5   2.0m 11.2s WNW 
-    6kn (g21) ESE offshore\nMon 11:00     9.5   2.0m 11.2s WNW    6kn (g22)
-   SE offshore\nMon 12:00     9.5   1.9m 11.2s WNW    6kn (g21)  SE offshor
- e\nMon 13:00     8.5   1.9m 11.2s WNW    7kn (g20) SSE cross\nMon 14:00   
-   8.5   1.9m 11.2s WNW    7kn (g16) SSE cross\nMon 15:00     8.5   1.8m 11
- .2s WNW    6kn (g15) SSE cross\nMon 16:00     8.5   1.8m 11.2s WNW    5kn 
- (g13)   S cross\nMon 17:00     8.5   1.8m 11.2s WNW    4kn (g14)   S glass
- y\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
-LOCATION:Afife
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:46d28969cb5f8f4b@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261124T080000Z
 DTEND:20261124T110000Z
-SUMMARY:🤏 Afife 5/10 · 2.4m 11s W · 10kn S
+SUMMARY:🤏 Afife 5/10 · 2.4m 11s W · 13kn SE
 DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: high. 5 wave models sa
  y 1.6 to 2.6 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
-      5   2.4m 11.2s   W   10kn (g38)   S cross\nTue 09:00       5   2.5m 1
- 1.2s   W   11kn (g32)  SE cross\nTue 10:00       5   2.5m 11.0s   W   10kn
-  (g32)  SE cross\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+      5   2.4m 11.2s   W   13kn (g39)  SE cross\nTue 09:00       5   2.5m 1
+ 1.2s   W   13kn (g39) SSE cross\nTue 10:00       5   2.5m 11.0s   W    9kn
+  (g40) SSE cross\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Afife
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:011d71e32b37c24a@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261125T130000Z
 DTEND:20261125T180000Z
 SUMMARY:🤏 Afife 5.5/10 · 2.7m 10s WNW · 3kn N
@@ -53,13 +33,13 @@ DESCRIPTION:Best 5.5/10 at 16:00. Forecast confidence: low. 5 wave models s
  m 10.2s WNW    4kn (g21) NNW glassy\nWed 15:00       5   2.8m 10.2s WNW   
   4kn (g19) NNW glassy\nWed 16:00     5.5   2.7m 10.2s WNW    3kn (g17)   N
   glassy\nWed 17:00     5.5   2.6m 10.2s WNW    3kn (g15) NNE glassy\n\nGen
- erated 2026-11-23 17:00 UTC from Open-Meteo.
+ erated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Afife
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fb2d0bbf8d6b84c9@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Afife 8.5/10 · 1.7m 10s WNW · 4kn ESE
@@ -73,13 +53,13 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 5 wave model
    7   1.6m 10.2s WNW    5kn (g19)  SE cross\nThu 15:00       7   1.6m 10.2
  s WNW    6kn (g18) SSE cross\nThu 16:00       7   1.5m 10.2s WNW    6kn (g
  17) SSE cross\nThu 17:00       8   1.5m 10.2s WNW    6kn (g18)  SE offshor
- e\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ e\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Afife
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:53ddc6fe3c036e9d@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Afife 9.5/10 · 1.8m 11s WNW · 6kn SE
@@ -93,13 +73,13 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  1.8m 11.7s WNW    8kn (g18)   S cross\nFri 15:00       7   1.8m 11.7s WNW 
     9kn (g18)   S cross\nFri 16:00       7   1.7m 11.7s WNW    9kn (g23)   
  S cross\nFri 17:00     8.5   1.7m 11.6s WNW    8kn (g23) SSE cross\n\nGene
- rated 2026-11-23 17:00 UTC from Open-Meteo.
+ rated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Afife
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a0f1210d258dabea@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Afife 8.5/10 · 2.3m 13s WNW · 7kn S
@@ -113,13 +93,13 @@ DESCRIPTION:Best 8.5/10 at 12:00. Forecast confidence: low. 4 wave models s
  2.7s WNW    7kn (g17)   S cross\nSat 15:00     8.5   2.3m 12.6s WNW    7kn
   (g17)   S cross\nSat 16:00     8.5   2.3m 12.6s WNW    7kn (g13)   S cros
  s\nSat 17:00     8.5   2.2m 12.7s WNW    6kn (g13)   S cross\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+ 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Afife
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7a9300bb1671f519@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Afife 8.5/10 · 2.2m 12s NW · 3kn NNE
@@ -133,13 +113,13 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.4s  NW    3kn (g7) WNW glassy\nSun 15:00       8   2.2m 12.4s  NW    3kn
   (g7) WNW glassy\nSun 16:00       8   2.2m 12.4s  NW    3kn (g6)  NW glass
  y\nSun 17:00       8   2.2m 12.4s  NW    3kn (g6)  NW glassy\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+ 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Afife
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b01597d87cc5de1@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Afife 9.5/10 · 2.1m 13s NW · 4kn ESE
@@ -153,7 +133,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.0m 12.7s  NW    5kn (g12)  SE offshore\nMon 15:00     9.5   2.0m 12.7s  
  NW    6kn (g12)  SE offshore\nMon 16:00     9.5   1.9m 12.7s  NW    5kn (g
  10)  SE offshore\nMon 17:00     9.5   1.9m 12.6s  NW    5kn (g10) ESE glas
- sy\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ sy\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Afife
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -8,50 +8,29 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:9191de19e0617aa7@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Bouznika 8.5/10 · 1.8m 10s NW · 3kn SSE
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: high. 4 wave models 
- say 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-      8.5   1.8m 10.2s  NW    3kn (g5) SSE glassy\nMon 08:00     8.5   1.8m
-  10.2s  NW    3kn (g6) SSE glassy\nMon 09:00     8.5   1.8m 10.2s  NW    2
- kn (g5) SSE glassy\nMon 10:00     8.5   1.8m 10.2s  NW    0kn (g4)   S gla
- ssy\nMon 11:00       7   1.8m 10.2s  NW    2kn (g5)   N glassy\nMon 12:00 
-       7   1.8m 10.2s  NW    4kn (g9)   N glassy\nMon 13:00       7   1.8m 
- 10.2s  NW    5kn (g10)   N onshore\nMon 14:00       7   1.8m 10.2s  NW    
- 6kn (g12)   N onshore\nMon 15:00       7   1.8m 10.2s  NW    6kn (g12) NNE
-  onshore\nMon 16:00       7   1.8m 10.2s  NW    5kn (g12) NNE glassy\nMon 
- 17:00       7   1.8m 10.2s  NW    4kn (g10) NNE glassy\n\nGenerated 2026-1
- 1-23 17:00 UTC from Open-Meteo.
-LOCATION:Bouznika
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:a6dbc57c748a49ff@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
-SUMMARY:🔥 Bouznika 9/10 · 1.6m 11s NW · 3kn SSE
+SUMMARY:🔥 Bouznika 9/10 · 1.6m 11s NW · 3kn S
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 4 wave models sa
  y 1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
-      9   1.6m 11.2s  NW    3kn (g6) SSE glassy\nTue 08:00       9   1.5m 1
- 1.2s  NW    3kn (g6)   S glassy\nTue 09:00       8   1.5m 11.2s  NW    2kn
-  (g6) SSW glassy\nTue 10:00     7.5   1.5m 11.2s  NW    5kn (g10)   W onsh
+      9   1.6m 11.2s  NW    3kn (g5)   S glassy\nTue 08:00       9   1.5m 1
+ 1.2s  NW    3kn (g6) SSE glassy\nTue 09:00       8   1.5m 11.2s  NW    2kn
+  (g6) SSW glassy\nTue 10:00     7.5   1.5m 11.2s  NW    6kn (g11)   W onsh
  ore\nTue 11:00     5.5   1.5m 11.2s  NW    7kn (g14)   W onshore\nTue 12:0
  0     5.5   1.4m 11.2s  NW    7kn (g14)   W onshore\nTue 13:00     5.5   1
- .4m 11.2s  NW    8kn (g15)   W onshore\nTue 14:00     5.5   1.4m 11.2s  NW
-     7kn (g15)   W onshore\nTue 15:00     5.5   1.4m 11.2s  NW    6kn (g14)
-  WSW onshore\nTue 16:00     5.5   1.4m 11.2s  NW    6kn (g13)   W onshore\
- nTue 17:00     7.5   1.4m 11.2s  NW    5kn (g12) WSW onshore\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+ .4m 11.2s  NW    7kn (g15)   W onshore\nTue 14:00     5.5   1.4m 11.2s  NW
+     7kn (g15)   W onshore\nTue 15:00     5.5   1.4m 11.2s  NW    8kn (g15)
+    W onshore\nTue 16:00     5.5   1.4m 11.2s  NW    7kn (g15)   W onshore\
+ nTue 17:00       8   1.4m 11.2s  NW    5kn (g14)  SW cross\n\nGenerated 20
+ 26-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5415d4a78bcd432b@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
 SUMMARY:👍 Bouznika 7.5/10 · 2.2m 14s NW · 9kn NNE
@@ -66,13 +45,13 @@ DESCRIPTION:Best 7.5/10 at 12:00. Forecast confidence: medium. 4 wave model
  3.4s  NW    8kn (g18) NNE onshore\nWed 15:00     6.5   2.2m 13.5s  NW    8
  kn (g17) NNE onshore\nWed 16:00     6.5   2.2m 13.5s  NW    8kn (g16) NNE 
  onshore\nWed 17:00     6.5   2.1m 13.5s  NW    8kn (g15) NNE onshore\n\nGe
- nerated 2026-11-23 17:00 UTC from Open-Meteo.
+ nerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8a73412e0675e45f@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Bouznika 9.5/10 · 1.9m 12s NW · 3kn SE
@@ -87,13 +66,13 @@ DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 4 wave model
  8kn (g16) NNE onshore\nThu 15:00       6   1.7m 11.2s  NW    8kn (g16) NNE
   onshore\nThu 16:00       6   1.7m 11.2s  NW    7kn (g16) NNE onshore\nThu
   17:00     8.5   1.7m 11.2s  NW    6kn (g14)  NE cross\n\nGenerated 2026-1
- 1-23 17:00 UTC from Open-Meteo.
+ 1-23 18:00 UTC from Open-Meteo.
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:06a267d548d4e9f8@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T070000Z
 DTEND:20261127T150000Z
 SUMMARY:🔥 Bouznika 8/10 · 1.4m 10s NW · 3kn SE
@@ -105,13 +84,13 @@ DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 3 wave models say
  y\nFri 11:00       7   1.3m 10.1s  NW    6kn (g16) ENE cross\nFri 12:00   
      7   1.3m 10.1s  NW    8kn (g16)  NE cross\nFri 13:00     5.5   1.3m 10
  .1s  NW    9kn (g19)  NE cross\nFri 14:00     5.5   1.3m 10.1s  NW   10kn 
- (g19) NNE cross\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ (g19) NNE cross\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a883b10e30af1414@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Bouznika 9/10 · 1.4m 11s NW · 4kn SSE
@@ -126,13 +105,13 @@ DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 3 wave models say
  (g11) NNW onshore\nSat 15:00     7.5   1.4m 11.7s  NW    6kn (g11)   N ons
  hore\nSat 16:00     7.5   1.4m 11.8s  NW    5kn (g6)   N glassy\nSat 17:00
       7.5   1.4m 12.0s  NW    3kn (g6) NNE glassy\n\nGenerated 2026-11-23 1
- 7:00 UTC from Open-Meteo.
+ 8:00 UTC from Open-Meteo.
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:35d6285ae7ffe5bc@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Bouznika 9/10 · 1.6m 12s NW · 5kn SSE
@@ -147,13 +126,13 @@ DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 3 wave models say
  5kn (g11)   N onshore\nSun 15:00     7.5   1.6m 12.3s  NW    6kn (g11)   N
   onshore\nSun 16:00       8   1.6m 12.3s  NW    5kn (g8)   N onshore\nSun 
  17:00       8   1.6m 12.2s  NW    4kn (g8) NNE glassy\n\nGenerated 2026-11
- -23 17:00 UTC from Open-Meteo.
+ -23 18:00 UTC from Open-Meteo.
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:be7cfabea6d28d44@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Bouznika 10/10 · 1.6m 13s NW · 5kn SSE
@@ -168,7 +147,7 @@ DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: low. 3 wave models sa
  kn (g12)   N onshore\nMon 15:00       6   1.7m 12.4s  NW    7kn (g12)   N 
  onshore\nMon 16:00       6   1.7m 12.4s  NW    6kn (g8)   N onshore\nMon 1
  7:00       8   1.7m 12.4s  NW    4kn (g8)   N glassy\n\nGenerated 2026-11-
- 23 17:00 UTC from Open-Meteo.
+ 23 18:00 UTC from Open-Meteo.
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT

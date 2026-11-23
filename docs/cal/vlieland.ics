@@ -8,35 +8,22 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:a04b5fba211ee200@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T110000Z
-DTEND:20261123T130000Z
-SUMMARY:🤏 Vlieland 5/10 · 0.7m 7s N · 2kn SE
-DESCRIPTION:Best 5/10 at 12:00. Forecast confidence: medium. 5 wave models 
- say 0.4 to 0.9 m.\n\nHour (local)  score  waves            wind\nMon 12:00
-        5   0.7m  7.0s   N    2kn (g4)  SE glassy\nMon 13:00       5   0.6m
-   7.8s   N    5kn (g9) ENE glassy\n\nGenerated 2026-11-23 17:00 UTC from O
- pen-Meteo.
-LOCATION:Vlieland
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:0baeb2b568588c10@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261124T080000Z
+UID:f1c05a57c43f85a0@surf-windows
+DTSTAMP:20261123T180000Z
+DTSTART:20261124T070000Z
 DTEND:20261124T160000Z
-SUMMARY:🤏 Vlieland 5/10 · 0.5m 6s N · 7kn S
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high. 5 wave models sa
- y 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 09:00  
-      5   0.5m  6.3s   N    7kn (g12)   S offshore\nTue 10:00       5   0.5
- m  6.3s NNW    9kn (g14)   S offshore\nTue 11:00       5   0.5m  6.3s NNW 
-   12kn (g19) SSE offshore\nTue 12:00       5   0.5m  6.3s NNW   12kn (g20)
-    S offshore\nTue 13:00       5   0.5m  6.3s  NW   10kn (g19) SSE offshor
- e\nTue 14:00       5   0.5m  6.3s  NW   10kn (g18)  SE offshore\nTue 15:00
-        5   0.5m  6.3s  NW   10kn (g18)  SE offshore\nTue 16:00       5   0
- .5m  6.3s NNW   11kn (g19) ESE offshore\n\nGenerated 2026-11-23 17:00 UTC 
- from Open-Meteo.
+SUMMARY:🤏 Vlieland 5/10 · 0.5m 6s N · 5kn SE
+DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: high. 5 wave models sa
+ y 0.3 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
+      5   0.5m  6.3s   N    5kn (g8)  SE offshore\nTue 09:00       5   0.5m
+   6.3s   N    8kn (g13) SSE offshore\nTue 10:00       5   0.5m  6.3s NNW  
+   9kn (g14) SSE offshore\nTue 11:00       5   0.5m  6.3s NNW    9kn (g16) 
+ SSE offshore\nTue 12:00       5   0.5m  6.3s NNW    9kn (g16)  SE offshore
+ \nTue 13:00       5   0.5m  6.3s  NW   10kn (g18) SSE offshore\nTue 14:00 
+       5   0.5m  6.3s  NW   10kn (g18)  SE offshore\nTue 15:00       5   0.
+ 5m  6.3s  NW    9kn (g16)  SE offshore\nTue 16:00       5   0.5m  6.3s NNW
+     9kn (g16) ESE offshore\n\nGenerated 2026-11-23 18:00 UTC from Open-Met
+ eo.
 LOCATION:Vlieland
 TRANSP:TRANSPARENT
 END:VEVENT

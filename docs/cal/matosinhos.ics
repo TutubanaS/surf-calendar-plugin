@@ -8,29 +8,8 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:fc47e857bfc5bb5f@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T080000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Matosinhos 9/10 · 2.0m 11s WNW · 5kn E
-DESCRIPTION:Best 9/10 at 09:00. Forecast confidence: high. 4 wave models sa
- y 1.9 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 08:00  
-      8   2.0m 10.9s WNW    5kn (g9)   E glassy\nMon 09:00       9   2.0m 1
- 1.2s WNW    5kn (g10)   E glassy\nMon 10:00       8   1.9m 11.2s WNW    5k
- n (g10) ESE cross\nMon 11:00       8   1.9m 11.2s WNW    6kn (g11) ESE cro
- ss\nMon 12:00       8   1.9m 11.2s WNW    5kn (g12) ESE glassy\nMon 13:00 
-       8   1.9m 11.2s WNW    4kn (g9)  SE glassy\nMon 14:00       8   1.8m 
- 11.2s WNW    4kn (g9)  SE glassy\nMon 15:00     7.5   1.8m 11.2s WNW    3k
- n (g8)   S glassy\nMon 16:00     7.5   1.8m 11.2s WNW    4kn (g7) SSW glas
- sy\nMon 17:00     7.5   1.7m 11.2s WNW    2kn (g7)  SW glassy\n\nNotes: Sh
- eltered by the Leixões harbour wall\, so it needs a solid swell.\nGenerat
- ed 2026-11-23 17:00 UTC from Open-Meteo.
-LOCATION:Matosinhos
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:5a777a42bb602e8d@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261125T080000Z
 DTEND:20261125T180000Z
 SUMMARY:👍 Matosinhos 7.5/10 · 2.9m 10s WNW · 8kn NNW
@@ -45,13 +24,13 @@ DESCRIPTION:Best 7.5/10 at 11:00. Forecast confidence: medium. 4 wave model
  5kn (g11) NNW cross\nWed 16:00     7.5   2.6m 10.2s WNW    4kn (g10) NNW g
  lassy\nWed 17:00     7.5   2.5m 10.2s WNW    2kn (g7) NNW glassy\n\nNotes:
   Sheltered by the Leixões harbour wall\, so it needs a solid swell.\nGene
- rated 2026-11-23 17:00 UTC from Open-Meteo.
+ rated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7e1ae56ea1bab980@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Matosinhos 7/10 · 1.6m 10s WNW · 4kn ESE
@@ -66,13 +45,13 @@ DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 4 wave models
  5kn (g10)   S onshore\nThu 16:00       6   1.4m 10.2s WNW    6kn (g12)   S
   cross\nThu 17:00     5.5   1.4m 10.2s WNW    4kn (g12)   S glassy\n\nNote
  s: Sheltered by the Leixões harbour wall\, so it needs a solid swell.\nGe
- nerated 2026-11-23 17:00 UTC from Open-Meteo.
+ nerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:281b550f547c6360@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T140000Z
 SUMMARY:👍 Matosinhos 7/10 · 1.6m 11s WNW · 3kn ESE
@@ -83,14 +62,14 @@ DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: low. 3 wave models say
  (g8)  SE glassy\nFri 11:00       7   1.6m 11.4s WNW    3kn (g8)  SE glassy
  \nFri 12:00       7   1.6m 11.5s WNW    4kn (g8) SSE glassy\nFri 13:00    
   6.5   1.6m 11.6s WNW    5kn (g14)   S glassy\n\nNotes: Sheltered by the L
- eixões harbour wall\, so it needs a solid swell.\nGenerated 2026-11-23 17
+ eixões harbour wall\, so it needs a solid swell.\nGenerated 2026-11-23 18
  :00 UTC from Open-Meteo.
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e0ff6749a9970ee@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Matosinhos 8/10 · 1.8m 13s WNW · 6kn SSE
@@ -105,13 +84,13 @@ DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
  W    6kn (g16)   S onshore\nSat 16:00     7.5   1.8m 12.6s WNW    6kn (g10
  )   S onshore\nSat 17:00     7.5   1.8m 12.5s WNW    5kn (g10)   S glassy\
  n\nNotes: Sheltered by the Leixões harbour wall\, so it needs a solid swe
- ll.\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ ll.\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7c076c0e08bde638@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Matosinhos 8/10 · 1.8m 13s WNW · 2kn ESE
@@ -126,13 +105,13 @@ DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
   (g10) WSW glassy\nSun 16:00     7.5   1.8m 12.4s WNW    3kn (g5)   W glas
  sy\nSun 17:00     7.5   1.8m 12.4s WNW    2kn (g5) WNW glassy\n\nNotes: Sh
  eltered by the Leixões harbour wall\, so it needs a solid swell.\nGenerat
- ed 2026-11-23 17:00 UTC from Open-Meteo.
+ ed 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:492dc7866fc5a197@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Matosinhos 9/10 · 1.8m 13s NW · 2kn ENE
@@ -147,7 +126,7 @@ DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
  g6)  SE glassy\nMon 16:00       8   1.8m 12.7s  NW    2kn (g3)  SE glassy\
  nMon 17:00       8   1.8m 12.7s WNW    2kn (g3)  SE glassy\n\nNotes: Shelt
  ered by the Leixões harbour wall\, so it needs a solid swell.\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+ 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
