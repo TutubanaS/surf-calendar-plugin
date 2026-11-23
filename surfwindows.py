@@ -336,7 +336,7 @@ def score_hour(hr: Hour, spot: dict) -> float:
     if ang_diff(hr.wave_dir, swell_from(spot)) > 100:
         pts = min(pts, 1.0)                     # the waves are travelling away from the beach
     if prof.get("mild") and h < prof["mild"]:
-        pts = min(pts, 4.5)                     # mild surf: worth knowing about, not worth a calendar event
+        pts = min(pts, 5.0)                     # mild surf: just enough for the calendar, never rated higher
     if prof["too_big"] and h >= prof["too_big"]:
         pts = min(pts, 3.0)                     # out of control
 

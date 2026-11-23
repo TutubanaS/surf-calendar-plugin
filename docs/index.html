@@ -765,6 +765,7 @@ function daySummary(s, d) {
   let tail, word, why;   // "… and flat" / "flat" / the reason in one sentence
   if (best.score >= 8) { tail = 'with very good surf'; word = 'very good'; }
   else if (best.score >= 6.5) { tail = 'with good surf'; word = 'good'; }
+  else if (best.score >= MIN && got < P.best[0] * 0.5) { tail = 'with mild, small surf'; word = 'mild'; }
   else if (best.score >= MIN) { tail = 'with surfable waves'; word = 'surfable'; }
   else if (wh < L.flat) { tail = 'and flat'; word = 'flat'; why = 'Nothing to ride.'; }
   else if (most(h => angDiff(h.wd, s.from) > 100)) { tail = 'and flat'; word = 'flat'; why = 'The waves out there are heading away from the beach.'; }

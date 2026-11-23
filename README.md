@@ -32,7 +32,7 @@ Model height at sea on its own is misleading, so the score also uses period, swe
 
 | Factor | Wind swell (Netherlands, Türkiye) | Groundswell (Portugal, Morocco) |
 |---|---|---|
-| Size | <0.5 m flat · 0.5–0.7 m mild (never a calendar window) · 1–1.5 m decent · 1.5–2.5 m best | <0.5 m nothing · 1.6–2.3 m best · 3 m+ too big |
+| Size | <0.5 m flat · 0.5–0.7 m mild (capped at 5, the lowest score that makes a calendar window) · 1–1.5 m decent · 1.5–2.5 m best | <0.5 m nothing · 1.6–2.3 m best · 3 m+ too big |
 | Period | peak period: <6 s worthless · 7 s+ needed · 8–10 s+ good | <7 s chop · 11 s+ needed · 13 s+ good |
 | Swell dir | within 60° of where the spot's swell comes from is good, and outside that the swell counts as smaller the further it is off; spots can list blocked directions (SW at Scheveningen, behind the harbour jetty) | same |
 | Wind | offshore or <5 kn glassy is best · cross-shore is so-so · strong onshore kills it | same |

@@ -25,7 +25,7 @@ def test_short_period_small_swell_is_flat():
 def test_half_a_metre_is_mild_surf_not_flat():
     # at Scheveningen 0.5-0.6 m and up means mild surf; under that it is flat
     mild = sw.score_hour(hr(0.6, 8, 310, 4, 110), SCHEV)
-    assert 1 < mild < CFG["min_score"]                  # rideable, but not a calendar window
+    assert mild == CFG["min_score"] == 5                # just enough to go in the calendar, never more
     assert sw.score_hour(hr(0.45, 8, 310, 4, 110), SCHEV) <= 1
 
 
