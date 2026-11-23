@@ -39,7 +39,8 @@ margin:1.5rem 0 .75rem;text-wrap:balance;overflow-wrap:anywhere}
 .cta{display:inline-block;margin-top:1.25rem;padding:.65rem 1.1rem;background:var(--sea);color:var(--foam);
 border:0;border-radius:.4rem;font-weight:600;cursor:pointer}
 .cta:hover{background:var(--deep)}
-.browse{margin-top:1.5rem}
+.srow{display:flex;align-items:center;gap:.3rem;margin-top:1.5rem;scroll-margin-top:1rem}
+.srow .search{flex:1;min-width:0}
 .search{display:flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.6);border:1px solid var(--line);
 border-radius:.5rem;padding:0 .75rem}
 .search:focus-within{outline:2px solid var(--sea);outline-offset:1px}
@@ -239,16 +240,54 @@ background:var(--foam);border-radius:1px;pointer-events:none}
 .arr{width:.8rem;height:.8rem;vertical-align:-.08em;fill:var(--foam);margin-right:.25rem}
 .dim{color:var(--muted)}
 
-.daybar{display:flex;align-items:stretch;gap:.4rem;margin-top:1.1rem}
+.detail{overflow-x:clip}
+/* two bars stay in reach while you scroll a spot: its name, then the days */
+.spotbar{position:sticky;top:0;z-index:7;height:0}
+.sb{position:absolute;left:0;right:0;top:0;height:2.6rem;display:flex;align-items:center;gap:.6rem;background:#18343F;
+opacity:0;visibility:hidden;transform:translateY(-35%);transition:transform .22s ease,opacity .22s ease,visibility .22s}
+.sb::before,.daybar::before{content:"";position:absolute;top:0;bottom:0;left:-100vw;right:-100vw;background:#18343F;z-index:-1}
+.spotbar.stuck .sb{opacity:1;visibility:visible;transform:none}
+.sbn{border:0;background:none;color:var(--foam);padding:0;min-width:0;cursor:pointer;font-weight:800;
+font-stretch:112%;font-size:1.05rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sb b{font-size:1.05rem;white-space:nowrap;margin-right:auto}
+.sb small{font-size:.7em;font-weight:500;color:var(--muted)}
+.sb .star{margin:0;width:2.2rem;height:2.2rem;color:var(--muted)}
+.sb .star[aria-pressed=true]{color:var(--foam)}
+.daybar{display:flex;align-items:stretch;gap:.4rem;margin-top:.7rem;position:sticky;top:2.6rem;z-index:6;padding:.4rem 0;background:#18343F}
+.viewbar{display:flex;align-items:center;gap:.6rem;margin-top:1.4rem}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:.5rem;overflow:hidden}
+.seg button{border:0;background:none;padding:.32rem .85rem;font-size:.8125rem;font-weight:600;cursor:pointer;color:var(--muted)}
+.seg button[aria-pressed=true]{background:var(--foam);color:var(--sea)}
+.wgwrap{overflow-x:auto;margin-top:.6rem;border-radius:.5rem;background:var(--track);scrollbar-width:thin;scrollbar-color:var(--muted) transparent}
+.wg{border-collapse:separate;border-spacing:0;font-size:.74rem;line-height:1;font-variant-numeric:tabular-nums}
+.wg th,.wg td{height:1.6rem;min-width:2rem;padding:0 .12rem;text-align:center;white-space:nowrap;border-bottom:1px solid rgba(232,240,238,.07)}
+.wg td{font-stretch:87%;font-weight:600;cursor:pointer}
+.wg .rl{position:sticky;left:0;z-index:2;min-width:3.6rem;text-align:left;padding:0 .5rem;background:#17323C;color:var(--muted);
+font-weight:500;font-size:.7rem;border-right:1px solid rgba(232,240,238,.12)}
+.wg .wd0{text-align:left;padding-left:.45rem;font-weight:700;color:var(--foam);border-left:2px solid rgba(232,240,238,.35)}
+.wg .hh{color:var(--muted);font-weight:500;cursor:pointer}
+.wg .hh.win{color:var(--foam);border-bottom:3px solid var(--fire)}
+.wg .hh.nowc{background:var(--foam);color:var(--sea);font-weight:700}
+.wg .hh.selc{outline:2px solid var(--foam);outline-offset:-2px}
+.wg .d0{border-left:2px solid rgba(232,240,238,.35)}
+.wg .gone{opacity:.5}
+.wg .dimc{color:var(--muted);font-weight:500}
+.wg .sc.flat{background:rgba(92,124,131,.28);color:var(--muted)}
+.wg .sc.ok{background:var(--ok);color:#0F252D} .wg .sc.good{background:var(--good);color:#0F252D} .wg .sc.fire{background:var(--fire);color:#0F252D}
+.wg col.selc{background:rgba(232,240,238,.13)}
+.wg svg{width:.8rem;height:.8rem;vertical-align:middle;fill:var(--foam)}
+.wg .sky svg{width:1.05rem;height:1.05rem}
 .daytabs{display:flex;gap:.4rem;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}
 .daytabs::-webkit-scrollbar{display:none}
-.daytabs{-webkit-mask-image:linear-gradient(90deg,transparent,#000 1.2rem,#000 calc(100% - 1.2rem),transparent);mask-image:linear-gradient(90deg,transparent,#000 1.2rem,#000 calc(100% - 1.2rem),transparent);padding:0 .6rem}
+.daytabs{-webkit-mask-image:linear-gradient(90deg,transparent,#000 1.2rem,#000 calc(100% - 1.2rem),transparent);mask-image:linear-gradient(90deg,transparent,#000 1.2rem,#000 calc(100% - 1.2rem),transparent);padding:0 1.2rem}
 .daytab{flex:none;flex-direction:column;align-items:center;gap:.05rem;min-width:3.7rem;padding:.45rem .6rem .5rem}
 .daytab .dw{font-size:.75rem;font-weight:500;color:var(--muted);line-height:1.2}
 .daytab .dd{font-size:1.3rem;font-weight:800;font-stretch:112%;line-height:1.1}
 .daytab b{font-size:.95rem;line-height:1.3}
 .daytab small{font-size:.72em;font-weight:500;color:var(--muted);margin-left:.05rem}
 .daytab.vis{border-color:var(--muted)}
+.daytab.gone{opacity:.62}
+.daytab.gone.on{opacity:1}
 .daytab.today .dw{color:var(--foam);font-weight:700}
 .daytab.on .dw,.daytab.on small,.daytab.on.today .dw{color:#4F666C}
 .panb{flex:none;width:2.1rem;border:1px solid var(--line);border-radius:.5rem;background:none;cursor:pointer;font-size:1.2rem;line-height:1}
@@ -351,29 +390,67 @@ background:rgba(232,240,238,.12);color:var(--foam);font-size:.75rem;font-weight:
 @keyframes ga-draw{to{stroke-dashoffset:0}}
 @keyframes ga-in{to{opacity:1}}
 
-/* ---- subscribe dialog */
-.dlg{border:0;border-radius:.75rem;padding:0;width:min(36rem,calc(100% - 1.5rem));max-height:calc(100vh - 2rem);
-background:var(--fog);color:var(--sea);box-shadow:0 1.5rem 4rem rgba(0,0,0,.35);--line:rgba(24,52,63,.16);--muted:#4F666C}
+/* ---- subscribe dialog: a fixed size; the two lists scroll inside it, the dialog itself never grows */
+.dlg{border:0;border-radius:.75rem;padding:0;width:min(48rem,calc(100% - 1.5rem));height:min(36rem,calc(100dvh - 2rem));
+max-height:none;overflow:hidden;background:var(--fog);color:var(--sea);box-shadow:0 1.5rem 4rem rgba(0,0,0,.35);
+--line:rgba(24,52,63,.16);--muted:#4F666C}
+.dlg[open]{display:flex;flex-direction:column}
 .dlg::backdrop{background:rgba(15,37,45,.6)}
-.dlg-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.1rem 1.25rem 0;margin:0}
-.dlg h2{font-weight:800;font-stretch:112%;font-size:1.3rem;line-height:1.15;margin:0}
-.dlg h3{font-weight:700;font-size:1rem;margin:1.25rem 0 .4rem}
+.dlg-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;padding:1.1rem 1.25rem .9rem;margin:0;
+border-bottom:1px solid var(--line)}
+.dlg h2{outline:0;font-weight:800;font-stretch:112%;font-size:1.3rem;line-height:1.15;margin:0 0 .35rem}
+.dlg-head p{margin:0;font-size:.875rem;color:var(--muted);max-width:62ch}
+.dlg h3{font-weight:700;font-size:.9375rem;line-height:1.2;margin:.55rem 0 0}
 .x{border:0;background:none;font-size:1.6rem;line-height:1;cursor:pointer;padding:0 .3rem;color:var(--muted)}
-.dlg-body{padding:.6rem 1.25rem 1.25rem}
-.dlg-body > p{margin:0 0 .9rem;font-size:.9375rem}
-.checks{list-style:none;margin:.6rem 0 0;padding:0;max-height:13rem;overflow-y:auto;border:1px solid var(--line);border-radius:.5rem}
+.dlg-cols{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.dlg-col{min-height:0;display:flex;flex-direction:column;padding:.9rem 1.25rem .6rem}
+.dlg-col + .dlg-col{border-left:1px solid var(--line)}
+.checks,.feeds{flex:1;min-height:0;overflow-y:auto;list-style:none;margin:.7rem 0 0;padding:0}
 .checks li + li{border-top:1px solid var(--line)}
-.checks label{display:flex;align-items:center;gap:.6rem;padding:.4rem .7rem;cursor:pointer}
+.checks label{display:flex;align-items:center;gap:.6rem;padding:.42rem .25rem;cursor:pointer}
 .checks input{width:1.05rem;height:1.05rem;accent-color:var(--sea);flex:none}
+.checks span{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .checks small{color:var(--muted);margin-left:auto;font-size:.8125rem;white-space:nowrap}
-.feeds{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-.feeds li{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;padding:.5rem 0;border-bottom:1px solid var(--line)}
-.feeds .fn{font-weight:600;margin-right:auto}
+.feeds li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.35rem .5rem;align-items:center;padding:.55rem 0;border-bottom:1px solid var(--line)}
+.feeds .fn{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.feeds .rm{border:0;background:none;color:var(--muted);cursor:pointer;font-size:1.25rem;line-height:1;padding:0 .2rem}
+.feeds .acts{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:.35rem}
 .btn{display:inline-block;border:1px solid var(--line);border-radius:.4rem;background:rgba(255,255,255,.5);
 padding:.25rem .6rem;font-size:.8125rem;font-weight:600;text-decoration:none;cursor:pointer}
 .btn:hover{border-color:var(--sea)}
-.fine{font-size:.8125rem;color:var(--muted);margin:.9rem 0 0}
+.dlg-foot{display:flex;align-items:center;gap:1rem;padding:.7rem 1.25rem;border-top:1px solid var(--line)}
+.fine{font-size:.8125rem;color:var(--muted);margin:0;flex:1}
+.cta.sm{margin:0;padding:.5rem 1.1rem}
 .link{border:0;background:none;padding:0;text-decoration:underline;text-underline-offset:.2em;cursor:pointer;color:var(--sea)}
+.srcbar{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem .6rem;margin-top:.8rem;font-size:.875rem}
+.srcbar label{font-weight:700}
+.srcbar select{font:inherit;font-size:.875rem;color:var(--foam);background:rgba(232,240,238,.08);border:1px solid var(--line);
+border-radius:.4rem;padding:.3rem .5rem;max-width:100%}
+.srcbar option{color:#12303A;background:#fff}
+.srcnote{color:var(--muted);font-size:.8125rem;flex-basis:100%}
+
+/* ---- phones: a menu button, the menu, and a way back up to the search */
+.burger,.sbs{flex:none;place-items:center;width:2.6rem;height:2.6rem;border:0;border-radius:.5rem;background:none;padding:0;cursor:pointer}
+.burger{display:none;margin-left:-.65rem}
+.sbs{display:grid;width:2.2rem;height:2.2rem;margin-right:-.35rem}
+.burger svg,.sbs svg{width:1.35rem;height:1.35rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.sbs svg{width:1.15rem;height:1.15rem}
+.menu{position:fixed;inset:0 auto 0 0;width:min(20rem,86vw);height:100%;max-width:none;max-height:none;margin:0;border:0;padding:0;
+background:var(--deep);color:var(--foam);box-shadow:0 0 4rem rgba(0,0,0,.45);--muted:#9BB3B4;--line:rgba(232,240,238,.14)}
+.menu[open]{display:flex;animation:menu-in .24s cubic-bezier(.2,.7,.2,1)}
+.menu::backdrop{background:rgba(15,37,45,.6);animation:show .2s ease}
+@keyframes menu-in{from{transform:translateX(-100%)}}
+.menu-in{outline:0;flex:1;min-width:0;display:flex;flex-direction:column;padding:0 1.25rem 1.25rem;overflow-y:auto}
+.menu-top{display:flex;align-items:center;justify-content:space-between;height:3.6rem}
+.menu-top strong{font-weight:700;font-stretch:112%}
+.menu nav{display:grid;gap:.25rem;margin:.6rem -.75rem 0}
+.mi{border:0;border-radius:.6rem;background:none;padding:.7rem .75rem .75rem;text-align:left;cursor:pointer;color:var(--muted)}
+.mi b{display:block;font-weight:800;font-stretch:125%;font-size:1.55rem;line-height:1.1;letter-spacing:-.01em;color:var(--foam)}
+.mi span{display:block;margin-top:.25rem;font-size:.875rem;line-height:1.35}
+.mi[aria-current]{background:rgba(232,240,238,.09)}
+.ml{display:flex;align-items:center;gap:.55rem;margin-top:1rem;padding:1rem 0 0;border:0;border-top:1px solid var(--line);background:none;
+text-align:left;font-weight:600;cursor:pointer}
+.menu-upd{margin:auto 0 0;padding-top:1rem;font-size:.8125rem;color:var(--muted)}
 
 @media (min-width:62rem){
  .page{grid-template-columns:clamp(22rem,30vw,27rem) minmax(0,1fr)}
@@ -384,6 +461,7 @@ padding:.25rem .6rem;font-size:.8125rem;font-weight:600;text-decoration:none;cur
  .sea{margin-top:0}
  .wrap{padding:0 2.5rem}
  .detail{min-height:100vh}
+ .sbs{display:none}
 }
 @media (max-width:74rem){
  .where{grid-template-columns:minmax(0,1fr)}
@@ -404,6 +482,72 @@ padding:.25rem .6rem;font-size:.8125rem;font-weight:600;text-decoration:none;cur
  .scene{min-height:21rem}
  .arrows span:nth-child(even){display:none}
  .guide{left:8px!important;right:8px;top:auto!important;bottom:8px;width:auto!important;max-height:75vh}
+ /* phone: get to the spot quickly, keep the days in reach, keep the weather off the words */
+ .side .sea{display:none}
+ .side{padding-bottom:1.25rem}
+ .verdict{font-size:1.7rem;margin-top:1.1rem}
+ .panb{display:none}
+ .daybar{margin:1rem -1.25rem 0;padding:.4rem 0}
+ .daytab{min-width:3.4rem;padding:.35rem .5rem .4rem}
+ .daytab .dd{font-size:1.15rem}
+ .scene{min-height:0;padding:1.1rem 1.1rem 5.4rem}
+ .scene .say{padding-right:4.6rem;max-width:none;min-height:3.6em}
+ .sun{width:3rem;height:3rem;right:.8rem;top:.8rem}
+ .clouds{scale:.58;transform-origin:100% 0}
+ .where{gap:1rem}
+ .cp .hd small{display:none}
+ .cp .hd small.live{display:block}
+ .wrap{display:flex;flex-direction:column}
+ .where{display:contents}
+ .dh{order:1;padding-top:1rem} .note{order:2} .srcbar{order:3} .scene{order:4} .map{order:5} .daybar{order:6}
+ .winfo{order:7} .viewbar{order:8} .charts,.wgwrap{order:9} details.hourly{order:10} footer{order:11} .spotbar{order:0}
+ .viewbar{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--line)}
+ .seg{flex:1;display:flex}
+ .seg button{flex:1;padding:.5rem 0;font-size:.875rem}
+ .wgwrap{margin:.5rem -1.25rem 0;border-radius:0}
+ .dh h2{font-size:1.5rem}
+ .follow{padding:.25rem .65rem;font-size:.8125rem}
+ .note{font-size:.8125rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ .srcbar{margin-top:.5rem;flex-wrap:nowrap}
+ .srcbar label{white-space:nowrap}
+ .srcbar select{flex:1;min-width:0}
+ .srcnote{display:none}
+ .scene{margin-top:.8rem;padding:.9rem 1rem 4rem}
+ .scene .say{font-size:1.2rem;min-height:0}
+ .saymore{font-size:.875rem;line-height:1.45}
+ .sw{height:3.4rem}
+ .map{height:14.5rem;margin-top:.8rem}
+ .daybar{margin-top:.5rem}
+ .ex{display:none}
+ .winfo{height:13rem}
+ .winfo .hd{margin:.4rem 0 .15rem}
+ .winfo .hd h3{font-size:1.05rem}
+ .wtime{margin-bottom:.45rem}
+ .winfo dl{gap:.28rem .7rem;font-size:.8125rem;line-height:1.35}
+ .charts{margin:.4rem -1.25rem 0}
+ .cdays,.cplot,.aclip{margin-left:0}
+ .cclip{border-radius:0}
+ .cp .hd{margin:.65rem 1.25rem .3rem}
+ .cplot{height:4.9rem!important}
+ .cplot[data-k=height]{height:8.5rem!important}
+ .yt{right:auto;left:.3rem;background:rgba(15,37,45,.62);padding:.05rem .2rem;border-radius:2px}
+ details.hourly{margin-top:1rem}
+ .verdict{font-size:1.5rem;margin-top:.9rem}
+ .sub{font-size:.9375rem}
+ .cta{margin-top:.9rem;padding:.55rem .9rem}
+ /* phone: search first, the brand and the calendars move into the menu */
+ .burger{display:grid}
+ .srow{order:-1;margin-top:.5rem}
+ .lead .top,.lead .cta{display:none}
+ .finding .lead{display:none}
+ body:has(dialog[open]){overflow:hidden}
+ .dlg{width:100%;height:100dvh;max-width:100%;max-height:100%;margin:0;border-radius:0}
+ .dlg-head p{display:none}
+ .dlg-cols{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) minmax(0,1fr)}
+ .dlg-col + .dlg-col{border-left:0;border-top:1px solid var(--line)}
+ .dlg-head{align-items:center;justify-content:flex-start;gap:.3rem;padding:.4rem 1.25rem}
+ .dlg-head .x,.dlg-foot{display:none}
+ .dlg h2{margin:0;font-size:1.2rem}
 }
 @media (prefers-reduced-motion:reduce){
  *{animation:none!important;transition:none!important}
@@ -414,7 +558,7 @@ padding:.25rem .6rem;font-size:.8125rem;font-weight:600;text-decoration:none;cur
 <body>
 <div class="page">
   <aside class="side">
-    <div class="pad">
+    <div class="pad lead">
       <p class="top"><strong>Surf windows</strong>
         <button type="button" class="info" data-guide="page" aria-label="How this page works" aria-expanded="false">i</button>
         <span class="upd" id="updated"></span></p>
@@ -422,11 +566,12 @@ padding:.25rem .6rem;font-size:.8125rem;font-weight:600;text-decoration:none;cur
       <p class="sub" id="sub"></p>
       <button type="button" class="cta" id="open-sub">Subscribe to the calendar</button>
     </div>
-    <div class="browse pad">
+    <div class="srow pad">
+      <button type="button" class="burger" data-menu="open" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
       <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
         <input id="q" type="search" placeholder="Search spots" autocomplete="off" aria-label="Search spots"></label>
-      <div class="tabs" id="tabs" role="tablist" aria-label="Spot lists"></div>
     </div>
+    <div class="tabs pad" id="tabs" role="tablist" aria-label="Spot lists"></div>
     <ul class="list" id="list"></ul>
     <button type="button" class="more" id="more" hidden></button>
     <figure class="sea" id="sea"></figure>
@@ -438,20 +583,40 @@ padding:.25rem .6rem;font-size:.8125rem;font-weight:600;text-decoration:none;cur
 
 <dialog class="dlg" id="dlg" aria-labelledby="dlg-t">
   <form method="dialog" class="dlg-head">
-    <h2 id="dlg-t">Choose spots for your calendar</h2>
+    <button type="button" class="burger" data-menu="open" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <div><h2 id="dlg-t" tabindex="-1" autofocus>Calendars for your spots</h2>
+      <p>Every spot is its own calendar. Tick the spots you want, then add each one to your calendar app. An event shows up
+        whenever a spot has a run of good daylight hours in the coming week.</p></div>
     <button class="x" aria-label="Close">×</button>
   </form>
-  <div class="dlg-body">
-    <p>Each spot has its own calendar feed. Tick the spots you want, then add their feeds below. Your calendar app
-      re-reads a feed a few times a day, and an event appears whenever that spot has a run of good daylight hours.</p>
-    <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-      <input id="dq" type="search" placeholder="Search spots" autocomplete="off" aria-label="Search spots to add"></label>
-    <ul class="checks" id="checks"></ul>
-    <h3>Your feeds</h3>
-    <ul class="feeds" id="feeds"></ul>
-    <p class="fine">If Google Calendar cannot add a feed from the button, press Copy link, then in Google Calendar choose
-      Other calendars, the plus sign, From URL, and paste it there. New feeds can take a few minutes to fill in.</p>
-    <p class="fine" id="combined"></p>
+  <div class="dlg-cols">
+    <section class="dlg-col" aria-label="All spots">
+      <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="dq" type="search" placeholder="Search spots" autocomplete="off" aria-label="Search spots to add"></label>
+      <ul class="checks" id="checks"></ul>
+    </section>
+    <section class="dlg-col" aria-labelledby="feeds-t">
+      <h3 id="feeds-t">Your calendars</h3>
+      <ul class="feeds" id="feeds"></ul>
+    </section>
+  </div>
+  <div class="dlg-foot">
+    <p class="fine">If the Google button fails, use Copy link and paste it in Google Calendar under Other calendars, +, From URL.
+      <span id="combined"></span></p>
+    <form method="dialog"><button class="cta sm">Done</button></form>
+  </div>
+</dialog>
+
+<dialog class="menu" id="menu" aria-label="Menu">
+  <div class="menu-in" tabindex="-1" autofocus>
+    <div class="menu-top"><strong>Surf windows</strong>
+      <button type="button" class="x" data-menu="close" aria-label="Close the menu">×</button></div>
+    <nav aria-label="Pages">
+      <button type="button" class="mi" data-go="data"><b>Forecast</b><span>Score, waves and wind for every spot</span></button>
+      <button type="button" class="mi" data-go="cal"><b>Calendars</b><span>The good hours, sent to your calendar</span></button>
+    </nav>
+    <button type="button" class="ml" data-go="guide"><span class="info" aria-hidden="true">i</span>How this page works</button>
+    <p class="menu-upd" id="menu-upd"></p>
   </div>
 </dialog>
 
@@ -506,12 +671,13 @@ function parts(ms, tz) {
 const hp = (h, tz) => h.p || (h.p = parts(h.ms, tz));
 const hhmm = (ms, tz) => { const p = parts(ms, tz); return pad(p.h) + ':' + p.min; };
 const keys = {};
-const dayKeys = tz => keys[tz] || (keys[tz] = {today: parts(NOW, tz).key, tomorrow: parts(NOW + DAY, tz).key});
+const dayKeys = tz => keys[tz] || (keys[tz] = {today: parts(NOW, tz).key, tomorrow: parts(NOW + DAY, tz).key, yesterday: parts(NOW - DAY, tz).key});
 function dayName(ms, tz, lower) {
   const k = parts(ms, tz).key, dk = dayKeys(tz);
   if (k === dk.today) return lower ? 'today' : 'Today';
   if (k === dk.tomorrow) return lower ? 'tomorrow' : 'Tomorrow';
-  if (ms - NOW > 6 * DAY) { const p = parts(ms, tz); return `${p.wd} ${p.d} ${p.mon}`; }   // two Sundays fit in two weeks
+  if (k === dk.yesterday) return lower ? 'yesterday' : 'Yesterday';
+  if (ms - NOW > 6 * DAY || ms < NOW - DAY) { const p = parts(ms, tz); return `${p.wd} ${p.d} ${p.mon}`; }   // two Sundays fit in two weeks
   return FL[tz].format(ms);
 }
 const dayLabel = (ms, tz) => { const p = parts(ms, tz); return p.wd + ' ' + p.d; };
@@ -534,6 +700,11 @@ const CHEV = '<svg viewBox="0 0 10 10" aria-hidden="true"><path d="M2 0 8 5 2 10
 const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg>';
 
 /* ---------- prepare the data */
+function summarize(s) {      // the spot's best coming hour and next window, from whatever wave data it shows now
+  const light = s.hrs.filter(h => h.day), ahead = light.filter(h => h.ms + HOUR > NOW);
+  s.best = maxBy(ahead.length ? ahead : light.length ? light : s.hrs, h => h.score);
+  s.next = s.wins.filter(w => w.e > NOW).sort((a, b) => a.s - b.s)[0] || null;
+}
 const byId = {};
 D.spots.forEach(s => {
   byId[s.id] = s;
@@ -542,7 +713,7 @@ D.spots.forEach(s => {
   for (let i = 0; i < n; i++) s.hrs.push({
     ms: t0 + (s.t ? s.t[i] : i) * HOUR, score: s.score[i], wh: s.wh[i],
     lo: s.lo ? s.lo[i] : s.wh[i], hi: s.hi ? s.hi[i] : s.wh[i], wt: s.wt[i], wd: s.wd[i],
-    ws: s.ws[i], wg: s.wg[i], wdir: s.wdir[i], kind: KIND[s.kind[i]] || 'cross', day: s.day[i] === '1',
+    ws: Math.round(s.ws[i]), wsx: s.ws[i], wg: s.wg[i], wdir: s.wdir[i], kind: KIND[s.kind[i]] || 'cross', day: s.day[i] === '1',
     wc: s.wc ? s.wc[i] : -1, tc: s.tc ? s.tc[i] : null, tide: s.tide ? s.tide[i] : null, sst: s.sst ? s.sst[i] : null,
     en: 0.5 * s.wh[i] * s.wh[i] * s.wt[i],      // wave power in kW per metre of wave crest: height squared times period
   });
@@ -552,11 +723,14 @@ D.spots.forEach(s => {
   s.hrs.forEach((h, i) => {
     const a = s.hrs[i - 1], b = s.hrs[i + 1];
     h.rise = h.tide == null ? null : b && b.tide != null ? b.tide > h.tide : a && a.tide != null ? h.tide > a.tide : null;
+    h.e = b ? Math.min(b.ms, h.ms + 3 * HOUR) : h.ms + HOUR;      // where this hour's stretch ends (later days are 3-hourly)
+    h.i = i;
+    h.base = {wh: h.wh, wt: h.wt, wd: h.wd, lo: h.lo, hi: h.hi, score: h.score, kind: h.kind, en: h.en};
   });
   s.wins = (s.windows || []).map(w => ({s: w.s * 1000, e: w.e * 1000, best: w.best, cond: w.cond, conf: w.conf}));
-  const light = s.hrs.filter(h => h.day), ahead = light.filter(h => h.ms + HOUR > NOW);
-  s.best = maxBy(ahead.length ? ahead : light.length ? light : s.hrs, h => h.score);
-  s.next = s.wins.filter(w => w.e > NOW).sort((a, b) => a.s - b.s)[0] || null;
+  s.baseWins = s.wins;
+  s.band = !!s.lo;
+  summarize(s);
   s.norm = norm(s.name + ' ' + (s.region || '') + ' ' + (D.countries[s.country] || s.country));
 });
 const countries = Object.keys(D.countries).filter(c => D.spots.some(s => s.country === c))
@@ -621,9 +795,153 @@ const state = {
 };
 const cur = () => byId[state.sel];
 
+/* ---------- wave source: the bot's blend, or one model fetched live for the open spot and My spots */
+const SOURCES = [
+  ['blend', 'Blend of five models'],
+  ['ncep_gfswave025', "GFS-Wave (NOAA), Windguru's standard wave model"],
+  ['ewam', 'EWAM (DWD, Europe, 5 km, 3 days)'],
+  ['gwam', 'GWAM (DWD, global, 7 days)'],
+  ['ecmwf_wam025', 'ECMWF WAM'],
+  ['meteofrance_wave', 'Météo-France MFWAM'],
+];
+const SRC_KEY = 'surfwindows.source';
+const canSource = !!(D.profiles.windswell && D.profiles.windswell.size) && D.spots[0].mlat != null;   // needs a data file new enough
+let source = 'blend';
+try {
+  const v = localStorage.getItem(SRC_KEY);
+  if (canSource && SOURCES.some(x => x[0] === v)) source = v;
+} catch (e) { /* private mode: stay on the blend */ }
+{ const want = readHash().src; if (canSource && SOURCES.some(x => x[0] === want)) source = want; }     // #src=<model>, for checks and links
+const stepPts = (table, x) => { for (const row of table) if (row[0] == null || x < row[0]) return row[1]; return 0; };
+// the same rules as score_hour() in surfwindows.py, driven by the tables in data.js; change both together
+function scoreHour(h, s) {
+  const P = D.profiles[s.profile] || D.profiles.windswell, t = h.wt, w = h.wsx;
+  const hgt = h.wh * (s.exposure || 1) * reach(s, h.wd);          // what reaches the break
+  let pts = stepPts(P.size, hgt) + stepPts(P.period, t), kind;
+  if (s.blocked && inArc(h.wd, s.blocked)) pts -= 2;
+  else if (inArc(h.wd, s.good)) pts += 1;
+  const rel = angDiff(h.wdir, mod(s.facing + 180));
+  if (rel <= 45) { kind = 'offshore'; pts += w <= 20 ? 2.5 : 0.5; }
+  else if (rel <= 110) { kind = 'cross'; pts += w < 8 ? 1.5 : w < 14 ? 0 : -2; }
+  else { kind = 'onshore'; pts += w < 6 ? 1 : w < 12 ? -1 : w < 18 ? -2.5 : -4; }
+  if (w < 5) kind = 'glassy';
+  if (hgt < P.flat) pts = Math.min(pts, 1);
+  if (t < P.chop_t && hgt < P.chop_h) pts = Math.min(pts, 2);
+  if (angDiff(h.wd, s.from) > 100) pts = Math.min(pts, 1);
+  if (P.mild && hgt < P.mild) pts = Math.min(pts, 5);
+  if (P.too_big && hgt >= P.too_big) pts = Math.min(pts, 3);
+  return {score: Math.round(Math.max(0, Math.min(10, pts)) * 10) / 10, kind};
+}
+function windowsOf(s) {       // runs of good daylight hours, like find_windows() does for the calendar
+  const out = [];
+  let run = [];
+  const close = () => {
+    if (run.length && run[run.length - 1].e - run[0].ms >= D.min_window_hours * HOUR) {
+      const top = maxBy(run, h => h.score), lead = (run[0].ms - NOW) / DAY;
+      out.push({s: run[0].ms, e: run[run.length - 1].e, best: top.score, conf: lead < 1.5 ? 'high' : lead < 3 ? 'medium' : 'low',
+                cond: `${m1(top.wh)}m ${Math.round(top.wt)}s ${compass(top.wd)}, ${top.ws}kn ${compass(top.wdir)}`});
+    }
+    run = [];
+  };
+  s.hrs.forEach(h => {
+    const ok = h.day && h.score >= MIN;
+    if (ok && run.length && h.ms !== run[run.length - 1].e) close();
+    if (ok) run.push(h); else close();
+  });
+  close();
+  return out;
+}
+function applyValues(s, vals) {      // vals: [height, period, direction] per hour, null where the model has nothing
+  let covered = 0;
+  s.hrs.forEach((h, i) => {
+    const v = vals && vals[i];
+    if (v) {
+      h.wh = h.lo = h.hi = v[0];
+      h.wt = v[1];
+      h.wd = v[2];
+      const r = scoreHour(h, s);
+      h.score = r.score;
+      h.kind = r.kind;
+      covered++;
+    } else Object.assign(h, h.base);
+    h.en = 0.5 * h.wh * h.wh * h.wt;
+  });
+  s.band = !vals && !!s.lo;
+  s.wins = vals ? windowsOf(s) : s.baseWins;
+  s.shown = vals ? source : 'blend';
+  s.cover = vals ? covered / s.hrs.length : 1;
+  summarize(s);
+}
+async function fetchModel(s, model) {
+  s.models = s.models || {};
+  if (s.models[model]) return s.models[model];
+  const vars = 'wave_height,wave_direction,wave_period,wave_peak_period,swell_wave_height,swell_wave_peak_period,wind_wave_height,wind_wave_peak_period';
+  const r = await fetch(`https://marine-api.open-meteo.com/v1/marine?latitude=${s.mlat}&longitude=${s.mlon}&hourly=${vars}&models=${model}&forecast_days=${D.forecast_days}&past_days=${D.past_days || 0}&timezone=GMT`);
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  const H = (await r.json()).hourly, col = k => H[k] || H[k + '_' + model] || [], at = {};
+  H.time.forEach((t, i) => { at[Date.parse(t + 'Z')] = i; });
+  const wh = col('wave_height'), wd = col('wave_direction'), pk = col('wave_peak_period'), mean = col('wave_period');
+  const sh = col('swell_wave_height'), sp = col('swell_wave_peak_period'), nh = col('wind_wave_height'), np = col('wind_wave_peak_period');
+  return (s.models[model] = s.hrs.map(h => {
+    const i = at[h.ms];
+    if (i == null || !(wh[i] > 0) || wd[i] == null) return null;      // a model that does not cover this sea answers 0
+    let t = pk[i];
+    if (t == null) t = sp[i] != null && (np[i] == null || (sh[i] || 0) >= (nh[i] || 0)) ? sp[i] : np[i];
+    if (!t) t = mean[i];
+    return t ? [Math.round(wh[i] * 100) / 100, Math.round(t * 10) / 10, Math.round(wd[i])] : null;
+  }));
+}
+async function ensureSource(s) {
+  s.srcError = '';
+  if (source === 'blend') { if (s.shown && s.shown !== 'blend') applyValues(s, null); return; }
+  if (s.shown === source) return;
+  try { applyValues(s, await fetchModel(s, source)); }
+  catch (e) { applyValues(s, null); s.srcError = 'Could not load that source just now; showing the blend.'; }
+}
+function refreshAll() {
+  renderSummary();
+  renderList();
+  renderSea();
+  renderDetail();
+}
+async function setSource(v) {
+  source = v;
+  try { localStorage.setItem(SRC_KEY, v); } catch (e) { /* not fatal */ }
+  const todo = [cur()].concat(mine().filter(s => s !== cur()));
+  state.loading = v !== 'blend';
+  renderDetail();
+  for (const s of todo) await ensureSource(s);
+  D.spots.forEach(s => { if (!todo.includes(s) && s.shown && s.shown !== 'blend') applyValues(s, null); });   // the rest go back to the blend
+  state.loading = false;
+  refreshAll();
+}
+function syncSource() {       // a spot opened while a single model is chosen gets that model too
+  const s = cur();
+  if (source === 'blend' || s.shown === source) return;
+  state.loading = true;
+  renderDetail();
+  ensureSource(s).then(() => { state.loading = false; refreshAll(); });
+}
+function sourceHTML(s) {
+  if (!canSource) return '';
+  const name = (SOURCES.find(x => x[0] === source) || SOURCES[0])[1].split(',')[0];
+  let note = 'Applies to the open spot and to My spots. The calendars always use the blend.';
+  if (state.loading) note = `Loading ${name}…`;
+  else if (s.srcError) note = s.srcError;
+  else if (source !== 'blend' && s.shown === source) {
+    note = s.cover >= 0.99 ? `This spot now shows ${name} only. The calendars keep the blend.`
+      : s.cover > 0 ? `${name} covers about ${Math.max(1, Math.round(s.cover * D.forecast_days))} of ${D.forecast_days} days here; the rest shows the blend.`
+      : `${name} has no data for this sea; showing the blend.`;
+  }
+  return `<div class="srcbar"><label for="src">Wave source</label><select id="src">`
+    + SOURCES.map(x => `<option value="${x[0]}"${x[0] === source ? ' selected' : ''}>${esc(x[1])}</option>`).join('')
+    + `</select>${info('source', 'the wave sources')}<span class="srcnote">${esc(note)}</span></div>`;
+}
+
 /* ---------- left column */
 function renderSummary() {
   el('updated').textContent = 'Updated ' + new Intl.DateTimeFormat('en-GB', {weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit'}).format(D.generated * 1000);
+  el('menu-upd').textContent = el('updated').textContent;
   const my = mine();
   let v, sub;
   if (!my.length) {
@@ -667,7 +985,8 @@ function itemHTML(s) {
 }
 function renderList() {
   const arr = listSpots(), q = state.q.trim();
-  const limit = desktop.matches || state.expanded || q ? arr.length : 6;
+  document.body.classList.toggle('finding', !!q);      // phones: while searching, the results sit right under the field
+  const limit = desktop.matches || state.expanded || q ? arr.length : narrow.matches ? 4 : 6;
   el('list').innerHTML = arr.length ? arr.slice(0, limit).map(itemHTML).join('')
     : `<li class="empty">${q ? `No spot matches “${esc(q)}”.` : 'No spots here yet. Star a spot in another tab to follow it.'}</li>`;
   el('more').hidden = arr.length <= limit;
@@ -767,33 +1086,46 @@ function daySummary(s, d) {
   else if (best.score >= 6.5) { tail = 'with good surf'; word = 'good'; }
   else if (best.score >= MIN && got < P.best[0] * 0.5) { tail = 'with mild, small surf'; word = 'mild'; }
   else if (best.score >= MIN) { tail = 'with surfable waves'; word = 'surfable'; }
-  else if (wh < L.flat) { tail = 'and flat'; word = 'flat'; why = 'Nothing to ride.'; }
-  else if (most(h => angDiff(h.wd, s.from) > 100)) { tail = 'and flat'; word = 'flat'; why = 'The waves out there are heading away from the beach.'; }
-  else if (got < P.flat) { tail = 'and nearly flat'; word = 'nearly flat'; why = 'There is swell out there, but it runs past this beach instead of into it.'; }
-  else if (P.too_big && got >= P.too_big) { tail = 'and too big'; word = 'too big'; why = 'It is out of control at this size.'; }
-  else if (kind === 'onshore' && ws >= 18) { tail = 'and blown out'; word = 'blown out'; why = 'Strong onshore wind is wrecking it.'; }
-  else if (kind === 'onshore' && ws >= 10) { tail = 'and choppy'; word = 'choppy'; why = 'Onshore wind makes it bumpy.'; }
+  else if (wh < L.flat) { tail = 'and flat'; word = 'flat'; why = 'Too small to surf.'; }
+  else if (most(h => angDiff(h.wd, s.from) > 100)) { tail = 'and flat'; word = 'flat'; why = 'The waves are moving away from this beach, so nothing arrives.'; }
+  else if (got < P.flat) { tail = 'and nearly flat'; word = 'nearly flat'; why = 'There are waves out at sea, but they pass this beach by.'; }
+  else if (P.too_big && got >= P.too_big) { tail = 'and too big'; word = 'too big'; why = 'Too big and out of control.'; }
+  else if (kind === 'onshore' && ws >= 18) { tail = 'and blown out'; word = 'blown out'; why = 'Strong wind from the sea is wrecking the waves.'; }
+  else if (kind === 'onshore' && ws >= 10) { tail = 'and choppy'; word = 'choppy'; why = 'Wind from the sea makes it bumpy.'; }
   else if (wt < L.chop) { tail = 'with weak wind chop'; word = 'weak'; why = 'The waves are too close together to have any push.'; }
-  else if (kind === 'cross' && ws >= 14) { tail = 'and messy'; word = 'messy'; why = 'Strong cross-shore wind is tearing it up.'; }
+  else if (kind === 'cross' && ws >= 14) { tail = 'and messy'; word = 'messy'; why = 'Strong wind along the beach is tearing the waves up.'; }
   else if (s.blocked && most(h => inArc(h.wd, s.blocked))) { tail = 'and mostly blocked'; word = 'blocked'; why = 'The swell comes from a direction this beach is sheltered from.'; }
-  else if (got < P.best[0] * 0.5) { tail = 'with mild, small surf'; word = 'mild'; why = 'Mild: enough for a longboard or a first lesson, not more.'; }
-  else if (got < P.best[0]) { tail = 'with small waves'; word = 'small'; why = 'Small, and not quite worth it.'; }
-  else { tail = 'with so-so waves'; word = 'so-so'; why = 'The mix of wind and period is not there.'; }
+  else if (got < P.best[0] * 0.5) { tail = 'with mild, small surf'; word = 'mild'; why = 'Enough for a longboard or a first lesson, not more.'; }
+  else if (got < P.best[0]) { tail = 'with small waves'; word = 'small'; why = 'Small, and not quite worth the trip.'; }
+  else { tail = 'with so-so waves'; word = 'so-so'; why = 'The waves and the wind do not line up.'; }
 
   const sky = skyOfDay(d.dl);
-  const subject = done ? 'Today was' : isToday ? 'Today is' : d.key === dk.tomorrow ? 'Tomorrow looks' : FL[tz].format(d.ms) + ' looks';
+  const gone = !isToday && d.all[d.all.length - 1].ms < NOW;       // a day behind us: say what it was like
+  const subject = done ? 'Today was' : isToday ? 'Today is' : d.key === dk.yesterday ? 'Yesterday was' : gone ? FL[tz].format(d.ms) + ' was'
+    : d.key === dk.tomorrow ? 'Tomorrow looks' : FL[tz].format(d.ms) + ' looks';
   const head = sky ? `${subject} ${sky}${sky.includes(' with ') ? ',' : ''} ${tail}.` : `${subject} ${word}.`;
 
-  const temps = d.dl.map(h => h.tc).filter(t => t != null);
-  const wind = ws < 5 ? 'hardly any wind' : `${ws} kn ${kind === 'cross' ? 'cross-shore' : kind === 'glassy' ? 'light' : kind} wind`;
-  const en = median(hrs.map(h => h.en)), seas = d.all.map(h => h.sst).filter(v => v != null), sea = seas.length ? median(seas) : null;
-  const air = temps.length ? `air up to ${Math.max.apply(null, temps)} °C` : '', wet = sea == null ? '' : `water ${Math.round(sea)} °C (${wetsuit(sea)})`;
-  const climate = [air, wet].filter(Boolean).join(', ');
-  let more = `Waves around ${m1(wh)} m every ${Math.round(wt)} s from the ${compass(best.wd)}: ${pushWord(en)} (${Math.round(en)} kW per metre). `
-    + wind.charAt(0).toUpperCase() + wind.slice(1) + '.' + (climate ? ' ' + climate.charAt(0).toUpperCase() + climate.slice(1) + '.' : '');
-  if (win) more += ` Go between ${hhmm(win.s, tz)} and ${hhmm(win.e, tz)}: it peaks at ${fmt(win.best)}/10.`;
-  else if (best.score >= MIN) more += ` Best around ${hhmm(best.ms, tz)} (${fmt(best.score)}/10), but the good spell is too short for a calendar event.`;
-  else more += ' ' + why + (best.score >= 3 ? ` Best chance is around ${hhmm(best.ms, tz)} (${fmt(best.score)}/10).` : '');
+  // the words under it: what to do first, then the waves, the wind and what to wear, with the numbers in brackets
+  let verdict;
+  if (win && gone) verdict = `The good hours were ${hhmm(win.s, tz)} to ${hhmm(win.e, tz)} (${fmt(win.best)}/10).`;
+  else if (gone) verdict = (best.score >= MIN ? '' : why + ' ') + `The best hour was around ${hhmm(best.ms, tz)} (${fmt(best.score)}/10).`;
+  else if (win) verdict = `Go between ${hhmm(win.s, tz)} and ${hhmm(win.e, tz)}, that is when it is best (${fmt(win.best)}/10).`;
+  else if (best.score >= MIN) verdict = `Rideable around ${hhmm(best.ms, tz)} (${fmt(best.score)}/10), but only for a short while.`;
+  else verdict = why + (best.score >= 3 ? ` Your best chance is around ${hhmm(best.ms, tz)} (${fmt(best.score)}/10).` : '');
+  const high = m => m < 0.3 ? 'about ankle high' : m < 0.6 ? 'about knee high' : m < 1 ? 'about waist high' : m < 1.4 ? 'about chest high' : m < 1.9 ? 'about head high' : m < 2.8 ? 'overhead' : 'well overhead';
+  const gap = wt < L.chop ? `close together and weak (every ${Math.round(wt)} s)` : wt < P.swell_t ? `with a fair gap between them (${Math.round(wt)} s)`
+    : `far apart and powerful (every ${Math.round(wt)} s)`;
+  const waves = got < P.flat && wh >= P.flat ? `Hardly anything reaches the beach, though it is ${m1(wh)} m out at sea.`
+    : `Waves ${high(got)} ${Math.abs(got - wh) > 0.2 * wh ? `at the beach (${m1(wh)} m out at sea)` : `(${m1(wh)} m)`}${word === 'weak' ? '' : ', ' + gap}.`;   // 'weak' already said why
+  const wind = ws < 5 ? 'Hardly any wind, so the water is smooth.'
+    : kind === 'offshore' ? `Wind from the land (${ws} kn): the good kind, it keeps the waves clean${ws > 20 ? ', but this strong it is hard work' : ''}.`
+    : kind === 'cross' ? `Wind along the beach (${ws} kn)${ws < 8 ? ', too light to matter' : ws < 14 ? ', a little bumpy' : ', which roughs the waves up'}.`
+    : `Wind from the sea (${ws} kn)${ws < 6 ? ', too light to hurt' : ws < 12 ? ', which makes the waves bumpy' : ', which makes a mess of the waves'}.`;
+  const temps = d.dl.map(h => h.tc).filter(t => t != null), seas = d.all.map(h => h.sst).filter(v => v != null);
+  const air = temps.length ? Math.max.apply(null, temps) : null, sea = seas.length ? Math.round(median(seas)) : null;
+  const wear = sea == null ? (air == null ? '' : `Air up to ${air} °C.`)
+    : (air == null ? '' : `Air up to ${air} °C, `) + `${air == null ? 'W' : 'w'}ater ${sea} °C` + (gone ? '.' : `: wear ${wetsuit(sea)}.`);
+  const more = [verdict, waves, wind, wear].filter(Boolean).join(' ');
   return {head, more, scene: {got, flat: P.flat, wt, sky, chop: kind === 'onshore' && ws >= 10 ? (ws >= 18 ? 2 : 1) : 0}};
 }
 // the day as a little seascape: wave size, spacing and chop follow the forecast, the sky follows the weather
@@ -838,15 +1170,15 @@ function sceneHTML(say) {
     + sc.layers.map(l => `<g style="--d:${l[1]}s"><path d="${l[0]}" fill="${l[2]}"/></g>`).join('') + '</svg></div>';
 }
 // picking another day: the card stays where it is, only its words, sky and waves change
-function setDay(key) {
-  const s = cur(), root = el('detail'), scene = root.querySelector('.scene');
+function setDay(key, keepScroll) {
+  const s = cur(), root = el('detail'), scene = root.querySelector('.scene'), table = view === 'table';
   const day = getDays(s).find(d => d.key === key);
   if (!day) return;
-  state.zoom = !(state.zoom && key === state.day);     // a second click on the open day closes it again
+  state.zoom = table ? false : !(state.zoom && key === state.day);     // charts: a second click on the open day closes it again
   state.day = key;
-  if (!state.zoom) {                                   // back out to five days, with this day in view
+  if (!state.zoom) {                                   // back out to the overview, with this day in view
     const a = day.all[0].ms;
-    if (state.pan == null || a < state.pan || a >= state.pan + SHOWN - DAY) state.pan = a - DAY;
+    if (state.pan == null || a < state.pan || a >= state.pan + shown() - DAY) state.pan = a - DAY;
   }
   if (!scene) return renderDetail();
   closeGuide();
@@ -864,30 +1196,40 @@ function setDay(key) {
     g.style.setProperty('--d', sc.layers[n][1] + 's');
   });
   root.querySelectorAll('.daytab').forEach(b => {
-    const on = state.zoom && b.dataset.day === key;
+    const on = (table || state.zoom) && b.dataset.day === key;
     b.classList.toggle('on', on);
     b.setAttribute('aria-pressed', on);
   });
-  const charts = root.querySelector('.charts');       // same charts, only the visible stretch slides and widens
-  charts.style.cssText = zoomOf(s, day);
-  charts.classList.toggle('zoomed', state.zoom);
-  root.querySelector('details.hourly').outerHTML = hourlyHTML(s, day);
-  syncTabs(true);
-  updateMap(s, mapHour(s, day));
+  const best = maxBy(day.dl, h => h.score), chip = root.querySelector('.sb b');
+  if (chip) { chip.className = 'num band-' + band(best.score); chip.innerHTML = `${fmt(best.score)}<small>/10</small>`; }
+  const charts = root.querySelector('.charts'), hourly = root.querySelector('details.hourly');
+  if (charts) {                                        // same charts, only the visible stretch slides and widens
+    charts.style.cssText = zoomOf(s, day);
+    charts.classList.toggle('zoomed', state.zoom);
+  }
+  if (hourly) hourly.outerHTML = hourlyHTML(s, day);
+  if (table) {
+    if (!keepScroll) scrollTableTo(key, true);
+    centerTab(key, true);
+  } else syncTabs(true);
+  if (!keepScroll) updateMap(s, mapHour(s, day));
 }
 
 /* ---------- right column */
 const info = (key, what) => `<button type="button" class="info" data-guide="${key}" aria-label="How to read ${what}" aria-expanded="false">i</button>`;
-const SHOWN = 5 * DAY;      // how much the charts show at once when no day is open
+const narrow = window.matchMedia('(max-width:36rem)');
+const BURGER = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>';
+const LENS = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>';
+const shown = () => (narrow.matches ? 3 : 5) * DAY;      // how much the charts show at once when no day is open: fewer days on a phone
 function zoomOf(s, day) {
   // the visible stretch of time: one day when a day is open, otherwise five days from wherever the charts were panned to
-  const hrs = s.hrs, t0 = hrs[0].ms, tEnd = hrs[hrs.length - 1].e, span = tEnd - t0, win = Math.min(span, SHOWN);
+  const hrs = s.hrs, t0 = hrs[0].ms, tEnd = hrs[hrs.length - 1].e, span = tEnd - t0, win = Math.min(span, shown());
   let d0, d1;
   if (state.zoom) {
     d0 = day.all[0].ms;
     d1 = day.all[day.all.length - 1].e;
   } else {
-    state.pan = Math.max(t0, Math.min(state.pan == null ? t0 : state.pan, tEnd - win));
+    state.pan = Math.max(t0, Math.min(state.pan == null ? homeOf(s) : state.pan, tEnd - win));
     d0 = state.pan;
     d1 = d0 + win;
   }
@@ -895,6 +1237,10 @@ function zoomOf(s, day) {
   return `--zx:${(-(d0 - t0) / (d1 - d0) * 100).toFixed(3)}%;--zw:${(span / (d1 - d0) * 100).toFixed(3)}%`;
 }
 const curDay = () => getDays(cur()).find(d => d.key === state.day);
+function homeOf(s) {         // where the charts start: the beginning of today, with the past days to the left of it
+  const today = getDays(s).find(d => d.key === dayKeys(s.tz).today);
+  return today ? today.all[0].ms : s.hrs[0].ms;
+}
 function applyPan(instant) {
   const box = document.querySelector('.charts');
   if (!box) return;
@@ -925,7 +1271,7 @@ function panBy(dir) {
     if (next) setDay(next.key);
     return;
   }
-  state.pan = (state.pan == null ? s.hrs[0].ms : state.pan) + dir * 2 * DAY;
+  state.pan = (state.pan == null ? homeOf(s) : state.pan) + dir * Math.max(1, Math.floor(shown() / DAY / 2)) * DAY;
   applyPan(false);
 }
 function chartsHTML(s, day) {
@@ -958,6 +1304,7 @@ function chartsHTML(s, day) {
     if (b - a >= 3 * HOUR) sky += `<span style="left:${(fx((a + b) / 2) / W * 100).toFixed(3)}%">${h.day ? SUN : MOON}</span>`;
     start = i + 1;
   });
+  if (NOW > t0) back += rect(t0, Math.min(NOW, tEnd), '#06161B', '.3');       // what is already behind us
   if (NOW >= t0 && NOW <= tEnd) back += `<line x1="${fx(NOW).toFixed(2)}" x2="${fx(NOW).toFixed(2)}" y1="0" y2="100" stroke="#E8F0EE" stroke-opacity=".75" ${NS}/>`;
 
   const curve = (vals, fy) => {
@@ -982,7 +1329,7 @@ function chartsHTML(s, day) {
   for (let v = stepH; v < topH; v += stepH) ticksH.push(v);
   const waves = panel('height', 'Wave height', `metres at sea. Orange: a good window. Dashed line: flat below ${m1(L.flat)} m`, 10, topH, ticksH, fy => {
     let range = '';
-    if (s.lo) {
+    if (s.band) {
       const up = hrs.map(h => [fx(h.ms + mid), fy(h.hi)]), down = hrs.slice().reverse().map(h => [fx(h.ms + mid), fy(h.lo)]);
       range = `<path d="${smooth(up)}L${down.map(p => p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join('L')}Z" fill="#A6D8D2" opacity=".22"/>`;
     }
@@ -1051,6 +1398,97 @@ function chartsHTML(s, day) {
   return `<div class="charts${state.zoom ? ' zoomed' : ''}" style="${zoomOf(s, day)}"><div class="cdays" aria-hidden="true"><div class="cz">${labels}</div></div>`
     + `${waves}${tide}${score}${period}${energy}${wind}<div class="xh" hidden></div><div class="tt" hidden></div></div>`;
 }
+/* ---------- the table: every daylight hour as one column, the way a Windguru table reads */
+const VIEW_KEY = 'surfwindows.view';
+let view = narrow.matches ? 'table' : 'charts';       // phones get the table, wide screens the charts; the choice is remembered
+try {
+  const v = readHash().view || localStorage.getItem(VIEW_KEY);
+  if (v === 'table' || v === 'charts') view = v;
+} catch (e) { /* private mode: keep the default */ }
+const CLOUD = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .5-8A5.5 5.5 0 0 0 7 9.5 4.2 4.2 0 0 0 7 18Z" fill="#C4D2D2"/></svg>';
+const PARTLY = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="16" cy="8" r="4.2" fill="#F0C36D"/><path d="M6 19h9a3.5 3.5 0 0 0 .4-7A5 5 0 0 0 6 11.5 3.8 3.8 0 0 0 6 19Z" fill="#C4D2D2"/></svg>';
+const RAINY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14h10a4 4 0 0 0 .5-8A5.5 5.5 0 0 0 7 5.5 4.2 4.2 0 0 0 7 14Z" fill="#9BB3B4"/><path d="M8.5 17l-1 3.2M12.5 17l-1 3.2M16.5 17l-1 3.2" stroke="#7FB8D6" stroke-width="1.8" stroke-linecap="round"/></svg>';
+const skyIcon = c => c == null || c < 0 ? '' : c <= 1 ? SUN : c === 2 ? PARTLY : c >= 51 ? RAINY : CLOUD;
+function viewbarHTML() {
+  return '<div class="viewbar"><div class="seg" role="group" aria-label="How to show the forecast">'
+    + `<button type="button" data-view="table" aria-pressed="${view === 'table'}">Table</button>`
+    + `<button type="button" data-view="charts" aria-pressed="${view === 'charts'}">Charts</button></div>`
+    + (view === 'table' ? info('table', 'the table') : '') + '</div>';
+}
+function tableHTML(s) {
+  const tz = s.tz, today = dayKeys(tz).today;
+  const tint = (rgb, a) => ` style="background:rgba(${rgb},${Math.max(0, Math.min(0.85, a)).toFixed(2)})"`;
+  const windRgb = {offshore: '95,179,161', glassy: '95,179,161', cross: '155,179,180', onshore: '217,139,115'};
+  let cols = '', head = '', hours = '';
+  const r = {score: '', wave: '', per: '', sdir: '', wind: '', gust: '', wdir: '', tide: '', en: '', sky: '', air: ''};
+  getDays(s).forEach(d => {
+    const p0 = parts(d.ms, tz);
+    head += `<th colspan="${d.dl.length}" class="wd0" data-day="${d.key}">${d.key === today ? 'Today' : p0.wd + ' ' + p0.d}</th>`;
+    d.dl.forEach((h, k) => {        // daylight hours only: that is when you can be in the water
+      const c = (k ? '' : ' d0') + (h.e <= NOW ? ' gone' : ''), at = ` data-i="${h.i}" class="`;
+      cols += `<col data-i="${h.i}"${h.i === state.hour ? ' class="selc"' : ''}>`;
+      hours += `<th${at}hh${c}${inWin(s, h.ms) ? ' win' : ''}${NOW >= h.ms && NOW < h.e ? ' nowc' : ''}">${pad(hp(h, tz).h)}</th>`;
+      r.score += `<td${at}sc ${band(h.score)}${c}">${fmt(h.score)}</td>`;
+      r.wave += `<td${at}${c}"${tint('95,179,161', h.wh / 2.5 * 0.8)}>${m1(h.wh)}</td>`;
+      r.per += `<td${at}${c}"${tint('99,166,200', (h.wt - 4) / 10 * 0.8)}>${Math.round(h.wt)}</td>`;
+      r.sdir += `<td${at}${c}">${arrow(h.wd, '')}</td>`;
+      r.wind += `<td${at}${c}"${tint(windRgb[h.kind] || windRgb.cross, 0.2 + h.ws / 25 * 0.6)}>${h.ws}</td>`;
+      r.gust += `<td${at}dimc${c}">${h.wg}</td>`;
+      r.wdir += `<td${at}${c}">${arrow(h.wdir, '')}</td>`;
+      r.tide += `<td${at}dimc${c}">${h.tide == null ? '' : m1(h.tide) + (h.rise == null ? '' : h.rise ? '↑' : '↓')}</td>`;
+      r.en += `<td${at}${c}"${tint('166,216,210', h.en / 40 * 0.7)}>${Math.round(h.en)}</td>`;
+      r.sky += `<td${at}sky${c}">${skyIcon(h.wc)}</td>`;
+      r.air += `<td${at}dimc${c}">${h.tc == null ? '' : h.tc}</td>`;
+    });
+  });
+  const row = (label, cells) => `<tr><th scope="row" class="rl">${label}</th>${cells}</tr>`;
+  return '<div class="wgwrap" tabindex="0" aria-label="Forecast table. Scroll sideways for other days."><table class="wg">'
+    + `<colgroup><col>${cols}</colgroup><thead><tr><th class="rl"></th>${head}</tr><tr><th class="rl">Hour</th>${hours}</tr></thead><tbody>`
+    + row('Score', r.score) + row('Wave m', r.wave) + row('Period s', r.per) + row('Swell', r.sdir)
+    + row('Wind kn', r.wind) + row('Gust kn', r.gust) + row('Wind', r.wdir)
+    + (s.tidal ? row('Tide m', r.tide) : '') + row('Energy', r.en) + row('Sky', r.sky) + row('Air °C', r.air)
+    + '</tbody></table></div>';
+}
+function centerTab(key, smoothly) {
+  const row = document.querySelector('.daytabs'), tab = row && row.querySelector(`[data-day="${key}"]`);
+  if (tab) row.scrollTo({left: tab.offsetLeft - row.offsetLeft - (row.clientWidth - tab.offsetWidth) / 2, behavior: smoothly ? 'smooth' : 'auto'});
+}
+function scrollTableTo(key, smoothly) {
+  const wrap = document.querySelector('.wgwrap'), th = wrap && wrap.querySelector(`.wd0[data-day="${key}"]`);
+  if (th) wrap.scrollTo({left: th.offsetLeft - wrap.querySelector('.rl').offsetWidth, behavior: smoothly ? 'smooth' : 'auto'});
+}
+let tableTick = 0;
+function onTableScroll() {         // the day buttons follow the table: the days in view are framed, the first one is centred
+  cancelAnimationFrame(tableTick);
+  tableTick = requestAnimationFrame(() => {
+    const wrap = document.querySelector('.wgwrap');
+    if (!wrap) return;
+    const a = wrap.scrollLeft + wrap.querySelector('.rl').offsetWidth, b = wrap.scrollLeft + wrap.clientWidth;
+    let first = null;
+    wrap.querySelectorAll('.wd0').forEach(th => {
+      const seen = th.offsetLeft < b - 8 && th.offsetLeft + th.offsetWidth > a + 8, tab = document.querySelector(`.daytab[data-day="${th.dataset.day}"]`);
+      if (tab) tab.classList.toggle('vis', seen);
+      if (seen && !first) first = th.dataset.day;
+    });
+    if (first) centerTab(first, true);
+  });
+}
+function pickHour(i) {             // a tap on a column: that hour goes on the map and into the notes beside it
+  const s = cur(), h = s.hrs[i], root = el('detail');
+  if (!h) return;
+  state.hour = i;
+  root.querySelectorAll('.wg .selc').forEach(n => n.classList.remove('selc'));
+  root.querySelectorAll(`.wg col[data-i="${i}"], .wg .hh[data-i="${i}"]`).forEach(n => n.classList.add('selc'));
+  const key = hp(h, s.tz).key;
+  if (key !== state.day) setDay(key, true);
+  updateMap(s, h);
+}
+function checkStuck() {            // the small spot bar shows once the big name has scrolled off the top
+  const bar = document.querySelector('.spotbar'), head = document.querySelector('.dh');
+  if (bar && head) bar.classList.toggle('stuck', head.getBoundingClientRect().bottom < 0);
+}
+window.addEventListener('scroll', checkStuck, {passive: true});
+
 function hourlyHTML(s, d) {
   const tz = s.tz;
   return `<details class="hourly" open><summary>Hour by hour, ${dayName(d.ms, tz, true)}</summary><table class="hours"><thead><tr><th>Time</th><th>Score</th><th>Waves</th><th>Wind</th><th class="hide-s">Gusts</th><th class="hide-s">Sky</th></tr></thead><tbody>`
@@ -1068,23 +1506,35 @@ function renderDetail() {
   const facts = [s.region, countryName(s.country)].filter(Boolean).join(', ') + '. '
     + `Faces ${compass(s.facing)}. Works on swell from ${compass(s.good[0])} round to ${compass(s.good[1])}.` + (s.notes ? ' ' + s.notes : '');
   const tabs = days.map(d => {
-    const best = maxBy(d.dl, h => h.score), name = dayName(d.ms, tz), on = state.zoom && d.key === state.day;
+    const best = maxBy(d.dl, h => h.score), name = dayName(d.ms, tz), on = (view === 'table' || state.zoom) && d.key === state.day;
     const pt = parts(d.ms, tz);
-    return `<button type="button" class="daytab${on ? ' on' : ''}${name === 'Today' ? ' today' : ''}" data-day="${d.key}" aria-pressed="${on}" aria-label="${FL[tz].format(d.ms)} ${pt.d}, best score ${fmt(best.score)} out of 10">`
+    return `<button type="button" class="daytab${on ? ' on' : ''}${name === 'Today' ? ' today' : ''}${d.all[d.all.length - 1].ms < NOW && name !== 'Today' ? ' gone' : ''}" data-day="${d.key}" aria-pressed="${on}" aria-label="${FL[tz].format(d.ms)} ${pt.d}, best score ${fmt(best.score)} out of 10">`
       + `<span class="dw">${name === 'Today' ? 'Today' : pt.wd}</span><span class="dd">${pt.d}</span><b class="num band-${band(best.score)}">${fmt(best.score)}<small>/10</small></b></button>`;
   }).join('');
+  const top = maxBy(day.dl, h => h.score);
   el('detail').innerHTML = '<div class="wrap">'
+    + `<div class="spotbar"><div class="sb"><button type="button" class="burger" data-menu="open" aria-label="Menu">${BURGER}</button>`
+    + `<button type="button" class="sbn" data-top="1">${esc(s.name)}</button>`
+    + `<b class="num band-${band(top.score)}">${fmt(top.score)}<small>/10</small></b>`
+    + `<button type="button" class="sbs" data-search="1" aria-label="Search spots">${LENS}</button>${starHTML(s, fav)}</div></div>`
     + `<div class="dh"><h2>${esc(s.name)}</h2><button type="button" class="follow" data-fav="${s.id}" aria-pressed="${fav}">${STAR}${fav ? 'In my spots' : 'Add to my spots'}</button></div>`
     + `<p class="note">${esc(facts)}${s.webcam ? ` <a href="${esc(s.webcam)}" target="_blank" rel="noopener">Check the webcam</a>` : ''}</p>`
+    + sourceHTML(s)
     + `<div class="daybar"><button type="button" class="panb" data-pan="-1" aria-label="Earlier days">‹</button>`
     + `<div class="daytabs" role="group" aria-label="Pick a day">${tabs}</div>`
     + '<button type="button" class="panb" data-pan="1" aria-label="Later days">›</button></div>'
     + sceneHTML(say) + mapHTML(s)
-    + chartsHTML(s, day) + hourlyHTML(s, day)
+    + viewbarHTML() + (view === 'table' ? tableHTML(s) : chartsHTML(s, day) + hourlyHTML(s, day))
     + `<footer><p>Times are local to the spot (${esc(tz.split('/').pop().replace(/_/g, ' '))}). Beyond about 3 days the forecast is rough.</p>`
     + '<p>Forecast data from <a href="https://open-meteo.com">Open-Meteo</a>: waves are the median of five wave models, wind and weather come from the best local model.</p></footer></div>';
-  syncTabs(false);
-  updateMap(s, mapHour(s, day));
+  const root = el('detail'), head = root.querySelector('.dh'), wrap = root.querySelector('.wgwrap');
+  root.querySelector('.spotbar').classList.toggle('stuck', head.getBoundingClientRect().bottom < 0);
+  if (wrap) {
+    wrap.addEventListener('scroll', onTableScroll, {passive: true});
+    scrollTableTo(state.day, false);
+    onTableScroll();
+  } else syncTabs(false);
+  updateMap(s, state.hour != null && s.hrs[state.hour] ? s.hrs[state.hour] : mapHour(s, day));
 }
 // reading the charts: a line follows the pointer, a small card shows that hour
 function hourAt(e, box) {
@@ -1247,9 +1697,9 @@ function updateMap(s, h, instant) {
     : out < 60 ? 'That is a bit off to the side for this beach, so only part of it gets in.'
     : 'It runs past this beach instead of into it.';
   box.innerHTML = `<div class="hd"><h3>Wind and swell</h3>${info('wind', 'wind and swell')}</div>`
-    + `<p class="wtime">${dayLabel(h.ms, s.tz)}, ${hhmm(h.ms, s.tz)}${h.day ? '' : ', after dark'}. Point at the charts below to see another hour.</p>`
-    + `<dl><dt><i style="background:${light}"></i>Wind</dt><dd>${h.ws} kn from the ${compass(h.wdir)}, gusts ${h.wg} kn. ${WIND_WORDS[h.kind] || WIND_WORDS.cross}</dd>`
-    + `<dt><i style="background:#fff"></i>Swell</dt><dd>${m1(h.wh)} m high, ${Math.round(h.wt)} s apart, coming from the ${compass(h.wd)}. ${swell}</dd>`
+    + `<p class="wtime">${dayLabel(h.ms, s.tz)}, ${hhmm(h.ms, s.tz)}${h.day ? '' : ', after dark'}<span class="ex">. Point at the charts below to see another hour.</span></p>`
+    + `<dl><dt><i style="background:${light}"></i>Wind</dt><dd>${h.ws} kn from the ${compass(h.wdir)}, ${KIND_WORD[h.kind] || 'cross-shore'}, gusts ${h.wg} kn.<span class="ex"> ${WIND_WORDS[h.kind] || WIND_WORDS.cross}</span></dd>`
+    + `<dt><i style="background:#fff"></i>Swell</dt><dd>${m1(h.wh)} m high, ${Math.round(h.wt)} s apart, from the ${compass(h.wd)}.<span class="ex"> ${swell}</span></dd>`
     + `<dt><i style="background:#A6D8D2"></i>Energy</dt><dd>${Math.round(h.en)} kW per metre of wave: ${pushWord(h.en)}.</dd>`
     + (h.sst != null ? `<dt><i style="background:#63A6C8"></i>Water</dt><dd>${Math.round(h.sst)} °C, roughly ${wetsuit(h.sst)}.</dd>` : '')
     + (s.tidal && h.tide != null ? `<dt><i style="background:#3B727B"></i>Tide</dt><dd>${h.tide > 0 ? '+' : ''}${m1(h.tide)} m` + (h.rise == null ? '' : h.rise ? ' and rising' : ' and falling') + '.</dd>' : '')
@@ -1285,7 +1735,8 @@ const GUIDES = {
       ['Read the headline.', 'It names the next window at your spots, or says there is none. In the list, an orange dot marks a spot with a window coming up.'],
       ['Open a spot and pick a day.', 'The sentence above the chart says in plain words what that day looks like.'],
       ['Check what is behind the score.', 'Wave height, period and wind over the whole forecast, with the limits drawn in.'],
-      ['Subscribe to the calendar.', 'Choose your spots. Each one is its own feed, so its windows show up as events.'],
+      narrow.matches ? ['Get it in your calendar.', 'Open the menu and go to Calendars. Tick your spots: each one is its own feed, so its windows show up as events.']
+        : ['Subscribe to the calendar.', 'Choose your spots. Each one is its own feed, so its windows show up as events.'],
     ],
     watch: 'It is a forecast, not a promise. Look at a webcam before you leave.',
   }),
@@ -1293,6 +1744,7 @@ const GUIDES = {
     title: 'Score', tag: 'How good the surf should be, hour by hour, from 0 to 10.', anim: animScore(),
     read: [
       'Each hump is one day of daylight: the higher the line, the better the surf. Nights are left out.',
+      'The darker stretch left of the now line is the last three days, scored with the same rules. Compare it with a day you were in the water.',
       'Move over any chart: the value for that hour appears on its right edge and the time at the bottom.',
       `Orange is the part above the dashed line (${MIN}). ${D.min_window_hours} or more such hours in a row become a calendar event.`,
       'A sun marks the middle of each day and a moon each night; the dark stripes are the hours without daylight. The thin vertical line is now.',
@@ -1338,6 +1790,27 @@ const GUIDES = {
     ],
     tips: ['Two days with the same height can feel completely different. This chart is the quickest way to see which one has the power.'],
     watch: 'It is the energy out at sea. How much of it reaches your beach depends on the direction and the shelter, which the score already takes into account.',
+  }),
+  table: () => ({
+    title: 'Forecast table', tag: 'Every daylight hour as one column, the way a Windguru table reads.',
+    read: [
+      'One column is one hour. Nights are left out. Scroll sideways for other days, or tap a day above.',
+      'Score is the 0 to 10 rating: grey is flat, green rideable, pale green good, orange means go. An orange line under the hour marks a calendar window.',
+      'Wave, period and energy get stronger in colour the bigger they are. Wind is green when offshore or calm, grey when cross-shore, coral when onshore.',
+      'Tap a column to put that hour on the map and in the wind and swell notes.',
+    ],
+    tips: ['Look for a column where the score, the period and a green wind line up.'],
+    watch: 'Faded columns are behind us. The last three days are a look back with today\'s rules, not what was forecast then.',
+  }),
+  source: () => ({
+    title: 'Wave source', tag: 'Which wave model the numbers come from.',
+    read: [
+      'The blend is the default: the middle of five wave models. Close to the coast that is steadier than any single one.',
+      "GFS-Wave is the model behind Windguru's standard wave forecast. EWAM and GWAM are the German weather service's wave models, which Windguru offers too. Pick one of them to see the numbers people quote from there.",
+      'A single model is fetched live for the spot you have open and for My spots. The score, the windows and the sentence are worked out again from it.',
+    ],
+    tips: ['If the blend and one model are far apart, trust neither too much and look at the webcam.'],
+    watch: 'Wind always comes from the same local weather model, so wind can still differ from Windguru. The calendars always use the blend.',
   }),
   period: s => {
     const L = limits(s);
@@ -1396,24 +1869,68 @@ const BASE = D.feed_base || new URL('.', location.href).href;
 const feedUrl = id => BASE + 'cal/' + id + '.ics';
 const webcal = url => url.replace(/^https?:/, 'webcal:');   // Google's add-by-link only takes webcal or http here: an https address gets "Unable to add"
 function renderDialog() {
-  const q = norm(el('dq').value.trim());
+  const q = norm(el('dq').value.trim()), list = el('checks'), at = list.scrollTop;
+  // a steady order (country, then name): ticking a spot must not make it jump away under the finger
   const all = D.spots.filter(s => !q || s.norm.includes(q)).sort((a, b) =>
-    (favs.has(b.id) - favs.has(a.id)) || countries.indexOf(a.country) - countries.indexOf(b.country) || a.name.localeCompare(b.name));
-  el('checks').innerHTML = all.length ? all.map(s => `<li><label><input type="checkbox" data-check="${s.id}"${favs.has(s.id) ? ' checked' : ''}><span>${esc(s.name)}</span><small>${esc(countryName(s.country))}</small></label></li>`).join('')
+    countries.indexOf(a.country) - countries.indexOf(b.country) || a.name.localeCompare(b.name));
+  list.innerHTML = all.length ? all.map(s => `<li><label><input type="checkbox" data-check="${s.id}"${favs.has(s.id) ? ' checked' : ''}><span>${esc(s.name)}</span><small>${esc(countryName(s.country))}</small></label></li>`).join('')
     : `<li class="empty">No spot matches “${esc(el('dq').value.trim())}”.</li>`;
+  list.scrollTop = at;
   const my = mine().sort((a, b) => a.name.localeCompare(b.name));
+  el('feeds-t').textContent = my.length ? `Your calendars (${my.length})` : 'Your calendars';
   el('feeds').innerHTML = my.length ? my.map(s => {
     const url = feedUrl(s.id);
-    return `<li><span class="fn">${esc(s.name)}</span><a class="btn" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcal(url))}">Google Calendar</a>`
-      + `<a class="btn" href="${esc(webcal(url))}">Apple or Outlook</a><button type="button" class="btn" data-copy="${esc(url)}">Copy link</button></li>`;
-  }).join('') : '<li class="empty">Tick at least one spot above.</li>';
+    return `<li><span class="fn">${esc(s.name)}</span><button type="button" class="rm" data-fav="${s.id}" aria-label="Remove ${esc(s.name)}" title="Remove">×</button>`
+      + `<span class="acts"><a class="btn" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcal(url))}">Google</a>`
+      + `<a class="btn" href="${esc(webcal(url))}">Apple or Outlook</a><button type="button" class="btn" data-copy="${esc(url)}">Copy link</button></span></li>`;
+  }).join('') : '<li class="empty">Tick a spot to get its calendar here.</li>';
   const names = (D.defaults || []).map(id => byId[id] && byId[id].name).filter(Boolean);
-  el('combined').innerHTML = names.length ? `Prefer a single calendar? One combined feed covers ${esc(names.join(' and '))} only: <button type="button" class="link" data-copy="${esc(BASE + 'surf.ics')}">copy its link</button>.` : '';
+  el('combined').innerHTML = names.length ? `One combined calendar for ${esc(names.join(' and '))}: <button type="button" class="link" data-copy="${esc(BASE + 'surf.ics')}">copy link</button>.` : '';
 }
 function copy(text, btn) {
   const done = () => { const old = btn.textContent; btn.textContent = 'Copied'; setTimeout(() => { btn.textContent = old; }, 1500); };
   if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, () => window.prompt('Copy this link', text));
   else window.prompt('Copy this link', text);
+}
+
+/* ---------- phone: a menu, and the forecast and the calendars as two pages */
+const menu = el('menu');
+let pushed = false;                // true while the calendars sit on a history entry of their own
+function openCal(push) {
+  if (dlg.open) return;
+  closeGuide();
+  el('dq').value = '';
+  renderDialog();
+  dlg.showModal();
+  if (push) try { history.pushState({page: 'cal'}, '', '#page=cal'); pushed = true; } catch (e) { /* file:// in some browsers */ }
+}
+dlg.addEventListener('close', () => {            // closing takes that entry away again, so Back never lands on a closed page
+  if (pushed) { pushed = false; history.back(); }
+});
+window.addEventListener('popstate', () => {      // the phone's Back button leaves the calendars the way it leaves a page
+  const cal = !!(history.state && history.state.page === 'cal');
+  if (cal && !dlg.open) { openCal(false); pushed = true; }
+  else if (!cal && dlg.open) { pushed = false; dlg.close(); }
+});
+function openMenu() {
+  closeGuide();
+  const here = dlg.open ? 'cal' : 'data';
+  menu.querySelectorAll('.mi').forEach(b => { if (b.dataset.go === here) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+  menu.showModal();
+}
+function go(where) {
+  const wasCal = dlg.open;
+  menu.close();
+  if (where === 'cal') return openCal(true);
+  if (wasCal) dlg.close();
+  else if (where === 'data') window.scrollTo({top: 0, behavior: 'smooth'});
+  if (where === 'guide') openGuide(document.querySelector('.top [data-guide="page"]'));
+}
+function toSearch() {              // from anywhere down the page: back up to the search field, ready to type
+  const q = el('q');
+  q.focus({preventScroll: true});
+  q.select();
+  q.closest('.srow').scrollIntoView({behavior: 'smooth', block: 'start'});
 }
 
 /* ---------- wiring */
@@ -1425,11 +1942,13 @@ function select(id, jump) {
   state.day = null;
   state.zoom = false;
   state.pan = null;
+  state.hour = null;
   setHash();
   renderList();
   renderSea();
   renderDetail();
   if (jump && !desktop.matches) el('detail').scrollIntoView({behavior: 'smooth'});
+  syncSource();
 }
 function toggleFav(id) {
   if (favs.has(id)) favs.delete(id); else favs.add(id);
@@ -1441,19 +1960,26 @@ function toggleFav(id) {
   if (dlg.open) renderDialog();
 }
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-guide],[data-pick],[data-fav],[data-day],[data-tab],[data-copy],[data-pan]');
+  const t = e.target.closest('[data-guide],[data-pick],[data-fav],[data-day],[data-tab],[data-copy],[data-pan],[data-view],[data-top],[data-menu],[data-go],[data-search]');
+  const cell = !t && e.target.closest('.wg [data-i]');
+  if (cell) { closeGuide(); pickHour(+cell.dataset.i); return; }
   if (!t) {
     if (!e.target.closest('#guide')) closeGuide();
     const box = e.target.closest('.charts'), at = box && hourAt(e, box);   // clicking the chart picks that day
     if (at && !justDragged) setDay(state.zoom ? state.day : hp(at.h, cur().tz).key);
     return;
   }
+  if (t.dataset.menu) return t.dataset.menu === 'open' ? openMenu() : menu.close();
+  if (t.dataset.go) return go(t.dataset.go);
   if (t.dataset.guide) return openGuide(t);
   closeGuide();
   if (t.dataset.pick) select(t.dataset.pick, true);
   else if (t.dataset.fav) toggleFav(t.dataset.fav);
   else if (t.dataset.day) setDay(t.dataset.day);
   else if (t.dataset.pan) panBy(+t.dataset.pan);
+  else if (t.dataset.view) { view = t.dataset.view; try { localStorage.setItem(VIEW_KEY, view); } catch (err) { /* not fatal */ } state.zoom = false; renderDetail(); }
+  else if (t.dataset.top) el('detail').scrollIntoView({behavior: 'smooth'});
+  else if (t.dataset.search) toSearch();
   else if (t.dataset.tab) { state.tab = t.dataset.tab; state.q = ''; el('q').value = ''; state.expanded = false; renderTabs(); renderList(); }
   else if (t.dataset.copy) copy(t.dataset.copy, t);
 });
@@ -1471,7 +1997,7 @@ window.addEventListener('pointermove', e => {
   const dx = e.clientX - drag.x;
   if (Math.abs(dx) > 5) drag.moved = true;
   if (!drag.moved) return;
-  state.pan = drag.pan - dx / drag.w * SHOWN;
+  state.pan = drag.pan - dx / drag.w * shown();
   applyPan(true);
 });
 const endDrag = () => {
@@ -1488,21 +2014,24 @@ el('detail').addEventListener('wheel', e => {
   const box = e.target.closest('.charts'), dx = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.shiftKey ? e.deltaY : 0;
   if (!box || state.zoom || !dx) return;
   e.preventDefault();
-  state.pan += dx / box.querySelector('.cplot').clientWidth * SHOWN;
+  state.pan += dx / box.querySelector('.cplot').clientWidth * shown();
   applyPan(true);
 }, {passive: false});
+document.addEventListener('change', e => { if (e.target.id === 'src') setSource(e.target.value); });
 el('q').addEventListener('input', e => { state.q = e.target.value; renderTabs(); renderList(); });
 el('more').addEventListener('click', () => { state.expanded = true; renderList(); });
-el('open-sub').addEventListener('click', () => { el('dq').value = ''; renderDialog(); dlg.showModal(); });
+el('open-sub').addEventListener('click', () => openCal(true));
 el('dq').addEventListener('input', renderDialog);
 el('checks').addEventListener('change', e => { if (e.target.dataset.check) toggleFav(e.target.dataset.check); });
 dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+menu.addEventListener('click', e => { if (e.target === menu) menu.close(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeGuide(); });
 window.addEventListener('scroll', closeGuide, true);
 let lastWidth = window.innerWidth;
 window.addEventListener('resize', () => { if (window.innerWidth !== lastWidth) { lastWidth = window.innerWidth; closeGuide(); } });
 desktop.addEventListener('change', renderList);
 window.addEventListener('resize', () => { if (state.mapH) updateMap(cur(), state.mapH, true); });
+narrow.addEventListener('change', () => { applyPan(true); if (!narrow.matches && menu.open) menu.close(); });
 
 el('q').placeholder = `Search ${D.spots.length} spots`;
 el('q').value = state.q;
@@ -1513,7 +2042,20 @@ renderTabs();
 renderList();
 renderSea();
 renderDetail();
-if (hash.subscribe) { renderDialog(); dlg.showModal(); }
+if (source !== 'blend') setSource(source);
+if (hash.selfcheck && canSource) {      // #selfcheck=1: does the page's scoring agree with the bot's? The answer goes in the tab title
+  let n = 0, off = 0, big = 0, worst = 0, eg = '';
+  D.spots.forEach(s => s.hrs.forEach(h => {
+    const mine = scoreHour(Object.assign({}, h, h.base), s).score, d = Math.abs(mine - h.base.score);
+    n++;
+    if (d > 0.05) off++;
+    if (d > 1) { big++; if (eg.length < 400) eg += ` | ${s.id} wh${h.base.wh} wt${h.base.wt} wd${h.base.wd} ws${h.ws} wdir${h.wdir}: page ${mine} bot ${h.base.score}`; }
+    if (d > worst) worst = d;
+  }));
+  document.title = `selfcheck: ${off} of ${n} hours differ, ${big} by more than 1, worst ${worst.toFixed(1)}${eg}`;
+}
+if (hash.subscribe || hash.page === 'cal') openCal(false);
+if (hash.menu) openMenu();
 if (hash.pan) { state.pan = cur().hrs[0].ms + +hash.pan * DAY; applyPan(true); }
 if (hash.day) { const d = getDays(cur())[+hash.day]; if (d) setDay(d.key); }
 if (hash.hover) demoHover(+hash.hover);

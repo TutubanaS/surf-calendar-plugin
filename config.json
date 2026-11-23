@@ -1,5 +1,6 @@
 {
   "forecast_days": 14,
+  "past_days": 3,
   "calendar_days": 7,
   "hourly_days": 5,
   "min_score": 5.0,

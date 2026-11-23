@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "marquee",
+        "value": "*",
+        "files": [
+          "docs/index.html"
+        ],
+        "createdAt": "2026-11-23T12:05:40.355Z",
+        "reason": "user asked for wave animations on this panel ('dalga animasyonlariyla'): the drifting element is a decorative wave shape, not scrolling content, and it stops under prefers-reduced-motion"
+      }
+    ]
+  }
+}

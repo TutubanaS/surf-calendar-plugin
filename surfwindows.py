@@ -34,6 +34,8 @@ WEATHER_URL = "https://api.open-meteo.com/v1/forecast"
 # Wave models, finest grid first. One model alone can be far off near the coast, so each hour uses
 # the median height across them. Only some publish a peak period, hence the component fields.
 MARINE_MODELS = ["ewam", "gwam", "meteofrance_wave", "ncep_gfswave025", "ecmwf_wam025"]
+ACTIVE_MODELS = MARINE_MODELS      # run() narrows this when config.json names its own "wave_models"
+PAST_DAYS = 0                      # run() sets this from config.json: days before today to fetch as well
 MARINE_VARS = ["wave_height", "wave_direction", "wave_period", "wave_peak_period",
                "swell_wave_height", "swell_wave_peak_period", "wind_wave_height", "wind_wave_peak_period"]
 
@@ -207,19 +209,20 @@ class Hour:
 def fetch_spot(spot: dict, days: int) -> list[Hour]:
     marine = get_json(MARINE_URL, {
         "latitude": spot["marine"]["lat"], "longitude": spot["marine"]["lon"],
-        "hourly": ",".join(MARINE_VARS), "models": ",".join(MARINE_MODELS),
-        "forecast_days": days, "timezone": "GMT",
+        "hourly": ",".join(MARINE_VARS), "models": ",".join(ACTIVE_MODELS),
+        "forecast_days": days, "past_days": PAST_DAYS, "timezone": "GMT",
     })
     weather = get_json(WEATHER_URL, {
         "latitude": spot["beach"]["lat"], "longitude": spot["beach"]["lon"],
         "hourly": "wind_speed_10m,wind_direction_10m,wind_gusts_10m,weather_code,temperature_2m",
         "daily": "sunrise,sunset",
-        "wind_speed_unit": "kn", "forecast_days": days, "timezone": "GMT",
+        "wind_speed_unit": "kn", "forecast_days": days, "past_days": PAST_DAYS, "timezone": "GMT",
     })
     try:   # tide is a nice-to-have. It needs its own call: the field is empty when wave models are named
         tide = get_json(MARINE_URL, {
             "latitude": spot["marine"]["lat"], "longitude": spot["marine"]["lon"],
-            "hourly": "sea_level_height_msl,sea_surface_temperature", "forecast_days": days, "timezone": "GMT",
+            "hourly": "sea_level_height_msl,sea_surface_temperature", "forecast_days": days,
+            "past_days": PAST_DAYS, "timezone": "GMT",
         }, waits=(5,))
     except QuotaExhausted:
         raise
@@ -519,10 +522,12 @@ def to_data(cfg: dict, spot_hours: dict[str, tuple[dict, list[Hour]]],
         # every hour for the first days, then one hour per 3-hour block: far-out days are rough anyway.
         # The block keeps its best daylight hour, so a day's best score on the page matches its windows.
         t0 = all_hours[0].time
-        fine = t0 + timedelta(days=cfg.get("hourly_days", cfg["forecast_days"]))
+        today = now.replace(hour=0, minute=0, second=0, microsecond=0)
+        fine_from = today - timedelta(days=1)       # yesterday is hourly too; older past days are coarse
+        fine_to = today + timedelta(days=cfg.get("hourly_days", cfg["forecast_days"]))
         blocks: dict = {}
         for h in all_hours:
-            key = h.time if h.time < fine else (h.time.date(), h.time.hour // 3)
+            key = h.time if fine_from <= h.time < fine_to else (h.time.date(), h.time.hour // 3)
             best = blocks.get(key)
             if best is None or (h.daylight, h.score) > (best.daylight, best.score):
                 blocks[key] = h
@@ -532,6 +537,7 @@ def to_data(cfg: dict, spot_hours: dict[str, tuple[dict, list[Hour]]],
             "id": sid, "name": spot["name"], "country": spot.get("country", ""), "region": spot.get("region", ""),
             "tz": spot.get("tz", "Europe/Amsterdam"), "facing": spot["facing_deg"], "from": swell_from(spot),
             "lat": spot["beach"]["lat"], "lon": spot["beach"]["lon"],
+            "mlat": spot["marine"]["lat"], "mlon": spot["marine"]["lon"],
             "good": good_arc(spot), "blocked": spot.get("blocked_swell_dir"),
             "profile": spot.get("profile", "windswell"), "exposure": spot.get("exposure", 1),
             "webcam": spot.get("webcam"), "notes": spot.get("notes"),
@@ -539,7 +545,8 @@ def to_data(cfg: dict, spot_hours: dict[str, tuple[dict, list[Hour]]],
             "score": [h.score for h in hours],
             "wh": [round(h.wave_h, 2) for h in hours], "wt": [round(h.wave_t, 1) for h in hours],
             "wd": [round(h.wave_dir) for h in hours],
-            "ws": [round(h.wind_kn) for h in hours], "wg": [round(h.gust_kn) for h in hours],
+            "ws": [round(h.wind_kn, 1) for h in hours],      # one decimal: the page's own scoring has thresholds at whole knots
+            "wg": [round(h.gust_kn) for h in hours],
             "wdir": [round(h.wind_dir) for h in hours],
             "kind": "".join(kinds.get(h.wind_kind, "c") for h in hours),
             "day": "".join("1" if h.daylight else "0" for h in hours),
@@ -566,10 +573,12 @@ def to_data(cfg: dict, spot_hours: dict[str, tuple[dict, list[Hour]]],
     spots = [d for d in spots if d]
     data = {
         "generated": int(now.timestamp()), "min_score": cfg["min_score"], "forecast_days": cfg["forecast_days"],
-        "min_window_hours": cfg["min_window_hours"],
+        "min_window_hours": cfg["min_window_hours"], "past_days": cfg.get("past_days", 0),
         "defaults": cfg.get("calendar_spots") or [], "feed_base": cfg.get("feed_base", ""),
         "countries": COUNTRIES,
-        "profiles": {name: {k: p[k] for k in ("flat", "best", "too_big", "chop_t", "swell_t")}
+        # the whole scoring table goes to the page: it scores a single wave model itself when the reader picks one
+        "profiles": {name: {**{k: p.get(k) for k in ("flat", "mild", "best", "too_big", "chop_t", "chop_h", "swell_t")},
+                            **{k: [[None if lim == INF else lim, pts] for lim, pts in p[k]] for k in ("size", "period")}}
                      for name, p in PROFILES.items()},
         "spots": spots,
     }
@@ -599,6 +608,10 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
     """Fetch every spot, write all outputs, return the windows of the main calendar feed."""
     hist_path = out_dir / "data" / "windows.json"
     old = json.loads(hist_path.read_text(encoding="utf-8")) if hist_path.exists() else []
+    global ACTIVE_MODELS
+    ACTIVE_MODELS = cfg.get("wave_models") or MARINE_MODELS     # e.g. ["ncep_gfswave025"] to follow one model only
+    global PAST_DAYS
+    PAST_DAYS = cfg.get("past_days", 0)
     spots = [s for s in cfg["spots"] if s.get("enabled", True)]
     # the main feed (surf.ics), its history and FORECAST.md cover these; every spot still gets its own feed
     cal_ids = set(cfg.get("calendar_spots") or [s["id"] for s in spots])
@@ -640,7 +653,8 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
 
     # the page shows every window; calendars only get the ones near enough to trust
     horizon = (now + timedelta(days=cfg.get("calendar_days", cfg["forecast_days"]))).isoformat()
-    near = {sid: [w for w in ws if w.start < horizon] for sid, ws in by_spot.items()}
+    # (and not the hindcast of the past days: the calendar keeps what was forecast at the time)
+    near = {sid: [w for w in ws if w.start < horizon and w.end > now.isoformat()] for sid, ws in by_spot.items()}
     new = [w for sid, ws in near.items() if sid in cal_ids for w in ws]
     windows = merge_history([d for d in old if d["spot_id"] in cal_ids], new, fresh, now, cfg["history_days"])
 

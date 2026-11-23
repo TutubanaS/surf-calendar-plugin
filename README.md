@@ -42,6 +42,14 @@ The wind-swell numbers come from real sessions in the Netherlands. The groundswe
 
 A **window** is 2+ consecutive daylight hours scoring ≥ `min_score` (default 5). The page shows windows for all 14 days; calendars only get those starting within `calendar_days` (7), because beyond a week only two or three coarse models are left. Events are labelled 🔥 ≥8, 👍 ≥6.5, 🤏 otherwise, and the description lists every hour plus a confidence note (forecasts beyond about 3 days are rough, and confidence drops when the wave models disagree).
 
+## Looking back
+
+The page also shows the last 3 days (`past_days`), scored with the current rules. Use it to check the score against a day you were in the water, and tune the thresholds from that.
+
+## Wave source
+
+By default every number is the blend (median) of five wave models. On the page, **Wave source** lets a reader switch the open spot and their own spots to a single model, fetched live from Open-Meteo: GFS-Wave (the model behind Windguru's standard wave forecast), EWAM, GWAM, ECMWF WAM or Météo-France MFWAM. The calendars always use what the bot computed. To make the bot itself follow one model, add `"wave_models": ["ncep_gfswave025"]` to `config.json`.
+
 ## Run locally
 
 ```bash
