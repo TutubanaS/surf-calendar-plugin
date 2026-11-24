@@ -122,6 +122,9 @@ def test_end_to_end(tmp_path):
     assert w.start.startswith("2026-11-24T07") and w.end.startswith("2026-11-24T16")
     ics = (tmp_path / "docs" / "surf.ics").read_bytes().decode()
     assert ics.startswith("BEGIN:VCALENDAR\r\n") and ics.count("BEGIN:VEVENT") == 1
+    flat = ics.replace("\r\n ", "")                    # unfolded
+    link = CFG["feed_base"] + "#spot=scheveningen"     # every event links back to its spot on the page
+    assert "URL:" + link in flat and "Full forecast: " + link in flat
     assert all(len(l.encode()) <= 75 for l in ics.split("\r\n"))
 
     data = read_data(tmp_path)

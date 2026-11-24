@@ -1535,6 +1535,18 @@ function renderDetail() {
     onTableScroll();
   } else syncTabs(false);
   updateMap(s, state.hour != null && s.hrs[state.hour] ? s.hrs[state.hour] : mapHour(s, day));
+  fitScene();
+}
+function fitScene() {              // the day card keeps one height for every day of this spot: as tall as its longest text needs
+  const s = cur(), scene = document.querySelector('.scene');
+  if (!scene) return;
+  const a = scene.querySelector('.say'), b = scene.querySelector('.saymore'), keep = [a.textContent, b.textContent];
+  let top = 0;
+  scene.style.minHeight = '';
+  getDays(s).forEach(d => { const say = daySummary(s, d); a.textContent = say.head; b.textContent = say.more; top = Math.max(top, scene.offsetHeight); });
+  a.textContent = keep[0];
+  b.textContent = keep[1];
+  scene.style.minHeight = top + 'px';
 }
 // reading the charts: a line follows the pointer, a small card shows that hour
 function hourAt(e, box) {
@@ -2028,7 +2040,7 @@ menu.addEventListener('click', e => { if (e.target === menu) menu.close(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeGuide(); });
 window.addEventListener('scroll', closeGuide, true);
 let lastWidth = window.innerWidth;
-window.addEventListener('resize', () => { if (window.innerWidth !== lastWidth) { lastWidth = window.innerWidth; closeGuide(); } });
+window.addEventListener('resize', () => { if (window.innerWidth !== lastWidth) { lastWidth = window.innerWidth; closeGuide(); fitScene(); } });
 desktop.addEventListener('change', renderList);
 window.addEventListener('resize', () => { if (state.mapH) updateMap(cur(), state.mapH, true); });
 narrow.addEventListener('change', () => { applyPan(true); if (!narrow.matches && menu.open) menu.close(); });

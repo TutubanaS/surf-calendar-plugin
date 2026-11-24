@@ -457,17 +457,21 @@ def ics_dt(iso: str) -> str:
 
 
 def to_ics(windows: list[Window], now: datetime, name: str = "Surf windows",
-           tz: str = "Europe/Amsterdam") -> str:
+           tz: str = "Europe/Amsterdam", site: str = "") -> str:
+    """site: the forecast page; each event links to its spot there (in the notes, which Google shows, and as URL)."""
     stamp = now.strftime("%Y%m%dT%H%M%SZ")
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//TutubanaS//surf-windows//EN",
              "CALSCALE:GREGORIAN", "METHOD:PUBLISH", f"X-WR-CALNAME:{ics_escape(name)}",
              f"X-WR-TIMEZONE:{tz}", "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
              "X-PUBLISHED-TTL:PT6H"]
     for w in sorted(windows, key=lambda x: x.start):
+        link = f"{site}#spot={w.spot_id}" if site else ""
+        desc = w.description + (f"\n\nFull forecast: {link}" if link else "")
         lines += ["BEGIN:VEVENT", f"UID:{w.uid}", f"DTSTAMP:{stamp}",
                   f"DTSTART:{ics_dt(w.start)}", f"DTEND:{ics_dt(w.end)}",
                   f"SUMMARY:{ics_escape(w.summary)}",
-                  f"DESCRIPTION:{ics_escape(w.description)}",
+                  f"DESCRIPTION:{ics_escape(desc)}",
+                  *([f"URL:{link}"] if link else []),
                   f"LOCATION:{ics_escape(w.spot_name)}",
                   "TRANSP:TRANSPARENT", "END:VEVENT"]
     lines.append("END:VCALENDAR")
@@ -663,11 +667,12 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
     cal.mkdir(parents=True, exist_ok=True)
     hist_path.write_text(json.dumps([asdict(w) for w in windows], indent=1, ensure_ascii=False) + "\n",
                          encoding="utf-8")
-    (docs / "surf.ics").write_text(to_ics(windows, now), encoding="utf-8", newline="")
+    site = cfg.get("feed_base", "")
+    (docs / "surf.ics").write_text(to_ics(windows, now, site=site), encoding="utf-8", newline="")
     for sid, (spot, _) in spot_hours.items():
         feed = [w for w in windows if w.spot_id == sid] if sid in cal_ids else near[sid]
         (cal / f"{sid}.ics").write_text(
-            to_ics(feed, now, f"Surf: {spot['name']}", spot.get("tz", "Europe/Amsterdam")),
+            to_ics(feed, now, f"Surf: {spot['name']}", spot.get("tz", "Europe/Amsterdam"), site),
             encoding="utf-8", newline="")
     known = {s["id"] for s in spots}
     for stale in cal.glob("*.ics"):
