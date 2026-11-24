@@ -7,7 +7,7 @@
   "end": "2026-11-24T13:00:00+00:00",
   "best": 5.0,
   "summary": "🤏 Wijk aan Zee 5/10 · 0.5m 6s W · 7kn SE",
-  "description": "Best 5/10 at 12:00. Forecast confidence: high. 4 wave models say 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 12:00       5   0.5m  6.3s   W    7kn (g13)  SE offshore\nTue 13:00       5   0.5m  6.6s WSW    8kn (g14)  SE offshore\n\nCheck the webcam before you go: https://www.surfweer.nl/webcams/\nNotes: Picks up more swell than Scheveningen; north pier shelters from N.\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.",
+  "description": "Best 5/10 at 12:00. Forecast confidence: high. 4 wave models say 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 12:00       5   0.5m  6.3s   W    7kn (g13)  SE offshore\nTue 13:00       5   0.5m  6.6s WSW    7kn (g13)  SE offshore\n\nCheck the webcam before you go: https://www.surfweer.nl/webcams/\nNotes: Picks up more swell than Scheveningen; north pier shelters from N.\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.",
   "conf": "high"
  }
 ]

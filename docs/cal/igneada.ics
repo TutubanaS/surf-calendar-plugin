@@ -9,15 +9,31 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:5a4b48fe929b570c@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T120000Z
 DTEND:20261124T150000Z
-SUMMARY:👍 İğneada 6.5/10 · 0.8m 8s NNE · 4kn WNW
-DESCRIPTION:Best 6.5/10 at 16:00. Forecast confidence: high. 4 wave models 
- say 0.7 to 1.1 m.\n\nHour (local)  score  waves            wind\nTue 15:00
+SUMMARY:👍 İğneada 7.5/10 · 0.8m 8s NNE · 2kn WNW
+DESCRIPTION:Best 7.5/10 at 17:00. Forecast confidence: high. 4 wave models 
+ say 0.7 to 1.0 m.\n\nHour (local)  score  waves            wind\nTue 15:00
       5.5   0.8m  7.8s   N    5kn (g16)  NW cross\nTue 16:00     6.5   0.8m
-   8.1s NNE    4kn (g14) WNW glassy\nTue 17:00     6.5   0.8m  8.1s NNE    
- 3kn (g12) WNW glassy\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
+   8.1s NNE    4kn (g13) WNW glassy\nTue 17:00     7.5   0.8m  8.1s NNE    
+ 2kn (g10) WNW glassy\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
+LOCATION:İğneada
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f2a89ba6356f4cfd@surf-windows
+DTSTAMP:20261124T020000Z
+DTSTART:20261128T100000Z
+DTEND:20261128T150000Z
+SUMMARY:👍 İğneada 7.5/10 · 2.1m 7s NE · 4kn NNE
+DESCRIPTION:Best 7.5/10 at 15:00. Forecast confidence: low. 3 wave models s
+ ay 1.6 to 2.6 m.\n\nHour (local)  score  waves            wind\nSat 13:00 
+     5.5   1.5m  5.8s  NE    3kn (g9) NNE glassy\nSat 14:00     6.5   1.8m 
+  6.5s  NE    4kn (g9) NNE glassy\nSat 15:00     7.5   2.1m  7.1s  NE    4k
+ n (g9) NNE glassy\nSat 16:00     7.5   2.3m  7.5s  NE    4kn (g9)  NE glas
+ sy\nSat 17:00       7   2.6m  7.8s ENE    3kn (g9)  NE glassy\n\nGenerated
+  2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:İğneada
 TRANSP:TRANSPARENT
 END:VEVENT

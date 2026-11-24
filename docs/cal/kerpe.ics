@@ -9,39 +9,50 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:1832bc83a579427e@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T070000Z
+DTEND:20261124T090000Z
+SUMMARY:🤏 Kerpe 5.5/10 · 1.5m 7s NNW · 7kn NW
+DESCRIPTION:Best 5.5/10 at 10:00. Forecast confidence: high. 4 wave models 
+ say 1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 10:00
+      5.5   1.5m  7.2s NNW    7kn (g15)  NW onshore\nTue 11:00     5.5   1.
+ 5m  7.5s NNW    7kn (g15)  NW onshore\n\nGenerated 2026-11-24 02:00 UTC fr
+ om Open-Meteo.
+LOCATION:Kerpe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:79b95bb23ffab0cf@surf-windows
+DTSTAMP:20261124T020000Z
+DTSTART:20261124T100000Z
 DTEND:20261124T150000Z
-SUMMARY:🔥 Kerpe 8/10 · 1.5m 7s NNW · 7kn WNW
-DESCRIPTION:Best 8/10 at 11:00. Forecast confidence: high. 4 wave models sa
- y 1.2 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 10:00  
-    5.5   1.5m  7.2s NNW    8kn (g16)  NW onshore\nTue 11:00       8   1.5m
-   7.5s NNW    7kn (g17) WNW cross\nTue 12:00       7   1.5m  7.7s NNW    7
- kn (g16) WNW cross\nTue 13:00       7   1.5m  7.7s NNW    8kn (g16)  NW cr
- oss\nTue 14:00     5.5   1.5m  7.7s NNW    9kn (g19) WNW cross\nTue 15:00 
-     5.5   1.5m  7.7s NNW    9kn (g20) WNW cross\nTue 16:00     5.5   1.4m 
-  7.7s NNW    8kn (g19) WNW cross\nTue 17:00     5.5   1.4m  7.7s NNW    8k
- n (g18) WNW cross\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
+SUMMARY:👍 Kerpe 7/10 · 1.5m 8s NNW · 7kn WNW
+DESCRIPTION:Best 7/10 at 13:00. Forecast confidence: high. 4 wave models sa
+ y 1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 13:00  
+      7   1.5m  7.7s NNW    7kn (g14) WNW cross\nTue 14:00     5.5   1.5m  
+ 7.7s NNW   10kn (g20) WNW cross\nTue 15:00     5.5   1.5m  7.7s NNW    9kn
+  (g20) WNW cross\nTue 16:00     5.5   1.4m  7.7s NNW    9kn (g19) WNW cros
+ s\nTue 17:00       7   1.4m  7.7s NNW    7kn (g18) WNW cross\n\nGenerated 
+ 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Kerpe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aa178e635be356a6@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261125T050000Z
-DTEND:20261125T150000Z
-SUMMARY:🔥 Kerpe 8/10 · 1.5m 7s NW · 5kn SSW
+DTEND:20261125T130000Z
+SUMMARY:🔥 Kerpe 8/10 · 1.5m 7s NW · 4kn SSW
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 4 wave models sa
- y 1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nWed 08:00  
-      8   1.5m  7.0s  NW    5kn (g10) SSW glassy\nWed 09:00       7   1.5m 
-  7.0s NNW    5kn (g11) SSW offshore\nWed 10:00       7   1.4m  7.0s NNW   
-  6kn (g12) SSW offshore\nWed 11:00       7   1.3m  7.0s NNW    6kn (g13) S
- SW offshore\nWed 12:00       7   1.3m  7.0s NNW    6kn (g13)  SW offshore\
- nWed 13:00       7   1.2m  7.0s NNW    4kn (g12)  SW glassy\nWed 14:00    
-    7   1.1m  7.0s NNW    4kn (g10)  SW glassy\nWed 15:00       7   1.1m  7
- .0s NNW    3kn (g9)  SW glassy\nWed 16:00       7   1.0m  6.5s NNW    2kn 
- (g7)  SW glassy\nWed 17:00     5.5   0.9m  6.5s NNW    1kn (g5)  SW glassy
- \n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
+ y 1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nWed 08:00  
+      8   1.5m  7.0s  NW    4kn (g9) SSW glassy\nWed 09:00       7   1.5m  
+ 7.0s NNW    5kn (g10) SSW glassy\nWed 10:00       7   1.4m  7.0s NNW    5k
+ n (g11) SSW offshore\nWed 11:00       7   1.3m  7.0s NNW    6kn (g13) SSW 
+ offshore\nWed 12:00       7   1.3m  7.0s NNW    5kn (g13)  SW offshore\nWe
+ d 13:00       7   1.2m  7.0s NNW    5kn (g12)  SW glassy\nWed 14:00       
+ 7   1.1m  7.0s NNW    4kn (g10)  SW glassy\nWed 15:00       7   1.0m  7.0s
+  NNW    3kn (g9) WSW glassy\n\nGenerated 2026-11-24 02:00 UTC from Open-Me
+ teo.
 LOCATION:Kerpe
 TRANSP:TRANSPARENT
 END:VEVENT

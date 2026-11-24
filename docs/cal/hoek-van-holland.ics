@@ -9,15 +9,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:d436c3a374d0fd1f@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T100000Z
 SUMMARY:🤏 Hoek van Holland 5/10 · 0.5m 6s NNW · 7kn SE
 DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: high. 5 wave models sa
- y 0.3 to 0.5 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
-      5   0.5m  6.3s NNW    7kn (g13)  SE offshore\nTue 09:00       5   0.5
- m  6.3s   N    8kn (g14)  SE offshore\nTue 10:00       5   0.5m  6.3s   N 
-    7kn (g14)  SE offshore\n\nGenerated 2026-11-23 18:00 UTC from Open-Mete
+ y 0.4 to 0.5 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
+      5   0.5m  6.3s NNW    7kn (g12)  SE offshore\nTue 09:00       5   0.5
+ m  6.3s   N    7kn (g12)  SE offshore\nTue 10:00       5   0.5m  6.3s   N 
+    7kn (g12) ESE offshore\n\nGenerated 2026-11-24 02:00 UTC from Open-Mete
  o.
 LOCATION:Hoek van Holland
 TRANSP:TRANSPARENT

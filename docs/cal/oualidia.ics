@@ -9,139 +9,144 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:21ef45df0b207733@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
-SUMMARY:🔥 Oualidia 9.5/10 · 1.6m 12s NW · 2kn SE
+SUMMARY:🔥 Oualidia 9.5/10 · 1.6m 12s NW · 2kn SSE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 4 wave models 
  say 1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00
-      9.5   1.6m 11.9s  NW    2kn (g4)  SE glassy\nTue 08:00       9   1.6m
-  11.5s  NW    2kn (g4) SSE glassy\nTue 09:00       8   1.6m 11.2s  NW    2
- kn (g4)  SW glassy\nTue 10:00     7.5   1.5m 11.1s  NW    4kn (g8)  NW gla
- ssy\nTue 11:00     7.5   1.5m 11.1s  NW    5kn (g9)  NW onshore\nTue 12:00
-      7.5   1.5m 11.2s  NW    5kn (g10)  NW glassy\nTue 13:00     7.5   1.4
- m 11.2s  NW    4kn (g9)  NW glassy\nTue 14:00     7.5   1.4m 11.2s  NW    
- 4kn (g9)  NW glassy\nTue 15:00     7.5   1.4m 11.2s  NW    4kn (g7)  NW gl
- assy\nTue 16:00     7.5   1.4m 11.2s  NW    3kn (g7)  NW glassy\nTue 17:00
-      7.5   1.4m 11.2s  NW    4kn (g10) NNW glassy\n\nGenerated 2026-11-23 
- 18:00 UTC from Open-Meteo.
+      9.5   1.6m 11.9s  NW    2kn (g3) SSE glassy\nTue 08:00     9.5   1.6m
+  11.5s  NW    2kn (g3) SSE glassy\nTue 09:00       8   1.6m 11.2s  NW    1
+ kn (g3) SSW glassy\nTue 10:00     7.5   1.6m 11.1s  NW    1kn (g3) WNW gla
+ ssy\nTue 11:00     7.5   1.5m 11.1s  NW    5kn (g8)  NW glassy\nTue 12:00 
+     7.5   1.5m 11.2s  NW    4kn (g9)  NW glassy\nTue 13:00     7.5   1.5m 
+ 11.2s  NW    4kn (g8)  NW glassy\nTue 14:00     7.5   1.4m 11.2s  NW    4k
+ n (g8)  NW glassy\nTue 15:00     7.5   1.4m 11.2s  NW    4kn (g8)  NW glas
+ sy\nTue 16:00     7.5   1.4m 11.2s  NW    2kn (g8) NNW glassy\nTue 17:00  
+    7.5   1.4m 11.2s  NW    1kn (g4)   N glassy\n\nGenerated 2026-11-24 02:
+ 00 UTC from Open-Meteo.
 LOCATION:Oualidia
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85991eac79236291@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261125T070000Z
-DTEND:20261125T120000Z
+DTEND:20261125T140000Z
 SUMMARY:🤏 Oualidia 5.5/10 · 2.3m 15s NNW · 10kn NE
-DESCRIPTION:Best 5.5/10 at 07:00. Forecast confidence: medium. 4 wave model
- s say 2.3 to 2.4 m.\n\nHour (local)  score  waves            wind\nWed 07:
- 00     5.5   2.3m 14.8s NNW   10kn (g17)  NE cross\nWed 08:00     5.5   2.
- 4m 14.8s NNW   10kn (g17)  NE cross\nWed 09:00     5.5   2.4m 14.8s NNW   
- 12kn (g20)  NE cross\nWed 10:00     5.5   2.4m 14.4s NNW   14kn (g24)  NE 
- cross\nWed 11:00     5.5   2.4m 13.9s NNW   14kn (g24)  NE cross\n\nGenera
- ted 2026-11-23 18:00 UTC from Open-Meteo.
+DESCRIPTION:Best 5.5/10 at 07:00. Forecast confidence: high. 4 wave models 
+ say 2.2 to 2.4 m.\n\nHour (local)  score  waves            wind\nWed 07:00
+      5.5   2.3m 14.8s NNW   10kn (g16)  NE cross\nWed 08:00     5.5   2.3m
+  14.8s NNW    9kn (g16)  NE cross\nWed 09:00     5.5   2.4m 14.8s NNW    9
+ kn (g15)  NE cross\nWed 10:00     5.5   2.4m 14.4s NNW   12kn (g21)  NE cr
+ oss\nWed 11:00     5.5   2.4m 13.9s NNW   13kn (g22)  NE cross\nWed 12:00 
+     5.5   2.4m 13.5s NNW   13kn (g22)  NE cross\nWed 13:00     5.5   2.4m 
+ 13.4s NNW   13kn (g23)  NE cross\n\nGenerated 2026-11-24 02:00 UTC from Op
+ en-Meteo.
 LOCATION:Oualidia
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b13a5ed550af51ab@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Oualidia 8.5/10 · 2.0m 12s NNW · 7kn ENE
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: medium. 4 wave model
- s say 2.0 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 07:
- 00     8.5   2.0m 12.3s NNW    7kn (g12) ENE cross\nThu 08:00     8.5   2.
- 0m 12.3s NNW    7kn (g12) ENE cross\nThu 09:00     8.5   2.0m 12.3s NNW   
-  8kn (g13) ENE cross\nThu 10:00       7   2.0m 12.3s NNW    9kn (g16) ENE 
- cross\nThu 11:00       7   1.9m 12.3s NNW   10kn (g17)  NE cross\nThu 12:0
- 0       7   1.9m 12.3s NNW   12kn (g20)  NE cross\nThu 13:00       7   1.9
- m 11.9s NNW   13kn (g22) NNE cross\nThu 14:00       5   1.9m 11.3s NNW   1
- 4kn (g24) NNE cross\nThu 15:00       5   2.0m 11.2s NNW   15kn (g26) NNE c
- ross\nThu 16:00       5   2.0m 11.2s NNW   15kn (g26) NNE cross\nThu 17:00
-        7   2.0m 11.2s NNW   14kn (g25)  NE cross\n\nGenerated 2026-11-23 1
- 8:00 UTC from Open-Meteo.
+SUMMARY:🔥 Oualidia 9.5/10 · 2.1m 12s NNW · 5kn E
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 4 wave model
+ s say 2.0 to 2.3 m.\n\nHour (local)  score  waves            wind\nThu 07:
+ 00     9.5   2.1m 12.3s NNW    5kn (g9)   E offshore\nThu 08:00     9.5   
+ 2.0m 12.3s NNW    5kn (g9)   E offshore\nThu 09:00     8.5   2.0m 12.3s NN
+ W    7kn (g12) ENE cross\nThu 10:00       7   2.0m 12.3s NNW    9kn (g15) 
+ ENE cross\nThu 11:00       7   2.0m 12.3s NNW   10kn (g17)  NE cross\nThu 
+ 12:00       7   2.0m 12.3s NNW   12kn (g20)  NE cross\nThu 13:00       7  
+  2.0m 11.9s NNW   12kn (g20) NNE cross\nThu 14:00       7   2.0m 11.3s NNW
+    13kn (g22) NNE cross\nThu 15:00       5   2.0m 11.2s NNW   14kn (g25) N
+ NE cross\nThu 16:00       5   2.0m 11.2s NNW   14kn (g26) NNE cross\nThu 1
+ 7:00       7   2.0m 11.2s NNW   14kn (g24) NNE cross\n\nGenerated 2026-11-
+ 24 02:00 UTC from Open-Meteo.
 LOCATION:Oualidia
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abe1245acd9e4771@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261127T070000Z
-DTEND:20261127T150000Z
-SUMMARY:🔥 Oualidia 8/10 · 1.6m 10s NNW · 6kn E
+DTEND:20261127T180000Z
+SUMMARY:🔥 Oualidia 8/10 · 1.5m 10s NNW · 5kn E
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 3 wave models say
   1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
-     8   1.6m 10.2s NNW    6kn (g11)   E offshore\nFri 08:00       8   1.6m
-  10.1s NNW    6kn (g11)   E offshore\nFri 09:00       8   1.5m 10.1s NNW  
-   6kn (g11)   E offshore\nFri 10:00       7   1.5m 10.1s NNW    8kn (g20) 
- ENE cross\nFri 11:00     5.5   1.5m 10.1s NNW   10kn (g20) ENE cross\nFri 
- 12:00     5.5   1.5m 10.0s NNW   12kn (g20)  NE cross\nFri 13:00     5.5  
-  1.5m 10.0s NNW   12kn (g24)  NE cross\nFri 14:00     5.5   1.5m 10.0s NNW
-    14kn (g24) NNE cross\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
+     8   1.5m 10.2s NNW    5kn (g10)   E offshore\nFri 08:00       8   1.5m
+  10.1s NNW    5kn (g10)   E offshore\nFri 09:00       8   1.5m 10.1s NNW  
+   6kn (g10)   E offshore\nFri 10:00       7   1.4m 10.1s NNW    7kn (g18) 
+ ENE cross\nFri 11:00     5.5   1.4m 10.1s NNW    9kn (g18) ENE cross\nFri 
+ 12:00     5.5   1.4m 10.0s NNW   11kn (g18)  NE cross\nFri 13:00     5.5  
+  1.4m 10.0s NNW   12kn (g23)  NE cross\nFri 14:00     5.5   1.4m 10.0s NNW
+    13kn (g23) NNE cross\nFri 15:00     5.5   1.5m 10.0s NNW   14kn (g23) N
+ NE cross\nFri 16:00     5.5   1.5m 10.1s   N   14kn (g23) NNE cross\nFri 1
+ 7:00     5.5   1.5m 10.1s   N   12kn (g23) NNE cross\n\nGenerated 2026-11-
+ 24 02:00 UTC from Open-Meteo.
 LOCATION:Oualidia
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8124e70030c702d7@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Oualidia 9/10 · 1.4m 11s NNW · 4kn ESE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 3 wave models say
-  1.4 to 1.5 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     9   1.4m 11.3s NNW    4kn (g7) ESE glassy\nSat 08:00       9   1.4m 11
- .2s NNW    4kn (g7) ESE glassy\nSat 09:00       9   1.4m 11.2s NNW    4kn 
- (g7) ESE glassy\nSat 10:00       9   1.4m 11.2s NNW    4kn (g11)   E glass
- y\nSat 11:00       8   1.4m 11.2s NNW    6kn (g12) ENE cross\nSat 12:00   
-     8   1.4m 11.3s NNW    7kn (g12) ENE cross\nSat 13:00       8   1.4m 11
- .3s NNW    7kn (g15)  NE cross\nSat 14:00       8   1.4m 11.4s  NW    8kn 
- (g15) NNE cross\nSat 15:00     5.5   1.4m 11.5s  NW    8kn (g15) NNE onsho
- re\nSat 16:00     5.5   1.4m 11.7s  NW    8kn (g12) NNE onshore\nSat 17:00
-        8   1.4m 11.9s  NW    7kn (g12) NNE cross\n\nGenerated 2026-11-23 1
- 8:00 UTC from Open-Meteo.
+  1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
+     9   1.4m 11.3s NNW    4kn (g8) ESE glassy\nSat 08:00       9   1.4m 11
+ .3s NNW    4kn (g8) ESE glassy\nSat 09:00       9   1.4m 11.3s NNW    4kn 
+ (g8)   E glassy\nSat 10:00       9   1.4m 11.2s NNW    5kn (g13)   E offsh
+ ore\nSat 11:00       8   1.4m 11.2s NNW    6kn (g13) ENE cross\nSat 12:00 
+       8   1.4m 11.4s NNW    7kn (g13)  NE cross\nSat 13:00       8   1.4m 
+ 11.7s NNW    8kn (g16)  NE cross\nSat 14:00     6.5   1.4m 12.1s  NW    9k
+ n (g16) NNE cross\nSat 15:00     5.5   1.4m 12.5s  NW   10kn (g16) NNE ons
+ hore\nSat 16:00     5.5   1.4m 12.8s  NW    9kn (g14) NNE onshore\nSat 17:
+ 00     8.5   1.5m 13.0s  NW    7kn (g14) NNE cross\n\nGenerated 2026-11-24
+  02:00 UTC from Open-Meteo.
 LOCATION:Oualidia
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0219c24fd6fc2496@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Oualidia 9.5/10 · 1.6m 12s NW · 3kn ESE
+SUMMARY:🔥 Oualidia 9.5/10 · 1.7m 13s NW · 3kn ESE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 3 wave models s
- ay 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
-     9.5   1.6m 12.4s  NW    3kn (g5) ESE glassy\nSun 08:00     9.5   1.6m 
- 12.4s  NW    3kn (g5) ESE glassy\nSun 09:00     9.5   1.6m 12.4s  NW    3k
- n (g5) ESE glassy\nSun 10:00     9.5   1.6m 12.4s  NW    4kn (g10)   E gla
- ssy\nSun 11:00     8.5   1.6m 12.5s  NW    5kn (g10) ENE glassy\nSun 12:00
-      8.5   1.6m 12.6s  NW    6kn (g10) ENE cross\nSun 13:00     8.5   1.6m
-  12.6s  NW    7kn (g17)  NE cross\nSun 14:00       7   1.6m 12.6s  NW    9
- kn (g17) NNE cross\nSun 15:00       7   1.7m 12.6s  NW   10kn (g17) NNE cr
- oss\nSun 16:00       7   1.7m 12.6s  NW   10kn (g16) NNE cross\nSun 17:00 
-       7   1.7m 12.5s NNW   10kn (g16) NNE cross\n\nGenerated 2026-11-23 18
+ ay 1.6 to 2.0 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
+     9.5   1.7m 12.8s  NW    3kn (g5) ESE glassy\nSun 08:00     9.5   1.7m 
+ 12.8s  NW    3kn (g5) ESE glassy\nSun 09:00     9.5   1.7m 12.9s  NW    3k
+ n (g5) ESE glassy\nSun 10:00     9.5   1.7m 12.9s  NW    4kn (g10)   E gla
+ ssy\nSun 11:00     8.5   1.7m 12.9s  NW    5kn (g10) ENE glassy\nSun 12:00
+      8.5   1.7m 12.9s  NW    6kn (g10) ENE cross\nSun 13:00     8.5   1.7m
+  12.8s  NW    7kn (g17)  NE cross\nSun 14:00       7   1.7m 12.8s  NW    9
+ kn (g17) NNE cross\nSun 15:00       7   1.7m 12.8s  NW   10kn (g17) NNE cr
+ oss\nSun 16:00       7   1.8m 12.7s  NW   10kn (g16) NNE cross\nSun 17:00 
+       7   1.8m 12.7s NNW   10kn (g16) NNE cross\n\nGenerated 2026-11-24 02
  :00 UTC from Open-Meteo.
 LOCATION:Oualidia
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4a7ae327a3531443@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Oualidia 10/10 · 1.8m 13s NW · 4kn ESE
 DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: low. 3 wave models sa
- y 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
-     10   1.8m 13.4s  NW    4kn (g7) ESE glassy\nMon 08:00      10   1.8m 1
+ y 1.8 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
+     10   1.8m 13.3s  NW    4kn (g7) ESE glassy\nMon 08:00      10   1.8m 1
  3.3s  NW    4kn (g7) ESE glassy\nMon 09:00      10   1.8m 13.2s  NW    4kn
-  (g7)   E glassy\nMon 10:00     8.5   1.8m 12.9s  NW    5kn (g11)   E glas
+  (g7)   E glassy\nMon 10:00     8.5   1.8m 13.0s  NW    5kn (g11)   E glas
  sy\nMon 11:00     8.5   1.9m 12.7s  NW    6kn (g11) ENE cross\nMon 12:00  
-    8.5   1.9m 12.4s  NW    6kn (g11)  NE cross\nMon 13:00     8.5   1.9m 1
- 2.3s  NW    8kn (g16)  NE cross\nMon 14:00       7   1.9m 12.3s  NW    9kn
-  (g16) NNE cross\nMon 15:00       7   1.9m 12.4s  NW   10kn (g16) NNE cros
- s\nMon 16:00       7   1.9m 12.4s  NW   10kn (g16) NNE cross\nMon 17:00   
-     7   1.9m 12.4s  NW    9kn (g16) NNE cross\n\nGenerated 2026-11-23 18:0
+    8.5   1.9m 12.5s  NW    6kn (g11)  NE cross\nMon 13:00     8.5   1.9m 1
+ 2.4s  NW    8kn (g16)  NE cross\nMon 14:00       7   1.9m 12.5s  NW    9kn
+  (g16) NNE cross\nMon 15:00       7   1.9m 12.6s  NW   10kn (g16) NNE cros
+ s\nMon 16:00       7   1.9m 12.6s  NW   10kn (g16) NNE cross\nMon 17:00   
+     7   1.9m 12.6s  NW    9kn (g16) NNE cross\n\nGenerated 2026-11-24 02:0
  0 UTC from Open-Meteo.
 LOCATION:Oualidia
 TRANSP:TRANSPARENT

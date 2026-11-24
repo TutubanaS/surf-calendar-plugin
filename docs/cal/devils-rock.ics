@@ -9,158 +9,147 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:0b8ed60117b15f57@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
-SUMMARY:👍 Devil's Rock (Tamraght) 7/10 · 0.9m 11s NW · 5kn NE
+SUMMARY:👍 Devil's Rock (Tamraght) 7/10 · 1.0m 11s NW · 5kn NE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: medium. 5 wave models 
  say 0.8 to 1.5 m.\n\nHour (local)  score  waves            wind\nTue 07:00
-        7   0.9m 10.8s  NW    5kn (g8)  NE offshore\nTue 08:00       7   0.
- 9m 10.8s  NW    4kn (g8)  NE glassy\nTue 09:00       7   0.9m 10.7s  NW   
-  2kn (g8)  NE glassy\nTue 10:00     6.5   0.9m 11.2s  NW    3kn (g6) WSW g
- lassy\nTue 11:00     6.5   0.9m 11.2s  NW    2kn (g7)   W glassy\nTue 12:0
- 0     6.5   0.9m 11.2s  NW    4kn (g8)   W glassy\nTue 13:00     6.5   0.9
- m 11.1s  NW    4kn (g9) WNW glassy\nTue 14:00     6.5   0.9m 11.1s  NW    
- 4kn (g8) WNW glassy\nTue 15:00     6.5   0.9m 11.2s  NW    4kn (g7) WNW gl
- assy\nTue 16:00     6.5   0.9m 11.2s  NW    5kn (g8)  NW glassy\nTue 17:00
-        7   0.9m 11.2s  NW    5kn (g8) NNW glassy\n\nGenerated 2026-11-23 1
- 8:00 UTC from Open-Meteo.
+        7   1.0m 10.8s  NW    5kn (g8)  NE offshore\nTue 08:00       7   1.
+ 0m 10.8s  NW    5kn (g8)  NE glassy\nTue 09:00       6   0.9m 10.8s  NW   
+  2kn (g7)   N glassy\nTue 10:00     6.5   0.9m 11.2s  NW    2kn (g4) WSW g
+ lassy\nTue 11:00     6.5   0.9m 11.2s  NW    2kn (g6)   W glassy\nTue 12:0
+ 0     6.5   0.9m 11.2s  NW    3kn (g7) WNW glassy\nTue 13:00     6.5   0.9
+ m 11.1s  NW    3kn (g7) WNW glassy\nTue 14:00     6.5   0.9m 11.1s  NW    
+ 3kn (g6) WNW glassy\nTue 15:00     6.5   0.9m 11.2s  NW    3kn (g6) WNW gl
+ assy\nTue 16:00     6.5   0.9m 11.2s  NW    3kn (g6) WNW glassy\nTue 17:00
+      6.5   0.9m 11.2s  NW    4kn (g6)  NW glassy\n\nGenerated 2026-11-24 0
+ 2:00 UTC from Open-Meteo.
 LOCATION:Devil's Rock (Tamraght)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47b91a8dd5656079@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
-SUMMARY:🔥 Devil's Rock (Tamraght) 8.5/10 · 1.1m 16s NW · 4kn NE
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: low. 5 wave models s
- ay 0.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nWed 07:00 
-     8.5   1.1m 16.3s  NW    4kn (g6)  NE glassy\nWed 08:00     8.5   1.2m 
- 14.8s  NW    4kn (g6)  NE glassy\nWed 09:00     8.5   1.2m 14.8s  NW    2k
- n (g6) NNE glassy\nWed 10:00       8   1.3m 14.8s  NW    2kn (g4)   W glas
- sy\nWed 11:00       8   1.3m 14.8s  NW    3kn (g6) WSW glassy\nWed 12:00  
-      8   1.4m 14.8s  NW    4kn (g7) WSW glassy\nWed 13:00       8   1.4m 1
- 4.8s  NW    4kn (g7)   W glassy\nWed 14:00       8   1.5m 14.8s  NW    3kn
-  (g8) WSW glassy\nWed 15:00       8   1.5m 14.8s  NW    3kn (g7) WSW glass
- y\nWed 16:00     7.5   1.6m 12.9s  NW    2kn (g6)  SW glassy\nWed 17:00   
-     7   1.6m 10.3s  NW    2kn (g5)   S glassy\n\nGenerated 2026-11-23 18:0
- 0 UTC from Open-Meteo.
+SUMMARY:🔥 Devil's Rock (Tamraght) 8.5/10 · 1.1m 16s NW · 3kn NE
+DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: medium. 5 wave model
+ s say 0.9 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 07:
+ 00     8.5   1.1m 16.3s  NW    3kn (g5)  NE glassy\nWed 08:00     8.5   1.
+ 1m 14.8s  NW    4kn (g6)  NE glassy\nWed 09:00     7.5   1.1m 14.8s  NW   
+  2kn (g6) NNE glassy\nWed 10:00       8   1.2m 14.8s  NW    2kn (g4)  SW g
+ lassy\nWed 11:00       8   1.3m 14.8s  NW    3kn (g6)  SW glassy\nWed 12:0
+ 0       8   1.3m 14.8s  NW    4kn (g7) WSW glassy\nWed 13:00       8   1.4
+ m 14.8s  NW    4kn (g8) WSW glassy\nWed 14:00       8   1.5m 14.8s  NW    
+ 4kn (g8) WSW glassy\nWed 15:00       8   1.6m 14.8s  NW    3kn (g7) WSW gl
+ assy\nWed 16:00       8   1.6m 12.9s  NW    3kn (g7) WSW glassy\nWed 17:00
+        7   1.6m 10.3s  NW    2kn (g6) SSW glassy\n\nGenerated 2026-11-24 0
+ 2:00 UTC from Open-Meteo.
 LOCATION:Devil's Rock (Tamraght)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0e652e8cd4a4b478@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Devil's Rock (Tamraght) 9/10 · 1.3m 12s NW · 4kn ENE
+SUMMARY:🔥 Devil's Rock (Tamraght) 9/10 · 1.4m 12s NW · 4kn NE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 5 wave models say
-  0.9 to 2.5 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
-     9   1.3m 12.2s  NW    4kn (g6) ENE glassy\nThu 08:00       9   1.2m 12
- .2s  NW    4kn (g6) ENE glassy\nThu 09:00       8   1.2m 12.3s  NW    2kn 
- (g6) NNE glassy\nThu 10:00     7.5   1.2m 12.3s  NW    2kn (g4)  SW glassy
- \nThu 11:00     7.5   1.3m 12.3s  NW    4kn (g7) WSW glassy\nThu 12:00    
-  5.5   1.3m 12.3s  NW    6kn (g10)   W onshore\nThu 13:00     7.5   1.4m 1
- 2.3s  NW    5kn (g10)  SW glassy\nThu 14:00     6.5   1.5m  9.8s  NW    6k
- n (g10)   S onshore\nThu 15:00     6.5   1.6m  8.4s  NW    6kn (g10) SSE c
- ross\nThu 16:00     6.5   1.6m  8.4s  NW    5kn (g9) SSE cross\nThu 17:00 
-     6.5   1.7m  8.4s  NW    5kn (g9)  SE cross\n\nGenerated 2026-11-23 18:
- 00 UTC from Open-Meteo.
+  0.9 to 2.6 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
+     9   1.4m 12.2s  NW    4kn (g6)  NE glassy\nThu 08:00       9   1.4m 12
+ .2s  NW    4kn (g6)  NE glassy\nThu 09:00       8   1.4m 12.3s  NW    2kn 
+ (g6) NNE glassy\nThu 10:00     7.5   1.4m 12.3s  NW    2kn (g4)   W glassy
+ \nThu 11:00     7.5   1.4m 12.3s  NW    4kn (g8)   W glassy\nThu 12:00    
+  7.5   1.4m 12.3s  NW    5kn (g9)  SW glassy\nThu 13:00     5.5   1.6m 12.
+ 3s  NW    6kn (g11)   S onshore\nThu 14:00       5   1.7m 10.2s  NW    8kn
+  (g13)   S onshore\nThu 15:00     6.5   1.8m  8.4s  NW    7kn (g13) SSE cr
+ oss\nThu 16:00     6.5   1.8m  8.4s  NW    5kn (g11) SSE cross\nThu 17:00 
+     6.5   1.8m  8.4s  NW    4kn (g9) SSE glassy\n\nGenerated 2026-11-24 02
+ :00 UTC from Open-Meteo.
 LOCATION:Devil's Rock (Tamraght)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f38b706577af52b@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261127T070000Z
-DTEND:20261127T140000Z
-SUMMARY:🔥 Devil's Rock (Tamraght) 8/10 · 1.4m 10s NNW · 4kn ENE
+DTEND:20261127T180000Z
+SUMMARY:🔥 Devil's Rock (Tamraght) 8/10 · 1.5m 10s NNW · 4kn ENE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
   1.0 to 2.1 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
-     8   1.4m 10.0s NNW    4kn (g7) ENE glassy\nFri 08:00       8   1.4m 10
- .2s NNW    4kn (g7) ENE glassy\nFri 09:00       8   1.4m 10.2s NNW    2kn 
- (g7)   E glassy\nFri 10:00       7   1.3m 10.2s NNW    1kn (g8)  SE glassy
- \nFri 11:00     6.5   1.3m 10.2s NNW    2kn (g8) SSW glassy\nFri 12:00    
-  6.5   1.2m 10.1s NNW    4kn (g8)  SW glassy\nFri 13:00     6.5   1.2m 10.
- 1s NNW    5kn (g12) WSW glassy\n\nGenerated 2026-11-23 18:00 UTC from Open
- -Meteo.
-LOCATION:Devil's Rock (Tamraght)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4385caedbefdfe38@surf-windows
-DTSTAMP:20261123T180000Z
-DTSTART:20261127T160000Z
-DTEND:20261127T180000Z
-SUMMARY:🤏 Devil's Rock (Tamraght) 5.5/10 · 1.1m 10s NNW · 6kn W
-DESCRIPTION:Best 5.5/10 at 16:00. Forecast confidence: low. 4 wave models s
- ay 0.9 to 1.6 m.\n\nHour (local)  score  waves            wind\nFri 16:00 
-     5.5   1.1m  9.9s NNW    6kn (g8)   W onshore\nFri 17:00     5.5   1.1m
-   9.9s NNW    3kn (g8)   W glassy\n\nGenerated 2026-11-23 18:00 UTC from O
- pen-Meteo.
+     8   1.5m  9.9s NNW    4kn (g6) ENE glassy\nFri 08:00       8   1.4m 10
+ .0s NNW    3kn (g6) ENE glassy\nFri 09:00       8   1.4m 10.1s NNW    2kn 
+ (g6) ENE glassy\nFri 10:00       7   1.3m 10.1s NNW    1kn (g7)  SE glassy
+ \nFri 11:00     6.5   1.3m 10.0s NNW    2kn (g7)  SW glassy\nFri 12:00    
+  6.5   1.2m 10.0s NNW    3kn (g7)  SW glassy\nFri 13:00     5.5   1.2m  9.
+ 9s NNW    4kn (g10) WSW glassy\nFri 14:00     5.5   1.1m  9.9s NNW    5kn 
+ (g10)   W onshore\nFri 15:00     5.5   1.1m  9.9s NNW    6kn (g10) WNW ons
+ hore\nFri 16:00     5.5   1.1m  9.9s NNW    5kn (g7) WNW onshore\nFri 17:0
+ 0     5.5   1.1m  9.9s NNW    4kn (g7)  NW glassy\n\nGenerated 2026-11-24 
+ 02:00 UTC from Open-Meteo.
 LOCATION:Devil's Rock (Tamraght)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ec22d8f163a5cb78@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Devil's Rock (Tamraght) 8/10 · 1.0m 11s NNW · 3kn NE
+SUMMARY:🔥 Devil's Rock (Tamraght) 8/10 · 1.0m 11s NNW · 4kn NE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
   0.8 to 1.5 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     7   1.0m 10.6s NNW    4kn (g8)  NE glassy\nSat 08:00       8   1.0m 11
- .0s NNW    3kn (g8)  NE glassy\nSat 09:00       8   1.0m 11.3s NNW    2kn 
- (g8)  NE glassy\nSat 10:00       8   1.0m 11.4s NNW    1kn (g9) ENE glassy
- \nSat 11:00       7   1.0m 11.3s NNW    3kn (g10)   S glassy\nSat 12:00   
-     7   1.0m 11.2s NNW    4kn (g11) SSE glassy\nSat 13:00       7   1.0m 1
- 1.2s NNW    3kn (g11)   S glassy\nSat 14:00     6.5   1.0m 11.2s NNW    4k
- n (g11) WSW glassy\nSat 15:00     6.5   1.0m 11.2s NNW    5kn (g11)   W on
- shore\nSat 16:00     6.5   1.0m 11.2s NNW    6kn (g10) WNW onshore\nSat 17
- :00     6.5   1.0m 11.2s NNW    6kn (g10)  NW onshore\n\nGenerated 2026-11
- -23 18:00 UTC from Open-Meteo.
+     7   1.0m 10.7s NNW    5kn (g10) ENE offshore\nSat 08:00       8   1.0m
+  11.1s NNW    4kn (g10)  NE glassy\nSat 09:00       8   1.0m 11.4s NNW    
+ 4kn (g10) ENE glassy\nSat 10:00       8   1.0m 11.4s NNW    5kn (g16)   E 
+ offshore\nSat 11:00       8   1.0m 11.4s NNW    8kn (g16) ESE offshore\nSa
+ t 12:00     5.5   1.0m 11.3s NNW    9kn (g16) ESE cross\nSat 13:00       7
+    1.0m 11.3s NNW    5kn (g10) ESE cross\nSat 14:00     6.5   1.0m 11.2s N
+ NW    2kn (g10) WSW glassy\nSat 15:00     6.5   1.0m 11.2s NNW    6kn (g10
+ ) WNW onshore\nSat 16:00     6.5   1.0m 11.2s NNW    5kn (g8) WNW onshore\
+ nSat 17:00     6.5   1.0m 11.3s NNW    4kn (g9)  NW glassy\n\nGenerated 20
+ 26-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Devil's Rock (Tamraght)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b22a44beace71f5f@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Devil's Rock (Tamraght) 8/10 · 1.1m 12s NNW · 5kn NE
+SUMMARY:🔥 Devil's Rock (Tamraght) 8/10 · 1.2m 12s NNW · 5kn NE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
-  0.8 to 1.6 m.\n\nHour (local)  score  waves            wind\nSun 07:00   
-     8   1.1m 12.1s NNW    5kn (g10)  NE glassy\nSun 08:00       8   1.1m 1
- 2.0s NNW    5kn (g10)  NE glassy\nSun 09:00       8   1.1m 11.9s NNW    4k
- n (g10) ENE glassy\nSun 10:00       8   1.1m 11.9s NNW    3kn (g8)   E gla
- ssy\nSun 11:00       7   1.1m 11.9s NNW    2kn (g8)  SE glassy\nSun 12:00 
-       7   1.1m 11.9s NNW    3kn (g8)   S glassy\nSun 13:00     6.5   1.1m 
- 11.9s NNW    3kn (g10)  SW glassy\nSun 14:00     6.5   1.1m 11.9s NNW    4
- kn (g10) WSW glassy\nSun 15:00     6.5   1.1m 12.0s NNW    5kn (g10)   W o
- nshore\nSun 16:00     6.5   1.1m 12.1s NNW    6kn (g10) WNW onshore\nSun 1
- 7:00     6.5   1.1m 12.1s NNW    6kn (g10)  NW onshore\n\nGenerated 2026-1
- 1-23 18:00 UTC from Open-Meteo.
+  0.9 to 1.7 m.\n\nHour (local)  score  waves            wind\nSun 07:00   
+     8   1.2m 12.4s NNW    5kn (g10)  NE glassy\nSun 08:00       8   1.2m 1
+ 2.3s NNW    5kn (g10)  NE glassy\nSun 09:00       8   1.2m 12.3s NNW    4k
+ n (g10) ENE glassy\nSun 10:00       8   1.2m 12.3s NNW    3kn (g8)   E gla
+ ssy\nSun 11:00       7   1.2m 12.3s NNW    2kn (g8)  SE glassy\nSun 12:00 
+       7   1.2m 12.3s NNW    3kn (g8)   S glassy\nSun 13:00     6.5   1.2m 
+ 12.4s NNW    3kn (g10)  SW glassy\nSun 14:00     7.5   1.2m 12.4s NNW    4
+ kn (g10) WSW glassy\nSun 15:00     7.5   1.2m 12.4s NNW    5kn (g10)   W o
+ nshore\nSun 16:00     7.5   1.2m 12.5s NNW    6kn (g10) WNW onshore\nSun 1
+ 7:00     7.5   1.2m 12.6s NNW    6kn (g10)  NW onshore\n\nGenerated 2026-1
+ 1-24 02:00 UTC from Open-Meteo.
 LOCATION:Devil's Rock (Tamraght)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b523c150b668eed8@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Devil's Rock (Tamraght) 9.5/10 · 1.2m 13s NNW · 4kn NE
+SUMMARY:🔥 Devil's Rock (Tamraght) 9.5/10 · 1.3m 13s NNW · 4kn NE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
- ay 0.9 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
-     9.5   1.2m 13.2s NNW    4kn (g9)  NE glassy\nMon 08:00     9.5   1.3m 
+ ay 1.0 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
+     9.5   1.3m 13.2s NNW    4kn (g9)  NE glassy\nMon 08:00     9.5   1.3m 
  13.2s NNW    4kn (g9)  NE glassy\nMon 09:00     9.5   1.3m 13.2s NNW    3k
- n (g9)  NE glassy\nMon 10:00     9.5   1.3m 13.3s NNW    1kn (g8) ENE glas
- sy\nMon 11:00       8   1.3m 13.3s NNW    1kn (g8)  SW glassy\nMon 12:00  
-      8   1.3m 13.3s NNW    3kn (g8)  SW glassy\nMon 13:00       8   1.3m 1
+ n (g9)  NE glassy\nMon 10:00     9.5   1.3m 13.2s NNW    1kn (g8) ENE glas
+ sy\nMon 11:00       8   1.3m 13.2s NNW    1kn (g8)  SW glassy\nMon 12:00  
+      8   1.3m 13.2s NNW    3kn (g8)  SW glassy\nMon 13:00       8   1.3m 1
  3.3s NNW    4kn (g8) WSW glassy\nMon 14:00       8   1.3m 13.3s NNW    4kn
   (g8) WSW glassy\nMon 15:00       8   1.3m 13.2s NNW    4kn (g8) WSW glass
- y\nMon 16:00     7.5   1.3m 13.0s NNW    4kn (g9)   W glassy\nMon 17:00   
-   7.5   1.3m 12.7s NNW    4kn (g9) WNW glassy\n\nGenerated 2026-11-23 18:0
+ y\nMon 16:00     7.5   1.4m 13.0s NNW    4kn (g9)   W glassy\nMon 17:00   
+   7.5   1.4m 12.7s NNW    4kn (g9) WNW glassy\n\nGenerated 2026-11-24 02:0
  0 UTC from Open-Meteo.
 LOCATION:Devil's Rock (Tamraght)
 TRANSP:TRANSPARENT

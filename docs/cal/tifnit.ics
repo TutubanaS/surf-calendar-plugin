@@ -9,139 +9,140 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:d410ce00ffcd51a1@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
-SUMMARY:🔥 Tifnit 9/10 · 1.2m 11s NW · 5kn ENE
-DESCRIPTION:Best 9/10 at 11:00. Forecast confidence: high. 5 wave models sa
+SUMMARY:🔥 Tifnit 8/10 · 1.3m 11s NW · 6kn E
+DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: high. 5 wave models sa
  y 1.1 to 1.5 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
       8   1.3m 10.8s  NW    6kn (g9)   E offshore\nTue 08:00       8   1.3m
-  10.8s  NW    7kn (g10)   E offshore\nTue 09:00       8   1.3m 10.8s  NW  
-   8kn (g12)   E offshore\nTue 10:00       8   1.2m 10.8s  NW    7kn (g12) 
-   E offshore\nTue 11:00       9   1.2m 11.2s  NW    5kn (g10) ENE glassy\n
- Tue 12:00       8   1.2m 11.2s  NW    4kn (g8)   N glassy\nTue 13:00     5
- .5   1.2m 11.1s  NW   10kn (g16)  NW onshore\nTue 14:00     5.5   1.2m 11.
- 1s  NW    8kn (g16)  NW onshore\nTue 15:00     5.5   1.3m 11.2s  NW    8kn
-  (g13)  NW onshore\nTue 16:00     5.5   1.3m 11.2s  NW    7kn (g12)  NW on
- shore\nTue 17:00     7.5   1.3m 11.2s  NW    6kn (g11)  NW onshore\n\nGene
- rated 2026-11-23 18:00 UTC from Open-Meteo.
+  10.8s  NW    6kn (g10)   E offshore\nTue 09:00       8   1.3m 10.8s  NW  
+   6kn (g10)   E offshore\nTue 10:00       7   1.2m 10.8s  NW    4kn (g9) E
+ NE glassy\nTue 11:00       8   1.2m 11.2s  NW    4kn (g7) NNE glassy\nTue 
+ 12:00     5.5   1.2m 11.2s  NW    6kn (g10) NNW onshore\nTue 13:00     5.5
+    1.2m 11.1s  NW    8kn (g12)  NW onshore\nTue 14:00     5.5   1.2m 11.1s
+   NW    6kn (g12)  NW onshore\nTue 15:00     7.5   1.3m 11.2s  NW    6kn (
+ g10)  NW onshore\nTue 16:00     7.5   1.3m 11.2s  NW    5kn (g10)  NW onsh
+ ore\nTue 17:00     7.5   1.3m 11.2s  NW    4kn (g9) WNW glassy\n\nGenerate
+ d 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Tifnit
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d4e601eec2af899d@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
-SUMMARY:🔥 Tifnit 10/10 · 1.6m 15s NW · 2kn E
-DESCRIPTION:Best 10/10 at 09:00. Forecast confidence: medium. 5 wave models
-  say 1.5 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 07:0
- 0     9.5   1.5m 13.2s  NW    2kn (g3)   E glassy\nWed 08:00     9.5   1.5
- m 14.8s  NW    3kn (g4)   E glassy\nWed 09:00      10   1.6m 14.8s  NW    
- 2kn (g4)   E glassy\nWed 10:00      10   1.7m 14.8s  NW    1kn (g3)   E gl
- assy\nWed 11:00     8.5   1.7m 14.8s  NW    2kn (g4) WNW glassy\nWed 12:00
-      8.5   1.8m 14.8s  NW    4kn (g7)   W glassy\nWed 13:00     6.5   1.9m
-  14.8s  NW    6kn (g10)   W onshore\nWed 14:00     6.5   2.0m 14.8s  NW   
-  7kn (g12)   W onshore\nWed 15:00     6.5   2.0m 14.8s  NW    6kn (g12)   
- W onshore\nWed 16:00       7   2.1m 10.0s  NW    5kn (g10) WSW glassy\nWed
-  17:00       7   2.2m  9.5s  NW    5kn (g8)  SW onshore\n\nGenerated 2026-
- 11-23 18:00 UTC from Open-Meteo.
+SUMMARY:🔥 Tifnit 9.5/10 · 1.4m 14s NW · 3kn E
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models 
+ say 1.3 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 07:00
+      9.5   1.4m 13.6s  NW    3kn (g4)   E glassy\nWed 08:00     9.5   1.4m
+  14.8s  NW    3kn (g4) ENE glassy\nWed 09:00     9.5   1.5m 14.8s  NW    2
+ kn (g4)   E glassy\nWed 10:00     8.5   1.5m 14.8s  NW    1kn (g3) SSE gla
+ ssy\nWed 11:00     8.5   1.6m 14.8s  NW    2kn (g4)  SW glassy\nWed 12:00 
+     8.5   1.7m 14.8s  NW    4kn (g8) WSW glassy\nWed 13:00     6.5   1.8m 
+ 14.8s  NW    6kn (g10)   W onshore\nWed 14:00     6.5   1.9m 14.8s  NW    
+ 7kn (g11)   W onshore\nWed 15:00     6.5   2.0m 14.8s  NW    6kn (g11)   W
+  onshore\nWed 16:00       7   2.1m 10.2s  NW    4kn (g10)   W glassy\nWed 
+ 17:00       7   2.2m  9.6s  NW    4kn (g7)  SW glassy\n\nGenerated 2026-11
+ -24 02:00 UTC from Open-Meteo.
 LOCATION:Tifnit
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:db3af49abf5500a2@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261126T070000Z
-DTEND:20261126T140000Z
-SUMMARY:🔥 Tifnit 9.5/10 · 1.8m 12s NW · 4kn ENE
+DTEND:20261126T150000Z
+SUMMARY:🔥 Tifnit 9.5/10 · 1.9m 12s NW · 4kn E
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 5 wave model
  s say 1.7 to 2.1 m.\n\nHour (local)  score  waves            wind\nThu 07:
- 00     9.5   1.8m 12.2s  NW    4kn (g6) ENE glassy\nThu 08:00     9.5   1.
- 8m 12.2s  NW    4kn (g6)   E glassy\nThu 09:00     9.5   1.7m 12.3s  NW   
-  4kn (g6)   E glassy\nThu 10:00     9.5   1.7m 12.3s  NW    3kn (g6) ESE g
- lassy\nThu 11:00       8   1.7m 12.3s  NW    2kn (g5)   N glassy\nThu 12:0
- 0       8   1.7m 12.3s  NW    5kn (g8)  NW glassy\nThu 13:00       6   1.8
- m 11.2s  NW   10kn (g14)  NW onshore\n\nGenerated 2026-11-23 18:00 UTC fro
- m Open-Meteo.
+ 00     9.5   1.9m 12.2s  NW    4kn (g5)   E glassy\nThu 08:00     9.5   1.
+ 9m 12.2s  NW    3kn (g5)   E glassy\nThu 09:00     9.5   1.9m 12.3s  NW   
+  4kn (g6)   E glassy\nThu 10:00     9.5   1.9m 12.3s  NW    4kn (g6)   E g
+ lassy\nThu 11:00     9.5   1.9m 12.3s  NW    1kn (g6)   E glassy\nThu 12:0
+ 0       8   1.9m 12.3s  NW    5kn (g8)  NW glassy\nThu 13:00       6   2.1
+ m 11.2s  NW    6kn (g10) WNW onshore\nThu 14:00       7   2.2m  9.4s  NW  
+   6kn (g10)  SW onshore\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Tifnit
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:24aac8c37b78bd1d@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261127T070000Z
 DTEND:20261127T140000Z
 SUMMARY:🔥 Tifnit 8/10 · 1.6m 10s NNW · 4kn ESE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.4 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
-     8   1.6m  9.8s NNW    4kn (g6) ESE glassy\nFri 08:00       8   1.5m  9
- .8s NNW    4kn (g6)   E glassy\nFri 09:00       8   1.5m  9.7s NNW    4kn 
- (g6)   E glassy\nFri 10:00       8   1.4m  9.8s NNW    3kn (g4)   E glassy
- \nFri 11:00       8   1.4m 10.0s NNW    1kn (g4) ESE glassy\nFri 12:00    
-  6.5   1.4m 10.1s NNW    1kn (g4)   W glassy\nFri 13:00     6.5   1.4m 10.
- 1s NNW    4kn (g13) WNW glassy\n\nGenerated 2026-11-23 18:00 UTC from Open
+  1.5 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
+     8   1.6m  9.6s NNW    4kn (g5) ESE glassy\nFri 08:00       8   1.6m  9
+ .6s NNW    4kn (g5) ESE glassy\nFri 09:00       8   1.5m  9.5s NNW    3kn 
+ (g5) ESE glassy\nFri 10:00       8   1.5m  9.6s NNW    2kn (g3) ESE glassy
+ \nFri 11:00       8   1.5m  9.8s NNW    1kn (g3) ESE glassy\nFri 12:00    
+  6.5   1.4m  9.9s NNW    1kn (g3)   W glassy\nFri 13:00     6.5   1.4m  9.
+ 9s NNW    3kn (g12) WNW glassy\n\nGenerated 2026-11-24 02:00 UTC from Open
  -Meteo.
 LOCATION:Tifnit
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:95b56e60572e20f0@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T150000Z
-SUMMARY:🔥 Tifnit 8/10 · 1.1m 11s NNW · 4kn E
+SUMMARY:🔥 Tifnit 8/10 · 1.1m 11s NNW · 6kn E
 DESCRIPTION:Best 8/10 at 11:00. Forecast confidence: low. 4 wave models say
   1.1 to 1.2 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     7   1.1m 10.3s NNW    6kn (g9)   E offshore\nSat 08:00       7   1.1m 
- 10.3s NNW    6kn (g9)   E offshore\nSat 09:00       7   1.1m 10.4s NNW    
- 6kn (g9)   E offshore\nSat 10:00       7   1.1m 10.7s NNW    4kn (g8)   E 
- glassy\nSat 11:00       8   1.1m 11.1s NNW    4kn (g8)   E glassy\nSat 12:
- 00       8   1.1m 11.3s NNW    3kn (g8)   E glassy\nSat 13:00     6.5   1.
- 1m 11.4s NNW    1kn (g13)   N glassy\nSat 14:00     6.5   1.1m 11.3s NNW  
-   5kn (g13) WNW onshore\n\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
+     7   1.1m 10.3s NNW    7kn (g11)   E offshore\nSat 08:00       7   1.1m
+  10.3s NNW    7kn (g11)   E offshore\nSat 09:00       7   1.1m 10.4s NNW  
+   7kn (g11)   E offshore\nSat 10:00       7   1.1m 10.7s NNW    6kn (g10) 
+   E offshore\nSat 11:00       8   1.1m 11.1s NNW    6kn (g10)   E offshore
+ \nSat 12:00       8   1.1m 11.4s NNW    4kn (g10)   E glassy\nSat 13:00   
+     7   1.1m 11.4s NNW    2kn (g12)  NE glassy\nSat 14:00     6.5   1.1m 1
+ 1.3s NNW    4kn (g12)  NW glassy\n\nGenerated 2026-11-24 02:00 UTC from Op
+ en-Meteo.
 LOCATION:Tifnit
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e505e6f4575eb155@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Tifnit 9/10 · 1.2m 12s NNW · 4kn E
+SUMMARY:🔥 Tifnit 9/10 · 1.4m 12s NNW · 4kn E
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.1 to 1.4 m.\n\nHour (local)  score  waves            wind\nSun 07:00   
-     9   1.2m 12.2s NNW    4kn (g7)   E glassy\nSun 08:00       9   1.2m 12
- .1s NNW    4kn (g7)   E glassy\nSun 09:00       9   1.2m 12.0s NNW    4kn 
- (g7)   E glassy\nSun 10:00       9   1.2m 11.9s NNW    5kn (g10)   E glass
- y\nSun 11:00       9   1.2m 11.9s NNW    5kn (g10) ENE offshore\nSun 12:00
-        8   1.2m 11.9s NNW    5kn (g10)  NE glassy\nSun 13:00       8   1.2
- m 11.9s NNW    4kn (g13)   N glassy\nSun 14:00     7.5   1.2m 12.0s NNW   
-  6kn (g13)  NW onshore\nSun 15:00     5.5   1.2m 12.1s NNW    8kn (g13) WN
- W onshore\nSun 16:00     5.5   1.2m 12.2s NNW    8kn (g13) WNW onshore\nSu
- n 17:00     5.5   1.2m 12.3s NNW    7kn (g13)  NW onshore\n\nGenerated 202
- 6-11-23 18:00 UTC from Open-Meteo.
+  1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nSun 07:00   
+     9   1.4m 12.4s NNW    4kn (g7)   E glassy\nSun 08:00       9   1.4m 12
+ .4s NNW    4kn (g7)   E glassy\nSun 09:00       9   1.4m 12.4s NNW    4kn 
+ (g7)   E glassy\nSun 10:00       9   1.4m 12.3s NNW    5kn (g10)   E glass
+ y\nSun 11:00       9   1.4m 12.3s NNW    5kn (g10) ENE offshore\nSun 12:00
+        8   1.4m 12.4s NNW    5kn (g10)  NE glassy\nSun 13:00       8   1.4
+ m 12.4s NNW    4kn (g13)   N glassy\nSun 14:00     7.5   1.4m 12.5s NNW   
+  6kn (g13)  NW onshore\nSun 15:00     5.5   1.4m 12.6s NNW    8kn (g13) WN
+ W onshore\nSun 16:00     5.5   1.4m 12.7s NNW    8kn (g13) WNW onshore\nSu
+ n 17:00     5.5   1.4m 12.8s NNW    7kn (g13)  NW onshore\n\nGenerated 202
+ 6-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Tifnit
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2fc471b2f1cf8e24@surf-windows
-DTSTAMP:20261123T180000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Tifnit 9.5/10 · 1.4m 13s NW · 3kn ESE
+SUMMARY:🔥 Tifnit 9.5/10 · 1.6m 13s NW · 3kn ESE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
- ay 1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
-     9.5   1.4m 13.3s  NW    3kn (g5) ESE glassy\nMon 08:00     9.5   1.5m 
- 13.3s  NW    3kn (g5) ESE glassy\nMon 09:00     9.5   1.5m 13.3s  NW    3k
- n (g5) ESE glassy\nMon 10:00     9.5   1.5m 13.3s  NW    1kn (g7)   E glas
- sy\nMon 11:00       8   1.5m 13.3s  NW    2kn (g7)  NW glassy\nMon 12:00  
-      8   1.5m 13.3s  NW    4kn (g7) WNW glassy\nMon 13:00       8   1.5m 1
- 3.3s  NW    6kn (g12) WNW onshore\nMon 14:00       6   1.5m 13.3s  NW    7
- kn (g12) WNW onshore\nMon 15:00       6   1.5m 13.2s  NW    7kn (g12) WNW 
- onshore\nMon 16:00     5.5   1.5m 13.0s  NW    7kn (g10) WNW onshore\nMon 
- 17:00     5.5   1.5m 12.7s  NW    6kn (g10)   W onshore\n\nGenerated 2026-
- 11-23 18:00 UTC from Open-Meteo.
+ ay 1.5 to 1.6 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
+     9.5   1.6m 13.3s  NW    3kn (g5) ESE glassy\nMon 08:00     9.5   1.6m 
+ 13.3s  NW    3kn (g5) ESE glassy\nMon 09:00     9.5   1.6m 13.3s  NW    3k
+ n (g5) ESE glassy\nMon 10:00     9.5   1.6m 13.3s  NW    1kn (g7)   E glas
+ sy\nMon 11:00       8   1.6m 13.3s  NW    2kn (g7)  NW glassy\nMon 12:00  
+      8   1.6m 13.3s  NW    4kn (g7) WNW glassy\nMon 13:00       8   1.6m 1
+ 3.3s  NW    6kn (g12) WNW onshore\nMon 14:00       6   1.6m 13.3s  NW    7
+ kn (g12) WNW onshore\nMon 15:00       6   1.6m 13.2s  NW    7kn (g12) WNW 
+ onshore\nMon 16:00     5.5   1.6m 13.0s  NW    7kn (g10) WNW onshore\nMon 
+ 17:00     5.5   1.6m 12.7s  NW    6kn (g10)   W onshore\n\nGenerated 2026-
+ 11-24 02:00 UTC from Open-Meteo.
 LOCATION:Tifnit
 TRANSP:TRANSPARENT
 END:VEVENT
