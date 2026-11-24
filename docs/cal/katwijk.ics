@@ -9,17 +9,19 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:36381d73e40dca2b@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T120000Z
-SUMMARY:🤏 Katwijk aan Zee 5/10 · 0.5m 7s WNW · 7kn SE
+SUMMARY:🤏 Katwijk aan Zee 5/10 · 0.5m 7s NW · 8kn SE
 DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: high. 5 wave models sa
- y 0.4 to 0.5 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
-      5   0.5m  6.5s WNW    7kn (g12)  SE offshore\nTue 09:00       5   0.5
- m  6.5s WNW    7kn (g12)  SE offshore\nTue 10:00       5   0.5m  6.5s  NW 
-    7kn (g12)  SE offshore\nTue 11:00       5   0.5m  6.6s NNW    8kn (g13)
-  ESE offshore\nTue 12:00       5   0.5m  6.3s   N    9kn (g16) ESE offshor
- e\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
+ y 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
+      5   0.5m  6.5s  NW    8kn (g13)  SE offshore\nTue 09:00       5   0.5
+ m  6.5s  NW    8kn (g14)  SE offshore\nTue 10:00       5   0.5m  6.5s NNW 
+    8kn (g14)  SE offshore\nTue 11:00       5   0.5m  6.6s NNW    9kn (g15)
+  ESE offshore\nTue 12:00       5   0.5m  6.7s   N    8kn (g15) ESE offshor
+ e\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: htt
+ ps://tutubanas.github.io/surf-calendar-plugin/#spot=katwijk
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=katwijk
 LOCATION:Katwijk aan Zee
 TRANSP:TRANSPARENT
 END:VEVENT

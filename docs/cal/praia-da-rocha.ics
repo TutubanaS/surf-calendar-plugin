@@ -9,43 +9,47 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:b4ae2a5439f00a1a@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
-SUMMARY:🔥 Praia da Rocha (Portimão) 8.5/10 · 1.2m 13s WSW · 1kn N
+SUMMARY:🔥 Praia da Rocha (Portimão) 8.5/10 · 1.2m 13s WSW · 1kn NNW
 DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: medium. 5 wave model
- s say 0.6 to 1.6 m.\n\nHour (local)  score  waves            wind\nWed 07:
- 00     8.5   1.2m 13.4s WSW    1kn (g2)   N glassy\nWed 08:00     8.5   1.
- 2m 13.4s WSW    1kn (g2) NNW glassy\nWed 09:00     8.5   1.2m 13.5s WSW   
-  1kn (g1) NNW glassy\nWed 10:00     6.5   1.1m 13.6s WSW    1kn (g4)   W g
- lassy\nWed 11:00     7.5   1.1m 13.6s WSW    4kn (g8) NNW glassy\nWed 12:0
- 0     7.5   1.1m 13.5s WSW    5kn (g10) NNW glassy\nWed 13:00     7.5   1.
- 1m 13.2s WSW    6kn (g12)  NW offshore\nWed 14:00       7   1.1m 12.7s WSW
-     6kn (g12)  NW offshore\nWed 15:00       6   1.1m 12.3s WSW    6kn (g12
- )  NW cross\nWed 16:00       7   1.1m 12.2s WSW    6kn (g12)  NW offshore\
- nWed 17:00       6   1.1m 12.2s WSW    5kn (g12) WNW cross\n\nGenerated 20
- 26-11-24 02:00 UTC from Open-Meteo.
+ s say 0.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nWed 07:
+ 00     8.5   1.2m 13.4s WSW    1kn (g2) NNW glassy\nWed 08:00     8.5   1.
+ 2m 13.4s WSW    1kn (g2)   N glassy\nWed 09:00     7.5   1.2m 13.5s WSW   
+  1kn (g1)  NW glassy\nWed 10:00     6.5   1.1m 13.6s WSW    1kn (g3) WNW g
+ lassy\nWed 11:00     7.5   1.1m 13.6s WSW    3kn (g7)  NW glassy\nWed 12:0
+ 0     7.5   1.1m 13.5s WSW    6kn (g12)  NW offshore\nWed 13:00     7.5   
+ 1.1m 13.2s WSW    6kn (g13)  NW offshore\nWed 14:00       7   1.1m 12.7s W
+ SW    7kn (g14)  NW offshore\nWed 15:00       7   1.1m 12.3s WSW    7kn (g
+ 15)  NW offshore\nWed 16:00       7   1.1m 12.2s WSW    6kn (g15)  NW offs
+ hore\nWed 17:00       7   1.1m 12.2s WSW    5kn (g12)  NW offshore\n\nGene
+ rated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
+ banas.github.io/surf-calendar-plugin/#spot=praia-da-rocha
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-rocha
 LOCATION:Praia da Rocha (Portimão)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ed4dd3b7319a286@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Praia da Rocha (Portimão) 7/10 · 0.9m 11s WSW · 2kn NE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 5 wave models say
   0.3 to 1.1 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
-     7   0.9m 11.1s WSW    2kn (g5)  NE glassy\nThu 08:00       6   0.9m 11
- .1s WSW    2kn (g4) ENE glassy\nThu 09:00       7   0.9m 11.2s WSW    2kn 
- (g4) NNE glassy\nThu 10:00       7   0.8m 11.2s WSW    2kn (g4)  NE glassy
- \nThu 11:00       6   0.8m 11.2s WSW    1kn (g4) ESE glassy\nThu 12:00    
-    7   0.8m 11.2s WSW    0kn (g2)  NW glassy\nThu 13:00       6   0.8m 11.
- 2s WSW    1kn (g4)  NW glassy\nThu 14:00       7   0.8m 11.2s WSW    2kn (
- g5)  NW glassy\nThu 15:00       7   0.8m 11.2s WSW    3kn (g6)  NW glassy\
- nThu 16:00       6   0.7m 10.8s WSW    3kn (g6)  NW glassy\nThu 17:00     
-   6   0.7m 10.4s WSW    2kn (g6) NNW glassy\n\nGenerated 2026-11-24 02:00 
- UTC from Open-Meteo.
+     7   0.9m 11.2s WSW    2kn (g4)  NE glassy\nThu 08:00       6   0.9m 11
+ .2s WSW    2kn (g4)  NE glassy\nThu 09:00       7   0.9m 11.2s WSW    2kn 
+ (g4) NNE glassy\nThu 10:00       7   0.8m 11.2s WSW    1kn (g3)   N glassy
+ \nThu 11:00       6   0.8m 11.2s WSW    1kn (g4)   W glassy\nThu 12:00    
+    6   0.8m 11.2s WSW    3kn (g7)   W glassy\nThu 13:00       6   0.8m 11.
+ 2s WSW    3kn (g8)  NW glassy\nThu 14:00       7   0.8m 11.2s WSW    6kn (
+ g12) NNW offshore\nThu 15:00       7   0.8m 11.2s WSW    6kn (g14) NNW off
+ shore\nThu 16:00       6   0.7m 10.8s WSW    5kn (g13) NNW offshore\nThu 1
+ 7:00       6   0.7m 10.4s   W    3kn (g10)  NW glassy\n\nGenerated 2026-11
+ -24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
+ io/surf-calendar-plugin/#spot=praia-da-rocha
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-rocha
 LOCATION:Praia da Rocha (Portimão)
 TRANSP:TRANSPARENT
 END:VEVENT

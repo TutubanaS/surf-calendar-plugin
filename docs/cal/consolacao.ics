@@ -9,117 +9,151 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:81f76c37e857d9ca@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261124T070000Z
-DTEND:20261124T120000Z
-SUMMARY:🔥 Consolação 8/10 · 2.0m 11s WNW · 5kn WNW
-DESCRIPTION:Best 8/10 at 10:00. Forecast confidence: high. 5 wave models sa
- y 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
-      7   1.7m 11.2s  NW    9kn (g17) SSE cross\nTue 08:00       7   1.8m 1
- 1.2s WNW    9kn (g17)   S cross\nTue 09:00       6   1.9m 11.2s WNW   11kn
-  (g23)   W onshore\nTue 10:00       8   2.0m 11.1s WNW    5kn (g19) WNW on
- shore\nTue 11:00       6   2.1m 11.1s WNW   10kn (g18)  NW onshore\n\nGene
- rated 2026-11-24 02:00 UTC from Open-Meteo.
+DTEND:20261124T110000Z
+SUMMARY:👍 Consolação 7/10 · 1.7m 11s WNW · 8kn SSE
+DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: high. 5 wave models sa
+ y 1.5 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
+      7   1.7m 11.2s WNW    8kn (g15) SSE cross\nTue 08:00       7   1.8m 1
+ 1.2s WNW   10kn (g18) SSW cross\nTue 09:00       6   1.9m 11.2s WNW   10kn
+  (g24) WSW onshore\nTue 10:00       6   2.1m 11.1s WNW    8kn (g19) WNW on
+ shore\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast:
+  https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4fa8ac0a7e68d4b6@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Consolação 8.5/10 · 1.9m 11s NW · 3kn SE
 DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 5 wave model
- s say 1.7 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 08:
- 00     8.5   1.9m 10.8s  NW    3kn (g5)  SE glassy\nThu 09:00     8.5   1.
- 8m 10.8s  NW    3kn (g6)  SE glassy\nThu 10:00     8.5   1.8m 10.7s  NW   
-  3kn (g6) SSE glassy\nThu 11:00     7.5   1.7m 10.6s  NW    3kn (g7) SSE g
- lassy\nThu 12:00     7.5   1.7m 10.2s  NW    3kn (g7) SSW glassy\nThu 13:0
+ s say 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 08:
+ 00     8.5   1.9m 10.7s  NW    3kn (g6)  SE glassy\nThu 09:00     8.5   1.
+ 8m 10.7s  NW    3kn (g7)  SE glassy\nThu 10:00     8.5   1.8m 10.6s  NW   
+  3kn (g6)  SE glassy\nThu 11:00     7.5   1.8m 10.4s  NW    4kn (g9) SSE g
+ lassy\nThu 12:00     7.5   1.7m 10.2s  NW    4kn (g9)   S glassy\nThu 13:0
  0       7   1.7m 10.2s  NW    4kn (g7) WSW glassy\nThu 14:00       7   1.7
- m 10.2s  NW    4kn (g8) WSW glassy\nThu 15:00       7   1.6m 10.2s  NW    
- 4kn (g8)   W glassy\nThu 16:00       7   1.6m 10.2s  NW    3kn (g8)   W gl
- assy\nThu 17:00     6.5   1.6m 10.2s  NW    3kn (g6)   W glassy\n\nGenerat
- ed 2026-11-24 02:00 UTC from Open-Meteo.
+ m 10.2s  NW    5kn (g9)   W glassy\nThu 15:00       7   1.7m 10.2s  NW    
+ 5kn (g9)   W glassy\nThu 16:00       7   1.7m 10.2s  NW    4kn (g9)   W gl
+ assy\nThu 17:00       7   1.6m 10.2s  NW    2kn (g7)   W glassy\n\nGenerat
+ ed 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=consolacao
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2cf8b8faa0d5a2a6@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
-SUMMARY:🔥 Consolação 9.5/10 · 1.8m 11s NW · 7kn SE
-DESCRIPTION:Best 9.5/10 at 12:00. Forecast confidence: low. 4 wave models s
- ay 1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:00 
-     8.5   1.7m 10.1s  NW    5kn (g11) ESE glassy\nFri 09:00     8.5   1.7m
-  10.2s  NW    5kn (g11) ESE offshore\nFri 10:00     8.5   1.7m 10.4s  NW  
-   6kn (g13)  SE offshore\nFri 11:00     8.5   1.7m 10.9s  NW    7kn (g13) 
-  SE offshore\nFri 12:00     9.5   1.8m 11.2s  NW    7kn (g13)  SE offshore
- \nFri 13:00     9.5   1.7m 11.2s  NW    7kn (g13)  SE offshore\nFri 14:00 
-     9.5   1.7m 11.2s  NW    7kn (g13) SSE offshore\nFri 15:00     9.5   1.
- 7m 11.2s  NW    6kn (g13) SSE offshore\nFri 16:00     9.5   1.7m 11.3s  NW
-     5kn (g9) SSE offshore\nFri 17:00     9.5   1.7m 11.4s  NW    5kn (g9) 
-  SE glassy\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
+SUMMARY:🔥 Consolação 9.5/10 · 1.8m 11s NW · 6kn ESE
+DESCRIPTION:Best 9.5/10 at 09:00. Forecast confidence: medium. 4 wave model
+ s say 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:
+ 00     8.5   1.7m 10.9s  NW    6kn (g12) ESE offshore\nFri 09:00     9.5  
+  1.8m 11.2s  NW    6kn (g12) ESE offshore\nFri 10:00     9.5   1.8m 11.2s 
+  NW    7kn (g12)  SE offshore\nFri 11:00     9.5   1.8m 11.2s  NW    8kn (
+ g14)  SE offshore\nFri 12:00     9.5   1.8m 11.1s  NW    8kn (g15)  SE off
+ shore\nFri 13:00     9.5   1.8m 11.2s  NW    8kn (g14)  SE offshore\nFri 1
+ 4:00     9.5   1.7m 11.2s  NW    8kn (g14)  SE offshore\nFri 15:00     9.5
+    1.7m 11.2s  NW    7kn (g14)  SE offshore\nFri 16:00     9.5   1.7m 11.3
+ s  NW    6kn (g9)  SE offshore\nFri 17:00     9.5   1.7m 11.4s  NW    5kn 
+ (g9)  SE glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull
+  forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=consolac
+ ao
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a678dc8a7a2f66b5@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Consolação 9.5/10 · 2.1m 13s NW · 5kn ESE
+SUMMARY:🔥 Consolação 9.5/10 · 2.1m 13s NW · 4kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 2.0 to 2.1 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
-     9.5   2.1m 12.8s  NW    5kn (g12) ESE offshore\nSat 09:00     9.5   2.
- 1m 12.8s  NW    6kn (g12)  SE offshore\nSat 10:00     9.5   2.1m 12.8s  NW
-     7kn (g14)  SE offshore\nSat 11:00     9.5   2.1m 12.8s  NW    7kn (g14
- )  SE offshore\nSat 12:00     9.5   2.1m 12.8s  NW    8kn (g14)  SE offsho
- re\nSat 13:00     9.5   2.1m 12.8s  NW    7kn (g10)  SE offshore\nSat 14:0
- 0     9.5   2.1m 12.8s  NW    6kn (g10)  SE offshore\nSat 15:00     9.5   
- 2.1m 12.8s  NW    4kn (g10)  SE glassy\nSat 16:00     9.5   2.1m 12.8s  NW
-     3kn (g5)  SE glassy\nSat 17:00     9.5   2.1m 12.7s  NW    3kn (g5) ES
- E glassy\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
+ ay 2.1 to 2.2 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
+     9.5   2.1m 12.8s  NW    4kn (g11) ESE glassy\nSat 09:00     9.5   2.1m
+  12.9s  NW    5kn (g11) ESE glassy\nSat 10:00     9.5   2.1m 12.9s  NW    
+ 6kn (g12) ESE offshore\nSat 11:00     9.5   2.1m 12.9s  NW    6kn (g12)  S
+ E offshore\nSat 12:00     9.5   2.1m 13.0s  NW    7kn (g12)  SE offshore\n
+ Sat 13:00     9.5   2.1m 13.0s  NW    6kn (g10)  SE offshore\nSat 14:00   
+   9.5   2.1m 12.9s  NW    6kn (g10)  SE offshore\nSat 15:00     9.5   2.1m
+  12.9s  NW    5kn (g10)  SE offshore\nSat 16:00     9.5   2.1m 12.9s  NW  
+   4kn (g5)  SE glassy\nSat 17:00     9.5   2.1m 12.8s  NW    3kn (g5)  SE 
+ glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast
+ : https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2f21ab355c0a4e81@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Consolação 10/10 · 2.2m 13s NW · 3kn ESE
-DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: low. 4 wave models sa
- y 2.1 to 2.4 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
-     10   2.2m 13.2s  NW    3kn (g5) ESE glassy\nSun 09:00      10   2.2m 1
- 3.3s  NW    3kn (g5) ESE glassy\nSun 10:00      10   2.2m 13.3s  NW    2kn
-  (g5) ESE glassy\nSun 11:00      10   2.2m 13.2s  NW    2kn (g5)  SE glass
- y\nSun 12:00      10   2.2m 13.2s  NW    2kn (g5)  SE glassy\nSun 13:00   
-     9   2.2m 13.1s  NW    1kn (g4) SSE glassy\nSun 14:00       8   2.2m 12
- .9s  NW    1kn (g4) WNW glassy\nSun 15:00       8   2.2m 12.8s  NW    2kn 
- (g4) WNW glassy\nSun 16:00       8   2.1m 12.6s  NW    2kn (g4)  NW glassy
- \nSun 17:00       8   2.1m 12.4s  NW    2kn (g4)  NW glassy\n\nGenerated 2
- 026-11-24 02:00 UTC from Open-Meteo.
+SUMMARY:🔥 Consolação 9.5/10 · 2.2m 13s NW · 3kn E
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 2.0 to 2.4 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
+     9.5   2.2m 12.8s  NW    3kn (g6)   E glassy\nSun 09:00     9.5   2.2m 
+ 12.8s  NW    3kn (g6)   E glassy\nSun 10:00     9.5   2.2m 12.7s  NW    3k
+ n (g8)   E glassy\nSun 11:00     9.5   2.2m 12.7s  NW    4kn (g8)   E glas
+ sy\nSun 12:00     9.5   2.1m 12.6s  NW    4kn (g8)   E glassy\nSun 13:00  
+    9.5   2.1m 12.6s  NW    4kn (g9)   E glassy\nSun 14:00     9.5   2.1m 1
+ 2.5s  NW    4kn (g9)   E glassy\nSun 15:00     9.5   2.1m 12.4s  NW    4kn
+  (g9)   E glassy\nSun 16:00     9.5   2.1m 12.4s  NW    3kn (g4)   E glass
+ y\nSun 17:00     9.5   2.1m 12.4s  NW    2kn (g4) ENE glassy\n\nGenerated 
+ 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=consolacao
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:25a46b1f6540c01b@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Consolação 9.5/10 · 2.2m 13s NW · 3kn ESE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 2.0 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     9.5   2.2m 12.8s  NW    3kn (g8) ESE glassy\nMon 09:00     9.5   2.2m 
- 12.8s  NW    4kn (g8) ESE glassy\nMon 10:00     9.5   2.2m 12.9s  NW    5k
- n (g13) ESE glassy\nMon 11:00     9.5   2.2m 12.9s  NW    6kn (g13) ESE of
- fshore\nMon 12:00     9.5   2.2m 12.9s  NW    7kn (g13) ESE offshore\nMon 
- 13:00     9.5   2.1m 12.9s  NW    7kn (g15) ESE offshore\nMon 14:00     9.
- 5   2.1m 12.9s  NW    8kn (g15)  SE offshore\nMon 15:00     9.5   2.1m 12.
- 9s  NW    8kn (g15)  SE offshore\nMon 16:00     9.5   2.1m 12.9s  NW    6k
- n (g10)  SE offshore\nMon 17:00     9.5   2.1m 12.9s  NW    5kn (g10) ESE 
- offshore\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
+SUMMARY:🔥 Consolação 10/10 · 2.2m 13s NW · 5kn ESE
+DESCRIPTION:Best 10/10 at 14:00. Forecast confidence: low. 4 wave models sa
+ y 2.0 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 08:00  
+    9.5   2.2m 12.7s  NW    3kn (g7) ESE glassy\nMon 09:00     9.5   2.2m 1
+ 2.7s  NW    3kn (g7) ESE glassy\nMon 10:00     9.5   2.2m 12.6s  NW    4kn
+  (g13) ESE glassy\nMon 11:00     9.5   2.2m 12.6s  NW    6kn (g13) ESE off
+ shore\nMon 12:00     9.5   2.2m 12.7s  NW    7kn (g13) ESE offshore\nMon 1
+ 3:00     9.5   2.2m 12.9s  NW    6kn (g8) ESE offshore\nMon 14:00      10 
+   2.2m 13.2s  NW    5kn (g8) ESE glassy\nMon 15:00      10   2.2m 13.4s  N
+ W    3kn (g8) ESE glassy\nMon 16:00      10   2.2m 13.5s  NW    3kn (g5) E
+ SE glassy\nMon 17:00      10   2.1m 13.5s  NW    2kn (g5) ESE glassy\n\nGe
+ nerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
+ tubanas.github.io/surf-calendar-plugin/#spot=consolacao
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
+LOCATION:Consolação
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0c4455d46ebe36ea@surf-windows
+DTSTAMP:20261124T090000Z
+DTSTART:20261201T080000Z
+DTEND:20261201T180000Z
+SUMMARY:🔥 Consolação 9.5/10 · 1.6m 12s NW · 7kn ESE
+DESCRIPTION:Best 9.5/10 at 13:00. Forecast confidence: low. 3 wave models s
+ ay 1.5 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
+       9   1.6m 12.2s  NW    5kn (g11) ESE glassy\nTue 09:00       9   1.5m
+  12.2s  NW    6kn (g11) ESE offshore\nTue 10:00       9   1.5m 12.2s  NW  
+   7kn (g16) ESE offshore\nTue 11:00       9   1.5m 12.3s  NW    8kn (g17) 
+ ESE offshore\nTue 12:00       9   1.6m 12.3s  NW    7kn (g18) ESE offshore
+ \nTue 13:00     9.5   1.6m 12.3s  NW    7kn (g18) ESE offshore\nTue 14:00 
+     9.5   1.7m 12.2s  NW    6kn (g18) ESE offshore\nTue 15:00     9.5   1.
+ 8m 12.2s  NW    5kn (g17) ESE offshore\nTue 16:00     9.5   1.8m 12.2s  NW
+     4kn (g16) ESE glassy\nTue 17:00     9.5   1.9m 12.1s  NW    4kn (g15) 
+ ESE glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull fore
+ cast: https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=consolacao
 LOCATION:Consolação
 TRANSP:TRANSPARENT
 END:VEVENT

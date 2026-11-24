@@ -9,142 +9,195 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:f51aef5cb379f921@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261124T070000Z
+DTEND:20261124T110000Z
+SUMMARY:🤏 Zavial 6/10 · 1.4m 11s WNW · 1kn WNW
+DESCRIPTION:Best 6/10 at 07:00. Forecast confidence: high. 5 wave models sa
+ y 1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
+      6   1.4m 11.2s WNW    1kn (g4) WNW glassy\nTue 08:00       6   1.4m 1
+ 1.2s WNW    2kn (g4)   W glassy\nTue 09:00     5.5   1.4m 11.2s WNW    2kn
+  (g6) WSW glassy\nTue 10:00       6   1.4m 11.2s WNW    4kn (g8)   W glass
+ y\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: htt
+ ps://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
+LOCATION:Zavial
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eb4d952d4a3a64be@surf-windows
+DTSTAMP:20261124T090000Z
+DTSTART:20261124T150000Z
 DTEND:20261124T180000Z
-SUMMARY:🔥 Zavial 8/10 · 1.7m 11s WNW · 12kn NNW
-DESCRIPTION:Best 8/10 at 16:00. Forecast confidence: high. 5 wave models sa
- y 1.4 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
-      7   1.4m 11.2s WNW    1kn (g2)  NE glassy\nTue 08:00       6   1.4m 1
- 1.2s WNW    1kn (g4)  NW glassy\nTue 09:00     5.5   1.4m 11.2s WNW    2kn
-  (g4)  SW glassy\nTue 10:00       6   1.4m 11.2s WNW    2kn (g5)   W glass
- y\nTue 11:00     5.5   1.4m 11.2s WNW    2kn (g5)  SW glassy\nTue 12:00   
-   5.5   1.4m 11.2s WNW    5kn (g9) WSW glassy\nTue 13:00       6   1.5m 11
- .2s WNW    6kn (g12) WNW cross\nTue 14:00       7   1.5m 11.2s WNW   11kn 
- (g21) NNW offshore\nTue 15:00       7   1.6m 11.2s WNW   14kn (g26) NNW of
- fshore\nTue 16:00       8   1.7m 11.1s WNW   12kn (g26) NNW offshore\nTue 
- 17:00       8   1.9m 11.2s WNW   10kn (g23) NNW offshore\n\nGenerated 2026
- -11-24 02:00 UTC from Open-Meteo.
+SUMMARY:🔥 Zavial 8/10 · 1.9m 11s WNW · 10kn NNW
+DESCRIPTION:Best 8/10 at 17:00. Forecast confidence: high. 5 wave models sa
+ y 1.4 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 15:00  
+      7   1.6m 11.2s WNW   12kn (g24) NNW offshore\nTue 16:00       7   1.7
+ m 11.0s WNW   12kn (g23) NNW offshore\nTue 17:00       8   1.9m 11.1s WNW 
+   10kn (g22) NNW offshore\n\nGenerated 2026-11-24 09:00 UTC from Open-Mete
+ o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
+ t=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
 LOCATION:Zavial
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f6db867171aa9ca0@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
-SUMMARY:🔥 Zavial 9/10 · 2.5m 13s WNW · 8kn NW
+SUMMARY:🔥 Zavial 9/10 · 2.5m 13s WNW · 7kn NNW
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 5 wave models sa
- y 1.8 to 2.7 m.\n\nHour (local)  score  waves            wind\nWed 07:00  
-      9   2.5m 13.4s WNW    8kn (g16)  NW offshore\nWed 08:00       9   2.5
- m 13.4s WNW    7kn (g16) NNW offshore\nWed 09:00       9   2.5m 13.5s WNW 
-    9kn (g16) NNW offshore\nWed 10:00       9   2.5m 13.5s WNW    9kn (g17)
-  NNW offshore\nWed 11:00       9   2.5m 13.5s WNW   10kn (g19) NNW offshor
- e\nWed 12:00       9   2.5m 13.5s WNW   10kn (g19) NNW offshore\nWed 13:00
-        9   2.5m 13.2s WNW    8kn (g18) NNW offshore\nWed 14:00     8.5   2
- .5m 12.7s WNW    9kn (g16) NNW offshore\nWed 15:00     8.5   2.4m 12.3s WN
- W    9kn (g16) NNW offshore\nWed 16:00     8.5   2.4m 12.2s WNW    9kn (g1
- 7) NNW offshore\nWed 17:00     8.5   2.4m 12.2s WNW    8kn (g16) NNW offsh
- ore\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
+ y 1.9 to 2.9 m.\n\nHour (local)  score  waves            wind\nWed 07:00  
+      9   2.5m 13.4s WNW    7kn (g15) NNW offshore\nWed 08:00       9   2.5
+ m 13.4s WNW    7kn (g15) NNW offshore\nWed 09:00       9   2.6m 13.5s WNW 
+    8kn (g18) NNW offshore\nWed 10:00       9   2.6m 13.5s WNW    9kn (g21)
+  NNW offshore\nWed 11:00       9   2.6m 13.5s WNW   10kn (g19) NNW offshor
+ e\nWed 12:00       9   2.6m 13.5s WNW   10kn (g19) NNW offshore\nWed 13:00
+        9   2.5m 13.2s WNW    9kn (g18) NNW offshore\nWed 14:00     8.5   2
+ .5m 12.7s WNW    9kn (g17) NNW offshore\nWed 15:00     8.5   2.5m 12.3s WN
+ W   10kn (g20) NNW offshore\nWed 16:00     8.5   2.5m 12.2s WNW   10kn (g2
+ 0) NNW offshore\nWed 17:00     8.5   2.4m 12.2s WNW    9kn (g19) NNW offsh
+ ore\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: h
+ ttps://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
 LOCATION:Zavial
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:90e7a555c5685fcc@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Zavial 8/10 · 2.1m 11s WNW · 3kn NNW
+SUMMARY:🔥 Zavial 8/10 · 2.1m 11s WNW · 2kn N
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: medium. 5 wave models 
  say 1.3 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 07:00
-        8   2.1m 11.2s WNW    3kn (g7) NNW glassy\nThu 08:00       8   2.0m
-  11.2s WNW    3kn (g8)   N glassy\nThu 09:00       8   2.0m 11.2s WNW    4
- kn (g8) NNW glassy\nThu 10:00       8   1.9m 11.2s WNW    6kn (g11) NNW of
- fshore\nThu 11:00       7   1.8m 11.2s WNW    6kn (g15) NNW offshore\nThu 
- 12:00       7   1.7m 11.2s WNW    6kn (g16) NNW offshore\nThu 13:00       
- 7   1.6m 11.2s WNW    6kn (g12) NNW offshore\nThu 14:00       7   1.6m 11.
- 2s WNW    7kn (g17) NNW offshore\nThu 15:00       7   1.5m 11.2s WNW    6k
- n (g18) NNW offshore\nThu 16:00       6   1.5m 10.8s WNW    7kn (g13) NNW 
- offshore\nThu 17:00       6   1.5m 10.4s WNW    5kn (g13) NNW offshore\n\n
- Generated 2026-11-24 02:00 UTC from Open-Meteo.
+        8   2.1m 11.2s WNW    2kn (g6)   N glassy\nThu 08:00       8   2.0m
+  11.2s WNW    2kn (g6)  NW glassy\nThu 09:00       8   2.0m 11.2s WNW    2
+ kn (g5)   N glassy\nThu 10:00       8   1.9m 11.2s WNW    3kn (g6) NNW gla
+ ssy\nThu 11:00       7   1.8m 11.2s WNW    4kn (g8) NNW glassy\nThu 12:00 
+       6   1.7m 11.2s WNW    5kn (g10)  NW cross\nThu 13:00       5   1.6m 
+ 10.9s WNW    6kn (g12)  NW cross\nThu 14:00       5   1.6m 10.8s WNW    6k
+ n (g12)  NW cross\nThu 15:00       5   1.6m 10.8s WNW    5kn (g12)  NW cro
+ ss\nThu 16:00       6   1.5m 10.8s WNW    6kn (g12) NNW offshore\nThu 17:0
+ 0       6   1.5m 10.2s WNW    4kn (g11) NNW glassy\n\nGenerated 2026-11-24
+  09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
+ surf-calendar-plugin/#spot=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
 LOCATION:Zavial
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:726f48da3ddcc35a@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261127T070000Z
-DTEND:20261127T110000Z
-SUMMARY:🤏 Zavial 5/10 · 1.4m 10s NW · 2kn ENE
-DESCRIPTION:Best 5/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.2 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
-     5   1.4m 10.1s  NW    2kn (g5) ENE glassy\nFri 08:00       5   1.4m 10
- .2s  NW    2kn (g5) ENE glassy\nFri 09:00       5   1.4m 10.2s  NW    2kn 
- (g5) ENE glassy\nFri 10:00       5   1.4m 10.3s  NW    3kn (g11)   E glass
- y\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
+DTEND:20261127T120000Z
+SUMMARY:🤏 Zavial 5/10 · 1.4m 10s NW · 3kn ENE
+DESCRIPTION:Best 5/10 at 07:00. Forecast confidence: medium. 4 wave models 
+ say 1.2 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 07:00
+        5   1.4m 10.1s  NW    3kn (g6) ENE glassy\nFri 08:00       5   1.4m
+  10.2s  NW    3kn (g6) ENE glassy\nFri 09:00       5   1.4m 10.2s  NW    3
+ kn (g6)   E glassy\nFri 10:00       5   1.4m 10.2s  NW    4kn (g9)   E gla
+ ssy\nFri 11:00       5   1.4m 10.2s  NW    7kn (g13) ESE cross\n\nGenerate
+ d 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ s.github.io/surf-calendar-plugin/#spot=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
+LOCATION:Zavial
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:47fccd059fb111a1@surf-windows
+DTSTAMP:20261124T090000Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:🤏 Zavial 5.5/10 · 1.4m 12s NW · 6kn SE
+DESCRIPTION:Best 5.5/10 at 16:00. Forecast confidence: low. 4 wave models s
+ ay 1.3 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 16:00 
+     5.5   1.4m 11.9s  NW    6kn (g9)  SE onshore\nFri 17:00     5.5   1.4m
+  11.5s  NW    4kn (g9)  SE glassy\n\nGenerated 2026-11-24 09:00 UTC from O
+ pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
+ gin/#spot=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
 LOCATION:Zavial
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f04630c1115141a@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:👍 Zavial 7/10 · 1.5m 13s NW · 2kn NE
-DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     7   1.5m 12.9s  NW    2kn (g4)  NE glassy\nSat 08:00       6   1.6m 12
- .9s  NW    2kn (g4) ENE glassy\nSat 09:00       6   1.6m 12.9s  NW    2kn 
- (g4) ENE glassy\nSat 10:00       6   1.7m 12.9s  NW    2kn (g8)   E glassy
- \nSat 11:00       6   1.7m 12.9s  NW    3kn (g8)   E glassy\nSat 12:00    
-    6   1.8m 12.8s  NW    3kn (g8)   E glassy\nSat 13:00       6   1.8m 12.
- 8s  NW    3kn (g6) ESE glassy\nSat 14:00     5.5   1.8m 12.7s  NW    2kn (
- g6)  SE glassy\nSat 15:00     5.5   1.9m 12.7s  NW    2kn (g6) SSE glassy\
- nSat 16:00     5.5   1.9m 12.7s  NW    1kn (g4) SSW glassy\nSat 17:00     
-   6   1.9m 12.8s  NW    1kn (g4)   W glassy\n\nGenerated 2026-11-24 02:00 
- UTC from Open-Meteo.
+SUMMARY:👍 Zavial 6.5/10 · 1.6m 13s NW · 2kn ENE
+DESCRIPTION:Best 6.5/10 at 07:00. Forecast confidence: low. 4 wave models s
+ ay 1.5 to 1.9 m.\n\nHour (local)  score  waves            wind\nSat 07:00 
+     6.5   1.6m 13.1s  NW    2kn (g4) ENE glassy\nSat 08:00       6   1.6m 
+ 13.0s  NW    2kn (g4) ENE glassy\nSat 09:00       6   1.7m 12.9s  NW    2k
+ n (g4) ENE glassy\nSat 10:00       6   1.7m 12.9s  NW    3kn (g9)   E glas
+ sy\nSat 11:00       6   1.8m 12.8s  NW    4kn (g9)   E glassy\nSat 12:00  
+      6   1.9m 12.7s  NW    4kn (g9) ESE glassy\nSat 13:00       6   1.9m 1
+ 2.7s  NW    4kn (g6) ESE glassy\nSat 14:00       6   1.9m 12.7s  NW    3kn
+  (g6) ESE glassy\nSat 15:00     5.5   1.9m 12.8s  NW    2kn (g6)  SE glass
+ y\nSat 16:00       6   1.9m 12.8s  NW    0kn (g4) ESE glassy\nSat 17:00   
+     6   1.9m 12.9s  NW    1kn (g4)  NW glassy\n\nGenerated 2026-11-24 09:0
+ 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
+ calendar-plugin/#spot=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
 LOCATION:Zavial
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:45f8a465333f63d5@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:👍 Zavial 7/10 · 1.9m 12s NW · 2kn NNE
+SUMMARY:👍 Zavial 7/10 · 1.9m 13s NW · 3kn NE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.7 to 2.1 m.\n\nHour (local)  score  waves            wind\nSun 07:00   
-     7   1.9m 12.4s  NW    2kn (g4) NNE glassy\nSun 08:00       7   1.9m 12
- .5s  NW    2kn (g4) NNE glassy\nSun 09:00       7   1.9m 12.5s  NW    2kn 
- (g4)  NE glassy\nSun 10:00       6   1.9m 12.5s  NW    1kn (g3)  NE glassy
- \nSun 11:00       6   1.9m 12.6s  NW    1kn (g3)   E glassy\nSun 12:00    
-    6   1.9m 12.6s  NW    1kn (g3)   E glassy\nSun 13:00       6   1.9m 12.
- 7s  NW    1kn (g8)   W glassy\nSun 14:00       6   1.8m 12.9s  NW    3kn (
- g8) WNW glassy\nSun 15:00     6.5   1.8m 13.0s  NW    4kn (g8) WNW glassy\
- nSun 16:00     6.5   1.8m 13.1s  NW    4kn (g9) WNW glassy\nSun 17:00     
- 6.5   1.8m 13.1s  NW    4kn (g9)  NW glassy\n\nGenerated 2026-11-24 02:00 
- UTC from Open-Meteo.
+  1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nSun 07:00   
+     7   1.9m 12.6s  NW    3kn (g6)  NE glassy\nSun 08:00       7   1.9m 12
+ .7s  NW    3kn (g6)  NE glassy\nSun 09:00       7   1.9m 12.7s  NW    3kn 
+ (g6)  NE glassy\nSun 10:00       6   1.9m 12.8s  NW    3kn (g9) ENE glassy
+ \nSun 11:00       6   1.9m 12.8s  NW    4kn (g9)   E glassy\nSun 12:00    
+    6   1.9m 12.8s  NW    5kn (g9)   E glassy\nSun 13:00       6   1.9m 12.
+ 8s  NW    6kn (g10)   E cross\nSun 14:00       6   1.9m 12.8s  NW    6kn (
+ g10) ESE cross\nSun 15:00       6   1.9m 12.8s  NW    6kn (g10) ESE cross\
+ nSun 16:00       6   1.9m 12.8s  NW    5kn (g8) ESE cross\nSun 17:00      
+  6   1.9m 12.8s  NW    4kn (g8)   E glassy\n\nGenerated 2026-11-24 09:00 U
+ TC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cal
+ endar-plugin/#spot=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
 LOCATION:Zavial
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7eb7dee7820f66c2@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261124T090000Z
 DTSTART:20261130T070000Z
-DTEND:20261130T180000Z
-SUMMARY:👍 Zavial 7/10 · 1.8m 13s NW · 2kn NE
+DTEND:20261130T120000Z
+SUMMARY:👍 Zavial 7/10 · 1.9m 13s NW · 3kn NE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
   1.7 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 07:00   
-     7   1.8m 12.7s  NW    2kn (g4)  NE glassy\nMon 08:00       7   1.8m 12
- .8s  NW    2kn (g4)  NE glassy\nMon 09:00       6   1.8m 12.8s  NW    2kn 
- (g4)  NE glassy\nMon 10:00       6   1.8m 12.9s  NW    1kn (g5)   E glassy
- \nMon 11:00     5.5   1.8m 12.9s  NW    1kn (g5)  SE glassy\nMon 12:00    
-  5.5   1.8m 12.9s  NW    2kn (g5)   S glassy\nMon 13:00     5.5   1.8m 12.
- 9s  NW    3kn (g6)   S glassy\nMon 14:00     5.5   1.8m 12.9s  NW    3kn (
- g6) SSW glassy\nMon 15:00     5.5   1.9m 12.9s  NW    3kn (g6) SSW glassy\
- nMon 16:00     5.5   1.9m 12.9s  NW    3kn (g4) SSW glassy\nMon 17:00     
- 5.5   1.9m 12.9s  NW    2kn (g4)  SW glassy\n\nGenerated 2026-11-24 02:00 
- UTC from Open-Meteo.
+     7   1.9m 12.7s  NW    3kn (g7)  NE glassy\nMon 08:00       7   1.9m 12
+ .7s  NW    4kn (g7)  NE glassy\nMon 09:00       7   1.9m 12.8s  NW    4kn 
+ (g7)  NE glassy\nMon 10:00       6   1.9m 12.8s  NW    5kn (g17) ENE cross
+ \nMon 11:00       6   1.9m 12.8s  NW    7kn (g17)   E cross\n\nGenerated 2
+ 026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
+ ithub.io/surf-calendar-plugin/#spot=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
+LOCATION:Zavial
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d71d31b5200e84c9@surf-windows
+DTSTAMP:20261124T090000Z
+DTSTART:20261201T070000Z
+DTEND:20261201T090000Z
+SUMMARY:🤏 Zavial 5/10 · 1.6m 13s NW · 7kn E
+DESCRIPTION:Best 5/10 at 07:00. Forecast confidence: low. 3 wave models say
+  1.6 to 2.1 m.\n\nHour (local)  score  waves            wind\nTue 07:00   
+     5   1.6m 12.9s  NW    7kn (g15)   E cross\nTue 08:00       5   1.6m 12
+ .8s  NW    8kn (g15)   E cross\n\nGenerated 2026-11-24 09:00 UTC from Open
+ -Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin
+ /#spot=zavial
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zavial
 LOCATION:Zavial
 TRANSP:TRANSPARENT
 END:VEVENT
