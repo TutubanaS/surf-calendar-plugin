@@ -8,167 +8,145 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:605d0070534ba899@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Mohammedia (Sablettes) 8.5/10 · 1.8m 10s NW · 3kn SSE
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: high. 4 wave models 
- say 1.8 to 1.9 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-      8.5   1.8m 10.2s  NW    3kn (g6) SSE glassy\nMon 08:00     8.5   1.9m
-  10.2s  NW    3kn (g6) SSE glassy\nMon 09:00     8.5   1.8m 10.2s  NW    2
- kn (g6) SSE glassy\nMon 10:00     7.5   1.8m 10.2s  NW    1kn (g4) SSW gla
- ssy\nMon 11:00       7   1.8m 10.2s  NW    2kn (g4) NNW glassy\nMon 12:00 
-       7   1.8m 10.2s  NW    4kn (g8)   N glassy\nMon 13:00       7   1.8m 
- 10.2s  NW    5kn (g10)   N onshore\nMon 14:00       5   1.8m 10.2s  NW    
- 6kn (g12)   N onshore\nMon 15:00       5   1.8m 10.2s  NW    6kn (g12)   N
-  onshore\nMon 16:00       7   1.8m 10.2s  NW    6kn (g12) NNE onshore\nMon
-  17:00       7   1.8m 10.2s  NW    4kn (g10) NNE glassy\n\nGenerated 2026-
- 11-23 17:00 UTC from Open-Meteo.
-LOCATION:Mohammedia (Sablettes)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:548668fe17206f39@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
-SUMMARY:🔥 Mohammedia (Sablettes) 9/10 · 1.6m 11s NW · 3kn SSE
-DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 4 wave models sa
- y 1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
-      9   1.6m 11.2s  NW    3kn (g6) SSE glassy\nTue 08:00       9   1.5m 1
- 1.2s  NW    3kn (g7) SSE glassy\nTue 09:00       9   1.5m 11.2s  NW    2kn
-  (g6)   S glassy\nTue 10:00     7.5   1.5m 11.2s  NW    4kn (g8)   W glass
- y\nTue 11:00     5.5   1.5m 11.2s  NW    6kn (g12)   W onshore\nTue 12:00 
-     5.5   1.4m 11.2s  NW    7kn (g13)   W onshore\nTue 13:00     5.5   1.4
- m 11.2s  NW    7kn (g14)   W onshore\nTue 14:00     5.5   1.4m 11.2s  NW  
-   6kn (g14)   W onshore\nTue 15:00     7.5   1.4m 11.2s  NW    6kn (g12)  
-  W onshore\nTue 16:00     7.5   1.4m 11.2s  NW    6kn (g12)   W onshore\nT
- ue 17:00     7.5   1.4m 11.2s  NW    5kn (g11)   W onshore\n\nGenerated 20
- 26-11-23 17:00 UTC from Open-Meteo.
+SUMMARY:🔥 Mohammedia (Sablettes) 9.5/10 · 1.6m 11s NW · 3kn SSE
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 4 wave models 
+ say 1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00
+      9.5   1.6m 11.2s  NW    3kn (g6) SSE glassy\nTue 08:00       9   1.6m
+  11.2s  NW    3kn (g6) SSE glassy\nTue 09:00       9   1.6m 11.2s  NW    2
+ kn (g6)   S glassy\nTue 10:00       8   1.5m 11.2s  NW    4kn (g9) WSW gla
+ ssy\nTue 11:00     7.5   1.5m 11.2s  NW    5kn (g10)   W onshore\nTue 12:0
+ 0     5.5   1.5m 11.2s  NW    6kn (g12) WNW onshore\nTue 13:00     7.5   1
+ .4m 11.2s  NW    6kn (g12)   W onshore\nTue 14:00     7.5   1.4m 11.2s  NW
+     6kn (g12)   W onshore\nTue 15:00     5.5   1.4m 11.2s  NW    6kn (g12)
+    W onshore\nTue 16:00     7.5   1.4m 11.2s  NW    5kn (g12)   W onshore\
+ nTue 17:00     7.5   1.4m 11.2s  NW    4kn (g10)   W glassy\n\nGenerated 2
+ 026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Mohammedia (Sablettes)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eab6683fcab507a1@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
-SUMMARY:👍 Mohammedia (Sablettes) 6.5/10 · 2.2m 15s NW · 7kn NNE
-DESCRIPTION:Best 6.5/10 at 07:00. Forecast confidence: medium. 4 wave model
- s say 2.2 to 2.2 m.\n\nHour (local)  score  waves            wind\nWed 07:
- 00     6.5   2.2m 14.8s  NW    7kn (g13) NNE onshore\nWed 08:00     6.5   
- 2.2m 14.8s  NW    7kn (g13) NNE onshore\nWed 09:00     6.5   2.2m 14.8s  N
- W    8kn (g14) NNE onshore\nWed 10:00     6.5   2.2m 14.8s  NW    9kn (g17
- ) NNE onshore\nWed 11:00     6.5   2.2m 14.8s  NW   10kn (g18) NNE onshore
- \nWed 12:00     6.5   2.3m 14.8s  NW   10kn (g18) NNE onshore\nWed 13:00  
-    6.5   2.2m 13.5s  NW    9kn (g18) NNE onshore\nWed 14:00     6.5   2.2m
-  13.5s  NW    9kn (g18) NNE onshore\nWed 15:00     6.5   2.2m 13.5s  NW   
-  8kn (g16) NNE onshore\nWed 16:00     6.5   2.2m 13.4s  NW    8kn (g16) NN
- E onshore\nWed 17:00     6.5   2.2m 13.4s  NW    6kn (g15) NNE onshore\n\n
- Generated 2026-11-23 17:00 UTC from Open-Meteo.
+SUMMARY:🔥 Mohammedia (Sablettes) 8.5/10 · 2.2m 15s NW · 6kn N
+DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: high. 4 wave models 
+ say 2.0 to 2.2 m.\n\nHour (local)  score  waves            wind\nWed 07:00
+      8.5   2.2m 14.8s  NW    6kn (g11)   N onshore\nWed 08:00     8.5   2.
+ 2m 14.8s  NW    5kn (g10) NNE onshore\nWed 09:00     8.5   2.2m 14.8s  NW 
+    6kn (g11) NNE onshore\nWed 10:00     6.5   2.2m 14.8s  NW    8kn (g15) 
+ NNE onshore\nWed 11:00     6.5   2.2m 14.8s  NW    8kn (g15) NNE onshore\n
+ Wed 12:00     6.5   2.2m 14.8s  NW    8kn (g16) NNE onshore\nWed 13:00    
+  6.5   2.2m 13.5s  NW    8kn (g16) NNE onshore\nWed 14:00     6.5   2.2m 1
+ 3.5s  NW    8kn (g15) NNE onshore\nWed 15:00     6.5   2.2m 13.5s  NW    8
+ kn (g16) NNE onshore\nWed 16:00     6.5   2.2m 13.4s  NW    8kn (g16) NNE 
+ onshore\nWed 17:00     6.5   2.2m 13.4s  NW    7kn (g15) NNE onshore\n\nGe
+ nerated 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Mohammedia (Sablettes)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c13cd4c9f4a7e698@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Mohammedia (Sablettes) 9.5/10 · 1.9m 12s NW · 3kn SE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 4 wave model
- s say 1.8 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 07:
+ s say 1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nThu 07:
  00     9.5   1.9m 12.3s  NW    3kn (g5)  SE glassy\nThu 08:00     9.5   1.
  9m 12.3s  NW    3kn (g5)  SE glassy\nThu 09:00     9.5   1.9m 12.3s  NW   
-  2kn (g5) ESE glassy\nThu 10:00     8.5   1.9m 12.3s  NW    5kn (g10) ENE 
- glassy\nThu 11:00     8.5   1.8m 12.3s  NW    7kn (g14)  NE cross\nThu 12:
- 00       6   1.8m 12.3s  NW    8kn (g16)  NE onshore\nThu 13:00       6   
- 1.8m 11.9s  NW    8kn (g16) NNE onshore\nThu 14:00       6   1.8m 11.2s  N
- W    9kn (g17) NNE onshore\nThu 15:00       6   1.8m 11.2s  NW    9kn (g17
- ) NNE onshore\nThu 16:00       6   1.8m 11.2s  NW    8kn (g16) NNE onshore
- \nThu 17:00       8   1.8m 11.1s  NW    5kn (g14)  NE onshore\n\nGenerated
-  2026-11-23 17:00 UTC from Open-Meteo.
+  2kn (g5) SSE glassy\nThu 10:00     8.5   1.9m 12.3s  NW    2kn (g5)   E g
+ lassy\nThu 11:00     8.5   1.9m 12.3s  NW    4kn (g9)  NE glassy\nThu 12:0
+ 0       8   1.9m 12.3s  NW    6kn (g11) NNE onshore\nThu 13:00       6   1
+ .9m 11.9s  NW    7kn (g13) NNE onshore\nThu 14:00       6   1.8m 11.2s  NW
+     8kn (g15) NNE onshore\nThu 15:00       6   1.8m 11.2s  NW    8kn (g16)
+  NNE onshore\nThu 16:00       6   1.8m 11.2s  NW    7kn (g15)  NE onshore\
+ nThu 17:00       6   1.8m 11.2s  NW    6kn (g13) NNE onshore\n\nGenerated 
+ 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Mohammedia (Sablettes)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7e7acacda85ebdb7@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261127T070000Z
-DTEND:20261127T140000Z
+DTEND:20261127T130000Z
 SUMMARY:🔥 Mohammedia (Sablettes) 8/10 · 1.4m 10s NW · 3kn SE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 3 wave models say
   1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
-     8   1.4m 10.2s  NW    3kn (g6)  SE glassy\nFri 08:00       8   1.4m 10
- .1s  NW    3kn (g6)  SE glassy\nFri 09:00       8   1.4m 10.1s  NW    3kn 
- (g6)  SE glassy\nFri 10:00       7   1.3m 10.1s  NW    4kn (g16)   E glass
- y\nFri 11:00       7   1.3m 10.1s  NW    6kn (g16) ENE cross\nFri 12:00   
-   5.5   1.3m 10.0s  NW    8kn (g16)  NE cross\nFri 13:00     5.5   1.3m 10
- .0s  NW    9kn (g19)  NE cross\n\nGenerated 2026-11-23 17:00 UTC from Open
- -Meteo.
+     8   1.4m 10.2s  NW    3kn (g7)  SE glassy\nFri 08:00       8   1.4m 10
+ .1s  NW    3kn (g7)  SE glassy\nFri 09:00       8   1.4m 10.1s  NW    3kn 
+ (g7)  SE glassy\nFri 10:00       7   1.3m 10.1s  NW    3kn (g13)   E glass
+ y\nFri 11:00       7   1.3m 10.1s  NW    5kn (g13) ENE glassy\nFri 12:00  
+      7   1.3m 10.1s  NW    7kn (g13)  NE cross\n\nGenerated 2026-11-24 02:
+ 00 UTC from Open-Meteo.
 LOCATION:Mohammedia (Sablettes)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:133e75137cf244be@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Mohammedia (Sablettes) 9/10 · 1.4m 11s NW · 4kn SSE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 3 wave models say
-  1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     9   1.4m 11.3s  NW    4kn (g8) SSE glassy\nSat 08:00       9   1.4m 11
- .3s  NW    4kn (g8) SSE glassy\nSat 09:00       9   1.4m 11.3s  NW    4kn 
- (g8) SSE glassy\nSat 10:00       9   1.4m 11.3s  NW    2kn (g6) SSE glassy
- \nSat 11:00     7.5   1.4m 11.3s  NW    0kn (g6)  NW glassy\nSat 12:00    
-  7.5   1.4m 11.4s  NW    2kn (g6) NNW glassy\nSat 13:00     7.5   1.4m 11.
- 4s  NW    4kn (g10) NNW glassy\nSat 14:00     7.5   1.4m 11.5s  NW    5kn 
- (g10)   N onshore\nSat 15:00     7.5   1.4m 11.6s  NW    6kn (g10)   N ons
- hore\nSat 16:00     7.5   1.4m 11.8s  NW    4kn (g6)   N glassy\nSat 17:00
-      7.5   1.4m 11.9s  NW    3kn (g6) NNE glassy\n\nGenerated 2026-11-23 1
- 7:00 UTC from Open-Meteo.
+  1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
+     9   1.4m 11.4s  NW    4kn (g7) SSE glassy\nSat 08:00       9   1.4m 11
+ .4s  NW    4kn (g7) SSE glassy\nSat 09:00       9   1.4m 11.3s  NW    4kn 
+ (g7) SSE glassy\nSat 10:00       9   1.4m 11.3s  NW    2kn (g6) SSE glassy
+ \nSat 11:00     7.5   1.4m 11.3s  NW    1kn (g6) NNE glassy\nSat 12:00    
+  7.5   1.4m 11.4s  NW    3kn (g6)   N glassy\nSat 13:00     7.5   1.4m 11.
+ 7s  NW    4kn (g12)   N glassy\nSat 14:00     7.5   1.4m 12.1s  NW    6kn 
+ (g12)   N onshore\nSat 15:00     5.5   1.4m 12.4s  NW    6kn (g12)   N ons
+ hore\nSat 16:00     7.5   1.4m 12.7s  NW    5kn (g6)   N glassy\nSat 17:00
+      7.5   1.4m 12.9s  NW    3kn (g6) NNE glassy\n\nGenerated 2026-11-24 0
+ 2:00 UTC from Open-Meteo.
 LOCATION:Mohammedia (Sablettes)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5960ccb1fb1bb322@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Mohammedia (Sablettes) 9.5/10 · 1.6m 12s NW · 5kn SSE
+SUMMARY:🔥 Mohammedia (Sablettes) 9.5/10 · 1.6m 13s NW · 5kn SSE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 3 wave models s
- ay 1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
-     9.5   1.6m 12.4s  NW    5kn (g8) SSE glassy\nSun 08:00     9.5   1.6m 
- 12.3s  NW    5kn (g8) SSE glassy\nSun 09:00       9   1.6m 12.2s  NW    4k
- n (g8) SSE glassy\nSun 10:00       9   1.6m 12.2s  NW    2kn (g6)  SE glas
- sy\nSun 11:00       8   1.6m 12.3s  NW    1kn (g6)   E glassy\nSun 12:00  
-    7.5   1.6m 12.3s  NW    2kn (g6) NNE glassy\nSun 13:00     7.5   1.6m 1
- 2.4s  NW    4kn (g11) NNE glassy\nSun 14:00     7.5   1.6m 12.4s  NW    5k
- n (g11)   N onshore\nSun 15:00       8   1.6m 12.4s  NW    6kn (g11)   N o
- nshore\nSun 16:00       8   1.6m 12.4s  NW    5kn (g8)   N onshore\nSun 17
- :00       8   1.6m 12.4s  NW    4kn (g8) NNE glassy\n\nGenerated 2026-11-2
- 3 17:00 UTC from Open-Meteo.
+ ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
+     9.5   1.6m 12.6s  NW    5kn (g8) SSE glassy\nSun 08:00     9.5   1.7m 
+ 12.7s  NW    5kn (g8) SSE glassy\nSun 09:00     9.5   1.7m 12.7s  NW    4k
+ n (g8) SSE glassy\nSun 10:00     9.5   1.7m 12.7s  NW    2kn (g6)  SE glas
+ sy\nSun 11:00     8.5   1.7m 12.6s  NW    1kn (g6)   E glassy\nSun 12:00  
+      8   1.7m 12.6s  NW    2kn (g6) NNE glassy\nSun 13:00       8   1.7m 1
+ 2.6s  NW    4kn (g11) NNE glassy\nSun 14:00       8   1.7m 12.6s  NW    5k
+ n (g11)   N onshore\nSun 15:00       8   1.7m 12.6s  NW    6kn (g11)   N o
+ nshore\nSun 16:00       8   1.7m 12.6s  NW    5kn (g8)   N onshore\nSun 17
+ :00       8   1.7m 12.6s  NW    4kn (g8) NNE glassy\n\nGenerated 2026-11-2
+ 4 02:00 UTC from Open-Meteo.
 LOCATION:Mohammedia (Sablettes)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:04c01d93c50b1ebc@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Mohammedia (Sablettes) 10/10 · 1.6m 13s NW · 4kn SSE
+SUMMARY:🔥 Mohammedia (Sablettes) 10/10 · 1.7m 13s NW · 4kn SSE
 DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: low. 3 wave models sa
- y 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
-     10   1.6m 13.2s  NW    4kn (g7) SSE glassy\nMon 08:00      10   1.6m 1
- 3.2s  NW    5kn (g7) SSE glassy\nMon 09:00      10   1.6m 13.1s  NW    4kn
-  (g7) SSE glassy\nMon 10:00     9.5   1.6m 12.9s  NW    2kn (g5) SSE glass
- y\nMon 11:00     8.5   1.6m 12.6s  NW    1kn (g5)   E glassy\nMon 12:00   
-     8   1.6m 12.4s  NW    2kn (g5)   N glassy\nMon 13:00       8   1.7m 12
- .3s  NW    4kn (g12)   N glassy\nMon 14:00       8   1.7m 12.4s  NW    6kn
-  (g12)   N onshore\nMon 15:00       6   1.7m 12.4s  NW    7kn (g12)   N on
- shore\nMon 16:00       8   1.7m 12.4s  NW    6kn (g8)   N onshore\nMon 17:
- 00       8   1.7m 12.5s  NW    4kn (g8)   N glassy\n\nGenerated 2026-11-23
-  17:00 UTC from Open-Meteo.
+ y 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
+     10   1.7m 13.2s  NW    4kn (g7) SSE glassy\nMon 08:00      10   1.7m 1
+ 3.2s  NW    5kn (g7) SSE glassy\nMon 09:00      10   1.7m 13.2s  NW    4kn
+  (g7) SSE glassy\nMon 10:00     9.5   1.8m 12.9s  NW    2kn (g5) SSE glass
+ y\nMon 11:00     8.5   1.8m 12.7s  NW    1kn (g5)   E glassy\nMon 12:00   
+     8   1.8m 12.5s  NW    2kn (g5)   N glassy\nMon 13:00       8   1.8m 12
+ .5s  NW    4kn (g12)   N glassy\nMon 14:00       8   1.8m 12.6s  NW    6kn
+  (g12)   N onshore\nMon 15:00       6   1.8m 12.7s  NW    7kn (g12)   N on
+ shore\nMon 16:00       8   1.8m 12.7s  NW    6kn (g8)   N onshore\nMon 17:
+ 00       8   1.8m 12.8s  NW    4kn (g8)   N glassy\n\nGenerated 2026-11-24
+  02:00 UTC from Open-Meteo.
 LOCATION:Mohammedia (Sablettes)
 TRANSP:TRANSPARENT
 END:VEVENT

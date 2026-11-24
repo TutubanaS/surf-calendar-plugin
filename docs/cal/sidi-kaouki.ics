@@ -8,136 +8,115 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:568756d5919b0b12@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Sidi Kaouki 9.5/10 · 1.8m 11s NNW · 2kn ENE
-DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models 
- say 1.8 to 1.9 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-      9.5   1.8m 11.2s NNW    2kn (g5) ENE glassy\nMon 08:00     9.5   1.8m
-  11.2s NNW    2kn (g4) ENE glassy\nMon 09:00     9.5   1.8m 11.2s  NW    2
- kn (g4) ENE glassy\nMon 10:00       8   1.8m 11.2s  NW    2kn (g5) NNW gla
- ssy\nMon 11:00       8   1.8m 11.2s  NW    3kn (g5) NNW glassy\nMon 12:00 
-       8   1.7m 11.2s  NW    2kn (g7) NNW glassy\nMon 13:00       7   1.7m 
- 10.6s  NW    3kn (g7)  NW glassy\nMon 14:00       7   1.7m 10.4s  NW    4k
- n (g8)  NW glassy\nMon 15:00       7   1.7m 10.2s  NW    3kn (g8)  NW glas
- sy\nMon 16:00       7   1.7m 10.2s  NW    3kn (g7)  NW glassy\nMon 17:00  
-      7   1.7m 10.2s  NW    3kn (g6)   N glassy\n\nGenerated 2026-11-23 17:
- 00 UTC from Open-Meteo.
-LOCATION:Sidi Kaouki
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:a85c429a2da24d3e@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T180000Z
-SUMMARY:🔥 Sidi Kaouki 9/10 · 1.5m 11s NW · 3kn E
+SUMMARY:🔥 Sidi Kaouki 9/10 · 1.5m 11s NW · 2kn E
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 5 wave models sa
  y 1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
-      9   1.5m 11.2s  NW    3kn (g4)   E glassy\nTue 08:00       9   1.4m 1
- 1.2s  NW    3kn (g4) ESE glassy\nTue 09:00       9   1.4m 11.2s  NW    2kn
-  (g4)   E glassy\nTue 10:00       8   1.4m 11.1s  NW    1kn (g4)  NE glass
- y\nTue 11:00       8   1.4m 11.1s  NW    5kn (g9)   N cross\nTue 12:00    
-  6.5   1.4m 11.2s  NW    8kn (g15)   N cross\nTue 13:00     6.5   1.4m 11.
- 2s  NW    9kn (g17)   N cross\nTue 14:00     6.5   1.4m 11.2s  NW   10kn (
- g19)   N cross\nTue 15:00     6.5   1.4m 11.2s  NW   10kn (g18) NNE cross\
- nTue 16:00     6.5   1.4m 11.2s  NW   10kn (g17) NNE cross\nTue 17:00     
- 6.5   1.4m 11.2s  NW   10kn (g17) NNE cross\n\nGenerated 2026-11-23 17:00 
- UTC from Open-Meteo.
+      9   1.5m 11.2s  NW    2kn (g4)   E glassy\nTue 08:00       9   1.5m 1
+ 1.2s  NW    2kn (g4)   E glassy\nTue 09:00       9   1.5m 11.2s  NW    2kn
+  (g4)   E glassy\nTue 10:00       8   1.4m 11.1s  NW    3kn (g5)   N glass
+ y\nTue 11:00       8   1.4m 11.1s  NW    7kn (g13)   N cross\nTue 12:00   
+   6.5   1.4m 11.2s  NW    9kn (g15)   N cross\nTue 13:00     6.5   1.4m 11
+ .2s  NW   10kn (g17)   N cross\nTue 14:00     6.5   1.4m 11.2s  NW   10kn 
+ (g18)   N cross\nTue 15:00     6.5   1.4m 11.2s  NW    9kn (g18) NNE cross
+ \nTue 16:00     6.5   1.4m 11.2s  NW   10kn (g18) NNE cross\nTue 17:00    
+  6.5   1.4m 11.2s  NW    9kn (g18) NNE cross\n\nGenerated 2026-11-24 02:00
+  UTC from Open-Meteo.
 LOCATION:Sidi Kaouki
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:df19857729a0863c@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261125T070000Z
-DTEND:20261125T090000Z
-SUMMARY:👍 Sidi Kaouki 7.5/10 · 2.2m 15s NNW · 12kn NNE
-DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: medium. 5 wave model
- s say 2.1 to 2.3 m.\n\nHour (local)  score  waves            wind\nWed 07:
- 00     7.5   2.2m 14.8s NNW   12kn (g21) NNE cross\nWed 08:00       7   2.
- 3m 11.0s NNW   13kn (g22) NNE cross\n\nGenerated 2026-11-23 17:00 UTC from
-  Open-Meteo.
+DTEND:20261125T100000Z
+SUMMARY:👍 Sidi Kaouki 7.5/10 · 2.2m 15s NNW · 13kn NNE
+DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: high. 5 wave models 
+ say 1.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nWed 07:00
+      7.5   2.2m 14.8s NNW   13kn (g22) NNE cross\nWed 08:00       7   2.2m
+  12.7s NNW   13kn (g23) NNE cross\nWed 09:00       5   2.3m 12.2s NNW   14
+ kn (g24) NNE cross\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Sidi Kaouki
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae43b34107ce8057@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T110000Z
-SUMMARY:👍 Sidi Kaouki 7/10 · 2.2m 12s NNW · 11kn NNE
+SUMMARY:👍 Sidi Kaouki 7/10 · 2.2m 12s NNW · 12kn NNE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: medium. 5 wave models 
- say 1.9 to 2.4 m.\n\nHour (local)  score  waves            wind\nThu 07:00
-        7   2.2m 12.3s NNW   11kn (g19) NNE cross\nThu 08:00       7   2.2m
-  12.3s NNW   12kn (g20)  NE cross\nThu 09:00       7   2.2m 12.3s NNW   12
- kn (g20)  NE cross\nThu 10:00       7   2.2m 11.9s NNW   13kn (g22) NNE cr
- oss\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ say 2.0 to 2.3 m.\n\nHour (local)  score  waves            wind\nThu 07:00
+        7   2.2m 12.3s NNW   12kn (g20) NNE cross\nThu 08:00       7   2.2m
+  12.3s NNW   12kn (g20) NNE cross\nThu 09:00       7   2.2m 12.3s NNW   12
+ kn (g21)  NE cross\nThu 10:00       5   2.1m 11.9s NNW   14kn (g25)  NE cr
+ oss\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Sidi Kaouki
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f847569f31770112@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Sidi Kaouki 9/10 · 1.4m 11s NNW · 3kn ENE
+SUMMARY:🔥 Sidi Kaouki 9/10 · 1.4m 11s NNW · 3kn E
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     7   1.4m 10.8s NNW    3kn (g6) ENE glassy\nSat 08:00       9   1.4m 11
- .1s NNW    3kn (g6) ENE glassy\nSat 09:00       8   1.4m 11.3s NNW    4kn 
- (g6)  NE glassy\nSat 10:00       8   1.4m 11.3s NNW    4kn (g12) NNE glass
- y\nSat 11:00       8   1.4m 11.3s NNW    6kn (g12)   N cross\nSat 12:00   
-     9   1.4m 11.2s NNW    7kn (g11)   E offshore\nSat 13:00     6.5   1.4m
-  11.2s NNW    8kn (g16)   N cross\nSat 14:00     6.5   1.4m 11.2s NNW   10
- kn (g16)   N cross\nSat 15:00     6.5   1.4m 11.2s NNW   10kn (g16)   N cr
- oss\nSat 16:00     6.5   1.4m 11.3s NNW   10kn (g15)   N cross\nSat 17:00 
-     6.5   1.5m 11.4s NNW    9kn (g15) NNE cross\n\nGenerated 2026-11-23 17
- :00 UTC from Open-Meteo.
+  1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
+     7   1.4m 10.8s NNW    3kn (g6)   E glassy\nSat 08:00       9   1.4m 11
+ .1s NNW    3kn (g6)   E glassy\nSat 09:00       9   1.4m 11.4s NNW    2kn 
+ (g6)   E glassy\nSat 10:00       9   1.4m 11.4s NNW    1kn (g7)  NE glassy
+ \nSat 11:00     7.5   1.4m 11.3s NNW    2kn (g7) NNW glassy\nSat 12:00    
+  7.5   1.4m 11.3s NNW    3kn (g7)  NW glassy\nSat 13:00     7.5   1.4m 11.
+ 2s NNW    5kn (g11)  NW glassy\nSat 14:00     7.5   1.4m 11.2s NNW    6kn 
+ (g11)  NW onshore\nSat 15:00     5.5   1.5m 11.4s NNW    6kn (g11) NNW ons
+ hore\nSat 16:00     7.5   1.5m 11.7s NNW    5kn (g13) NNW glassy\nSat 17:0
+ 0       8   1.5m 12.2s NNW    4kn (g12) NNE glassy\n\nGenerated 2026-11-24
+  02:00 UTC from Open-Meteo.
 LOCATION:Sidi Kaouki
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:61ce223e1ba4e085@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Sidi Kaouki 9.5/10 · 1.6m 12s NNW · 4kn ENE
+SUMMARY:🔥 Sidi Kaouki 9.5/10 · 1.7m 12s NNW · 4kn ENE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
- ay 1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
-     9.5   1.6m 12.2s NNW    4kn (g5) ENE glassy\nSun 08:00       9   1.6m 
- 12.2s NNW    3kn (g5) ENE glassy\nSun 09:00       9   1.6m 12.1s NNW    3k
- n (g5) ENE glassy\nSun 10:00       8   1.6m 12.2s NNW    4kn (g13) NNE gla
- ssy\nSun 11:00       8   1.6m 12.2s NNW    6kn (g13)   N cross\nSun 12:00 
-     6.5   1.6m 12.3s NNW    8kn (g13)   N cross\nSun 13:00     6.5   1.6m 
- 12.4s NNW    9kn (g14)   N cross\nSun 14:00     6.5   1.6m 12.4s NNW    9k
- n (g14)   N cross\nSun 15:00     6.5   1.6m 12.5s NNW    8kn (g14)   N cro
- ss\nSun 16:00     8.5   1.6m 12.6s NNW    7kn (g10)   N cross\nSun 17:00  
-    8.5   1.6m 12.7s NNW    6kn (g10)   N cross\n\nGenerated 2026-11-23 17:
+ ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
+     9.5   1.7m 12.5s NNW    4kn (g5) ENE glassy\nSun 08:00     9.5   1.7m 
+ 12.5s NNW    3kn (g5) ENE glassy\nSun 09:00     9.5   1.7m 12.6s NNW    3k
+ n (g5) ENE glassy\nSun 10:00     8.5   1.7m 12.7s NNW    4kn (g13) NNE gla
+ ssy\nSun 11:00     8.5   1.7m 12.8s NNW    6kn (g13)   N cross\nSun 12:00 
+       7   1.7m 12.9s NNW    8kn (g13)   N cross\nSun 13:00       7   1.8m 
+ 12.9s NNW    9kn (g14)   N cross\nSun 14:00       7   1.8m 12.9s NNW    9k
+ n (g14)   N cross\nSun 15:00       7   1.8m 12.9s NNW    8kn (g14)   N cro
+ ss\nSun 16:00     8.5   1.8m 12.9s NNW    7kn (g10)   N cross\nSun 17:00  
+    8.5   1.9m 12.9s NNW    6kn (g10)   N cross\n\nGenerated 2026-11-24 02:
  00 UTC from Open-Meteo.
 LOCATION:Sidi Kaouki
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:51926ebb240f242e@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Sidi Kaouki 10/10 · 1.8m 13s NNW · 3kn E
+SUMMARY:🔥 Sidi Kaouki 10/10 · 1.9m 13s NNW · 3kn E
 DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: low. 4 wave models sa
- y 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
-     10   1.8m 13.4s NNW    3kn (g5)   E glassy\nMon 08:00      10   1.8m 1
- 3.4s NNW    3kn (g5)   E glassy\nMon 09:00      10   1.8m 13.4s NNW    3kn
-  (g5) ENE glassy\nMon 10:00      10   1.8m 13.4s NNW    2kn (g5) ENE glass
- y\nMon 11:00       9   1.8m 13.4s NNW    1kn (g5)   N glassy\nMon 12:00   
-   8.5   1.8m 13.3s NNW    2kn (g5) NNW glassy\nMon 13:00     8.5   1.8m 13
- .1s NNW    4kn (g10) NNW glassy\nMon 14:00       8   1.8m 12.8s  NW    5kn
-  (g10) NNW onshore\nMon 15:00       6   1.8m 12.5s  NW    6kn (g10) NNW on
- shore\nMon 16:00     8.5   1.8m 12.4s  NW    6kn (g10)   N cross\nMon 17:0
- 0     8.5   1.8m 12.4s  NW    6kn (g10)   N cross\n\nGenerated 2026-11-23 
- 17:00 UTC from Open-Meteo.
+ y 1.7 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
+     10   1.9m 13.4s NNW    3kn (g5)   E glassy\nMon 08:00      10   1.9m 1
+ 3.3s NNW    3kn (g5)   E glassy\nMon 09:00      10   1.9m 13.3s NNW    3kn
+  (g5) ENE glassy\nMon 10:00      10   1.9m 13.3s NNW    2kn (g5) ENE glass
+ y\nMon 11:00       9   1.9m 13.3s NNW    1kn (g5)   N glassy\nMon 12:00   
+   8.5   1.9m 13.2s NNW    2kn (g5) NNW glassy\nMon 13:00     8.5   1.9m 13
+ .1s NNW    4kn (g10) NNW glassy\nMon 14:00       8   1.9m 12.8s  NW    5kn
+  (g10) NNW onshore\nMon 15:00       6   1.9m 12.6s  NW    6kn (g10) NNW on
+ shore\nMon 16:00     8.5   1.9m 12.5s  NW    6kn (g10)   N cross\nMon 17:0
+ 0     8.5   1.9m 12.5s  NW    6kn (g10)   N cross\n\nGenerated 2026-11-24 
+ 02:00 UTC from Open-Meteo.
 LOCATION:Sidi Kaouki
 TRANSP:TRANSPARENT
 END:VEVENT

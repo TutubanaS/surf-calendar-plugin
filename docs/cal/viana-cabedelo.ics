@@ -8,153 +8,133 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:beca4c9ec3d36452@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T080000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Viana do Castelo (Cabedelo) 9.5/10 · 2.1m 11s W · 4kn E
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.7 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 08:00
-      9.5   2.1m 11.2s   W    4kn (g8)   E glassy\nMon 09:00     9.5   2.1m
-  11.2s WNW    4kn (g8)   E glassy\nMon 10:00     9.5   2.0m 11.2s WNW    4
- kn (g10)   E glassy\nMon 11:00     9.5   2.0m 11.2s WNW    5kn (g11) ESE o
- ffshore\nMon 12:00     9.5   1.9m 11.2s WNW    5kn (g12) ESE offshore\nMon
-  13:00     8.5   1.9m 11.2s WNW    5kn (g12)  SE cross\nMon 14:00     8.5 
-   1.9m 11.2s WNW    5kn (g12)  SE glassy\nMon 15:00     8.5   1.8m 11.2s W
- NW    4kn (g10)  SE glassy\nMon 16:00       8   1.8m 11.2s WNW    3kn (g9)
-  SSW glassy\nMon 17:00       8   1.7m 11.2s   W    2kn (g6) SSW glassy\n\n
- Generated 2026-11-23 17:00 UTC from Open-Meteo.
-LOCATION:Viana do Castelo (Cabedelo)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:aa0279aeba6ef0a3@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T080000Z
 DTEND:20261124T110000Z
-SUMMARY:👍 Viana do Castelo (Cabedelo) 6.5/10 · 2.4m 11s WSW · 8kn SSE
-DESCRIPTION:Best 6.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.8 to 2.6 m.\n\nHour (local)  score  waves            wind\nTue 08:00
-      6.5   2.4m 11.2s WSW    8kn (g16) SSE cross\nTue 09:00       5   2.5m
-  11.2s WSW    8kn (g17) SSE cross\nTue 10:00     6.5   2.5m 11.0s WSW    7
- kn (g18) SSE cross\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+SUMMARY:👍 Viana do Castelo (Cabedelo) 6.5/10 · 2.5m 11s WSW · 4kn SSE
+DESCRIPTION:Best 6.5/10 at 10:00. Forecast confidence: high. 5 wave models 
+ say 1.9 to 2.8 m.\n\nHour (local)  score  waves            wind\nTue 08:00
+        5   2.4m 11.2s WSW    8kn (g17) SSE cross\nTue 09:00       5   2.5m
+  11.2s WSW   10kn (g22)   S cross\nTue 10:00     6.5   2.5m 11.0s WSW    4
+ kn (g21) SSE glassy\n\nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Viana do Castelo (Cabedelo)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:431ce188b7cf4b76@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261125T120000Z
 DTEND:20261125T180000Z
-SUMMARY:🤏 Viana do Castelo (Cabedelo) 5.5/10 · 3.0m 10s WNW · 5kn NNW
-DESCRIPTION:Best 5.5/10 at 12:00. Forecast confidence: medium. 5 wave model
- s say 2.5 to 3.6 m.\n\nHour (local)  score  waves            wind\nWed 12:
- 00     5.5   3.0m 10.2s WNW    5kn (g12) NNW cross\nWed 13:00     5.5   2.
- 9m 10.2s WNW    5kn (g12) NNW glassy\nWed 14:00       5   2.8m 10.2s WNW  
-   3kn (g10) NNW glassy\nWed 15:00     5.5   2.7m 10.2s WNW    3kn (g7) NNW
-  glassy\nWed 16:00     5.5   2.6m 10.2s WNW    1kn (g6)   N glassy\nWed 17
- :00     5.5   2.5m 10.2s WNW    1kn (g3)   N glassy\n\nGenerated 2026-11-2
- 3 17:00 UTC from Open-Meteo.
+SUMMARY:🤏 Viana do Castelo (Cabedelo) 5.5/10 · 3.0m 10s WNW · 6kn NNW
+DESCRIPTION:Best 5.5/10 at 12:00. Forecast confidence: high. 5 wave models 
+ say 2.5 to 3.6 m.\n\nHour (local)  score  waves            wind\nWed 12:00
+      5.5   3.0m 10.2s WNW    6kn (g16) NNW cross\nWed 13:00     5.5   2.9m
+  10.2s WNW    7kn (g16) NNW cross\nWed 14:00     5.5   2.8m 10.2s WNW    6
+ kn (g15) NNW cross\nWed 15:00     5.5   2.7m 10.2s WNW    5kn (g14)   N cr
+ oss\nWed 16:00     5.5   2.6m 10.2s WNW    4kn (g11)   N glassy\nWed 17:00
+      5.5   2.5m 10.2s WNW    2kn (g8) NNE glassy\n\nGenerated 2026-11-24 0
+ 2:00 UTC from Open-Meteo.
 LOCATION:Viana do Castelo (Cabedelo)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50a9e54a6dd8c377@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Viana do Castelo (Cabedelo) 8.5/10 · 1.6m 10s WNW · 3kn E
+SUMMARY:🔥 Viana do Castelo (Cabedelo) 8.5/10 · 1.6m 10s WNW · 4kn E
 DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 5 wave model
  s say 1.4 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:
- 00     8.5   1.6m 10.2s WNW    3kn (g7)   E glassy\nThu 09:00       8   1.
- 6m 10.2s WNW    3kn (g7) ESE glassy\nThu 10:00       8   1.6m 10.2s WNW   
-  4kn (g8)   E glassy\nThu 11:00       8   1.5m 10.2s WNW    4kn (g8)   E g
- lassy\nThu 12:00       8   1.5m 10.2s WNW    4kn (g8) ESE glassy\nThu 13:0
- 0       8   1.5m 10.2s WNW    3kn (g8)  SE glassy\nThu 14:00       8   1.5
- m 10.2s WNW    4kn (g9) ESE glassy\nThu 15:00       7   1.5m 10.2s WNW    
- 4kn (g9) SSE glassy\nThu 16:00       7   1.4m 10.2s WNW    3kn (g9) SSE gl
- assy\nThu 17:00       8   1.4m 10.2s WNW    3kn (g7) ESE glassy\n\nGenerat
- ed 2026-11-23 17:00 UTC from Open-Meteo.
+ 00     8.5   1.6m 10.2s WNW    4kn (g8)   E glassy\nThu 09:00     8.5   1.
+ 6m 10.2s WNW    3kn (g8)   E glassy\nThu 10:00       8   1.6m 10.2s WNW   
+  4kn (g8)   E glassy\nThu 11:00       8   1.5m 10.2s WNW    3kn (g8)   E g
+ lassy\nThu 12:00       8   1.5m 10.2s WNW    3kn (g7)   E glassy\nThu 13:0
+ 0       8   1.5m 10.2s WNW    3kn (g9) ESE glassy\nThu 14:00       8   1.4
+ m 10.2s WNW    4kn (g9) ESE glassy\nThu 15:00       8   1.4m 10.2s WNW    
+ 4kn (g9) ESE glassy\nThu 16:00       8   1.4m 10.2s WNW    3kn (g8) ESE gl
+ assy\nThu 17:00       8   1.4m 10.2s WNW    3kn (g6)   E glassy\n\nGenerat
+ ed 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Viana do Castelo (Cabedelo)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:472a23d18e8169c8@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Viana do Castelo (Cabedelo) 9.5/10 · 1.8m 11s WNW · 3kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.4 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:00 
-     9.5   1.8m 11.0s WNW    3kn (g6)   E glassy\nFri 09:00     9.5   1.8m 
- 11.4s WNW    2kn (g6)   E glassy\nFri 10:00     9.5   1.8m 11.6s WNW    3k
- n (g8) ESE glassy\nFri 11:00     8.5   1.8m 11.7s WNW    3kn (g8)  SE glas
- sy\nFri 12:00     8.5   1.8m 11.7s WNW    4kn (g8)  SE glassy\nFri 13:00  
-    8.5   1.8m 11.7s WNW    5kn (g14) SSE glassy\nFri 14:00     8.5   1.8m 
- 11.7s WNW    6kn (g14)   S cross\nFri 15:00     8.5   1.8m 11.7s WNW    6k
- n (g14)   S cross\nFri 16:00     8.5   1.7m 11.7s WNW    6kn (g8)   S cros
- s\nFri 17:00     8.5   1.7m 11.6s WNW    5kn (g8) SSE glassy\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+ ay 1.4 to 2.0 m.\n\nHour (local)  score  waves            wind\nFri 08:00 
+     9.5   1.8m 11.1s WNW    3kn (g7)   E glassy\nFri 09:00     9.5   1.8m 
+ 11.4s WNW    3kn (g7)   E glassy\nFri 10:00     9.5   1.8m 11.6s WNW    3k
+ n (g12) ESE glassy\nFri 11:00     8.5   1.8m 11.7s WNW    4kn (g12)  SE gl
+ assy\nFri 12:00     8.5   1.8m 11.7s WNW    6kn (g12) SSE cross\nFri 13:00
+      8.5   1.8m 11.7s WNW    6kn (g13) SSE cross\nFri 14:00     8.5   1.8m
+  11.7s WNW    6kn (g13) SSE cross\nFri 15:00     8.5   1.7m 11.7s WNW    6
+ kn (g13)   S cross\nFri 16:00     8.5   1.7m 11.7s WNW    5kn (g8) SSE gla
+ ssy\nFri 17:00     8.5   1.8m 11.7s WNW    4kn (g8) SSE glassy\n\nGenerate
+ d 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Viana do Castelo (Cabedelo)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75048914ef88b802@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Viana do Castelo (Cabedelo) 8.5/10 · 2.3m 13s WNW · 7kn S
-DESCRIPTION:Best 8.5/10 at 12:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 2.5 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
-     6.5   2.3m 12.6s WNW    5kn (g13) SSE cross\nSat 09:00     6.5   2.3m 
- 12.6s WNW    6kn (g13) SSE cross\nSat 10:00     6.5   2.3m 12.7s WNW    7k
- n (g17)   S cross\nSat 11:00     6.5   2.3m 12.7s WNW    7kn (g17)   S cro
- ss\nSat 12:00     8.5   2.3m 12.7s WNW    7kn (g17)   S cross\nSat 13:00  
-    8.5   2.3m 12.7s WNW    7kn (g17)   S cross\nSat 14:00     8.5   2.3m 1
- 2.7s WNW    7kn (g17)   S cross\nSat 15:00     8.5   2.3m 12.6s WNW    7kn
-  (g17)   S cross\nSat 16:00     8.5   2.3m 12.6s WNW    7kn (g13)   S cros
- s\nSat 17:00     8.5   2.2m 12.7s WNW    6kn (g13)   S cross\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+SUMMARY:👍 Viana do Castelo (Cabedelo) 6.5/10 · 2.4m 13s WNW · 4kn SE
+DESCRIPTION:Best 6.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.7 to 2.6 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
+     6.5   2.4m 12.9s WNW    4kn (g9)  SE glassy\nSat 09:00     6.5   2.4m 
+ 12.9s WNW    4kn (g9)  SE glassy\nSat 10:00     6.5   2.4m 12.8s WNW    4k
+ n (g9)  SE glassy\nSat 11:00     6.5   2.4m 12.8s WNW    4kn (g9)  SE glas
+ sy\nSat 12:00     6.5   2.4m 12.8s WNW    4kn (g9)  SE glassy\nSat 13:00  
+    6.5   2.4m 12.8s WNW    4kn (g11)  SE glassy\nSat 14:00     6.5   2.4m 
+ 12.7s WNW    5kn (g11) SSE cross\nSat 15:00     6.5   2.4m 12.7s WNW    5k
+ n (g11) SSE cross\nSat 16:00     6.5   2.4m 12.7s WNW    5kn (g10) SSE cro
+ ss\nSat 17:00     6.5   2.4m 12.7s WNW    5kn (g11) SSE cross\n\nGenerated
+  2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Viana do Castelo (Cabedelo)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5a13c2f9162dbd3@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Viana do Castelo (Cabedelo) 8.5/10 · 2.2m 12s NW · 3kn NNE
-DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 2.9 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
-     8.5   2.2m 12.5s  NW    3kn (g5) NNE glassy\nSun 09:00     8.5   2.2m 
- 12.5s  NW    3kn (g5) NNE glassy\nSun 10:00     8.5   2.2m 12.4s  NW    2k
- n (g6)   N glassy\nSun 11:00     8.5   2.2m 12.4s  NW    2kn (g6) NNW glas
- sy\nSun 12:00       8   2.2m 12.4s  NW    2kn (g6)  NW glassy\nSun 13:00  
-      8   2.2m 12.4s  NW    3kn (g7) WNW glassy\nSun 14:00       8   2.2m 1
- 2.4s  NW    3kn (g7) WNW glassy\nSun 15:00       8   2.2m 12.4s  NW    3kn
-  (g7) WNW glassy\nSun 16:00       8   2.2m 12.4s  NW    3kn (g6)  NW glass
- y\nSun 17:00       8   2.2m 12.4s  NW    3kn (g6)  NW glassy\n\nGenerated 
- 2026-11-23 17:00 UTC from Open-Meteo.
+SUMMARY:🔥 Viana do Castelo (Cabedelo) 8/10 · 2.3m 12s NW · 3kn WNW
+DESCRIPTION:Best 8/10 at 14:00. Forecast confidence: low. 4 wave models say
+  1.6 to 2.8 m.\n\nHour (local)  score  waves            wind\nSun 08:00   
+   6.5   2.4m 12.5s  NW    3kn (g5) NNE glassy\nSun 09:00     6.5   2.4m 12
+ .5s  NW    3kn (g5) NNE glassy\nSun 10:00     6.5   2.3m 12.5s  NW    2kn 
+ (g6)   N glassy\nSun 11:00     6.5   2.3m 12.4s  NW    2kn (g6) NNW glassy
+ \nSun 12:00       6   2.3m 12.4s  NW    2kn (g6)  NW glassy\nSun 13:00    
+    6   2.3m 12.4s  NW    3kn (g7) WNW glassy\nSun 14:00       8   2.3m 12.
+ 4s  NW    3kn (g7) WNW glassy\nSun 15:00       8   2.3m 12.4s  NW    3kn (
+ g7) WNW glassy\nSun 16:00       8   2.3m 12.4s  NW    3kn (g6)  NW glassy\
+ nSun 17:00       8   2.2m 12.4s  NW    3kn (g6)  NW glassy\n\nGenerated 20
+ 26-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Viana do Castelo (Cabedelo)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ab7bec5dd1dc2533@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Viana do Castelo (Cabedelo) 9.5/10 · 2.1m 13s NW · 4kn ESE
+SUMMARY:🔥 Viana do Castelo (Cabedelo) 9.5/10 · 2.2m 13s NW · 4kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.5 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     9.5   2.1m 12.7s  NW    4kn (g8) ESE glassy\nMon 09:00     9.5   2.1m 
- 12.7s  NW    4kn (g8) ESE glassy\nMon 10:00     9.5   2.1m 12.7s  NW    4k
- n (g10) ESE glassy\nMon 11:00     9.5   2.1m 12.8s  NW    4kn (g10) ESE gl
- assy\nMon 12:00     9.5   2.1m 12.8s  NW    5kn (g10) ESE glassy\nMon 13:0
- 0     8.5   2.0m 12.7s  NW    5kn (g12)  SE cross\nMon 14:00     8.5   2.0
- m 12.7s  NW    5kn (g12)  SE cross\nMon 15:00     8.5   2.0m 12.7s  NW    
- 6kn (g12)  SE cross\nMon 16:00     8.5   1.9m 12.7s  NW    5kn (g10)  SE c
- ross\nMon 17:00     9.5   1.9m 12.6s  NW    5kn (g10) ESE glassy\n\nGenera
- ted 2026-11-23 17:00 UTC from Open-Meteo.
+ ay 1.7 to 2.6 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
+     9.5   2.2m 12.9s  NW    4kn (g8) ESE glassy\nMon 09:00     9.5   2.2m 
+ 12.9s  NW    4kn (g8) ESE glassy\nMon 10:00     9.5   2.1m 12.9s  NW    4k
+ n (g10) ESE glassy\nMon 11:00     9.5   2.1m 12.9s  NW    4kn (g10) ESE gl
+ assy\nMon 12:00     9.5   2.1m 12.9s  NW    5kn (g10) ESE glassy\nMon 13:0
+ 0     8.5   2.0m 12.9s  NW    5kn (g12)  SE cross\nMon 14:00     8.5   2.0
+ m 12.9s  NW    5kn (g12)  SE cross\nMon 15:00     8.5   1.9m 12.9s  NW    
+ 6kn (g12)  SE cross\nMon 16:00     8.5   1.9m 12.9s  NW    5kn (g10)  SE c
+ ross\nMon 17:00     9.5   1.9m 12.8s  NW    5kn (g10) ESE glassy\n\nGenera
+ ted 2026-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Viana do Castelo (Cabedelo)
 TRANSP:TRANSPARENT
 END:VEVENT

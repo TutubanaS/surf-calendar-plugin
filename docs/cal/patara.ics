@@ -9,15 +9,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:4d4f8d0a0b18d34e@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261124T050000Z
-DTEND:20261124T080000Z
-SUMMARY:👍 Patara 7/10 · 1.0m 7s SW · 3kn N
+DTEND:20261124T070000Z
+SUMMARY:👍 Patara 7/10 · 1.0m 7s SW · 2kn NNE
 DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: high. 5 wave models sa
- y 1.0 to 1.0 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
-      7   1.0m  6.8s  SW    3kn (g5)   N glassy\nTue 09:00       7   1.0m  
- 7.0s  SW    3kn (g5) NNE glassy\nTue 10:00       6   1.0m  7.0s WSW    3kn
-  (g5) NNW glassy\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ y 1.0 to 1.1 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
+      7   1.0m  6.8s  SW    2kn (g4) NNE glassy\nTue 09:00       7   1.0m  
+ 7.0s  SW    3kn (g4) NNE glassy\n\nGenerated 2026-11-24 02:00 UTC from Ope
+ n-Meteo.
 LOCATION:Patara
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -8,47 +8,25 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:d808828f49c62cfd@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T180000Z
-SUMMARY:🔥 Coxos 9.5/10 · 2.0m 11s WNW · 6kn E
-DESCRIPTION:Best 9.5/10 at 12:00. Forecast confidence: high. 5 wave models 
- say 1.9 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-      8.5   2.1m 10.2s WNW    3kn (g7) ESE glassy\nMon 08:00     8.5   2.1m
-  10.2s WNW    4kn (g8) ESE glassy\nMon 09:00     8.5   2.1m 10.2s WNW    3
- kn (g8)   E glassy\nMon 10:00     8.5   2.1m 10.4s WNW    2kn (g7)   E gla
- ssy\nMon 11:00     8.5   2.0m 10.8s WNW    5kn (g10)   E glassy\nMon 12:00
-      9.5   2.0m 11.2s WNW    6kn (g10)   E offshore\nMon 13:00     9.5   2
- .0m 11.2s WNW    5kn (g11)   E offshore\nMon 14:00     9.5   2.0m 11.2s WN
- W    4kn (g10)   E glassy\nMon 15:00     9.5   1.9m 11.2s WNW    3kn (g9) 
- ESE glassy\nMon 16:00     9.5   1.9m 11.2s WNW    2kn (g5)   E glassy\nMon
-  17:00     8.5   1.8m 11.2s WNW    2kn (g4) ENE glassy\n\nNotes: Powerful 
- right point for experienced surfers.\nGenerated 2026-11-23 17:00 UTC from 
- Open-Meteo.
-LOCATION:Coxos
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:7cd554e5678764c1@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T120000Z
 SUMMARY:🔥 Coxos 9.5/10 · 1.6m 11s WNW · 5kn SSE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models 
  say 1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00
       9.5   1.6m 11.2s WNW    5kn (g11) SSE offshore\nTue 08:00     9.5   1
- .7m 11.2s WNW    8kn (g16) SSE offshore\nTue 09:00     8.5   1.8m 11.2s   
- W    7kn (g17)   S cross\nTue 10:00       6   1.9m 11.2s   W   11kn (g23) 
- WSW onshore\nTue 11:00       6   2.1m 11.2s WNW   10kn (g24) WNW onshore\n
+ .7m 11.2s WNW    6kn (g13) SSE offshore\nTue 09:00     8.5   1.8m 11.2s   
+ W    7kn (g14) SSW cross\nTue 10:00       6   1.9m 11.2s   W   12kn (g25) 
+   W onshore\nTue 11:00       6   2.1m 11.2s WNW   11kn (g22) WNW onshore\n
  \nNotes: Powerful right point for experienced surfers.\nGenerated 2026-11-
- 23 17:00 UTC from Open-Meteo.
+ 23 18:00 UTC from Open-Meteo.
 LOCATION:Coxos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5a508f6ff3c33cf4@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261125T150000Z
 DTEND:20261125T180000Z
 SUMMARY:🤏 Coxos 6/10 · 2.9m 12s NW · 5kn NNW
@@ -57,13 +35,13 @@ DESCRIPTION:Best 6/10 at 15:00. Forecast confidence: medium. 5 wave models
         6   2.9m 12.3s  NW    5kn (g11) NNW onshore\nWed 16:00       6   2.
  9m 11.9s  NW    2kn (g10) NNW glassy\nWed 17:00       6   2.8m 11.8s  NW  
    5kn (g13)  NW onshore\n\nNotes: Powerful right point for experienced sur
- fers.\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
+ fers.\nGenerated 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Coxos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:820b12770440a793@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Coxos 7.5/10 · 1.9m 10s NW · 1kn ENE
@@ -78,13 +56,13 @@ DESCRIPTION:Best 7.5/10 at 08:00. Forecast confidence: medium. 5 wave model
  W    4kn (g9)  NW glassy\nThu 16:00       7   1.6m 10.2s  NW    4kn (g9)  
  NW glassy\nThu 17:00     6.5   1.6m 10.2s  NW    2kn (g8)  NW glassy\n\nNo
  tes: Powerful right point for experienced surfers.\nGenerated 2026-11-23 1
- 7:00 UTC from Open-Meteo.
+ 8:00 UTC from Open-Meteo.
 LOCATION:Coxos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b1d88b94c1a3cb09@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Coxos 9.5/10 · 1.7m 11s NW · 7kn SSE
@@ -99,13 +77,13 @@ DESCRIPTION:Best 9.5/10 at 12:00. Forecast confidence: low. 4 wave models s
  4s  NW    7kn (g14) SSE offshore\nFri 16:00     9.5   1.8m 11.4s  NW    6k
  n (g10) SSE offshore\nFri 17:00     9.5   1.7m 11.4s  NW    5kn (g10)  SE 
  offshore\n\nNotes: Powerful right point for experienced surfers.\nGenerate
- d 2026-11-23 17:00 UTC from Open-Meteo.
+ d 2026-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Coxos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47576e7ed94270e8@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Coxos 9.5/10 · 1.9m 12s NW · 5kn SE
@@ -120,13 +98,13 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
   12.6s  NW    4kn (g10)   S glassy\nSat 16:00     9.5   2.0m 12.6s  NW    
  3kn (g4) SSE glassy\nSat 17:00     9.5   2.0m 12.6s  NW    2kn (g4)  SE gl
  assy\n\nNotes: Powerful right point for experienced surfers.\nGenerated 20
- 26-11-23 17:00 UTC from Open-Meteo.
+ 26-11-23 18:00 UTC from Open-Meteo.
 LOCATION:Coxos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0b1a4fd17b023408@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Coxos 10/10 · 2.1m 13s NW · 3kn SE
@@ -140,14 +118,14 @@ DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: low. 4 wave models sa
  .7s  NW    3kn (g8) WNW glassy\nSun 15:00       8   2.1m 12.5s  NW    4kn 
  (g8) WNW glassy\nSun 16:00       8   2.1m 12.4s  NW    4kn (g5) WNW glassy
  \nSun 17:00       8   2.1m 12.4s  NW    2kn (g5) WNW glassy\n\nNotes: Powe
- rful right point for experienced surfers.\nGenerated 2026-11-23 17:00 UTC 
+ rful right point for experienced surfers.\nGenerated 2026-11-23 18:00 UTC 
  from Open-Meteo.
 LOCATION:Coxos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:133079a4b50177f9@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261123T180000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Coxos 9.5/10 · 2.0m 13s NW · 3kn ESE
@@ -162,7 +140,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  W    6kn (g12)  SE offshore\nMon 16:00     9.5   2.0m 12.7s  NW    5kn (g7
  )  SE offshore\nMon 17:00     9.5   2.0m 12.7s  NW    4kn (g7)  SE glassy\
  n\nNotes: Powerful right point for experienced surfers.\nGenerated 2026-11
- -23 17:00 UTC from Open-Meteo.
+ -23 18:00 UTC from Open-Meteo.
 LOCATION:Coxos
 TRANSP:TRANSPARENT
 END:VEVENT

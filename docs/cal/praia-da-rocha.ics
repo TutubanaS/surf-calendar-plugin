@@ -8,61 +8,44 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:48213185f614d936@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T130000Z
-SUMMARY:🤏 Praia da Rocha (Portimão) 6/10 · 1.0m 10s WSW · 3kn NE
-DESCRIPTION:Best 6/10 at 07:00. Forecast confidence: medium. 5 wave models 
- say 0.6 to 1.4 m.\n\nHour (local)  score  waves            wind\nMon 07:00
-        6   1.0m 10.2s WSW    3kn (g5)  NE glassy\nMon 08:00       6   1.0m
-  10.2s WSW    2kn (g5)  NE glassy\nMon 09:00       6   0.9m 10.2s WSW    2
- kn (g4) NNE glassy\nMon 10:00       6   0.9m 10.2s WSW    4kn (g7)  NE gla
- ssy\nMon 11:00       6   0.9m 10.2s WSW    3kn (g7)  NE glassy\nMon 12:00 
-       5   0.9m 10.2s WSW    2kn (g6)   E glassy\n\nGenerated 2026-11-23 17
- :00 UTC from Open-Meteo.
-LOCATION:Praia da Rocha (Portimão)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:b4ae2a5439f00a1a@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
-SUMMARY:👍 Praia da Rocha (Portimão) 7.5/10 · 1.1m 13s WSW · 2kn NNE
-DESCRIPTION:Best 7.5/10 at 08:00. Forecast confidence: low. 5 wave models s
- ay 0.6 to 1.5 m.\n\nHour (local)  score  waves            wind\nWed 07:00 
-     6.5   1.1m 13.4s WSW    1kn (g3)  NE glassy\nWed 08:00     7.5   1.1m 
- 13.4s WSW    2kn (g2) NNE glassy\nWed 09:00     7.5   1.1m 13.5s WSW    1k
- n (g2) NNW glassy\nWed 10:00     6.5   1.1m 13.6s WSW    1kn (g3)   W glas
- sy\nWed 11:00     7.5   1.1m 13.6s WSW    4kn (g9) NNW glassy\nWed 12:00  
-    7.5   1.1m 13.5s WSW    6kn (g12) NNW offshore\nWed 13:00     7.5   1.1
- m 13.2s WSW    6kn (g13)   N offshore\nWed 14:00       7   1.1m 12.7s WSW 
-    7kn (g13) NNW offshore\nWed 15:00       7   1.1m 12.3s WSW    5kn (g13)
-    N offshore\nWed 16:00       7   1.1m 12.2s WSW    5kn (g10) NNW glassy\
- nWed 17:00       7   1.1m 12.2s WSW    5kn (g10) NNW glassy\n\nGenerated 2
- 026-11-23 17:00 UTC from Open-Meteo.
+SUMMARY:🔥 Praia da Rocha (Portimão) 8.5/10 · 1.2m 13s WSW · 1kn N
+DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: medium. 5 wave model
+ s say 0.6 to 1.6 m.\n\nHour (local)  score  waves            wind\nWed 07:
+ 00     8.5   1.2m 13.4s WSW    1kn (g2)   N glassy\nWed 08:00     8.5   1.
+ 2m 13.4s WSW    1kn (g2) NNW glassy\nWed 09:00     8.5   1.2m 13.5s WSW   
+  1kn (g1) NNW glassy\nWed 10:00     6.5   1.1m 13.6s WSW    1kn (g4)   W g
+ lassy\nWed 11:00     7.5   1.1m 13.6s WSW    4kn (g8) NNW glassy\nWed 12:0
+ 0     7.5   1.1m 13.5s WSW    5kn (g10) NNW glassy\nWed 13:00     7.5   1.
+ 1m 13.2s WSW    6kn (g12)  NW offshore\nWed 14:00       7   1.1m 12.7s WSW
+     6kn (g12)  NW offshore\nWed 15:00       6   1.1m 12.3s WSW    6kn (g12
+ )  NW cross\nWed 16:00       7   1.1m 12.2s WSW    6kn (g12)  NW offshore\
+ nWed 17:00       6   1.1m 12.2s WSW    5kn (g12) WNW cross\n\nGenerated 20
+ 26-11-24 02:00 UTC from Open-Meteo.
 LOCATION:Praia da Rocha (Portimão)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ed4dd3b7319a286@surf-windows
-DTSTAMP:20261123T170000Z
+DTSTAMP:20261124T020000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Praia da Rocha (Portimão) 7/10 · 0.9m 11s WSW · 2kn NE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 5 wave models say
   0.3 to 1.1 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
-     7   0.9m 11.1s WSW    2kn (g4)  NE glassy\nThu 08:00       7   0.9m 11
- .1s WSW    2kn (g4)  NE glassy\nThu 09:00       7   0.8m 11.2s WSW    2kn 
- (g4)  NE glassy\nThu 10:00       7   0.8m 11.2s WSW    0kn (g3) NNE glassy
- \nThu 11:00       7   0.8m 11.2s WSW    0kn (g2)  NW glassy\nThu 12:00    
-    6   0.8m 11.2s WSW    1kn (g3) WNW glassy\nThu 13:00       7   0.8m 11.
- 2s WSW    3kn (g12) NNW glassy\nThu 14:00       7   0.8m 11.2s WSW    3kn 
- (g12) NNW glassy\nThu 15:00       7   0.8m 11.2s WSW    3kn (g12) NNW glas
- sy\nThu 16:00       6   0.7m 10.8s WSW    5kn (g9) NNW glassy\nThu 17:00  
-      6   0.7m 10.4s WSW    4kn (g10) NNW glassy\n\nGenerated 2026-11-23 17
- :00 UTC from Open-Meteo.
+     7   0.9m 11.1s WSW    2kn (g5)  NE glassy\nThu 08:00       6   0.9m 11
+ .1s WSW    2kn (g4) ENE glassy\nThu 09:00       7   0.9m 11.2s WSW    2kn 
+ (g4) NNE glassy\nThu 10:00       7   0.8m 11.2s WSW    2kn (g4)  NE glassy
+ \nThu 11:00       6   0.8m 11.2s WSW    1kn (g4) ESE glassy\nThu 12:00    
+    7   0.8m 11.2s WSW    0kn (g2)  NW glassy\nThu 13:00       6   0.8m 11.
+ 2s WSW    1kn (g4)  NW glassy\nThu 14:00       7   0.8m 11.2s WSW    2kn (
+ g5)  NW glassy\nThu 15:00       7   0.8m 11.2s WSW    3kn (g6)  NW glassy\
+ nThu 16:00       6   0.7m 10.8s WSW    3kn (g6)  NW glassy\nThu 17:00     
+   6   0.7m 10.4s WSW    2kn (g6) NNW glassy\n\nGenerated 2026-11-24 02:00 
+ UTC from Open-Meteo.
 LOCATION:Praia da Rocha (Portimão)
 TRANSP:TRANSPARENT
 END:VEVENT

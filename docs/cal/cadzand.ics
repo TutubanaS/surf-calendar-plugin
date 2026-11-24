@@ -7,23 +7,4 @@ X-WR-CALNAME:Surf: Cadzand-Bad
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
-BEGIN:VEVENT
-UID:2ac4f0a3dfa8cbf9@surf-windows
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T070000Z
-DTEND:20261123T160000Z
-SUMMARY:🤏 Cadzand-Bad 5/10 · 0.7m 6s NNE · 3kn ESE
-DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: high. 5 wave models sa
- y 0.4 to 0.8 m.\n\nHour (local)  score  waves            wind\nMon 08:00  
-      5   0.7m  6.3s NNE    3kn (g4) ESE glassy\nMon 09:00       5   0.6m  
- 6.3s NNE    4kn (g7) ESE glassy\nMon 10:00       5   0.6m  6.3s NNE    5kn
-  (g9)  SE offshore\nMon 11:00       5   0.6m  6.3s   N    6kn (g10) ESE of
- fshore\nMon 12:00       5   0.5m  6.3s   N    4kn (g8)  SE glassy\nMon 13:
- 00       5   0.5m  6.3s   N    3kn (g6)  SE glassy\nMon 14:00       5   0.
- 5m  6.3s   N    4kn (g7) SSE glassy\nMon 15:00       5   0.5m  6.3s   N   
-  3kn (g7) SSE glassy\nMon 16:00       5   0.5m  6.3s   N    2kn (g6)   S g
- lassy\n\nGenerated 2026-11-23 17:00 UTC from Open-Meteo.
-LOCATION:Cadzand-Bad
-TRANSP:TRANSPARENT
-END:VEVENT
 END:VCALENDAR
