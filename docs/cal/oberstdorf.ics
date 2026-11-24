@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Oberstdorf Fellhorn
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:66e2775253ffd543@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T110000Z
+SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 13 cm of snow · sunny · -8°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nFri 09:00       5      0 cm
+    sunny           -8°C    6 km/h (g16)\nFri 10:00       5      0 cm   su
+ nny           -6°C    3 km/h (g15)\nFri 11:00       5      0 cm   sunny  
+          -5°C    2 km/h (g9)\n\nWeather at 1660 m. Snow depth and new sno
+ w are the weather model's numbers\, not the resort's own snow report.\nNot
+ es: Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11-24
+  10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
+ surf-calendar-plugin/#spot=oberstdorf
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=oberstdorf
+LOCATION:Oberstdorf Fellhorn
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:51b29ca872f6acdc@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T110000Z
+SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 12 cm of snow · sunny · -5°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSat 09:00       5      0 cm   
+ sunny           -5°C    8 km/h (g17)\nSat 10:00       5      0 cm   sunny
+            -4°C    7 km/h (g17)\nSat 11:00       5      0 cm   sunny     
+       -2°C    5 km/h (g8)\n\nWeather at 1660 m. Snow depth and new snow a
+ re the weather model's numbers\, not the resort's own snow report.\nNotes:
+  Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11-24 10
+ :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
+ f-calendar-plugin/#spot=oberstdorf
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=oberstdorf
+LOCATION:Oberstdorf Fellhorn
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

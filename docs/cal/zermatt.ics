@@ -1,0 +1,147 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Zermatt
+X-WR-TIMEZONE:Europe/Zurich
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:2fbda96fcad4515b@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261126T080000Z
+DTEND:20261126T150000Z
+SUMMARY:👍 Zermatt 7.5/10 · 21 cm new snow · snowing · -8°C
+DESCRIPTION:Best 7.5/10 at 13:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nThu 09:00     5.8     15 
+ cm   snowing         -9°C   18 km/h (g41)\nThu 10:00     5.8     17 cm   
+ snowing         -9°C   18 km/h (g44)\nThu 11:00     5.8     19 cm   snowi
+ ng         -8°C   16 km/h (g48)\nThu 12:00     6.8     20 cm   snowing   
+       -8°C   15 km/h (g45)\nThu 13:00     7.5     21 cm   snowing        
+  -8°C   14 km/h (g42)\nThu 14:00     7.5     22 cm   snowing         -8°
+ C   13 km/h (g36)\nThu 15:00     7.5     22 cm   snowing         -8°C   1
+ 3 km/h (g38)\n\nWeather at 3120 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: Under the Mat
+ terhorn\, glacier skiing up to 3\,883 m.\nGenerated 2026-11-24 10:00 UTC f
+ rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
+ r-plugin/#spot=zermatt
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zermatt
+LOCATION:Zermatt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9dba212041db6e@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T150000Z
+SUMMARY:👍 Zermatt 7.5/10 · 8 cm new snow · sunny · -10°C
+DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nFri 09:00     7.5      8 
+ cm   sunny          -10°C   11 km/h (g27)\nFri 10:00     7.5      6 cm   
+ sunny          -10°C   11 km/h (g26)\nFri 11:00     6.5      4 cm   sunny
+           -10°C   11 km/h (g26)\nFri 12:00     6.5      3 cm   sunny     
+      -10°C   11 km/h (g27)\nFri 13:00       6      2 cm   sunny          
+ -10°C   10 km/h (g27)\nFri 14:00       6      1 cm   sunny          -10°
+ C   10 km/h (g29)\nFri 15:00       6      0 cm   sunny          -10°C   1
+ 1 km/h (g29)\n\nWeather at 3120 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: Under the Mat
+ terhorn\, glacier skiing up to 3\,883 m.\nGenerated 2026-11-24 10:00 UTC f
+ rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
+ r-plugin/#spot=zermatt
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zermatt
+LOCATION:Zermatt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3f177320ff7b72d7@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T150000Z
+SUMMARY:🤏 Zermatt 6/10 · 115 cm of snow · sunny · -12°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSat 09:00       6      0 cm   
+ sunny          -12°C   10 km/h (g33)\nSat 10:00       6      0 cm   sunny
+           -11°C    9 km/h (g33)\nSat 11:00       6      0 cm   sunny     
+      -10°C    9 km/h (g22)\nSat 12:00       6      0 cm   sunny          
+ -10°C    8 km/h (g22)\nSat 13:00       6      0 cm   sunny           -9°
+ C    7 km/h (g22)\nSat 14:00       6      0 cm   sunny           -9°C    
+ 8 km/h (g20)\nSat 15:00       6      0 cm   sunny           -8°C    9 km/
+ h (g20)\n\nWeather at 3120 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Under the Matterho
+ rn\, glacier skiing up to 3\,883 m.\nGenerated 2026-11-24 10:00 UTC from O
+ pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
+ gin/#spot=zermatt
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zermatt
+LOCATION:Zermatt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fde5736078297a5a@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T150000Z
+SUMMARY:🤏 Zermatt 6/10 · 85 cm of snow · sunny · -5°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSun 09:00       6      0 cm   
+ sunny           -5°C   10 km/h (g25)\nSun 10:00       6      0 cm   sunny
+            -5°C   10 km/h (g25)\nSun 11:00       6      0 cm   sunny     
+       -4°C   11 km/h (g23)\nSun 12:00       6      0 cm   sunny          
+  -4°C   11 km/h (g23)\nSun 13:00       6      0 cm   sunny           -4°
+ C   12 km/h (g23)\nSun 14:00       5      0 cm   partly sunny    -4°C   1
+ 2 km/h (g27)\nSun 15:00       5      0 cm   partly sunny    -4°C   13 km/
+ h (g27)\n\nWeather at 3120 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Under the Matterho
+ rn\, glacier skiing up to 3\,883 m.\nGenerated 2026-11-24 10:00 UTC from O
+ pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
+ gin/#spot=zermatt
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zermatt
+LOCATION:Zermatt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:48100c54d0956aac@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261130T080000Z
+DTEND:20261130T150000Z
+SUMMARY:🤏 Zermatt 6/10 · 82 cm of snow · sunny · -6°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nMon 09:00       6      0 cm   
+ sunny           -6°C    4 km/h (g16)\nMon 10:00       6      0 cm   sunny
+            -6°C    5 km/h (g16)\nMon 11:00       6      0 cm   sunny     
+       -6°C    5 km/h (g9)\nMon 12:00       6      0 cm   sunny           
+ -5°C    5 km/h (g9)\nMon 13:00       6      0 cm   sunny           -5°C 
+    4 km/h (g9)\nMon 14:00       6      0 cm   sunny           -5°C    3 k
+ m/h (g15)\nMon 15:00       5      0 cm   partly sunny    -5°C    1 km/h (
+ g15)\n\nWeather at 3120 m. Snow depth and new snow are the weather model's
+  numbers\, not the resort's own snow report.\nNotes: Under the Matterhorn\
+ , glacier skiing up to 3\,883 m.\nGenerated 2026-11-24 10:00 UTC from Open
+ -Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin
+ /#spot=zermatt
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zermatt
+LOCATION:Zermatt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bf2b225c979b0c31@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261201T090000Z
+DTEND:20261201T150000Z
+SUMMARY:👍 Zermatt 6.5/10 · 127 cm of snow · sunny · -7°C
+DESCRIPTION:Best 6.5/10 at 12:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nTue 10:00       5      0 cm 
+   partly sunny    -6°C    2 km/h (g9)\nTue 11:00       5      0 cm   part
+ ly sunny    -6°C    2 km/h (g14)\nTue 12:00     6.5      0 cm   sunny    
+        -7°C    2 km/h (g17)\nTue 13:00     6.5      0 cm   sunny         
+   -8°C    1 km/h (g18)\nTue 14:00     6.5      0 cm   sunny          -10
+ °C    0 km/h (g19)\nTue 15:00     6.5      0 cm   sunny          -11°C  
+   0 km/h (g18)\n\nWeather at 3120 m. Snow depth and new snow are the weath
+ er model's numbers\, not the resort's own snow report.\nNotes: Under the M
+ atterhorn\, glacier skiing up to 3\,883 m.\nGenerated 2026-11-24 10:00 UTC
+  from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calen
+ dar-plugin/#spot=zermatt
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zermatt
+LOCATION:Zermatt
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

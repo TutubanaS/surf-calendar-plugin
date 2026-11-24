@@ -8,25 +8,25 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:9711e54c6d0219b7@surf-windows
-DTSTAMP:20261124T090000Z
-DTSTART:20261124T100000Z
+UID:4ff66d497273f14e@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261124T110000Z
 DTEND:20261124T140000Z
 SUMMARY:🤏 Castricum aan Zee 5/10 · 0.5m 7s WSW · 6kn SE
-DESCRIPTION:Best 5/10 at 11:00. Forecast confidence: high. 4 wave models sa
- y 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 11:00  
-      5   0.5m  6.7s WSW    6kn (g12)  SE offshore\nTue 12:00       5   0.5
- m  6.8s WSW    6kn (g13)  SE offshore\nTue 13:00       5   0.5m  6.9s WSW 
-    6kn (g12) ESE offshore\nTue 14:00       5   0.5m  7.0s WSW    7kn (g13)
-  ESE offshore\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull f
- orecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=castricum
+DESCRIPTION:Best 5/10 at 12:00. Forecast confidence: high. 4 wave models sa
+ y 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 12:00  
+      5   0.5m  6.8s WSW    6kn (g11)  SE offshore\nTue 13:00       5   0.5
+ m  6.9s WSW    6kn (g12) ESE offshore\nTue 14:00       5   0.5m  7.0s WSW 
+    6kn (g12) ESE offshore\n\nGenerated 2026-11-24 10:00 UTC from Open-Mete
+ o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
+ t=castricum
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=castricum
 LOCATION:Castricum aan Zee
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9010063eced19ad8@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261201T070000Z
 DTEND:20261201T110000Z
 SUMMARY:🤏 Castricum aan Zee 5/10 · 1.2m 4s SW · 7kn S
@@ -35,7 +35,7 @@ DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: low. 2 wave models say
      5   1.2m  4.2s  SW    7kn (g15)   S cross\nTue 09:00       5   1.2m  4
  .2s  SW    7kn (g14)   S cross\nTue 10:00       5   1.2m  4.2s  SW    6kn 
  (g14)   S cross\nTue 11:00       5   1.2m  4.2s  SW    6kn (g14)   S cross
- \n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: http
+ \n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: http
  s://tutubanas.github.io/surf-calendar-plugin/#spot=castricum
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=castricum
 LOCATION:Castricum aan Zee

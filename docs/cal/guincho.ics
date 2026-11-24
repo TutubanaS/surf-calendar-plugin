@@ -9,14 +9,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:65b19fc933598f4a@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T100000Z
 DTEND:20261124T120000Z
 SUMMARY:🤏 Guincho 6/10 · 1.9m 11s WNW · 10kn WNW
 DESCRIPTION:Best 6/10 at 10:00. Forecast confidence: high. 4 wave models sa
  y 1.6 to 2.1 m.\n\nHour (local)  score  waves            wind\nTue 10:00  
       6   1.9m 11.1s WNW   10kn (g28) WNW onshore\nTue 11:00       6   2.0m
-  11.1s WNW   12kn (g22)  NW onshore\n\nGenerated 2026-11-24 09:00 UTC from
+  11.1s WNW   12kn (g22)  NW onshore\n\nGenerated 2026-11-24 10:00 UTC from
   Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-p
  lugin/#spot=guincho
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=guincho
@@ -25,7 +25,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:54b9488d97f15272@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Guincho 7.5/10 · 1.9m 10s NW · 1kn NE
@@ -39,7 +39,7 @@ DESCRIPTION:Best 7.5/10 at 10:00. Forecast confidence: medium. 4 wave model
  m 10.2s  NW    4kn (g9)   W glassy\nThu 15:00       7   1.7m 10.2s  NW    
  4kn (g8)   W glassy\nThu 16:00       7   1.6m 10.2s  NW    4kn (g8)   W gl
  assy\nThu 17:00       7   1.6m 10.2s  NW    3kn (g8)   W glassy\n\nGenerat
- ed 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ ed 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
  as.github.io/surf-calendar-plugin/#spot=guincho
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=guincho
 LOCATION:Guincho
@@ -47,7 +47,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:52a801059ca70cc1@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Guincho 10/10 · 1.7m 14s NW · 6kn E
@@ -61,7 +61,7 @@ DESCRIPTION:Best 10/10 at 09:00. Forecast confidence: medium. 3 wave models
  :00     9.5   1.8m 12.4s  NW    7kn (g13)  SE offshore\nFri 15:00     9.5 
    1.8m 12.3s  NW    7kn (g13)  SE offshore\nFri 16:00     9.5   1.7m 12.2s
    NW    6kn (g11)  SE offshore\nFri 17:00     9.5   1.7m 12.3s  NW    6kn 
- (g11)  SE offshore\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nF
+ (g11)  SE offshore\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=guinc
  ho
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=guincho
@@ -70,7 +70,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f012a30938a42ac6@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Guincho 9.5/10 · 2.1m 12s NW · 6kn E
@@ -84,7 +84,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
  0     9.5   2.1m 12.3s  NW    5kn (g11) ESE offshore\nSat 15:00     9.5   
  2.1m 12.3s  NW    5kn (g11)  SE glassy\nSat 16:00     9.5   2.1m 12.3s  NW
      4kn (g4)  SE glassy\nSat 17:00     9.5   2.1m 12.3s  NW    3kn (g4)  S
- E glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull foreca
+ E glassy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull foreca
  st: https://tutubanas.github.io/surf-calendar-plugin/#spot=guincho
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=guincho
 LOCATION:Guincho
@@ -92,7 +92,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:28038354b90a9d53@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Guincho 9.5/10 · 2.2m 12s NW · 2kn E
@@ -106,7 +106,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
  m 12.3s  NW    4kn (g8) ENE glassy\nSun 15:00     9.5   2.1m 12.3s  NW    
  3kn (g8) ENE glassy\nSun 16:00     8.5   2.1m 12.3s  NW    3kn (g6) ENE gl
  assy\nSun 17:00     9.5   2.1m 12.3s  NW    2kn (g6) ENE glassy\n\nGenerat
- ed 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ ed 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
  as.github.io/surf-calendar-plugin/#spot=guincho
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=guincho
 LOCATION:Guincho
@@ -114,7 +114,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a831f61bdd45fbfd@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Guincho 10/10 · 2.2m 13s NW · 2kn SE
@@ -128,7 +128,7 @@ DESCRIPTION:Best 10/10 at 17:00. Forecast confidence: low. 3 wave models sa
   12.2s  NW    3kn (g7)  SE glassy\nMon 15:00     7.5   2.3m 12.3s  NW    2
  kn (g7) SSE glassy\nMon 16:00     9.5   2.3m 12.7s  NW    2kn (g5)  SE gla
  ssy\nMon 17:00      10   2.2m 13.2s  NW    2kn (g5)  SE glassy\n\nGenerate
- d 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ d 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
  s.github.io/surf-calendar-plugin/#spot=guincho
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=guincho
 LOCATION:Guincho
@@ -136,7 +136,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:344aa6fc8929734d@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
 SUMMARY:🔥 Guincho 9.5/10 · 1.8m 12s NW · 4kn E
@@ -150,7 +150,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 2 wave models s
  9.5   1.8m 11.7s  NW    4kn (g15) ESE glassy\nTue 15:00     9.5   1.9m 11.
  6s  NW    4kn (g14) ESE glassy\nTue 16:00     9.5   1.9m 11.6s  NW    3kn 
  (g14)   E glassy\nTue 17:00     9.5   1.9m 11.5s  NW    3kn (g13)   E glas
- sy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: ht
+ sy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: ht
  tps://tutubanas.github.io/surf-calendar-plugin/#spot=guincho
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=guincho
 LOCATION:Guincho

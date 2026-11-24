@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:7cd554e5678764c1@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T120000Z
 SUMMARY:🔥 Coxos 9.5/10 · 1.7m 11s WNW · 6kn SSE
@@ -20,7 +20,7 @@ DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models
   10kn (g18)  SW cross\nTue 10:00       6   2.1m 11.2s   W    9kn (g24) WNW
   onshore\nTue 11:00       6   2.2m 11.2s WNW   10kn (g19)  NW onshore\n\nN
  otes: Powerful right point for experienced surfers.\nGenerated 2026-11-24 
- 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
+ 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
  urf-calendar-plugin/#spot=coxos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=coxos
 LOCATION:Coxos
@@ -28,7 +28,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:820b12770440a793@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Coxos 8.5/10 · 2.0m 10s NW · 2kn SE
@@ -42,8 +42,8 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 5 wave model
   1.7m 10.2s  NW    5kn (g10)   W glassy\nThu 15:00       7   1.7m 10.2s  N
  W    4kn (g9)   W glassy\nThu 16:00       7   1.7m 10.2s  NW    4kn (g9)  
   W glassy\nThu 17:00       7   1.6m 10.2s  NW    2kn (g7)   W glassy\n\nNo
- tes: Powerful right point for experienced surfers.\nGenerated 2026-11-24 0
- 9:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
+ tes: Powerful right point for experienced surfers.\nGenerated 2026-11-24 1
+ 0:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
  rf-calendar-plugin/#spot=coxos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=coxos
 LOCATION:Coxos
@@ -51,7 +51,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b1d88b94c1a3cb09@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Coxos 9.5/10 · 1.7m 11s NW · 4kn ESE
@@ -66,7 +66,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 4 wave model
  8m 11.3s  NW    6kn (g12)  SE offshore\nFri 16:00     9.5   1.8m 11.4s  NW
      5kn (g8)  SE glassy\nFri 17:00     9.5   1.7m 11.4s  NW    4kn (g8) ES
  E glassy\n\nNotes: Powerful right point for experienced surfers.\nGenerate
- d 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ d 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
  s.github.io/surf-calendar-plugin/#spot=coxos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=coxos
 LOCATION:Coxos
@@ -74,7 +74,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47576e7ed94270e8@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Coxos 9.5/10 · 2.1m 13s NW · 4kn ESE
@@ -88,7 +88,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.9s  NW    2kn (g5) SSE glassy\nSat 15:00     8.5   2.2m 12.9s  NW    2kn
   (g5) SSE glassy\nSat 16:00     8.5   2.2m 12.9s  NW    2kn (g4) SSE glass
  y\nSat 17:00     9.5   2.2m 12.8s  NW    2kn (g4) SSE glassy\n\nNotes: Pow
- erful right point for experienced surfers.\nGenerated 2026-11-24 09:00 UTC
+ erful right point for experienced surfers.\nGenerated 2026-11-24 10:00 UTC
   from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calen
  dar-plugin/#spot=coxos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=coxos
@@ -97,7 +97,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0b1a4fd17b023408@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Coxos 9.5/10 · 2.2m 13s NW · 3kn ESE
@@ -111,7 +111,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.6s  NW    4kn (g8)   E glassy\nSun 15:00     9.5   2.1m 12.5s  NW    4kn
   (g8)   E glassy\nSun 16:00     9.5   2.1m 12.4s  NW    4kn (g5) ENE glass
  y\nSun 17:00     9.5   2.1m 12.4s  NW    3kn (g5) ENE glassy\n\nNotes: Pow
- erful right point for experienced surfers.\nGenerated 2026-11-24 09:00 UTC
+ erful right point for experienced surfers.\nGenerated 2026-11-24 10:00 UTC
   from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calen
  dar-plugin/#spot=coxos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=coxos
@@ -120,7 +120,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:133079a4b50177f9@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Coxos 10/10 · 2.2m 13s NW · 1kn SE
@@ -134,7 +134,7 @@ DESCRIPTION:Best 10/10 at 16:00. Forecast confidence: low. 4 wave models sa
  12.8s  NW    2kn (g4)  SE glassy\nMon 15:00     9.5   2.2m 12.9s  NW    1k
  n (g4) SSE glassy\nMon 16:00      10   2.2m 13.1s  NW    1kn (g4)  SE glas
  sy\nMon 17:00      10   2.2m 13.4s  NW    2kn (g4)   E glassy\n\nNotes: Po
- werful right point for experienced surfers.\nGenerated 2026-11-24 09:00 UT
+ werful right point for experienced surfers.\nGenerated 2026-11-24 10:00 UT
  C from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cale
  ndar-plugin/#spot=coxos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=coxos
@@ -143,7 +143,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a78764e5c682d682@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
 SUMMARY:🔥 Coxos 9.5/10 · 1.7m 12s NW · 4kn ESE
@@ -158,7 +158,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
    NW    4kn (g14) ESE glassy\nTue 16:00     9.5   1.8m 12.4s  NW    4kn (g
  13) ESE glassy\nTue 17:00     9.5   1.8m 12.3s  NW    4kn (g12)   E glassy
  \n\nNotes: Powerful right point for experienced surfers.\nGenerated 2026-1
- 1-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github
+ 1-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github
  .io/surf-calendar-plugin/#spot=coxos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=coxos
 LOCATION:Coxos

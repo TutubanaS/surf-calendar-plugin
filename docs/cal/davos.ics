@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Davos Klosters
+X-WR-TIMEZONE:Europe/Zurich
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:bb3de5dffbee2fd9@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261124T080000Z
+DTEND:20261124T150000Z
+SUMMARY:🤏 Davos Klosters 6/10 · 6 cm new snow · partly sunny · -3°C
+DESCRIPTION:Best 6/10 at 14:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nTue 09:00       5      9 cm  
+  cloudy          -8°C    8 km/h (g21)\nTue 10:00       5      9 cm   clou
+ dy          -7°C    9 km/h (g22)\nTue 11:00       5      8 cm   cloudy   
+        -6°C    7 km/h (g21)\nTue 12:00       5      7 cm   cloudy        
+   -5°C    8 km/h (g22)\nTue 13:00       5      6 cm   cloudy          -4
+ °C    9 km/h (g24)\nTue 14:00       6      6 cm   partly sunny    -3°C  
+   9 km/h (g24)\nTue 15:00       5      5 cm   partly sunny    -3°C    7 k
+ m/h (g24)\n\nWeather at 2420 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Parsenn: long ru
+ ns down to the valley.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\
+ nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=dav
+ os
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=davos
+LOCATION:Davos Klosters
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:28300d4d9f1db85a@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261126T120000Z
+DTEND:20261126T150000Z
+SUMMARY:🤏 Davos Klosters 5/10 · 6 cm new snow · snowing · -6°C
+DESCRIPTION:Best 5/10 at 13:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nThu 13:00       5      6 cm
+    snowing         -6°C    5 km/h (g20)\nThu 14:00       5      6 cm   sn
+ owing         -6°C    6 km/h (g20)\nThu 15:00       5      6 cm   snowing
+          -6°C    6 km/h (g18)\n\nWeather at 2420 m. Snow depth and new sn
+ ow are the weather model's numbers\, not the resort's own snow report.\nNo
+ tes: Parsenn: long runs down to the valley.\nGenerated 2026-11-24 10:00 UT
+ C from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cale
+ ndar-plugin/#spot=davos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=davos
+LOCATION:Davos Klosters
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:391a1def2cfbf3e3@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T110000Z
+SUMMARY:👍 Davos Klosters 7/10 · 6 cm new snow · sunny · -11°C
+DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nFri 09:00       7      6 cm
+    sunny          -11°C    8 km/h (g18)\nFri 10:00       6      5 cm   pa
+ rtly sunny   -10°C    6 km/h (g16)\nFri 11:00       5      4 cm   partly 
+ sunny    -9°C    5 km/h (g15)\n\nWeather at 2420 m. Snow depth and new sn
+ ow are the weather model's numbers\, not the resort's own snow report.\nNo
+ tes: Parsenn: long runs down to the valley.\nGenerated 2026-11-24 10:00 UT
+ C from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cale
+ ndar-plugin/#spot=davos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=davos
+LOCATION:Davos Klosters
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cf7eaaa7359e0af2@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261127T120000Z
+DTEND:20261127T150000Z
+SUMMARY:🤏 Davos Klosters 6/10 · 2 cm new snow · sunny · -7°C
+DESCRIPTION:Best 6/10 at 13:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nFri 13:00       6      2 cm   
+ sunny           -7°C    1 km/h (g10)\nFri 14:00     5.5      2 cm   sunny
+            -7°C    1 km/h (g9)\nFri 15:00     5.5      1 cm   sunny      
+      -8°C    2 km/h (g9)\n\nWeather at 2420 m. Snow depth and new snow ar
+ e the weather model's numbers\, not the resort's own snow report.\nNotes: 
+ Parsenn: long runs down to the valley.\nGenerated 2026-11-24 10:00 UTC fro
+ m Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-
+ plugin/#spot=davos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=davos
+LOCATION:Davos Klosters
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d05ec7c769d69d2a@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T150000Z
+SUMMARY:🤏 Davos Klosters 5.5/10 · 35 cm of snow · sunny · -9°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm 
+   sunny           -9°C   11 km/h (g26)\nSat 10:00     5.5      0 cm   sun
+ ny           -8°C   10 km/h (g26)\nSat 11:00     5.5      0 cm   sunny   
+         -6°C    7 km/h (g13)\nSat 12:00     5.5      0 cm   sunny        
+    -4°C    4 km/h (g13)\nSat 13:00     5.5      0 cm   sunny           -3
+ °C    2 km/h (g13)\nSat 14:00     5.5      0 cm   sunny           -2°C  
+   1 km/h (g12)\nSat 15:00     5.5      0 cm   sunny           -2°C    0 k
+ m/h (g12)\n\nWeather at 2420 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Parsenn: long ru
+ ns down to the valley.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\
+ nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=dav
+ os
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=davos
+LOCATION:Davos Klosters
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4d28a3a91e56c060@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T130000Z
+SUMMARY:🤏 Davos Klosters 5.5/10 · 34 cm of snow · sunny · -7°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nSun 09:00     5.5      0 cm 
+   sunny           -7°C   13 km/h (g23)\nSun 10:00     5.5      0 cm   sun
+ ny           -6°C   12 km/h (g23)\nSun 11:00     5.5      0 cm   sunny   
+         -5°C    9 km/h (g14)\nSun 12:00     5.5      0 cm   sunny        
+    -3°C    5 km/h (g14)\nSun 13:00       5      0 cm   sunny           -2
+ °C    2 km/h (g14)\n\nWeather at 2420 m. Snow depth and new snow are the 
+ weather model's numbers\, not the resort's own snow report.\nNotes: Parsen
+ n: long runs down to the valley.\nGenerated 2026-11-24 10:00 UTC from Open
+ -Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin
+ /#spot=davos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=davos
+LOCATION:Davos Klosters
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cbaf9c585a6846b8@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261130T080000Z
+DTEND:20261130T150000Z
+SUMMARY:🤏 Davos Klosters 5.5/10 · 32 cm of snow · sunny · -7°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nMon 09:00     5.5      0 cm 
+   sunny           -7°C    8 km/h (g14)\nMon 10:00     5.5      0 cm   sun
+ ny           -6°C    8 km/h (g14)\nMon 11:00     5.5      0 cm   sunny   
+         -5°C    6 km/h (g15)\nMon 12:00     5.5      0 cm   sunny        
+    -3°C    4 km/h (g15)\nMon 13:00     5.5      0 cm   sunny           -2
+ °C    2 km/h (g15)\nMon 14:00       5      0 cm   sunny           -2°C  
+   2 km/h (g13)\nMon 15:00       5      0 cm   sunny           -2°C    2 k
+ m/h (g13)\n\nWeather at 2420 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Parsenn: long ru
+ ns down to the valley.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\
+ nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=dav
+ os
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=davos
+LOCATION:Davos Klosters
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef1b1f0388a1f0fb@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261201T090000Z
+DTEND:20261201T150000Z
+SUMMARY:🤏 Davos Klosters 5.5/10 · 31 cm of snow · sunny · -6°C
+DESCRIPTION:Best 5.5/10 at 10:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nTue 10:00     5.5      0 cm 
+   sunny           -6°C    9 km/h (g20)\nTue 11:00     5.5      0 cm   sun
+ ny           -5°C    6 km/h (g13)\nTue 12:00     5.5      0 cm   sunny   
+         -4°C    3 km/h (g12)\nTue 13:00     5.5      0 cm   sunny        
+    -4°C    2 km/h (g11)\nTue 14:00     5.5      0 cm   sunny           -4
+ °C    3 km/h (g11)\nTue 15:00     5.5      0 cm   sunny           -6°C  
+   3 km/h (g12)\n\nWeather at 2420 m. Snow depth and new snow are the weath
+ er model's numbers\, not the resort's own snow report.\nNotes: Parsenn: lo
+ ng runs down to the valley.\nGenerated 2026-11-24 10:00 UTC from Open-Mete
+ o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
+ t=davos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=davos
+LOCATION:Davos Klosters
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

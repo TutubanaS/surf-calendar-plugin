@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Erciyes
+X-WR-TIMEZONE:Europe/Istanbul
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:713a6a05d2dc120c@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261125T090000Z
+DTEND:20261125T110000Z
+SUMMARY:👍 Erciyes 6.8/10 · 16 cm new snow · sunny · -8°C
+DESCRIPTION:Best 6.8/10 at 12:00. Forecast confidence: high.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nWed 12:00     6.8     16 cm
+    sunny           -8°C   16 km/h (g68)\nWed 13:00     6.8     16 cm   su
+ nny           -8°C   16 km/h (g67)\n\nWeather at 3000 m. Snow depth and n
+ ew snow are the weather model's numbers\, not the resort's own snow report
+ .\nNotes: Big volcano\, wide open slopes\, windy on top.\nGenerated 2026-1
+ 1-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github
+ .io/surf-calendar-plugin/#spot=erciyes
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=erciyes
+LOCATION:Erciyes
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -3,25 +3,25 @@ VERSION:2.0
 PRODID:-//TutubanaS//surf-windows//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Surf windows
+X-WR-CALNAME:Fish Forecast
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:c3107170a6d4d89c@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T090000Z
 DTEND:20261124T140000Z
 SUMMARY:🤏 Wijk aan Zee 5/10 · 0.5m 6s W · 7kn SE
 DESCRIPTION:Best 5/10 at 10:00. Forecast confidence: high. 4 wave models sa
  y 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 10:00  
       5   0.5m  6.3s   W    7kn (g13)  SE offshore\nTue 11:00       5   0.5
- m  6.7s   W    8kn (g14)  SE offshore\nTue 12:00       5   0.5m  6.8s   W 
-    7kn (g14)  SE offshore\nTue 13:00       5   0.5m  6.9s   W    7kn (g13)
-  ESE offshore\nTue 14:00       5   0.5m  7.0s   W    8kn (g15) ESE offshor
+ m  6.7s   W    6kn (g12)  SE offshore\nTue 12:00       5   0.5m  6.8s   W 
+    7kn (g12)  SE offshore\nTue 13:00       5   0.5m  6.9s   W    7kn (g13)
+  ESE offshore\nTue 14:00       5   0.5m  7.0s   W    8kn (g14) ESE offshor
  e\n\nCheck the webcam before you go: https://www.surfweer.nl/webcams/\nNot
  es: Picks up more swell than Scheveningen\; north pier shelters from N.\nG
- enerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://t
+ enerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://t
  utubanas.github.io/surf-calendar-plugin/#spot=wijk-aan-zee
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=wijk-aan-zee
 LOCATION:Wijk aan Zee

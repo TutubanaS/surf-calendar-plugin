@@ -9,22 +9,22 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:37347f98cf67373d@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T160000Z
 SUMMARY:🤏 Terschelling (Midsland aan Zee) 5/10 · 0.7m 6s N · 4kn S
 DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: high. 5 wave models sa
  y 0.6 to 0.7 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
       5   0.7m  6.3s   N    4kn (g5)   S glassy\nTue 09:00       5   0.6m  
- 6.3s   N    5kn (g10)   S offshore\nTue 10:00       5   0.6m  6.3s   N    
- 6kn (g12) SSE offshore\nTue 11:00       5   0.6m  6.4s   N    7kn (g13)   
- S offshore\nTue 12:00       5   0.6m  6.5s   N    9kn (g15) SSE offshore\n
- Tue 13:00       5   0.6m  6.7s   N    7kn (g15) SSE offshore\nTue 14:00   
-     5   0.6m  6.5s   N    7kn (g13)  SE offshore\nTue 15:00       5   0.6m
-   6.5s   N    6kn (g13)  SE offshore\nTue 16:00       5   0.6m  6.3s   N  
-   6kn (g12) ESE offshore\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo
- .\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot
- =terschelling
+ 6.3s   N    4kn (g6)  SE glassy\nTue 10:00       5   0.6m  6.3s   N    6kn
+  (g10) SSE offshore\nTue 11:00       5   0.6m  6.4s   N    7kn (g12) SSE o
+ ffshore\nTue 12:00       5   0.6m  6.5s   N    8kn (g14)   S offshore\nTue
+  13:00       5   0.6m  6.7s   N    7kn (g13) SSE offshore\nTue 14:00      
+  5   0.6m  6.5s   N    6kn (g12)  SE offshore\nTue 15:00       5   0.6m  6
+ .5s   N    7kn (g12)  SE offshore\nTue 16:00       5   0.6m  6.3s   N    8
+ kn (g13) ESE offshore\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n
+ \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=te
+ rschelling
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=terschelling
 LOCATION:Terschelling (Midsland aan Zee)
 TRANSP:TRANSPARENT

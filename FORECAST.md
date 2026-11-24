@@ -1,6 +1,6 @@
-# Surf windows
+# Fish Forecast
 
-_Updated 2026-11-24 09:00 UTC. Calendar spots only; the forecast page has all 81._
+_Updated 2026-11-24 10:00 UTC. Calendar spots only; the forecast page has all 64._
 
 ## Upcoming windows
 
@@ -18,8 +18,8 @@ _Updated 2026-11-24 09:00 UTC. Calendar spots only; the forecast page has all 81
 | Sun 22 Nov | 5 | 08:00 | 0.6m 6s NNW | 4kn E (glassy) |
 | Mon 23 Nov | 5 | 10:00 | 0.5m 7s N | 2kn SE (glassy) |
 | Tue 24 Nov | 1 | 08:00 | 0.4m 7s NNW | 7kn SE (offshore) |
-| Wed 25 Nov | 1 | 08:00 | 0.6m 4s NE | 13kn E (offshore) |
-| Thu 26 Nov | 1 | 08:00 | 0.5m 4s NE | 10kn ENE (offshore) |
+| Wed 25 Nov | 1 | 08:00 | 0.6m 4s NE | 14kn E (offshore) |
+| Thu 26 Nov | 1 | 08:00 | 0.5m 4s NE | 11kn ENE (offshore) |
 | Fri 27 Nov | 1 | 08:00 | 0.4m 2s ESE | 8kn E (offshore) |
 | Sat 28 Nov | 1 | 08:00 | 0.4m 2s SE | 8kn SE (offshore) |
 | Sun 29 Nov | 0.5 | 15:00 | 0.7m 5s WSW | 8kn S (cross) |
@@ -40,7 +40,7 @@ _Updated 2026-11-24 09:00 UTC. Calendar spots only; the forecast page has all 81
 | Sun 22 Nov | 5 | 11:00 | 0.6m 7s NNW | 4kn ENE (glassy) |
 | Mon 23 Nov | 4 | 08:00 | 0.5m 7s NNW | 2kn ESE (glassy) |
 | Tue 24 Nov | 5 | 10:00 | 0.5m 6s W | 7kn SE (offshore) |
-| Wed 25 Nov | 1 | 08:00 | 0.7m 3s ENE | 12kn E (offshore) |
+| Wed 25 Nov | 1 | 08:00 | 0.7m 3s ENE | 14kn E (offshore) |
 | Thu 26 Nov | 1 | 08:00 | 0.6m 3s ENE | 11kn E (offshore) |
 | Fri 27 Nov | 1 | 08:00 | 0.4m 3s E | 7kn ESE (offshore) |
 | Sat 28 Nov | 1 | 08:00 | 0.5m 3s SSE | 7kn SE (offshore) |

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:fc4c83340b39b0e7@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T110000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 7.5/10 · 1.8m 11s WNW · 8kn SSE
@@ -19,7 +19,7 @@ DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: high. 5 wave models
  .9m 11.2s WNW    8kn (g16)   S cross\nTue 09:00     6.5   2.0m 11.2s WNW  
    6kn (g15) SSW cross\nTue 10:00     6.5   2.0m 11.2s WNW    6kn (g13) SSW
   cross\n\nNotes: The canyon makes the waves much bigger than the forecast 
- height. Experts only when it is big.\nGenerated 2026-11-24 09:00 UTC from 
+ height. Experts only when it is big.\nGenerated 2026-11-24 10:00 UTC from 
  Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
  ugin/#spot=nazare-praia-do-norte
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=nazare-praia-do-
@@ -29,7 +29,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:27061b7d7e46f57d@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 6.5/10 · 2.1m 10s NW · 2kn SE
@@ -44,7 +44,7 @@ DESCRIPTION:Best 6.5/10 at 08:00. Forecast confidence: medium. 5 wave model
  3kn (g6) WSW glassy\nThu 16:00       5   1.7m 10.2s  NW    3kn (g7)   W gl
  assy\nThu 17:00       5   1.7m 10.2s  NW    1kn (g6) WSW glassy\n\nNotes: 
  The canyon makes the waves much bigger than the forecast height. Experts o
- nly when it is big.\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFu
+ nly when it is big.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFu
  ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=nazare
  -praia-do-norte
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=nazare-praia-do-
@@ -54,7 +54,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f08f2c69c1430e4@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 7.5/10 · 1.8m 11s NW · 4kn SE
@@ -69,7 +69,7 @@ DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: medium. 4 wave model
  1.5s  NW    6kn (g11) SSE offshore\nFri 16:00     7.5   1.8m 11.6s  NW    
  5kn (g8) SSE offshore\nFri 17:00     7.5   1.8m 11.7s  NW    4kn (g8) SSE 
  glassy\n\nNotes: The canyon makes the waves much bigger than the forecast 
- height. Experts only when it is big.\nGenerated 2026-11-24 09:00 UTC from 
+ height. Experts only when it is big.\nGenerated 2026-11-24 10:00 UTC from 
  Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
  ugin/#spot=nazare-praia-do-norte
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=nazare-praia-do-
@@ -79,7 +79,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e9636acb6cb29a27@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
 SUMMARY:👍 Nazaré (Praia do Norte) 7.5/10 · 1.8m 12s NW · 5kn ESE
@@ -94,7 +94,7 @@ DESCRIPTION:Best 7.5/10 at 08:00. Forecast confidence: low. 3 wave models s
  0m 12.4s  NW    6kn (g18)  SE offshore\nTue 16:00     7.5   2.0m 12.3s  NW
      5kn (g17)  SE glassy\nTue 17:00     7.5   2.0m 12.2s  NW    4kn (g17) 
  ESE glassy\n\nNotes: The canyon makes the waves much bigger than the forec
- ast height. Experts only when it is big.\nGenerated 2026-11-24 09:00 UTC f
+ ast height. Experts only when it is big.\nGenerated 2026-11-24 10:00 UTC f
  rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
  r-plugin/#spot=nazare-praia-do-norte
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=nazare-praia-do-

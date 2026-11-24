@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:dbd88ab02f775da7@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T110000Z
 SUMMARY:👍 Areia Branca 7/10 · 1.6m 11s WNW · 8kn SSE
@@ -18,7 +18,7 @@ DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: high. 5 wave models sa
       7   1.6m 11.2s WNW    8kn (g15) SSE cross\nTue 08:00       7   1.7m 1
  1.2s WNW   10kn (g18) SSW cross\nTue 09:00       6   2.0m 11.2s   W   10kn
   (g24) WSW onshore\nTue 10:00       6   2.1m 11.1s   W    8kn (g19) WNW on
- shore\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast:
+ shore\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast:
   https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
@@ -26,7 +26,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dbd8efa8f70bd5d2@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Areia Branca 8.5/10 · 1.9m 11s NW · 3kn SE
@@ -40,7 +40,7 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 5 wave model
  m 10.2s  NW    5kn (g9)   W glassy\nThu 15:00       7   1.7m 10.2s  NW    
  5kn (g9)   W glassy\nThu 16:00       7   1.7m 10.2s  NW    4kn (g9)   W gl
  assy\nThu 17:00       7   1.6m 10.2s  NW    2kn (g7)   W glassy\n\nGenerat
- ed 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ ed 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
  as.github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
@@ -48,7 +48,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:15aa57630c109558@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Areia Branca 9.5/10 · 1.7m 11s NW · 6kn ESE
@@ -62,7 +62,7 @@ DESCRIPTION:Best 9.5/10 at 09:00. Forecast confidence: medium. 4 wave model
  4:00     9.5   1.7m 11.2s  NW    8kn (g14)  SE offshore\nFri 15:00     9.5
     1.7m 11.2s  NW    7kn (g14)  SE offshore\nFri 16:00     9.5   1.7m 11.3
  s  NW    6kn (g9)  SE offshore\nFri 17:00     9.5   1.6m 11.4s  NW    5kn 
- (g9)  SE glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull
+ (g9)  SE glassy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull
   forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-br
  anca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
@@ -71,7 +71,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:006762c0da894e24@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Areia Branca 9.5/10 · 2.1m 13s NW · 4kn ESE
@@ -85,7 +85,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
    9.5   2.1m 12.9s  NW    6kn (g10)  SE offshore\nSat 15:00     9.5   2.1m
   12.9s  NW    5kn (g10)  SE offshore\nSat 16:00     9.5   2.1m 12.9s  NW  
    4kn (g5)  SE glassy\nSat 17:00     9.5   2.1m 12.8s  NW    3kn (g5)  SE 
- glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast
+ glassy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast
  : https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
@@ -93,7 +93,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f91cda8033a5f7af@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Areia Branca 9.5/10 · 2.1m 13s NW · 3kn E
@@ -107,7 +107,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.5s  NW    4kn (g9)   E glassy\nSun 15:00     9.5   2.1m 12.4s  NW    4kn
   (g9)   E glassy\nSun 16:00     9.5   2.1m 12.4s  NW    3kn (g4)   E glass
  y\nSun 17:00     9.5   2.1m 12.4s  NW    2kn (g4) ENE glassy\n\nGenerated 
- 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
@@ -115,7 +115,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:594bcde25fe55742@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Areia Branca 10/10 · 2.2m 13s NW · 5kn ESE
@@ -129,7 +129,7 @@ DESCRIPTION:Best 10/10 at 14:00. Forecast confidence: low. 4 wave models sa
    2.2m 13.2s  NW    5kn (g8) ESE glassy\nMon 15:00      10   2.2m 13.4s  N
  W    3kn (g8) ESE glassy\nMon 16:00      10   2.2m 13.5s  NW    3kn (g5) E
  SE glassy\nMon 17:00      10   2.1m 13.5s  NW    2kn (g5) ESE glassy\n\nGe
- nerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
+ nerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
  tubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
@@ -137,7 +137,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a0b9070d6a05361b@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
 SUMMARY:🔥 Areia Branca 9.5/10 · 1.6m 12s NW · 6kn ESE
@@ -151,7 +151,7 @@ DESCRIPTION:Best 9.5/10 at 13:00. Forecast confidence: low. 3 wave models s
      9.5   1.7m 12.2s  NW    6kn (g17) ESE offshore\nTue 15:00     9.5   1.
  8m 12.2s  NW    5kn (g16) ESE offshore\nTue 16:00     9.5   1.8m 12.2s  NW
      5kn (g15) ESE glassy\nTue 17:00     9.5   1.8m 12.1s  NW    4kn (g15) 
- ESE glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull fore
+ ESE glassy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull fore
  cast: https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca

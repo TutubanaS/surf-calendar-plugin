@@ -9,19 +9,19 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:0baeb2b568588c10@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T080000Z
 DTEND:20261124T160000Z
-SUMMARY:🤏 Vlieland 5/10 · 0.5m 7s N · 10kn S
+SUMMARY:🤏 Vlieland 5/10 · 0.5m 7s N · 8kn S
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high. 5 wave models sa
  y 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 09:00  
-      5   0.5m  7.0s   N   10kn (g18)   S offshore\nTue 10:00       5   0.5
- m  6.9s NNW   11kn (g18)   S offshore\nTue 11:00       5   0.5m  6.7s NNW 
-   11kn (g18)   S offshore\nTue 12:00       5   0.5m  6.5s NNW   10kn (g18)
-    S offshore\nTue 13:00       5   0.5m  6.3s  NW   10kn (g18) SSE offshor
- e\nTue 14:00       5   0.5m  6.2s  NW   11kn (g18) SSE offshore\nTue 15:00
-        5   0.5m  6.3s  NW    9kn (g18)  SE offshore\nTue 16:00       5   0
- .5m  6.3s NNW   10kn (g16) ESE offshore\n\nGenerated 2026-11-24 09:00 UTC 
+      5   0.5m  7.0s   N    8kn (g13)   S offshore\nTue 10:00       5   0.5
+ m  6.9s NNW   10kn (g16)   S offshore\nTue 11:00       5   0.5m  6.7s NNW 
+   10kn (g17)   S offshore\nTue 12:00       5   0.5m  6.5s NNW   10kn (g17)
+    S offshore\nTue 13:00       5   0.5m  6.3s  NW   10kn (g16) SSE offshor
+ e\nTue 14:00       5   0.5m  6.2s  NW   10kn (g16) SSE offshore\nTue 15:00
+        5   0.5m  6.3s  NW   10kn (g16)  SE offshore\nTue 16:00       5   0
+ .5m  6.3s NNW   11kn (g18) ESE offshore\n\nGenerated 2026-11-24 10:00 UTC 
  from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calend
  ar-plugin/#spot=vlieland
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=vlieland

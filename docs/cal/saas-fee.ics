@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Saas-Fee
+X-WR-TIMEZONE:Europe/Zurich
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:0c505fadf33d6ff1@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261126T080000Z
+DTEND:20261126T150000Z
+SUMMARY:👍 Saas-Fee 7.5/10 · 20 cm new snow · snowing · -8°C
+DESCRIPTION:Best 7.5/10 at 10:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nThu 09:00     6.5     18 
+ cm   snowing         -8°C   12 km/h (g42)\nThu 10:00     7.5     20 cm   
+ snowing         -8°C   11 km/h (g53)\nThu 11:00     7.5     21 cm   snowi
+ ng         -8°C    9 km/h (g63)\nThu 12:00     7.5     22 cm   snowing   
+       -8°C    8 km/h (g62)\nThu 13:00     7.5     23 cm   snowing        
+  -8°C   10 km/h (g59)\nThu 14:00     7.5     24 cm   snowing         -7°
+ C   11 km/h (g58)\nThu 15:00     7.5     24 cm   snowing         -7°C   1
+ 0 km/h (g51)\n\nWeather at 3000 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: Glacier resor
+ t\, snow-sure.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+LOCATION:Saas-Fee
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ebef443dc7f74feb@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T150000Z
+SUMMARY:👍 Saas-Fee 7.5/10 · 6 cm new snow · sunny · -10°C
+DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nFri 09:00     7.5      6 
+ cm   sunny          -10°C    6 km/h (g27)\nFri 10:00     6.5      4 cm   
+ sunny           -9°C    7 km/h (g25)\nFri 11:00     6.5      3 cm   sunny
+            -9°C    7 km/h (g24)\nFri 12:00     6.5      2 cm   sunny     
+       -9°C    7 km/h (g26)\nFri 13:00       6      2 cm   sunny          
+  -9°C    6 km/h (g28)\nFri 14:00       6      1 cm   sunny           -9°
+ C    6 km/h (g37)\nFri 15:00       6      0 cm   sunny           -9°C    
+ 7 km/h (g37)\n\nWeather at 3000 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: Glacier resor
+ t\, snow-sure.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+LOCATION:Saas-Fee
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:484307c354f153ea@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T150000Z
+SUMMARY:🤏 Saas-Fee 6/10 · 100 cm of snow · sunny · -10°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSat 09:00       6      0 cm   
+ sunny          -10°C   10 km/h (g39)\nSat 10:00       6      0 cm   sunny
+            -9°C   10 km/h (g39)\nSat 11:00       6      0 cm   sunny     
+       -8°C    9 km/h (g32)\nSat 12:00       6      0 cm   sunny          
+  -7°C    7 km/h (g32)\nSat 13:00       6      0 cm   sunny           -6°
+ C    6 km/h (g32)\nSat 14:00       6      0 cm   sunny           -6°C    
+ 5 km/h (g24)\nSat 15:00       6      0 cm   sunny           -6°C    5 km/
+ h (g24)\n\nWeather at 3000 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Glacier resort\, s
+ now-sure.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecas
+ t: https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+LOCATION:Saas-Fee
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa62d262335252f7@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T150000Z
+SUMMARY:🤏 Saas-Fee 6/10 · 85 cm of snow · sunny · -4°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSun 09:00       6      0 cm   
+ sunny           -4°C   10 km/h (g25)\nSun 10:00       6      0 cm   sunny
+            -4°C   10 km/h (g25)\nSun 11:00       6      0 cm   sunny     
+       -4°C   11 km/h (g23)\nSun 12:00       6      0 cm   sunny          
+  -3°C   11 km/h (g23)\nSun 13:00       6      0 cm   sunny           -3°
+ C   12 km/h (g23)\nSun 14:00       5      0 cm   partly sunny    -3°C   1
+ 2 km/h (g27)\nSun 15:00       5      0 cm   partly sunny    -3°C   13 km/
+ h (g27)\n\nWeather at 3000 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Glacier resort\, s
+ now-sure.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecas
+ t: https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+LOCATION:Saas-Fee
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d7de93c38ca42613@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261130T080000Z
+DTEND:20261130T150000Z
+SUMMARY:🤏 Saas-Fee 6/10 · 82 cm of snow · sunny · -5°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nMon 09:00       6      0 cm   
+ sunny           -5°C    4 km/h (g16)\nMon 10:00       6      0 cm   sunny
+            -5°C    5 km/h (g16)\nMon 11:00       6      0 cm   sunny     
+       -5°C    5 km/h (g9)\nMon 12:00       6      0 cm   sunny           
+ -4°C    5 km/h (g9)\nMon 13:00       6      0 cm   sunny           -4°C 
+    4 km/h (g9)\nMon 14:00       6      0 cm   sunny           -4°C    3 k
+ m/h (g15)\nMon 15:00       5      0 cm   partly sunny    -4°C    1 km/h (
+ g15)\n\nWeather at 3000 m. Snow depth and new snow are the weather model's
+  numbers\, not the resort's own snow report.\nNotes: Glacier resort\, snow
+ -sure.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: 
+ https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+LOCATION:Saas-Fee
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a534eff9e94e3a65@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261201T090000Z
+DTEND:20261201T150000Z
+SUMMARY:👍 Saas-Fee 6.5/10 · 131 cm of snow · sunny · -6°C
+DESCRIPTION:Best 6.5/10 at 12:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nTue 10:00       5      0 cm 
+   partly sunny    -5°C    2 km/h (g9)\nTue 11:00       5      0 cm   part
+ ly sunny    -6°C    2 km/h (g13)\nTue 12:00     6.5      0 cm   sunny    
+        -6°C    2 km/h (g15)\nTue 13:00     6.5      0 cm   sunny         
+   -7°C    2 km/h (g16)\nTue 14:00     6.5      0 cm   sunny           -9
+ °C    2 km/h (g17)\nTue 15:00     6.5      0 cm   sunny          -10°C  
+   2 km/h (g17)\n\nWeather at 3000 m. Snow depth and new snow are the weath
+ er model's numbers\, not the resort's own snow report.\nNotes: Glacier res
+ ort\, snow-sure.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull 
+ forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=saas-fee
+LOCATION:Saas-Fee
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

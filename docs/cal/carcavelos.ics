@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:e5ef1c97a2c2ddeb@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T110000Z
 DTEND:20261124T180000Z
 SUMMARY:🔥 Carcavelos 8.5/10 · 2.4m 15s WNW · 7kn NW
@@ -21,7 +21,7 @@ DESCRIPTION:Best 8.5/10 at 17:00. Forecast confidence: medium. 4 wave model
  cross\nTue 15:00       7   2.2m 14.7s   W   10kn (g25)  NW cross\nTue 16:0
  0       7   2.3m 15.0s WNW    9kn (g23)  NW cross\nTue 17:00     8.5   2.4
  m 15.4s WNW    7kn (g20)  NW cross\n\nNotes: Needs a big west swell or a s
- outh swell to get in.\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\n
+ outh swell to get in.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\n
  Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=carc
  avelos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=carcavelos
@@ -30,7 +30,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10e109f3a88fced0@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261125T070000Z
 DTEND:20261125T180000Z
 SUMMARY:🔥 Carcavelos 9.5/10 · 2.7m 12s WNW · 8kn NNW
@@ -45,7 +45,7 @@ DESCRIPTION:Best 9.5/10 at 11:00. Forecast confidence: medium. 4 wave model
     9kn (g20)  NW cross\nWed 15:00     6.5   2.6m 12.3s WNW    8kn (g20)  N
  W cross\nWed 16:00       8   2.6m 12.2s WNW    7kn (g18) NNW cross\nWed 17
  :00       8   2.5m 12.0s WNW    5kn (g16) NNW cross\n\nNotes: Needs a big 
- west swell or a south swell to get in.\nGenerated 2026-11-24 09:00 UTC fro
+ west swell or a south swell to get in.\nGenerated 2026-11-24 10:00 UTC fro
  m Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-
  plugin/#spot=carcavelos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=carcavelos
@@ -54,7 +54,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cc7c38acc19983a4@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:👍 Carcavelos 7/10 · 1.7m 11s WNW · 2kn NNE
@@ -68,7 +68,7 @@ DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: medium. 4 wave models
  10.2s WNW    4kn (g8) WSW glassy\nThu 15:00     5.5   1.5m 10.2s WNW    3k
  n (g8)   W glassy\nThu 16:00     5.5   1.5m 10.2s WNW    4kn (g9)   W glas
  sy\nThu 17:00     5.5   1.4m 10.2s WNW    3kn (g8)   W glassy\n\nNotes: Ne
- eds a big west swell or a south swell to get in.\nGenerated 2026-11-24 09:
+ eds a big west swell or a south swell to get in.\nGenerated 2026-11-24 10:
  00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
  -calendar-plugin/#spot=carcavelos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=carcavelos
@@ -77,7 +77,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0d643e99c0e15d09@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:👍 Carcavelos 7.5/10 · 1.5m 14s NW · 4kn ENE
@@ -92,7 +92,7 @@ DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: medium. 3 wave model
     5kn (g12)  SE glassy\nFri 16:00     6.5   1.5m 12.2s  NW    4kn (g9) SS
  E glassy\nFri 17:00     6.5   1.5m 12.3s  NW    4kn (g9) SSE glassy\n\nNot
  es: Needs a big west swell or a south swell to get in.\nGenerated 2026-11-
- 24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.i
+ 24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.i
  o/surf-calendar-plugin/#spot=carcavelos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=carcavelos
 LOCATION:Carcavelos
@@ -100,7 +100,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:452ce380943b3de6@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Carcavelos 8/10 · 1.8m 12s NW · 3kn NE
@@ -115,7 +115,7 @@ DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
  3kn (g10) ESE glassy\nSat 16:00       7   1.9m 12.3s  NW    3kn (g3) ESE g
  lassy\nSat 17:00       6   1.8m 12.3s  NW    2kn (g3) ESE glassy\n\nNotes:
   Needs a big west swell or a south swell to get in.\nGenerated 2026-11-24 
- 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
+ 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
  urf-calendar-plugin/#spot=carcavelos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=carcavelos
 LOCATION:Carcavelos
@@ -123,7 +123,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cff2c542ce222c5e@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:👍 Carcavelos 7/10 · 1.9m 12s NW · 3kn NE
@@ -138,7 +138,7 @@ DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 3 wave models say
  4kn (g10) ENE glassy\nSun 16:00       7   1.8m 12.3s  NW    4kn (g7) ENE g
  lassy\nSun 17:00       7   1.8m 12.3s  NW    3kn (g7) ENE glassy\n\nNotes:
   Needs a big west swell or a south swell to get in.\nGenerated 2026-11-24 
- 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
+ 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
  urf-calendar-plugin/#spot=carcavelos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=carcavelos
 LOCATION:Carcavelos
@@ -146,7 +146,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5a7176c9c9424511@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:👍 Carcavelos 7.5/10 · 2.0m 13s NW · 2kn E
@@ -160,8 +160,8 @@ DESCRIPTION:Best 7.5/10 at 17:00. Forecast confidence: low. 3 wave models s
  m 12.2s  NW    3kn (g7) ESE glassy\nMon 15:00       6   2.0m 12.3s  NW    
  2kn (g7) ESE glassy\nMon 16:00       7   2.0m 12.7s  NW    2kn (g6) ESE gl
  assy\nMon 17:00     7.5   2.0m 13.2s  NW    2kn (g6)   E glassy\n\nNotes: 
- Needs a big west swell or a south swell to get in.\nGenerated 2026-11-24 0
- 9:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
+ Needs a big west swell or a south swell to get in.\nGenerated 2026-11-24 1
+ 0:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
  rf-calendar-plugin/#spot=carcavelos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=carcavelos
 LOCATION:Carcavelos
@@ -169,7 +169,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:076f428fe9d66a27@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
 SUMMARY:👍 Carcavelos 7/10 · 1.6m 12s NW · 4kn NE
@@ -184,7 +184,7 @@ DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 2 wave models say
  n (g15) ENE glassy\nTue 16:00       7   1.7m 11.5s  NW    4kn (g14) ENE gl
  assy\nTue 17:00       7   1.8m 11.5s  NW    4kn (g14)  NE glassy\n\nNotes:
   Needs a big west swell or a south swell to get in.\nGenerated 2026-11-24 
- 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
+ 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
  urf-calendar-plugin/#spot=carcavelos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=carcavelos
 LOCATION:Carcavelos

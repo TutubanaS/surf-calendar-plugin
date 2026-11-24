@@ -1,0 +1,135 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Courchevel
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:cc85fc112ee2ceb5@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261126T080000Z
+DTEND:20261126T120000Z
+SUMMARY:🤏 Courchevel 5.5/10 · 6 cm new snow · snowing · -5°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nThu 09:00     5.5      6 
+ cm   snowing         -5°C    9 km/h (g23)\nThu 10:00     5.5      6 cm   
+ snowing         -5°C    8 km/h (g22)\nThu 11:00     5.5      6 cm   snowi
+ ng         -5°C    8 km/h (g20)\nThu 12:00     5.5      6 cm   snowing   
+       -5°C    7 km/h (g19)\n\nWeather at 2260 m. Snow depth and new snow 
+ are the weather model's numbers\, not the resort's own snow report.\nNotes
+ : Perfect grooming\, part of the 3 Vallées.\nGenerated 2026-11-24 10:00 U
+ TC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cal
+ endar-plugin/#spot=courchevel
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=courchevel
+LOCATION:Courchevel
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fe37ed2c7213b247@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T150000Z
+SUMMARY:🤏 Courchevel 6/10 · 104 cm of snow · sunny · -7°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nFri 09:00       6      1 cm
+    sunny           -7°C    4 km/h (g15)\nFri 10:00       6      0 cm   su
+ nny           -6°C    4 km/h (g15)\nFri 11:00       6      0 cm   sunny  
+          -6°C    3 km/h (g15)\nFri 12:00       6      0 cm   sunny       
+     -6°C    2 km/h (g13)\nFri 13:00       6      0 cm   sunny           -
+ 6°C    2 km/h (g13)\nFri 14:00       6      0 cm   sunny           -6°C 
+    2 km/h (g14)\nFri 15:00       6      0 cm   sunny           -6°C    2 
+ km/h (g14)\n\nWeather at 2260 m. Snow depth and new snow are the weather m
+ odel's numbers\, not the resort's own snow report.\nNotes: Perfect groomin
+ g\, part of the 3 Vallées.\nGenerated 2026-11-24 10:00 UTC from Open-Mete
+ o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
+ t=courchevel
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=courchevel
+LOCATION:Courchevel
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f8468cdcf0c1c3f8@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T150000Z
+SUMMARY:🤏 Courchevel 6/10 · 104 cm of snow · sunny · -7°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSat 09:00       6      0 cm   
+ sunny           -7°C   11 km/h (g22)\nSat 10:00       6      0 cm   sunny
+            -6°C   10 km/h (g22)\nSat 11:00       6      0 cm   sunny     
+       -6°C   10 km/h (g17)\nSat 12:00       6      0 cm   sunny          
+  -5°C    9 km/h (g17)\nSat 13:00       6      0 cm   sunny           -4°
+ C    8 km/h (g17)\nSat 14:00       6      0 cm   sunny           -4°C    
+ 7 km/h (g11)\nSat 15:00       6      0 cm   sunny           -3°C    6 km/
+ h (g11)\n\nWeather at 2260 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Perfect grooming\,
+  part of the 3 Vallées.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\
+ n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=c
+ ourchevel
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=courchevel
+LOCATION:Courchevel
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3ed7c06b8ee70143@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T130000Z
+SUMMARY:🤏 Courchevel 5.5/10 · 91 cm of snow · sunny · -2°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nSun 09:00     5.5      0 cm 
+   sunny           -2°C    5 km/h (g21)\nSun 10:00     5.5      0 cm   sun
+ ny           -2°C    4 km/h (g21)\nSun 11:00     5.5      0 cm   sunny   
+         -2°C    4 km/h (g21)\nSun 12:00     5.5      0 cm   sunny        
+    -1°C    3 km/h (g21)\nSun 13:00     5.5      0 cm   sunny           -1
+ °C    2 km/h (g21)\n\nWeather at 2260 m. Snow depth and new snow are the 
+ weather model's numbers\, not the resort's own snow report.\nNotes: Perfec
+ t grooming\, part of the 3 Vallées.\nGenerated 2026-11-24 10:00 UTC from 
+ Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
+ ugin/#spot=courchevel
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=courchevel
+LOCATION:Courchevel
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:615338f546c61a2b@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261130T080000Z
+DTEND:20261130T110000Z
+SUMMARY:🤏 Courchevel 6/10 · 90 cm of snow · sunny · -3°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nMon 09:00       6      0 cm   
+ sunny           -3°C    6 km/h (g14)\nMon 10:00       6      0 cm   sunny
+            -3°C    6 km/h (g14)\nMon 11:00       6      0 cm   sunny     
+       -2°C    5 km/h (g20)\n\nWeather at 2260 m. Snow depth and new snow 
+ are the weather model's numbers\, not the resort's own snow report.\nNotes
+ : Perfect grooming\, part of the 3 Vallées.\nGenerated 2026-11-24 10:00 U
+ TC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cal
+ endar-plugin/#spot=courchevel
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=courchevel
+LOCATION:Courchevel
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9bb167015f5102f2@surf-windows
+DTSTAMP:20261124T100000Z
+DTSTART:20261201T080000Z
+DTEND:20261201T110000Z
+SUMMARY:🤏 Courchevel 5/10 · 88 cm of snow · partly sunny · -4°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nTue 09:00       5      0 cm   
+ partly sunny    -4°C    8 km/h (g16)\nTue 10:00       5      0 cm   partl
+ y sunny    -4°C    8 km/h (g16)\nTue 11:00       5      0 cm   partly sun
+ ny    -3°C    6 km/h (g14)\n\nWeather at 2260 m. Snow depth and new snow 
+ are the weather model's numbers\, not the resort's own snow report.\nNotes
+ : Perfect grooming\, part of the 3 Vallées.\nGenerated 2026-11-24 10:00 U
+ TC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cal
+ endar-plugin/#spot=courchevel
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=courchevel
+LOCATION:Courchevel
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
