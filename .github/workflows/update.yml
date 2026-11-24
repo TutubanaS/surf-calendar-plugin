@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["surfwindows.py", "config.json", "spots.json", ".github/workflows/update.yml"]
+    paths: ["surfwindows.py", "config.json", "spots.json", "resorts.json", ".github/workflows/update.yml"]
 
 permissions:
   contents: write
@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "surf-windows-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A docs/surf.ics docs/cal docs/data.js data/windows.json FORECAST.md
+          git add -A docs/surf.ics docs/cal docs/data.js docs/ski.js data/windows.json FORECAST.md
           git diff --cached --quiet || git commit -m "forecast update $(date -u +%Y-%m-%dT%H:%MZ)"
           git push

@@ -1,16 +1,17 @@
-# surf-calendar-plugin
+# Fish Forecast
 
-Finds surfable windows at wave-surfing spots for the next two weeks and publishes them as calendar feeds you can subscribe to, plus a forecast page. It updates every 3 hours through GitHub Actions.
+Finds surfable windows at wave-surfing spots, and good days at ski resorts, for the next two weeks and publishes them as calendar feeds you can subscribe to, plus a forecast page. It updates every 3 hours through GitHub Actions.
 
 - **Spots:** 117 in the Netherlands, Portugal, Morocco and Türkiye (edit `spots.json`). Coordinates and beach orientation are approximate; fix a spot there if it looks off.
 - **Data:** [Open-Meteo](https://open-meteo.com) Marine API (waves, tide, water temperature) and Forecast API (wind, weather, sunrise/sunset). Free, no API key needed. Wave height is the median of five wave models (DWD EWAM and GWAM, Météo-France, NOAA GFS-Wave, ECMWF), because a single model can be far off this close to the coast.
-- **Output:** `docs/index.html` + `docs/data.js` (forecast page), `docs/cal/<spot>.ics` (one calendar per spot), `docs/surf.ics` (one calendar for your own spots), `FORECAST.md` (plain table for your own spots), `data/windows.json` (history of what was forecast for them)
+- **Ski resorts:** 46 in Türkiye, Austria, Switzerland, France, Italy and Germany (edit `resorts.json`). The page has a **Surf / Ski & snowboard** switch at the top.
+- **Output:** `docs/index.html` + `docs/data.js` (forecast page), `docs/ski.js` (the ski side of the page), `docs/cal/<id>.ics` (one calendar per spot and per resort), `docs/surf.ics` (one calendar for your own spots), `FORECAST.md` (plain table for your own spots), `data/windows.json` (history of what was forecast for them)
 
 👉 **[Current forecast](https://tutubanas.github.io/surf-calendar-plugin/)** (needs GitHub Pages on `main` / `docs`) · [plain table](FORECAST.md)
 
 ## Subscribe
 
-Every spot has its own feed, so you only get the spots you want. On the forecast page press **Subscribe to the calendar**, tick your spots and add each feed to Google Calendar, Apple Calendar or Outlook. The feed address is:
+Every spot and every ski resort has its own feed, so you only get the ones you want. On the forecast page open a spot and press **Subscribe to calendar** next to its name: its feed appears right there, with buttons for Google Calendar, Apple or Outlook, and Copy link. The feed address is:
 
 ```
 https://tutubanas.github.io/surf-calendar-plugin/cal/<spot-id>.ics
@@ -41,6 +42,15 @@ Model height at sea on its own is misleading, so the score also uses period, swe
 The wind-swell numbers come from real sessions in the Netherlands. The groundswell numbers are a first guess and have not been checked against real sessions yet. A spot can set `exposure` (how much of the swell at sea reaches the break: under 1 for sheltered bays, over 1 for swell magnets) and `swell_from` (when the swell wraps in from a different side than the beach faces).
 
 A **window** is 2+ consecutive daylight hours scoring ≥ `min_score` (default 5). The page shows windows for all 14 days; calendars only get those starting within `calendar_days` (7), because beyond a week only two or three coarse models are left. Events are labelled 🔥 ≥8, 👍 ≥6.5, 🤏 otherwise, and the description lists every hour plus a confidence note (forecasts beyond about 3 days are rough, and confidence drops when the wave models disagree).
+
+## Ski and snowboard
+
+Each resort in `resorts.json` has a point in the ski area, its bottom and top lift (`base`, `top`) and `elev`, the height the weather is taken at: two thirds of the way up. One Open-Meteo call per resort; Open-Meteo scales the temperature to that height.
+
+- **Snow or rain** is worked out from that temperature, not taken from the model, whose smoothed mountains sit hundreds of metres too low: all snow at 0.5 °C and below, all rain from 2.5 °C, 1 cm of snow per mm of water when it is −5 °C or colder, 0.8 cm otherwise.
+- **Snow on the ground** is the larger of the model's snow depth and 60 % of the snow that fell at the resort's height over the last week. It is an estimate, not the resort's snow report: runs on machine-made snow can be open while it shows next to nothing.
+- **Score** per lift hour (09:00 to 16:00): new snow over 24 h (up to +4, 10 cm+ is a powder day), snow on the ground (up to +2), sky (sun +2, fog −1.5), wind (light +1.5, 45 km/h+ −2.5) and temperature (−12 to −2 °C +1, bitter cold −1.5). Vetoes: under 10 cm on the ground → at most 3.5, rain → at most 3, gusts of 70 km/h+ (upper lifts stop) → at most 3, 90 km/h+ → at most 1. A sunny day on a good base lands around 6, a powder day with sun 9 to 10. These are first guesses, not tuned on real days yet.
+- A **good stretch** is 2+ lift hours in a row at `min_score` or more; it goes into that resort's feed, `cal/<resort-id>.ics`, if it starts within `calendar_days`. There is no combined ski feed.
 
 ## Looking back
 

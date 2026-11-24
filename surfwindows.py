@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Find surfable windows at surf spots and publish them as iCalendar feeds plus the data for the forecast page.
+"""Find surfable windows at surf spots, and good ski days at ski resorts, and publish them as iCalendar feeds
+plus the data for the forecast page.
 
-Data: Open-Meteo Marine API (waves) + Open-Meteo Forecast API (wind, weather, daylight).
+Data: Open-Meteo Marine API (waves) + Open-Meteo Forecast API (wind, weather, daylight, snow).
 Stdlib only, so the GitHub Action needs no dependencies.
 """
 from __future__ import annotations
@@ -175,10 +176,12 @@ def swell_reach(spot: dict, wave_dir: float) -> float:
 
 
 def load_config(root: Path = ROOT) -> dict:
-    """Settings from config.json, spots from spots.json."""
+    """Settings from config.json, surf spots from spots.json, ski resorts from resorts.json."""
     cfg = json.loads((root / "config.json").read_text(encoding="utf-8"))
     if "spots" not in cfg:
         cfg["spots"] = json.loads((root / "spots.json").read_text(encoding="utf-8"))
+    if "resorts" not in cfg and (root / "resorts.json").exists():
+        cfg["resorts"] = json.loads((root / "resorts.json").read_text(encoding="utf-8"))
     return cfg
 
 
@@ -202,7 +205,6 @@ class Hour:
     weather: int | None = None     # WMO weather code
     temp_c: float | None = None
     tide: float | None = None      # sea level in metres against mean sea level
-    sst: float | None = None       # water temperature at the surface, in Celsius
     sst: float | None = None       # water temperature at the surface, in Celsius
 
 
@@ -456,7 +458,7 @@ def ics_dt(iso: str) -> str:
     return datetime.fromisoformat(iso).astimezone(UTC).strftime("%Y%m%dT%H%M%SZ")
 
 
-def to_ics(windows: list[Window], now: datetime, name: str = "Surf windows",
+def to_ics(windows: list[Window], now: datetime, name: str = "Fish Forecast",
            tz: str = "Europe/Amsterdam", site: str = "") -> str:
     """site: the forecast page; each event links to its spot there (in the notes, which Google shows, and as URL)."""
     stamp = now.strftime("%Y%m%dT%H%M%SZ")
@@ -482,7 +484,7 @@ def to_markdown(spot_hours: dict[str, tuple[dict, list[Hour]]], windows: list[Wi
                 now: datetime, total_spots: int) -> str:
     """Plain-text forecast for the calendar spots only; the page covers the rest."""
     zones = {sid: spot_zone(spot) for sid, (spot, _) in spot_hours.items()}
-    md = ["# Surf windows", "", f"_Updated {now:%Y-%m-%d %H:%M} UTC. Calendar spots only; "
+    md = ["# Fish Forecast", "", f"_Updated {now:%Y-%m-%d %H:%M} UTC. Calendar spots only; "
           f"the forecast page has all {total_spots}._", ""]
     upcoming = [w for w in windows if datetime.fromisoformat(w.end) > now]
     md += ["## Upcoming windows", ""]
@@ -567,8 +569,6 @@ def to_data(cfg: dict, spot_hours: dict[str, tuple[dict, list[Hour]]],
             d["tide"] = [None if h.tide is None else round(h.tide, 2) for h in hours]
         if any(h.sst is not None for h in hours):
             d["sst"] = [None if h.sst is None else round(h.sst, 1) for h in hours]
-        if any(h.sst is not None for h in hours):
-            d["sst"] = [None if h.sst is None else round(h.sst, 1) for h in hours]
         spots.append({k: v for k, v in d.items() if v is not None})
     # a spot that could not be fetched this time stays on the page with what we had, in the configured order
     fresh = {d["id"]: d for d in spots}
@@ -587,6 +587,332 @@ def to_data(cfg: dict, spot_hours: dict[str, tuple[dict, list[Hour]]],
         "spots": spots,
     }
     return "window.SURF=" + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n"
+
+
+# --------------------------------------------------------------------------- ski and snowboard
+
+SKI_COUNTRIES = {"TR": "Türkiye", "AT": "Austria", "CH": "Switzerland", "FR": "France", "IT": "Italy", "DE": "Germany"}
+SKI_VARS = ["temperature_2m", "apparent_temperature", "precipitation", "weather_code", "cloud_cover", "visibility",
+            "wind_speed_10m", "wind_gusts_10m", "wind_direction_10m", "snow_depth", "freezing_level_height"]
+LIFTS = (9, 16)          # local hours the lifts usually run, 09:00 to 16:00; a resort can set its own "lifts"
+SNOW_CODES = {71, 73, 75, 77, 85, 86}
+# Scoring for one hour on the mountain. Step tables are (upper limit, points), like PROFILES; the page reads them.
+SKI = {
+    "base": [(10, 0.0), (30, 0.5), (60, 1.0), (120, 1.5), (INF, 2.0)],           # snow on the ground, cm
+    "fresh": [(2, 0.0), (5, 0.5), (10, 1.5), (20, 2.5), (35, 3.5), (INF, 4.0)],   # new snow in the last 24 h, cm
+    "wind": [(15, 1.5), (30, 0.75), (45, -1.0), (INF, -2.5)],                    # mean wind, km/h
+    "sky": {"clear": 2.0, "partly": 1.0, "overcast": 0.0, "snow": 0.0, "fog": -1.5},
+    "thin": 10,          # cm on the ground below which the model sees hardly any snow
+    "powder": 10,        # cm of new snow that makes it a powder day
+    "gust_hold": 70,     # km/h gusts: the upper lifts usually stop
+    "gust_stop": 90,     # km/h gusts: most lifts stop
+    "fog_vis": 1000,     # m: flat light, you cannot see the bumps
+}
+KIND_CHARS = {"rain": "r", "storm": "w", "thin": "t", "powder": "p", "snow": "s", "fog": "f",
+              "clear": "c", "partly": "h", "overcast": "o"}
+
+
+def snow_share(t: float) -> float:
+    """Share of the precipitation that falls as snow at t °C: all of it at or below 0.5, none from 2.5 up."""
+    return 1.0 if t <= 0.5 else 0.0 if t >= 2.5 else (2.5 - t) / 2.0
+
+
+def snow_ratio(t: float) -> float:
+    """Centimetres of snow per millimetre of water: cold snow is fluffier. On the low side, so a storm is not oversold."""
+    return 1.0 if t <= -5 else 0.8
+
+
+@dataclass
+class SkiHour:
+    time: datetime
+    temp_c: float            # at the resort's forecast elevation ("elev")
+    feels_c: float
+    snow_cm: float           # new snow this hour at that elevation
+    rain_mm: float           # the part of the precipitation that falls as rain there
+    fresh_cm: float          # new snow over the 24 hours up to and including this hour
+    depth_cm: float | None   # snow on the ground, estimated: see merge_ski(). Not the resort's own report
+    wind_kmh: float
+    gust_kmh: float
+    wind_dir: float
+    lifts: bool              # inside the lift hours and in daylight
+    weather: int | None = None
+    cloud: float | None = None
+    vis_m: float | None = None
+    freezing_m: float | None = None
+    score: float = 0.0
+    kind: str = ""
+
+
+def fetch_resort(resort: dict, days: int) -> list[SkiHour]:
+    weather = get_json(WEATHER_URL, {
+        "latitude": resort["lat"], "longitude": resort["lon"], "elevation": resort["elev"],
+        "hourly": ",".join(SKI_VARS), "daily": "sunrise,sunset",
+        "forecast_days": days, "past_days": PAST_DAYS, "timezone": "GMT",
+    })
+    return merge_ski(weather, resort)
+
+
+def merge_ski(weather: dict, resort: dict) -> list[SkiHour]:
+    """One SkiHour per hour with data. Open-Meteo scales the temperature to the resort's elevation; whether the
+    precipitation falls as snow or rain is worked out here from that temperature, because the model's own split
+    is for its smoothed terrain, which sits hundreds of metres below a ski area. For the same reason the model's
+    snow depth is too low up there: the depth used is the larger of it and the snow that fell at the resort's
+    elevation over the last week, settled to 60 %."""
+    H = weather["hourly"]
+    get = lambda k, i: (H.get(k) or [None] * len(H["time"]))[i]  # noqa: E731
+    tz = spot_zone(resort)
+    lo, hi = resort.get("lifts", LIFTS)
+    sun = {}
+    daily = weather.get("daily") or {}
+    for rise, sset in zip(daily.get("sunrise", []), daily.get("sunset", [])):
+        sun[rise[:10]] = (parse_utc(rise), parse_utc(sset))
+    hours: list[SkiHour] = []
+    recent: list[tuple[datetime, float]] = []
+    for i, ts in enumerate(H["time"]):
+        t, p, w = get("temperature_2m", i), get("precipitation", i), get("wind_speed_10m", i)
+        if t is None or p is None or w is None:
+            continue
+        when = parse_utc(ts)
+        share = snow_share(t)
+        snow = p * share * snow_ratio(t)
+        recent = [(x, s) for x, s in recent if when - x < timedelta(days=7)] + [(when, snow)]
+        local = when.astimezone(tz)
+        rise, sset = sun.get(ts[:10], (None, None))
+        light = rise is None or (rise - timedelta(minutes=30) <= when and when + timedelta(minutes=30) <= sset)
+        depth = get("snow_depth", i)
+        feels = get("apparent_temperature", i)
+        gust = get("wind_gusts_10m", i)
+        hours.append(SkiHour(
+            time=when, temp_c=t, feels_c=t if feels is None else feels,
+            snow_cm=round(snow, 2), rain_mm=round(p * (1 - share), 2),
+            fresh_cm=round(sum(s for x, s in recent if when - x < timedelta(hours=24)), 1),
+            depth_cm=None if depth is None else round(max(depth * 100, 0.6 * sum(s for _, s in recent))), wind_kmh=w,
+            gust_kmh=w if gust is None else gust, wind_dir=get("wind_direction_10m", i) or 0,
+            lifts=lo <= local.hour < hi and light, weather=get("weather_code", i), cloud=get("cloud_cover", i),
+            vis_m=get("visibility", i), freezing_m=get("freezing_level_height", i),
+        ))
+    return hours
+
+
+def sky_of(h: SkiHour) -> str:
+    """'snow' while it is snowing, else 'fog' in poor visibility, else clear, partly or overcast."""
+    if h.snow_cm >= 0.3 or (h.weather in SNOW_CODES and h.rain_mm < 0.2):
+        return "snow"
+    if h.weather in (45, 48) or (h.vis_m is not None and h.vis_m < SKI["fog_vis"]):
+        return "fog"
+    cloud = h.cloud if h.cloud is not None else {0: 0, 1: 20, 2: 50}.get(h.weather, 90)
+    return "clear" if cloud < 30 else "partly" if cloud < 70 else "overcast"
+
+
+def score_ski(h: SkiHour) -> float:
+    """0-10 for one hour on the mountain: snow on the ground, new snow, sky, wind and temperature, then the vetoes."""
+    sky = sky_of(h)
+    thin = h.depth_cm is not None and h.depth_cm < SKI["thin"]
+    pts = 1.0 if h.depth_cm is None else _step(SKI["base"], h.depth_cm)
+    pts += _step(SKI["fresh"], h.fresh_cm)
+    pts += SKI["sky"][sky]
+    pts += _step(SKI["wind"], h.wind_kmh)
+    t = h.temp_c
+    if h.feels_c < -25:
+        pts -= 1.5                              # bitter: faces and fingers freeze on the lift
+    elif -12 <= t < -2:
+        pts += 1.0                              # cold enough to keep the snow dry
+    elif -2 <= t < 3:
+        pts += 0.5                              # soft
+    elif t >= 8:
+        pts -= 1.0                              # slush
+    if thin:
+        pts = min(pts, 3.5)                     # the model sees hardly any snow: only machine-made runs, if that
+    if h.rain_mm >= 1.0:
+        pts = min(pts, 1.5)
+    elif h.rain_mm >= 0.2:
+        pts = min(pts, 3.0)                     # rain on the snow
+    if h.gust_kmh >= SKI["gust_stop"]:
+        pts = min(pts, 1.0)
+    elif h.gust_kmh >= SKI["gust_hold"]:
+        pts = min(pts, 3.0)                     # the upper lifts are on hold
+    h.kind = ("rain" if h.rain_mm >= 0.2 else "storm" if h.gust_kmh >= SKI["gust_hold"] or h.wind_kmh >= 45
+              else "thin" if thin else "powder" if h.fresh_cm >= SKI["powder"] and sky != "fog" else sky)
+    return round(max(0.0, min(10.0, pts)), 1)
+
+
+SKY_WORDS = {"clear": "sunny", "partly": "partly sunny", "overcast": "cloudy", "snow": "snowing", "fog": "foggy"}
+
+
+def ski_conditions(h: SkiHour) -> str:
+    """The short part of a ski summary, e.g. '25 cm new snow · sunny · -6°C'."""
+    snow = (f"{h.fresh_cm:.0f} cm new snow" if h.fresh_cm >= 2
+            else f"{h.depth_cm:.0f} cm of snow" if h.depth_cm is not None else "no new snow")
+    return f"{snow} · {SKY_WORDS[sky_of(h)]} · {h.temp_c:.0f}°C"
+
+
+def find_ski_windows(hours: list[SkiHour], resort: dict, cfg: dict, now: datetime) -> list[Window]:
+    for h in hours:
+        h.score = score_ski(h)
+    runs, cur = [], []
+    for h in hours:
+        ok = h.lifts and h.score >= cfg["min_score"]
+        if ok and cur and h.time - cur[-1].time == timedelta(hours=1):
+            cur.append(h)
+        else:
+            if cur:
+                runs.append(cur)
+            cur = [h] if ok else []
+    if cur:
+        runs.append(cur)
+    tz = spot_zone(resort)
+    out = []
+    for run in runs:
+        if len(run) < cfg["min_window_hours"]:
+            continue
+        top = max(run, key=lambda x: x.score)
+        start, end = run[0].time, run[-1].time + timedelta(hours=1)
+        lead = (start - now).total_seconds() / 86400
+        conf = "high" if lead < 1.5 else "medium" if lead < 3 else "low"
+        lines = [f"Best {top.score:g}/10 at {top.time.astimezone(tz):%H:%M}. Forecast confidence: {conf}.", "",
+                 "Hour (local)  score  new snow  sky           temp   wind"]
+        for x in run:
+            lines.append(f"{x.time.astimezone(tz):%a %H:%M}    {x.score:>4g}   {x.fresh_cm:4.0f} cm   "
+                         f"{SKY_WORDS[sky_of(x)]:<12}  {x.temp_c:4.0f}°C  {x.wind_kmh:3.0f} km/h (g{x.gust_kmh:.0f})")
+        lines += ["", f"Weather at {resort['elev']} m. Snow depth and new snow are the weather model's numbers, "
+                  "not the resort's own snow report."]
+        if resort.get("notes"):
+            lines.append(f"Notes: {resort['notes']}")
+        lines.append(f"Generated {now:%Y-%m-%d %H:%M} UTC from Open-Meteo.")
+        out.append(Window(
+            uid=hashlib.sha1(f"{resort['id']}-{start:%Y%m%dT%H}".encode()).hexdigest()[:16] + "@surf-windows",
+            spot_id=resort["id"], spot_name=resort["name"], start=start.isoformat(), end=end.isoformat(),
+            best=top.score, summary=f"{label(top.score)} {resort['name']} {top.score:g}/10 · {ski_conditions(top)}",
+            description="\n".join(lines), conf=conf,
+        ))
+    return out
+
+
+def to_ski_data(cfg: dict, resort_hours: dict[str, tuple[dict, list[SkiHour]]], by_resort: dict[str, list[Window]],
+                now: datetime, previous: dict[str, dict] | None = None) -> str:
+    """docs/ski.js, the ski side of the page: window.SKI, shaped like window.SURF where it can be."""
+    epoch = lambda iso: int(datetime.fromisoformat(iso).timestamp())  # noqa: E731
+    today = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    fine_from, fine_to = today - timedelta(days=1), today + timedelta(days=cfg.get("hourly_days", cfg["forecast_days"]))
+    out = []
+    for rid, (r, all_hours) in resort_hours.items():
+        # like the surf data: hourly near today, then the best lift hour of each 3-hour block. Snow and rain are
+        # amounts, so a block carries the sum of its hours
+        blocks: dict = {}
+        for h in all_hours:
+            key = h.time if fine_from <= h.time < fine_to else (h.time.date(), h.time.hour // 3)
+            blocks.setdefault(key, []).append(h)
+        hours, snow, rain = [], [], []
+        for key in sorted(blocks, key=lambda k: blocks[k][0].time):
+            group = blocks[key]
+            hours.append(max(group, key=lambda h: (h.lifts, h.score)))
+            snow.append(sum(h.snow_cm for h in group))
+            rain.append(sum(h.rain_mm for h in group))
+        t0 = all_hours[0].time
+        offsets = [int((h.time - t0).total_seconds() // 3600) for h in hours]
+        d = {
+            "id": rid, "name": r["name"], "country": r["country"], "region": r.get("region", ""), "tz": r["tz"],
+            "lat": r["lat"], "lon": r["lon"], "base": r["base"], "top": r["top"], "elev": r["elev"],
+            "notes": r.get("notes"), "webcam": r.get("webcam"),
+            "t0": int(t0.timestamp()), "t": None if offsets == list(range(len(hours))) else offsets,
+            "score": [h.score for h in hours],
+            "sf": [round(x, 1) for x in snow], "rn": [round(x, 1) for x in rain],
+            "fr": [round(h.fresh_cm) for h in hours],
+            "sd": [None if h.depth_cm is None else round(h.depth_cm) for h in hours],
+            "tc": [round(h.temp_c, 1) for h in hours], "ta": [round(h.feels_c) for h in hours],
+            "ws": [round(h.wind_kmh) for h in hours], "wg": [round(h.gust_kmh) for h in hours],
+            "wdir": [round(h.wind_dir) for h in hours],
+            "wc": [-1 if h.weather is None else int(h.weather) for h in hours],
+            "cc": [None if h.cloud is None else round(h.cloud) for h in hours],
+            "vis": [None if h.vis_m is None else round(min(h.vis_m, 50000) / 1000, 1) for h in hours],
+            "fl": [None if h.freezing_m is None else int(round(h.freezing_m, -1)) for h in hours],
+            "kind": "".join(KIND_CHARS.get(h.kind, "o") for h in hours),
+            "day": "".join("1" if h.lifts else "0" for h in hours),
+            "windows": [{"s": epoch(w.start), "e": epoch(w.end), "best": w.best, "cond": conditions(w), "conf": w.conf}
+                        for w in by_resort.get(rid, [])],
+        }
+        out.append({k: v for k, v in d.items() if v is not None})
+    fresh = {d["id"]: d for d in out}
+    wanted = [r["id"] for r in cfg.get("resorts", []) if r.get("enabled", True)]
+    out = [d for d in (fresh.get(rid) or (previous or {}).get(rid) for rid in wanted) if d]
+    rules = {k: ([[None if lim == INF else lim, pts] for lim, pts in v] if isinstance(v, list) else v)
+             for k, v in SKI.items()}
+    data = {
+        "generated": int(now.timestamp()), "min_score": cfg["min_score"], "forecast_days": cfg["forecast_days"],
+        "min_window_hours": cfg["min_window_hours"], "past_days": cfg.get("past_days", 0),
+        "defaults": [], "feed_base": cfg.get("feed_base", ""), "countries": SKI_COUNTRIES,
+        "lifts": list(LIFTS), "rules": rules, "spots": out,
+    }
+    return "window.SKI=" + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n"
+
+
+def _read_previous(path: Path, prefix: str) -> dict[str, dict]:
+    """The spots of an earlier data file, by id; empty when there is none or it cannot be read."""
+    try:
+        text = path.read_text(encoding="utf-8")
+        return {d["id"]: d for d in json.loads(text[len(prefix):].rstrip().rstrip(";"))["spots"]}
+    except Exception:
+        return {}
+
+
+def run_ski(cfg: dict, now: datetime, fetch=fetch_resort, out_dir: Path = ROOT) -> dict[str, list[Window]]:
+    """Fetch every ski resort, write its feed docs/cal/<id>.ics and docs/ski.js. Never stops the surf side."""
+    global PAST_DAYS
+    PAST_DAYS = cfg.get("past_days", 0)
+    resorts = [r for r in cfg.get("resorts", []) if r.get("enabled", True)]
+    if not resorts:
+        return {}
+    started = time.monotonic()
+    results, quota = _fetch_all(resorts, fetch, cfg)
+    resort_hours, by_resort = {}, {}
+    for r, hours, err in results:
+        if hours is None:
+            if err is not None:
+                print(f"[warn] {r['id']}: fetch failed: {err}", file=sys.stderr)
+            continue
+        by_resort[r["id"]] = find_ski_windows(hours, r, cfg, now)
+        resort_hours[r["id"]] = (r, hours)
+    print(f"fetched {len(resort_hours)} of {len(resorts)} ski resorts in {time.monotonic() - started:.0f} s"
+          + (" (API quota exhausted)" if quota else ""), flush=True)
+    if not resort_hours:
+        return {}
+    horizon = (now + timedelta(days=cfg.get("calendar_days", cfg["forecast_days"]))).isoformat()
+    cal = out_dir / "docs" / "cal"
+    cal.mkdir(parents=True, exist_ok=True)
+    site = cfg.get("feed_base", "")
+    for rid, (r, _) in resort_hours.items():
+        near = [w for w in by_resort[rid] if w.start < horizon and w.end > now.isoformat()]
+        (cal / f"{rid}.ics").write_text(to_ics(near, now, f"Ski: {r['name']}", r["tz"], site),
+                                        encoding="utf-8", newline="")
+    path = out_dir / "docs" / "ski.js"
+    path.write_text(to_ski_data(cfg, resort_hours, by_resort, now, _read_previous(path, "window.SKI=")),
+                    encoding="utf-8")
+    return by_resort
+
+
+def _fetch_all(items: list[dict], fetch, cfg: dict):
+    """Fetch every item in parallel behind the shared rate limiter; once the quota is gone, skip the rest.
+
+    Returns ([(item, hours or None, error or None)], quota_exhausted)."""
+    stop = threading.Event()
+
+    def load(item: dict):
+        if stop.is_set():
+            return item, None, None
+        try:
+            hours = fetch(item, cfg["forecast_days"])
+            if not hours:
+                raise ValueError("no data at this point")
+            return item, hours, None
+        except QuotaExhausted as e:
+            stop.set()
+            return item, None, e
+        except Exception as e:       # this one keeps its old feed if the API hiccups
+            return item, None, e
+
+    with ThreadPoolExecutor(max_workers=cfg.get("fetch_workers", 6)) as pool:
+        results = list(pool.map(load, items))
+    return results, stop.is_set()
 
 
 # --------------------------------------------------------------------------- main
@@ -619,25 +945,8 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
     spots = [s for s in cfg["spots"] if s.get("enabled", True)]
     # the main feed (surf.ics), its history and FORECAST.md cover these; every spot still gets its own feed
     cal_ids = set(cfg.get("calendar_spots") or [s["id"] for s in spots])
-    stop = threading.Event()         # set when the API quota is gone: the spots not yet asked for are skipped
-
-    def load(spot: dict):
-        if stop.is_set():
-            return spot, None, None
-        try:
-            hours = fetch(spot, cfg["forecast_days"])
-            if not hours:
-                raise ValueError("no wave data at this point")
-            return spot, hours, None
-        except QuotaExhausted as e:
-            stop.set()
-            return spot, None, e
-        except Exception as e:       # this spot keeps its old feed if the API hiccups
-            return spot, None, e
-
     started = time.monotonic()
-    with ThreadPoolExecutor(max_workers=cfg.get("fetch_workers", 6)) as pool:
-        results = list(pool.map(load, spots))
+    results, quota = _fetch_all(spots, fetch, cfg)     # once the API quota is gone, the spots not yet asked are skipped
     spot_hours: dict[str, tuple[dict, list[Hour]]] = {}
     by_spot: dict[str, list[Window]] = {}
     for spot, hours, err in results:
@@ -647,7 +956,7 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
             continue
         by_spot[spot["id"]] = find_windows(hours, spot, cfg, now)
         spot_hours[spot["id"]] = (spot, hours)
-    if stop.is_set():
+    if quota:
         print(f"[warn] API quota exhausted: only {len(spot_hours)} of {len(spots)} spots fetched; "
               "the others keep their old feeds", file=sys.stderr)
     print(f"fetched {len(spot_hours)} of {len(spots)} spots in {time.monotonic() - started:.0f} s", flush=True)
@@ -674,25 +983,24 @@ def run(cfg: dict, now: datetime, fetch=fetch_spot, out_dir: Path = ROOT) -> lis
         (cal / f"{sid}.ics").write_text(
             to_ics(feed, now, f"Surf: {spot['name']}", spot.get("tz", "Europe/Amsterdam"), site),
             encoding="utf-8", newline="")
-    known = {s["id"] for s in spots}
+    known = {s["id"] for s in spots} | {r["id"] for r in cfg.get("resorts", []) if r.get("enabled", True)}
     for stale in cal.glob("*.ics"):
         if stale.stem not in known:
             stale.unlink()
     (out_dir / "FORECAST.md").write_text(
         to_markdown({sid: v for sid, v in spot_hours.items() if sid in cal_ids}, windows, now, len(spot_hours))
         + "\n", encoding="utf-8")
-    data_path, previous = docs / "data.js", {}
-    if data_path.exists():
-        try:
-            text = data_path.read_text(encoding="utf-8")
-            previous = {d["id"]: d for d in json.loads(text[len("window.SURF="):].rstrip().rstrip(";"))["spots"]}
-        except Exception:      # an unreadable old file only means there is nothing to carry over
-            previous = {}
-    data_path.write_text(to_data(cfg, spot_hours, by_spot, now, previous), encoding="utf-8")
+    data_path = docs / "data.js"
+    data_path.write_text(to_data(cfg, spot_hours, by_spot, now, _read_previous(data_path, "window.SURF=")),
+                         encoding="utf-8")
     print(f"{sum(map(len, by_spot.values()))} window(s) at {len(fresh)} of {len(spots)} spots; "
           f"{len(windows)} in the main feed.")
     return windows
 
 
 if __name__ == "__main__":
-    run(load_config(), datetime.now(UTC).replace(minute=0, second=0, microsecond=0))
+    config, started_at = load_config(), datetime.now(UTC).replace(minute=0, second=0, microsecond=0)
+    try:
+        run(config, started_at)
+    finally:                   # the ski side runs even when the surf side gave up
+        run_ski(config, started_at)

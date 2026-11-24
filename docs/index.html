@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Surf windows</title>
+<title>Fish Forecast</title>
 <meta name="description" content="When your surf spots are worth the trip: hourly scores, waves, period and wind for the Netherlands, Portugal, Morocco and Türkiye.">
 <meta name="theme-color" content="#DDE4E3">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌊%3C/text%3E%3C/svg%3E">
@@ -11,8 +11,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
 <style>
-:root{--fog:#DDE4E3;--sea:#18343F;--deep:#0F252D;--foam:#E8F0EE;
---flat:#5C7C83;--ok:#5FB3A1;--good:#B5EBD8;--fire:#FF7A2B;--bad:#D98B73;--win:rgba(255,122,43,.22)}
+@property --fog{syntax:'<color>';inherits:true;initial-value:#DDE4E3}
+@property --sea{syntax:'<color>';inherits:true;initial-value:#18343F}
+@property --deep{syntax:'<color>';inherits:true;initial-value:#0F252D}
+@property --foam{syntax:'<color>';inherits:true;initial-value:#E8F0EE}
+@property --flat{syntax:'<color>';inherits:true;initial-value:#5C7C83}
+@property --ok{syntax:'<color>';inherits:true;initial-value:#5FB3A1}
+@property --good{syntax:'<color>';inherits:true;initial-value:#B5EBD8}
+@property --fire{syntax:'<color>';inherits:true;initial-value:#FF7A2B}
+@property --bad{syntax:'<color>';inherits:true;initial-value:#D98B73}
+@property --ink{syntax:'<color>';inherits:true;initial-value:#12303A}
+@property --rl{syntax:'<color>';inherits:true;initial-value:#17323C}
+@property --muted-d{syntax:'<color>';inherits:true;initial-value:#9BB3B4}
+@property --muted-l{syntax:'<color>';inherits:true;initial-value:#4F666C}
+@property --fire-ink{syntax:'<color>';inherits:true;initial-value:#BF4A0A}
+@property --good-ink{syntax:'<color>';inherits:true;initial-value:#1F6F7A}
+@property --ok-ink{syntax:'<color>';inherits:true;initial-value:#2C7D70}
+@property --dot{syntax:'<color>';inherits:true;initial-value:#D9601A}
+body{--fog:#DDE4E3;--sea:#18343F;--deep:#0F252D;--foam:#E8F0EE;--flat:#5C7C83;--ok:#5FB3A1;--good:#B5EBD8;--fire:#FF7A2B;--bad:#D98B73;--ink:#12303A;--rl:#17323C;--muted-d:#9BB3B4;--muted-l:#4F666C;--fire-ink:#BF4A0A;--good-ink:#1F6F7A;--ok-ink:#2C7D70;--dot:#D9601A;
+--win:color-mix(in srgb,var(--fire) 22%,transparent);
+transition:--fog .9s ease,--sea .9s ease,--deep .9s ease,--foam .9s ease,--flat .9s ease,--ok .9s ease,--good .9s ease,--fire .9s ease,--bad .9s ease,--ink .9s ease,--rl .9s ease,--muted-d .9s ease,--muted-l .9s ease,--fire-ink .9s ease,--good-ink .9s ease,--ok-ink .9s ease,--dot .9s ease}
+body.ski{--fog:#E3E9F2;--sea:#1D2943;--deep:#111A2E;--foam:#EEF2FA;--flat:#66738D;--ok:#79A6E3;--good:#CFE1FF;--fire:#FF6B8B;--bad:#E58872;--ink:#17213A;--rl:#19233D;--muted-d:#A1AECB;--muted-l:#4E5B78;--fire-ink:#C12E5A;--good-ink:#2B58A3;--ok-ink:#3D6CAE;--dot:#E0436E}
+body.notrans{transition:none}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--sea);color:var(--sea);
@@ -27,8 +47,8 @@ a{color:inherit;text-underline-offset:.2em}
 
 /* ---- left: summary and spot list (light) */
 .side{background:var(--fog);display:flex;flex-direction:column;min-width:0;
---line:rgba(24,52,63,.16);--muted:#4F666C}
-.side .band-fire,.dlg .band-fire{color:#BF4A0A} .side .band-good{color:#1F6F7A} .side .band-ok{color:#2C7D70}
+--line:color-mix(in srgb,var(--sea) 16%,transparent);--muted:var(--muted-l)}
+.side .band-fire{color:var(--fire-ink)} .side .band-good{color:var(--good-ink)} .side .band-ok{color:var(--ok-ink)}
 .pad{padding:0 1.25rem}
 .top{display:flex;align-items:center;gap:.5rem;font-size:.875rem;color:var(--muted);margin:1.1rem 0 0}
 .top strong{font-weight:700;font-stretch:112%;color:var(--sea);font-size:1rem}
@@ -36,9 +56,6 @@ a{color:inherit;text-underline-offset:.2em}
 .verdict{font-weight:800;font-stretch:125%;font-size:1.9rem;line-height:1.06;letter-spacing:-.015em;
 margin:1.5rem 0 .75rem;text-wrap:balance;overflow-wrap:anywhere}
 .sub{margin:0}
-.cta{display:inline-block;margin-top:1.25rem;padding:.65rem 1.1rem;background:var(--sea);color:var(--foam);
-border:0;border-radius:.4rem;font-weight:600;cursor:pointer}
-.cta:hover{background:var(--deep)}
 .srow{display:flex;align-items:center;gap:.3rem;margin-top:1.5rem;scroll-margin-top:1rem}
 .srow .search{flex:1;min-width:0}
 .search{display:flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.6);border:1px solid var(--line);
@@ -56,13 +73,13 @@ background:none;color:var(--muted);cursor:pointer}
 .list{list-style:none;margin:.8rem 0 0;padding:0;border-top:1px solid var(--line)}
 .item{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;border-bottom:1px solid var(--line)}
 .item{border-left:3px solid transparent}
-.item.sel{background:rgba(24,52,63,.07);border-left-color:var(--sea)}
+.item.sel{background:color-mix(in srgb,var(--sea) 7%,transparent);border-left-color:var(--sea)}
 .pick{border:0;background:none;text-align:left;padding:.55rem .5rem .55rem calc(1.25rem - 3px);cursor:pointer;min-width:0}
 .pick span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pick .pn{font-weight:600}
 .pick .pn small{font-weight:500;color:var(--muted);font-size:.75rem;margin-left:.45rem}
 .pick .pw{color:var(--muted);font-size:.8125rem}
-.dot{display:inline-block;width:.45rem;height:.45rem;border-radius:50%;background:#D9601A;margin-right:.4rem;vertical-align:.08em}
+.dot{display:inline-block;width:.45rem;height:.45rem;border-radius:50%;background:var(--dot);margin-right:.4rem;vertical-align:.08em}
 .pick:hover .pn{text-decoration:underline;text-underline-offset:.2em}
 .item > b{font-size:1.35rem;line-height:1;padding:0 .2rem}
 .star{border:0;background:none;cursor:pointer;width:2.5rem;height:2.6rem;display:grid;place-items:center;
@@ -88,7 +105,7 @@ font-weight:600;font-size:.875rem;cursor:pointer}
 
 /* ---- right: the selected spot (dark) */
 .detail{background:linear-gradient(var(--sea),var(--deep));color:var(--foam);min-width:0;padding-bottom:4rem;
---line:rgba(232,240,238,.16);--muted:#9BB3B4;--track:rgba(232,240,238,.07)}
+--line:color-mix(in srgb,var(--foam) 16%,transparent);--muted:var(--muted-d);--track:color-mix(in srgb,var(--foam) 7%,transparent)}
 .wrap{max-width:58rem;margin:0 auto;padding:0 1.25rem}
 .dh{display:flex;align-items:center;gap:.6rem 1rem;flex-wrap:wrap;padding-top:1.4rem}
 .dh h2{font-weight:800;font-stretch:125%;font-size:clamp(1.6rem,2.6vw,2.2rem);line-height:1.05;letter-spacing:-.01em;margin:0}
@@ -108,7 +125,7 @@ margin:1.75rem 0 .4rem;text-wrap:balance}
 .tiles img{position:absolute;width:256px;height:256px}
 .sketch{position:absolute;inset:0;width:100%;height:100%}
 .sketch text{font:600 12px Archivo,system-ui,sans-serif;fill:#5F7A80;text-anchor:middle}
-.arm{position:absolute;left:50%;top:50%;width:0;height:0;color:#12303A;--w:4px;--head:14px;--tip:17px;--tail:120px;
+.arm{position:absolute;left:50%;top:50%;width:0;height:0;color:var(--ink);--w:4px;--head:14px;--tip:17px;--tail:120px;
 transition:transform .65s cubic-bezier(.3,.7,.2,1),opacity .3s ease}
 .a-wind{color:var(--c,#5B6B73);--w:3px;--head:11px}
 .shaft{position:absolute;left:calc(var(--w) / -2);bottom:var(--tip);width:var(--w);height:calc(var(--tail) - var(--tip));
@@ -118,17 +135,17 @@ border:solid currentColor;border-width:0 var(--w) var(--w) 0;border-radius:1px;t
 .a-wind .shaft{background:repeating-linear-gradient(to bottom,currentColor 0 7px,transparent 7px 11px);
 -webkit-mask-image:linear-gradient(to bottom,transparent,#000 28%);mask-image:linear-gradient(to bottom,transparent,#000 28%)}
 .pin{position:absolute;left:50%;top:50%;width:16px;height:16px;margin:-8px 0 0 -8px;box-sizing:border-box;border-radius:50%;
-background:#FF7A2B;border:3px solid #fff;box-shadow:0 1px 4px rgba(15,37,45,.45)}
+background:var(--fire);border:3px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.35)}
 .tag{position:absolute;left:0;top:0;display:flex;align-items:center;gap:.35rem;white-space:nowrap;background:rgba(255,255,255,.96);
-color:#12303A;font-size:.78rem;line-height:1;padding:.36rem .62rem;border-radius:999px;box-shadow:0 1px 5px rgba(15,37,45,.3);
+color:var(--ink);font-size:.78rem;line-height:1;padding:.36rem .62rem;border-radius:999px;box-shadow:0 1px 4px rgba(0,0,0,.22);
 transition:transform .65s cubic-bezier(.3,.7,.2,1),opacity .3s ease}
 .tag i{width:.5rem;height:.5rem;border-radius:50%;flex:none}
-.tag span{color:#4F666C}
+.tag span{color:var(--muted-l)}
 .tag b{font-weight:700}
 .map.noanim .arm,.map.noanim .tag,.map.noanim .shaft{transition:none}
-.north{position:absolute;left:.6rem;top:.55rem;font-size:.68rem;font-weight:700;line-height:1;color:#12303A;text-align:center}
-.north::before{content:"";display:block;margin:0 auto .15rem;width:0;border:solid transparent;border-width:0 .26rem .42rem;border-bottom-color:#12303A}
-.attr{position:absolute;bottom:.25rem;right:.3rem;z-index:1;font-size:.6rem;color:#18343F;background:rgba(255,255,255,.75);padding:0 .3rem;border-radius:3px}
+.north{position:absolute;left:.6rem;top:.55rem;font-size:.68rem;font-weight:700;line-height:1;color:var(--ink);text-align:center}
+.north::before{content:"";display:block;margin:0 auto .15rem;width:0;border:solid transparent;border-width:0 .26rem .42rem;border-bottom-color:var(--ink)}
+.attr{position:absolute;bottom:.25rem;right:.3rem;z-index:1;font-size:.6rem;color:var(--sea);background:rgba(255,255,255,.75);padding:0 .3rem;border-radius:3px}
 .attr a{color:inherit}
 /* fixed to the map's height, so the charts below never move while the text changes with the hovered hour */
 .winfo{height:22rem;overflow:hidden}
@@ -141,10 +158,10 @@ transition:transform .65s cubic-bezier(.3,.7,.2,1),opacity .3s ease}
 .band-bg.fire{background:var(--fire)} .band-bg.good{background:var(--good)} .band-bg.ok{background:var(--ok)} .band-bg.flat{background:var(--flat)}
 
 .scene{position:relative;margin-top:1.5rem;border-radius:.75rem;overflow:hidden;color:var(--sea);
-padding:1.3rem 1.4rem 5.6rem;background:linear-gradient(#C9D3D3,#DDE4E3)}
+padding:1.3rem 1.4rem 5.6rem;background:linear-gradient(#C9D3D3,var(--fog))}
 .sk{position:absolute;inset:0;opacity:0;transition:opacity .7s ease}
 .sk.s-sun{background:linear-gradient(#BFDCE4,#E8EDE5)}
-.sk.s-cloud{background:linear-gradient(#C3CDCD,#DDE4E3)}
+.sk.s-cloud{background:linear-gradient(#C3CDCD,var(--fog))}
 .sk.s-rain{background:linear-gradient(#98A8AC,#C2CCCC)}
 .bg-sun .s-sun,.bg-cloud .s-cloud,.bg-rain .s-rain{opacity:1}
 .sun{position:absolute;right:1.4rem;top:1rem;width:4.2rem;height:4.2rem;
@@ -168,7 +185,7 @@ animation:sway 7s ease-in-out infinite alternate}
 .rain{position:absolute;inset:0;opacity:0;transition:opacity .6s ease;pointer-events:none}
 .is-rain .rain{opacity:1}
 .rain i{position:absolute;top:-2rem;width:1.5px;height:var(--l);border-radius:1px;
-background:linear-gradient(rgba(24,52,63,0),rgba(24,52,63,var(--o)));
+background:linear-gradient(color-mix(in srgb,var(--sea) 0%,transparent),rgba(24,52,63,var(--o)));
 transform:rotate(11deg);animation:drop var(--t) linear var(--d) infinite paused}
 .is-rain .rain i{animation-play-state:running}
 @keyframes drop{to{transform:translate(-4.6rem,24rem) rotate(11deg)}}
@@ -198,8 +215,8 @@ background:none;font-size:.72rem;font-weight:700;line-height:1;cursor:pointer;di
 .days{border-top:1px solid var(--line)}
 .dayrow{width:100%;border:0;border-bottom:1px solid var(--line);background:none;text-align:left;cursor:pointer;
 padding-top:.65rem;padding-bottom:.65rem;align-items:stretch;--wh:1.1rem;border-left:3px solid transparent}
-.dayrow:hover{background:rgba(232,240,238,.04)}
-.dayrow.on{background:rgba(232,240,238,.07);border-left-color:var(--foam)}
+.dayrow:hover{background:color-mix(in srgb,var(--foam) 4%,transparent)}
+.dayrow.on{background:color-mix(in srgb,var(--foam) 7%,transparent);border-left-color:var(--foam)}
 .dname{display:grid;grid-template-rows:1fr var(--wh);font-weight:600;font-size:.9375rem;line-height:1.2}
 .dname > span{display:flex;align-items:center;gap:.4rem}
 .dname svg{width:.5rem;height:.5rem;flex:none;fill:var(--muted);transition:transform .2s ease}
@@ -230,12 +247,12 @@ font-size:.6875rem;line-height:1;color:var(--muted)}
 .w.offshore svg,.w.glassy svg{fill:var(--ok)} .w.onshore svg{fill:var(--bad)}
 .now{position:absolute;top:-.2rem;bottom:calc(var(--wh) - .15rem);left:calc(var(--x) * 100%);width:2px;
 background:var(--foam);border-radius:1px;pointer-events:none}
-.hourly{padding:0 .75rem;border-bottom:1px solid var(--line);border-left:3px solid var(--foam);background:rgba(232,240,238,.07)}
+.hourly{padding:0 .75rem;border-bottom:1px solid var(--line);border-left:3px solid var(--foam);background:color-mix(in srgb,var(--foam) 7%,transparent)}
 .hours{width:100%;border-collapse:collapse;font-size:.875rem}
 .hours th{font-weight:500;color:var(--muted);text-align:left;padding:.25rem .5rem .25rem 0}
 .hours td{padding:.35rem .5rem .35rem 0;border-top:1px solid var(--line);vertical-align:middle}
 .hours td.num{font-size:1rem}
-.hours tr.win td{background:rgba(255,122,43,.1)}
+.hours tr.win td{background:color-mix(in srgb,var(--fire) 10%,transparent)}
 .hours td:first-child,.hours th:first-child{padding-left:.5rem}
 .arr{width:.8rem;height:.8rem;vertical-align:-.08em;fill:var(--foam);margin-right:.25rem}
 .dim{color:var(--muted)}
@@ -243,9 +260,9 @@ background:var(--foam);border-radius:1px;pointer-events:none}
 .detail{overflow-x:clip}
 /* two bars stay in reach while you scroll a spot: its name, then the days */
 .spotbar{position:sticky;top:0;z-index:7;height:0}
-.sb{position:absolute;left:0;right:0;top:0;height:2.6rem;display:flex;align-items:center;gap:.6rem;background:#18343F;
+.sb{position:absolute;left:0;right:0;top:0;height:2.6rem;display:flex;align-items:center;gap:.6rem;background:var(--sea);
 opacity:0;visibility:hidden;transform:translateY(-35%);transition:transform .22s ease,opacity .22s ease,visibility .22s}
-.sb::before,.daybar::before{content:"";position:absolute;top:0;bottom:0;left:-100vw;right:-100vw;background:#18343F;z-index:-1}
+.sb::before,.daybar::before{content:"";position:absolute;top:0;bottom:0;left:-100vw;right:-100vw;background:var(--sea);z-index:-1}
 .spotbar.stuck .sb{opacity:1;visibility:visible;transform:none}
 .sbn{border:0;background:none;color:var(--foam);padding:0;min-width:0;cursor:pointer;font-weight:800;
 font-stretch:112%;font-size:1.05rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -253,28 +270,28 @@ font-stretch:112%;font-size:1.05rem;white-space:nowrap;overflow:hidden;text-over
 .sb small{font-size:.7em;font-weight:500;color:var(--muted)}
 .sb .star{margin:0;width:2.2rem;height:2.2rem;color:var(--muted)}
 .sb .star[aria-pressed=true]{color:var(--foam)}
-.daybar{display:flex;align-items:stretch;gap:.4rem;margin-top:.7rem;position:sticky;top:2.6rem;z-index:6;padding:.4rem 0;background:#18343F}
+.daybar{display:flex;align-items:stretch;gap:.4rem;margin-top:.7rem;position:sticky;top:2.6rem;z-index:6;padding:.4rem 0;background:var(--sea)}
 .viewbar{display:flex;align-items:center;gap:.6rem;margin-top:1.4rem}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:.5rem;overflow:hidden}
 .seg button{border:0;background:none;padding:.32rem .85rem;font-size:.8125rem;font-weight:600;cursor:pointer;color:var(--muted)}
 .seg button[aria-pressed=true]{background:var(--foam);color:var(--sea)}
 .wgwrap{overflow-x:auto;margin-top:.6rem;border-radius:.5rem;background:var(--track);scrollbar-width:thin;scrollbar-color:var(--muted) transparent}
 .wg{border-collapse:separate;border-spacing:0;font-size:.74rem;line-height:1;font-variant-numeric:tabular-nums}
-.wg th,.wg td{height:1.6rem;min-width:2rem;padding:0 .12rem;text-align:center;white-space:nowrap;border-bottom:1px solid rgba(232,240,238,.07)}
+.wg th,.wg td{height:1.6rem;min-width:2rem;padding:0 .12rem;text-align:center;white-space:nowrap;border-bottom:1px solid color-mix(in srgb,var(--foam) 7%,transparent)}
 .wg td{font-stretch:87%;font-weight:600;cursor:pointer}
-.wg .rl{position:sticky;left:0;z-index:2;min-width:3.6rem;text-align:left;padding:0 .5rem;background:#17323C;color:var(--muted);
-font-weight:500;font-size:.7rem;border-right:1px solid rgba(232,240,238,.12)}
-.wg .wd0{text-align:left;padding-left:.45rem;font-weight:700;color:var(--foam);border-left:2px solid rgba(232,240,238,.35)}
+.wg .rl{position:sticky;left:0;z-index:2;min-width:3.6rem;text-align:left;padding:0 .5rem;background:var(--rl);color:var(--muted);
+font-weight:500;font-size:.7rem;border-right:1px solid color-mix(in srgb,var(--foam) 12%,transparent)}
+.wg .wd0{text-align:left;padding-left:.45rem;font-weight:700;color:var(--foam);border-left:2px solid color-mix(in srgb,var(--foam) 35%,transparent)}
 .wg .hh{color:var(--muted);font-weight:500;cursor:pointer}
 .wg .hh.win{color:var(--foam);border-bottom:3px solid var(--fire)}
 .wg .hh.nowc{background:var(--foam);color:var(--sea);font-weight:700}
 .wg .hh.selc{outline:2px solid var(--foam);outline-offset:-2px}
-.wg .d0{border-left:2px solid rgba(232,240,238,.35)}
+.wg .d0{border-left:2px solid color-mix(in srgb,var(--foam) 35%,transparent)}
 .wg .gone{opacity:.5}
 .wg .dimc{color:var(--muted);font-weight:500}
 .wg .sc.flat{background:rgba(92,124,131,.28);color:var(--muted)}
-.wg .sc.ok{background:var(--ok);color:#0F252D} .wg .sc.good{background:var(--good);color:#0F252D} .wg .sc.fire{background:var(--fire);color:#0F252D}
-.wg col.selc{background:rgba(232,240,238,.13)}
+.wg .sc.ok{background:var(--ok);color:var(--deep)} .wg .sc.good{background:var(--good);color:var(--deep)} .wg .sc.fire{background:var(--fire);color:var(--deep)}
+.wg col.selc{background:color-mix(in srgb,var(--foam) 13%,transparent)}
 .wg svg{width:.8rem;height:.8rem;vertical-align:middle;fill:var(--foam)}
 .wg .sky svg{width:1.05rem;height:1.05rem}
 .daytabs{display:flex;gap:.4rem;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}
@@ -289,7 +306,7 @@ font-weight:500;font-size:.7rem;border-right:1px solid rgba(232,240,238,.12)}
 .daytab.gone{opacity:.62}
 .daytab.gone.on{opacity:1}
 .daytab.today .dw{color:var(--foam);font-weight:700}
-.daytab.on .dw,.daytab.on small,.daytab.on.today .dw{color:#4F666C}
+.daytab.on .dw,.daytab.on small,.daytab.on.today .dw{color:var(--muted-l)}
 .panb{flex:none;width:2.1rem;border:1px solid var(--line);border-radius:.5rem;background:none;cursor:pointer;font-size:1.2rem;line-height:1}
 .panb:hover{border-color:var(--muted)}
 .daytab{display:flex;align-items:baseline;gap:.5rem;border:1px solid var(--line);background:none;border-radius:.5rem;
@@ -336,7 +353,7 @@ padding:.2rem .35rem;border-radius:3px;white-space:nowrap;pointer-events:none;z-
 .hl{position:absolute;left:0;right:0;border-top:1px dashed var(--foam);opacity:.55;pointer-events:none}
 .cp .hd small.live{color:var(--foam);font-weight:600}
 .tl{position:absolute;bottom:.25rem;transform:translateX(-50%);font-size:.625rem;font-weight:700;line-height:1;color:var(--foam);opacity:.85;pointer-events:none}
-.tip{position:absolute;z-index:5;pointer-events:none;background:#12303A;border:1px solid rgba(232,240,238,.18);
+.tip{position:absolute;z-index:5;pointer-events:none;background:var(--ink);border:1px solid color-mix(in srgb,var(--foam) 18%,transparent);
 border-radius:.5rem;padding:.5rem .65rem;font-size:.8125rem;line-height:1.5;white-space:nowrap;box-shadow:0 .5rem 1.5rem rgba(0,0,0,.4)}
 .tip b{display:block}
 .tip span{color:var(--muted);display:inline-block;min-width:3.2rem}
@@ -347,12 +364,12 @@ details.hourly summary{cursor:pointer;padding:.6rem 0;font-weight:600}
 .tplot{position:relative;height:6.5rem;border-radius:4px;overflow:hidden;background:var(--track)}
 .tplot svg{display:block;width:100%;height:100%}
 .yl{position:absolute;right:.4rem;transform:translateY(-115%);font-size:.6875rem;line-height:1.3;color:var(--foam);
-background:rgba(15,37,45,.72);padding:0 .3rem;border-radius:2px;white-space:nowrap}
+background:color-mix(in srgb,var(--deep) 72%,transparent);padding:0 .3rem;border-radius:2px;white-space:nowrap}
 .yl.below{transform:translateY(15%)}
 .yl.good{color:var(--good)}
 .pk{position:absolute;width:7px;height:7px;margin:-3.5px 0 0 -3.5px;border-radius:50%;background:var(--foam)}
 .pk span{position:absolute;bottom:.55rem;left:50%;transform:translateX(-50%);font-size:.6875rem;line-height:1.3;
-font-weight:600;white-space:nowrap;background:rgba(15,37,45,.72);padding:0 .3rem;border-radius:2px}
+font-weight:600;white-space:nowrap;background:color-mix(in srgb,var(--deep) 72%,transparent);padding:0 .3rem;border-radius:2px}
 .pk.r span{transform:translateX(-92%)} .pk.l span{transform:translateX(-8%)}
 .arrows{position:relative;height:1.15rem}
 .arrows span{position:absolute;top:.35rem;transform:translateX(-50%);line-height:0}
@@ -362,9 +379,9 @@ footer{margin-top:3rem;font-size:.875rem;color:var(--muted);max-width:66ch}
 footer p{margin:.5rem 0}
 
 /* ---- guide cards (the i buttons) */
-.guide{position:fixed;z-index:30;max-height:calc(100vh - 16px);overflow-y:auto;background:#12303A;color:var(--foam);
-border:1px solid rgba(232,240,238,.14);border-radius:.75rem;box-shadow:0 1.5rem 4rem rgba(0,0,0,.5);
-animation:show .16s ease;--muted:#9BB3B4}
+.guide{position:fixed;z-index:30;max-height:calc(100vh - 16px);overflow-y:auto;background:var(--ink);color:var(--foam);
+border:1px solid color-mix(in srgb,var(--foam) 14%,transparent);border-radius:.75rem;box-shadow:0 1.5rem 4rem rgba(0,0,0,.5);
+animation:show .16s ease;--muted:var(--muted-d)}
 .g-anim{height:9.4rem;background:var(--deep)}
 .g-anim svg{display:block;width:100%;height:100%}
 .g-body{padding:.9rem 1rem 1rem}
@@ -378,10 +395,10 @@ animation:show .16s ease;--muted:#9BB3B4}
 .g-steps li{counter-increment:step;position:relative;padding-left:2rem;margin:.55rem 0;color:var(--muted)}
 .g-steps li b{color:var(--foam);font-weight:600}
 .g-steps li::before{content:counter(step);position:absolute;left:0;top:0;width:1.35rem;height:1.35rem;border-radius:50%;
-background:rgba(232,240,238,.12);color:var(--foam);font-size:.75rem;font-weight:600;display:grid;place-items:center}
-.g-watch{margin:.85rem 0 0;padding:.55rem .7rem;border-radius:.4rem;background:rgba(255,122,43,.12);font-size:.82rem;line-height:1.45}
+background:color-mix(in srgb,var(--foam) 12%,transparent);color:var(--foam);font-size:.75rem;font-weight:600;display:grid;place-items:center}
+.g-watch{margin:.85rem 0 0;padding:.55rem .7rem;border-radius:.4rem;background:color-mix(in srgb,var(--fire) 12%,transparent);font-size:.82rem;line-height:1.45}
 .g-watch b{color:var(--fire);margin-right:.35rem}
-.ga-t{font-size:10px;fill:#9BB3B4;font-family:inherit}
+.ga-t{font-size:10px;fill:var(--muted-d);font-family:inherit}
 .ga-bar{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:ga-rise .5s cubic-bezier(.2,.8,.2,1) forwards}
 .ga-draw{fill:none;stroke-linecap:round;stroke-dasharray:900;stroke-dashoffset:900;animation:ga-draw 1.6s ease-out forwards}
 .ga-fade{opacity:0;animation:ga-in .6s ease forwards .9s}
@@ -390,43 +407,25 @@ background:rgba(232,240,238,.12);color:var(--foam);font-size:.75rem;font-weight:
 @keyframes ga-draw{to{stroke-dashoffset:0}}
 @keyframes ga-in{to{opacity:1}}
 
-/* ---- subscribe dialog: a fixed size; the two lists scroll inside it, the dialog itself never grows */
-.dlg{border:0;border-radius:.75rem;padding:0;width:min(48rem,calc(100% - 1.5rem));height:min(36rem,calc(100dvh - 2rem));
-max-height:none;overflow:hidden;background:var(--fog);color:var(--sea);box-shadow:0 1.5rem 4rem rgba(0,0,0,.35);
---line:rgba(24,52,63,.16);--muted:#4F666C}
-.dlg[open]{display:flex;flex-direction:column}
-.dlg::backdrop{background:rgba(15,37,45,.6)}
-.dlg-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;padding:1.1rem 1.25rem .9rem;margin:0;
-border-bottom:1px solid var(--line)}
-.dlg h2{outline:0;font-weight:800;font-stretch:112%;font-size:1.3rem;line-height:1.15;margin:0 0 .35rem}
-.dlg-head p{margin:0;font-size:.875rem;color:var(--muted);max-width:62ch}
-.dlg h3{font-weight:700;font-size:.9375rem;line-height:1.2;margin:.55rem 0 0}
+/* ---- a spot's own calendar: its links open under its name, no dialog */
 .x{border:0;background:none;font-size:1.6rem;line-height:1;cursor:pointer;padding:0 .3rem;color:var(--muted)}
-.dlg-cols{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
-.dlg-col{min-height:0;display:flex;flex-direction:column;padding:.9rem 1.25rem .6rem}
-.dlg-col + .dlg-col{border-left:1px solid var(--line)}
-.checks,.feeds{flex:1;min-height:0;overflow-y:auto;list-style:none;margin:.7rem 0 0;padding:0}
-.checks li + li{border-top:1px solid var(--line)}
-.checks label{display:flex;align-items:center;gap:.6rem;padding:.42rem .25rem;cursor:pointer}
-.checks input{width:1.05rem;height:1.05rem;accent-color:var(--sea);flex:none}
-.checks span{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.checks small{color:var(--muted);margin-left:auto;font-size:.8125rem;white-space:nowrap}
-.feeds li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.35rem .5rem;align-items:center;padding:.55rem 0;border-bottom:1px solid var(--line)}
-.feeds .fn{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.feeds .rm{border:0;background:none;color:var(--muted);cursor:pointer;font-size:1.25rem;line-height:1;padding:0 .2rem}
-.feeds .acts{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:.35rem}
-.btn{display:inline-block;border:1px solid var(--line);border-radius:.4rem;background:rgba(255,255,255,.5);
-padding:.25rem .6rem;font-size:.8125rem;font-weight:600;text-decoration:none;cursor:pointer}
-.btn:hover{border-color:var(--sea)}
-.dlg-foot{display:flex;align-items:center;gap:1rem;padding:.7rem 1.25rem;border-top:1px solid var(--line)}
-.fine{font-size:.8125rem;color:var(--muted);margin:0;flex:1}
-.cta.sm{margin:0;padding:.5rem 1.1rem}
-.link{border:0;background:none;padding:0;text-decoration:underline;text-underline-offset:.2em;cursor:pointer;color:var(--sea)}
+.dha{margin-left:auto;display:flex;flex-wrap:wrap;gap:.45rem}
+.dha .follow{margin-left:0}
+.follow[aria-expanded=true]{background:var(--foam);color:var(--sea);border-color:var(--foam)}
+.subrow{margin-top:.75rem;display:grid;gap:.5rem;justify-items:start;animation:show .2s ease}
+.subt{margin:0;font-size:.875rem;color:var(--muted);max-width:66ch}
+.subacts{display:flex;flex-wrap:wrap;gap:.4rem}
+.sbtn{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;background:none;color:var(--foam);
+padding:.38rem .9rem;font-size:.8125rem;font-weight:600;text-decoration:none;cursor:pointer}
+.sbtn:hover{border-color:var(--muted)}
+.sbtn.main{background:var(--foam);color:var(--sea);border-color:var(--foam)}
+.subl{margin:0;font-size:.75rem;color:var(--muted);overflow-wrap:anywhere}
+.subl code{font:inherit;color:var(--foam)}
 .srcbar{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem .6rem;margin-top:.8rem;font-size:.875rem}
 .srcbar label{font-weight:700}
-.srcbar select{font:inherit;font-size:.875rem;color:var(--foam);background:rgba(232,240,238,.08);border:1px solid var(--line);
+.srcbar select{font:inherit;font-size:.875rem;color:var(--foam);background:color-mix(in srgb,var(--foam) 8%,transparent);border:1px solid var(--line);
 border-radius:.4rem;padding:.3rem .5rem;max-width:100%}
-.srcbar option{color:#12303A;background:#fff}
+.srcbar option{color:var(--ink);background:#fff}
 .srcnote{color:var(--muted);font-size:.8125rem;flex-basis:100%}
 
 /* ---- phones: a menu button, the menu, and a way back up to the search */
@@ -436,9 +435,9 @@ border-radius:.4rem;padding:.3rem .5rem;max-width:100%}
 .burger svg,.sbs svg{width:1.35rem;height:1.35rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
 .sbs svg{width:1.15rem;height:1.15rem}
 .menu{position:fixed;inset:0 auto 0 0;width:min(20rem,86vw);height:100%;max-width:none;max-height:none;margin:0;border:0;padding:0;
-background:var(--deep);color:var(--foam);box-shadow:0 0 4rem rgba(0,0,0,.45);--muted:#9BB3B4;--line:rgba(232,240,238,.14)}
+background:var(--deep);color:var(--foam);box-shadow:.5rem 0 2.5rem rgba(0,0,0,.35);--muted:var(--muted-d);--line:color-mix(in srgb,var(--foam) 14%,transparent)}
 .menu[open]{display:flex;animation:menu-in .24s cubic-bezier(.2,.7,.2,1)}
-.menu::backdrop{background:rgba(15,37,45,.6);animation:show .2s ease}
+.menu::backdrop{background:color-mix(in srgb,var(--deep) 60%,transparent);animation:show .2s ease}
 @keyframes menu-in{from{transform:translateX(-100%)}}
 .menu-in{outline:0;flex:1;min-width:0;display:flex;flex-direction:column;padding:0 1.25rem 1.25rem;overflow-y:auto}
 .menu-top{display:flex;align-items:center;justify-content:space-between;height:3.6rem}
@@ -447,10 +446,64 @@ background:var(--deep);color:var(--foam);box-shadow:0 0 4rem rgba(0,0,0,.45);--m
 .mi{border:0;border-radius:.6rem;background:none;padding:.7rem .75rem .75rem;text-align:left;cursor:pointer;color:var(--muted)}
 .mi b{display:block;font-weight:800;font-stretch:125%;font-size:1.55rem;line-height:1.1;letter-spacing:-.01em;color:var(--foam)}
 .mi span{display:block;margin-top:.25rem;font-size:.875rem;line-height:1.35}
-.mi[aria-current]{background:rgba(232,240,238,.09)}
+.mi[aria-current]{background:color-mix(in srgb,var(--foam) 9%,transparent)}
 .ml{display:flex;align-items:center;gap:.55rem;margin-top:1rem;padding:1rem 0 0;border:0;border-top:1px solid var(--line);background:none;
 text-align:left;font-weight:600;cursor:pointer}
 .menu-upd{margin:auto 0 0;padding-top:1rem;font-size:.8125rem;color:var(--muted)}
+
+
+/* ---- surf or ski: one switch, and every colour on the page turns with it */
+.modes{position:relative;display:grid;grid-template-columns:1fr 1fr;margin-top:1.1rem;padding:3px;border-radius:999px;
+background:color-mix(in srgb,var(--sea) 7%,transparent);border:1px solid var(--line)}
+.modes::before{content:"";position:absolute;top:3px;bottom:3px;left:3px;width:calc(50% - 3px);border-radius:999px;background:var(--sea);
+transition:transform .5s cubic-bezier(.3,.7,.2,1)}
+body.ski .modes::before{transform:translateX(100%)}
+.modes button{position:relative;display:flex;align-items:center;justify-content:center;gap:.45rem;border:0;background:none;
+padding:.45rem .6rem;border-radius:999px;font-weight:700;font-size:.875rem;cursor:pointer;color:var(--muted);transition:color .4s ease}
+.modes button[aria-selected=true]{color:var(--foam)}
+.modes svg{width:1.15rem;height:1.15rem;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.modes svg .cap{fill:currentColor;stroke:none}
+#verdict,#sub,#tabs,#list,#sea,.detail .wrap{transition:opacity .35s ease}
+.switching #verdict,.switching #sub,.switching #tabs,.switching #list,.switching #sea,.switching .detail .wrap{opacity:0;transition-duration:.2s}
+body.ski .map{background:#E9EDF2}
+
+/* ---- the ski day card: mountains instead of waves, snow instead of rain, fog that drifts across the range */
+.ski-scene{padding-bottom:8.4rem}
+.ski-scene .sk.s-sun{background:linear-gradient(#A9C4EC,#EEF3FA)}
+.ski-scene .sk.s-cloud{background:linear-gradient(#C2CADA,#E6EAF1)}
+.ski-scene .sk.s-rain{background:linear-gradient(#8E99AE,#C7CEDB)}
+.sk.s-fog{background:linear-gradient(#D3D9E2,#ECEEF2)}
+.bg-fog .s-fog{opacity:1}
+.ski-scene .cloud{background:#F6F8FC}
+.ski-scene.is-rain .cloud{background:#8C97AB}
+.mtn{position:absolute;left:0;bottom:0;width:100%;height:8.6rem;display:block}
+.mtn .far{fill:#8C9DBE} .mtn .mid{fill:#51628B} .mtn .near{fill:#263250} .mtn .trees{fill:#1A243B}
+.mtn .snowcap{fill:#F6F8FC} .mtn .l2 .snowcap{fill:#E2E9F5} .mtn .shade{fill:#1D2943;opacity:.2}
+.mtn .cap{transform-box:view-box;transform-origin:0 0;transition:transform 1s cubic-bezier(.3,.7,.2,1)}
+.mtn .fogs{opacity:0;transition:opacity .9s ease}
+.is-fog .mtn .fogs{opacity:1} .is-mist .mtn .fogs{opacity:.5}
+.mtn .fog{fill:#F3F5F9;filter:url(#fogblur);animation:mist 10s ease-in-out infinite alternate}
+.mtn .f2{animation-duration:13s;animation-direction:alternate-reverse}
+@keyframes mist{from{transform:translateX(-90px)}to{transform:translateX(90px)}}
+.ski-scene .snow{position:absolute;inset:0;opacity:0;transition:opacity .7s ease;pointer-events:none;--w:-2.5rem;z-index:1}
+.is-snow .snow{opacity:1}
+.is-windy .snow{--w:-10rem}
+.snow i{position:absolute;top:-1rem;width:var(--s);height:var(--s);border-radius:50%;background:#fff;opacity:var(--o);
+animation:flake var(--t) linear var(--d) infinite paused}
+.is-snow .snow i{animation-play-state:running}
+@keyframes flake{to{transform:translate(var(--w),24rem)}}
+.ski-scene .rain{z-index:1}
+.ski-scene .say,.ski-scene .saymore{z-index:2}
+.entering .mtn .layer{animation:rise 1.1s cubic-bezier(.2,.7,.2,1) both}
+.entering .mtn .l2{animation-delay:.12s} .entering .mtn .l3{animation-delay:.24s}
+.entering .scene .sw{animation:rise 1.1s cubic-bezier(.2,.7,.2,1) both}
+
+/* ---- the charts: the day under the pointer stays lit inside each chart, the other days dim */
+.db{position:absolute;top:0;bottom:0;pointer-events:none;outline:100vmax solid color-mix(in srgb,var(--deep) 42%,transparent);
+border-left:1px solid color-mix(in srgb,var(--foam) 30%,transparent);border-right:1px solid color-mix(in srgb,var(--foam) 30%,transparent)}
+.charts.hovering .cdays .ld{opacity:.4}
+.charts.hovering .cdays .ld.hov{opacity:1}
+.daytab.hov{border-color:var(--foam)}
 
 @media (min-width:62rem){
  .page{grid-template-columns:clamp(22rem,30vw,27rem) minmax(0,1fr)}
@@ -499,7 +552,7 @@ text-align:left;font-weight:600;cursor:pointer}
  .cp .hd small.live{display:block}
  .wrap{display:flex;flex-direction:column}
  .where{display:contents}
- .dh{order:1;padding-top:1rem} .note{order:2} .srcbar{order:3} .scene{order:4} .map{order:5} .daybar{order:6}
+ .dh,.subrow{order:1} .dh{padding-top:1rem} .dha{margin-left:0} .note{order:2} .srcbar{order:3} .scene{order:4} .map{order:5} .daybar{order:6}
  .winfo{order:7} .viewbar{order:8} .charts,.wgwrap{order:9} details.hourly{order:10} footer{order:11} .spotbar{order:0}
  .viewbar{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--line)}
  .seg{flex:1;display:flex}
@@ -507,6 +560,7 @@ text-align:left;font-weight:600;cursor:pointer}
  .wgwrap{margin:.5rem -1.25rem 0;border-radius:0}
  .dh h2{font-size:1.5rem}
  .follow{padding:.25rem .65rem;font-size:.8125rem}
+ .ski-scene{padding-bottom:6.6rem} .mtn{height:6.8rem}
  .note{font-size:.8125rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
  .srcbar{margin-top:.5rem;flex-wrap:nowrap}
  .srcbar label{white-space:nowrap}
@@ -530,24 +584,15 @@ text-align:left;font-weight:600;cursor:pointer}
  .cp .hd{margin:.65rem 1.25rem .3rem}
  .cplot{height:4.9rem!important}
  .cplot[data-k=height]{height:8.5rem!important}
- .yt{right:auto;left:.3rem;background:rgba(15,37,45,.62);padding:.05rem .2rem;border-radius:2px}
+ .yt{right:auto;left:.3rem;background:color-mix(in srgb,var(--deep) 62%,transparent);padding:.05rem .2rem;border-radius:2px}
  details.hourly{margin-top:1rem}
  .verdict{font-size:1.5rem;margin-top:.9rem}
  .sub{font-size:.9375rem}
- .cta{margin-top:.9rem;padding:.55rem .9rem}
  /* phone: search first, the brand and the calendars move into the menu */
  .burger{display:grid}
  .srow{order:-1;margin-top:.5rem}
- .lead .top,.lead .cta{display:none}
+ .lead .top{display:none}
  .finding .lead{display:none}
- body:has(dialog[open]){overflow:hidden}
- .dlg{width:100%;height:100dvh;max-width:100%;max-height:100%;margin:0;border-radius:0}
- .dlg-head p{display:none}
- .dlg-cols{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) minmax(0,1fr)}
- .dlg-col + .dlg-col{border-left:0;border-top:1px solid var(--line)}
- .dlg-head{align-items:center;justify-content:flex-start;gap:.3rem;padding:.4rem 1.25rem}
- .dlg-head .x,.dlg-foot{display:none}
- .dlg h2{margin:0;font-size:1.2rem}
 }
 @media (prefers-reduced-motion:reduce){
  *{animation:none!important;transition:none!important}
@@ -559,12 +604,15 @@ text-align:left;font-weight:600;cursor:pointer}
 <div class="page">
   <aside class="side">
     <div class="pad lead">
-      <p class="top"><strong>Surf windows</strong>
+      <p class="top"><strong>Fish Forecast</strong>
         <button type="button" class="info" data-guide="page" aria-label="How this page works" aria-expanded="false">i</button>
         <span class="upd" id="updated"></span></p>
+      <div class="modes" id="modes" role="tablist" aria-label="Sport" hidden>
+        <button type="button" role="tab" data-mode="surf" aria-selected="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 10c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2M2 16c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2"/></svg>Surf</button>
+        <button type="button" role="tab" data-mode="ski" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20 9.5 7l4 6.5 2.5-3.5L22 20Z"/><path class="cap" d="M7.4 10.7 9.5 7l2.2 3.6-1.2-.6-1 1.1Z"/></svg>Ski &amp; snowboard</button>
+      </div>
       <h1 class="verdict" id="verdict">Loading the forecast.</h1>
       <p class="sub" id="sub"></p>
-      <button type="button" class="cta" id="open-sub">Subscribe to the calendar</button>
     </div>
     <div class="srow pad">
       <button type="button" class="burger" data-menu="open" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
@@ -581,39 +629,13 @@ text-align:left;font-weight:600;cursor:pointer}
 
 <div class="guide" id="guide" role="dialog" aria-label="Guide" hidden></div>
 
-<dialog class="dlg" id="dlg" aria-labelledby="dlg-t">
-  <form method="dialog" class="dlg-head">
-    <button type="button" class="burger" data-menu="open" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-    <div><h2 id="dlg-t" tabindex="-1" autofocus>Calendars for your spots</h2>
-      <p>Every spot is its own calendar. Tick the spots you want, then add each one to your calendar app. An event shows up
-        whenever a spot has a run of good daylight hours in the coming week.</p></div>
-    <button class="x" aria-label="Close">×</button>
-  </form>
-  <div class="dlg-cols">
-    <section class="dlg-col" aria-label="All spots">
-      <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-        <input id="dq" type="search" placeholder="Search spots" autocomplete="off" aria-label="Search spots to add"></label>
-      <ul class="checks" id="checks"></ul>
-    </section>
-    <section class="dlg-col" aria-labelledby="feeds-t">
-      <h3 id="feeds-t">Your calendars</h3>
-      <ul class="feeds" id="feeds"></ul>
-    </section>
-  </div>
-  <div class="dlg-foot">
-    <p class="fine">If the Google button fails, use Copy link and paste it in Google Calendar under Other calendars, +, From URL.
-      <span id="combined"></span></p>
-    <form method="dialog"><button class="cta sm">Done</button></form>
-  </div>
-</dialog>
-
 <dialog class="menu" id="menu" aria-label="Menu">
   <div class="menu-in" tabindex="-1" autofocus>
-    <div class="menu-top"><strong>Surf windows</strong>
+    <div class="menu-top"><strong>Fish Forecast</strong>
       <button type="button" class="x" data-menu="close" aria-label="Close the menu">×</button></div>
-    <nav aria-label="Pages">
-      <button type="button" class="mi" data-go="data"><b>Forecast</b><span>Score, waves and wind for every spot</span></button>
-      <button type="button" class="mi" data-go="cal"><b>Calendars</b><span>The good hours, sent to your calendar</span></button>
+    <nav aria-label="Sport">
+      <button type="button" class="mi" data-go="surf"><b>Surf</b><span>Waves, wind and tide</span></button>
+      <button type="button" class="mi" data-go="ski"><b>Ski &amp; snowboard</b><span>Snow, sun and wind</span></button>
     </nav>
     <button type="button" class="ml" data-go="guide"><span class="info" aria-hidden="true">i</span>How this page works</button>
     <p class="menu-upd" id="menu-upd"></p>
@@ -621,21 +643,22 @@ text-align:left;font-weight:600;cursor:pointer}
 </dialog>
 
 <script src="data.js"></script>
+<script src="ski.js"></script>
 <script>
 (() => {
 'use strict';
-const D = window.SURF;
+let D = window.SURF;
 const el = id => document.getElementById(id);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g,
   c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 if (!D || !D.spots || !D.spots.length) {
   el('verdict').textContent = 'No forecast yet.';
   el('sub').textContent = 'The forecast is rebuilt every 3 hours. Try again in a few minutes.';
-  el('open-sub').hidden = true;
   return;
 }
 
-const HOUR = 36e5, DAY = 864e5, NOW = Date.now(), MIN = D.min_score;
+const HOUR = 36e5, DAY = 864e5, NOW = Date.now();
+let MIN = D.min_score;
 const COMPASS = ['N', 'NNE', 'NE', 'ENE', 'E', 'ESE', 'SE', 'SSE', 'S', 'SSW', 'SW', 'WSW', 'W', 'WNW', 'NW', 'NNW'];
 const KIND = {o: 'offshore', n: 'onshore', c: 'cross', g: 'glassy'};
 const mod = d => ((d % 360) + 360) % 360;
@@ -705,6 +728,7 @@ function summarize(s) {      // the spot's best coming hour and next window, fro
   s.best = maxBy(ahead.length ? ahead : light.length ? light : s.hrs, h => h.score);
   s.next = s.wins.filter(w => w.e > NOW).sort((a, b) => a.s - b.s)[0] || null;
 }
+function prepSurf(D) {
 const byId = {};
 D.spots.forEach(s => {
   byId[s.id] = s;
@@ -733,8 +757,11 @@ D.spots.forEach(s => {
   summarize(s);
   s.norm = norm(s.name + ' ' + (s.region || '') + ' ' + (D.countries[s.country] || s.country));
 });
-const countries = Object.keys(D.countries).filter(c => D.spots.some(s => s.country === c))
+return byId;
+}
+const countriesOf = D => Object.keys(D.countries).filter(c => D.spots.some(s => s.country === c))
   .concat([...new Set(D.spots.map(s => s.country))].filter(c => !D.countries[c]));
+let byId = prepSurf(D), countries = countriesOf(D);
 const countryName = c => D.countries[c] || c;
 const inWin = (s, ms) => s.wins.some(w => ms >= w.s && ms < w.e);
 const pushWord = en => en < 2 ? 'almost no push' : en < 6 ? 'weak' : en < 15 ? 'a decent push' : en < 40 ? 'plenty of push' : 'a lot of power';
@@ -770,7 +797,7 @@ function getDays(s) {
 }
 
 /* ---------- state */
-const KEY = 'surfwindows.spots';
+let KEY = 'surfwindows.spots';
 function loadFavs() {
   try {
     const v = JSON.parse(localStorage.getItem(KEY));
@@ -778,7 +805,7 @@ function loadFavs() {
   } catch (e) { /* private mode or bad data: fall through to the defaults */ }
   return new Set((D.defaults || []).filter(id => byId[id]));
 }
-const favs = loadFavs();
+let favs = loadFavs();
 const saveFavs = () => { try { localStorage.setItem(KEY, JSON.stringify([...favs])); } catch (e) { /* not fatal */ } };
 function readHash() {
   const o = {};
@@ -788,11 +815,61 @@ function readHash() {
 const rank = s => (s.next ? 100 + s.next.best : s.best.score);
 const hash = readHash();
 const mine = () => D.spots.filter(s => favs.has(s.id));
+/* ---------- two sides to the page, surf and ski: the functions are shared, the data, favourites and colours swap */
+const SKI_KIND = {r: 'rain', w: 'storm', t: 'thin', p: 'powder', s: 'snow', f: 'fog', c: 'clear', h: 'partly', o: 'overcast'};
+function prepSki(K) {
+  const by = {};
+  K.spots.forEach(s => {
+    s.ski = true;
+    by[s.id] = s;
+    const n = s.score.length, t0 = s.t0 * 1000, at = (a, i, d) => (a && a[i] != null ? a[i] : d);
+    s.hrs = [];
+    for (let i = 0; i < n; i++) s.hrs.push({
+      ms: t0 + (s.t ? s.t[i] : i) * HOUR, score: s.score[i], day: s.day[i] === '1', kind: SKI_KIND[s.kind[i]] || 'overcast',
+      sf: s.sf[i], rn: s.rn[i], fr: s.fr[i], sd: at(s.sd, i, null), tc: s.tc[i], ta: s.ta[i], ws: s.ws[i], wg: s.wg[i],
+      wdir: s.wdir[i], wc: at(s.wc, i, -1), cc: at(s.cc, i, null), vis: at(s.vis, i, null), fl: at(s.fl, i, null),
+    });
+    s.hrs.forEach((h, i) => {
+      const b = s.hrs[i + 1];
+      h.e = b ? Math.min(b.ms, h.ms + 3 * HOUR) : h.ms + HOUR;      // later days are 3-hourly
+      h.i = i;
+    });
+    s.wins = s.baseWins = (s.windows || []).map(w => ({s: w.s * 1000, e: w.e * 1000, best: w.best, cond: w.cond, conf: w.conf}));
+    summarize(s);
+    s.norm = norm(s.name + ' ' + (s.region || '') + ' ' + (K.countries[s.country] || s.country));
+  });
+  return by;
+}
+const MODE_KEY = 'surfwindows.mode';
+let MODE = 'surf';
+const worlds = {surf: {D, key: KEY, byId, favs}};
+if (window.SKI && window.SKI.spots && window.SKI.spots.length) worlds.ski = {D: window.SKI, key: 'surfwindows.skispots'};
+function enterWorld(m) {
+  const w = worlds[m];
+  MODE = m;
+  D = w.D;
+  MIN = D.min_score;
+  KEY = w.key;
+  if (!w.byId) w.byId = m === 'ski' ? prepSki(D) : prepSurf(D);
+  byId = w.byId;
+  countries = countriesOf(D);
+  if (!w.favs) w.favs = loadFavs();
+  favs = w.favs;
+  document.body.classList.toggle('ski', m === 'ski');
+}
+let startMode = 'surf';
+try { if (localStorage.getItem(MODE_KEY) === 'ski') startMode = 'ski'; } catch (e) { /* private mode: surf */ }
+if (hash.mode === 'surf' || hash.mode === 'ski') startMode = hash.mode;
+if (hash.spot) startMode = worlds.ski && worlds.ski.D.spots.some(s => s.id === hash.spot) ? 'ski' : 'surf';   // a calendar link opens its own side
+if (!worlds.ski) startMode = 'surf';
+document.body.classList.add('notrans');          // the first paint takes the right colours straight away
+if (startMode === 'ski') enterWorld('ski');
 const state = {
   sel: byId[hash.spot] ? hash.spot : maxBy(mine().length ? mine() : D.spots, rank).id,
   day: null, zoom: false, pan: null, open: false, q: hash.q || '', expanded: false,
-  tab: hash.tab && (hash.tab === 'my' || countries.includes(hash.tab)) ? hash.tab : favs.size ? 'my' : countries[0],
+  tab: hash.tab && (hash.tab === 'my' || countries.includes(hash.tab)) ? hash.tab : null,
 };
+if (!state.tab) state.tab = favs.size ? 'my' : byId[state.sel].country;
 const cur = () => byId[state.sel];
 
 /* ---------- wave source: the bot's blend, or one model fetched live for the open spot and My spots */
@@ -805,7 +882,7 @@ const SOURCES = [
   ['meteofrance_wave', 'Météo-France MFWAM'],
 ];
 const SRC_KEY = 'surfwindows.source';
-const canSource = !!(D.profiles.windswell && D.profiles.windswell.size) && D.spots[0].mlat != null;   // needs a data file new enough
+const SURFD = worlds.surf.D, canSource = !!(SURFD.profiles && SURFD.profiles.windswell && SURFD.profiles.windswell.size) && SURFD.spots[0].mlat != null;   // needs a data file new enough
 let source = 'blend';
 try {
   const v = localStorage.getItem(SRC_KEY);
@@ -916,6 +993,7 @@ async function setSource(v) {
   refreshAll();
 }
 function syncSource() {       // a spot opened while a single model is chosen gets that model too
+  if (MODE === 'ski') return;
   const s = cur();
   if (source === 'blend' || s.shown === source) return;
   state.loading = true;
@@ -945,8 +1023,8 @@ function renderSummary() {
   const my = mine();
   let v, sub;
   if (!my.length) {
-    v = 'Pick your spots.';
-    sub = 'Star the spots you surf. This headline will then tell you when they are worth the trip.';
+    v = `Pick your ${V().many}.`;
+    sub = `Star the ${V().many} you ${V().verb}. This headline will then tell you when they are worth the trip.`;
   } else {
     const wins = [];
     my.forEach(s => s.wins.forEach(w => { if (w.e > NOW) wins.push({s, w}); }));
@@ -955,18 +1033,19 @@ function renderSummary() {
       const s = wins[0].s, w = wins[0].w, more = wins.length - 1;
       v = `${dayName(w.s, s.tz)} ${hhmm(w.s, s.tz)}–${hhmm(w.e, s.tz)} at ${s.name}.`;
       sub = `Peaks at <span class="num band-${band(w.best)}">${fmt(w.best)}/10</span> with ${esc(w.cond)}.`
-        + (more ? ` ${more} more window${more > 1 ? 's' : ''} at your spots.` : '');
+        + (more ? ` ${more} more ${MODE === 'ski' ? 'good stretch' + (more > 1 ? 'es' : '') : 'window' + (more > 1 ? 's' : '')} at your ${V().many}.` : '');
     } else {
       const s = maxBy(my, x => x.best.score), h = s.best;
       v = `Nothing worth the trip in the next ${D.forecast_days} days.`;
-      sub = `Closest call: ${esc(s.name)}, ${dayName(h.ms, s.tz, true)} ${hhmm(h.ms, s.tz)}, <span class="num">${fmt(h.score)}/10</span> with ${m1(h.wh)} m at ${Math.round(h.wt)} s and ${h.ws} kn ${h.kind} wind.`;
+      sub = `Closest call: ${esc(s.name)}, ${dayName(h.ms, s.tz, true)} ${hhmm(h.ms, s.tz)}, <span class="num">${fmt(h.score)}/10</span> with `
+        + (s.ski ? `${h.fr} cm of new snow, ${SKY_SKI_WORD[h.kind] || 'grey'} and ${minus(h.tc)} °C.` : `${m1(h.wh)} m at ${Math.round(h.wt)} s and ${h.ws} kn ${h.kind} wind.`);
     }
   }
   el('verdict').textContent = v;
   el('sub').innerHTML = sub;
 }
 function renderTabs() {
-  const tabs = [['my', 'My spots', favs.size]].concat(countries.map(c => [c, countryName(c), D.spots.filter(s => s.country === c).length]));
+  const tabs = [['my', V().my, favs.size]].concat(countries.map(c => [c, countryName(c), D.spots.filter(s => s.country === c).length]));
   el('tabs').innerHTML = tabs.map(t => `<button type="button" role="tab" data-tab="${t[0]}" aria-selected="${!state.q.trim() && state.tab === t[0]}">${esc(t[1])}<small>${t[2]}</small></button>`).join('');
 }
 function listSpots() {
@@ -979,6 +1058,7 @@ const starHTML = (s, fav) => `<button type="button" class="star" data-fav="${s.i
 function itemHTML(s) {
   const w = s.next, h = s.best, tz = s.tz, score = w ? w.best : h.score;
   const line = w ? `<span class="pw"><i class="dot"></i>${dayName(w.s, tz)} ${hhmm(w.s, tz)}–${hhmm(w.e, tz)}, ${esc(w.cond.split(',')[0])}</span>`
+    : s.ski ? `<span class="pw">${dayName(h.ms, tz)} ${hhmm(h.ms, tz)}, ${h.fr} cm new, ${SKY_SKI_WORD[h.kind] || ''}</span>`
     : `<span class="pw">${dayName(h.ms, tz)} ${hhmm(h.ms, tz)}, ${m1(h.wh)} m at ${Math.round(h.wt)} s, ${h.kind}</span>`;
   const tag = state.q.trim() || state.tab === 'my' ? `<small>${esc(s.country)}</small>` : '';
   return `<li class="item${s.id === state.sel ? ' sel' : ''}"><button type="button" class="pick" data-pick="${s.id}"><span class="pn">${esc(s.name)}${tag}</span>${line}</button><b class="num band-${band(score)}">${fmt(score)}</b>${starHTML(s, favs.has(s.id))}</li>`;
@@ -988,11 +1068,12 @@ function renderList() {
   document.body.classList.toggle('finding', !!q);      // phones: while searching, the results sit right under the field
   const limit = desktop.matches || state.expanded || q ? arr.length : narrow.matches ? 4 : 6;
   el('list').innerHTML = arr.length ? arr.slice(0, limit).map(itemHTML).join('')
-    : `<li class="empty">${q ? `No spot matches “${esc(q)}”.` : 'No spots here yet. Star a spot in another tab to follow it.'}</li>`;
+    : `<li class="empty">${q ? `No ${V().one} matches “${esc(q)}”.` : `No ${V().many} here yet. Star a ${V().one} in another tab to follow it.`}</li>`;
   el('more').hidden = arr.length <= limit;
-  el('more').textContent = `Show all ${arr.length} spots`;
+  el('more').textContent = `Show all ${arr.length} ${V().many}`;
 }
 function renderSea() {
+  if (cur().ski) return skiSea();
   const s = cur(), hrs = s.hrs, tz = s.tz;
   const t0 = hrs[0].ms, t1 = hrs[hrs.length - 1].ms, span = Math.max(t1 - t0, HOUR);
   const W = 1000, H = 200, BASE = 50, TOP = 12;
@@ -1066,6 +1147,7 @@ function skyOfDay(hrs) {
   return wet ? base + ' with a few showers' : base;
 }
 function daySummary(s, d) {
+  if (s.ski) return skiDaySummary(s, d);
   const tz = s.tz, L = limits(s), dk = dayKeys(tz);
   const isToday = d.key === dk.today;
   const ahead = d.dl.filter(h => h.ms + HOUR > NOW);
@@ -1130,6 +1212,7 @@ function daySummary(s, d) {
 }
 // the day as a little seascape: wave size, spacing and chop follow the forecast, the sky follows the weather
 function sceneParts(say) {
+  if (say.ski) return skiSceneParts(say);
   const c = say.scene, W = 1200;
   const amp = c.got < c.flat ? 2 : Math.max(6, Math.min(40, c.got / 3 * 38));
   const k = Math.max(3, Math.min(12, Math.round(60 / Math.max(c.wt, 1))));       // waves across the panel: long period, few waves
@@ -1162,6 +1245,7 @@ const RAIN = (() => {
   return out;
 })();
 function sceneHTML(say) {
+  if (say.ski) return skiSceneHTML(say);
   const sc = sceneParts(say);
   return `<div class="${sc.cls}"><span class="sk s-sun"></span><span class="sk s-cloud"></span><span class="sk s-rain"></span>`
     + '<span class="sun">' + SUN + '</span><span class="clouds"><i class="cloud c1"></i><i class="cloud c2"></i><i class="cloud c3"></i></span><span class="rain">' + RAIN + '</span>'
@@ -1191,10 +1275,11 @@ function setDay(key, keepScroll) {
     scene.querySelector('.saymore').textContent = say.more;
     scene.classList.remove('swap');
   }, 180);
-  scene.querySelectorAll('.sw g').forEach((g, n) => {
+  if (sc.layers) scene.querySelectorAll('.sw g').forEach((g, n) => {
     g.querySelector('path').setAttribute('d', sc.layers[n][0]);
     g.style.setProperty('--d', sc.layers[n][1] + 's');
   });
+  if (sc.cap) scene.querySelectorAll('.mtn .cap').forEach((r, n) => { r.style.transform = `scaleY(${(sc.cap[n] / 170).toFixed(3)})`; });
   root.querySelectorAll('.daytab').forEach(b => {
     const on = (table || state.zoom) && b.dataset.day === key;
     b.classList.toggle('on', on);
@@ -1274,8 +1359,8 @@ function panBy(dir) {
   state.pan = (state.pan == null ? homeOf(s) : state.pan) + dir * Math.max(1, Math.floor(shown() / DAY / 2)) * DAY;
   applyPan(false);
 }
-function chartsHTML(s, day) {
-  const hrs = s.hrs, tz = s.tz, L = limits(s), W = 1000, mid = HOUR / 2, n = hrs.length;
+function chartKit(s) {
+  const hrs = s.hrs, tz = s.tz, W = 1000, mid = HOUR / 2, n = hrs.length, P = pal();
   hrs.forEach((h, i) => { h.e = i + 1 < n ? Math.min(hrs[i + 1].ms, h.ms + 3 * HOUR) : h.ms + HOUR; });   // later days are 3-hourly
   const t0 = hrs[0].ms, tEnd = hrs[n - 1].e, span = tEnd - t0;
   const fx = ms => (ms - t0) / span * W;
@@ -1286,13 +1371,13 @@ function chartsHTML(s, day) {
   let back = '', labels = '', from = null, nd = 0;
   hrs.forEach((h, i) => {
     if (!h.day && from == null) from = h.ms;
-    if (from != null && (h.day || i === n - 1)) { back += rect(from, h.day ? h.ms : h.e, '#06161B', '.62'); from = null; }
+    if (from != null && (h.day || i === n - 1)) { back += rect(from, h.day ? h.ms : h.e, P.night, '.62'); from = null; }
   });
   hrs.forEach((h, k) => {
     const p = hp(h, tz), x = k ? fx(h.ms) : 0;
     if (!k || p.h === 0) {
-      if (x > 0) back += `<line x1="${x.toFixed(2)}" x2="${x.toFixed(2)}" y1="0" y2="100" stroke="#E8F0EE" stroke-opacity=".2" ${NS}/>`;
-      if (x < W * 0.97) labels += `<span class="ld${nd++ % 2 ? ' alt' : ''}" style="left:${(x / W * 100).toFixed(3)}%">${p.wd} ${p.d}</span>`;
+      if (x > 0) back += `<line x1="${x.toFixed(2)}" x2="${x.toFixed(2)}" y1="0" y2="100" stroke="${P.ink}" stroke-opacity=".2" ${NS}/>`;
+      if (x < W * 0.97) labels += `<span class="ld${nd++ % 2 ? ' alt' : ''}" data-k="${p.key}" style="left:${(x / W * 100).toFixed(3)}%">${p.wd} ${p.d}</span>`;
     }
     if (p.h % 3 === 0) labels += `<span class="lh" style="left:${(fx(h.ms) / W * 100).toFixed(3)}%">${pad(p.h)}:00</span>`;
   });
@@ -1304,26 +1389,35 @@ function chartsHTML(s, day) {
     if (b - a >= 3 * HOUR) sky += `<span style="left:${(fx((a + b) / 2) / W * 100).toFixed(3)}%">${h.day ? SUN : MOON}</span>`;
     start = i + 1;
   });
-  if (NOW > t0) back += rect(t0, Math.min(NOW, tEnd), '#06161B', '.3');       // what is already behind us
-  if (NOW >= t0 && NOW <= tEnd) back += `<line x1="${fx(NOW).toFixed(2)}" x2="${fx(NOW).toFixed(2)}" y1="0" y2="100" stroke="#E8F0EE" stroke-opacity=".75" ${NS}/>`;
+  if (NOW > t0) back += rect(t0, Math.min(NOW, tEnd), P.night, '.3');       // what is already behind us
+  if (NOW >= t0 && NOW <= tEnd) back += `<line x1="${fx(NOW).toFixed(2)}" x2="${fx(NOW).toFixed(2)}" y1="0" y2="100" stroke="${P.ink}" stroke-opacity=".75" ${NS}/>`;
 
   const curve = (vals, fy) => {
     const pts = hrs.map((h, i) => [fx(h.ms + mid), fy(vals[i])]);
     return smooth([[0, pts[0][1]]].concat(pts, [[W, pts[pts.length - 1][1]]]));
   };
-  const dashed = y => `<line x1="0" x2="${W}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}" stroke="#E8F0EE" stroke-opacity=".65" stroke-dasharray="4 4" ${NS}/>`;
+  const dashed = y => `<line x1="0" x2="${W}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}" stroke="${P.ink}" stroke-opacity=".65" stroke-dasharray="4 4" ${NS}/>`;
   function panel(key, title, unit, rem, top, ticks, draw, bottom) {
     const bot = bottom || 0, fy = v => 100 * (1 - (v - bot) / (top - bot));
-    const grid = ticks.map(v => `<line x1="0" x2="${W}" y1="${fy(v).toFixed(1)}" y2="${fy(v).toFixed(1)}" stroke="#E8F0EE" stroke-opacity=".1" ${NS}/>`).join('');
+    const grid = ticks.map(v => `<line x1="0" x2="${W}" y1="${fy(v).toFixed(1)}" y2="${fy(v).toFixed(1)}" stroke="${P.ink}" stroke-opacity=".1" ${NS}/>`).join('');
     const d = draw(fy);
     return `<div class="cp"><div class="hd sm"><h4>${title}</h4>${info(key, title.toLowerCase())}<small data-u="${esc(unit)}">${unit}</small></div>`
       + `<div class="cplot" data-k="${key}" data-top="${top}" data-bot="${bot}" style="height:${rem}rem">`
-      + `<div class="cclip"><div class="cz"><svg viewBox="0 0 ${W} 100" preserveAspectRatio="none" aria-hidden="true">${back}${grid}${d[0]}</svg>${d[2] || ''}</div></div>`
+      + `<div class="cclip"><div class="cz"><svg viewBox="0 0 ${W} 100" preserveAspectRatio="none" aria-hidden="true">${back}${grid}${d[0]}</svg>${d[2] || ''}</div><span class="db" hidden></span></div>`
       + ticks.map(v => `<span class="yt" style="top:${fy(v).toFixed(1)}%">${v}</span>`).join('')
       + '<span class="hl" hidden></span><span class="vt" hidden></span></div>'
       + (d[1] ? `<div class="aclip"><div class="cz">${d[1]}</div></div>` : '') + '</div>';
   }
 
+  return {hrs, tz, W, mid, n, t0, tEnd, span, fx, hi, rect, back, labels, sky, curve, dashed, panel};
+}
+function chartsWrap(s, day, labels, body) {
+  return `<div class="charts${state.zoom ? ' zoomed' : ''}" style="${zoomOf(s, day)}"><div class="cdays" aria-hidden="true"><div class="cz">${labels}</div></div>`
+    + `${body}<div class="xh" hidden></div><div class="tt" hidden></div></div>`;
+}
+function chartsHTML(s, day) {
+  if (s.ski) return skiChartsHTML(s, day);
+  const L = limits(s), {hrs, tz, W, mid, t0, tEnd, fx, hi, rect, labels, sky, curve, dashed, panel} = chartKit(s);
   // wave height: the median line with the spread of the models behind it; orange where a window sits
   const topH = Math.max(2, Math.ceil(hi(hrs.map(h => h.hi)) * 1.15)), stepH = topH <= 4 ? 1 : 2, ticksH = [];
   for (let v = stepH; v < topH; v += stepH) ticksH.push(v);
@@ -1395,8 +1489,7 @@ function chartsHTML(s, day) {
       '<div class="arrows" aria-hidden="true">' + hrs.filter(h => hp(h, tz).h % 2 === 0).map(h =>
         `<span class="${h.kind === 'onshore' ? 'x' : h.kind === 'cross' ? '' : 'g'}${h.p.h % 6 === 0 ? ' far' : ''}" style="left:${(fx(h.ms + mid) / W * 100).toFixed(3)}%">${arrow(h.wdir, '')}</span>`).join('') + '</div>']);
 
-  return `<div class="charts${state.zoom ? ' zoomed' : ''}" style="${zoomOf(s, day)}"><div class="cdays" aria-hidden="true"><div class="cz">${labels}</div></div>`
-    + `${waves}${tide}${score}${period}${energy}${wind}<div class="xh" hidden></div><div class="tt" hidden></div></div>`;
+  return chartsWrap(s, day, labels, waves + tide + score + period + energy + wind);
 }
 /* ---------- the table: every daylight hour as one column, the way a Windguru table reads */
 const VIEW_KEY = 'surfwindows.view';
@@ -1416,6 +1509,7 @@ function viewbarHTML() {
     + (view === 'table' ? info('table', 'the table') : '') + '</div>';
 }
 function tableHTML(s) {
+  if (s.ski) return skiTableHTML(s);
   const tz = s.tz, today = dayKeys(tz).today;
   const tint = (rgb, a) => ` style="background:rgba(${rgb},${Math.max(0, Math.min(0.85, a)).toFixed(2)})"`;
   const windRgb = {offshore: '95,179,161', glassy: '95,179,161', cross: '155,179,180', onshore: '217,139,115'};
@@ -1490,6 +1584,7 @@ function checkStuck() {            // the small spot bar shows once the big name
 window.addEventListener('scroll', checkStuck, {passive: true});
 
 function hourlyHTML(s, d) {
+  if (s.ski) return skiHourlyHTML(s, d);
   const tz = s.tz;
   return `<details class="hourly" open><summary>Hour by hour, ${dayName(d.ms, tz, true)}</summary><table class="hours"><thead><tr><th>Time</th><th>Score</th><th>Waves</th><th>Wind</th><th class="hide-s">Gusts</th><th class="hide-s">Sky</th></tr></thead><tbody>`
     + d.dl.map(h => `<tr class="${inWin(s, h.ms) ? 'win' : ''}"><td>${pad(hp(h, tz).h)}:00</td><td class="num band-${band(h.score)}">${fmt(h.score)}</td>`
@@ -1504,7 +1599,8 @@ function renderDetail() {
   if (!days.some(d => d.key === state.day)) state.day = (days.find(d => d.dl.some(h => h.ms + HOUR > NOW)) || days[0]).key;
   const day = days.find(d => d.key === state.day), say = daySummary(s, day);
   const facts = [s.region, countryName(s.country)].filter(Boolean).join(', ') + '. '
-    + `Faces ${compass(s.facing)}. Works on swell from ${compass(s.good[0])} round to ${compass(s.good[1])}.` + (s.notes ? ' ' + s.notes : '');
+    + (s.ski ? `Lifts from ${s.base} to ${s.top} m; the weather is for ${s.elev} m.` : `Faces ${compass(s.facing)}. Works on swell from ${compass(s.good[0])} round to ${compass(s.good[1])}.`)
+    + (s.notes ? ' ' + s.notes : '');
   const tabs = days.map(d => {
     const best = maxBy(d.dl, h => h.score), name = dayName(d.ms, tz), on = (view === 'table' || state.zoom) && d.key === state.day;
     const pt = parts(d.ms, tz);
@@ -1514,19 +1610,23 @@ function renderDetail() {
   const top = maxBy(day.dl, h => h.score);
   el('detail').innerHTML = '<div class="wrap">'
     + `<div class="spotbar"><div class="sb"><button type="button" class="burger" data-menu="open" aria-label="Menu">${BURGER}</button>`
-    + `<button type="button" class="sbn" data-top="1">${esc(s.name)}</button>`
+    + `<button type="button" class="sbn" data-up="1">${esc(s.name)}</button>`
     + `<b class="num band-${band(top.score)}">${fmt(top.score)}<small>/10</small></b>`
-    + `<button type="button" class="sbs" data-search="1" aria-label="Search spots">${LENS}</button>${starHTML(s, fav)}</div></div>`
-    + `<div class="dh"><h2>${esc(s.name)}</h2><button type="button" class="follow" data-fav="${s.id}" aria-pressed="${fav}">${STAR}${fav ? 'In my spots' : 'Add to my spots'}</button></div>`
+    + `<button type="button" class="sbs" data-search="1" aria-label="Search ${V().many}">${LENS}</button>${starHTML(s, fav)}</div></div>`
+    + `<div class="dh"><h2>${esc(s.name)}</h2><div class="dha"><button type="button" class="follow" data-fav="${s.id}" aria-pressed="${fav}">${STAR}${fav ? 'In ' + V().my.toLowerCase() : 'Add to ' + V().my.toLowerCase()}</button>`
+    + `<button type="button" class="follow" data-sub="1" aria-expanded="${state.sub === s.id}" aria-controls="subrow">${CAL}Subscribe to calendar</button></div></div>`
+    + subHTML(s)
     + `<p class="note">${esc(facts)}${s.webcam ? ` <a href="${esc(s.webcam)}" target="_blank" rel="noopener">Check the webcam</a>` : ''}</p>`
-    + sourceHTML(s)
+    + (s.ski ? '' : sourceHTML(s))
     + `<div class="daybar"><button type="button" class="panb" data-pan="-1" aria-label="Earlier days">‹</button>`
     + `<div class="daytabs" role="group" aria-label="Pick a day">${tabs}</div>`
     + '<button type="button" class="panb" data-pan="1" aria-label="Later days">›</button></div>'
     + sceneHTML(say) + mapHTML(s)
     + viewbarHTML() + (view === 'table' ? tableHTML(s) : chartsHTML(s, day) + hourlyHTML(s, day))
     + `<footer><p>Times are local to the spot (${esc(tz.split('/').pop().replace(/_/g, ' '))}). Beyond about 3 days the forecast is rough.</p>`
-    + '<p>Forecast data from <a href="https://open-meteo.com">Open-Meteo</a>: waves are the median of five wave models, wind and weather come from the best local model.</p></footer></div>';
+    + (s.ski ? `<p>Forecast data from <a href="https://open-meteo.com">Open-Meteo</a>, for ${s.elev} m, two thirds of the way up the lifts. Snow on the ground is an estimate from the weather model, not the resort's snow report.</p>`
+      : '<p>Forecast data from <a href="https://open-meteo.com">Open-Meteo</a>: waves are the median of five wave models, wind and weather come from the best local model.</p>')
+    + '</footer></div>';
   const root = el('detail'), head = root.querySelector('.dh'), wrap = root.querySelector('.wgwrap');
   root.querySelector('.spotbar').classList.toggle('stuck', head.getBoundingClientRect().bottom < 0);
   if (wrap) {
@@ -1558,7 +1658,9 @@ function hourAt(e, box) {
 }
 function hideTip() {
   if (document.querySelector('.xh:not([hidden])')) updateMap(cur(), mapHour(cur(), curDay()));   // back to the day's own hour
-  document.querySelectorAll('.xh,.tt,.hl,.vt').forEach(n => { n.hidden = true; });
+  document.querySelectorAll('.xh,.tt,.hl,.vt,.db').forEach(n => { n.hidden = true; });
+  document.querySelectorAll('.cdays .ld.hov,.daytab.hov').forEach(n => n.classList.remove('hov'));
+  document.querySelectorAll('.charts.hovering').forEach(n => n.classList.remove('hovering'));
   document.querySelectorAll('.cp small[data-u]').forEach(n => { n.textContent = n.dataset.u; n.classList.remove('live'); });
 }
 // like a price scale: the hovered hour's value sits on the right edge of every chart, its time at the bottom
@@ -1569,7 +1671,7 @@ function showTip(e) {
   const at = hourAt(e, box), s = cur();
   if (!at) return hideTip();
   const h = at.h, xh = box.querySelector('.xh'), tt = box.querySelector('.tt');
-  const read = {
+  const read = s.ski ? skiRead(s, h) : {
     height: [h.wh, m1(h.wh) + ' m', `${m1(h.wh)} m` + (h.hi - h.lo >= 0.2 ? ` (models say ${m1(h.lo)} to ${m1(h.hi)})` : '') + `, from ${compass(h.wd)}` + (inWin(s, h.ms) ? ', in a window' : '')],
     tide: [h.tide || 0, h.tide == null ? '' : `${h.tide > 0 ? '+' : ''}${m1(h.tide)} m`,
       h.tide == null ? 'no data' : `${h.tide > 0 ? '+' : ''}${m1(h.tide)} m` + (h.rise == null ? '' : h.rise ? ', rising' : ', falling')],
@@ -1580,6 +1682,21 @@ function showTip(e) {
   };
   xh.style.left = at.x + 'px';
   xh.hidden = false;
+  // all days in view: the one under the pointer stands out, on the charts and in the day buttons
+  const hday = !state.zoom && s.geo && getDays(s).find(d => d.key === hp(h, s.tz).key);
+  box.classList.toggle('hovering', !!hday);
+  box.querySelectorAll('.db').forEach(db => {
+    db.hidden = !hday;
+    if (!hday) return;
+    const w = db.parentNode.clientWidth, px = ms => Math.max(0, Math.min(1, (ms - s.geo.t0) / s.geo.span)) * w;
+    const x0 = px(hday.all[0].ms), x1 = px(hday.all[hday.all.length - 1].e);
+    db.style.left = x0 + 'px';
+    db.style.width = Math.max(0, x1 - x0) + 'px';
+  });
+  if (hday) {
+    box.querySelectorAll('.cdays .ld').forEach(n => n.classList.toggle('hov', n.dataset.k === hday.key));
+    document.querySelectorAll('.daytab').forEach(t => t.classList.toggle('hov', t.dataset.day === hday.key));
+  }
   updateMap(s, h);                                   // the map follows the pointer
   tt.textContent = `${dayLabel(h.ms, s.tz)}, ${hhmm(h.ms, s.tz)}`;
   tt.hidden = false;
@@ -1617,6 +1734,7 @@ const MAP_COL = {offshore: '#1E8A6E', glassy: '#1E8A6E', cross: '#5B6B73', onsho
 const KIND_WORD = {offshore: 'offshore', onshore: 'onshore', cross: 'cross-shore', glassy: 'calm'};
 function mapHTML(s) {
   if (s.lat == null) return '';
+  if (s.ski) return skiMapHTML(s);
   const z = 11, n = Math.pow(2, z), rad = s.lat * Math.PI / 180, online = location.protocol !== 'file:';
   const x = (s.lon + 180) / 360 * n, y = (1 - Math.asinh(Math.tan(rad)) / Math.PI) / 2 * n, tx = Math.floor(x), ty = Math.floor(y);
   let ground = '';
@@ -1650,6 +1768,7 @@ function updateMap(s, h, instant) {
   state.mapH = h;
   const fresh = instant || !map.dataset.ready;      // first placement and resizes snap, everything else glides
   if (fresh) map.classList.add('noanim');
+  if (s.ski) return updateSkiMap(s, h, map, box, fresh);
   const calm = h.ws < 1, col = MAP_COL[h.kind] || MAP_COL.cross, W = map.clientWidth, H = map.clientHeight, m = Math.min(W, H);
   // two arrows from nearly the same direction would hide each other: fan them a few degrees apart, both still aimed at the spot
   let a = h.wd, b = h.wdir;
@@ -1741,14 +1860,13 @@ const animWind = () => '<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M
   + '<g class="ga-fade d2"><path d="M186 98H236" stroke="#D98B73" stroke-width="2.5" stroke-linecap="round"/><path d="M228 91L238 98L228 105" fill="none" stroke="#D98B73" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text class="ga-t" x="10" y="98">onshore: bumpy</text></g></svg>';
 const GUIDES = {
   page: () => ({
-    title: 'Surf windows', kind: 'How this page works', tag: 'Tells you when your spots are worth the trip, and why.',
+    title: 'Fish Forecast', kind: 'How this page works', tag: 'Tells you when your spots are worth the trip, and why.',
     steps: [
       ['Star the spots you surf.', 'They become My spots: the headline is about them and they stay one click away.'],
       ['Read the headline.', 'It names the next window at your spots, or says there is none. In the list, an orange dot marks a spot with a window coming up.'],
       ['Open a spot and pick a day.', 'The sentence above the chart says in plain words what that day looks like.'],
       ['Check what is behind the score.', 'Wave height, period and wind over the whole forecast, with the limits drawn in.'],
-      narrow.matches ? ['Get it in your calendar.', 'Open the menu and go to Calendars. Tick your spots: each one is its own feed, so its windows show up as events.']
-        : ['Subscribe to the calendar.', 'Choose your spots. Each one is its own feed, so its windows show up as events.'],
+      ['Put a spot in your calendar.', 'Press Subscribe to calendar next to its name and pick Google, Apple or Outlook. Its windows then show up as events and update by themselves.'],
     ],
     watch: 'It is a forecast, not a promise. Look at a webcam before you leave.',
   }),
@@ -1847,6 +1965,8 @@ const GUIDES = {
     watch: 'Wind is the least certain part of a forecast. A shift of two hours moves a window.',
   }),
 };
+['page', 'score', 'wind', 'table'].forEach(k => { const surf = GUIDES[k]; GUIDES[k] = s => (MODE === 'ski' ? SKI_GUIDES[k] : surf)(s); });
+['snow', 'depth', 'temp', 'cloud', 'freeze'].forEach(k => { GUIDES[k] = s => SKI_GUIDES[k](s); });
 const guideEl = el('guide');
 let guideFor = null;
 function closeGuide() {
@@ -1875,29 +1995,24 @@ function openGuide(btn) {
   guideEl.style.left = (fitsBelow || !beside ? Math.max(8, Math.min(r.left - 16, window.innerWidth - w - 8)) : r.right + 12) + 'px';
 }
 
-/* ---------- subscribe dialog */
-const dlg = el('dlg');
+/* ---------- a spot's own calendar */
 const BASE = D.feed_base || new URL('.', location.href).href;
 const feedUrl = id => BASE + 'cal/' + id + '.ics';
 const webcal = url => url.replace(/^https?:/, 'webcal:');   // Google's add-by-link only takes webcal or http here: an https address gets "Unable to add"
-function renderDialog() {
-  const q = norm(el('dq').value.trim()), list = el('checks'), at = list.scrollTop;
-  // a steady order (country, then name): ticking a spot must not make it jump away under the finger
-  const all = D.spots.filter(s => !q || s.norm.includes(q)).sort((a, b) =>
-    countries.indexOf(a.country) - countries.indexOf(b.country) || a.name.localeCompare(b.name));
-  list.innerHTML = all.length ? all.map(s => `<li><label><input type="checkbox" data-check="${s.id}"${favs.has(s.id) ? ' checked' : ''}><span>${esc(s.name)}</span><small>${esc(countryName(s.country))}</small></label></li>`).join('')
-    : `<li class="empty">No spot matches “${esc(el('dq').value.trim())}”.</li>`;
-  list.scrollTop = at;
-  const my = mine().sort((a, b) => a.name.localeCompare(b.name));
-  el('feeds-t').textContent = my.length ? `Your calendars (${my.length})` : 'Your calendars';
-  el('feeds').innerHTML = my.length ? my.map(s => {
-    const url = feedUrl(s.id);
-    return `<li><span class="fn">${esc(s.name)}</span><button type="button" class="rm" data-fav="${s.id}" aria-label="Remove ${esc(s.name)}" title="Remove">×</button>`
-      + `<span class="acts"><a class="btn" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcal(url))}">Google</a>`
-      + `<a class="btn" href="${esc(webcal(url))}">Apple or Outlook</a><button type="button" class="btn" data-copy="${esc(url)}">Copy link</button></span></li>`;
-  }).join('') : '<li class="empty">Tick a spot to get its calendar here.</li>';
-  const names = (D.defaults || []).map(id => byId[id] && byId[id].name).filter(Boolean);
-  el('combined').innerHTML = names.length ? `One combined calendar for ${esc(names.join(' and '))}: <button type="button" class="link" data-copy="${esc(BASE + 'surf.ics')}">copy link</button>.` : '';
+const CAL = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>';
+function subHTML(s) {
+  const url = feedUrl(s.id), open = state.sub === s.id;
+  return `<div class="subrow" id="subrow"${open ? '' : ' hidden'}>`
+    + `<p class="subt">Every good ${s.ski ? 'stretch on the lifts' : 'window'} at ${esc(s.name)} in the coming week becomes an event, and it keeps itself up to date.</p>`
+    + `<div class="subacts"><a class="sbtn main" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcal(url))}">Google Calendar</a>`
+    + `<a class="sbtn" href="${esc(webcal(url))}">Apple or Outlook</a><button type="button" class="sbtn" data-copy="${esc(url)}">Copy link</button></div>`
+    + `<p class="subl"><code>${esc(url)}</code><br>If Google says it cannot add it: copy the link, then in Google Calendar go to Other calendars, +, From URL.</p></div>`;
+}
+function toggleSub(force) {
+  const s = cur(), open = force != null ? force : state.sub !== s.id, row = el('subrow'), btn = document.querySelector('.dh [data-sub]');
+  state.sub = open ? s.id : null;
+  if (row) row.hidden = !open;
+  if (btn) btn.setAttribute('aria-expanded', open);
 }
 function copy(text, btn) {
   const done = () => { const old = btn.textContent; btn.textContent = 'Copied'; setTimeout(() => { btn.textContent = old; }, 1500); };
@@ -1905,38 +2020,24 @@ function copy(text, btn) {
   else window.prompt('Copy this link', text);
 }
 
-/* ---------- phone: a menu, and the forecast and the calendars as two pages */
+/* ---------- phone: the menu switches between surf and ski */
 const menu = el('menu');
-let pushed = false;                // true while the calendars sit on a history entry of their own
-function openCal(push) {
-  if (dlg.open) return;
-  closeGuide();
-  el('dq').value = '';
-  renderDialog();
-  dlg.showModal();
-  if (push) try { history.pushState({page: 'cal'}, '', '#page=cal'); pushed = true; } catch (e) { /* file:// in some browsers */ }
-}
-dlg.addEventListener('close', () => {            // closing takes that entry away again, so Back never lands on a closed page
-  if (pushed) { pushed = false; history.back(); }
-});
-window.addEventListener('popstate', () => {      // the phone's Back button leaves the calendars the way it leaves a page
-  const cal = !!(history.state && history.state.page === 'cal');
-  if (cal && !dlg.open) { openCal(false); pushed = true; }
-  else if (!cal && dlg.open) { pushed = false; dlg.close(); }
-});
 function openMenu() {
   closeGuide();
-  const here = dlg.open ? 'cal' : 'data';
-  menu.querySelectorAll('.mi').forEach(b => { if (b.dataset.go === here) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+  menu.querySelectorAll('.mi').forEach(b => {
+    const w = worlds[b.dataset.go];
+    b.hidden = !w;
+    if (w) b.querySelector('span').textContent = (b.dataset.go === 'ski' ? 'Snow, sun and wind at ' : 'Waves, wind and tide at ')
+      + w.D.spots.length + (b.dataset.go === 'ski' ? ' resorts' : ' spots');
+    if (b.dataset.go === MODE) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
+  });
   menu.showModal();
 }
 function go(where) {
-  const wasCal = dlg.open;
   menu.close();
-  if (where === 'cal') return openCal(true);
-  if (wasCal) dlg.close();
-  else if (where === 'data') window.scrollTo({top: 0, behavior: 'smooth'});
-  if (where === 'guide') openGuide(document.querySelector('.top [data-guide="page"]'));
+  if (where === 'guide') return openGuide(document.querySelector('.top [data-guide="page"]'));
+  window.scrollTo({top: 0, behavior: 'smooth'});
+  switchMode(where);
 }
 function toSearch() {              // from anywhere down the page: back up to the search field, ready to type
   const q = el('q');
@@ -1944,6 +2045,488 @@ function toSearch() {              // from anywhere down the page: back up to th
   q.select();
   q.closest('.srow').scrollIntoView({behavior: 'smooth', block: 'start'});
 }
+
+/* ---------- ski and snowboard: the same page, read for the mountains */
+const V = () => MODE === 'ski' ? {one: 'resort', many: 'resorts', my: 'My resorts', verb: 'ride'}
+  : {one: 'spot', many: 'spots', my: 'My spots', verb: 'surf'};
+const PAL = {
+  surf: {fill: '#3B727B', fire: '#FF7A2B', night: '#06161B', ink: '#E8F0EE', page: '#18343F'},
+  ski: {fill: '#4C6190', fire: '#FF6B8B', night: '#0A1122', ink: '#EEF2FA', page: '#1D2943', snow: '#DCE8FF'},
+};
+const pal = () => PAL[MODE];
+const minus = t => String(Math.round(t)).replace('-', '−');      // −6, with a real minus sign
+const WAVE_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 10c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2M2 16c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2"/></svg>';
+const PEAK_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20 9.5 7l4 6.5 2.5-3.5L22 20Z"/><path d="M7.4 10.7 9.5 7l2.2 3.6-1.2-.6-1 1.1Z" class="cap"/></svg>';
+function renderModes() {
+  const box = el('modes');
+  if (!box) return;
+  box.hidden = !worlds.ski;
+  box.querySelectorAll('[data-mode]').forEach(b => b.setAttribute('aria-selected', b.dataset.mode === MODE));
+  el('q').placeholder = `Search ${D.spots.length} ${V().many}`;
+  document.querySelectorAll('.sbs').forEach(b => b.setAttribute('aria-label', `Search ${V().many}`));
+}
+// switching sport: the colours turn while the old page fades out, then the new one fades in
+function switchMode(m) {
+  if (m === MODE || !worlds[m]) return;
+  closeGuide();
+  hideTip();
+  worlds[MODE].saved = {sel: state.sel, tab: state.tab};
+  const body = document.body, calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  try { localStorage.setItem(MODE_KEY, m); } catch (e) { /* not fatal */ }
+  body.classList.add('switching');
+  body.classList.toggle('ski', m === 'ski');
+  el('modes').querySelectorAll('[data-mode]').forEach(b => b.setAttribute('aria-selected', b.dataset.mode === m));
+  clearTimeout(switchMode.t);
+  switchMode.t = setTimeout(() => {
+    enterWorld(m);
+    const back = worlds[m].saved;
+    state.sel = back && byId[back.sel] ? back.sel : maxBy(mine().length ? mine() : D.spots, rank).id;
+    state.tab = back && (back.tab === 'my' || countries.includes(back.tab)) ? back.tab : favs.size ? 'my' : byId[state.sel].country;
+    state.q = '';
+    el('q').value = '';
+    Object.assign(state, {expanded: false, day: null, zoom: false, pan: null, hour: null});
+    body.classList.add('entering');
+    renderModes();
+    renderSummary();
+    renderTabs();
+    renderList();
+    renderSea();
+    renderDetail();
+    setHash();
+    void body.offsetWidth;                    // the new page starts invisible, so it can fade in
+    body.classList.remove('switching');
+    clearTimeout(switchMode.e);
+    switchMode.e = setTimeout(() => body.classList.remove('entering'), 1600);
+    if (m === 'surf' && source !== 'blend') setSource(source);
+  }, calm ? 0 : 230);
+}
+
+/* a ski day in plain words */
+function skiSkyOfDay(hrs) {
+  const n = hrs.length, count = f => hrs.filter(f).length;
+  const snowing = count(h => h.sf / Math.max(1, (h.e - h.ms) / HOUR) >= 0.3), raining = count(h => h.rn >= 0.2);
+  if (count(h => h.kind === 'storm') >= n / 2) return 'stormy';
+  if (raining >= n / 2) return 'rainy';
+  if (snowing >= n / 2) return 'snowy';
+  if (count(h => h.kind === 'fog') >= n / 2) return 'foggy';
+  const cc = hrs.map(h => h.cc).filter(v => v != null), cloud = cc.length ? median(cc) : 60;
+  const base = cloud < 30 ? 'sunny' : cloud < 70 ? 'partly cloudy' : 'cloudy';
+  return snowing >= 2 ? base + ' with some snow' : raining >= 2 ? base + ' with some rain' : base;
+}
+function skiDaySummary(s, d) {
+  const tz = s.tz, dk = dayKeys(tz), isToday = d.key === dk.today;
+  const ahead = d.dl.filter(h => h.ms + HOUR > NOW), done = isToday && !ahead.length;
+  const hrs = isToday && ahead.length ? ahead : d.dl, best = maxBy(hrs, h => h.score);
+  const most = f => hrs.filter(f).length > hrs.length / 2, sum = (a, f) => a.reduce((x, h) => x + f(h), 0);
+  const fresh = Math.max.apply(null, d.dl.map(h => h.fr));         // the most new snow over 24 hours while the lifts run
+  const during = sum(d.dl, h => h.sf), rain = sum(d.dl, h => h.rn);
+  const depths = hrs.map(h => h.sd).filter(v => v != null), depth = depths.length ? median(depths) : null;
+  const ws = median(hrs.map(h => h.ws)), gust = Math.max.apply(null, hrs.map(h => h.wg));
+  const t = median(hrs.map(h => h.tc)), feels = Math.min.apply(null, hrs.map(h => h.ta));
+  const fls = hrs.map(h => h.fl).filter(v => v != null), fl = fls.length ? median(fls) : null;
+  const win = s.wins.find(w => d.dl.some(h => h.ms >= w.s && h.ms < w.e));
+  const sky = skiSkyOfDay(d.dl);
+
+  let tail, word, why;
+  if (best.score >= 8) { tail = fresh >= 10 ? 'with fresh powder' : 'with great skiing'; word = 'great'; }
+  else if (best.score >= 6.5) { tail = fresh >= 10 ? 'with fresh snow' : 'with good skiing'; word = 'good'; }
+  else if (best.score >= MIN) { tail = 'with decent skiing'; word = 'decent'; }
+  else if (rain >= 1) { tail = 'and wet on the slopes'; word = 'wet'; why = 'Rain on the snow: heavy and wet, and icy once it freezes again.'; }
+  else if (gust >= 70) { tail = 'and stormy'; word = 'stormy'; why = `Gusts up to ${gust} km/h: the upper lifts will probably stop.`; }
+  else if (most(h => h.kind === 'thin')) { tail = 'with hardly any snow'; word = 'thin'; why = 'The weather model sees almost no snow up here. Only runs on machine-made snow will be open, if any.'; }
+  else if (most(h => h.kind === 'fog')) { tail = 'and flat light'; word = 'foggy'; why = 'Fog most of the day: you cannot see the bumps.'; }
+  else if (ws >= 30) { tail = 'and windy'; word = 'windy'; why = 'Windy: cold on the lifts, and the top ones may close.'; }
+  else if (feels < -25) { tail = 'and bitterly cold'; word = 'bitter'; why = 'Bitterly cold with the wind: short runs, cover your face.'; }
+  else if (t >= 6) { tail = 'and slushy'; word = 'slushy'; why = 'Warm: the snow turns soft and heavy by midday. Go early.'; }
+  else { tail = /sunny/.test(sky) ? 'but nothing special' : 'and grey'; word = 'so-so'; why = 'Not much sun: fine for laps on groomed runs, nothing special.'; }
+
+  const gone = !isToday && d.all[d.all.length - 1].ms < NOW;
+  const subject = done ? 'Today was' : isToday ? 'Today is' : d.key === dk.yesterday ? 'Yesterday was' : gone ? FL[tz].format(d.ms) + ' was'
+    : d.key === dk.tomorrow ? 'Tomorrow looks' : FL[tz].format(d.ms) + ' looks';
+  const head = `${subject} ${sky}${sky.includes(' with ') ? ',' : ''} ${tail}.`;
+
+  const allDay = win && win.s <= d.dl[0].ms && win.e >= d.dl[d.dl.length - 1].e;
+  let verdict;
+  if (win && gone) verdict = `The good hours were ${hhmm(win.s, tz)} to ${hhmm(win.e, tz)} (${fmt(win.best)}/10).`;
+  else if (gone) verdict = (best.score >= MIN ? '' : why + ' ') + `The best hour was around ${hhmm(best.ms, tz)} (${fmt(best.score)}/10).`;
+  else if (allDay) verdict = `Good from the first lift to the last (${fmt(win.best)}/10).`;
+  else if (win) verdict = `Go between ${hhmm(win.s, tz)} and ${hhmm(win.e, tz)}, that is when it is best (${fmt(win.best)}/10).`;
+  else if (best.score >= MIN) verdict = `Worth it around ${hhmm(best.ms, tz)} (${fmt(best.score)}/10), but only for a short while.`;
+  else verdict = why + (best.score >= 3 ? ` Your best chance is around ${hhmm(best.ms, tz)} (${fmt(best.score)}/10).` : '');
+  const snow = (fresh >= 2 ? `${Math.round(fresh)} cm of new snow` : 'No new snow')
+    + (depth != null ? `, about ${depth} cm on the ground.` : '.')
+    + (!gone && during >= 3 ? ` More falls during the day.` : '');
+  const air = ws < 15 ? `Light wind (${ws} km/h).` : ws < 30 ? `A breeze (${ws} km/h, gusts ${gust}).` : `Strong wind (${ws} km/h, gusts ${gust}): the top lifts may stop.`;
+  const low = Math.round(t + 0.0065 * (s.elev - s.base));
+  const cold = `${minus(t)} °C at ${s.elev} m, about ${minus(low)} °C at the bottom` + (feels <= -18 ? `; it feels like ${minus(feels)} °C` : '') + '.';
+  const wet = during + rain >= 1 && fl != null ? (fl - 300 > s.base ? ` Rain below about ${Math.round((fl - 300) / 100) * 100} m.` : ' Snow all the way down.') : '';
+  return {head, more: [verdict, snow, air, cold + wet].join(' '), ski: true,
+          scene: {sky, depth, fresh, windy: ws >= 25 || gust >= 55, rain: rain >= 1, snowing: during >= 1 && !gone}};
+}
+
+/* the day as a mountain view: snow on the peaks follows the snow on the ground, the sky follows the weather */
+const SNOWFALL = (() => {
+  let out = '', seed = 11;
+  const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  for (let n = 0; n < 70; n++) {
+    const near = rnd();
+    out += `<i style="left:${(rnd() * 115 - 5).toFixed(1)}%;--s:${(2 + near * 4).toFixed(1)}px;--o:${(0.45 + near * 0.5).toFixed(2)};`
+      + `--t:${(7 - near * 3.4).toFixed(2)}s;--d:${(-rnd() * 7).toFixed(2)}s"></i>`;
+  }
+  return out;
+})();
+// the ranges as points: a path for the mountain, and a shadow down the right-hand face of every peak
+const FAR_PTS = [[0, 112], [60, 84], [120, 98], [190, 46], [235, 70], [300, 30], [350, 58], [405, 44], [470, 8], [540, 60], [600, 48], [655, 80],
+  [720, 36], [780, 62], [850, 22], [910, 66], [980, 50], [1040, 82], [1110, 40], [1160, 64], [1200, 56]];
+const MID_PTS = [[0, 138], [80, 104], [150, 120], [240, 66], [320, 112], [400, 92], [470, 124], [560, 58], [650, 110], [730, 90], [810, 126],
+  [900, 72], [990, 116], [1070, 96], [1140, 124], [1200, 100]];
+const range = pts => 'M' + pts.map(p => p.join(' ')).join('L') + 'L1200 170L0 170Z';
+const shade = pts => pts.map((p, i) => {
+  const a = pts[i - 1], b = pts[i + 1];
+  return a && b && p[1] < a[1] && p[1] < b[1] ? `M${p[0]} ${p[1]}L${b[0]} ${b[1]}L${(p[0] + (b[0] - p[0]) * 0.3).toFixed(0)} 170Z` : '';
+}).join('');
+const FAR = range(FAR_PTS), MID = range(MID_PTS), FAR_SHADE = shade(FAR_PTS), MID_SHADE = shade(MID_PTS);
+const NEAR = 'M0 152C120 138 220 146 330 150S560 136 700 146S960 156 1200 140L1200 170L0 170Z';
+const TREES = (() => {
+  let out = '', seed = 5;
+  const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  for (let n = 0; n < 46; n++) {
+    const x = rnd() * 1200, h = 9 + rnd() * 12, y = 150 + rnd() * 14;
+    out += `M${x.toFixed(0)} ${(y - h).toFixed(0)}L${(x + h * 0.38).toFixed(0)} ${y.toFixed(0)}L${(x - h * 0.38).toFixed(0)} ${y.toFixed(0)}Z`;
+  }
+  return out;
+})();
+function skiSceneParts(say) {
+  const c = say.scene, sky = c.sky;
+  // how far down the white reaches: a thin cover keeps only the summits white, a deep one the whole range
+  const f = c.depth == null ? 0.4 : Math.max(0.12, Math.min(0.9, 0.12 + c.depth / 180 * 0.78));
+  const heavy = /rainy|snowy|stormy/.test(sky);
+  const cls = 'scene ski-scene bg-' + (/foggy/.test(sky) ? 'fog' : heavy ? 'rain' : /sunny/.test(sky) ? 'sun' : 'cloud')
+    + (/sunny|partly/.test(sky) && !heavy ? ' is-sun' : '') + (sky !== 'sunny' && !/foggy/.test(sky) ? ' is-cloud' : '')
+    + (c.snowing || /snow/.test(sky) ? ' is-snow' : '') + (c.rain || /rain/.test(sky) ? ' is-rain' : '')
+    + (/foggy/.test(sky) ? ' is-fog' : /cloudy|snowy/.test(sky) ? ' is-mist' : '') + (c.windy ? ' is-windy' : '');
+  return {cls, cap: [30 + f * 70, 70 + f * 50]};     // the snow line on the far and the middle range, in the drawing's units
+}
+function skiSceneHTML(say) {
+  const sc = skiSceneParts(say), caps = sc.cap.map(y => `transform:scaleY(${(y / 170).toFixed(3)})`);
+  return `<div class="${sc.cls}"><span class="sk s-sun"></span><span class="sk s-cloud"></span><span class="sk s-rain"></span><span class="sk s-fog"></span>`
+    + '<span class="sun">' + SUN + '</span><span class="clouds"><i class="cloud c1"></i><i class="cloud c2"></i><i class="cloud c3"></i></span>'
+    + `<p class="say">${esc(say.head)}</p><p class="saymore">${esc(say.more)}</p>`
+    + '<svg class="mtn" viewBox="0 0 1200 170" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><defs>'
+    + '<filter id="fogblur" x="-10%" y="-150%" width="120%" height="400%"><feGaussianBlur stdDeviation="9"/></filter>'
+    + `<clipPath id="cap1"><rect class="cap" width="1200" height="170" style="${caps[0]}"/></clipPath>`
+    + `<clipPath id="cap2"><rect class="cap" width="1200" height="170" style="${caps[1]}"/></clipPath>`
+    + `<clipPath id="farclip"><path d="${FAR}"/></clipPath><clipPath id="midclip"><path d="${MID}"/></clipPath></defs>`
+    + `<g class="layer l1"><path d="${FAR}" class="far"/><path d="${FAR}" class="snowcap" clip-path="url(#cap1)"/><path d="${FAR_SHADE}" class="shade" clip-path="url(#farclip)"/></g>`
+    + '<g class="fogs"><rect class="fog f1" x="-300" y="70" width="1800" height="46"/><rect class="fog f2" x="-300" y="104" width="1800" height="40"/></g>'
+    + `<g class="layer l2"><path d="${MID}" class="mid"/><path d="${MID}" class="snowcap" clip-path="url(#cap2)"/><path d="${MID_SHADE}" class="shade" clip-path="url(#midclip)"/></g>`
+    + `<g class="layer l3"><path d="${NEAR}" class="near"/><path d="${TREES}" class="trees"/></g></svg>`
+    + '<span class="snow">' + SNOWFALL + '</span><span class="rain">' + RAIN + '</span></div>';
+}
+
+/* the charts for a resort */
+function skiChartsHTML(s, day) {
+  const K = chartKit(s), {hrs, W, mid, t0, tEnd, fx, hi, rect, labels, curve, dashed, panel, sky} = K, P = pal();
+  const rate = h => h.sf / Math.max(1, (h.e - h.ms) / HOUR);
+  // good stretches: a pink strip along the bottom, like the line under the hours in the table
+  const bands = s.wins.map(w => `<rect x="${fx(Math.max(w.s, t0)).toFixed(2)}" y="95" width="${(fx(Math.min(w.e, tEnd)) - fx(Math.max(w.s, t0))).toFixed(2)}" height="5" fill="${P.fire}"/>`).join('');
+  const topS = Math.max(2, Math.ceil(hi(hrs.map(rate)) * 1.2)), ticksS = topS <= 3 ? [1, 2].filter(v => v < topS) : [Math.round(topS / 2)];
+  const snow = panel('snow', 'New snow', 'cm per hour at the resort. Pink: a good stretch on the lifts', 8, topS, ticksS, fy =>
+    [bands + hrs.filter(h => h.sf >= 0.05).map(h => {
+      const a = fx(h.ms), b = fx(h.e), y = fy(rate(h));
+      return `<rect x="${(a + 0.3).toFixed(2)}" y="${y.toFixed(2)}" width="${Math.max(0.5, b - a - 0.6).toFixed(2)}" height="${(100 - y).toFixed(2)}" fill="${P.snow}"/>`;
+    }).join(''), '', `<div class="csky" aria-hidden="true">${sky}</div>`]);
+
+  const score = panel('score', 'Score', `0 to 10, lift hours only. Dashed line: goes in the calendar from ${MIN}`, 6.5, 10.5, [0, 5, 10], fy => {
+    let area = '', line = '', seg = [];
+    const close = () => {
+      if (!seg.length) return;
+      const pts = seg.map(h => [fx(h.ms + mid), fy(h.score)]), a = fx(seg[0].ms), b = fx(seg[seg.length - 1].e);
+      const top = smooth([[a, pts[0][1]]].concat(pts, [[b, pts[pts.length - 1][1]]]));
+      area += top + `L${b.toFixed(1)} 100L${a.toFixed(1)} 100Z`;
+      line += top;
+      seg = [];
+    };
+    hrs.forEach(h => {
+      if (h.day && seg.length && h.ms !== seg[seg.length - 1].e) close();
+      if (h.day) seg.push(h); else close();
+    });
+    close();
+    const y = fy(MIN);
+    return [`<clipPath id="go"><rect x="0" y="0" width="${W}" height="${y.toFixed(1)}"/></clipPath>`
+      + `<path d="${area}" fill="${P.fill}"/><path d="${area}" fill="${P.fire}" clip-path="url(#go)"/>`
+      + `<path d="${line}" fill="none" stroke="${P.ink}" stroke-width="1.5" ${NS}/>` + dashed(y)];
+  });
+
+  const depths = hrs.map(h => h.sd == null ? 0 : h.sd), topD = Math.max(50, Math.ceil(hi(depths) * 1.15 / 50) * 50);
+  const stepD = topD <= 100 ? 25 : topD <= 200 ? 50 : 100, ticksD = [];
+  for (let v = stepD; v < topD; v += stepD) ticksD.push(v);
+  const depth = panel('depth', 'Snow on the ground', 'cm, estimated. Dashed line: thin below 10 cm', 5.5, topD, ticksD, fy => {
+    const l = curve(depths, fy);
+    return [`<path d="${l}L${W} 100L0 100Z" fill="${P.fill}" opacity=".7"/><path d="${l}" fill="none" stroke="${P.ink}" stroke-width="2" ${NS}/>` + dashed(fy(10))];
+  });
+
+  const temps = hrs.map(h => h.tc).concat(hrs.map(h => h.ta));
+  const tTop = Math.max(5, Math.ceil((hi(temps) + 2) / 5) * 5), tBot = Math.min(-5, Math.floor((Math.min.apply(null, temps) - 2) / 5) * 5);
+  const ticksT = [];
+  for (let v = tBot + 5; v < tTop; v += (tTop - tBot > 30 ? 10 : 5)) ticksT.push(v);
+  const temp = panel('temp', 'Temperature', `°C at ${s.elev} m. Thin line: feels like. Dashed: 0 °C`, 6, tTop, ticksT, fy =>
+    [`<path d="${curve(hrs.map(h => h.ta), fy)}" fill="none" stroke="${P.ink}" stroke-opacity=".45" stroke-width="1" ${NS}/>`
+      + `<path d="${curve(hrs.map(h => h.tc), fy)}" fill="none" stroke="${P.ink}" stroke-width="2" ${NS}/>` + dashed(fy(0))], tBot);
+
+  const cloud = panel('cloud', 'Cloud', '% of the sky covered', 4.5, 100, [50], fy => {
+    const l = curve(hrs.map(h => h.cc == null ? 50 : h.cc), fy);
+    return [`<path d="${l}L${W} 100L0 100Z" fill="${P.fill}" opacity=".7"/><path d="${l}" fill="none" stroke="${P.ink}" stroke-width="1.5" ${NS}/>`];
+  });
+
+  const topW = Math.max(40, Math.ceil(hi(hrs.map(h => Math.max(h.ws, h.wg))) * 1.1 / 10) * 10);
+  const wind = panel('wind', 'Wind', 'km/h. Thin line: gusts. Dashed: gusts that stop the top lifts', 6, topW, topW > 80 ? [30, 60] : [20, 40].filter(v => v < topW), fy =>
+    [`<path d="${curve(hrs.map(h => h.wg), fy)}" fill="none" stroke="${P.ink}" stroke-opacity=".45" stroke-width="1" ${NS}/>`
+      + `<path d="${curve(hrs.map(h => h.ws), fy)}" fill="none" stroke="${P.ink}" stroke-width="2" ${NS}/>` + (70 < topW ? dashed(fy(70)) : ''),
+      '<div class="arrows" aria-hidden="true">' + hrs.filter(h => hp(h, s.tz).h % 2 === 0).map(h =>
+        `<span class="${h.ws >= 30 ? 'x' : h.ws < 15 ? 'g' : ''}${h.p.h % 6 === 0 ? ' far' : ''}" style="left:${(fx(h.ms + mid) / W * 100).toFixed(3)}%">${arrow(h.wdir, '')}</span>`).join('') + '</div>']);
+
+  const fl = hrs.map(h => h.fl == null ? 0 : h.fl), topF = Math.max(s.top + 500, Math.ceil(hi(fl) / 500) * 500 + 500);
+  const ticksF = [];
+  for (let v = 1000; v < topF; v += topF > 4000 ? 2000 : 1000) ticksF.push(v);
+  const freeze = panel('freeze', 'Freezing level', `metres. Dashed: bottom and top lift (${s.base} and ${s.top} m)`, 5.5, topF, ticksF, fy => {
+    const l = curve(fl, fy);
+    return [`<path d="${l}" fill="none" stroke="${P.ink}" stroke-width="2" ${NS}/>` + dashed(fy(s.base)) + dashed(fy(s.top))];
+  });
+  return chartsWrap(s, day, labels, snow + score + depth + temp + cloud + wind + freeze);
+}
+function skiRead(s, h) {
+  const rate = h.sf / Math.max(1, (h.e - h.ms) / HOUR), three = h.e - h.ms > HOUR;
+  return {
+    snow: [rate, `${m1(rate)} cm`, (h.sf >= 0.05 ? `${m1(h.sf)} cm${three ? ' in these 3 hours' : ''}` : 'no snow') + `, ${h.fr} cm over 24 h` + (h.rn >= 0.2 ? `, and ${m1(h.rn)} mm of rain` : '')],
+    score: [h.day ? h.score : 0, h.day ? fmt(h.score) : 'shut', h.day ? `${fmt(h.score)} out of 10` + (inWin(s, h.ms) ? ', in a good stretch' : '') : 'lifts closed, no score'],
+    depth: [h.sd || 0, h.sd == null ? '' : h.sd + ' cm', h.sd == null ? 'no data' : `about ${h.sd} cm on the ground`],
+    temp: [h.tc, Math.round(h.tc) + '°', `${m1(h.tc)} °C, feels like ${h.ta} °C`],
+    cloud: [h.cc == null ? 0 : h.cc, h.cc == null ? '' : h.cc + '%', (h.cc == null ? 'no data' : `${h.cc}% cloud`) + (h.vis != null && h.vis < 1 ? ', fog' : '')],
+    wind: [h.ws, h.ws + ' km/h', `${h.ws} km/h from ${compass(h.wdir)}, gusts ${h.wg} km/h`],
+    freeze: [h.fl || 0, h.fl == null ? '' : h.fl + ' m', h.fl == null ? 'no data' : `0 °C at ${h.fl} m`],
+  };
+}
+
+/* the table for a resort: every lift hour as one column */
+const SNOWY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14h10a4 4 0 0 0 .5-8A5.5 5.5 0 0 0 7 5.5 4.2 4.2 0 0 0 7 14Z" fill="#B9C5D9"/><circle cx="8" cy="18" r="1.4" fill="#fff"/><circle cx="12.5" cy="20" r="1.4" fill="#fff"/><circle cx="16.5" cy="17.5" r="1.4" fill="#fff"/></svg>';
+const FOGGY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h16M2.5 13h19M5 17h14" stroke="#B9C5D9" stroke-width="2.2" stroke-linecap="round"/></svg>';
+const skySki = h => h.kind === 'fog' ? FOGGY : h.sf / Math.max(1, (h.e - h.ms) / HOUR) >= 0.3 || [71, 73, 75, 77, 85, 86].includes(h.wc) && h.rn < 0.2 ? SNOWY
+  : h.rn >= 0.2 ? RAINY : h.cc == null ? skyIcon(h.wc) : h.cc < 30 ? SUN : h.cc < 70 ? PARTLY : CLOUD;
+function skiTableHTML(s) {
+  const tz = s.tz, today = dayKeys(tz).today;
+  const tint = (rgb, a) => ` style="background:rgba(${rgb},${Math.max(0, Math.min(0.85, a)).toFixed(2)})"`;
+  let cols = '', head = '', hours = '';
+  const r = {score: '', snow: '', fresh: '', depth: '', sky: '', temp: '', feels: '', wind: '', gust: '', wdir: '', fl: ''};
+  getDays(s).forEach(d => {
+    const p0 = parts(d.ms, tz);
+    head += `<th colspan="${d.dl.length}" class="wd0" data-day="${d.key}">${d.key === today ? 'Today' : p0.wd + ' ' + p0.d}</th>`;
+    d.dl.forEach((h, k) => {
+      const c = (k ? '' : ' d0') + (h.e <= NOW ? ' gone' : ''), at = ` data-i="${h.i}" class="`;
+      cols += `<col data-i="${h.i}"${h.i === state.hour ? ' class="selc"' : ''}>`;
+      hours += `<th${at}hh${c}${inWin(s, h.ms) ? ' win' : ''}${NOW >= h.ms && NOW < h.e ? ' nowc' : ''}">${pad(hp(h, tz).h)}</th>`;
+      r.score += `<td${at}sc ${band(h.score)}${c}">${fmt(h.score)}</td>`;
+      r.snow += `<td${at}${c}"${tint('220,232,255', h.sf / 3 * 0.8)}>${h.sf >= 0.05 ? m1(h.sf) : ''}</td>`;
+      r.fresh += `<td${at}${c}"${tint('220,232,255', h.fr / 30 * 0.8)}>${h.fr || ''}</td>`;
+      r.depth += `<td${at}dimc${c}">${h.sd == null ? '' : h.sd}</td>`;
+      r.sky += `<td${at}sky${c}">${skySki(h)}</td>`;
+      r.temp += `<td${at}${c}"${h.tc >= 2 ? tint('229,136,114', 0.15 + h.tc / 12 * 0.5) : ''}>${Math.round(h.tc)}</td>`;
+      r.feels += `<td${at}dimc${c}">${h.ta}</td>`;
+      r.wind += `<td${at}${c}"${tint(h.ws >= 30 ? '229,136,114' : h.ws < 15 ? '121,166,227' : '161,174,203', 0.2 + h.ws / 50 * 0.55)}>${h.ws}</td>`;
+      r.gust += `<td${at}dimc${c}">${h.wg}</td>`;
+      r.wdir += `<td${at}${c}">${arrow(h.wdir, '')}</td>`;
+      r.fl += `<td${at}dimc${c}">${h.fl == null ? '' : Math.round(h.fl / 100) * 100}</td>`;
+    });
+  });
+  const row = (label, cells) => `<tr><th scope="row" class="rl">${label}</th>${cells}</tr>`;
+  return '<div class="wgwrap" tabindex="0" aria-label="Forecast table. Scroll sideways for other days."><table class="wg">'
+    + `<colgroup><col>${cols}</colgroup><thead><tr><th class="rl"></th>${head}</tr><tr><th class="rl">Hour</th>${hours}</tr></thead><tbody>`
+    + row('Score', r.score) + row('Snow cm', r.snow) + row('24 h cm', r.fresh) + row('Base cm', r.depth) + row('Sky', r.sky)
+    + row('Temp °C', r.temp) + row('Feels', r.feels) + row('Wind km/h', r.wind) + row('Gusts', r.gust) + row('Wind', r.wdir)
+    + row('0 °C at m', r.fl) + '</tbody></table></div>';
+}
+function skiHourlyHTML(s, d) {
+  const tz = s.tz, word = h => SKY_SKI_WORD[h.kind] || '';
+  return `<details class="hourly" open><summary>Hour by hour, ${dayName(d.ms, tz, true)}</summary><table class="hours"><thead><tr><th>Time</th><th>Score</th><th>Snow</th><th>Sky</th><th>Wind</th><th class="hide-s">Cold</th></tr></thead><tbody>`
+    + d.dl.map(h => `<tr class="${inWin(s, h.ms) ? 'win' : ''}"><td>${pad(hp(h, tz).h)}:00</td><td class="num band-${band(h.score)}">${fmt(h.score)}</td>`
+      + `<td>${h.fr} cm in 24 h${h.sd == null ? '' : ` <span class="dim">${h.sd} cm base</span>`}</td><td>${word(h)}</td>`
+      + `<td>${arrow(h.wdir)}${h.ws} km/h <span class="dim">gusts ${h.wg}</span></td><td class="hide-s">${Math.round(h.tc)} °C <span class="dim">feels ${h.ta}</span></td></tr>`).join('')
+    + '</tbody></table></details>';
+}
+const SKY_SKI_WORD = {clear: 'sunny', partly: 'sun and cloud', overcast: 'grey', snow: 'snowing', fog: 'fog', powder: 'powder', storm: 'storm', rain: 'rain', thin: 'thin snow'};
+
+/* the map for a resort: topographic tiles, one arrow for the wind */
+function skiMapHTML(s) {
+  const z = 12, n = Math.pow(2, z), rad = s.lat * Math.PI / 180, online = location.protocol !== 'file:';
+  const x = (s.lon + 180) / 360 * n, y = (1 - Math.asinh(Math.tan(rad)) / Math.PI) / 2 * n, tx = Math.floor(x), ty = Math.floor(y);
+  let ground = '';
+  if (online) {
+    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+      ground += `<img alt="" loading="lazy" src="https://tile.opentopomap.org/${z}/${tx + dx}/${ty + dy}.png" style="left:${(dx + 1) * 256}px;top:${(dy + 1) * 256}px">`;
+    }
+    ground = `<div class="tiles" style="margin-left:${(-(256 + (x - tx) * 256)).toFixed(0)}px;margin-top:${(-(256 + (y - ty) * 256)).toFixed(0)}px">${ground}</div>`;
+  } else {
+    ground = `<svg class="sketch" viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="${FAR}" transform="translate(-450 120) scale(1)" fill="#C9D2E2"/><text x="150" y="70">mountains</text></svg>`;
+  }
+  return `<section class="where"><figure class="map" aria-label="Map of ${esc(s.name)} with the wind direction">${ground}`
+    + '<div class="arm a-wind"><span class="shaft"></span><span class="head"></span></div><span class="pin"></span>'
+    + '<div class="tag t-wind"></div><span class="north" aria-hidden="true">N</span>'
+    + (online ? '<small class="attr">© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, SRTM | <a href="https://opentopomap.org">OpenTopoMap</a> (CC-BY-SA)</small>' : '')
+    + '</figure><div class="winfo"></div></section>';
+}
+const windKind = ws => ws < 15 ? 'light' : ws < 30 ? 'breezy' : 'strong';
+const SKI_WIND_COL = {light: '#79A6E3', breezy: '#C9D3E3', strong: '#E58872'};
+const SKI_MAP_COL = {light: '#2B58A3', breezy: '#5B6681', strong: '#C9472E'};
+function updateSkiMap(s, h, map, box, fresh) {
+  const k = windKind(h.ws), col = SKI_MAP_COL[k], W = map.clientWidth, H = map.clientHeight, m = Math.min(W, H);
+  const arm = map.querySelector('.a-wind'), tag = map.querySelector('.t-wind');
+  tag.innerHTML = `<i style="background:${col}"></i><span>Wind</span><b>${h.ws} km/h</b><span style="color:${col};font-weight:700">${k}</span>`;
+  const deg = h.wdir, prev = arm.angle == null ? deg : arm.angle, next = prev + ((deg - prev + 540) % 360 - 180);
+  arm.angle = next;
+  arm.style.transform = `rotate(${next.toFixed(1)}deg)`;
+  arm.style.setProperty('--c', col);
+  const t = deg * Math.PI / 180, sin = Math.sin(t), cos = Math.cos(t), w = tag.offsetWidth, hh = tag.offsetHeight;
+  const full = 0.34 * m, reach = (w / 2) * Math.abs(sin) + (hh / 2) * Math.abs(cos);
+  const room = Math.min(Math.abs(sin) > 0.01 ? (W / 2 - w / 2 - 6) / Math.abs(sin) : 1e9, Math.abs(cos) > 0.01 ? (H / 2 - hh / 2 - 6) / Math.abs(cos) : 1e9);
+  let cx, cy;
+  if (room - 8 - reach >= full) { cx = (full + 8 + reach) * sin; cy = -(full + 8 + reach) * cos; }
+  else { const side = sin < 0 ? 1 : -1, nx = side * cos, ny = side * sin, off = (w / 2) * Math.abs(nx) + (hh / 2) * Math.abs(ny) + 9; cx = full * sin + nx * off; cy = -full * cos + ny * off; }
+  arm.style.setProperty('--tail', full.toFixed(0) + 'px');
+  const x = Math.max(6, Math.min(W / 2 + cx - w / 2, W - w - 6)), y = Math.max(6, Math.min(H / 2 + cy - hh / 2, H - hh - 6));
+  tag.style.transform = `translate(${x.toFixed(0)}px,${y.toFixed(0)}px)`;
+  if (fresh) { void map.offsetWidth; map.classList.remove('noanim'); map.dataset.ready = '1'; }
+
+  const fl = h.fl == null ? '' : h.fl > s.top ? 'above the whole ski area: whatever falls is rain'
+    : h.fl - 300 > s.base ? `inside the ski area: rain low down, snow above about ${Math.round((h.fl - 300) / 100) * 100} m` : 'below the lifts: snow all the way down';
+  const vis = h.vis == null ? '' : h.vis < 1 ? ' Fog: flat light.' : h.vis < 5 ? ' Poor visibility.' : '';
+  box.innerHTML = `<div class="hd"><h3>On the mountain</h3>${info('wind', 'the wind')}</div>`
+    + `<p class="wtime">${dayLabel(h.ms, s.tz)}, ${hhmm(h.ms, s.tz)}${h.day ? '' : ', lifts closed'}<span class="ex">. Point at the charts below to see another hour.</span></p>`
+    + `<dl><dt><i style="background:#fff"></i>Snow</dt><dd>${h.fr >= 1 ? h.fr + ' cm new in 24 hours' : 'Nothing new in 24 hours'}${h.sd == null ? '' : `, about ${h.sd} cm on the ground`}.${h.sf / Math.max(1, (h.e - h.ms) / HOUR) >= 0.3 ? ' Snowing.' : ''}</dd>`
+    + `<dt><i style="background:#F0C36D"></i>Sky</dt><dd>${h.cc == null ? (SKY_SKI_WORD[h.kind] || '') : h.cc < 30 ? 'Clear' : h.cc < 70 ? 'Sun and cloud' : 'Grey'}${h.cc == null ? '' : ` (${h.cc}% cloud)`}.<span class="ex">${vis}</span></dd>`
+    + `<dt><i style="background:${SKI_WIND_COL[k]}"></i>Wind</dt><dd>${h.ws} km/h from the ${compass(h.wdir)}, gusts ${h.wg} km/h.<span class="ex"> ${h.wg >= 90 ? 'Most lifts stop in gusts like these.' : h.wg >= 70 ? 'The top lifts usually stop in gusts like these.' : h.ws >= 30 ? 'Cold on the chairlifts.' : 'No trouble for the lifts.'}</span></dd>`
+    + `<dt><i style="background:#9DB8E8"></i>Cold</dt><dd>${minus(h.tc)} °C at ${s.elev} m, feels like ${minus(h.ta)} °C.</dd>`
+    + (fl ? `<dt><i style="background:#7F90B2"></i>0 °C</dt><dd>At ${h.fl} m, ${fl}.</dd>` : '')
+    + `<dt><i class="band-bg ${band(h.score)}"></i>Score</dt><dd>${h.day ? fmt(h.score) + ' out of 10 for this hour.' : 'Lifts closed: no score.'}</dd></dl>`;
+}
+
+/* the small chart in the left column: new snow per day */
+function skiSea() {
+  const s = cur(), tz = s.tz, days = getDays(s), P = pal();
+  const W = 1000, H = 200, BASE = 50, TOP = 12, n = days.length;
+  const daily = days.map(d => d.all.reduce((x, h) => x + h.sf, 0)), top = Math.max(10, Math.max.apply(null, daily) * 1.2);
+  const bw = W / n;
+  let svg = '', labels = '';
+  days.forEach((d, i) => {
+    const hgt = daily[i] / top * (H - BASE - TOP), x = i * bw, good = s.wins.some(w => w.e > d.all[0].ms && w.s < d.all[d.all.length - 1].e);
+    if (hgt > 0.5) svg += `<rect class="layer" x="${(x + bw * 0.18).toFixed(1)}" y="${(H - BASE - hgt).toFixed(1)}" width="${(bw * 0.64).toFixed(1)}" height="${hgt.toFixed(1)}" rx="3" fill="${good ? P.fire : P.page}"/>`;
+    if (i % 3 === 0 && x < W * 0.88) labels += `<span class="lbl day" style="left:${(x / W * 100).toFixed(2)}%">${parts(d.ms, tz).wd} ${parts(d.ms, tz).d}</span>`;
+  });
+  svg += `<rect x="0" y="${H - BASE}" width="${W}" height="${BASE}" fill="${P.page}"/>`;
+  const today = days.findIndex(d => d.key === dayKeys(tz).today);
+  if (today >= 0) labels += `<span class="lbl nowl" style="left:${(today * bw / W * 100).toFixed(2)}%">today</span>`;
+  el('sea').innerHTML = `<figcaption class="pad">New snow at ${esc(s.name)}, day by day. Pink: a good day on the lifts</figcaption>`
+    + `<div class="plot" role="img" aria-label="New snow per day at ${esc(s.name)}, up to ${Math.round(Math.max.apply(null, daily))} cm"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">${svg}</svg>${labels}</div>`;
+}
+
+/* guides for the ski side */
+function animSnow() {
+  const v = [0, 2, 8, 14, 6, 0, 0, 3, 18, 26, 9, 1];
+  return '<svg viewBox="0 0 320 150" aria-hidden="true"><line x1="10" x2="310" y1="130" y2="130" stroke="#A1AECB" stroke-opacity=".5"/>'
+    + v.map((x, i) => `<rect class="ga-bar" x="${16 + i * 25}" y="${130 - x * 4}" width="17" height="${x * 4}" rx="2" fill="${x >= 10 ? '#FF6B8B' : '#DCE8FF'}" style="animation-delay:${i * 60}ms"/>`).join('')
+    + '<text class="ga-t ga-fade" x="226" y="14">10 cm or more: powder</text></svg>';
+}
+const SKI_GUIDES = {
+  page: () => ({
+    title: 'Fish Forecast', kind: 'How the ski side works', tag: 'Tells you which days your resorts are worth the drive, and why.',
+    steps: [
+      ['Star the resorts you ride.', 'They become My resorts: the headline is about them and they stay one click away.'],
+      ['Read the headline.', 'It names the next good stretch on the lifts at your resorts, or says there is none. A pink dot in the list marks a resort with one coming up.'],
+      ['Open a resort and pick a day.', 'The card says in plain words what that day looks like: new snow, sun, wind and cold.'],
+      ['Check what is behind the score.', 'New snow, snow on the ground, temperature, cloud, wind and the freezing level, hour by hour.'],
+      ['Put a resort in your calendar.', 'Press Subscribe to calendar next to its name and pick Google, Apple or Outlook. Its good days then show up as events.'],
+    ],
+    watch: 'The snow numbers come from a weather model, not from the resort. Check its own snow report and which lifts run before you drive.',
+  }),
+  score: () => ({
+    title: 'Score', tag: 'How good the skiing should be, hour by hour, from 0 to 10.', anim: animScore(),
+    read: [
+      'Only lift hours get a score, 09:00 to 16:00. The dark stripes are when the lifts are closed.',
+      'New snow counts most: 10 cm or more in a day makes a powder day. Then sun, a deep base, little wind, and dry cold between about −12 and −2 °C.',
+      'Fog, rain on the snow, gusts that stop the lifts, and a model that sees almost no snow all hold the score down.',
+      `Pink is the part above the dashed line (${MIN}). ${D.min_window_hours} or more such hours in a row become a calendar event.`,
+      'Drag the charts sideways or use the arrows to move through the two weeks. Click a day to open it on its own.',
+    ],
+    tips: ['A sunny day after a night of snow is the one to aim for.'],
+    watch: 'The score cannot see grooming, crowds or which lifts are open.',
+  }),
+  snow: () => ({
+    title: 'New snow', tag: 'How much snow falls at the resort, hour by hour.', anim: animSnow(),
+    read: [
+      'Each bar is the snow that falls in that hour, in centimetres. Further out in the forecast one bar stands for three hours.',
+      'It is worked out for two thirds of the way up the lifts: the weather model gives the precipitation, and the temperature up there decides whether it is snow or rain.',
+      'Point at an hour to see the total over the last 24 hours.',
+    ],
+    tips: ['10 cm or more overnight and then sun: that is a powder day.'],
+    watch: 'Snow amounts are the least certain part of a forecast, more so beyond three days. Wind also moves snow off ridges into gullies.',
+  }),
+  depth: () => ({
+    title: 'Snow on the ground', tag: 'How deep the snow is, as far as the weather model can tell.',
+    read: [
+      "The weather model tracks the snow on the ground, but its mountains are smoothed out and sit lower than the ski area. Where the snow that fell up here over the last week adds up to more, that is used instead.",
+      'Under 10 cm the score is held down: there is hardly any natural snow.',
+    ],
+    tips: ['Use it to see the trend: is the base building up or melting away?'],
+    watch: "This is not the resort's snow report. Runs on machine-made snow can be open while this shows next to nothing.",
+  }),
+  temp: s => ({
+    title: 'Temperature', tag: `How cold it is two thirds of the way up the lifts, at ${s.elev} m.`,
+    read: [
+      'The thick line is the air temperature, the thin line how cold it feels with the wind.',
+      'Dashed line: 0 °C. Above it the snow turns soft and heavy; well below it stays dry.',
+      'It is about 6.5 °C warmer for every kilometre lower: the card gives the temperature at the bottom lift too.',
+    ],
+    tips: ['Between −12 and −2 °C the snow is at its best. Below −20 with wind, cover your face.'],
+    watch: 'Valleys can be colder than the slopes on clear, calm mornings.',
+  }),
+  cloud: () => ({
+    title: 'Cloud', tag: 'How much of the sky is covered.',
+    read: ['0 % is a clear blue sky, 100 % all grey.', 'Under grey skies the light is flat and the bumps are hard to see. Fog is worse and lowers the score.'],
+    tips: ['Sun after snow makes the best days.'],
+    watch: 'Low cloud can fill the valley while the top is in the sun, or the other way round.',
+  }),
+  freeze: s => ({
+    title: 'Freezing level', tag: 'The height where the air is at 0 °C.',
+    read: [
+      'Below the line the air is warmer than 0 °C, above it colder.',
+      `The dashed lines are the bottom and the top lift (${s.base} and ${s.top} m).`,
+      'When it rains or snows, snow reaches about 300 m below this line; lower down it rains.',
+    ],
+    tips: ['A freezing level above the top lift means rain on the whole mountain.'],
+    watch: 'In a clear, calm high it can be warmer up top than in the valley.',
+  }),
+  wind: () => ({
+    title: 'Wind', tag: 'Wind speed and gusts at the resort.', anim: animWind(),
+    read: [
+      'The thick line is the average wind in km/h, the thin line the gusts.',
+      'On the map, the arrow comes from where the wind blows from and points at the resort.',
+      'Under the chart, small arrows show where it blows to: blue is light, grey a breeze, coral strong.',
+      'Gusts above about 70 km/h stop the upper lifts; above 90 most lifts stop.',
+    ],
+    tips: ['On a windy day stay low, among the trees.'],
+    watch: 'On a ridge the wind can be twice what the model gives for the area.',
+  }),
+  table: () => ({
+    title: 'Forecast table', tag: 'Every lift hour as one column.',
+    read: [
+      'One column is one hour, 09:00 to 16:00. Scroll sideways for other days, or tap a day above.',
+      'Score: grey is poor, blue decent, ice-white good, pink means go. A pink line under the hour marks a calendar event.',
+      'Snow is what falls in that hour (three hours further out); 24 h is the total over the last day; Base is the snow on the ground.',
+      'Wind is blue when light, grey for a breeze, coral when strong. The last row is the freezing level in metres.',
+    ],
+    tips: ['Look for a column with new snow in the 24 h row, a sun, and blue wind.'],
+    watch: "Faded columns are behind us. The last three days are a look back with today's rules.",
+  }),
+};
 
 /* ---------- wiring */
 function setHash() {
@@ -1955,6 +2538,7 @@ function select(id, jump) {
   state.zoom = false;
   state.pan = null;
   state.hour = null;
+  state.sub = null;
   setHash();
   renderList();
   renderSea();
@@ -1969,10 +2553,9 @@ function toggleFav(id) {
   renderTabs();
   renderList();
   renderDetail();
-  if (dlg.open) renderDialog();
 }
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-guide],[data-pick],[data-fav],[data-day],[data-tab],[data-copy],[data-pan],[data-view],[data-top],[data-menu],[data-go],[data-search]');
+  const t = e.target.closest('[data-guide],[data-pick],[data-fav],[data-day],[data-tab],[data-copy],[data-pan],[data-view],[data-up],[data-menu],[data-go],[data-search],[data-mode],[data-sub]');
   const cell = !t && e.target.closest('.wg [data-i]');
   if (cell) { closeGuide(); pickHour(+cell.dataset.i); return; }
   if (!t) {
@@ -1985,12 +2568,14 @@ document.addEventListener('click', e => {
   if (t.dataset.go) return go(t.dataset.go);
   if (t.dataset.guide) return openGuide(t);
   closeGuide();
-  if (t.dataset.pick) select(t.dataset.pick, true);
+  if (t.dataset.mode) switchMode(t.dataset.mode);
+  else if (t.dataset.pick) select(t.dataset.pick, true);
   else if (t.dataset.fav) toggleFav(t.dataset.fav);
   else if (t.dataset.day) setDay(t.dataset.day);
   else if (t.dataset.pan) panBy(+t.dataset.pan);
   else if (t.dataset.view) { view = t.dataset.view; try { localStorage.setItem(VIEW_KEY, view); } catch (err) { /* not fatal */ } state.zoom = false; renderDetail(); }
-  else if (t.dataset.top) el('detail').scrollIntoView({behavior: 'smooth'});
+  else if (t.dataset.up) el('detail').scrollIntoView({behavior: 'smooth'});
+  else if (t.dataset.sub) toggleSub();
   else if (t.dataset.search) toSearch();
   else if (t.dataset.tab) { state.tab = t.dataset.tab; state.q = ''; el('q').value = ''; state.expanded = false; renderTabs(); renderList(); }
   else if (t.dataset.copy) copy(t.dataset.copy, t);
@@ -2032,10 +2617,6 @@ el('detail').addEventListener('wheel', e => {
 document.addEventListener('change', e => { if (e.target.id === 'src') setSource(e.target.value); });
 el('q').addEventListener('input', e => { state.q = e.target.value; renderTabs(); renderList(); });
 el('more').addEventListener('click', () => { state.expanded = true; renderList(); });
-el('open-sub').addEventListener('click', () => openCal(true));
-el('dq').addEventListener('input', renderDialog);
-el('checks').addEventListener('change', e => { if (e.target.dataset.check) toggleFav(e.target.dataset.check); });
-dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
 menu.addEventListener('click', e => { if (e.target === menu) menu.close(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeGuide(); });
 window.addEventListener('scroll', closeGuide, true);
@@ -2045,7 +2626,7 @@ desktop.addEventListener('change', renderList);
 window.addEventListener('resize', () => { if (state.mapH) updateMap(cur(), state.mapH, true); });
 narrow.addEventListener('change', () => { applyPan(true); if (!narrow.matches && menu.open) menu.close(); });
 
-el('q').placeholder = `Search ${D.spots.length} spots`;
+renderModes();
 el('q').value = state.q;
 document.body.classList.add('intro');
 setTimeout(() => document.body.classList.remove('intro'), 2500);
@@ -2054,8 +2635,8 @@ renderTabs();
 renderList();
 renderSea();
 renderDetail();
-if (source !== 'blend') setSource(source);
-if (hash.selfcheck && canSource) {      // #selfcheck=1: does the page's scoring agree with the bot's? The answer goes in the tab title
+if (source !== 'blend' && MODE === 'surf') setSource(source);
+if (hash.selfcheck && canSource && MODE === 'surf') {      // #selfcheck=1: does the page's scoring agree with the bot's? The answer goes in the tab title
   let n = 0, off = 0, big = 0, worst = 0, eg = '';
   D.spots.forEach(s => s.hrs.forEach(h => {
     const mine = scoreHour(Object.assign({}, h, h.base), s).score, d = Math.abs(mine - h.base.score);
@@ -2066,12 +2647,13 @@ if (hash.selfcheck && canSource) {      // #selfcheck=1: does the page's scoring
   }));
   document.title = `selfcheck: ${off} of ${n} hours differ, ${big} by more than 1, worst ${worst.toFixed(1)}${eg}`;
 }
-if (hash.subscribe || hash.page === 'cal') openCal(false);
+if (hash.subscribe) toggleSub(true);
 if (hash.menu) openMenu();
 if (hash.pan) { state.pan = cur().hrs[0].ms + +hash.pan * DAY; applyPan(true); }
 if (hash.day) { const d = getDays(cur())[+hash.day]; if (d) setDay(d.key); }
 if (hash.hover) demoHover(+hash.hover);
 if (hash.guide) { const b = document.querySelector(`[data-guide="${hash.guide}"]`); if (b) openGuide(b); }
+setTimeout(() => document.body.classList.remove('notrans'), 80);
 })();
 </script>
 </body>

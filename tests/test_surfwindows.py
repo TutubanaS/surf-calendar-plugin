@@ -231,3 +231,112 @@ def test_merge_uses_median_of_models():
     assert (b.wave_h, b.n_models, b.wave_dir) == (1.0, 2, 320)   # ewam has run out
     assert b.wave_t == 4.5
     assert a.weather is None and a.tide is None      # weather and tide are optional
+
+
+# --------------------------------------------------------------------------- ski and snowboard
+
+RESORTS = {r["id"]: r for r in CFG["resorts"]}
+
+
+def ski(depth=80, fresh=0, temp=-6, wind=8, gust=20, cloud=10, weather=0, vis=40000, snow=0.0, rain=0.0, feels=None):
+    return sw.SkiHour(time=datetime(2026, 12, 10, 10, tzinfo=UTC), temp_c=temp, feels_c=temp - 4 if feels is None else feels,
+                      snow_cm=snow, rain_mm=rain, fresh_cm=fresh, depth_cm=depth, wind_kmh=wind, gust_kmh=gust,
+                      wind_dir=270, lifts=True, weather=weather, cloud=cloud, vis_m=vis)
+
+
+def test_ski_scores():
+    bluebird = ski(fresh=25)                                   # a night of snow, then sun and no wind
+    assert sw.score_ski(bluebird) >= 9 and bluebird.kind == "powder"
+    sunny = sw.score_ski(ski())
+    assert CFG["min_score"] <= sunny < 8                       # a sunny day on a good base: worth going, not a powder day
+    assert sw.score_ski(ski(cloud=95, weather=3)) < CFG["min_score"]          # grey, nothing new: not for the calendar
+    fog = ski(cloud=100, weather=45, vis=300)
+    assert sw.score_ski(fog) <= 3 and fog.kind == "fog"
+    assert sw.score_ski(ski(fresh=15, snow=1.5, cloud=100, weather=73, vis=600)) >= 6   # snowing hard: powder, poor light
+
+
+def test_ski_vetoes():
+    rain = ski(fresh=12, temp=3, rain=1.4, cloud=100, weather=63)
+    assert sw.score_ski(rain) <= 1.5 and rain.kind == "rain"
+    storm = ski(fresh=25, wind=50, gust=95)
+    assert sw.score_ski(storm) <= 1 and storm.kind == "storm"
+    assert sw.score_ski(ski(fresh=25, wind=35, gust=75)) <= 3             # the upper lifts are on hold
+    thin = ski(depth=4)
+    assert sw.score_ski(thin) <= 3.5 and thin.kind == "thin"
+    assert sw.score_ski(ski(feels=-30)) < sunny_score() - 1               # bitter cold
+
+
+def sunny_score():
+    return sw.score_ski(ski())
+
+
+def test_merge_ski_splits_snow_and_rain_and_counts_new_snow():
+    times = [f"2026-12-10T{h:02d}:00" for h in range(0, 12)]
+    n = len(times)
+    weather = {"hourly": {
+        "time": times, "temperature_2m": [-5] * 6 + [1.5] * 3 + [4] * 3, "apparent_temperature": [-9] * n,
+        "precipitation": [1.0] * 9 + [2.0, None, 0.0], "wind_speed_10m": [10] * n, "wind_gusts_10m": [20] * n,
+        "wind_direction_10m": [270] * n, "snow_depth": [0.5] * n, "weather_code": [73] * n,
+    }, "daily": {"sunrise": ["2026-12-10T06:40"], "sunset": ["2026-12-10T15:50"]}}
+    hours = sw.merge_ski(weather, RESORTS["st-anton"])
+    assert len(hours) == 11                                     # the hour without precipitation data is skipped
+    assert hours[0].snow_cm == 1.0 and hours[0].rain_mm == 0    # -5 °C: all snow
+    assert hours[6].snow_cm == 0.4 and hours[6].rain_mm == 0.5  # 1.5 °C: half and half
+    assert hours[9].snow_cm == 0 and hours[9].rain_mm == 2.0    # 4 °C: rain
+    assert hours[5].fresh_cm == 6.0 and hours[8].fresh_cm == 7.2   # new snow adds up over the day
+    assert hours[0].depth_cm == 50 and hours[8].depth_cm == 50     # the model's 50 cm, more than 60 % of 7.2
+    weather['hourly']['snow_depth'] = [0.0] * n                      # the model sees bare ground...
+    assert sw.merge_ski(weather, RESORTS['st-anton'])[8].depth_cm == 4   # ...but 7.2 cm fell up here
+    # St. Anton is UTC+1: the lifts run 08:00 to 15:00 UTC here
+    assert [h.time.hour for h in hours if h.lifts] == [8, 9, 11]
+
+
+def test_resorts_file_is_valid():
+    ids = list(RESORTS)
+    assert len(CFG["resorts"]) == len(ids) > 30
+    assert not set(ids) & set(SPOTS)          # feeds share docs/cal/, so a resort may not take a surf spot's id
+    for r in CFG["resorts"]:
+        assert r["country"] in sw.SKI_COUNTRIES and r["tz"].count("/") == 1, r["id"]
+        assert r["base"] < r["elev"] < r["top"] or r["base"] < r["top"] <= 900, r["id"]
+        assert 35 < r["lat"] < 55 and -10 < r["lon"] < 45, r["id"]
+
+
+def fake_ski_factory(start):
+    def fetch(resort, days):
+        out = []
+        for i in range(days * 24):
+            t = start + timedelta(hours=i)
+            good = i // 24 == 1                    # tomorrow: fresh snow and sun
+            out.append(sw.SkiHour(time=t, temp_c=-6, feels_c=-10, snow_cm=0, rain_mm=0, fresh_cm=20 if good else 0,
+                                  depth_cm=90, wind_kmh=8, gust_kmh=15, wind_dir=270, lifts=8 <= t.hour < 15,
+                                  weather=0 if good else 3, cloud=5 if good else 95, vis_m=40000))
+        return out
+    return fetch
+
+
+def test_ski_end_to_end(tmp_path):
+    now = datetime(2026, 12, 9, 4, tzinfo=UTC)
+    cfg = dict(CFG, spots=[SCHEV], resorts=[RESORTS["uludag"], RESORTS["st-anton"]])
+    by = sw.run_ski(cfg, now, fetch=fake_ski_factory(now.replace(hour=0)), out_dir=tmp_path)
+    assert [len(by[r]) for r in ("uludag", "st-anton")] == [1, 1]
+    w = by["st-anton"][0]
+    assert w.start.startswith("2026-12-10T08") and "20 cm new snow" in w.summary and w.best >= 9
+    cal = tmp_path / "docs" / "cal"
+    assert events(cal / "st-anton.ics") == 1 and "Ski: St. Anton" in (cal / "st-anton.ics").read_text(encoding="utf-8")
+    text = (tmp_path / "docs" / "ski.js").read_text(encoding="utf-8")
+    data = json.loads(text[len("window.SKI="):].rstrip().rstrip(";"))
+    assert [s["id"] for s in data["spots"]] == ["uludag", "st-anton"] and set(data["countries"]) == set(sw.SKI_COUNTRIES)
+    s = data["spots"][1]
+    assert len(s["score"]) == len(s["sf"]) == len(s["kind"]) == len(s["day"]) and s["windows"][0]["cond"].startswith("20 cm")
+
+    # the surf run leaves the ski feeds alone; a resort that fails keeps its feed and its place on the page
+    sw.run(cfg, now, fetch=fake_fetch_factory(now.replace(hour=0)), out_dir=tmp_path)
+    assert (cal / "st-anton.ics").exists() and (cal / "uludag.ics").exists()
+
+    def flaky(resort, days):
+        if resort["id"] == "uludag":
+            raise OSError("api down")
+        return fake_ski_factory(now.replace(hour=0))(resort, days)
+    sw.run_ski(cfg, now, fetch=flaky, out_dir=tmp_path)
+    data = json.loads((tmp_path / "docs" / "ski.js").read_text(encoding="utf-8")[len("window.SKI="):].rstrip().rstrip(";"))
+    assert [s["id"] for s in data["spots"]] == ["uludag", "st-anton"] and events(cal / "uludag.ics") == 1
