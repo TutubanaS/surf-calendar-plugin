@@ -8,18 +8,60 @@ X-WR-TIMEZONE:Europe/Vienna
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
+UID:0368823bdf34a9b8@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T110000Z
+SUMMARY:🤏 Mayrhofen 5/10 · 9 cm new snow · cloudy · -9°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nFri 09:00       5      9 cm
+    cloudy          -9°C    4 km/h (g29)\nFri 10:00       5      8 cm   cl
+ oudy          -8°C    4 km/h (g25)\nFri 11:00       5      6 cm   cloudy 
+          -7°C    2 km/h (g25)\n\nWeather at 1880 m. Snow depth and new sn
+ ow are the weather model's numbers\, not the resort's own snow report.\nNo
+ tes: Penken park and the Harakiri run.\nGenerated 2026-11-24 23:00 UTC fro
+ m Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-
+ plugin/#spot=mayrhofen
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=mayrhofen
+LOCATION:Mayrhofen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ea09e33d00e75dbe@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261128T080000Z
-DTEND:20261128T110000Z
-SUMMARY:🤏 Mayrhofen 5/10 · 28 cm of snow · sunny · -5°C
+DTEND:20261128T150000Z
+SUMMARY:🤏 Mayrhofen 5.5/10 · 31 cm of snow · sunny · -8°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm 
+   sunny           -8°C    7 km/h (g28)\nSat 10:00     5.5      0 cm   sun
+ ny           -7°C    6 km/h (g28)\nSat 11:00     5.5      0 cm   sunny   
+         -6°C    5 km/h (g24)\nSat 12:00     5.5      0 cm   sunny        
+    -4°C    2 km/h (g24)\nSat 13:00     5.5      0 cm   sunny           -3
+ °C    1 km/h (g24)\nSat 14:00     5.5      0 cm   sunny           -3°C  
+   1 km/h (g19)\nSat 15:00     5.5      0 cm   sunny           -3°C    1 k
+ m/h (g19)\n\nWeather at 1880 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Penken park and 
+ the Harakiri run.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull
+  forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=mayrhofe
+ n
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=mayrhofen
+LOCATION:Mayrhofen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d409e3a5b5f80baa@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261201T080000Z
+DTEND:20261201T110000Z
+SUMMARY:🤏 Mayrhofen 5/10 · 15 cm of snow · sunny · -5°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nSat 09:00       5      0 cm   
- sunny           -5°C    6 km/h (g17)\nSat 10:00       5      0 cm   sunny
-            -4°C    5 km/h (g17)\nSat 11:00       5      0 cm   sunny     
-       -3°C    3 km/h (g12)\n\nWeather at 1880 m. Snow depth and new snow 
+ score  new snow  sky           temp   wind\nTue 09:00       5      0 cm   
+ sunny           -5°C    7 km/h (g26)\nTue 10:00       5      0 cm   sunny
+            -4°C    6 km/h (g26)\nTue 11:00       5      0 cm   sunny     
+       -3°C    4 km/h (g14)\n\nWeather at 1880 m. Snow depth and new snow 
  are the weather model's numbers\, not the resort's own snow report.\nNotes
- : Penken park and the Harakiri run.\nGenerated 2026-11-24 10:00 UTC from O
+ : Penken park and the Harakiri run.\nGenerated 2026-11-24 23:00 UTC from O
  pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
  gin/#spot=mayrhofen
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=mayrhofen

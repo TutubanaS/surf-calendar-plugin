@@ -8,149 +8,149 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:0b583e22da78c0f0@surf-windows
-DTSTAMP:20261124T100000Z
-DTSTART:20261124T080000Z
-DTEND:20261124T110000Z
-SUMMARY:🤏 Moledo 6/10 · 2.5m 11s W · 5kn SW
-DESCRIPTION:Best 6/10 at 10:00. Forecast confidence: high. 5 wave models sa
- y 2.1 to 2.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00  
-      5   2.4m 11.2s WSW   13kn (g31) SSE cross\nTue 09:00       5   2.5m 1
- 1.2s WSW   10kn (g30) SSE cross\nTue 10:00       6   2.5m 11.0s   W    5kn
-  (g23)  SW glassy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFu
- ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
+UID:1734f99fdb07404e@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:🤏 Moledo 6/10 · 2.9m 11s WNW · 2kn WNW
+DESCRIPTION:Best 6/10 at 16:00. Forecast confidence: high. 5 wave models sa
+ y 2.2 to 3.4 m.\n\nHour (local)  score  waves            wind\nWed 16:00  
+      6   2.9m 11.2s WNW    2kn (g14) WNW glassy\nWed 17:00       6   2.8m 
+ 11.1s WNW    2kn (g10) WNW glassy\n\nGenerated 2026-11-24 23:00 UTC from O
+ pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
+ gin/#spot=moledo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
 LOCATION:Moledo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:61170520053e6b75@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Moledo 8.5/10 · 1.8m 10s WNW · 3kn E
-DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 5 wave model
- s say 1.4 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:
- 00     8.5   1.8m 10.2s WNW    3kn (g6)   E glassy\nThu 09:00     8.5   1.
- 8m 10.2s WNW    2kn (g6)  SE glassy\nThu 10:00     8.5   1.8m 10.2s WNW   
-  3kn (g6) ESE glassy\nThu 11:00     8.5   1.7m 10.2s WNW    2kn (g6) ESE g
- lassy\nThu 12:00     8.5   1.7m 10.2s WNW    3kn (g6) ESE glassy\nThu 13:0
- 0     8.5   1.7m 10.2s WNW    2kn (g7)  SE glassy\nThu 14:00     8.5   1.6
- m 10.2s WNW    3kn (g8)  SE glassy\nThu 15:00     7.5   1.6m 10.2s WNW    
- 4kn (g8) SSE glassy\nThu 16:00     8.5   1.6m 10.2s WNW    3kn (g8)  SE gl
- assy\nThu 17:00       7   1.6m 10.2s WNW    3kn (g7) SSE glassy\n\nGenerat
- ed 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=moledo
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
-LOCATION:Moledo
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1ec454a3b819f1ba@surf-windows
-DTSTAMP:20261124T100000Z
-DTSTART:20261127T080000Z
-DTEND:20261127T180000Z
-SUMMARY:🔥 Moledo 9.5/10 · 1.9m 11s WNW · 3kn ESE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 4 wave model
- s say 1.8 to 2.0 m.\n\nHour (local)  score  waves            wind\nFri 08:
- 00     9.5   1.9m 11.4s WNW    3kn (g6) ESE glassy\nFri 09:00     9.5   1.
- 9m 11.4s WNW    3kn (g7)  SE glassy\nFri 10:00     8.5   1.9m 11.4s WNW   
-  3kn (g8) SSE glassy\nFri 11:00     8.5   1.9m 11.6s WNW    4kn (g10) SSE 
- glassy\nFri 12:00     8.5   1.8m 11.6s WNW    5kn (g12)   S cross\nFri 13:
- 00     8.5   1.8m 11.7s WNW    6kn (g13)   S cross\nFri 14:00     8.5   1.
- 8m 11.7s WNW    6kn (g13)   S cross\nFri 15:00     8.5   1.8m 11.8s WNW   
-  5kn (g13)   S cross\nFri 16:00     8.5   1.8m 11.8s WNW    5kn (g9)   S c
- ross\nFri 17:00     8.5   1.8m 11.8s WNW    5kn (g9) SSE glassy\n\nGenerat
- ed 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=moledo
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
-LOCATION:Moledo
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:adf2f6e2e8047aa6@surf-windows
-DTSTAMP:20261124T100000Z
-DTSTART:20261128T080000Z
-DTEND:20261128T180000Z
-SUMMARY:👍 Moledo 6.5/10 · 2.4m 13s WNW · 6kn SSE
-DESCRIPTION:Best 6.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 2.2 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
-     6.5   2.4m 13.0s WNW    6kn (g13) SSE cross\nSat 09:00     6.5   2.4m 
- 13.0s WNW    6kn (g13) SSE cross\nSat 10:00     6.5   2.4m 12.9s WNW    6k
- n (g15) SSE cross\nSat 11:00     6.5   2.4m 12.9s WNW    6kn (g15) SSE cro
- ss\nSat 12:00     6.5   2.4m 12.9s WNW    7kn (g15) SSE cross\nSat 13:00  
-    6.5   2.4m 12.8s WNW    6kn (g13) SSE cross\nSat 14:00     6.5   2.4m 1
- 2.8s WNW    6kn (g13) SSE cross\nSat 15:00     6.5   2.4m 12.8s WNW    5kn
-  (g13) SSE cross\nSat 16:00     6.5   2.4m 12.7s WNW    5kn (g11) SSE cros
- s\nSat 17:00     6.5   2.4m 12.7s WNW    5kn (g11) SSE glassy\n\nGenerated
-  2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
+SUMMARY:🔥 Moledo 8.5/10 · 1.9m 10s WNW · 2kn E
+DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: high. 5 wave models 
+ say 1.4 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00
+      8.5   1.9m 10.2s WNW    2kn (g5)   E glassy\nThu 09:00     8.5   1.8m
+  10.2s WNW    3kn (g6) ESE glassy\nThu 10:00     8.5   1.8m 10.2s WNW    2
+ kn (g6) ESE glassy\nThu 11:00     8.5   1.8m 10.2s WNW    2kn (g5) ESE gla
+ ssy\nThu 12:00     8.5   1.7m 10.2s WNW    3kn (g7)  SE glassy\nThu 13:00 
+     7.5   1.7m 10.2s WNW    4kn (g9) SSE glassy\nThu 14:00     8.5   1.7m 
+ 10.2s WNW    3kn (g9)  SE glassy\nThu 15:00     7.5   1.6m 10.2s WNW    3k
+ n (g8) SSE glassy\nThu 16:00     7.5   1.6m 10.2s WNW    3kn (g8) SSE glas
+ sy\nThu 17:00       7   1.6m 10.2s WNW    3kn (g7) SSE glassy\n\nGenerated
+  2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
  .github.io/surf-calendar-plugin/#spot=moledo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
 LOCATION:Moledo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:1ec454a3b819f1ba@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T180000Z
+SUMMARY:🔥 Moledo 9.5/10 · 1.8m 12s WNW · 3kn ESE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 5 wave model
+ s say 1.4 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:
+ 00     9.5   1.8m 11.7s WNW    3kn (g7) ESE glassy\nFri 09:00     9.5   1.
+ 8m 12.3s WNW    3kn (g7)  SE glassy\nFri 10:00     9.5   1.8m 12.3s WNW   
+  3kn (g8)  SE glassy\nFri 11:00     8.5   1.8m 12.3s WNW    4kn (g10) SSE 
+ glassy\nFri 12:00     8.5   1.8m 12.3s WNW    5kn (g12) SSE cross\nFri 13:
+ 00     8.5   1.7m 12.3s WNW    6kn (g14) SSE cross\nFri 14:00     8.5   1.
+ 7m 12.3s WNW    6kn (g14) SSE cross\nFri 15:00     8.5   1.7m 12.3s WNW   
+  6kn (g14) SSE cross\nFri 16:00     8.5   1.7m 12.2s WNW    6kn (g14)   S 
+ cross\nFri 17:00     8.5   1.8m 12.1s WNW    6kn (g13) SSE cross\n\nGenera
+ ted 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
+ nas.github.io/surf-calendar-plugin/#spot=moledo
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
+LOCATION:Moledo
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:adf2f6e2e8047aa6@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T180000Z
+SUMMARY:👍 Moledo 7/10 · 2.6m 14s WNW · 7kn S
+DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 4 wave models say
+  2.3 to 2.7 m.\n\nHour (local)  score  waves            wind\nSat 08:00   
+     7   2.6m 13.6s WNW    7kn (g16)   S cross\nSat 09:00       7   2.6m 13
+ .6s WNW    7kn (g16)   S cross\nSat 10:00       7   2.6m 13.6s WNW    7kn 
+ (g16)   S cross\nSat 11:00       7   2.7m 13.6s  NW    7kn (g16)   S cross
+ \nSat 12:00       7   2.7m 13.5s  NW    7kn (g16) SSE cross\nSat 13:00    
+    7   2.7m 13.5s  NW    7kn (g15) SSE cross\nSat 14:00       7   2.7m 13.
+ 4s  NW    6kn (g15) SSE cross\nSat 15:00       7   2.7m 13.4s  NW    6kn (
+ g15) SSE cross\nSat 16:00       7   2.6m 13.4s  NW    5kn (g12) SSE cross\
+ nSat 17:00       7   2.6m 13.4s  NW    5kn (g12) SSE cross\n\nGenerated 20
+ 26-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=moledo
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
+LOCATION:Moledo
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:64c7b65588847c2f@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Moledo 9.5/10 · 2.3m 12s NW · 3kn SE
-DESCRIPTION:Best 9.5/10 at 11:00. Forecast confidence: low. 4 wave models s
- ay 2.1 to 2.9 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
-     7.5   2.3m 12.5s  NW    3kn (g6) ESE glassy\nSun 09:00     7.5   2.3m 
- 12.5s  NW    3kn (g6) ESE glassy\nSun 10:00     7.5   2.3m 12.4s  NW    3k
- n (g5) ESE glassy\nSun 11:00     9.5   2.3m 12.4s  NW    3kn (g5)  SE glas
- sy\nSun 12:00     8.5   2.3m 12.4s  NW    2kn (g5) SSE glassy\nSun 13:00  
-    8.5   2.3m 12.4s  NW    2kn (g5) SSW glassy\nSun 14:00       8   2.2m 1
- 2.4s  NW    2kn (g5) WSW glassy\nSun 15:00       8   2.2m 12.4s  NW    2kn
-  (g5)   W glassy\nSun 16:00       8   2.2m 12.5s  NW    2kn (g4) WNW glass
- y\nSun 17:00       8   2.2m 12.5s  NW    2kn (g4) NNW glassy\n\nGenerated 
- 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=moledo
+SUMMARY:🔥 Moledo 9.5/10 · 2.2m 13s NW · 3kn ENE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 2.1 to 2.4 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
+     9.5   2.2m 12.5s  NW    3kn (g6) ENE glassy\nSun 09:00     8.5   2.2m 
+ 12.5s  NW    3kn (g6)  NE glassy\nSun 10:00     8.5   2.2m 12.4s  NW    3k
+ n (g10)  NE glassy\nSun 11:00     8.5   2.2m 12.4s  NW    4kn (g10) NNE gl
+ assy\nSun 12:00     8.5   2.2m 12.4s  NW    4kn (g10) NNE glassy\nSun 13:0
+ 0     8.5   2.2m 12.4s  NW    4kn (g9) NNE glassy\nSun 14:00     8.5   2.2
+ m 12.4s  NW    4kn (g9) NNE glassy\nSun 15:00     8.5   2.2m 12.4s  NW    
+ 4kn (g9) NNE glassy\nSun 16:00     9.5   2.2m 12.4s  NW    4kn (g7) ESE gl
+ assy\nSun 17:00     8.5   2.2m 12.5s  NW    4kn (g8) SSW glassy\n\nGenerat
+ ed 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=moledo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
 LOCATION:Moledo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cfca386afee5f2e0@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Moledo 10/10 · 2.3m 14s NW · 2kn SE
-DESCRIPTION:Best 10/10 at 13:00. Forecast confidence: low. 4 wave models sa
- y 2.2 to 2.5 m.\n\nHour (local)  score  waves            wind\nMon 08:00  
-    7.5   2.4m 12.8s  NW    3kn (g6) ESE glassy\nMon 09:00     7.5   2.4m 1
- 2.9s  NW    3kn (g6) ESE glassy\nMon 10:00       8   2.4m 13.1s  NW    3kn
-  (g5) ESE glassy\nMon 11:00       8   2.3m 13.4s  NW    3kn (g5) ESE glass
- y\nMon 12:00       8   2.3m 13.6s  NW    2kn (g5)  SE glassy\nMon 13:00   
-    10   2.3m 13.6s  NW    2kn (g4)  SE glassy\nMon 14:00       9   2.3m 13
- .6s  NW    1kn (g4) SSE glassy\nMon 15:00       9   2.3m 13.4s  NW    1kn 
- (g4)   S glassy\nMon 16:00       9   2.2m 13.2s  NW    1kn (g3) SSW glassy
- \nMon 17:00       8   2.2m 12.9s  NW    1kn (g3)  SW glassy\n\nGenerated 2
- 026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
- ithub.io/surf-calendar-plugin/#spot=moledo
+SUMMARY:🔥 Moledo 9.5/10 · 2.1m 13s NW · 4kn E
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 2.0 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
+     9.5   2.1m 12.8s  NW    4kn (g7)   E glassy\nMon 09:00     9.5   2.1m 
+ 12.8s  NW    3kn (g7)   E glassy\nMon 10:00     9.5   2.1m 12.8s  NW    3k
+ n (g8) ESE glassy\nMon 11:00     8.5   2.1m 12.8s  NW    2kn (g8) SSE glas
+ sy\nMon 12:00     8.5   2.1m 12.8s  NW    3kn (g8)   S glassy\nMon 13:00  
+    8.5   2.1m 12.8s  NW    4kn (g9)   S glassy\nMon 14:00     8.5   2.0m 1
+ 2.8s  NW    4kn (g9)   S glassy\nMon 15:00     8.5   2.0m 12.7s  NW    4kn
+  (g9)   S glassy\nMon 16:00     8.5   2.0m 12.7s  NW    4kn (g6)   S glass
+ y\nMon 17:00     8.5   2.0m 12.6s  NW    3kn (g6)   S glassy\n\nGenerated 
+ 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=moledo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
 LOCATION:Moledo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ac07a1740d8da415@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Moledo 9.5/10 · 2.0m 12s NW · 6kn ESE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
- ay 1.7 to 2.1 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   2.0m 12.4s  NW    6kn (g13) ESE offshore\nTue 09:00     9.5   2.
- 1m 12.3s  NW    6kn (g13) ESE offshore\nTue 10:00     9.5   2.1m 12.2s  NW
-     6kn (g13) ESE offshore\nTue 11:00     9.5   2.1m 12.2s  NW    7kn (g12
- )  SE offshore\nTue 12:00     9.5   2.0m 12.1s  NW    7kn (g11)  SE offsho
- re\nTue 13:00     8.5   2.0m 11.9s  NW    7kn (g10) SSE cross\nTue 14:00  
-    8.5   2.0m 11.8s  NW    6kn (g10) SSE cross\nTue 15:00     8.5   2.0m 1
- 1.8s  NW    5kn (g10) SSE cross\nTue 16:00     8.5   2.0m 11.7s  NW    4kn
-  (g10) SSE glassy\nTue 17:00     9.5   2.0m 11.6s  NW    4kn (g9)  SE glas
- sy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: ht
- tps://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
+SUMMARY:🔥 Moledo 9.5/10 · 1.8m 12s W · 7kn SE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.6 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
+     9.5   1.8m 12.4s   W    7kn (g15)  SE offshore\nTue 09:00     9.5   1.
+ 8m 12.4s   W    7kn (g15)  SE offshore\nTue 10:00     9.5   1.8m 12.3s   W
+     7kn (g18)  SE offshore\nTue 11:00     9.5   1.8m 12.3s   W    8kn (g18
+ )  SE offshore\nTue 12:00     9.5   1.8m 12.2s   W    8kn (g18)  SE offsho
+ re\nTue 13:00     9.5   1.8m 12.2s   W    8kn (g16)  SE offshore\nTue 14:0
+ 0     9.5   1.8m 12.2s   W    8kn (g16)  SE offshore\nTue 15:00     9.5   
+ 1.9m 12.2s   W    7kn (g16)  SE offshore\nTue 16:00     9.5   1.9m 12.1s  
+  W    7kn (g15)  SE offshore\nTue 17:00     9.5   1.9m 12.1s   W    7kn (g
+ 15)  SE offshore\n\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=moledo
 LOCATION:Moledo
 TRANSP:TRANSPARENT

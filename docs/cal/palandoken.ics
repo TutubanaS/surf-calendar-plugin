@@ -7,4 +7,42 @@ X-WR-CALNAME:Ski: Palandöken
 X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:8d7ba71fb1a824f4@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261126T060000Z
+DTEND:20261126T080000Z
+SUMMARY:🤏 Palandöken 5/10 · 19 cm of snow · sunny · -7°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nThu 09:00       5      0 cm  
+  sunny           -7°C   13 km/h (g40)\nThu 10:00       5      0 cm   sunn
+ y           -5°C   14 km/h (g38)\n\nWeather at 2850 m. Snow depth and new
+  snow are the weather model's numbers\, not the resort's own snow report.\
+ nNotes: High and dry: long season\, cold powder.\nGenerated 2026-11-24 23:
+ 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
+ -calendar-plugin/#spot=palandoken
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=palandoken
+LOCATION:Palandöken
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd4079079e4d5be0@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261201T090000Z
+DTEND:20261201T130000Z
+SUMMARY:🤏 Palandöken 5.5/10 · 10 cm new snow · snowing · -2°C
+DESCRIPTION:Best 5.5/10 at 12:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nTue 12:00     5.5     10 cm 
+   snowing         -2°C   11 km/h (g41)\nTue 13:00     5.5     11 cm   sno
+ wing         -2°C   10 km/h (g40)\nTue 14:00     5.5     11 cm   snowing 
+         -2°C   10 km/h (g40)\nTue 15:00     5.5     12 cm   snowing      
+    -3°C   10 km/h (g40)\n\nWeather at 2850 m. Snow depth and new snow are
+  the weather model's numbers\, not the resort's own snow report.\nNotes: H
+ igh and dry: long season\, cold powder.\nGenerated 2026-11-24 23:00 UTC fr
+ om Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar
+ -plugin/#spot=palandoken
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=palandoken
+LOCATION:Palandöken
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

@@ -9,38 +9,57 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:66e2775253ffd543@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T110000Z
-SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 13 cm of snow · sunny · -8°C
+SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 15 cm of snow · sunny · -9°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: medium.\n\nHour (local
  )  score  new snow  sky           temp   wind\nFri 09:00       5      0 cm
-    sunny           -8°C    6 km/h (g16)\nFri 10:00       5      0 cm   su
- nny           -6°C    3 km/h (g15)\nFri 11:00       5      0 cm   sunny  
-          -5°C    2 km/h (g9)\n\nWeather at 1660 m. Snow depth and new sno
- w are the weather model's numbers\, not the resort's own snow report.\nNot
- es: Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11-24
-  10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
- surf-calendar-plugin/#spot=oberstdorf
+    sunny           -9°C    7 km/h (g18)\nFri 10:00       5      0 cm   su
+ nny           -7°C    3 km/h (g16)\nFri 11:00       5      0 cm   sunny  
+          -5°C    1 km/h (g10)\n\nWeather at 1660 m. Snow depth and new sn
+ ow are the weather model's numbers\, not the resort's own snow report.\nNo
+ tes: Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11-2
+ 4 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io
+ /surf-calendar-plugin/#spot=oberstdorf
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=oberstdorf
 LOCATION:Oberstdorf Fellhorn
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:51b29ca872f6acdc@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T110000Z
-SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 12 cm of snow · sunny · -5°C
+SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 14 cm of snow · sunny · -6°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nSat 09:00       5      0 cm   
- sunny           -5°C    8 km/h (g17)\nSat 10:00       5      0 cm   sunny
-            -4°C    7 km/h (g17)\nSat 11:00       5      0 cm   sunny     
-       -2°C    5 km/h (g8)\n\nWeather at 1660 m. Snow depth and new snow a
- re the weather model's numbers\, not the resort's own snow report.\nNotes:
-  Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11-24 10
- :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
- f-calendar-plugin/#spot=oberstdorf
+ sunny           -6°C   10 km/h (g22)\nSat 10:00       5      0 cm   sunny
+            -5°C    8 km/h (g22)\nSat 11:00       5      0 cm   sunny     
+       -3°C    6 km/h (g11)\n\nWeather at 1660 m. Snow depth and new snow 
+ are the weather model's numbers\, not the resort's own snow report.\nNotes
+ : Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11-24 2
+ 3:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
+ rf-calendar-plugin/#spot=oberstdorf
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=oberstdorf
+LOCATION:Oberstdorf Fellhorn
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fc0a5e6941b2d35b@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261201T080000Z
+DTEND:20261201T110000Z
+SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 18 cm of snow · sunny · -6°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nTue 09:00       5      0 cm   
+ sunny           -6°C    8 km/h (g23)\nTue 10:00       5      0 cm   sunny
+            -4°C    7 km/h (g23)\nTue 11:00       5      0 cm   sunny     
+       -3°C    6 km/h (g24)\n\nWeather at 1660 m. Snow depth and new snow 
+ are the weather model's numbers\, not the resort's own snow report.\nNotes
+ : Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11-24 2
+ 3:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
+ rf-calendar-plugin/#spot=oberstdorf
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=oberstdorf
 LOCATION:Oberstdorf Fellhorn
 TRANSP:TRANSPARENT

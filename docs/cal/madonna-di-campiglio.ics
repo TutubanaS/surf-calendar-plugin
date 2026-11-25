@@ -9,24 +9,24 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:ad451d857d99dbba@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T150000Z
-SUMMARY:👍 Madonna di Campiglio 6.5/10 · 29 cm new snow · snowing · -2
+SUMMARY:👍 Madonna di Campiglio 6.5/10 · 22 cm new snow · snowing · -2
  °C
-DESCRIPTION:Best 6.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
- al)  score  new snow  sky           temp   wind\nThu 09:00     6.5     29 
- cm   snowing         -2°C   10 km/h (g33)\nThu 10:00     6.5     31 cm   
- snowing         -2°C    8 km/h (g28)\nThu 11:00     6.5     32 cm   snowi
- ng         -2°C    4 km/h (g22)\nThu 12:00     6.5     32 cm   snowing   
-       -2°C    4 km/h (g15)\nThu 13:00     6.5     33 cm   snowing        
-  -2°C    3 km/h (g15)\nThu 14:00     6.5     33 cm   snowing         -2°
- C    2 km/h (g13)\nThu 15:00     6.5     34 cm   snowing         -2°C    
- 1 km/h (g6)\n\nWeather at 2190 m. Snow depth and new snow are the weather 
- model's numbers\, not the resort's own snow report.\nNotes: Dolomites of B
- renta\, well groomed.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\n
- Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=mado
- nna-di-campiglio
+DESCRIPTION:Best 6.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nThu 09:00     6.5     22 cm
+    snowing         -2°C   10 km/h (g28)\nThu 10:00     6.5     22 cm   sn
+ owing         -2°C    7 km/h (g25)\nThu 11:00     6.5     23 cm   snowing
+          -2°C    5 km/h (g20)\nThu 12:00     6.5     23 cm   snowing     
+     -2°C    3 km/h (g17)\nThu 13:00     6.5     24 cm   snowing         -
+ 2°C    4 km/h (g12)\nThu 14:00     6.5     25 cm   snowing         -2°C 
+    3 km/h (g9)\nThu 15:00     6.5     25 cm   snowing         -2°C    2 k
+ m/h (g6)\n\nWeather at 2190 m. Snow depth and new snow are the weather mod
+ el's numbers\, not the resort's own snow report.\nNotes: Dolomites of Bren
+ ta\, well groomed.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=madonna
+ -di-campiglio
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=madonna-di-campi
  glio
 LOCATION:Madonna di Campiglio
@@ -34,16 +34,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:61e97f6006aff448@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T100000Z
-SUMMARY:🤏 Madonna di Campiglio 5/10 · 8 cm new snow · snowing · -4°C
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nFri 09:00       5      8 cm
-    snowing         -4°C    2 km/h (g4)\nFri 10:00       5      6 cm   sno
- wing         -4°C    2 km/h (g6)\n\nWeather at 2190 m. Snow depth and new
+SUMMARY:👍 Madonna di Campiglio 7/10 · 6 cm new snow · sunny · -6°C
+DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nFri 09:00       7      6 cm
+    sunny           -6°C    1 km/h (g7)\nFri 10:00       7      6 cm   sun
+ ny           -5°C    1 km/h (g7)\n\nWeather at 2190 m. Snow depth and new
   snow are the weather model's numbers\, not the resort's own snow report.\
- nNotes: Dolomites of Brenta\, well groomed.\nGenerated 2026-11-24 10:00 UT
+ nNotes: Dolomites of Brenta\, well groomed.\nGenerated 2026-11-24 23:00 UT
  C from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cale
  ndar-plugin/#spot=madonna-di-campiglio
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=madonna-di-campi
@@ -53,21 +53,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e5ccb4fe9c3c1794@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Madonna di Campiglio 5.5/10 · 48 cm of snow · sunny · -6°C
+SUMMARY:🤏 Madonna di Campiglio 5.5/10 · 50 cm of snow · sunny · -6°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nSat 09:00     5.5      1 cm 
-   sunny           -6°C    4 km/h (g21)\nSat 10:00     5.5      1 cm   sun
- ny           -5°C    4 km/h (g21)\nSat 11:00     5.5      1 cm   sunny   
-         -4°C    3 km/h (g18)\nSat 12:00     5.5      1 cm   sunny        
-    -3°C    3 km/h (g18)\nSat 13:00     5.5      1 cm   sunny           -2
- °C    3 km/h (g18)\nSat 14:00     5.5      1 cm   sunny           -2°C  
-   3 km/h (g22)\nSat 15:00       5      1 cm   sunny           -2°C    3 k
- m/h (g22)\n\nWeather at 2190 m. Snow depth and new snow are the weather mo
+   score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm 
+   sunny           -6°C    4 km/h (g29)\nSat 10:00     5.5      0 cm   sun
+ ny           -6°C    4 km/h (g29)\nSat 11:00     5.5      0 cm   sunny   
+         -5°C    3 km/h (g22)\nSat 12:00     5.5      0 cm   sunny        
+    -4°C    2 km/h (g22)\nSat 13:00     5.5      0 cm   sunny           -4
+ °C    2 km/h (g22)\nSat 14:00     5.5      0 cm   sunny           -3°C  
+   1 km/h (g19)\nSat 15:00     5.5      0 cm   sunny           -3°C    1 k
+ m/h (g19)\n\nWeather at 2190 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Dolomites of Bre
- nta\, well groomed.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFu
+ nta\, well groomed.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFu
  ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=madonn
  a-di-campiglio
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=madonna-di-campi
@@ -76,67 +76,20 @@ LOCATION:Madonna di Campiglio
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:3182482ec6f02eb4@surf-windows
-DTSTAMP:20261124T100000Z
-DTSTART:20261129T080000Z
-DTEND:20261129T150000Z
-SUMMARY:🤏 Madonna di Campiglio 5.5/10 · 45 cm of snow · sunny · -5°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nSun 09:00     5.5      0 cm 
-   sunny           -5°C    5 km/h (g19)\nSun 10:00     5.5      0 cm   sun
- ny           -5°C    5 km/h (g19)\nSun 11:00     5.5      0 cm   sunny   
-         -4°C    4 km/h (g14)\nSun 12:00     5.5      0 cm   sunny        
-    -3°C    4 km/h (g14)\nSun 13:00     5.5      0 cm   sunny           -3
- °C    4 km/h (g14)\nSun 14:00     5.5      0 cm   sunny           -2°C  
-   3 km/h (g17)\nSun 15:00       5      0 cm   sunny           -2°C    4 k
- m/h (g17)\n\nWeather at 2190 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Dolomites of Bre
- nta\, well groomed.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFu
- ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=madonn
- a-di-campiglio
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=madonna-di-campi
- glio
-LOCATION:Madonna di Campiglio
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1e48cbf1a915e7dc@surf-windows
-DTSTAMP:20261124T100000Z
-DTSTART:20261130T080000Z
-DTEND:20261130T100000Z
-SUMMARY:🤏 Madonna di Campiglio 5.5/10 · 44 cm of snow · sunny · -3°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nMon 09:00     5.5      0 cm 
-   sunny           -3°C    6 km/h (g9)\nMon 10:00     5.5      0 cm   sunn
- y           -3°C    5 km/h (g9)\n\nWeather at 2190 m. Snow depth and new 
- snow are the weather model's numbers\, not the resort's own snow report.\n
- Notes: Dolomites of Brenta\, well groomed.\nGenerated 2026-11-24 10:00 UTC
-  from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calen
- dar-plugin/#spot=madonna-di-campiglio
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=madonna-di-campi
- glio
-LOCATION:Madonna di Campiglio
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:933ab0cf9bcfc498@surf-windows
-DTSTAMP:20261124T100000Z
-DTSTART:20261201T080000Z
+UID:3638b330a00493d8@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261201T120000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Madonna di Campiglio 5.5/10 · 43 cm of snow · sunny · -4°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nTue 09:00     5.5      0 cm 
-   sunny           -4°C    6 km/h (g16)\nTue 10:00     5.5      0 cm   sun
- ny           -3°C    5 km/h (g16)\nTue 11:00     5.5      0 cm   sunny   
-         -3°C    4 km/h (g14)\nTue 12:00     5.5      0 cm   sunny        
-    -2°C    2 km/h (g15)\nTue 13:00       5      0 cm   sunny           -2
- °C    2 km/h (g15)\nTue 14:00     5.5      0 cm   sunny           -2°C  
-   1 km/h (g16)\nTue 15:00     5.5      0 cm   sunny           -4°C    1 k
- m/h (g15)\n\nWeather at 2190 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Dolomites of Bre
- nta\, well groomed.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFu
- ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=madonn
- a-di-campiglio
+SUMMARY:🤏 Madonna di Campiglio 5.5/10 · 51 cm of snow · sunny · -6°C
+DESCRIPTION:Best 5.5/10 at 13:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nTue 13:00     5.5      0 cm 
+   sunny           -6°C    8 km/h (g48)\nTue 14:00     5.5      0 cm   sun
+ ny           -5°C    8 km/h (g45)\nTue 15:00     5.5      0 cm   sunny   
+         -5°C    8 km/h (g45)\n\nWeather at 2190 m. Snow depth and new sno
+ w are the weather model's numbers\, not the resort's own snow report.\nNot
+ es: Dolomites of Brenta\, well groomed.\nGenerated 2026-11-24 23:00 UTC fr
+ om Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar
+ -plugin/#spot=madonna-di-campiglio
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=madonna-di-campi
  glio
 LOCATION:Madonna di Campiglio

@@ -8,19 +8,37 @@ X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
+UID:f1aea616e660a1c0@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261125T080000Z
+DTEND:20261125T100000Z
+SUMMARY:🤏 Sarıkamış 5/10 · 17 cm new snow · sunny · -3°C
+DESCRIPTION:Best 5/10 at 11:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nWed 11:00       5     17 cm  
+  sunny           -3°C   36 km/h (g68)\nWed 12:00       5     17 cm   sunn
+ y           -3°C   33 km/h (g68)\n\nWeather at 2490 m. Snow depth and new
+  snow are the weather model's numbers\, not the resort's own snow report.\
+ nNotes: Pine forest and famously dry\, crystal snow.\nGenerated 2026-11-24
+  23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
+ surf-calendar-plugin/#spot=sarikamis
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sarikamis
+LOCATION:Sarıkamış
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f9d1450e462dd859@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261126T060000Z
 DTEND:20261126T080000Z
-SUMMARY:🤏 Sarıkamış 5/10 · 14 cm of snow · sunny · -7°C
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nThu 09:00       5      0 cm
-    sunny           -7°C   12 km/h (g36)\nThu 10:00       5      0 cm   su
- nny           -6°C   13 km/h (g37)\n\nWeather at 2490 m. Snow depth and n
- ew snow are the weather model's numbers\, not the resort's own snow report
- .\nNotes: Pine forest and famously dry\, crystal snow.\nGenerated 2026-11-
- 24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.i
- o/surf-calendar-plugin/#spot=sarikamis
+SUMMARY:🤏 Sarıkamış 5/10 · 12 cm of snow · sunny · -8°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nThu 09:00       5      0 cm  
+  sunny           -8°C   13 km/h (g37)\nThu 10:00       5      0 cm   sunn
+ y           -6°C   14 km/h (g38)\n\nWeather at 2490 m. Snow depth and new
+  snow are the weather model's numbers\, not the resort's own snow report.\
+ nNotes: Pine forest and famously dry\, crystal snow.\nGenerated 2026-11-24
+  23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
+ surf-calendar-plugin/#spot=sarikamis
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sarikamis
 LOCATION:Sarıkamış
 TRANSP:TRANSPARENT

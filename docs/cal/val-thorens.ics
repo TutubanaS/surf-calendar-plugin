@@ -8,87 +8,63 @@ X-WR-TIMEZONE:Europe/Paris
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:ff72f6e2daaf2818@surf-windows
-DTSTAMP:20261124T100000Z
-DTSTART:20261126T090000Z
-DTEND:20261126T120000Z
-SUMMARY:🤏 Val Thorens 6/10 · 7 cm new snow · snowing · -8°C
-DESCRIPTION:Best 6/10 at 10:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nThu 10:00       6      7 cm
-    snowing         -8°C   15 km/h (g48)\nThu 11:00       6      7 cm   sn
- owing         -8°C   12 km/h (g41)\nThu 12:00       6      7 cm   snowing
-          -8°C   11 km/h (g36)\n\nWeather at 2750 m. Snow depth and new sn
- ow are the weather model's numbers\, not the resort's own snow report.\nNo
- tes: Highest resort village in Europe.\nGenerated 2026-11-24 10:00 UTC fro
- m Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-
- plugin/#spot=val-thorens
+UID:7b492161c60ec4c2@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261126T130000Z
+DTEND:20261126T150000Z
+SUMMARY:🤏 Val Thorens 5.5/10 · 6 cm new snow · snowing · -8°C
+DESCRIPTION:Best 5.5/10 at 14:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nThu 14:00     5.5      6 
+ cm   snowing         -8°C   14 km/h (g41)\nThu 15:00     5.5      6 cm   
+ snowing         -8°C   13 km/h (g38)\n\nWeather at 2750 m. Snow depth and
+  new snow are the weather model's numbers\, not the resort's own snow repo
+ rt.\nNotes: Highest resort village in Europe.\nGenerated 2026-11-24 23:00 
+ UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-ca
+ lendar-plugin/#spot=val-thorens
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thorens
 LOCATION:Val Thorens
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b0dc563730218e2@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T150000Z
-SUMMARY:🤏 Val Thorens 6/10 · 119 cm of snow · sunny · -9°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nFri 09:00       6      1 cm
-    sunny           -9°C    8 km/h (g34)\nFri 10:00       6      0 cm   su
- nny           -9°C    8 km/h (g34)\nFri 11:00       6      0 cm   sunny  
-          -8°C    8 km/h (g34)\nFri 12:00       6      0 cm   sunny       
-     -8°C    8 km/h (g35)\nFri 13:00       6      0 cm   sunny           -
- 8°C    8 km/h (g35)\nFri 14:00       6      0 cm   sunny           -8°C 
-    8 km/h (g36)\nFri 15:00       6      0 cm   sunny           -8°C    8 
- km/h (g36)\n\nWeather at 2750 m. Snow depth and new snow are the weather m
- odel's numbers\, not the resort's own snow report.\nNotes: Highest resort 
- village in Europe.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFul
- l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-tho
- rens
+SUMMARY:👍 Val Thorens 6.5/10 · 2 cm new snow · sunny · -9°C
+DESCRIPTION:Best 6.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nFri 09:00     6.5      2 
+ cm   sunny           -9°C   10 km/h (g37)\nFri 10:00       6      2 cm   
+ sunny           -8°C   10 km/h (g37)\nFri 11:00       6      1 cm   sunny
+            -8°C    9 km/h (g37)\nFri 12:00       6      0 cm   sunny     
+       -8°C    9 km/h (g36)\nFri 13:00       6      0 cm   sunny          
+  -8°C    8 km/h (g35)\nFri 14:00       6      0 cm   sunny           -8°
+ C    9 km/h (g37)\nFri 15:00       6      0 cm   sunny           -7°C    
+ 9 km/h (g38)\n\nWeather at 2750 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: Highest resor
+ t village in Europe.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nF
+ ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-t
+ horens
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thorens
 LOCATION:Val Thorens
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a9e96684a177c5e7@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Val Thorens 6/10 · 119 cm of snow · sunny · -10°C
+SUMMARY:🤏 Val Thorens 6/10 · 116 cm of snow · sunny · -10°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nSat 09:00       6      0 cm   
- sunny          -10°C   10 km/h (g24)\nSat 10:00       6      0 cm   sunny
-           -10°C   10 km/h (g24)\nSat 11:00       6      0 cm   sunny     
-       -9°C   10 km/h (g22)\nSat 12:00       6      0 cm   sunny          
-  -8°C    9 km/h (g22)\nSat 13:00       6      0 cm   sunny           -8°
- C    8 km/h (g22)\nSat 14:00       6      0 cm   sunny           -7°C    
- 7 km/h (g12)\nSat 15:00       6      0 cm   sunny           -6°C    6 km/
- h (g12)\n\nWeather at 2750 m. Snow depth and new snow are the weather mode
+ sunny          -10°C    9 km/h (g27)\nSat 10:00       6      0 cm   sunny
+            -9°C   11 km/h (g27)\nSat 11:00       6      0 cm   sunny     
+       -8°C   12 km/h (g27)\nSat 12:00       6      0 cm   sunny          
+  -7°C   11 km/h (g27)\nSat 13:00       6      0 cm   sunny           -6°
+ C   10 km/h (g27)\nSat 14:00       6      0 cm   sunny           -6°C    
+ 9 km/h (g14)\nSat 15:00       6      0 cm   sunny           -5°C    8 km/
+ h (g14)\n\nWeather at 2750 m. Snow depth and new snow are the weather mode
  l's numbers\, not the resort's own snow report.\nNotes: Highest resort vil
- lage in Europe.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull f
- orecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thoren
- s
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thorens
-LOCATION:Val Thorens
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e10c3b79aa56b9f7@surf-windows
-DTSTAMP:20261124T100000Z
-DTSTART:20261129T080000Z
-DTEND:20261129T150000Z
-SUMMARY:🤏 Val Thorens 6/10 · 102 cm of snow · sunny · -6°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nSun 09:00       6      0 cm   
- sunny           -6°C    3 km/h (g18)\nSun 10:00       6      0 cm   sunny
-            -6°C    3 km/h (g18)\nSun 11:00       6      0 cm   sunny     
-       -6°C    4 km/h (g25)\nSun 12:00       6      0 cm   sunny          
-  -5°C    5 km/h (g25)\nSun 13:00       6      0 cm   sunny           -5°
- C    6 km/h (g25)\nSun 14:00       5      0 cm   partly sunny    -5°C    
- 6 km/h (g32)\nSun 15:00       5      0 cm   partly sunny    -5°C    6 km/
- h (g32)\n\nWeather at 2750 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: Highest resort vil
- lage in Europe.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull f
+ lage in Europe.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull f
  orecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thoren
  s
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thorens
@@ -97,44 +73,57 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fefd2d5b9c52819e@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261130T080000Z
-DTEND:20261130T150000Z
-SUMMARY:🤏 Val Thorens 5/10 · 100 cm of snow · partly sunny · -7°C
+DTEND:20261130T100000Z
+SUMMARY:🤏 Val Thorens 5/10 · 96 cm of snow · partly sunny · -10°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nMon 09:00       5      0 cm   
- partly sunny    -7°C    4 km/h (g11)\nMon 10:00       5      0 cm   partl
- y sunny    -7°C    4 km/h (g11)\nMon 11:00       5      0 cm   partly sun
- ny    -6°C    4 km/h (g13)\nMon 12:00       5      0 cm   partly sunny   
-  -6°C    3 km/h (g13)\nMon 13:00       5      0 cm   partly sunny    -5°
- C    3 km/h (g13)\nMon 14:00       5      0 cm   partly sunny    -5°C    
- 2 km/h (g15)\nMon 15:00       5      0 cm   partly sunny    -4°C    2 km/
- h (g15)\n\nWeather at 2750 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: Highest resort vil
- lage in Europe.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull f
- orecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thoren
- s
+ partly sunny   -10°C    5 km/h (g18)\nMon 10:00       5      0 cm   partl
+ y sunny   -10°C    5 km/h (g18)\n\nWeather at 2750 m. Snow depth and new 
+ snow are the weather model's numbers\, not the resort's own snow report.\n
+ Notes: Highest resort village in Europe.\nGenerated 2026-11-24 23:00 UTC f
+ rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
+ r-plugin/#spot=val-thorens
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thorens
+LOCATION:Val Thorens
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20d7a53e498530d7@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261130T130000Z
+DTEND:20261130T150000Z
+SUMMARY:🤏 Val Thorens 5/10 · 96 cm of snow · partly sunny · -8°C
+DESCRIPTION:Best 5/10 at 14:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nMon 14:00       5      0 cm   
+ partly sunny    -8°C    3 km/h (g18)\nMon 15:00       5      0 cm   partl
+ y sunny    -8°C    3 km/h (g18)\n\nWeather at 2750 m. Snow depth and new 
+ snow are the weather model's numbers\, not the resort's own snow report.\n
+ Notes: Highest resort village in Europe.\nGenerated 2026-11-24 23:00 UTC f
+ rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
+ r-plugin/#spot=val-thorens
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thorens
 LOCATION:Val Thorens
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e0c980b3070af34@surf-windows
-DTSTAMP:20261124T100000Z
+DTSTAMP:20261124T230000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Val Thorens 6/10 · 92 cm of snow · sunny · -7°C
-DESCRIPTION:Best 6/10 at 12:00. Forecast confidence: low.\n\nHour (local)  
+SUMMARY:🤏 Val Thorens 6/10 · 96 cm of snow · sunny · -12°C
+DESCRIPTION:Best 6/10 at 11:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nTue 09:00       5      0 cm   
- partly sunny    -9°C    7 km/h (g13)\nTue 10:00       5      0 cm   partl
- y sunny    -9°C    8 km/h (g13)\nTue 11:00       5      0 cm   partly sun
- ny    -8°C    6 km/h (g13)\nTue 12:00       6      0 cm   sunny          
-  -7°C    4 km/h (g14)\nTue 13:00       6      0 cm   sunny           -5°
- C    2 km/h (g14)\nTue 14:00       6      0 cm   sunny           -5°C    
- 1 km/h (g15)\nTue 15:00       6      0 cm   sunny           -7°C    2 km/
- h (g16)\n\nWeather at 2750 m. Snow depth and new snow are the weather mode
+ sunny          -13°C    7 km/h (g11)\nTue 10:00       5      0 cm   sunny
+           -12°C    6 km/h (g11)\nTue 11:00       6      0 cm   sunny     
+      -12°C    6 km/h (g10)\nTue 12:00       5      0 cm   partly sunny   
+ -11°C    5 km/h (g10)\nTue 13:00       5      0 cm   partly sunny   -11°
+ C    4 km/h (g10)\nTue 14:00       5      0 cm   partly sunny   -10°C    
+ 4 km/h (g12)\nTue 15:00       6      0 cm   sunny          -10°C    4 km/
+ h (g12)\n\nWeather at 2750 m. Snow depth and new snow are the weather mode
  l's numbers\, not the resort's own snow report.\nNotes: Highest resort vil
- lage in Europe.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull f
+ lage in Europe.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull f
  orecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thoren
  s
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-thorens
