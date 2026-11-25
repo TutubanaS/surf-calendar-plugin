@@ -7,20 +7,4 @@ X-WR-CALNAME:Surf: Camperduin
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
-BEGIN:VEVENT
-UID:af56b61a04c6f664@surf-windows
-DTSTAMP:20261124T090000Z
-DTSTART:20261124T140000Z
-DTEND:20261124T160000Z
-SUMMARY:🤏 Camperduin 5.5/10 · 0.7m 6s WSW · 6kn ESE
-DESCRIPTION:Best 5.5/10 at 15:00. Forecast confidence: high. 5 wave models 
- say 0.5 to 0.8 m.\n\nHour (local)  score  waves            wind\nTue 15:00
-      5.5   0.7m  6.2s WSW    6kn (g14) ESE offshore\nTue 16:00     5.5   0
- .7m  6.2s   W    6kn (g13)   E offshore\n\nGenerated 2026-11-24 09:00 UTC 
- from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calend
- ar-plugin/#spot=camperduin
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=camperduin
-LOCATION:Camperduin
-TRANSP:TRANSPARENT
-END:VEVENT
 END:VCALENDAR

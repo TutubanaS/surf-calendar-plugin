@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Alta Badia
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:e2bf8f596c37b9c2@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261126T080000Z
+DTEND:20261126T150000Z
+SUMMARY:🤏 Alta Badia 6/10 · 16 cm new snow · snowing · -3°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nThu 09:00       6     16 cm  
+  snowing         -3°C    2 km/h (g18)\nThu 10:00       6     18 cm   snow
+ ing         -3°C    3 km/h (g16)\nThu 11:00       6     19 cm   snowing  
+        -3°C    2 km/h (g17)\nThu 12:00       6     19 cm   snowing       
+   -3°C    3 km/h (g17)\nThu 13:00       6     19 cm   snowing         -3
+ °C    2 km/h (g15)\nThu 14:00       6     19 cm   snowing         -3°C  
+   2 km/h (g12)\nThu 15:00       6     20 cm   snowing         -3°C    2 k
+ m/h (g10)\n\nWeather at 2290 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Gentle Dolomites
+  runs and good food.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nF
+ ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alta-
+ badia
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alta-badia
+LOCATION:Alta Badia
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dab42bf3436a4ed8@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T120000Z
+SUMMARY:👍 Alta Badia 7/10 · 6 cm new snow · sunny · -7°C
+DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nFri 09:00       7      6 cm
+    sunny           -7°C    2 km/h (g14)\nFri 10:00       6      4 cm   su
+ nny           -7°C    1 km/h (g11)\nFri 11:00       6      3 cm   sunny  
+          -6°C    0 km/h (g12)\nFri 12:00       5      3 cm   partly sunny
+     -4°C    1 km/h (g14)\n\nWeather at 2290 m. Snow depth and new snow ar
+ e the weather model's numbers\, not the resort's own snow report.\nNotes: 
+ Gentle Dolomites runs and good food.\nGenerated 2026-11-24 23:00 UTC from 
+ Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
+ ugin/#spot=alta-badia
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alta-badia
+LOCATION:Alta Badia
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0304c25bad9d60d6@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T150000Z
+SUMMARY:🤏 Alta Badia 5.5/10 · 31 cm of snow · sunny · -7°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm 
+   sunny           -7°C    5 km/h (g31)\nSat 10:00     5.5      0 cm   sun
+ ny           -6°C    5 km/h (g31)\nSat 11:00     5.5      0 cm   sunny   
+         -5°C    4 km/h (g22)\nSat 12:00     5.5      0 cm   sunny        
+    -4°C    3 km/h (g22)\nSat 13:00     5.5      0 cm   sunny           -4
+ °C    3 km/h (g22)\nSat 14:00     5.5      0 cm   sunny           -3°C  
+   3 km/h (g23)\nSat 15:00       5      0 cm   sunny           -4°C    3 k
+ m/h (g23)\n\nWeather at 2290 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Gentle Dolomites
+  runs and good food.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nF
+ ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alta-
+ badia
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alta-badia
+LOCATION:Alta Badia
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:856e0b1da4ede953@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T150000Z
+SUMMARY:🤏 Alta Badia 5/10 · 29 cm of snow · sunny · -7°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSun 09:00       5      0 cm   
+ sunny           -7°C    1 km/h (g16)\nSun 10:00       5      0 cm   sunny
+            -6°C    1 km/h (g16)\nSun 11:00       5      0 cm   sunny     
+       -6°C    2 km/h (g14)\nSun 12:00       5      0 cm   sunny          
+  -5°C    2 km/h (g14)\nSun 13:00       5      0 cm   sunny           -4°
+ C    2 km/h (g14)\nSun 14:00       5      0 cm   sunny           -4°C    
+ 1 km/h (g6)\nSun 15:00       5      0 cm   sunny           -4°C    2 km/h
+  (g6)\n\nWeather at 2290 m. Snow depth and new snow are the weather model'
+ s numbers\, not the resort's own snow report.\nNotes: Gentle Dolomites run
+ s and good food.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull 
+ forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alta-badi
+ a
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alta-badia
+LOCATION:Alta Badia
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:859dfb3c8711d1d6@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261201T080000Z
+DTEND:20261201T150000Z
+SUMMARY:🤏 Alta Badia 5.5/10 · 30 cm of snow · sunny · -10°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nTue 09:00     5.5      1 cm 
+   sunny          -10°C    7 km/h (g37)\nTue 10:00     5.5      1 cm   sun
+ ny           -9°C    7 km/h (g37)\nTue 11:00     5.5      1 cm   sunny   
+         -8°C    6 km/h (g32)\nTue 12:00     5.5      1 cm   sunny        
+    -6°C    5 km/h (g32)\nTue 13:00     5.5      1 cm   sunny           -5
+ °C    4 km/h (g32)\nTue 14:00     5.5      1 cm   sunny           -5°C  
+   5 km/h (g29)\nTue 15:00     5.5      1 cm   sunny           -5°C    5 k
+ m/h (g29)\n\nWeather at 2290 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Gentle Dolomites
+  runs and good food.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nF
+ ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alta-
+ badia
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alta-badia
+LOCATION:Alta Badia
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

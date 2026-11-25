@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Verbier
+X-WR-TIMEZONE:Europe/Zurich
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:2f374f9143f9da66@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T150000Z
+SUMMARY:👍 Verbier 6.5/10 · 3 cm new snow · sunny · -10°C
+DESCRIPTION:Best 6.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nFri 09:00     6.5      3 
+ cm   sunny          -10°C    7 km/h (g24)\nFri 10:00     6.5      2 cm   
+ sunny          -10°C    7 km/h (g25)\nFri 11:00       6      2 cm   sunny
+           -10°C    6 km/h (g24)\nFri 12:00       6      1 cm   sunny     
+       -9°C    6 km/h (g19)\nFri 13:00       6      0 cm   sunny          
+  -9°C    5 km/h (g19)\nFri 14:00       6      0 cm   sunny           -9°
+ C    4 km/h (g18)\nFri 15:00       6      0 cm   sunny           -9°C    
+ 4 km/h (g19)\n\nWeather at 2720 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: Steep off-pis
+ te\, big freeride terrain.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo
+ .\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot
+ =verbier
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=verbier
+LOCATION:Verbier
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:30928f374c254dbb@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T150000Z
+SUMMARY:🤏 Verbier 6/10 · 72 cm of snow · sunny · -10°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSat 09:00       6      0 cm   
+ sunny          -10°C   12 km/h (g22)\nSat 10:00       6      0 cm   sunny
+            -9°C   12 km/h (g22)\nSat 11:00       6      0 cm   sunny     
+       -8°C   10 km/h (g17)\nSat 12:00       6      0 cm   sunny          
+  -7°C    9 km/h (g17)\nSat 13:00       6      0 cm   sunny           -6°
+ C    8 km/h (g17)\nSat 14:00       6      0 cm   sunny           -5°C    
+ 7 km/h (g11)\nSat 15:00       6      0 cm   sunny           -4°C    7 km/
+ h (g11)\n\nWeather at 2720 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Steep off-piste\, 
+ big freeride terrain.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\n
+ Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=verb
+ ier
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=verbier
+LOCATION:Verbier
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

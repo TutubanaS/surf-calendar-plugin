@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:70d6f77d2801816c@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T120000Z
 SUMMARY:🔥 Ribeira d'Ilhas 8.5/10 · 1.6m 11s WNW · 6kn SSE
@@ -19,7 +19,7 @@ DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: high. 5 wave models
   11.2s WNW    6kn (g12)  SW cross\nTue 09:00       6   2.0m 11.2s   W   10
  kn (g18)  SW onshore\nTue 10:00       6   2.1m 11.2s   W    9kn (g24) WNW 
  onshore\nTue 11:00       6   2.1m 11.2s WNW   10kn (g19)  NW onshore\n\nGe
- nerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
+ nerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
  tubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 LOCATION:Ribeira d'Ilhas
@@ -27,7 +27,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a21ece5c2feca87b@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Ribeira d'Ilhas 8.5/10 · 2.0m 10s NW · 2kn SE
@@ -41,7 +41,7 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 5 wave model
   1.7m 10.2s  NW    5kn (g10)   W glassy\nThu 15:00       7   1.7m 10.2s  N
  W    4kn (g9)   W glassy\nThu 16:00       7   1.7m 10.2s  NW    4kn (g9)  
   W glassy\nThu 17:00       7   1.6m 10.2s  NW    2kn (g7)   W glassy\n\nGe
- nerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
+ nerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
  tubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 LOCATION:Ribeira d'Ilhas
@@ -49,7 +49,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3d56b320de98079@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 1.7m 11s NW · 4kn ESE
@@ -63,7 +63,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 4 wave model
      9.5   1.8m 11.3s  NW    6kn (g12)  SE offshore\nFri 15:00     9.5   1.
  8m 11.3s  NW    6kn (g12)  SE offshore\nFri 16:00     9.5   1.8m 11.4s  NW
      5kn (g8)  SE glassy\nFri 17:00     9.5   1.7m 11.4s  NW    4kn (g8) ES
- E glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull foreca
+ E glassy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull foreca
  st: https://tutubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 LOCATION:Ribeira d'Ilhas
@@ -71,7 +71,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d6750074533c3a56@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 2.1m 13s NW · 4kn ESE
@@ -85,7 +85,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.9s  NW    2kn (g5) SSE glassy\nSat 15:00     8.5   2.2m 12.9s  NW    2kn
   (g5) SSE glassy\nSat 16:00     8.5   2.2m 12.9s  NW    2kn (g4) SSE glass
  y\nSat 17:00     9.5   2.2m 12.8s  NW    2kn (g4) SSE glassy\n\nGenerated 
- 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 LOCATION:Ribeira d'Ilhas
@@ -93,7 +93,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:315a648dc0d491dd@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 2.2m 13s NW · 3kn E
@@ -107,7 +107,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.6s  NW    4kn (g7) ENE glassy\nSun 15:00     8.5   2.1m 12.5s  NW    4kn
   (g7) ENE glassy\nSun 16:00     9.5   2.1m 12.4s  NW    4kn (g5) ENE glass
  y\nSun 17:00     9.5   2.1m 12.4s  NW    3kn (g5) ENE glassy\n\nGenerated 
- 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 LOCATION:Ribeira d'Ilhas
@@ -115,7 +115,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f764ae51082e2d3@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Ribeira d'Ilhas 10/10 · 2.2m 13s NW · 1kn SE
@@ -129,7 +129,7 @@ DESCRIPTION:Best 10/10 at 17:00. Forecast confidence: low. 4 wave models sa
  .8s  NW    2kn (g4)   S glassy\nMon 15:00     8.5   2.2m 12.9s  NW    2kn 
  (g4) SSW glassy\nMon 16:00       9   2.2m 13.1s  NW    1kn (g3)   S glassy
  \nMon 17:00      10   2.2m 13.4s  NW    1kn (g3)  SE glassy\n\nGenerated 2
- 026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
+ 026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
  ithub.io/surf-calendar-plugin/#spot=ribeira-dilhas
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 LOCATION:Ribeira d'Ilhas
@@ -137,7 +137,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fc9e6d325e387539@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
 SUMMARY:🔥 Ribeira d'Ilhas 9.5/10 · 1.7m 12s NW · 6kn ESE
@@ -151,7 +151,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
      9.5   1.7m 12.5s  NW    4kn (g15) ESE glassy\nTue 15:00     9.5   1.8m
   12.4s  NW    4kn (g14) ESE glassy\nTue 16:00     9.5   1.8m 12.4s  NW    
  4kn (g13) ESE glassy\nTue 17:00     9.5   1.8m 12.3s  NW    4kn (g12)   E 
- glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast
+ glassy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast
  : https://tutubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ribeira-dilhas
 LOCATION:Ribeira d'Ilhas

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Kartepe
+X-WR-TIMEZONE:Europe/Istanbul
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:3944c9e4fd897461@surf-windows
+DTSTAMP:20261125T080000Z
+DTSTART:20261202T060000Z
+DTEND:20261202T130000Z
+SUMMARY:🔥 Kartepe 8/10 · 59 cm new snow · snowing · -7°C
+DESCRIPTION:Best 8/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nWed 09:00       8     59 cm   
+ snowing         -7°C   10 km/h (g54)\nWed 10:00       8     58 cm   snowi
+ ng         -7°C   10 km/h (g48)\nWed 11:00       8     58 cm   snowing   
+       -7°C   10 km/h (g48)\nWed 12:00       8     57 cm   snowing        
+  -7°C   10 km/h (g48)\nWed 13:00       8     56 cm   snowing         -6°
+ C   10 km/h (g37)\nWed 14:00       8     55 cm   snowing         -6°C   1
+ 0 km/h (g35)\nWed 15:00       8     54 cm   snowing         -5°C    9 km/
+ h (g33)\n\nWeather at 1600 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Low: rain is never
+  far away.\nGenerated 2026-11-25 08:00 UTC from Open-Meteo.\n\nFull foreca
+ st: https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
+LOCATION:Kartepe
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

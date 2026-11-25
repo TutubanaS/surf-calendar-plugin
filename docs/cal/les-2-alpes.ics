@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TutubanaS//surf-windows//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ski: Les Deux Alpes
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:8908314cb09cba55@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261125T080000Z
+DTEND:20261125T150000Z
+SUMMARY:👍 Les Deux Alpes 7.5/10 · 20 cm new snow · snowing · -4°C
+DESCRIPTION:Best 7.5/10 at 14:00. Forecast confidence: high.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nWed 09:00     5.8     15 cm
+    snowing         -4°C   19 km/h (g64)\nWed 10:00     5.8     16 cm   sn
+ owing         -4°C   16 km/h (g60)\nWed 11:00     5.8     17 cm   snowing
+          -4°C   16 km/h (g54)\nWed 12:00     5.8     18 cm   snowing     
+     -4°C   16 km/h (g53)\nWed 13:00     5.8     19 cm   snowing         -
+ 4°C   15 km/h (g46)\nWed 14:00     7.5     20 cm   snowing         -4°C 
+   13 km/h (g45)\nWed 15:00     7.5     20 cm   snowing         -4°C   13 
+ km/h (g44)\n\nWeather at 2830 m. Snow depth and new snow are the weather m
+ odel's numbers\, not the resort's own snow report.\nNotes: Glacier up top\
+ , snow from November.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\n
+ Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=les-
+ 2-alpes
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes
+LOCATION:Les Deux Alpes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:86fca5e32cfe36ec@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T150000Z
+SUMMARY:🤏 Les Deux Alpes 6/10 · 95 cm of snow · sunny · -7°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nFri 09:00       6      0 cm
+    sunny           -7°C   10 km/h (g38)\nFri 10:00       6      0 cm   su
+ nny           -7°C   10 km/h (g37)\nFri 11:00       6      0 cm   sunny  
+          -7°C   10 km/h (g38)\nFri 12:00       6      0 cm   sunny       
+     -6°C   10 km/h (g38)\nFri 13:00       6      0 cm   sunny           -
+ 6°C   10 km/h (g39)\nFri 14:00       6      0 cm   sunny           -6°C 
+    9 km/h (g40)\nFri 15:00       6      0 cm   sunny           -6°C    9 
+ km/h (g41)\n\nWeather at 2830 m. Snow depth and new snow are the weather m
+ odel's numbers\, not the resort's own snow report.\nNotes: Glacier up top\
+ , snow from November.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\n
+ Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=les-
+ 2-alpes
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes
+LOCATION:Les Deux Alpes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ecbf8837d401774c@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T150000Z
+SUMMARY:🤏 Les Deux Alpes 6/10 · 94 cm of snow · sunny · -7°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSat 09:00       6      0 cm   
+ sunny           -7°C    8 km/h (g54)\nSat 10:00       6      0 cm   sunny
+            -7°C    8 km/h (g54)\nSat 11:00       6      0 cm   sunny     
+       -6°C    9 km/h (g37)\nSat 12:00       6      0 cm   sunny          
+  -6°C    9 km/h (g37)\nSat 13:00       6      0 cm   sunny           -5°
+ C    9 km/h (g37)\nSat 14:00       6      0 cm   sunny           -5°C    
+ 8 km/h (g33)\nSat 15:00       6      0 cm   sunny           -5°C    7 km/
+ h (g33)\n\nWeather at 2830 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Glacier up top\, s
+ now from November.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-a
+ lpes
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes
+LOCATION:Les Deux Alpes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:023f7cd5b9600f4b@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261130T080000Z
+DTEND:20261130T110000Z
+SUMMARY:🤏 Les Deux Alpes 6/10 · 93 cm of snow · sunny · -8°C
+DESCRIPTION:Best 6/10 at 10:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nMon 09:00       5      1 cm   
+ partly sunny    -8°C    5 km/h (g20)\nMon 10:00       6      1 cm   sunny
+            -8°C    4 km/h (g20)\nMon 11:00       5      1 cm   partly sun
+ ny    -8°C    4 km/h (g17)\n\nWeather at 2830 m. Snow depth and new snow 
+ are the weather model's numbers\, not the resort's own snow report.\nNotes
+ : Glacier up top\, snow from November.\nGenerated 2026-11-24 23:00 UTC fro
+ m Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-
+ plugin/#spot=les-2-alpes
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes
+LOCATION:Les Deux Alpes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cfd3f96ce5b9cf5e@surf-windows
+DTSTAMP:20261124T230000Z
+DTSTART:20261201T080000Z
+DTEND:20261201T150000Z
+SUMMARY:🤏 Les Deux Alpes 6/10 · 93 cm of snow · sunny · -11°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nTue 09:00       6      0 cm   
+ sunny          -11°C    1 km/h (g13)\nTue 10:00       6      0 cm   sunny
+           -11°C    1 km/h (g13)\nTue 11:00       6      0 cm   sunny     
+      -10°C    0 km/h (g15)\nTue 12:00       6      0 cm   sunny          
+ -10°C    0 km/h (g15)\nTue 13:00       6      0 cm   sunny          -10°
+ C    0 km/h (g15)\nTue 14:00       6      0 cm   sunny          -10°C    
+ 1 km/h (g26)\nTue 15:00       6      0 cm   sunny           -9°C    2 km/
+ h (g26)\n\nWeather at 2830 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Glacier up top\, s
+ now from November.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-a
+ lpes
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes
+LOCATION:Les Deux Alpes
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

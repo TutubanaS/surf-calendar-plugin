@@ -7,21 +7,4 @@ X-WR-CALNAME:Surf: Zandvoort
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
-BEGIN:VEVENT
-UID:a55271f620461a62@surf-windows
-DTSTAMP:20261124T090000Z
-DTSTART:20261124T080000Z
-DTEND:20261124T120000Z
-SUMMARY:🤏 Zandvoort 5/10 · 0.5m 6s W · 7kn SE
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high. 3 wave models sa
- y 0.4 to 0.5 m.\n\nHour (local)  score  waves            wind\nTue 09:00  
-      5   0.5m  6.4s   W    7kn (g13)  SE offshore\nTue 10:00       5   0.5
- m  6.3s   W    7kn (g13)  SE offshore\nTue 11:00       5   0.5m  6.7s   W 
-    8kn (g13)  SE offshore\nTue 12:00       5   0.5m  6.8s   W    7kn (g13)
-   SE offshore\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull f
- orecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=zandvoort
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=zandvoort
-LOCATION:Zandvoort
-TRANSP:TRANSPARENT
-END:VEVENT
 END:VCALENDAR

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:6b408837ac4cb61b@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261124T070000Z
 DTEND:20261124T110000Z
 SUMMARY:🔥 Almagreira 9.5/10 · 1.7m 11s NW · 9kn SSE
@@ -18,7 +18,7 @@ DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 5 wave models
       9.5   1.7m 11.2s  NW    9kn (g15) SSE offshore\nTue 08:00       7   1
  .8m 11.2s  NW   10kn (g16) SSW cross\nTue 09:00       7   1.8m 11.2s WNW  
   12kn (g24) WSW cross\nTue 10:00       6   2.0m 11.2s WNW    9kn (g18) WNW
-  onshore\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull foreca
+  onshore\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull foreca
  st: https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
@@ -26,7 +26,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:413da4b1fff656e0@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
 SUMMARY:🔥 Almagreira 8.5/10 · 2.0m 10s NW · 4kn SSE
@@ -40,7 +40,7 @@ DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 5 wave model
  .7m 10.2s  NW    5kn (g8)   W glassy\nThu 15:00       7   1.7m 10.2s  NW  
    5kn (g8) WNW glassy\nThu 16:00       7   1.6m 10.2s  NW    4kn (g8)   W 
  glassy\nThu 17:00       7   1.6m 10.2s  NW    3kn (g7) WSW glassy\n\nGener
- ated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
+ ated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
  anas.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
@@ -48,7 +48,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e4bba4b49f927caa@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Almagreira 9.5/10 · 1.7m 11s NW · 6kn SE
@@ -62,7 +62,7 @@ DESCRIPTION:Best 9.5/10 at 09:00. Forecast confidence: medium. 4 wave model
  4:00     9.5   1.8m 11.2s  NW    8kn (g12)  SE offshore\nFri 15:00     9.5
     1.8m 11.3s  NW    7kn (g12)  SE offshore\nFri 16:00     9.5   1.7m 11.4
  s  NW    6kn (g9)  SE offshore\nFri 17:00     9.5   1.7m 11.5s  NW    5kn 
- (g9)  SE offshore\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFu
+ (g9)  SE offshore\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFu
  ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=almagr
  eira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
@@ -71,7 +71,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:373c9e4391f4f6a3@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Almagreira 10/10 · 2.1m 13s NW · 6kn SE
@@ -85,7 +85,7 @@ DESCRIPTION:Best 10/10 at 10:00. Forecast confidence: low. 4 wave models sa
      10   2.2m 13.0s  NW    6kn (g10)  SE offshore\nSat 15:00     9.5   2.2
  m 13.0s  NW    6kn (g10)  SE offshore\nSat 16:00     9.5   2.2m 12.9s  NW 
     5kn (g5)  SE glassy\nSat 17:00     9.5   2.2m 12.9s  NW    4kn (g5)  SE
-  glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecas
+  glassy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecas
  t: https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
@@ -93,7 +93,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:de2d2da05c23fe35@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Almagreira 9.5/10 · 2.2m 13s NW · 3kn SE
@@ -107,7 +107,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  2.5s  NW    1kn (g4)  SE glassy\nSun 15:00     9.5   2.2m 12.5s  NW    1kn
   (g4) ESE glassy\nSun 16:00     9.5   2.2m 12.4s  NW    1kn (g1) ESE glass
  y\nSun 17:00       8   2.2m 12.4s  NW    0kn (g1)   N glassy\n\nGenerated 
- 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
@@ -115,7 +115,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c25e9e5ad01c10fc@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Almagreira 10/10 · 2.3m 13s NW · 4kn SE
@@ -129,7 +129,7 @@ DESCRIPTION:Best 10/10 at 14:00. Forecast confidence: low. 4 wave models sa
     2.3m 13.3s  NW    4kn (g10)  SE glassy\nMon 15:00      10   2.3m 13.5s 
   NW    4kn (g10) ESE glassy\nMon 16:00      10   2.2m 13.6s  NW    3kn (g4
  ) ESE glassy\nMon 17:00      10   2.2m 13.6s  NW    2kn (g4)  SE glassy\n\
- nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull forecast: https:/
+ nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https:/
  /tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
@@ -137,7 +137,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:42aee01f14f1b156@surf-windows
-DTSTAMP:20261124T090000Z
+DTSTAMP:20261124T100000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
 SUMMARY:🔥 Almagreira 9.5/10 · 1.7m 12s NW · 5kn SE
@@ -151,7 +151,7 @@ DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
      9.5   1.7m 12.5s  NW    6kn (g18) ESE offshore\nTue 15:00     9.5   1.
  8m 12.4s  NW    5kn (g17) ESE offshore\nTue 16:00     9.5   1.9m 12.3s  NW
      4kn (g16) ESE glassy\nTue 17:00     9.5   1.9m 12.2s  NW    4kn (g15) 
- ESE glassy\n\nGenerated 2026-11-24 09:00 UTC from Open-Meteo.\n\nFull fore
+ ESE glassy\n\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull fore
  cast: https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
