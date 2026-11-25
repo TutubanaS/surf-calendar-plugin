@@ -431,6 +431,10 @@ border-radius:.4rem;padding:.3rem .5rem;max-width:100%}
 /* ---- phones: a menu button, the menu, and a way back up to the search */
 .burger,.sbs{flex:none;place-items:center;width:2.6rem;height:2.6rem;border:0;border-radius:.5rem;background:none;padding:0;cursor:pointer}
 .burger{display:none;margin-left:-.65rem}
+.back{display:none;flex:none;place-items:center;width:2.6rem;height:2.6rem;margin:0 -.5rem 0 -.75rem;border:0;background:none;padding:0;cursor:pointer;color:var(--foam)}
+.back svg{width:1.35rem;height:1.35rem;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+@keyframes page-in{from{transform:translateX(28%);opacity:0}}
+@keyframes page-back{from{transform:translateX(-18%);opacity:0}}
 .sbs{display:grid;width:2.2rem;height:2.2rem;margin-right:-.35rem}
 .burger svg,.sbs svg{width:1.35rem;height:1.35rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
 .sbs svg{width:1.15rem;height:1.15rem}
@@ -552,8 +556,20 @@ border-left:1px solid color-mix(in srgb,var(--foam) 30%,transparent);border-righ
  .cp .hd small.live{display:block}
  .wrap{display:flex;flex-direction:column}
  .where{display:contents}
- .dh,.subrow{order:1} .dh{padding-top:1rem} .dha{margin-left:0} .note{order:2} .srcbar{order:3} .scene{order:4} .map{order:5} .daybar{order:6}
- .winfo{order:7} .viewbar{order:8} .charts,.wgwrap{order:9} details.hourly{order:10} footer{order:11} .spotbar{order:0}
+ /* phone: two screens. Home is the list; a spot opens as its own page, with its name and the days always at the top */
+ body:not(.at-spot) .detail{display:none}
+ body.at-spot .side{display:none}
+ .side{min-height:100vh;min-height:100dvh}
+ .detail{min-height:100vh;min-height:100dvh}
+ body.nav.at-spot .detail{animation:page-in .26s cubic-bezier(.2,.7,.2,1)}
+ body.nav:not(.at-spot) .side{animation:page-back .26s cubic-bezier(.2,.7,.2,1)}
+ .spotbar{order:0;height:2.6rem}
+ .sb{opacity:1;visibility:visible;transform:none;transition:none}
+ .sb .burger,.sb .sbs{display:none}
+ .back{display:grid}
+ .daybar{order:1} .scene{order:2} .map{order:3} .winfo{order:4} .viewbar{order:5} .srcbar{order:6} .charts,.wgwrap{order:7} details.hourly{order:8}
+ .dh,.subrow{order:9} .note{order:10} footer{order:11}
+ .dh{padding-top:1.4rem} .dh h2,.dha [data-fav]{display:none} .dha{margin-left:0}
  .viewbar{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--line)}
  .seg{flex:1;display:flex}
  .seg button{flex:1;padding:.5rem 0;font-size:.875rem}
@@ -571,7 +587,7 @@ border-left:1px solid color-mix(in srgb,var(--foam) 30%,transparent);border-righ
  .saymore{font-size:.875rem;line-height:1.45}
  .sw{height:3.4rem}
  .map{height:14.5rem;margin-top:.8rem}
- .daybar{margin-top:.5rem}
+ .daybar{margin-top:0}
  .ex{display:none}
  .winfo{height:13rem}
  .winfo .hd{margin:.4rem 0 .15rem}
@@ -1304,7 +1320,8 @@ function setDay(key, keepScroll) {
 const info = (key, what) => `<button type="button" class="info" data-guide="${key}" aria-label="How to read ${what}" aria-expanded="false">i</button>`;
 const narrow = window.matchMedia('(max-width:36rem)');
 const BURGER = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>';
-const LENS = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>';
+const BACK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>';
+const LENS ='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>';
 const shown = () => (narrow.matches ? 3 : 5) * DAY;      // how much the charts show at once when no day is open: fewer days on a phone
 function zoomOf(s, day) {
   // the visible stretch of time: one day when a day is open, otherwise five days from wherever the charts were panned to
@@ -1609,7 +1626,8 @@ function renderDetail() {
   }).join('');
   const top = maxBy(day.dl, h => h.score);
   el('detail').innerHTML = '<div class="wrap">'
-    + `<div class="spotbar"><div class="sb"><button type="button" class="burger" data-menu="open" aria-label="Menu">${BURGER}</button>`
+    + `<div class="spotbar"><div class="sb"><button type="button" class="back" data-home="1" aria-label="Back to all ${V().many}">${BACK}</button>`
+    + `<button type="button" class="burger" data-menu="open" aria-label="Menu">${BURGER}</button>`
     + `<button type="button" class="sbn" data-up="1">${esc(s.name)}</button>`
     + `<b class="num band-${band(top.score)}">${fmt(top.score)}<small>/10</small></b>`
     + `<button type="button" class="sbs" data-search="1" aria-label="Search ${V().many}">${LENS}</button>${starHTML(s, fav)}</div></div>`
@@ -2529,21 +2547,54 @@ const SKI_GUIDES = {
 };
 
 /* ---------- wiring */
-function setHash() {
-  try { history.replaceState(null, '', '#spot=' + state.sel); } catch (e) { /* file:// in some browsers */ }
+// phone: the list is the home screen and a spot opens as a page of its own; the back button (ours or the phone's) returns
+let atSpot = !!(byId[hash.spot] || hash.subscribe || hash.day || hash.pan || hash.hover || hash.guide && hash.guide !== 'page'), homeY = 0;
+document.body.classList.toggle('at-spot', atSpot);
+function setHash(push) {
+  const url = narrow.matches && !atSpot ? location.pathname + location.search : '#spot=' + state.sel;
+  try { history[push ? 'pushState' : 'replaceState'](push ? {inner: true} : history.state, '', url); } catch (e) { /* file:// in some browsers */ }
 }
+function screen(spot) {
+  atSpot = spot;
+  document.body.classList.add('nav');
+  document.body.classList.toggle('at-spot', spot);
+  clearTimeout(screen.t);
+  screen.t = setTimeout(() => document.body.classList.remove('nav'), 400);
+}
+function leave() {                 // back on the home screen, where you left it
+  if (!atSpot || !narrow.matches) return;
+  closeGuide();
+  hideTip();
+  screen(false);
+  window.scrollTo(0, homeY);
+}
+function goHome() {
+  if (history.state && history.state.inner) return history.back();
+  leave();
+  setHash();
+}
+window.addEventListener('popstate', () => {
+  const id = readHash().spot;
+  if (!id || !byId[id]) return leave();
+  if (narrow.matches && !atSpot) { homeY = window.scrollY; screen(true); }
+  select(id);
+  if (narrow.matches) window.scrollTo(0, 0);
+});
 function select(id, jump) {
+  const open = jump && narrow.matches && !atSpot;
+  if (open) { homeY = window.scrollY; screen(true); }
   state.sel = id;
   state.day = null;
   state.zoom = false;
   state.pan = null;
   state.hour = null;
   state.sub = null;
-  setHash();
+  setHash(open);
   renderList();
   renderSea();
   renderDetail();
-  if (jump && !desktop.matches) el('detail').scrollIntoView({behavior: 'smooth'});
+  if (open) window.scrollTo(0, 0);
+  else if (jump && !desktop.matches) el('detail').scrollIntoView({behavior: 'smooth'});
   syncSource();
 }
 function toggleFav(id) {
@@ -2555,7 +2606,7 @@ function toggleFav(id) {
   renderDetail();
 }
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-guide],[data-pick],[data-fav],[data-day],[data-tab],[data-copy],[data-pan],[data-view],[data-up],[data-menu],[data-go],[data-search],[data-mode],[data-sub]');
+  const t = e.target.closest('[data-guide],[data-pick],[data-fav],[data-day],[data-tab],[data-copy],[data-pan],[data-view],[data-up],[data-menu],[data-go],[data-search],[data-mode],[data-sub],[data-home]');
   const cell = !t && e.target.closest('.wg [data-i]');
   if (cell) { closeGuide(); pickHour(+cell.dataset.i); return; }
   if (!t) {
@@ -2566,6 +2617,7 @@ document.addEventListener('click', e => {
   }
   if (t.dataset.menu) return t.dataset.menu === 'open' ? openMenu() : menu.close();
   if (t.dataset.go) return go(t.dataset.go);
+  if (t.dataset.home) return goHome();
   if (t.dataset.guide) return openGuide(t);
   closeGuide();
   if (t.dataset.mode) switchMode(t.dataset.mode);
@@ -2624,7 +2676,7 @@ let lastWidth = window.innerWidth;
 window.addEventListener('resize', () => { if (window.innerWidth !== lastWidth) { lastWidth = window.innerWidth; closeGuide(); fitScene(); } });
 desktop.addEventListener('change', renderList);
 window.addEventListener('resize', () => { if (state.mapH) updateMap(cur(), state.mapH, true); });
-narrow.addEventListener('change', () => { applyPan(true); if (!narrow.matches && menu.open) menu.close(); });
+narrow.addEventListener('change', () => { renderDetail(); applyPan(true); if (!narrow.matches && menu.open) menu.close(); });
 
 renderModes();
 el('q').value = state.q;
