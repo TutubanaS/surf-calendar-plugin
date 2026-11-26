@@ -8,111 +8,99 @@ X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:80dafdd1f8d8a4fd@surf-windows
-DTSTAMP:20261124T230000Z
-DTSTART:20261126T080000Z
+UID:8872c47475fae7e6@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261126T100000Z
 DTEND:20261126T150000Z
-SUMMARY:🤏 Val Gardena 5.5/10 · 17 cm new snow · snowing · -1°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
- )  score  new snow  sky           temp   wind\nThu 09:00     5.5     17 cm
-    snowing         -1°C   13 km/h (g22)\nThu 10:00     5.5     19 cm   sn
- owing         -1°C   13 km/h (g22)\nThu 11:00     5.5     19 cm   snowing
-          -1°C   13 km/h (g23)\nThu 12:00     5.5     19 cm   snowing     
-     -1°C   11 km/h (g19)\nThu 13:00     5.5     19 cm   snowing         -
- 1°C   11 km/h (g18)\nThu 14:00     5.5     19 cm   snowing         -1°C 
-    6 km/h (g15)\nThu 15:00     5.5     19 cm   snowing         -1°C    5 
- km/h (g9)\n\nWeather at 2090 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Dolomiti Supersk
- i\, Sella Ronda.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull 
- forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-garde
- na
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-gardena
-LOCATION:Val Gardena
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:dc6fcbfe83ec457e@surf-windows
-DTSTAMP:20261124T230000Z
-DTSTART:20261127T090000Z
-DTEND:20261127T120000Z
-SUMMARY:🤏 Val Gardena 6/10 · 2 cm new snow · sunny · -8°C
-DESCRIPTION:Best 6/10 at 10:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nFri 10:00       6      2 cm
-    sunny           -8°C    3 km/h (g6)\nFri 11:00     5.5      2 cm   sun
- ny           -6°C    1 km/h (g5)\nFri 12:00     5.5      2 cm   sunny    
-        -3°C    2 km/h (g8)\n\nWeather at 2090 m. Snow depth and new snow 
- are the weather model's numbers\, not the resort's own snow report.\nNotes
- : Dolomiti Superski\, Sella Ronda.\nGenerated 2026-11-24 23:00 UTC from Op
- en-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plug
- in/#spot=val-gardena
+SUMMARY:🤏 Val Gardena 5/10 · 11 cm new snow · snowing · -1°C
+DESCRIPTION:Best 5/10 at 11:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nThu 11:00       5     11 cm  
+  snowing         -1°C   13 km/h (g26)\nThu 12:00       5     12 cm   snow
+ ing         -2°C   14 km/h (g25)\nThu 13:00       5     13 cm   snowing  
+        -2°C   12 km/h (g25)\nThu 14:00       5     13 cm   snowing       
+   -2°C    9 km/h (g20)\nThu 15:00       5     14 cm   snowing         -2
+ °C    7 km/h (g16)\n\nWeather at 2090 m. Snow depth and new snow are the 
+ weather model's numbers\, not the resort's own snow report.\nNotes: Dolomi
+ ti Superski\, Sella Ronda.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo
+ .\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot
+ =val-gardena
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-gardena
 LOCATION:Val Gardena
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b840b81e66217c3e@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261128T080000Z
-DTEND:20261128T150000Z
-SUMMARY:🤏 Val Gardena 5.5/10 · 32 cm of snow · sunny · -9°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm 
-   sunny           -9°C    6 km/h (g22)\nSat 10:00     5.5      0 cm   sun
- ny           -8°C    5 km/h (g22)\nSat 11:00     5.5      0 cm   sunny   
-         -6°C    4 km/h (g14)\nSat 12:00     5.5      0 cm   sunny        
-    -3°C    3 km/h (g14)\nSat 13:00       5      0 cm   sunny           -1
- °C    2 km/h (g14)\nSat 14:00       5      0 cm   sunny           -1°C  
-   2 km/h (g14)\nSat 15:00       5      0 cm   sunny           -1°C    2 k
- m/h (g14)\n\nWeather at 2090 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Dolomiti Supersk
- i\, Sella Ronda.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull 
- forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-garde
- na
+DTEND:20261128T110000Z
+SUMMARY:🤏 Val Gardena 5.5/10 · 30 cm of snow · sunny · -9°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 
+ cm   sunny           -9°C    7 km/h (g23)\nSat 10:00     5.5      0 cm   
+ sunny           -7°C    6 km/h (g23)\nSat 11:00     5.5      0 cm   sunny
+            -4°C    3 km/h (g23)\n\nWeather at 2090 m. Snow depth and new 
+ snow are the weather model's numbers\, not the resort's own snow report.\n
+ Notes: Dolomiti Superski\, Sella Ronda.\nGenerated 2026-11-26 03:00 UTC fr
+ om Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar
+ -plugin/#spot=val-gardena
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-gardena
 LOCATION:Val Gardena
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d78cba7e35637410@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261129T080000Z
-DTEND:20261129T140000Z
-SUMMARY:🤏 Val Gardena 5.5/10 · 31 cm of snow · sunny · -6°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nSun 09:00     5.5      0 cm 
-   sunny           -6°C    3 km/h (g10)\nSun 10:00     5.5      0 cm   sun
- ny           -6°C    3 km/h (g10)\nSun 11:00     5.5      0 cm   sunny   
-         -4°C    3 km/h (g10)\nSun 12:00     5.5      0 cm   sunny        
-    -3°C    2 km/h (g10)\nSun 13:00       5      0 cm   sunny           -2
- °C    1 km/h (g10)\nSun 14:00       5      0 cm   sunny           -1°C  
-   1 km/h (g7)\n\nWeather at 2090 m. Snow depth and new snow are the weathe
- r model's numbers\, not the resort's own snow report.\nNotes: Dolomiti Sup
- erski\, Sella Ronda.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nF
- ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-g
- ardena
+DTEND:20261129T120000Z
+SUMMARY:🤏 Val Gardena 5/10 · 28 cm of snow · sunny · -7°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSun 09:00       5      0 cm   
+ sunny           -7°C    5 km/h (g8)\nSun 10:00       5      0 cm   sunny 
+           -6°C    5 km/h (g8)\nSun 11:00       5      0 cm   sunny       
+     -5°C    4 km/h (g8)\nSun 12:00       5      0 cm   sunny           -3
+ °C    2 km/h (g8)\n\nWeather at 2090 m. Snow depth and new snow are the w
+ eather model's numbers\, not the resort's own snow report.\nNotes: Dolomit
+ i Superski\, Sella Ronda.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.
+ \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
+ val-gardena
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-gardena
 LOCATION:Val Gardena
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7682f5da4ff82f41@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261201T080000Z
-DTEND:20261201T150000Z
-SUMMARY:🤏 Val Gardena 5.5/10 · 30 cm of snow · sunny · -8°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nTue 09:00     5.5      1 cm 
-   sunny           -8°C    7 km/h (g37)\nTue 10:00     5.5      1 cm   sun
- ny           -8°C    7 km/h (g37)\nTue 11:00     5.5      1 cm   sunny   
-         -6°C    6 km/h (g32)\nTue 12:00     5.5      1 cm   sunny        
-    -5°C    5 km/h (g32)\nTue 13:00     5.5      1 cm   sunny           -4
- °C    4 km/h (g32)\nTue 14:00     5.5      1 cm   sunny           -4°C  
-   5 km/h (g29)\nTue 15:00     5.5      1 cm   sunny           -4°C    5 k
- m/h (g29)\n\nWeather at 2090 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Dolomiti Supersk
- i\, Sella Ronda.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull 
- forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-garde
- na
+DTEND:20261201T120000Z
+SUMMARY:🤏 Val Gardena 5/10 · 26 cm of snow · sunny · -7°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nTue 09:00       5      2 cm   
+ sunny           -7°C    8 km/h (g33)\nTue 10:00       5      2 cm   sunny
+            -6°C    7 km/h (g33)\nTue 11:00       5      2 cm   sunny     
+       -4°C    6 km/h (g28)\nTue 12:00       5      2 cm   sunny          
+  -2°C    4 km/h (g28)\n\nWeather at 2090 m. Snow depth and new snow are t
+ he weather model's numbers\, not the resort's own snow report.\nNotes: Dol
+ omiti Superski\, Sella Ronda.\nGenerated 2026-11-26 03:00 UTC from Open-Me
+ teo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#s
+ pot=val-gardena
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-gardena
+LOCATION:Val Gardena
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e76f07e2a3c1ac0f@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261202T080000Z
+DTEND:20261202T100000Z
+SUMMARY:🤏 Val Gardena 5/10 · 25 cm of snow · sunny · -3°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nWed 09:00       5      0 cm   
+ sunny           -3°C    7 km/h (g19)\nWed 10:00       5      0 cm   sunny
+            -2°C    6 km/h (g19)\n\nWeather at 2090 m. Snow depth and new 
+ snow are the weather model's numbers\, not the resort's own snow report.\n
+ Notes: Dolomiti Superski\, Sella Ronda.\nGenerated 2026-11-26 03:00 UTC fr
+ om Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar
+ -plugin/#spot=val-gardena
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-gardena
 LOCATION:Val Gardena
 TRANSP:TRANSPARENT

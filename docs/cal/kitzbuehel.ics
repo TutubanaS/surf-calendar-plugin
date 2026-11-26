@@ -7,4 +7,23 @@ X-WR-CALNAME:Ski: Kitzbühel
 X-WR-TIMEZONE:Europe/Vienna
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:e6387be35c7d5171@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T110000Z
+SUMMARY:🤏 Kitzbühel 5/10 · 10 cm of snow · sunny · -6°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nSat 09:00       5      0 cm
+    sunny           -6°C    6 km/h (g24)\nSat 10:00       5      0 cm   su
+ nny           -4°C    4 km/h (g21)\nSat 11:00       5      0 cm   sunny  
+          -2°C    4 km/h (g20)\n\nWeather at 1600 m. Snow depth and new sn
+ ow are the weather model's numbers\, not the resort's own snow report.\nNo
+ tes: Low for its fame: snow can be thin.\nGenerated 2026-11-26 03:00 UTC f
+ rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
+ r-plugin/#spot=kitzbuehel
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kitzbuehel
+LOCATION:Kitzbühel
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

@@ -8,126 +8,110 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:1aeed8079751113f@surf-windows
-DTSTAMP:20261124T230000Z
-DTSTART:20261125T160000Z
-DTEND:20261125T180000Z
-SUMMARY:🤏 Praia de Mira 6/10 · 2.9m 11s NW · 6kn NNW
-DESCRIPTION:Best 6/10 at 16:00. Forecast confidence: high. 5 wave models sa
- y 2.8 to 3.4 m.\n\nHour (local)  score  waves            wind\nWed 16:00  
-      6   2.9m 11.2s  NW    6kn (g16) NNW onshore\nWed 17:00       6   2.9m
-  11.2s  NW    5kn (g14) NNW onshore\n\nGenerated 2026-11-24 23:00 UTC from
-  Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-p
- lugin/#spot=praia-de-mira
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
-LOCATION:Praia de Mira
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:312b5ac754db7502@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Praia de Mira 8.5/10 · 1.9m 10s NW · 4kn ESE
+SUMMARY:🔥 Praia de Mira 8.5/10 · 1.9m 10s NW · 4kn SE
 DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.8 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00
-      8.5   1.9m 10.2s  NW    4kn (g8) ESE glassy\nThu 09:00     8.5   1.8m
-  10.2s  NW    3kn (g8) ESE glassy\nThu 10:00     8.5   1.8m 10.2s  NW    4
- kn (g9)  SE glassy\nThu 11:00     8.5   1.8m 10.2s  NW    5kn (g10) ESE gl
- assy\nThu 12:00     7.5   1.7m 10.2s  NW    4kn (g10)  SE glassy\nThu 13:0
- 0     7.5   1.7m 10.2s  NW    3kn (g9) SSE glassy\nThu 14:00     8.5   1.7
- m 10.2s  NW    2kn (g6) ESE glassy\nThu 15:00     8.5   1.6m 10.2s  NW    
- 3kn (g6) ESE glassy\nThu 16:00       7   1.6m 10.2s  NW    2kn (g6)   S gl
- assy\nThu 17:00       7   1.5m 10.2s  NW    2kn (g5) SSE glassy\n\nGenerat
- ed 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=praia-de-mira
+ say 1.9 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00
+      8.5   1.9m 10.5s  NW    4kn (g8)  SE glassy\nThu 09:00     8.5   1.9m
+  10.2s  NW    5kn (g11)  SE offshore\nThu 10:00     8.5   1.8m 10.2s  NW  
+   5kn (g11)  SE glassy\nThu 11:00     7.5   1.8m 10.1s  NW    5kn (g10) SS
+ E glassy\nThu 12:00     7.5   1.7m 10.2s  NW    4kn (g11) SSE glassy\nThu 
+ 13:00     7.5   1.7m 10.2s  NW    4kn (g10) SSE glassy\nThu 14:00     7.5 
+   1.6m 10.2s  NW    5kn (g11) SSE glassy\nThu 15:00       7   1.6m 10.2s  
+ NW    4kn (g10)  SE glassy\nThu 16:00       7   1.6m 10.2s  NW    5kn (g10
+ ) SSE cross\nThu 17:00       8   1.6m 10.2s WNW    4kn (g10)  SE glassy\n\
+ nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https:/
+ /tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
 LOCATION:Praia de Mira
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0c7c2ae0a67a875a@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
-SUMMARY:🔥 Praia de Mira 9.5/10 · 1.7m 12s WNW · 6kn SE
-DESCRIPTION:Best 9.5/10 at 10:00. Forecast confidence: medium. 5 wave model
- s say 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:
- 00     8.5   1.7m 10.2s WNW    5kn (g10)  SE offshore\nFri 09:00     8.5  
-  1.7m 10.2s WNW    5kn (g11)  SE offshore\nFri 10:00     9.5   1.7m 12.3s 
- WNW    6kn (g11)  SE offshore\nFri 11:00     9.5   1.7m 12.3s WNW    6kn (
- g12)  SE offshore\nFri 12:00     8.5   1.7m 12.3s WNW    6kn (g13)  SE cro
- ss\nFri 13:00     8.5   1.7m 12.3s WNW    6kn (g13) SSE cross\nFri 14:00  
-    8.5   1.7m 12.3s WNW    6kn (g13) SSE cross\nFri 15:00     8.5   1.7m 1
- 2.3s WNW    6kn (g13) SSE cross\nFri 16:00     8.5   1.7m 12.3s WNW    6kn
-  (g13) SSE cross\nFri 17:00     8.5   1.7m 12.3s WNW    6kn (g12) SSE cros
- s\n\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: htt
- ps://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
+SUMMARY:🔥 Praia de Mira 8.5/10 · 1.7m 12s WNW · 4kn SSE
+DESCRIPTION:Best 8.5/10 at 11:00. Forecast confidence: high. 5 wave models 
+ say 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:00
+      7.5   1.7m 10.0s WNW    3kn (g7)  SE glassy\nFri 09:00     7.5   1.7m
+  10.2s WNW    4kn (g8)  SE glassy\nFri 10:00     7.5   1.7m 10.2s WNW    4
+ kn (g9) SSE glassy\nFri 11:00     8.5   1.7m 11.7s WNW    4kn (g10) SSE gl
+ assy\nFri 12:00     8.5   1.7m 12.3s WNW    4kn (g10)   S glassy\nFri 13:0
+ 0     8.5   1.8m 12.3s WNW    4kn (g10)   S glassy\nFri 14:00     8.5   1.
+ 8m 12.3s WNW    4kn (g9) SSW glassy\nFri 15:00     8.5   1.8m 12.3s WNW   
+  4kn (g9) SSW glassy\nFri 16:00     8.5   1.8m 12.2s WNW    4kn (g9) SSW g
+ lassy\nFri 17:00     8.5   1.8m 12.1s WNW    3kn (g8) SSW glassy\n\nGenera
+ ted 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
+ nas.github.io/surf-calendar-plugin/#spot=praia-de-mira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
 LOCATION:Praia de Mira
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:456213f19adbcd83@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:👍 Praia de Mira 7/10 · 2.5m 14s NW · 5kn SE
-DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 4 wave models say
-  2.3 to 2.5 m.\n\nHour (local)  score  waves            wind\nSat 08:00   
-     7   2.5m 13.6s  NW    5kn (g10)  SE cross\nSat 09:00       7   2.5m 13
- .6s  NW    6kn (g10)  SE cross\nSat 10:00       7   2.5m 13.6s  NW    6kn 
- (g11) SSE cross\nSat 11:00       7   2.4m 13.6s  NW    6kn (g11) SSE cross
- \nSat 12:00       7   2.4m 13.6s  NW    5kn (g11) SSE cross\nSat 13:00    
-    7   2.4m 13.6s  NW    5kn (g10) SSE cross\nSat 14:00       7   2.5m 13.
- 5s  NW    5kn (g10) SSE glassy\nSat 15:00       7   2.5m 13.5s  NW    4kn 
- (g10) SSE glassy\nSat 16:00       7   2.5m 13.4s  NW    4kn (g8) SSE glass
- y\nSat 17:00       7   2.5m 13.4s  NW    4kn (g8) SSE glassy\n\nGenerated 
- 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=praia-de-mira
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
-LOCATION:Praia de Mira
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9d6da35dd8084647@surf-windows
-DTSTAMP:20261124T230000Z
-DTSTART:20261129T080000Z
-DTEND:20261129T180000Z
-SUMMARY:🔥 Praia de Mira 8.5/10 · 2.3m 13s NW · 1kn NE
-DESCRIPTION:Best 8.5/10 at 09:00. Forecast confidence: low. 4 wave models s
- ay 2.0 to 2.4 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
-     7.5   2.3m 12.6s  NW    1kn (g3)   E glassy\nSun 09:00     8.5   2.3m 
- 12.6s  NW    1kn (g3)  NE glassy\nSun 10:00     8.5   2.3m 12.5s  NW    2k
- n (g10) NNE glassy\nSun 11:00     8.5   2.3m 12.5s  NW    4kn (g10)   N gl
- assy\nSun 12:00     8.5   2.3m 12.4s  NW    5kn (g10)   N glassy\nSun 13:0
- 0     8.5   2.3m 12.4s  NW    6kn (g13)   N cross\nSun 14:00     8.5   2.3
- m 12.4s  NW    6kn (g13)   N cross\nSun 15:00     8.5   2.3m 12.4s  NW    
- 6kn (g13) NNW cross\nSun 16:00     8.5   2.3m 12.4s  NW    6kn (g9)   N cr
- oss\nSun 17:00     8.5   2.2m 12.4s  NW    5kn (g9)   N glassy\n\nGenerate
- d 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+SUMMARY:👍 Praia de Mira 7/10 · 2.5m 14s WNW · 6kn SE
+DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 5 wave models 
+ say 2.3 to 2.7 m.\n\nHour (local)  score  waves            wind\nSat 08:00
+        7   2.5m 13.5s WNW    6kn (g12)  SE cross\nSat 09:00       7   2.5m
+  13.5s WNW    6kn (g12) SSE cross\nSat 10:00       7   2.5m 13.5s WNW    5
+ kn (g11) SSE cross\nSat 11:00       7   2.5m 13.5s WNW    6kn (g12) SSE cr
+ oss\nSat 12:00       7   2.5m 13.5s WNW    6kn (g13) SSE cross\nSat 13:00 
+       7   2.5m 13.5s WNW    6kn (g13) SSE cross\nSat 14:00       7   2.6m 
+ 13.5s WNW    5kn (g12) SSE cross\nSat 15:00       7   2.6m 13.5s WNW    6k
+ n (g12)   S cross\nSat 16:00       7   2.5m 13.5s WNW    5kn (g12)   S cro
+ ss\nSat 17:00       7   2.5m 13.5s WNW    5kn (g11) SSE glassy\n\nGenerate
+ d 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
  s.github.io/surf-calendar-plugin/#spot=praia-de-mira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
 LOCATION:Praia de Mira
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:9d6da35dd8084647@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T180000Z
+SUMMARY:👍 Praia de Mira 6.5/10 · 2.5m 13s NW · 5kn N
+DESCRIPTION:Best 6.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 2.3 to 2.5 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
+     6.5   2.5m 12.7s  NW    5kn (g10)   N cross\nSun 09:00     6.5   2.5m 
+ 12.7s  NW    5kn (g10)   N glassy\nSun 10:00     6.5   2.5m 12.6s  NW    5
+ kn (g13)   N cross\nSun 11:00     6.5   2.5m 12.5s  NW    6kn (g13)   N cr
+ oss\nSun 12:00     6.5   2.5m 12.5s  NW    6kn (g13)   N cross\nSun 13:00 
+     6.5   2.5m 12.4s  NW    6kn (g14)   N cross\nSun 14:00     6.5   2.4m 
+ 12.4s  NW    6kn (g14)   N cross\nSun 15:00     6.5   2.4m 12.4s  NW    6k
+ n (g14)   N cross\nSun 16:00     6.5   2.4m 12.4s  NW    6kn (g10)   N cro
+ ss\nSun 17:00     6.5   2.4m 12.4s  NW    5kn (g10)   N cross\n\nGenerated
+  2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
+ .github.io/surf-calendar-plugin/#spot=praia-de-mira
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
+LOCATION:Praia de Mira
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5d778ed5be192977@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Praia de Mira 8.5/10 · 2.2m 13s NW · 3kn SE
-DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     8.5   2.2m 12.7s  NW    3kn (g7)  SE glassy\nMon 09:00     8.5   2.1m 
- 12.7s  NW    4kn (g7)  SE glassy\nMon 10:00     8.5   2.1m 12.7s  NW    3k
- n (g6) SSE glassy\nMon 11:00     8.5   2.1m 12.8s  NW    3kn (g6) SSE glas
- sy\nMon 12:00     8.5   2.1m 12.8s  NW    3kn (g6)   S glassy\nMon 13:00  
-    8.5   2.1m 12.8s  NW    2kn (g5) SSW glassy\nMon 14:00       8   2.0m 1
- 2.8s  NW    2kn (g5)  SW glassy\nMon 15:00       8   2.0m 12.8s  NW    3kn
-  (g5)  SW glassy\nMon 16:00       8   2.0m 12.8s  NW    2kn (g4) WSW glass
- y\nMon 17:00       8   2.0m 12.8s  NW    2kn (g4) WSW glassy\n\nGenerated 
- 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+SUMMARY:🔥 Praia de Mira 9.5/10 · 2.1m 12s NW · 3kn SE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 2.1 to 2.5 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
+     9.5   2.1m 12.5s  NW    3kn (g7)  SE glassy\nMon 09:00     9.5   2.1m 
+ 12.5s  NW    3kn (g7)  SE glassy\nMon 10:00     9.5   2.1m 12.6s  NW    3k
+ n (g9)  SE glassy\nMon 11:00     8.5   2.1m 12.6s  NW    4kn (g9) SSE glas
+ sy\nMon 12:00     8.5   2.1m 12.7s  NW    4kn (g9)   S glassy\nMon 13:00  
+    8.5   2.1m 12.7s  NW    4kn (g8)   S glassy\nMon 14:00     8.5   2.0m 1
+ 2.7s  NW    3kn (g8)   S glassy\nMon 15:00     8.5   2.0m 12.8s  NW    2kn
+  (g8)   S glassy\nMon 16:00     8.5   2.0m 12.7s  NW    2kn (g2)   S glass
+ y\nMon 17:00     8.5   1.9m 12.7s  NW    2kn (g2)   S glassy\n\nGenerated 
+ 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=praia-de-mira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
 LOCATION:Praia de Mira
@@ -135,23 +119,44 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:68fb466ab0f2e83c@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Praia de Mira 9.5/10 · 1.7m 12s WNW · 6kn SE
+SUMMARY:🔥 Praia de Mira 9.5/10 · 1.7m 12s WNW · 5kn SE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.7m 12.4s WNW    6kn (g11)  SE offshore\nTue 09:00     9.5   1.
- 8m 12.4s WNW    6kn (g11)  SE offshore\nTue 10:00     9.5   1.7m 12.4s WNW
-     6kn (g13)  SE offshore\nTue 11:00     9.5   1.8m 12.4s WNW    6kn (g13
- )  SE offshore\nTue 12:00     9.5   1.7m 12.4s WNW    7kn (g13)  SE offsho
- re\nTue 13:00     9.5   1.8m 12.3s WNW    7kn (g12)  SE offshore\nTue 14:0
- 0     9.5   1.8m 12.3s   W    6kn (g12)  SE offshore\nTue 15:00     9.5   
- 1.8m 12.2s   W    6kn (g12)  SE offshore\nTue 16:00     9.5   1.8m 12.2s  
-  W    6kn (g9)  SE offshore\nTue 17:00     9.5   1.8m 12.1s   W    5kn (g9
- )  SE offshore\n\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull 
- forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-
- mira
+ ay 1.4 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
+     9.5   1.7m 12.3s WNW    5kn (g9)  SE glassy\nTue 09:00     9.5   1.8m 
+ 12.3s WNW    5kn (g9)  SE glassy\nTue 10:00     9.5   1.8m 12.3s WNW    5k
+ n (g12)  SE offshore\nTue 11:00     8.5   1.8m 12.3s   W    6kn (g12)  SE 
+ cross\nTue 12:00     8.5   1.9m 12.3s   W    6kn (g12) SSE cross\nTue 13:0
+ 0     8.5   1.9m 12.2s   W    6kn (g12) SSE cross\nTue 14:00     8.5   1.9
+ m 12.2s   W    6kn (g12) SSE cross\nTue 15:00     8.5   1.9m 12.1s   W    
+ 6kn (g12)   S cross\nTue 16:00     8.5   1.9m 12.1s   W    5kn (g7)   S gl
+ assy\nTue 17:00     8.5   1.9m 12.1s   W    4kn (g7) SSE glassy\n\nGenerat
+ ed 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=praia-de-mira
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
+LOCATION:Praia de Mira
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5647c2d64903b60c@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261202T080000Z
+DTEND:20261202T180000Z
+SUMMARY:🔥 Praia de Mira 9.5/10 · 1.9m 11s WNW · 3kn ESE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.7 to 2.1 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
+     9.5   1.9m 11.4s WNW    3kn (g7) ESE glassy\nWed 09:00     9.5   1.9m 
+ 11.4s WNW    4kn (g7)  SE glassy\nWed 10:00     9.5   1.9m 11.3s WNW    4k
+ n (g8)  SE glassy\nWed 11:00     9.5   1.9m 11.3s WNW    4kn (g8)  SE glas
+ sy\nWed 12:00     9.5   1.9m 11.2s WNW    4kn (g8)  SE glassy\nWed 13:00  
+    9.5   2.0m 11.2s WNW    4kn (g10)  SE glassy\nWed 14:00     9.5   2.0m 
+ 11.2s WNW    4kn (g10)  SE glassy\nWed 15:00     9.5   2.0m 11.2s WNW    4
+ kn (g10) ESE glassy\nWed 16:00     9.5   2.0m 11.2s WNW    3kn (g5) ESE gl
+ assy\nWed 17:00     9.5   2.0m 11.2s WNW    3kn (g5) ESE glassy\n\nGenerat
+ ed 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=praia-de-mira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-mira
 LOCATION:Praia de Mira
 TRANSP:TRANSPARENT

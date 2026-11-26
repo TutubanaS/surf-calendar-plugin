@@ -7,4 +7,27 @@ X-WR-CALNAME:Ski: Erciyes
 X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:0faa7a32820e871c@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261202T060000Z
+DTEND:20261202T130000Z
+SUMMARY:🤏 Erciyes 5.5/10 · 13 cm new snow · snowing · -6°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nWed 09:00     5.5     13 cm 
+   snowing         -6°C    5 km/h (g26)\nWed 10:00     5.5     13 cm   sno
+ wing         -6°C    6 km/h (g21)\nWed 11:00     5.5     12 cm   snowing 
+         -6°C    6 km/h (g21)\nWed 12:00     5.5     12 cm   snowing      
+    -6°C    7 km/h (g21)\nWed 13:00     5.5     11 cm   snowing         -6
+ °C    7 km/h (g31)\nWed 14:00     5.5     11 cm   snowing         -6°C  
+   7 km/h (g31)\nWed 15:00     5.5     11 cm   snowing         -6°C    7 k
+ m/h (g31)\n\nWeather at 3000 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Big volcano\, wi
+ de open slopes\, windy on top.\nGenerated 2026-11-26 03:00 UTC from Open-M
+ eteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#
+ spot=erciyes
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=erciyes
+LOCATION:Erciyes
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

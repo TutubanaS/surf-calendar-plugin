@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:01165a477c4853a7@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T150000Z
-SUMMARY:🤏 Livigno 6/10 · 12 cm new snow · snowing · -5°C
+SUMMARY:🤏 Livigno 6/10 · 10 cm new snow · snowing · -4°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
-  score  new snow  sky           temp   wind\nThu 09:00       6     12 cm  
-  snowing         -5°C    1 km/h (g15)\nThu 10:00       6     13 cm   snow
- ing         -4°C    2 km/h (g13)\nThu 11:00       6     14 cm   snowing  
-        -4°C    3 km/h (g11)\nThu 12:00       6     14 cm   snowing       
-   -4°C    4 km/h (g10)\nThu 13:00       6     14 cm   snowing         -3
- °C    4 km/h (g10)\nThu 14:00       6     14 cm   snowing         -3°C  
-   5 km/h (g12)\nThu 15:00       6     14 cm   snowing         -3°C    5 k
- m/h (g13)\n\nWeather at 2470 m. Snow depth and new snow are the weather mo
+  score  new snow  sky           temp   wind\nThu 09:00       6     10 cm  
+  snowing         -4°C    4 km/h (g17)\nThu 10:00       6     11 cm   snow
+ ing         -4°C    4 km/h (g18)\nThu 11:00       6     12 cm   snowing  
+        -4°C    5 km/h (g19)\nThu 12:00       6     13 cm   snowing       
+   -4°C    6 km/h (g19)\nThu 13:00       6     13 cm   snowing         -4
+ °C    6 km/h (g19)\nThu 14:00       6     14 cm   snowing         -4°C  
+   8 km/h (g20)\nThu 15:00       6     14 cm   snowing         -5°C    9 k
+ m/h (g23)\n\nWeather at 2470 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: High and cold\, 
- good parks.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forec
+ good parks.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forec
  ast: https://tutubanas.github.io/surf-calendar-plugin/#spot=livigno
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=livigno
 LOCATION:Livigno
@@ -31,21 +31,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a24fac22d61019f8@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T150000Z
-SUMMARY:🤏 Livigno 6/10 · 4 cm new snow · sunny · -9°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nFri 09:00       6      4 cm
-    sunny           -9°C    8 km/h (g17)\nFri 10:00       6      3 cm   su
- nny           -8°C    8 km/h (g17)\nFri 11:00       6      3 cm   sunny  
-          -7°C    7 km/h (g16)\nFri 12:00       6      3 cm   sunny       
-     -6°C    6 km/h (g14)\nFri 13:00       6      3 cm   sunny           -
- 5°C    4 km/h (g13)\nFri 14:00       6      2 cm   sunny           -5°C 
-    4 km/h (g10)\nFri 15:00     5.5      2 cm   sunny           -5°C    4 
- km/h (g9)\n\nWeather at 2470 m. Snow depth and new snow are the weather mo
+SUMMARY:🤏 Livigno 6/10 · 4 cm new snow · sunny · -10°C
+DESCRIPTION:Best 6/10 at 10:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nFri 09:00       5      4 cm  
+  partly sunny   -11°C    9 km/h (g16)\nFri 10:00       6      4 cm   sunn
+ y          -10°C    7 km/h (g14)\nFri 11:00       6      3 cm   sunny    
+        -8°C    4 km/h (g12)\nFri 12:00       6      2 cm   sunny         
+   -7°C    1 km/h (g10)\nFri 13:00     5.5      1 cm   sunny           -6
+ °C    2 km/h (g10)\nFri 14:00     5.5      1 cm   sunny           -6°C  
+   1 km/h (g10)\nFri 15:00     5.5      1 cm   sunny           -6°C    1 k
+ m/h (g10)\n\nWeather at 2470 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: High and cold\, 
- good parks.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forec
+ good parks.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forec
  ast: https://tutubanas.github.io/surf-calendar-plugin/#spot=livigno
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=livigno
 LOCATION:Livigno
@@ -53,42 +53,62 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0c85afb9cee1423d@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Livigno 5.5/10 · 39 cm of snow · sunny · -10°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm 
-   sunny          -10°C    5 km/h (g18)\nSat 10:00     5.5      0 cm   sun
- ny           -9°C    6 km/h (g18)\nSat 11:00     5.5      0 cm   sunny   
-         -8°C    6 km/h (g17)\nSat 12:00     5.5      0 cm   sunny        
-    -6°C    7 km/h (g17)\nSat 13:00     5.5      0 cm   sunny           -4
- °C    8 km/h (g17)\nSat 14:00     5.5      0 cm   sunny           -4°C  
-   8 km/h (g18)\nSat 15:00     5.5      0 cm   sunny           -3°C    7 k
- m/h (g18)\n\nWeather at 2470 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: High and cold\, 
- good parks.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forec
- ast: https://tutubanas.github.io/surf-calendar-plugin/#spot=livigno
+SUMMARY:🤏 Livigno 5.5/10 · 31 cm of snow · sunny · -11°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 
+ cm   sunny          -11°C    4 km/h (g17)\nSat 10:00     5.5      0 cm   
+ sunny          -10°C    4 km/h (g16)\nSat 11:00     5.5      0 cm   sunny
+            -8°C    4 km/h (g17)\nSat 12:00     5.5      0 cm   sunny     
+       -6°C    4 km/h (g15)\nSat 13:00     5.5      0 cm   sunny          
+  -5°C    5 km/h (g16)\nSat 14:00     5.5      0 cm   sunny           -4°
+ C    6 km/h (g17)\nSat 15:00     5.5      0 cm   sunny           -3°C    
+ 6 km/h (g18)\n\nWeather at 2470 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: High and cold
+ \, good parks.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=livigno
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=livigno
 LOCATION:Livigno
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:523dfaf065906e7a@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261201T110000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Livigno 5.5/10 · 39 cm of snow · sunny · -9°C
-DESCRIPTION:Best 5.5/10 at 12:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nTue 12:00     5.5      0 cm 
-   sunny           -9°C    6 km/h (g25)\nTue 13:00     5.5      0 cm   sun
- ny           -7°C    6 km/h (g25)\nTue 14:00     5.5      0 cm   sunny   
-         -7°C    6 km/h (g25)\nTue 15:00     5.5      0 cm   sunny        
-    -7°C    6 km/h (g25)\n\nWeather at 2470 m. Snow depth and new snow are
-  the weather model's numbers\, not the resort's own snow report.\nNotes: H
- igh and cold\, good parks.\nGenerated 2026-11-24 23:00 UTC from Open-Meteo
- .\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot
- =livigno
+SUMMARY:🤏 Livigno 5/10 · 29 cm of snow · sunny · -6°C
+DESCRIPTION:Best 5/10 at 12:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nTue 12:00       5      0 cm   
+ sunny           -6°C    6 km/h (g25)\nTue 13:00       5      0 cm   sunny
+            -3°C    7 km/h (g25)\nTue 14:00       5      0 cm   sunny     
+       -3°C    7 km/h (g26)\nTue 15:00       5      0 cm   sunny          
+  -3°C    7 km/h (g26)\n\nWeather at 2470 m. Snow depth and new snow are t
+ he weather model's numbers\, not the resort's own snow report.\nNotes: Hig
+ h and cold\, good parks.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\
+ n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=l
+ ivigno
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=livigno
+LOCATION:Livigno
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c403e490c4827745@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261202T080000Z
+DTEND:20261202T120000Z
+SUMMARY:🤏 Livigno 5/10 · 29 cm of snow · sunny · -9°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nWed 09:00       5      0 cm   
+ sunny           -9°C    6 km/h (g14)\nWed 10:00       5      0 cm   sunny
+            -8°C    6 km/h (g14)\nWed 11:00       5      0 cm   sunny     
+       -6°C    6 km/h (g10)\nWed 12:00       5      0 cm   sunny          
+  -3°C    5 km/h (g10)\n\nWeather at 2470 m. Snow depth and new snow are t
+ he weather model's numbers\, not the resort's own snow report.\nNotes: Hig
+ h and cold\, good parks.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\
+ n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=l
+ ivigno
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=livigno
 LOCATION:Livigno
 TRANSP:TRANSPARENT

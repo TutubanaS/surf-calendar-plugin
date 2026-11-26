@@ -8,126 +8,110 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:6f633a5701008eb4@surf-windows
-DTSTAMP:20261124T230000Z
-DTSTART:20261125T160000Z
-DTEND:20261125T180000Z
-SUMMARY:🤏 Ofir 6/10 · 2.8m 11s WNW · 6kn NW
-DESCRIPTION:Best 6/10 at 16:00. Forecast confidence: high. 5 wave models sa
- y 2.6 to 3.4 m.\n\nHour (local)  score  waves            wind\nWed 16:00  
-      6   2.8m 11.2s WNW    6kn (g14)  NW onshore\nWed 17:00       6   2.7m
-  11.2s WNW    4kn (g12)  NW glassy\n\nGenerated 2026-11-24 23:00 UTC from 
- Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
- ugin/#spot=ofir
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ofir
-LOCATION:Ofir
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:74bbd5997fc4fa76@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Ofir 8.5/10 · 1.9m 10s WNW · 3kn ENE
+SUMMARY:🔥 Ofir 8.5/10 · 1.9m 10s WNW · 3kn ESE
 DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00
-      8.5   1.9m 10.2s WNW    3kn (g7) ENE glassy\nThu 09:00     8.5   1.8m
-  10.2s WNW    4kn (g7)   E glassy\nThu 10:00     8.5   1.7m 10.2s WNW    4
- kn (g8) ESE glassy\nThu 11:00     8.5   1.7m 10.2s WNW    4kn (g9)   E gla
- ssy\nThu 12:00     8.5   1.6m 10.2s WNW    3kn (g8) ESE glassy\nThu 13:00 
-       8   1.6m 10.2s WNW    4kn (g8)  SE glassy\nThu 14:00       7   1.6m 
- 10.2s WNW    3kn (g8) SSE glassy\nThu 15:00       8   1.6m 10.2s WNW    4k
- n (g7) ESE glassy\nThu 16:00       8   1.6m 10.2s WNW    3kn (g8)  SE glas
- sy\nThu 17:00       8   1.5m 10.2s WNW    3kn (g6)   E glassy\n\nGenerated
-  2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
- .github.io/surf-calendar-plugin/#spot=ofir
+ say 1.6 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00
+      8.5   1.9m 10.2s WNW    3kn (g9) ESE glassy\nThu 09:00     8.5   1.8m
+  10.2s WNW    4kn (g8) ESE glassy\nThu 10:00     8.5   1.7m 10.2s WNW    4
+ kn (g8) ESE glassy\nThu 11:00     8.5   1.7m 10.2s WNW    4kn (g9) ESE gla
+ ssy\nThu 12:00     8.5   1.7m 10.2s WNW    4kn (g9) ESE glassy\nThu 13:00 
+     8.5   1.6m 10.2s WNW    4kn (g10)  SE glassy\nThu 14:00     8.5   1.6m
+  10.2s WNW    4kn (g10) ESE glassy\nThu 15:00     8.5   1.6m 10.2s WNW    
+ 3kn (g9)  SE glassy\nThu 16:00       8   1.6m 10.2s WNW    4kn (g8) ESE gl
+ assy\nThu 17:00       8   1.5m 10.2s WNW    3kn (g8) ESE glassy\n\nGenerat
+ ed 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=ofir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ofir
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c57a24c2af1feea6@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Ofir 9.5/10 · 1.8m 12s WNW · 3kn E
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 5 wave model
- s say 1.6 to 2.0 m.\n\nHour (local)  score  waves            wind\nFri 08:
- 00     9.5   1.8m 11.7s WNW    3kn (g7)   E glassy\nFri 09:00     9.5   1.
- 8m 12.3s WNW    3kn (g7)   E glassy\nFri 10:00     9.5   1.8m 12.3s WNW   
-  4kn (g8) ESE glassy\nFri 11:00     9.5   1.8m 12.3s WNW    4kn (g9) ESE g
- lassy\nFri 12:00     9.5   1.8m 12.3s WNW    4kn (g9)  SE glassy\nFri 13:0
- 0     8.5   1.8m 12.3s WNW    4kn (g9)  SE glassy\nFri 14:00     8.5   1.8
- m 12.3s WNW    5kn (g11) SSE cross\nFri 15:00     8.5   1.8m 12.3s WNW    
- 5kn (g11) SSE glassy\nFri 16:00     8.5   1.9m 12.2s WNW    4kn (g10) SSE 
- glassy\nFri 17:00     8.5   1.9m 12.1s WNW    4kn (g9) SSE glassy\n\nGener
- ated 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
- anas.github.io/surf-calendar-plugin/#spot=ofir
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: high. 5 wave models 
+ say 1.6 to 2.0 m.\n\nHour (local)  score  waves            wind\nFri 08:00
+      9.5   1.8m 11.7s WNW    3kn (g5)   E glassy\nFri 09:00     9.5   1.8m
+  12.3s WNW    3kn (g6) ESE glassy\nFri 10:00     9.5   1.8m 12.3s WNW    4
+ kn (g8)  SE glassy\nFri 11:00     8.5   1.8m 12.3s WNW    5kn (g12) SSE cr
+ oss\nFri 12:00     8.5   1.9m 12.3s WNW    5kn (g11)   S cross\nFri 13:00 
+     8.5   1.9m 12.2s WNW    5kn (g11)   S cross\nFri 14:00     8.5   1.9m 
+ 12.1s WNW    6kn (g12) SSW cross\nFri 15:00     8.5   1.9m 12.3s WNW    6k
+ n (g12)   S cross\nFri 16:00     8.5   2.0m 12.3s WNW    5kn (g12)   S gla
+ ssy\nFri 17:00     8.5   2.0m 12.3s WNW    4kn (g10) SSE glassy\n\nGenerat
+ ed 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=ofir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ofir
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6d9478449bc4955c@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Ofir 8/10 · 2.6m 13s NW · 5kn SE
-DESCRIPTION:Best 8/10 at 17:00. Forecast confidence: low. 4 wave models say
-  2.1 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00   
-     7   2.5m 13.6s WNW    5kn (g11) SSE cross\nSat 09:00       7   2.6m 13
- .6s WNW    6kn (g11) SSE cross\nSat 10:00       7   2.6m 13.6s WNW    6kn 
- (g13) SSE cross\nSat 11:00       7   2.6m 13.6s WNW    6kn (g13) SSE cross
- \nSat 12:00       7   2.6m 13.6s WNW    7kn (g13) SSE cross\nSat 13:00    
-    7   2.6m 13.5s WNW    6kn (g13) SSE cross\nSat 14:00       7   2.6m 13.
- 5s  NW    6kn (g13) SSE cross\nSat 15:00       7   2.6m 13.4s  NW    6kn (
- g13) SSE cross\nSat 16:00       7   2.6m 13.4s  NW    5kn (g10)  SE cross\
- nSat 17:00       8   2.6m 13.4s  NW    5kn (g10)  SE offshore\n\nGenerated
-  2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
- .github.io/surf-calendar-plugin/#spot=ofir
+SUMMARY:👍 Ofir 7/10 · 2.8m 14s WNW · 5kn SSE
+DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 5 wave models 
+ say 2.0 to 2.9 m.\n\nHour (local)  score  waves            wind\nSat 08:00
+        7   2.8m 13.5s WNW    5kn (g10) SSE cross\nSat 09:00       7   2.8m
+  13.5s WNW    5kn (g11) SSE cross\nSat 10:00       7   2.8m 13.5s WNW    6
+ kn (g12) SSE cross\nSat 11:00       7   2.8m 13.5s WNW    6kn (g13)   S cr
+ oss\nSat 12:00       7   2.7m 13.5s WNW    6kn (g14)   S cross\nSat 13:00 
+       7   2.8m 13.6s WNW    6kn (g13)   S cross\nSat 14:00       7   2.8m 
+ 13.5s WNW    5kn (g13)   S cross\nSat 15:00       7   2.7m 13.5s WNW    5k
+ n (g11)   S cross\nSat 16:00       7   2.7m 13.3s WNW    5kn (g11)   S cro
+ ss\nSat 17:00       7   2.7m 13.2s WNW    4kn (g10) SSE glassy\n\nGenerate
+ d 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ s.github.io/surf-calendar-plugin/#spot=ofir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ofir
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:748fcbcb920f6812@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Ofir 8/10 · 2.3m 12s NW · 4kn NNW
-DESCRIPTION:Best 8/10 at 15:00. Forecast confidence: low. 4 wave models say
-  1.6 to 2.3 m.\n\nHour (local)  score  waves            wind\nSun 08:00   
-   6.5   2.3m 12.6s  NW    3kn (g6)   N glassy\nSun 09:00     6.5   2.3m 12
- .5s  NW    3kn (g6)   N glassy\nSun 10:00     6.5   2.3m 12.4s  NW    3kn 
- (g9)   N glassy\nSun 11:00     6.5   2.3m 12.4s  NW    4kn (g9)   N glassy
- \nSun 12:00     6.5   2.3m 12.4s  NW    4kn (g9) NNW glassy\nSun 13:00    
-    6   2.3m 12.4s  NW    4kn (g9) NNW glassy\nSun 14:00       6   2.3m 12.
- 4s  NW    4kn (g9) NNW glassy\nSun 15:00       8   2.3m 12.4s  NW    4kn (
- g9) NNW glassy\nSun 16:00       8   2.2m 12.4s  NW    4kn (g5) NNW glassy\
- nSun 17:00       8   2.2m 12.5s  NW    3kn (g5) NNW glassy\n\nGenerated 20
- 26-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
- thub.io/surf-calendar-plugin/#spot=ofir
+SUMMARY:👍 Ofir 6.5/10 · 2.5m 13s NW · 2kn NE
+DESCRIPTION:Best 6.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 2.0 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
+     6.5   2.5m 12.6s  NW    2kn (g5)  NE glassy\nSun 09:00     6.5   2.5m 
+ 12.5s  NW    2kn (g5)  NE glassy\nSun 10:00     6.5   2.5m 12.4s  NW    2k
+ n (g8) NNE glassy\nSun 11:00     6.5   2.5m 12.4s  NW    3kn (g8)   N glas
+ sy\nSun 12:00       6   2.4m 12.4s  NW    3kn (g8) NNW glassy\nSun 13:00  
+      6   2.4m 12.4s  NW    4kn (g8) NNW glassy\nSun 14:00       6   2.4m 1
+ 2.4s  NW    4kn (g8) NNW glassy\nSun 15:00       6   2.4m 12.4s  NW    3kn
+  (g8) NNW glassy\nSun 16:00     6.5   2.4m 12.5s  NW    3kn (g4)   N glass
+ y\nSun 17:00     6.5   2.4m 12.5s  NW    2kn (g4)   N glassy\n\nGenerated 
+ 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=ofir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ofir
 LOCATION:Ofir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1744fcaf5c690348@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Ofir 9.5/10 · 2.1m 13s NW · 3kn ENE
+SUMMARY:🔥 Ofir 9.5/10 · 2.2m 13s NW · 3kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     9.5   2.1m 12.8s  NW    3kn (g5) ENE glassy\nMon 09:00     9.5   2.1m 
- 12.8s  NW    2kn (g5) ENE glassy\nMon 10:00     9.5   2.1m 12.8s  NW    2k
- n (g5)   E glassy\nMon 11:00     9.5   2.1m 12.9s  NW    1kn (g5)  SE glas
- sy\nMon 12:00     8.5   2.0m 12.9s  NW    2kn (g5) SSE glassy\nMon 13:00  
-    8.5   2.0m 12.8s  NW    2kn (g8)   S glassy\nMon 14:00     8.5   2.0m 1
- 2.8s  NW    3kn (g8) SSW glassy\nMon 15:00     8.5   1.9m 12.8s  NW    3kn
-  (g8) SSW glassy\nMon 16:00     8.5   1.9m 12.7s  NW    3kn (g2) SSW glass
- y\nMon 17:00     8.5   1.9m 12.7s  NW    2kn (g2)   S glassy\n\nGenerated 
- 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ ay 1.7 to 2.5 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
+     9.5   2.2m 12.7s  NW    3kn (g7)   E glassy\nMon 09:00     9.5   2.2m 
+ 12.7s  NW    3kn (g7)   E glassy\nMon 10:00     9.5   2.1m 12.7s  NW    3k
+ n (g8)   E glassy\nMon 11:00     9.5   2.1m 12.8s  NW    3kn (g8)  SE glas
+ sy\nMon 12:00     8.5   2.1m 12.8s  NW    3kn (g8) SSE glassy\nMon 13:00  
+    8.5   2.1m 12.8s  NW    3kn (g8)   S glassy\nMon 14:00     8.5   2.0m 1
+ 2.7s  NW    3kn (g8) SSW glassy\nMon 15:00       8   2.0m 12.7s  NW    2kn
+  (g8) SSW glassy\nMon 16:00       8   1.9m 12.6s  NW    2kn (g2) SSW glass
+ y\nMon 17:00     8.5   1.9m 12.6s  NW    1kn (g2) SSE glassy\n\nGenerated 
+ 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=ofir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ofir
 LOCATION:Ofir
@@ -135,22 +119,44 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5baf0e7ea5c6c3ed@surf-windows
-DTSTAMP:20261124T230000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Ofir 9.5/10 · 1.9m 12s W · 3kn E
+SUMMARY:🔥 Ofir 9.5/10 · 1.9m 12s W · 3kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.3 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.9m 12.4s   W    3kn (g7)   E glassy\nTue 09:00     9.5   1.9m 
- 12.4s   W    3kn (g7)   E glassy\nTue 10:00     9.5   1.9m 12.4s   W    4k
- n (g9)   E glassy\nTue 11:00     9.5   1.8m 12.3s   W    4kn (g9) ESE glas
- sy\nTue 12:00     9.5   1.8m 12.3s   W    4kn (g9) ESE glassy\nTue 13:00  
-    9.5   1.9m 12.2s   W    4kn (g8) ESE glassy\nTue 14:00     9.5   1.9m 1
- 2.2s   W    4kn (g8) ESE glassy\nTue 15:00     9.5   1.9m 12.2s   W    3kn
-  (g8) ESE glassy\nTue 16:00     9.5   1.9m 12.2s   W    3kn (g7) ESE glass
- y\nTue 17:00     9.5   1.9m 12.1s   W    3kn (g7) ESE glassy\n\nGenerated 
- 2026-11-24 23:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=ofir
+ ay 1.6 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
+     9.5   1.9m 12.3s   W    3kn (g7) ESE glassy\nTue 09:00     9.5   1.9m 
+ 12.3s   W    3kn (g7) ESE glassy\nTue 10:00     9.5   1.9m 12.2s WSW    4k
+ n (g10)  SE glassy\nTue 11:00     9.5   1.9m 12.2s WSW    4kn (g10)  SE gl
+ assy\nTue 12:00     9.5   1.9m 12.2s WSW    4kn (g10)  SE glassy\nTue 13:0
+ 0     8.5   1.9m 12.1s WSW    4kn (g10)  SE glassy\nTue 14:00     8.5   2.
+ 0m 12.1s WSW    4kn (g10) SSE glassy\nTue 15:00     8.5   2.0m 12.1s WSW  
+   4kn (g10) SSE glassy\nTue 16:00     8.5   2.0m 12.1s WSW    4kn (g7) SSE
+  glassy\nTue 17:00     8.5   2.0m 12.1s WSW    3kn (g7) SSE glassy\n\nGene
+ rated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
+ banas.github.io/surf-calendar-plugin/#spot=ofir
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ofir
+LOCATION:Ofir
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fcef0b4eaf542625@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261202T080000Z
+DTEND:20261202T180000Z
+SUMMARY:🔥 Ofir 9.5/10 · 2.0m 11s W · 3kn E
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.9 to 2.4 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
+     9.5   2.0m 11.3s   W    3kn (g6)   E glassy\nWed 09:00     9.5   2.0m 
+ 11.2s   W    3kn (g6)   E glassy\nWed 10:00     9.5   2.1m 11.2s   W    3k
+ n (g8)   E glassy\nWed 11:00     9.5   2.1m 11.1s   W    3kn (g8)   E glas
+ sy\nWed 12:00     9.5   2.1m 11.1s   W    3kn (g8) ESE glassy\nWed 13:00  
+    9.5   2.1m 11.1s   W    3kn (g10) ESE glassy\nWed 14:00     9.5   2.1m 
+ 11.2s   W    4kn (g10) ESE glassy\nWed 15:00     9.5   2.1m 11.2s   W    4
+ kn (g10)   E glassy\nWed 16:00     9.5   2.1m 11.2s   W    3kn (g4)   E gl
+ assy\nWed 17:00     9.5   2.1m 11.3s   W    3kn (g4)   E glassy\n\nGenerat
+ ed 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=ofir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ofir
 LOCATION:Ofir
 TRANSP:TRANSPARENT

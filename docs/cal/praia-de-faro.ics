@@ -8,58 +8,104 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:3e50ea4b31208b21@surf-windows
-DTSTAMP:20261124T020000Z
-DTSTART:20261124T070000Z
-DTEND:20261124T090000Z
-SUMMARY:🤏 Praia de Faro 5/10 · 0.8m 8s S · 4kn WNW
-DESCRIPTION:Best 5/10 at 07:00. Forecast confidence: high. 4 wave models sa
- y 0.8 to 1.0 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
-      5   0.8m  8.4s   S    4kn (g8) WNW glassy\nTue 08:00       5   0.8m  
- 8.5s SSE    4kn (g8) WNW glassy\n\nGenerated 2026-11-24 02:00 UTC from Ope
- n-Meteo.
-LOCATION:Praia de Faro
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c29988f73cad837c@surf-windows
-DTSTAMP:20261124T020000Z
-DTSTART:20261125T070000Z
-DTEND:20261125T180000Z
-SUMMARY:👍 Praia de Faro 7.5/10 · 1.0m 14s WSW · 3kn NW
-DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: high. 4 wave models 
- say 0.8 to 1.2 m.\n\nHour (local)  score  waves            wind\nWed 07:00
-      7.5   1.0m 14.2s WSW    3kn (g5)  NW glassy\nWed 08:00     7.5   1.0m
-  14.2s WSW    2kn (g5) NNW glassy\nWed 09:00     7.5   1.0m 14.2s WSW    2
- kn (g4) WNW glassy\nWed 10:00     7.5   1.0m 14.2s WSW    4kn (g8)   W gla
- ssy\nWed 11:00     7.5   1.0m 13.5s WSW    6kn (g12) WNW cross\nWed 12:00 
-     7.5   1.0m 13.5s WSW    7kn (g14)  NW cross\nWed 13:00     7.5   1.0m 
- 13.5s WSW    7kn (g14)  NW cross\nWed 14:00       6   1.0m 13.6s WSW    8k
- n (g16)  NW cross\nWed 15:00     7.5   1.0m 13.5s WSW    8kn (g16)  NW cro
- ss\nWed 16:00     7.5   1.0m 13.3s WSW    7kn (g15)  NW cross\nWed 17:00  
-    7.5   1.0m 13.1s WSW    6kn (g14)  NW cross\n\nGenerated 2026-11-24 02:
- 00 UTC from Open-Meteo.
-LOCATION:Praia de Faro
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:c784e5e1e25a9fba@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261126T030000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
-SUMMARY:👍 Praia de Faro 7/10 · 0.7m 12s W · 3kn NNW
-DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: medium. 4 wave models 
- say 0.5 to 0.8 m.\n\nHour (local)  score  waves            wind\nThu 07:00
-        7   0.7m 11.7s   W    3kn (g5) NNW glassy\nThu 08:00       7   0.7m
-  11.7s   W    3kn (g6) NNW glassy\nThu 09:00       6   0.7m 11.7s   W    3
- kn (g6) NNW glassy\nThu 10:00       5   0.7m 11.7s   W    4kn (g8) NNW gla
- ssy\nThu 11:00       5   0.7m 11.7s   W    4kn (g9)  NW glassy\nThu 12:00 
-       5   0.7m 11.7s   W    5kn (g11)  NW cross\nThu 13:00       5   0.7m 
- 11.2s   W    6kn (g11)  NW cross\nThu 14:00       5   0.7m 11.2s   W    7k
- n (g13)  NW cross\nThu 15:00       6   0.6m 11.2s   W    6kn (g13) NNW off
- shore\nThu 16:00       6   0.6m 11.0s   W    5kn (g12) NNW offshore\nThu 1
- 7:00       5   0.6m 10.8s   W    4kn (g10)   N glassy\n\nGenerated 2026-11
- -24 02:00 UTC from Open-Meteo.
+SUMMARY:🔥 Praia de Faro 8/10 · 0.8m 13s W · 3kn NNW
+DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: high. 4 wave models sa
+ y 0.6 to 1.0 m.\n\nHour (local)  score  waves            wind\nThu 07:00  
+      8   0.8m 12.7s   W    3kn (g5) NNW glassy\nThu 08:00       7   0.8m 1
+ 1.9s   W    3kn (g5) NNW glassy\nThu 09:00       6   0.8m 11.7s   W    3kn
+  (g6) NNW glassy\nThu 10:00       6   0.7m 11.7s   W    4kn (g9)  NW glass
+ y\nThu 11:00       5   0.7m 11.7s   W    5kn (g11) WNW cross\nThu 12:00   
+     5   0.7m 11.7s   W    6kn (g12) WNW cross\nThu 13:00       5   0.7m 11
+ .7s   W    6kn (g12)  NW cross\nThu 14:00       5   0.7m 11.7s   W    6kn 
+ (g12) WNW cross\nThu 15:00       5   0.7m 11.7s   W    6kn (g13)  NW cross
+ \nThu 16:00       5   0.7m 11.8s   W    5kn (g13)  NW cross\nThu 17:00    
+    5   0.7m 11.8s   W    5kn (g11)  NW glassy\n\nGenerated 2026-11-26 03:0
+ 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
+ calendar-plugin/#spot=praia-de-faro
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-faro
+LOCATION:Praia de Faro
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:be00008ae73b6957@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261127T120000Z
+DTEND:20261127T160000Z
+SUMMARY:🤏 Praia de Faro 6/10 · 0.5m 12s SW · 6kn E
+DESCRIPTION:Best 6/10 at 12:00. Forecast confidence: high. 4 wave models sa
+ y 0.4 to 0.7 m.\n\nHour (local)  score  waves            wind\nFri 12:00  
+      6   0.5m 11.8s  SW    6kn (g13)   E cross\nFri 13:00       6   0.5m 1
+ 1.8s  SW    6kn (g13)   E cross\nFri 14:00       6   0.5m 11.8s SSW    6kn
+  (g13) ESE cross\nFri 15:00       6   0.5m 11.8s   S    5kn (g12) ESE cros
+ s\n\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: htt
+ ps://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-faro
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-faro
+LOCATION:Praia de Faro
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b2c2716334ceab26@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261128T070000Z
+DTEND:20261128T180000Z
+SUMMARY:👍 Praia de Faro 7.5/10 · 0.7m 14s SSE · 4kn ENE
+DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: medium. 4 wave model
+ s say 0.5 to 0.8 m.\n\nHour (local)  score  waves            wind\nSat 07:
+ 00     7.5   0.7m 14.4s SSE    4kn (g7) ENE glassy\nSat 08:00     7.5   0.
+ 7m 14.5s SSE    4kn (g7)  NE glassy\nSat 09:00     7.5   0.7m 14.6s SSE   
+  4kn (g8)  NE glassy\nSat 10:00     7.5   0.7m 14.4s SSE    6kn (g12) ENE 
+ offshore\nSat 11:00     6.5   0.7m 14.3s SSE    6kn (g13) ENE cross\nSat 1
+ 2:00     6.5   0.7m 14.2s SSE    6kn (g13)   E cross\nSat 13:00     6.5   
+ 0.7m 14.1s SSE    6kn (g12)   E cross\nSat 14:00     6.5   0.7m 14.1s SSE 
+    6kn (g12)   E cross\nSat 15:00     6.5   0.7m 14.2s   S    5kn (g12)   
+ E glassy\nSat 16:00     6.5   0.7m 13.5s   S    4kn (g10)   E glassy\nSat 
+ 17:00     6.5   0.7m 13.5s SSW    3kn (g8)   E glassy\n\nGenerated 2026-11
+ -26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
+ io/surf-calendar-plugin/#spot=praia-de-faro
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-faro
+LOCATION:Praia de Faro
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7e30912f4c5466a2@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261201T100000Z
+DTEND:20261201T120000Z
+SUMMARY:🤏 Praia de Faro 6/10 · 0.5m 10s SSW · 4kn NE
+DESCRIPTION:Best 6/10 at 10:00. Forecast confidence: low. 3 wave models say
+  0.5 to 0.9 m.\n\nHour (local)  score  waves            wind\nTue 10:00   
+     6   0.5m 10.5s SSW    4kn (g14)  NE glassy\nTue 11:00       5   0.6m  
+ 9.7s   S    6kn (g14)   E cross\n\nGenerated 2026-11-26 03:00 UTC from Ope
+ n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
+ n/#spot=praia-de-faro
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-faro
+LOCATION:Praia de Faro
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:74867ef047808fb2@surf-windows
+DTSTAMP:20261126T030000Z
+DTSTART:20261202T070000Z
+DTEND:20261202T180000Z
+SUMMARY:🔥 Praia de Faro 8/10 · 0.8m 11s SW · 5kn NNE
+DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 3 wave models say
+  0.6 to 1.0 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
+     8   0.8m 11.2s  SW    5kn (g10) NNE glassy\nWed 08:00       8   0.9m 1
+ 1.2s  SW    5kn (g10)  NE glassy\nWed 09:00       8   0.9m 11.2s SSW    5k
+ n (g10)  NE offshore\nWed 10:00       7   0.9m 11.2s SSW    6kn (g18) ENE 
+ cross\nWed 11:00     5.5   1.0m 11.2s   S    8kn (g18)   E cross\nWed 12:0
+ 0     5.5   1.0m 11.2s   S   10kn (g18)   E cross\nWed 13:00     5.5   1.0
+ m 11.2s   S   10kn (g19)   E cross\nWed 14:00     5.5   1.0m 11.2s   S   1
+ 0kn (g19)   E cross\nWed 15:00     5.5   1.0m 11.2s   S   10kn (g19) ESE c
+ ross\nWed 16:00     5.5   1.0m 11.2s   S    8kn (g11) ESE cross\nWed 17:00
+        7   1.0m 11.2s SSW    6kn (g11)   E cross\n\nGenerated 2026-11-26 0
+ 3:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
+ rf-calendar-plugin/#spot=praia-de-faro
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-de-faro
 LOCATION:Praia de Faro
 TRANSP:TRANSPARENT
 END:VEVENT
