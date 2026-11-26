@@ -8,39 +8,74 @@ X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:128fa4a6ea665ba3@surf-windows
-DTSTAMP:20261124T020000Z
-DTSTART:20261124T090000Z
-DTEND:20261124T150000Z
-SUMMARY:🤏 Riva 5.5/10 · 1.5m 7s NNW · 5kn NW
-DESCRIPTION:Best 5.5/10 at 12:00. Forecast confidence: high. 4 wave models 
- say 1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 12:00
-      5.5   1.5m  7.0s NNW    5kn (g15)  NW onshore\nTue 13:00     5.5   1.
- 4m  7.0s   N    6kn (g14)  NW onshore\nTue 14:00     5.5   1.4m  7.0s   N 
-    6kn (g14)  NW onshore\nTue 15:00     5.5   1.3m  7.0s   N    6kn (g14) 
-  NW onshore\nTue 16:00     5.5   1.3m  7.0s   N    5kn (g14)  NW glassy\nT
- ue 17:00     5.5   1.2m  7.0s   N    4kn (g12)  NW glassy\n\nGenerated 202
- 6-11-24 02:00 UTC from Open-Meteo.
+UID:dde10decc338f0d0@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261201T130000Z
+DTEND:20261201T150000Z
+SUMMARY:🤏 Riva 5/10 · 2.9m 8s NE · 12kn NNE
+DESCRIPTION:Best 5/10 at 16:00. Forecast confidence: low. 3 wave models say
+  2.6 to 2.9 m.\n\nHour (local)  score  waves            wind\nTue 16:00   
+     5   2.9m  7.8s  NE   12kn (g28) NNE onshore\nTue 17:00       5   2.8m 
+  7.8s  NE   11kn (g28) NNE onshore\n\nGenerated 2026-11-26 16:00 UTC from 
+ Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
+ ugin/#spot=riva
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=riva
 LOCATION:Riva
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:20e3534663a9afa0@surf-windows
-DTSTAMP:20261124T020000Z
-DTSTART:20261125T050000Z
-DTEND:20261125T150000Z
-SUMMARY:👍 Riva 7/10 · 1.2m 7s NNW · 2kn S
-DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: high. 4 wave models sa
- y 1.1 to 1.3 m.\n\nHour (local)  score  waves            wind\nWed 08:00  
-      7   1.2m  7.0s NNW    2kn (g5)   S glassy\nWed 09:00       7   1.1m  
- 7.0s NNW    2kn (g5)   S glassy\nWed 10:00       7   1.1m  7.0s NNW    2kn
-  (g6)   S glassy\nWed 11:00       7   1.0m  6.3s NNW    3kn (g9)   S glass
- y\nWed 12:00     5.5   0.9m  6.3s NNW    4kn (g12) SSW glassy\nWed 13:00  
-    5.5   0.9m  6.3s NNW    6kn (g14)  SW offshore\nWed 14:00     5.5   0.8
- m  6.3s NNW    6kn (g14)  SW offshore\nWed 15:00     5.5   0.8m  6.2s NNW 
-    5kn (g14)  SW offshore\nWed 16:00     5.5   0.7m  6.1s   N    5kn (g13)
-   SW glassy\nWed 17:00       5   0.7m  6.0s NNW    3kn (g12)  SW glassy\n\
- nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
+UID:47daaee190ee75a6@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261202T050000Z
+DTEND:20261202T080000Z
+SUMMARY:🤏 Riva 6/10 · 2.8m 8s NNE · 11kn NNE
+DESCRIPTION:Best 6/10 at 08:00. Forecast confidence: low. 3 wave models say
+  2.5 to 3.1 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
+     6   2.8m  8.2s NNE   11kn (g27) NNE onshore\nWed 09:00       6   2.8m 
+  8.2s NNE   11kn (g27) NNE onshore\nWed 10:00       6   2.8m  8.1s NNE   1
+ 2kn (g29) NNE onshore\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n
+ \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ri
+ va
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=riva
+LOCATION:Riva
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9aaf7d952eff851f@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261202T120000Z
+DTEND:20261202T150000Z
+SUMMARY:🤏 Riva 5/10 · 2.8m 8s NNE · 12kn NNE
+DESCRIPTION:Best 5/10 at 15:00. Forecast confidence: low. 3 wave models say
+  2.7 to 2.8 m.\n\nHour (local)  score  waves            wind\nWed 15:00   
+     5   2.8m  7.9s NNE   12kn (g28) NNE onshore\nWed 16:00       5   2.8m 
+  7.9s NNE   12kn (g27) NNE onshore\nWed 17:00       5   2.8m  7.9s NNE   1
+ 1kn (g27) NNE onshore\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n
+ \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ri
+ va
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=riva
+LOCATION:Riva
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da8322ec08dd14b9@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261203T050000Z
+DTEND:20261203T150000Z
+SUMMARY:👍 Riva 6.5/10 · 1.9m 8s NNE · 8kn N
+DESCRIPTION:Best 6.5/10 at 11:00. Forecast confidence: low. 3 wave models s
+ ay 1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     5.5   1.9m  7.7s NNE    8kn (g19)   N onshore\nThu 09:00     5.5   1.9
+ m  7.7s NNE    8kn (g19)   N onshore\nThu 10:00     5.5   1.8m  7.8s NNE  
+   8kn (g20)   N onshore\nThu 11:00     6.5   1.9m  8.1s NNE    8kn (g20)  
+  N onshore\nThu 12:00     6.5   1.9m  8.2s NNE    8kn (g20)   N onshore\nT
+ hu 13:00     6.5   2.0m  8.2s NNE    8kn (g18)   N onshore\nThu 14:00     
+ 6.5   2.1m  8.2s NNE    7kn (g18) NNW onshore\nThu 15:00     6.5   2.1m  8
+ .2s NNE    7kn (g18) NNW onshore\nThu 16:00     6.5   2.2m  8.2s NNE    7k
+ n (g16) NNW onshore\nThu 17:00     6.5   2.2m  8.2s NNE    7kn (g16) NNW o
+ nshore\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast
+ : https://tutubanas.github.io/surf-calendar-plugin/#spot=riva
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=riva
 LOCATION:Riva
 TRANSP:TRANSPARENT
 END:VEVENT

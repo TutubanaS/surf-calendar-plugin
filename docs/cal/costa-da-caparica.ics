@@ -9,23 +9,23 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:012cb6dcaba1fe52@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Costa da Caparica 9/10 · 1.4m 11s W · 2kn ENE
-DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: medium. 4 wave models 
- say 0.8 to 1.8 m.\n\nHour (local)  score  waves            wind\nThu 07:00
-        9   1.4m 11.2s   W    2kn (g3) ENE glassy\nThu 08:00       9   1.3m
-  11.2s   W    1kn (g4) ENE glassy\nThu 09:00       9   1.2m 11.2s   W    2
- kn (g4) ENE glassy\nThu 10:00       9   1.2m 11.2s   W    2kn (g4) ENE gla
- ssy\nThu 11:00       7   1.1m 11.2s   W    1kn (g4)  SE glassy\nThu 12:00 
-     6.5   1.1m 11.2s   W    4kn (g8)  SW glassy\nThu 13:00     5.5   1.1m 
- 10.8s   W    3kn (g8)  SW glassy\nThu 14:00     5.5   1.1m 10.4s   W    4k
- n (g9) WSW glassy\nThu 15:00     5.5   1.0m 10.2s   W    4kn (g9) WSW glas
- sy\nThu 16:00     5.5   1.0m 10.1s   W    4kn (g9)  SW glassy\nThu 17:00  
-    5.5   1.0m 10.1s   W    3kn (g8)  SW glassy\n\nGenerated 2026-11-26 03:
- 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
- -calendar-plugin/#spot=costa-da-caparica
+SUMMARY:🔥 Costa da Caparica 9/10 · 1.3m 11s W · 2kn NE
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: medium. 4 wave models 
+ say 0.8 to 1.7 m.\n\nHour (local)  score  waves            wind\nThu 07:00
+        8   1.4m 11.2s   W    2kn (g3) NNE glassy\nThu 08:00       9   1.3m
+  11.2s   W    2kn (g3)  NE glassy\nThu 09:00       9   1.2m 11.2s   W    1
+ kn (g2) ESE glassy\nThu 10:00       9   1.2m 11.2s   W    1kn (g2)   E gla
+ ssy\nThu 11:00       7   1.2m 11.2s   W    1kn (g4)  SE glassy\nThu 12:00 
+     6.5   1.1m 11.2s   W    2kn (g6) WSW glassy\nThu 13:00     5.5   1.1m 
+ 10.8s   W    5kn (g10) WSW glassy\nThu 14:00     5.5   1.1m 10.4s   W    6
+ kn (g11) WSW onshore\nThu 15:00     5.5   1.0m 10.2s   W    5kn (g11)   W 
+ onshore\nThu 16:00     5.5   1.0m 10.1s   W    6kn (g10)   W onshore\nThu 
+ 17:00     5.5   1.0m 10.1s   W    4kn (g10)   W glassy\n\nGenerated 2026-1
+ 1-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github
+ .io/surf-calendar-plugin/#spot=costa-da-caparica
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparic
  a
 LOCATION:Costa da Caparica
@@ -33,22 +33,35 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1fe2fefda4731a6@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261127T080000Z
+DTEND:20261127T120000Z
+SUMMARY:👍 Costa da Caparica 6.5/10 · 1.0m 12s W · 4kn SSW
+DESCRIPTION:Best 6.5/10 at 11:00. Forecast confidence: medium. 4 wave model
+ s say 0.7 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 08:
+ 00       6   1.0m 10.1s   W    2kn (g4)   S glassy\nFri 09:00     5.5   1.
+ 0m 10.2s   W    2kn (g5) SSW glassy\nFri 10:00     5.5   1.0m 10.8s   W   
+  3kn (g6) SSW glassy\nFri 11:00     6.5   1.0m 11.7s   W    4kn (g9) SSW g
+ lassy\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast:
+  https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparica
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparic
+ a
+LOCATION:Costa da Caparica
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c879d7469354ef94@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261127T150000Z
 DTEND:20261127T180000Z
-SUMMARY:🔥 Costa da Caparica 8/10 · 1.0m 12s W · 3kn E
-DESCRIPTION:Best 8/10 at 11:00. Forecast confidence: medium. 4 wave models 
- say 0.7 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 08:00
-        7   1.0m 10.1s   W    2kn (g4)  NE glassy\nFri 09:00       7   1.0m
-  10.2s   W    2kn (g4)  NE glassy\nFri 10:00       7   1.0m 10.8s   W    3
- kn (g6) ENE glassy\nFri 11:00       8   1.0m 11.7s   W    3kn (g7)   E gla
- ssy\nFri 12:00       7   1.1m 12.3s   W    2kn (g6) SSE glassy\nFri 13:00 
-     6.5   1.1m 12.4s   W    4kn (g9) SSW glassy\nFri 14:00     6.5   1.1m 
- 12.4s   W    5kn (g10) SSW glassy\nFri 15:00     6.5   1.1m 12.3s   W    5
- kn (g10) SSW onshore\nFri 16:00       7   1.1m 12.3s   W    5kn (g10)   S 
- glassy\nFri 17:00       7   1.1m 12.3s   W    4kn (g9)   S glassy\n\nGener
- ated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
- anas.github.io/surf-calendar-plugin/#spot=costa-da-caparica
+SUMMARY:👍 Costa da Caparica 6.5/10 · 1.1m 12s W · 6kn SW
+DESCRIPTION:Best 6.5/10 at 15:00. Forecast confidence: medium. 4 wave model
+ s say 0.7 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 15:
+ 00     6.5   1.1m 12.3s   W    6kn (g13)  SW onshore\nFri 16:00     6.5   
+ 1.1m 12.3s   W    6kn (g12)  SW onshore\nFri 17:00     6.5   1.1m 12.3s   
+ W    5kn (g11)  SW glassy\n\nGenerated 2026-11-26 16:00 UTC from Open-Mete
+ o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
+ t=costa-da-caparica
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparic
  a
 LOCATION:Costa da Caparica
@@ -56,22 +69,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cee61c28285536c4@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Costa da Caparica 9.5/10 · 1.5m 14s W · 3kn ENE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.0 to 2.1 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
-     9.5   1.5m 13.9s   W    3kn (g5) ENE glassy\nSat 09:00     9.5   1.6m 
- 13.5s   W    3kn (g5) ENE glassy\nSat 10:00     9.5   1.6m 13.5s   W    3k
- n (g6)   E glassy\nSat 11:00     9.5   1.6m 13.5s   W    3kn (g6)   E glas
- sy\nSat 12:00     8.5   1.6m 13.5s   W    3kn (g7)  SE glassy\nSat 13:00  
-    8.5   1.5m 13.5s   W    5kn (g10)   S cross\nSat 14:00       8   1.6m 1
- 3.5s   W    6kn (g11) SSW onshore\nSat 15:00       8   1.5m 13.5s   W    6
- kn (g11) SSW onshore\nSat 16:00       8   1.5m 13.6s   W    5kn (g11) SSW 
- glassy\nSat 17:00       8   1.5m 13.6s   W    3kn (g9) SSW glassy\n\nGener
- ated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
- anas.github.io/surf-calendar-plugin/#spot=costa-da-caparica
+SUMMARY:🔥 Costa da Caparica 10/10 · 1.6m 14s W · 3kn ENE
+DESCRIPTION:Best 10/10 at 09:00. Forecast confidence: low. 4 wave models sa
+ y 1.2 to 2.1 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
+    9.5   1.6m 13.9s   W    3kn (g6)  NE glassy\nSat 09:00      10   1.6m 1
+ 3.8s   W    3kn (g6) ENE glassy\nSat 10:00      10   1.6m 13.8s   W    3kn
+  (g6)  NE glassy\nSat 11:00      10   1.6m 13.5s   W    3kn (g6)   E glass
+ y\nSat 12:00      10   1.6m 13.5s   W    2kn (g6) ESE glassy\nSat 13:00   
+     9   1.6m 13.5s   W    2kn (g6)   S glassy\nSat 14:00     8.5   1.6m 13
+ .5s   W    3kn (g7) SSW glassy\nSat 15:00     8.5   1.6m 13.5s   W    3kn 
+ (g7) SSW glassy\nSat 16:00     8.5   1.6m 13.5s   W    2kn (g7)  SW glassy
+ \nSat 17:00     8.5   1.6m 13.5s   W    2kn (g5) WSW glassy\n\nGenerated 2
+ 026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
+ ithub.io/surf-calendar-plugin/#spot=costa-da-caparica
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparic
  a
 LOCATION:Costa da Caparica
@@ -79,22 +92,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d76c7e52ff21ce12@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Costa da Caparica 9.5/10 · 1.8m 13s NW · 1kn ENE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
- ay 0.9 to 1.9 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
-     9.5   1.8m 12.9s  NW    1kn (g2) ENE glassy\nSun 09:00     9.5   1.8m 
- 12.9s  NW    1kn (g2)   E glassy\nSun 10:00     9.5   1.8m 12.9s  NW    2k
- n (g8) ENE glassy\nSun 11:00     9.5   1.8m 12.8s  NW    3kn (g8)  NE glas
- sy\nSun 12:00     9.5   1.8m 12.8s  NW    4kn (g8)  NE glassy\nSun 13:00  
-    9.5   1.8m 12.7s  NW    4kn (g7)  NE glassy\nSun 14:00     9.5   1.8m 1
- 2.7s  NW    3kn (g7)  NE glassy\nSun 15:00     9.5   1.8m 12.6s  NW    3kn
-  (g7)  NE glassy\nSun 16:00     9.5   1.8m 12.5s  NW    3kn (g5)  NE glass
- y\nSun 17:00     9.5   1.7m 12.4s  NW    2kn (g5)  NE glassy\n\nGenerated 
- 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=costa-da-caparica
+SUMMARY:🔥 Costa da Caparica 9.5/10 · 1.5m 14s W · 2kn NE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.0 to 1.9 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
+     9.5   1.5m 13.5s   W    2kn (g3)  NE glassy\nSun 09:00     9.5   1.4m 
+ 13.5s   W    2kn (g4) ENE glassy\nSun 10:00     9.5   1.4m 13.5s   W    2k
+ n (g5) ENE glassy\nSun 11:00     9.5   1.4m 13.5s   W    2kn (g5) ENE glas
+ sy\nSun 12:00     9.5   1.4m 13.5s   W    4kn (g9) ENE glassy\nSun 13:00  
+    9.5   1.4m 13.5s   W    4kn (g10)  NE glassy\nSun 14:00     9.5   1.4m 
+ 13.5s   W    4kn (g10)  NE glassy\nSun 15:00     8.5   1.4m 13.5s   W    3
+ kn (g9) NNE glassy\nSun 16:00     8.5   1.4m 13.2s   W    5kn (g10)   N cr
+ oss\nSun 17:00       8   1.4m 12.7s   W    6kn (g12)   N cross\n\nGenerate
+ d 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ s.github.io/surf-calendar-plugin/#spot=costa-da-caparica
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparic
  a
 LOCATION:Costa da Caparica
@@ -102,22 +115,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:05109a54823cda4f@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Costa da Caparica 9.5/10 · 1.6m 13s NW · 5kn NE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
+SUMMARY:🔥 Costa da Caparica 9.5/10 · 1.6m 13s NW · 3kn ENE
+DESCRIPTION:Best 9.5/10 at 09:00. Forecast confidence: low. 3 wave models s
  ay 0.8 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     9.5   1.6m 12.7s  NW    5kn (g11)  NE offshore\nMon 09:00     9.5   1.
- 7m 12.7s  NW    5kn (g11) ENE offshore\nMon 10:00     9.5   1.7m 12.6s  NW
-     5kn (g14) ENE offshore\nMon 11:00     9.5   1.7m 12.6s  NW    6kn (g14
- ) ENE offshore\nMon 12:00     9.5   1.7m 12.5s  NW    6kn (g14)   E offsho
- re\nMon 13:00     9.5   1.7m 12.5s  NW    5kn (g9)   E offshore\nMon 14:00
-      9.5   1.7m 12.5s  NW    4kn (g9) ESE glassy\nMon 15:00     9.5   1.7m
-  12.5s  NW    3kn (g9) ESE glassy\nMon 16:00     8.5   1.6m 12.5s  NW    2
- kn (g4)  SE glassy\nMon 17:00     8.5   1.6m 12.5s  NW    2kn (g4) SSE gla
- ssy\n\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: h
- ttps://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparica
+       9   1.6m 12.7s  NW    2kn (g5)  NE glassy\nMon 09:00     9.5   1.6m 
+ 12.7s  NW    3kn (g5) ENE glassy\nMon 10:00     9.5   1.6m 12.6s  NW    3k
+ n (g8) ENE glassy\nMon 11:00     9.5   1.6m 12.6s  NW    3kn (g8) ENE glas
+ sy\nMon 12:00     9.5   1.6m 12.6s  NW    3kn (g8)   E glassy\nMon 13:00  
+    9.5   1.6m 12.5s  NW    2kn (g5)   E glassy\nMon 14:00     8.5   1.6m 1
+ 2.5s  NW    2kn (g5)  SE glassy\nMon 15:00     8.5   1.6m 12.5s  NW    2kn
+  (g5)  SE glassy\nMon 16:00     8.5   1.6m 12.5s  NW    2kn (g5)  SE glass
+ y\nMon 17:00     9.5   1.6m 12.6s  NW    2kn (g5)   E glassy\n\nGenerated 
+ 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=costa-da-caparica
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparic
  a
 LOCATION:Costa da Caparica
@@ -125,22 +138,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:220f5a62dd343958@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Costa da Caparica 9/10 · 1.4m 12s WNW · 3kn ENE
+SUMMARY:🔥 Costa da Caparica 9/10 · 1.4m 12s WNW · 5kn ENE
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
-  0.5 to 1.5 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
-     9   1.4m 12.1s WNW    3kn (g5) ENE glassy\nTue 09:00       9   1.4m 12
- .1s WNW    3kn (g5) ENE glassy\nTue 10:00       9   1.4m 12.0s WNW    3kn 
- (g10)   E glassy\nTue 11:00       9   1.4m 12.0s WNW    4kn (g10)   E glas
- sy\nTue 12:00       9   1.4m 12.1s WNW    4kn (g10)   E glassy\nTue 13:00 
-       9   1.4m 12.1s WNW    4kn (g9) ESE glassy\nTue 14:00       8   1.4m 
- 12.2s WNW    4kn (g9)  SE glassy\nTue 15:00       8   1.4m 12.3s WNW    4k
- n (g9)  SE glassy\nTue 16:00       8   1.4m 12.3s WNW    3kn (g4)  SE glas
- sy\nTue 17:00       8   1.4m 12.4s WNW    2kn (g4)  SE glassy\n\nGenerated
-  2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
- .github.io/surf-calendar-plugin/#spot=costa-da-caparica
+  0.6 to 1.4 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
+     9   1.4m 12.0s WNW    5kn (g11) ENE glassy\nTue 09:00       9   1.4m 1
+ 2.0s WNW    5kn (g11) ENE offshore\nTue 10:00       9   1.4m 12.0s WNW    
+ 6kn (g14) ENE offshore\nTue 11:00       9   1.3m 12.0s WNW    6kn (g14) EN
+ E offshore\nTue 12:00       9   1.3m 12.1s WNW    6kn (g13) ENE offshore\n
+ Tue 13:00       9   1.3m 12.1s WNW    6kn (g12)   E offshore\nTue 14:00   
+     9   1.4m 12.2s WNW    6kn (g12)   E offshore\nTue 15:00       9   1.4m
+  12.3s WNW    5kn (g12)   E offshore\nTue 16:00       9   1.4m 12.3s WNW  
+   4kn (g7)   E glassy\nTue 17:00       9   1.4m 12.3s WNW    4kn (g7)   E 
+ glassy\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast
+ : https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparica
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparic
  a
 LOCATION:Costa da Caparica
@@ -148,22 +161,45 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:061d32b5fab4ef78@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Costa da Caparica 9/10 · 1.5m 11s WNW · 3kn ENE
+SUMMARY:🔥 Costa da Caparica 9/10 · 1.4m 12s WNW · 2kn E
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
-  0.7 to 1.5 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
-     9   1.5m 11.4s WNW    3kn (g7) ENE glassy\nWed 09:00       9   1.5m 11
- .5s WNW    4kn (g7) ENE glassy\nWed 10:00       9   1.5m 11.5s WNW    4kn 
- (g11) ENE glassy\nWed 11:00       9   1.5m 11.6s WNW    4kn (g11) ENE glas
- sy\nWed 12:00       9   1.5m 11.6s WNW    5kn (g11) ENE glassy\nWed 13:00 
-       9   1.5m 11.6s WNW    5kn (g10) ENE offshore\nWed 14:00       9   1.
- 5m 11.6s WNW    5kn (g10)   E offshore\nWed 15:00       9   1.5m 11.5s WNW
-     5kn (g10)   E glassy\nWed 16:00       9   1.6m 11.5s WNW    4kn (g7)  
-  E glassy\nWed 17:00       9   1.6m 11.5s WNW    3kn (g7)   E glassy\n\nGe
- nerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
- tubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparica
+  0.8 to 1.4 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
+     9   1.4m 11.5s WNW    2kn (g5)   E glassy\nWed 09:00       9   1.4m 11
+ .4s WNW    2kn (g5)   E glassy\nWed 10:00       9   1.4m 11.4s WNW    2kn 
+ (g7)   E glassy\nWed 11:00       9   1.4m 11.5s WNW    3kn (g7) ESE glassy
+ \nWed 12:00       9   1.3m 11.6s WNW    3kn (g7)  SE glassy\nWed 13:00    
+    8   1.4m 11.6s WNW    3kn (g6)  SE glassy\nWed 14:00       8   1.4m 11.
+ 6s WNW    3kn (g6)  SE glassy\nWed 15:00       8   1.4m 11.6s WNW    2kn (
+ g6) SSE glassy\nWed 16:00       8   1.4m 11.5s WNW    2kn (g4) SSE glassy\
+ nWed 17:00       8   1.4m 11.5s WNW    2kn (g4) SSE glassy\n\nGenerated 20
+ 26-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=costa-da-caparica
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparic
+ a
+LOCATION:Costa da Caparica
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:42ca21ee91791814@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261203T080000Z
+DTEND:20261203T180000Z
+SUMMARY:🔥 Costa da Caparica 8/10 · 1.5m 12s WNW · 2kn SE
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
+  0.8 to 1.5 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
+     8   1.5m 11.9s WNW    2kn (g3)  SE glassy\nThu 09:00       8   1.5m 11
+ .9s WNW    2kn (g3)  SE glassy\nThu 10:00       8   1.5m 11.9s WNW    2kn 
+ (g4)  SE glassy\nThu 11:00       8   1.5m 11.9s WNW    2kn (g4)  SE glassy
+ \nThu 12:00       8   1.5m 11.9s WNW    2kn (g4)  SE glassy\nThu 13:00    
+    8   1.5m 11.9s WNW    1kn (g5) SSE glassy\nThu 14:00     7.5   1.5m 11.
+ 8s WNW    2kn (g5) SSW glassy\nThu 15:00     7.5   1.5m 11.8s WNW    2kn (
+ g5)  SW glassy\nThu 16:00     7.5   1.5m 11.8s WNW    2kn (g3)  SW glassy\
+ nThu 17:00     7.5   1.4m 11.8s WNW    2kn (g3)  SW glassy\n\nGenerated 20
+ 26-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=costa-da-caparica
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=costa-da-caparic
  a
 LOCATION:Costa da Caparica

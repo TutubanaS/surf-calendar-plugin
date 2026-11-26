@@ -8,42 +8,24 @@ X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:8d7ba71fb1a824f4@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261126T060000Z
-DTEND:20261126T080000Z
-SUMMARY:🤏 Palandöken 5/10 · 14 cm of snow · sunny · -7°C
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
-  score  new snow  sky           temp   wind\nThu 09:00       5      1 cm  
-  sunny           -7°C   13 km/h (g39)\nThu 10:00       5      0 cm   sunn
- y           -5°C   12 km/h (g36)\n\nWeather at 2850 m. Snow depth and new
-  snow are the weather model's numbers\, not the resort's own snow report.\
- nNotes: High and dry: long season\, cold powder.\nGenerated 2026-11-26 03:
- 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
- -calendar-plugin/#spot=palandoken
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=palandoken
-LOCATION:Palandöken
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:c84745fec1611130@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261130T060000Z
 DTEND:20261130T130000Z
-SUMMARY:🤏 Palandöken 5.5/10 · 11 cm new snow · snowing · -4°C
+SUMMARY:🤏 Palandöken 5.5/10 · 12 cm new snow · snowing · -4°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nMon 09:00     5.5     11 cm 
-   snowing         -4°C    2 km/h (g8)\nMon 10:00     5.5     12 cm   snow
- ing         -4°C    2 km/h (g9)\nMon 11:00     5.5     13 cm   snowing   
-       -4°C    3 km/h (g9)\nMon 12:00     5.5     14 cm   snowing         
- -4°C    4 km/h (g9)\nMon 13:00     5.5     14 cm   snowing         -4°C 
-    4 km/h (g12)\nMon 14:00     5.5     15 cm   snowing         -4°C    4 
- km/h (g12)\nMon 15:00     5.5     15 cm   snowing         -4°C    4 km/h 
- (g12)\n\nWeather at 2850 m. Snow depth and new snow are the weather model'
- s numbers\, not the resort's own snow report.\nNotes: High and dry: long s
- eason\, cold powder.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nF
- ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=palan
- doken
+   score  new snow  sky           temp   wind\nMon 09:00     5.5     12 cm 
+   snowing         -4°C    2 km/h (g19)\nMon 10:00     5.5     13 cm   sno
+ wing         -3°C    3 km/h (g19)\nMon 11:00     5.5     13 cm   snowing 
+         -3°C    3 km/h (g19)\nMon 12:00     5.5     13 cm   snowing      
+    -3°C    4 km/h (g19)\nMon 13:00     5.5     14 cm   snowing         -3
+ °C    3 km/h (g19)\nMon 14:00     5.5     14 cm   snowing         -3°C  
+   3 km/h (g19)\nMon 15:00     5.5     15 cm   snowing         -3°C    2 k
+ m/h (g19)\n\nWeather at 2850 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: High and dry: lo
+ ng season\, cold powder.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\
+ n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=p
+ alandoken
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=palandoken
 LOCATION:Palandöken
 TRANSP:TRANSPARENT

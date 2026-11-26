@@ -8,67 +8,59 @@ X-WR-TIMEZONE:Europe/Vienna
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:8964466a58f291c8@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261126T080000Z
-DTEND:20261126T150000Z
-SUMMARY:🤏 Sölden 6/10 · 11 cm new snow · snowing · -6°C
-DESCRIPTION:Best 6/10 at 10:00. Forecast confidence: high.\n\nHour (local) 
-  score  new snow  sky           temp   wind\nThu 09:00       5      8 cm  
-  snowing         -6°C    7 km/h (g22)\nThu 10:00       6     11 cm   snow
- ing         -6°C    9 km/h (g23)\nThu 11:00       6     13 cm   snowing  
-        -6°C    9 km/h (g23)\nThu 12:00       6     14 cm   snowing       
-   -6°C    8 km/h (g21)\nThu 13:00       6     15 cm   snowing         -6
- °C    8 km/h (g18)\nThu 14:00       6     16 cm   snowing         -6°C  
-   8 km/h (g16)\nThu 15:00       6     18 cm   snowing         -7°C    7 k
- m/h (g17)\n\nWeather at 2690 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Two glaciers: sn
- ow from autumn on.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFul
- l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
+UID:d776541bf1d5ead9@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261127T090000Z
+DTEND:20261127T110000Z
+SUMMARY:🤏 Sölden 6/10 · 5 cm new snow · partly sunny · -9°C
+DESCRIPTION:Best 6/10 at 11:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nFri 10:00       5      5 cm  
+  cloudy         -10°C   14 km/h (g25)\nFri 11:00       6      5 cm   part
+ ly sunny    -9°C   11 km/h (g22)\n\nWeather at 2690 m. Snow depth and new
+  snow are the weather model's numbers\, not the resort's own snow report.\
+ nNotes: Two glaciers: snow from autumn on.\nGenerated 2026-11-26 16:00 UTC
+  from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calen
+ dar-plugin/#spot=soelden
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
 LOCATION:Sölden
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c668fc2c57ca3e59@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261127T080000Z
+UID:8889c09449128286@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261127T120000Z
 DTEND:20261127T150000Z
-SUMMARY:👍 Sölden 7.5/10 · 6 cm new snow · sunny · -9°C
-DESCRIPTION:Best 7.5/10 at 12:00. Forecast confidence: high.\n\nHour (local
- )  score  new snow  sky           temp   wind\nFri 09:00     5.8     12 cm
-    cloudy         -10°C   16 km/h (g24)\nFri 10:00     5.5      9 cm   cl
- oudy         -10°C   14 km/h (g23)\nFri 11:00     6.5      7 cm   partly 
- sunny    -9°C   12 km/h (g22)\nFri 12:00     7.5      6 cm   sunny       
-     -9°C   11 km/h (g20)\nFri 13:00     6.5      5 cm   sunny           -
- 8°C    9 km/h (g19)\nFri 14:00     6.5      4 cm   sunny           -9°C 
-    7 km/h (g18)\nFri 15:00     6.5      2 cm   sunny           -9°C    6 
- km/h (g17)\n\nWeather at 2690 m. Snow depth and new snow are the weather m
- odel's numbers\, not the resort's own snow report.\nNotes: Two glaciers: s
- now from autumn on.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFu
- ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=soelde
- n
+SUMMARY:🤏 Sölden 6/10 · 4 cm new snow · sunny · -8°C
+DESCRIPTION:Best 6/10 at 13:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nFri 13:00       6      4 cm  
+  sunny           -8°C    6 km/h (g19)\nFri 14:00       5      4 cm   part
+ ly sunny    -8°C    4 km/h (g17)\nFri 15:00       6      3 cm   sunny    
+        -8°C    4 km/h (g16)\n\nWeather at 2690 m. Snow depth and new snow
+  are the weather model's numbers\, not the resort's own snow report.\nNote
+ s: Two glaciers: snow from autumn on.\nGenerated 2026-11-26 16:00 UTC from
+  Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-p
+ lugin/#spot=soelden
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
 LOCATION:Sölden
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf611e91fb06fbe7@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Sölden 5.5/10 · 51 cm of snow · sunny · -11°C
+SUMMARY:🤏 Sölden 5.5/10 · 48 cm of snow · sunny · -8°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
  al)  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 
- cm   sunny          -11°C    7 km/h (g23)\nSat 10:00     5.5      0 cm   
- sunny          -10°C    8 km/h (g23)\nSat 11:00     5.5      0 cm   sunny
-            -8°C    7 km/h (g23)\nSat 12:00     5.5      0 cm   sunny     
-       -7°C    7 km/h (g23)\nSat 13:00     5.5      0 cm   sunny          
-  -5°C    7 km/h (g22)\nSat 14:00     5.5      0 cm   sunny           -5°
- C    8 km/h (g22)\nSat 15:00     5.5      0 cm   sunny           -4°C    
- 8 km/h (g22)\n\nWeather at 2690 m. Snow depth and new snow are the weather
+ cm   sunny           -8°C   10 km/h (g18)\nSat 10:00     5.5      0 cm   
+ sunny           -8°C    9 km/h (g17)\nSat 11:00     5.5      0 cm   sunny
+            -7°C   12 km/h (g16)\nSat 12:00     5.5      0 cm   sunny     
+       -6°C   12 km/h (g16)\nSat 13:00     5.5      0 cm   sunny          
+  -6°C   10 km/h (g17)\nSat 14:00     5.5      0 cm   sunny           -5°
+ C   10 km/h (g19)\nSat 15:00     5.5      0 cm   sunny           -5°C    
+ 9 km/h (g20)\n\nWeather at 2690 m. Snow depth and new snow are the weather
   model's numbers\, not the resort's own snow report.\nNotes: Two glaciers:
-  snow from autumn on.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\n
+  snow from autumn on.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\n
  Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=soel
  den
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
@@ -76,62 +68,67 @@ LOCATION:Sölden
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:a062cad96a5c667a@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261129T130000Z
+UID:acf29f53a14e8d8c@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261129T080000Z
 DTEND:20261129T150000Z
-SUMMARY:🤏 Sölden 5.5/10 · 49 cm of snow · sunny · -6°C
-DESCRIPTION:Best 5.5/10 at 14:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nSun 14:00     5.5      0 cm 
-   sunny           -6°C    3 km/h (g10)\nSun 15:00     5.5      0 cm   sun
- ny           -6°C    2 km/h (g10)\n\nWeather at 2690 m. Snow depth and ne
- w snow are the weather model's numbers\, not the resort's own snow report.
- \nNotes: Two glaciers: snow from autumn on.\nGenerated 2026-11-26 03:00 UT
- C from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cale
- ndar-plugin/#spot=soelden
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
-LOCATION:Sölden
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e4b8659a7310ba5c@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261201T080000Z
-DTEND:20261201T150000Z
-SUMMARY:🤏 Sölden 6/10 · 3 cm new snow · sunny · -8°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nTue 09:00       6      3 cm   
- sunny           -8°C   12 km/h (g54)\nTue 10:00       6      3 cm   sunny
-            -7°C   12 km/h (g54)\nTue 11:00       6      3 cm   sunny     
-       -6°C   12 km/h (g49)\nTue 12:00       6      3 cm   sunny          
-  -4°C   11 km/h (g49)\nTue 13:00       6      2 cm   sunny           -3°
- C   11 km/h (g49)\nTue 14:00       6      2 cm   sunny           -3°C   1
- 1 km/h (g52)\nTue 15:00     5.5      2 cm   sunny           -4°C   11 km/
- h (g52)\n\nWeather at 2690 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: Two glaciers: snow
-  from autumn on.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull 
- forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
+SUMMARY:🤏 Sölden 5.5/10 · 45 cm of snow · sunny · -9°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nSun 09:00     5.5      0 
+ cm   sunny           -9°C    6 km/h (g9)\nSun 10:00     5.5      0 cm   s
+ unny           -8°C    6 km/h (g9)\nSun 11:00     5.5      0 cm   sunny  
+          -7°C    7 km/h (g10)\nSun 12:00     5.5      0 cm   sunny       
+     -6°C    6 km/h (g10)\nSun 13:00     5.5      0 cm   sunny           -
+ 4°C    6 km/h (g11)\nSun 14:00     5.5      0 cm   sunny           -4°C 
+    4 km/h (g11)\nSun 15:00     5.5      0 cm   sunny           -4°C    3 
+ km/h (g12)\n\nWeather at 2690 m. Snow depth and new snow are the weather m
+ odel's numbers\, not the resort's own snow report.\nNotes: Two glaciers: s
+ now from autumn on.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFu
+ ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=soelde
+ n
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
 LOCATION:Sölden
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:04296b9f031dc318@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
-SUMMARY:🤏 Sölden 5.5/10 · 33 cm of snow · sunny · -6°C
+SUMMARY:🤏 Sölden 5.5/10 · 34 cm of snow · sunny · -7°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    score  new snow  sky           temp   wind\nWed 09:00     5.5      0 cm 
-   sunny           -6°C    9 km/h (g25)\nWed 10:00     5.5      0 cm   sun
- ny           -5°C    9 km/h (g25)\nWed 11:00     5.5      0 cm   sunny   
-         -3°C    8 km/h (g24)\nWed 12:00       5      0 cm   sunny        
-    -2°C    7 km/h (g24)\nWed 13:00       5      0 cm   sunny           -1
- °C    6 km/h (g24)\nWed 14:00       5      0 cm   sunny           -1°C  
-   5 km/h (g20)\nWed 15:00       5      0 cm   sunny           -1°C    4 k
- m/h (g20)\n\nWeather at 2690 m. Snow depth and new snow are the weather mo
+   sunny           -7°C    9 km/h (g34)\nWed 10:00     5.5      0 cm   sun
+ ny           -5°C    9 km/h (g34)\nWed 11:00     5.5      0 cm   sunny   
+         -4°C    9 km/h (g30)\nWed 12:00       5      0 cm   sunny        
+    -2°C    7 km/h (g30)\nWed 13:00       5      0 cm   sunny           -1
+ °C    7 km/h (g30)\nWed 14:00       5      0 cm   sunny           -1°C  
+   6 km/h (g23)\nWed 15:00       5      0 cm   sunny           -1°C    6 k
+ m/h (g23)\n\nWeather at 2690 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Two glaciers: sn
- ow from autumn on.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFul
+ ow from autumn on.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
+LOCATION:Sölden
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0e965ec552c651aa@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261203T080000Z
+DTEND:20261203T150000Z
+SUMMARY:🤏 Sölden 5.5/10 · 32 cm of snow · sunny · -6°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nThu 09:00     5.5      0 cm 
+   sunny           -6°C    2 km/h (g21)\nThu 10:00     5.5      0 cm   sun
+ ny           -6°C    3 km/h (g21)\nThu 11:00     5.5      0 cm   sunny   
+         -6°C    3 km/h (g28)\nThu 12:00     5.5      0 cm   sunny        
+    -4°C    3 km/h (g28)\nThu 13:00     5.5      0 cm   sunny           -3
+ °C    4 km/h (g28)\nThu 14:00     5.5      0 cm   sunny           -3°C  
+   4 km/h (g30)\nThu 15:00     5.5      0 cm   sunny           -3°C    5 k
+ m/h (g30)\n\nWeather at 2690 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Two glaciers: sn
+ ow from autumn on.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFul
  l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=soelden
 LOCATION:Sölden

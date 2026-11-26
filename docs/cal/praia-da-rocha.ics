@@ -9,43 +9,66 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:9ed4dd3b7319a286@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
-SUMMARY:👍 Praia da Rocha (Portimão) 7/10 · 0.9m 12s WSW · 2kn NE
+SUMMARY:👍 Praia da Rocha (Portimão) 7/10 · 0.9m 12s WSW · 2kn NNE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: medium. 5 wave models 
- say 0.4 to 1.3 m.\n\nHour (local)  score  waves            wind\nThu 07:00
-        7   0.9m 11.8s WSW    2kn (g4)  NE glassy\nThu 08:00       6   0.9m
-  11.4s WSW    2kn (g3) ENE glassy\nThu 09:00       7   0.9m 11.2s WSW    2
- kn (g4) NNE glassy\nThu 10:00       7   0.9m 11.1s WSW    1kn (g4) NNE gla
- ssy\nThu 11:00       6   0.9m 11.1s WSW    1kn (g3) WNW glassy\nThu 12:00 
-       6   0.8m 11.2s WSW    2kn (g6)   W glassy\nThu 13:00       6   0.8m 
- 11.2s WSW    3kn (g7)   W glassy\nThu 14:00       6   0.8m 11.2s WSW    3k
- n (g7)   W glassy\nThu 15:00       6   0.8m 11.2s WSW    4kn (g8)  NW glas
- sy\nThu 16:00       7   0.8m 11.2s WSW    4kn (g9) NNW glassy\nThu 17:00  
-      7   0.8m 11.2s WSW    2kn (g9) NNW glassy\n\nGenerated 2026-11-26 03:
- 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
- -calendar-plugin/#spot=praia-da-rocha
+ say 0.5 to 1.4 m.\n\nHour (local)  score  waves            wind\nThu 07:00
+        7   0.9m 11.8s WSW    2kn (g3) NNE glassy\nThu 08:00       6   0.9m
+  11.4s WSW    2kn (g3)  NE glassy\nThu 09:00       7   0.9m 11.2s WSW    1
+ kn (g4) NNE glassy\nThu 10:00       7   0.9m 11.1s WSW    0kn (g3)   N gla
+ ssy\nThu 11:00       6   0.9m 11.1s WSW    1kn (g4)   W glassy\nThu 12:00 
+       6   0.9m 11.2s WSW    3kn (g5) WNW glassy\nThu 13:00       7   0.8m 
+ 11.2s WSW    4kn (g9) NNW glassy\nThu 14:00       7   0.8m 11.2s WSW    5k
+ n (g10) NNW glassy\nThu 15:00       7   0.8m 11.2s WSW    6kn (g12) NNW of
+ fshore\nThu 16:00       6   0.8m 10.8s WSW    5kn (g12) NNW glassy\nThu 17
+ :00       5   0.8m 10.4s WSW    4kn (g10)  NW glassy\n\nGenerated 2026-11-
+ 26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.i
+ o/surf-calendar-plugin/#spot=praia-da-rocha
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-rocha
 LOCATION:Praia da Rocha (Portimão)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2feb8ccbe818472b@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261128T110000Z
 DTEND:20261128T180000Z
-SUMMARY:👍 Praia da Rocha (Portimão) 6.5/10 · 0.7m 14s SSE · 4kn E
+SUMMARY:👍 Praia da Rocha (Portimão) 6.5/10 · 0.7m 14s SSE · 1kn ENE
 DESCRIPTION:Best 6.5/10 at 11:00. Forecast confidence: low. 5 wave models s
- ay 0.5 to 1.3 m.\n\nHour (local)  score  waves            wind\nSat 11:00 
-     6.5   0.7m 13.9s SSE    4kn (g8)   E glassy\nSat 12:00     6.5   0.8m 
- 13.5s SSE    4kn (g8) ESE glassy\nSat 13:00       6   0.8m 13.4s SSE    4k
- n (g9)  SE glassy\nSat 14:00       6   0.8m 13.4s SSE    4kn (g9)  SE glas
- sy\nSat 15:00       6   0.8m 13.5s SSE    4kn (g9)  SE glassy\nSat 16:00  
-      6   0.8m 13.5s SSE    2kn (g8) SSE glassy\nSat 17:00       6   0.8m 1
- 3.5s SSE    1kn (g5) SSE glassy\n\nGenerated 2026-11-26 03:00 UTC from Ope
+ ay 0.4 to 1.3 m.\n\nHour (local)  score  waves            wind\nSat 11:00 
+     6.5   0.7m 13.9s SSE    1kn (g3) ENE glassy\nSat 12:00     6.5   0.8m 
+ 13.5s SSE    2kn (g5) ESE glassy\nSat 13:00       6   0.8m 13.4s SSE    1k
+ n (g5)  SE glassy\nSat 14:00       6   0.8m 13.4s SSE    1kn (g4)   S glas
+ sy\nSat 15:00       6   0.8m 13.5s SSE    2kn (g5)  SW glassy\nSat 16:00  
+      6   0.8m 13.5s SSE    3kn (g7)  SW glassy\nSat 17:00       6   0.8m 1
+ 3.5s SSE    2kn (g7)  SW glassy\n\nGenerated 2026-11-26 16:00 UTC from Ope
  n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
  n/#spot=praia-da-rocha
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-rocha
+LOCATION:Praia da Rocha (Portimão)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:db7838e8ef267352@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261129T070000Z
+DTEND:20261129T180000Z
+SUMMARY:👍 Praia da Rocha (Portimão) 7/10 · 0.8m 12s S · 2kn NNE
+DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 5 wave models say
+  0.4 to 1.3 m.\n\nHour (local)  score  waves            wind\nSun 07:00   
+     7   0.8m 12.3s   S    2kn (g3) NNE glassy\nSun 08:00       7   0.8m 12
+ .3s   S    2kn (g3) NNE glassy\nSun 09:00       7   0.8m 12.3s SSW    1kn 
+ (g3)  NE glassy\nSun 10:00       7   0.8m 12.3s SSW    1kn (g3)  NE glassy
+ \nSun 11:00       7   0.8m 12.4s SSW    3kn (g6) NNE glassy\nSun 12:00    
+    7   0.8m 12.5s SSW    3kn (g8) NNE glassy\nSun 13:00       7   0.8m 12.
+ 5s SSW    4kn (g9) NNE glassy\nSun 14:00       7   0.7m 12.5s SSW    5kn (
+ g10) NNE glassy\nSun 15:00       7   0.7m 12.5s SSW    5kn (g10) NNE glass
+ y\nSun 16:00       7   0.7m 12.4s SSW    5kn (g10) NNE offshore\nSun 17:00
+        7   0.7m 12.3s  SW    4kn (g10) NNE glassy\n\nGenerated 2026-11-26 
+ 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
+ urf-calendar-plugin/#spot=praia-da-rocha
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-rocha
 LOCATION:Praia da Rocha (Portimão)
 TRANSP:TRANSPARENT

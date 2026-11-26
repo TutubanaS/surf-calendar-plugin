@@ -8,156 +8,194 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:21fb3ef9842a9b54@surf-windows
-DTSTAMP:20261124T020000Z
-DTSTART:20261124T070000Z
-DTEND:20261124T180000Z
-SUMMARY:👍 Safi (Ras Lafaa) 7/10 · 1.4m 12s NW · 1kn SSE
-DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: high. 4 wave models sa
- y 1.1 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 07:00  
-    6.5   1.4m 12.3s  NW    1kn (g2) SSW glassy\nTue 08:00       7   1.4m 1
- 2.2s  NW    1kn (g2) SSE glassy\nTue 09:00     6.5   1.4m 12.2s  NW    0kn
-  (g2) SSW glassy\nTue 10:00     6.5   1.3m 11.2s  NW    3kn (g6)  NW glass
- y\nTue 11:00       7   1.3m 11.2s  NW    5kn (g10) NNW cross\nTue 12:00   
-     7   1.3m 11.2s  NW    6kn (g12) NNW cross\nTue 13:00       7   1.3m 11
- .1s  NW    5kn (g12) NNW cross\nTue 14:00       7   1.3m 11.1s  NW    6kn 
- (g12) NNW cross\nTue 15:00       7   1.2m 11.2s  NW    6kn (g12) NNW cross
- \nTue 16:00       7   1.2m 11.2s  NW    6kn (g12)   N cross\nTue 17:00    
-    7   1.2m 11.2s  NW    4kn (g12)   N glassy\n\nNotes: World-class right 
- point that only wakes up on big swells.\nGenerated 2026-11-24 02:00 UTC fr
- om Open-Meteo.
-LOCATION:Safi (Ras Lafaa)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b66eb37f37ac1d8a@surf-windows
-DTSTAMP:20261124T020000Z
-DTSTART:20261125T070000Z
-DTEND:20261125T180000Z
-SUMMARY:🔥 Safi (Ras Lafaa) 9.5/10 · 2.0m 15s NW · 8kn NE
-DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: high. 4 wave models 
- say 1.4 to 2.1 m.\n\nHour (local)  score  waves            wind\nWed 07:00
-      9.5   2.0m 14.8s  NW    8kn (g15)  NE offshore\nWed 08:00     9.5   2
- .0m 14.8s  NW    9kn (g17)  NE offshore\nWed 09:00     9.5   2.0m 14.8s  N
- W   10kn (g20)  NE offshore\nWed 10:00     9.5   2.1m 14.8s NNW   11kn (g2
- 3)  NE offshore\nWed 11:00     9.5   2.1m 14.8s NNW   13kn (g26)  NE offsh
- ore\nWed 12:00     9.5   2.1m 14.7s NNW   13kn (g26)  NE offshore\nWed 13:
- 00     9.5   2.2m 13.7s NNW   13kn (g26) NNE offshore\nWed 14:00     9.5  
-  2.2m 13.5s NNW   13kn (g27) NNE offshore\nWed 15:00     9.5   2.2m 13.5s 
- NNW   13kn (g27) NNE offshore\nWed 16:00     9.5   2.2m 13.4s NNW   13kn (
- g27) NNE offshore\nWed 17:00     9.5   2.2m 13.4s NNW   12kn (g27) NNE off
- shore\n\nNotes: World-class right point that only wakes up on big swells.\
- nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
-LOCATION:Safi (Ras Lafaa)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:d9c0883a71ef9294@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Safi (Ras Lafaa) 9/10 · 1.7m 12s NW · 6kn ENE
-DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: medium. 4 wave models 
- say 1.4 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 07:00
-        9   1.7m 12.3s  NW    6kn (g13) ENE offshore\nThu 08:00       9   1
- .7m 12.3s NNW    6kn (g13) ENE offshore\nThu 09:00       8   1.7m 12.3s NN
- W    8kn (g17) ENE offshore\nThu 10:00       8   1.7m 12.3s NNW    9kn (g1
- 9) ENE offshore\nThu 11:00       8   1.7m 12.3s NNW   10kn (g21)  NE offsh
- ore\nThu 12:00       8   1.7m 12.3s NNW   11kn (g23)  NE offshore\nThu 13:
- 00       8   1.7m 12.3s NNW   12kn (g24)  NE offshore\nThu 14:00       9  
-  1.7m 12.2s NNW   12kn (g25)  NE offshore\nThu 15:00       9   1.8m 11.4s 
- NNW   13kn (g26) NNE offshore\nThu 16:00       9   1.8m 11.2s NNW   14kn (
- g27) NNE offshore\nThu 17:00       9   1.9m 11.2s NNW   12kn (g27) NNE off
- shore\n\nNotes: World-class right point that only wakes up on big swells.\
- nGenerated 2026-11-24 02:00 UTC from Open-Meteo.
+SUMMARY:🔥 Safi (Ras Lafaa) 9.5/10 · 2.1m 13s NNW · 4kn ENE
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 4 wave model
+ s say 1.3 to 2.5 m.\n\nHour (local)  score  waves            wind\nThu 07:
+ 00     9.5   2.1m 13.4s NNW    4kn (g9) ENE glassy\nThu 08:00     9.5   2.
+ 0m 13.4s NNW    4kn (g8) ENE glassy\nThu 09:00       9   2.0m 12.3s NNW   
+  5kn (g9) ENE glassy\nThu 10:00       9   2.0m 12.3s NNW    7kn (g14) ENE 
+ offshore\nThu 11:00       9   1.9m 12.3s NNW    8kn (g16)  NE offshore\nTh
+ u 12:00       9   1.9m 12.3s NNW    8kn (g17)  NE offshore\nThu 13:00     
+   9   1.9m 12.2s NNW    9kn (g19) NNE offshore\nThu 14:00       9   1.9m 1
+ 2.2s NNW   10kn (g21) NNE offshore\nThu 15:00       9   1.9m 12.3s NNW   1
+ 1kn (g22) NNE offshore\nThu 16:00     6.5   1.9m 12.3s NNW   11kn (g23) NN
+ E cross\nThu 17:00     6.5   1.9m 12.2s NNW   10kn (g23) NNE cross\n\nNote
+ s: World-class right point that only wakes up on big swells.\nGenerated 20
+ 26-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=safi
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=safi
 LOCATION:Safi (Ras Lafaa)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:37d897fe02b0e854@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261127T070000Z
 DTEND:20261127T180000Z
-SUMMARY:👍 Safi (Ras Lafaa) 7/10 · 1.3m 11s N · 6kn ENE
-DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 3 wave models say
-  1.0 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
-     7   1.3m 10.6s   N    6kn (g13) ENE offshore\nFri 08:00       7   1.2m
-  10.4s   N    6kn (g13) ENE offshore\nFri 09:00       7   1.2m 10.2s   N  
-   6kn (g13) ENE offshore\nFri 10:00       7   1.2m 10.1s   N    8kn (g22) 
- ENE offshore\nFri 11:00       7   1.2m 10.1s   N   10kn (g22) ENE offshore
- \nFri 12:00       7   1.2m 10.1s   N   11kn (g22) ENE offshore\nFri 13:00 
-       7   1.2m 10.1s   N   12kn (g24) ENE offshore\nFri 14:00       7   1.
- 2m 10.1s   N   12kn (g24)  NE offshore\nFri 15:00       6   1.3m  7.0s   N
-    12kn (g24)  NE offshore\nFri 16:00       5   1.4m  7.1s   N   11kn (g20
- )  NE offshore\nFri 17:00       5   1.5m  7.2s   N    9kn (g20) NNE offsho
- re\n\nNotes: World-class right point that only wakes up on big swells.\nGe
- nerated 2026-11-24 02:00 UTC from Open-Meteo.
+SUMMARY:👍 Safi (Ras Lafaa) 7/10 · 1.4m 10s NNW · 6kn ENE
+DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: high. 4 wave models sa
+ y 1.0 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 07:00  
+      7   1.4m 10.2s NNW    6kn (g15) ENE offshore\nFri 08:00       7   1.4
+ m 10.2s NNW    6kn (g14) ENE offshore\nFri 09:00       7   1.3m 10.2s NNW 
+    6kn (g13) ENE offshore\nFri 10:00       7   1.3m 10.1s NNW    8kn (g17)
+  ENE offshore\nFri 11:00       7   1.3m 10.1s NNW    9kn (g18) ENE offshor
+ e\nFri 12:00       7   1.3m 10.2s NNW   10kn (g21)  NE offshore\nFri 13:00
+        7   1.3m 10.2s NNW   10kn (g22)  NE offshore\nFri 14:00       7   1
+ .3m 10.2s NNW   10kn (g22)  NE offshore\nFri 15:00       7   1.3m 10.2s NN
+ W   10kn (g20)  NE offshore\nFri 16:00       7   1.4m 10.2s NNW   10kn (g2
+ 0)  NE offshore\nFri 17:00       7   1.5m  9.8s NNW   10kn (g20) NNE offsh
+ ore\n\nNotes: World-class right point that only wakes up on big swells.\nG
+ enerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://t
+ utubanas.github.io/surf-calendar-plugin/#spot=safi
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=safi
 LOCATION:Safi (Ras Lafaa)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0761cc2d75fc7c71@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Safi (Ras Lafaa) 8/10 · 1.2m 11s NNW · 5kn ENE
-DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 3 wave models say
-  1.0 to 1.3 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     8   1.2m 11.3s NNW    5kn (g11) ENE glassy\nSat 08:00       7   1.1m 1
- 1.3s NNW    5kn (g11) ENE offshore\nSat 09:00       7   1.1m 11.3s NNW    
- 5kn (g11) ENE offshore\nSat 10:00       7   1.1m 11.3s NNW    6kn (g14) EN
- E offshore\nSat 11:00       7   1.1m 11.3s NNW    6kn (g14) ENE offshore\n
- Sat 12:00       7   1.1m 11.3s NNW    6kn (g14) ENE offshore\nSat 13:00   
-     7   1.1m 11.5s NNW    5kn (g15) NNE offshore\nSat 14:00       7   1.2m
-  11.8s NNW    6kn (g15)   N cross\nSat 15:00       7   1.2m 12.1s NNW    7
- kn (g15)   N cross\nSat 16:00       7   1.2m 12.4s NNW    7kn (g12)   N cr
- oss\nSat 17:00     6.5   1.2m 12.9s NNW    6kn (g12)   S onshore\n\nNotes:
-  World-class right point that only wakes up on big swells.\nGenerated 2026
- -11-24 02:00 UTC from Open-Meteo.
+SUMMARY:🔥 Safi (Ras Lafaa) 8.5/10 · 1.4m 14s NW · 2kn E
+DESCRIPTION:Best 8.5/10 at 11:00. Forecast confidence: medium. 4 wave model
+ s say 1.0 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 07:
+ 00       8   1.3m 12.3s NNW    4kn (g11)   E glassy\nSat 08:00       8   1
+ .3m 12.2s NNW    4kn (g9) ENE glassy\nSat 09:00       8   1.3m 12.3s  NW  
+   4kn (g9)   E glassy\nSat 10:00       8   1.4m 12.3s  NW    3kn (g9)   E 
+ glassy\nSat 11:00     8.5   1.4m 14.1s  NW    2kn (g8)   E glassy\nSat 12:
+ 00     7.5   1.4m 14.8s  NW    1kn (g6)  NW glassy\nSat 13:00       7   1.
+ 5m 14.8s  NW    3kn (g8)  NW glassy\nSat 14:00     7.5   1.5m 14.8s  NW   
+  5kn (g11)  NW cross\nSat 15:00     7.5   1.5m 14.8s  NW    6kn (g12) NNW 
+ cross\nSat 16:00     7.5   1.6m 14.8s  NW    6kn (g13)   N cross\nSat 17:0
+ 0     7.5   1.6m 14.8s  NW    7kn (g13) NNE cross\n\nNotes: World-class ri
+ ght point that only wakes up on big swells.\nGenerated 2026-11-26 16:00 UT
+ C from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cale
+ ndar-plugin/#spot=safi
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=safi
 LOCATION:Safi (Ras Lafaa)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a34daddde0deaf2e@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Safi (Ras Lafaa) 8/10 · 1.4m 13s NNW · 3kn E
-DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 3 wave models say
-  1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nSun 07:00   
-     8   1.4m 12.5s NNW    3kn (g6)   E glassy\nSun 08:00       8   1.3m 12
- .6s NNW    3kn (g6)   E glassy\nSun 09:00       8   1.3m 12.7s NNW    3kn 
- (g6) ENE glassy\nSun 10:00       8   1.3m 12.7s NNW    4kn (g11) ENE glass
- y\nSun 11:00       8   1.3m 12.7s NNW    5kn (g11)  NE glassy\nSun 12:00  
-      8   1.3m 12.7s NNW    6kn (g11)  NE offshore\nSun 13:00       8   1.4
- m 12.7s NNW    6kn (g14)  NE offshore\nSun 14:00       8   1.4m 12.7s NNW 
-    7kn (g14) NNE offshore\nSun 15:00       8   1.4m 12.7s NNW    8kn (g14)
-  NNE offshore\nSun 16:00       7   1.4m 12.7s NNW    8kn (g12) NNE cross\n
- Sun 17:00       7   1.5m 12.6s NNW    7kn (g12) NNE cross\n\nNotes: World-
- class right point that only wakes up on big swells.\nGenerated 2026-11-24 
- 02:00 UTC from Open-Meteo.
+SUMMARY:🔥 Safi (Ras Lafaa) 9.5/10 · 1.9m 14s NW · 4kn ENE
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 4 wave model
+ s say 1.5 to 2.2 m.\n\nHour (local)  score  waves            wind\nSun 07:
+ 00     9.5   1.9m 13.5s  NW    4kn (g8) ENE glassy\nSun 08:00     9.5   1.
+ 9m 13.5s  NW    4kn (g9)   E glassy\nSun 09:00     9.5   1.9m 13.5s  NW   
+  4kn (g10) ENE glassy\nSun 10:00     9.5   1.9m 13.5s  NW    5kn (g11) ENE
+  offshore\nSun 11:00     9.5   1.9m 13.5s  NW    6kn (g13) ENE offshore\nS
+ un 12:00     9.5   1.9m 13.5s  NW    6kn (g14)  NE offshore\nSun 13:00    
+  9.5   1.9m 13.5s  NW    7kn (g14)  NE offshore\nSun 14:00     9.5   1.9m 
+ 13.5s  NW    7kn (g15) NNE offshore\nSun 15:00     8.5   1.9m 13.5s  NW   
+  8kn (g16) NNE cross\nSun 16:00       7   1.9m 13.5s  NW    8kn (g17) NNE 
+ cross\nSun 17:00     9.5   2.0m 13.5s  NW    9kn (g18) NNE offshore\n\nNot
+ es: World-class right point that only wakes up on big swells.\nGenerated 2
+ 026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
+ ithub.io/surf-calendar-plugin/#spot=safi
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=safi
 LOCATION:Safi (Ras Lafaa)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b7d68018db4cea6c@surf-windows
-DTSTAMP:20261124T020000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Safi (Ras Lafaa) 8.5/10 · 1.5m 13s NNW · 3kn ENE
+SUMMARY:🔥 Safi (Ras Lafaa) 8.5/10 · 1.7m 13s NNW · 5kn ENE
 DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: low. 3 wave models s
- ay 1.3 to 1.7 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
-     8.5   1.5m 13.3s NNW    3kn (g6) ENE glassy\nMon 08:00     8.5   1.5m 
- 13.3s NNW    4kn (g6) ENE glassy\nMon 09:00     8.5   1.5m 13.2s NNW    4k
- n (g6) ENE glassy\nMon 10:00     8.5   1.5m 13.2s NNW    4kn (g10) ENE gla
- ssy\nMon 11:00     8.5   1.6m 13.2s NNW    5kn (g10)  NE glassy\nMon 12:00
-      8.5   1.6m 13.2s NNW    5kn (g10)  NE offshore\nMon 13:00       8   1
- .6m 13.0s NNW    6kn (g13) NNE offshore\nMon 14:00       7   1.6m 12.7s NN
- W    6kn (g13)   N cross\nMon 15:00       7   1.6m 12.6s NNW    7kn (g13) 
-   N cross\nMon 16:00       7   1.6m 12.6s NNW    7kn (g13)   N cross\nMon 
- 17:00       7   1.6m 12.6s NNW    6kn (g13) NNE cross\n\nNotes: World-clas
- s right point that only wakes up on big swells.\nGenerated 2026-11-24 02:0
- 0 UTC from Open-Meteo.
+ ay 1.4 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
+     8.5   1.7m 13.4s NNW    5kn (g12) ENE glassy\nMon 08:00     8.5   1.7m
+  13.4s NNW    5kn (g12)   E offshore\nMon 09:00     8.5   1.7m 13.4s NNW  
+   5kn (g12)   E offshore\nMon 10:00     8.5   1.6m 13.3s NNW    6kn (g17) 
+ ENE offshore\nMon 11:00     8.5   1.6m 13.2s NNW    7kn (g17)  NE offshore
+ \nMon 12:00     8.5   1.6m 13.1s NNW    8kn (g17)  NE offshore\nMon 13:00 
+       8   1.6m 12.9s NNW    8kn (g17) NNE offshore\nMon 14:00       8   1.
+ 6m 12.7s NNW    8kn (g17) NNE offshore\nMon 15:00     5.5   1.6m 12.5s NNW
+     8kn (g17) NNE cross\nMon 16:00     5.5   1.7m 12.4s NNW    8kn (g18) N
+ NE cross\nMon 17:00       7   1.7m 12.5s NNW    8kn (g18) NNE cross\n\nNot
+ es: World-class right point that only wakes up on big swells.\nGenerated 2
+ 026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
+ ithub.io/surf-calendar-plugin/#spot=safi
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=safi
+LOCATION:Safi (Ras Lafaa)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1a36865396345573@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261201T070000Z
+DTEND:20261201T180000Z
+SUMMARY:🔥 Safi (Ras Lafaa) 8/10 · 1.5m 13s NNW · 3kn E
+DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 3 wave models say
+  1.3 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00   
+     8   1.5m 12.6s NNW    3kn (g8)   E glassy\nTue 08:00       8   1.5m 12
+ .5s NNW    3kn (g8)   E glassy\nTue 09:00       8   1.5m 12.4s NNW    3kn 
+ (g8)   E glassy\nTue 10:00       8   1.5m 12.4s NNW    1kn (g7)   E glassy
+ \nTue 11:00     6.5   1.4m 12.4s NNW    1kn (g7)   W glassy\nTue 12:00    
+  6.5   1.4m 12.3s NNW    3kn (g7) WNW glassy\nTue 13:00     6.5   1.4m 12.
+ 3s NNW    4kn (g9) WNW glassy\nTue 14:00     6.5   1.4m 12.2s NNW    4kn (
+ g9)  NW glassy\nTue 15:00     6.5   1.3m 12.2s NNW    4kn (g9)  NW glassy\
+ nTue 16:00     6.5   1.3m 12.2s NNW    4kn (g6)  NW glassy\nTue 17:00     
+ 6.5   1.3m 12.3s NNW    3kn (g6)  NW glassy\n\nNotes: World-class right po
+ int that only wakes up on big swells.\nGenerated 2026-11-26 16:00 UTC from
+  Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-p
+ lugin/#spot=safi
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=safi
+LOCATION:Safi (Ras Lafaa)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:86ffd9b6a866b795@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261202T070000Z
+DTEND:20261202T180000Z
+SUMMARY:👍 Safi (Ras Lafaa) 7/10 · 1.0m 12s NNW · 3kn ESE
+DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 3 wave models say
+  1.0 to 1.3 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
+     7   1.0m 12.1s NNW    3kn (g5) ESE glassy\nWed 08:00       7   1.0m 12
+ .1s NNW    3kn (g5) ESE glassy\nWed 09:00       7   0.9m 12.1s NNW    3kn 
+ (g5) ESE glassy\nWed 10:00       7   0.9m 12.1s NNW    1kn (g5) ESE glassy
+ \nWed 11:00     5.5   0.9m 12.0s NNW    0kn (g5)  NW glassy\nWed 12:00    
+  5.5   0.9m 12.1s NNW    2kn (g5)  NW glassy\nWed 13:00       6   0.9m 12.
+ 1s NNW    3kn (g9)  NW glassy\nWed 14:00       6   0.9m 12.2s  NW    4kn (
+ g9) NNW glassy\nWed 15:00       6   0.9m 12.2s  NW    5kn (g9) NNW glassy\
+ nWed 16:00       6   0.9m 12.3s  NW    4kn (g8)   N glassy\nWed 17:00     
+   6   1.0m 12.4s  NW    4kn (g8) NNW glassy\n\nNotes: World-class right po
+ int that only wakes up on big swells.\nGenerated 2026-11-26 16:00 UTC from
+  Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-p
+ lugin/#spot=safi
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=safi
+LOCATION:Safi (Ras Lafaa)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3ff97c3b743dab02@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261203T070000Z
+DTEND:20261203T180000Z
+SUMMARY:🔥 Safi (Ras Lafaa) 8/10 · 1.2m 12s NNW · 3kn E
+DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 3 wave models say
+  1.0 to 1.2 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
+     8   1.2m 12.1s NNW    3kn (g5)   E glassy\nThu 08:00       8   1.2m 12
+ .1s NNW    3kn (g5)   E glassy\nThu 09:00       8   1.2m 12.0s NNW    2kn 
+ (g5)   E glassy\nThu 10:00       8   1.2m 11.9s NNW    1kn (g4)   E glassy
+ \nThu 11:00       7   1.2m 11.7s NNW    0kn (g4)   N glassy\nThu 12:00    
+  6.5   1.2m 11.6s  NW    2kn (g4)  NW glassy\nThu 13:00     6.5   1.2m 11.
+ 8s  NW    3kn (g9)  NW glassy\nThu 14:00     6.5   1.2m 12.1s  NW    4kn (
+ g9)  NW glassy\nThu 15:00     6.5   1.2m 12.3s  NW    5kn (g9)  NW glassy\
+ nThu 16:00     6.5   1.2m 12.4s  NW    4kn (g6)  NW glassy\nThu 17:00     
+ 6.5   1.2m 12.5s  NW    3kn (g6)  NW glassy\n\nNotes: World-class right po
+ int that only wakes up on big swells.\nGenerated 2026-11-26 16:00 UTC from
+  Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-p
+ lugin/#spot=safi
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=safi
 LOCATION:Safi (Ras Lafaa)
 TRANSP:TRANSPARENT
 END:VEVENT

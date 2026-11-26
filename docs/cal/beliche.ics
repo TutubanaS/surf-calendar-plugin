@@ -9,39 +9,39 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:a8be44b47d7e1414@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261126T070000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Sagres (Beliche) 8/10 · 2.1m 11s NW · 3kn N
+SUMMARY:🔥 Sagres (Beliche) 8/10 · 2.1m 11s NW · 3kn NNE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: high. 5 wave models sa
  y 2.0 to 2.4 m.\n\nHour (local)  score  waves            wind\nThu 07:00  
-      8   2.1m 11.1s  NW    3kn (g8)   N glassy\nThu 08:00       8   2.1m 1
- 1.1s  NW    1kn (g6) NNE glassy\nThu 09:00       8   2.0m 11.2s  NW    1kn
-  (g2) NNW glassy\nThu 10:00       8   2.0m 11.2s  NW    2kn (g5)   N glass
- y\nThu 11:00       8   1.9m 11.2s  NW    3kn (g6) NNW glassy\nThu 12:00   
-     7   1.9m 11.2s  NW    3kn (g7)  NW glassy\nThu 13:00       7   1.8m 11
- .2s  NW    4kn (g9)  NW glassy\nThu 14:00       7   1.8m 11.2s  NW    5kn 
- (g10)  NW glassy\nThu 15:00       7   1.8m 11.2s  NW    5kn (g10)  NW glas
- sy\nThu 16:00       6   1.7m 10.9s  NW    5kn (g10)  NW glassy\nThu 17:00 
-       5   1.7m 10.7s  NW    4kn (g10)  NW glassy\n\nGenerated 2026-11-26 0
- 3:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
- rf-calendar-plugin/#spot=beliche
+      8   2.1m 11.1s  NW    3kn (g8) NNE glassy\nThu 08:00       8   2.1m 1
+ 1.1s  NW    2kn (g7)  NE glassy\nThu 09:00       8   2.0m 11.2s  NW    1kn
+  (g4) NNE glassy\nThu 10:00       8   2.0m 11.2s  NW    2kn (g5)   N glass
+ y\nThu 11:00       8   1.9m 11.2s  NW    4kn (g9) NNW glassy\nThu 12:00   
+     7   1.9m 11.2s  NW    6kn (g10) NNW cross\nThu 13:00       7   1.9m 11
+ .2s  NW    4kn (g11)  NW glassy\nThu 14:00       7   1.8m 11.2s  NW    5kn
+  (g10)  NW cross\nThu 15:00       7   1.8m 11.2s  NW    6kn (g12) NNW cros
+ s\nThu 16:00       7   1.7m 10.8s  NW    5kn (g12) NNW glassy\nThu 17:00  
+      5   1.7m 10.4s  NW    4kn (g9) NNW glassy\n\nGenerated 2026-11-26 16:
+ 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
+ -calendar-plugin/#spot=beliche
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
 LOCATION:Sagres (Beliche)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5899a91268d21058@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261127T070000Z
 DTEND:20261127T110000Z
-SUMMARY:🤏 Sagres (Beliche) 5/10 · 1.4m 10s NW · 3kn ESE
+SUMMARY:🤏 Sagres (Beliche) 5/10 · 1.4m 10s NW · 2kn E
 DESCRIPTION:Best 5/10 at 07:00. Forecast confidence: high. 5 wave models sa
  y 1.2 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 07:00  
-      5   1.4m 10.2s  NW    3kn (g6) ESE glassy\nFri 08:00       5   1.4m 1
- 0.2s  NW    3kn (g7) ESE glassy\nFri 09:00       5   1.4m 10.2s  NW    4kn
-  (g8) ESE glassy\nFri 10:00       5   1.4m 10.2s  NW    5kn (g10) ESE cros
- s\n\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: htt
+      5   1.4m 10.2s  NW    2kn (g3)   E glassy\nFri 08:00       5   1.4m 1
+ 0.2s  NW    2kn (g4)   E glassy\nFri 09:00       5   1.4m 10.2s  NW    2kn
+  (g4) ESE glassy\nFri 10:00       5   1.4m 10.2s  NW    2kn (g4) ESE glass
+ y\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: htt
  ps://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
 LOCATION:Sagres (Beliche)
@@ -49,125 +49,135 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e9b0b02f4be13bfb@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:👍 Sagres (Beliche) 7.5/10 · 2.0m 15s NW · 5kn ESE
-DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: medium. 5 wave model
- s say 1.7 to 2.1 m.\n\nHour (local)  score  waves            wind\nSat 07:
- 00     7.5   2.0m 14.8s  NW    5kn (g10) ESE glassy\nSat 08:00     7.5   2
- .1m 14.8s  NW    4kn (g10) ESE glassy\nSat 09:00     7.5   2.2m 14.8s  NW 
-    5kn (g11) ESE cross\nSat 10:00     7.5   2.2m 14.4s  NW    6kn (g12) ES
- E cross\nSat 11:00     7.5   2.2m 13.8s  NW    8kn (g14) ESE cross\nSat 12
- :00       6   2.2m 13.5s  NW    8kn (g16) ESE cross\nSat 13:00     7.5   2
- .2m 13.5s  NW    8kn (g16)  SE cross\nSat 14:00     7.5   2.2m 13.5s  NW  
-   7kn (g15)  SE cross\nSat 15:00     7.5   2.2m 13.5s  NW    6kn (g13)  SE
-  cross\nSat 16:00     7.5   2.2m 13.5s  NW    5kn (g11)  SE glassy\nSat 17
- :00     7.5   2.2m 13.5s  NW    3kn (g9) ESE glassy\n\nGenerated 2026-11-2
- 6 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io
- /surf-calendar-plugin/#spot=beliche
+SUMMARY:🔥 Sagres (Beliche) 8.5/10 · 2.3m 14s NW · 3kn N
+DESCRIPTION:Best 8.5/10 at 17:00. Forecast confidence: medium. 5 wave model
+ s say 2.1 to 2.5 m.\n\nHour (local)  score  waves            wind\nSat 07:
+ 00     7.5   2.0m 14.8s  NW    3kn (g5) ESE glassy\nSat 08:00     7.5   2.
+ 1m 14.8s  NW    2kn (g5) ESE glassy\nSat 09:00     7.5   2.2m 14.8s  NW   
+  2kn (g5) ESE glassy\nSat 10:00     7.5   2.2m 14.8s  NW    2kn (g5) ESE g
+ lassy\nSat 11:00     7.5   2.2m 14.7s  NW    4kn (g7) ESE glassy\nSat 12:0
+ 0     7.5   2.3m 14.6s  NW    3kn (g8)  SE glassy\nSat 13:00       7   2.3
+ m 13.7s  NW    2kn (g7)  SE glassy\nSat 14:00       7   2.3m 13.7s  NW    
+ 1kn (g5)   S glassy\nSat 15:00     7.5   2.3m 13.5s  NW    2kn (g4) WNW gl
+ assy\nSat 16:00     7.5   2.3m 13.5s  NW    4kn (g8) NNW glassy\nSat 17:00
+      8.5   2.3m 13.5s  NW    3kn (g8)   N glassy\n\nGenerated 2026-11-26 1
+ 6:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
+ rf-calendar-plugin/#spot=beliche
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
 LOCATION:Sagres (Beliche)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d4e8f63a931c4c58@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Sagres (Beliche) 8.5/10 · 2.0m 13s NW · 4kn NNW
-DESCRIPTION:Best 8.5/10 at 17:00. Forecast confidence: low. 4 wave models s
- ay 1.7 to 2.2 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
-       7   2.1m 12.7s  NW    2kn (g3) ENE glassy\nSun 08:00       7   2.1m 
- 12.7s  NW    2kn (g3) ENE glassy\nSun 09:00       8   2.1m 12.7s  NW    2k
- n (g3) ENE glassy\nSun 10:00       8   2.1m 12.8s  NW    1kn (g6)  NE glas
- sy\nSun 11:00       8   2.0m 12.8s  NW    2kn (g6) NNW glassy\nSun 12:00  
-      7   2.0m 12.9s  NW    2kn (g6) NNW glassy\nSun 13:00     7.5   2.0m 1
- 3.0s  NW    3kn (g9)  NW glassy\nSun 14:00     7.5   2.0m 13.2s  NW    4kn
-  (g9)  NW glassy\nSun 15:00     7.5   2.0m 13.3s  NW    4kn (g9)  NW glass
- y\nSun 16:00     7.5   2.0m 13.3s  NW    4kn (g8) NNW glassy\nSun 17:00   
-   8.5   2.0m 13.3s  NW    4kn (g8) NNW glassy\n\nGenerated 2026-11-26 03:0
- 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
- calendar-plugin/#spot=beliche
+SUMMARY:🔥 Sagres (Beliche) 8.5/10 · 2.2m 13s NW · 2kn N
+DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: medium. 5 wave model
+ s say 2.1 to 2.4 m.\n\nHour (local)  score  waves            wind\nSun 07:
+ 00     8.5   2.2m 13.4s  NW    2kn (g5)   N glassy\nSun 08:00     8.5   2.
+ 2m 13.2s  NW    2kn (g5)   N glassy\nSun 09:00     8.5   2.1m 13.3s  NW   
+  2kn (g6) NNE glassy\nSun 10:00     8.5   2.1m 13.4s  NW    3kn (g7)   N g
+ lassy\nSun 11:00     8.5   2.1m 13.5s  NW    3kn (g8)   N glassy\nSun 12:0
+ 0     8.5   2.1m 13.5s  NW    5kn (g11) NNW offshore\nSun 13:00     8.5   
+ 2.1m 13.6s  NW    7kn (g13) NNW offshore\nSun 14:00     8.5   2.1m 13.6s  
+ NW    7kn (g14) NNW offshore\nSun 15:00     8.5   2.1m 13.5s  NW    7kn (g
+ 14)   N offshore\nSun 16:00     8.5   2.0m 13.5s  NW    8kn (g15)   N offs
+ hore\nSun 17:00     8.5   2.0m 13.4s  NW    7kn (g15)   N offshore\n\nGene
+ rated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
+ banas.github.io/surf-calendar-plugin/#spot=beliche
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
 LOCATION:Sagres (Beliche)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:04f108590aa21003@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261130T070000Z
-DTEND:20261130T130000Z
-SUMMARY:👍 Sagres (Beliche) 7/10 · 2.0m 13s NW · 2kn ESE
-DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 07:00   
-     7   2.0m 12.7s  NW    2kn (g7) ESE glassy\nMon 08:00       7   1.9m 12
- .7s  NW    2kn (g7) ESE glassy\nMon 09:00       7   1.9m 12.8s  NW    3kn 
- (g7) ESE glassy\nMon 10:00       7   1.9m 12.8s  NW    4kn (g13)  SE glass
- y\nMon 11:00       7   1.9m 12.8s  NW    6kn (g13)  SE cross\nMon 12:00   
-     7   1.9m 12.8s  NW    7kn (g13)  SE cross\n\nGenerated 2026-11-26 03:0
- 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
- calendar-plugin/#spot=beliche
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
-LOCATION:Sagres (Beliche)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:73b98b18c63e7101@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261130T160000Z
 DTEND:20261130T180000Z
-SUMMARY:👍 Sagres (Beliche) 7/10 · 1.9m 13s NW · 4kn SE
-DESCRIPTION:Best 7/10 at 17:00. Forecast confidence: low. 4 wave models say
-  1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 16:00   
-   6.5   1.9m 12.6s  NW    5kn (g9)  SE onshore\nMon 17:00       7   1.9m 1
- 2.5s  NW    4kn (g9)  SE glassy\n\nGenerated 2026-11-26 03:00 UTC from Ope
- n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
- n/#spot=beliche
+SUMMARY:🔥 Sagres (Beliche) 8/10 · 1.9m 13s NW · 4kn N
+DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: low. 4 wave models say
+  1.9 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 07:00   
+     8   1.9m 12.7s  NW    4kn (g10)   N glassy\nMon 08:00       8   1.9m 1
+ 2.8s  NW    4kn (g10)   N glassy\nMon 09:00       8   1.9m 12.8s  NW    4k
+ n (g10)   N glassy\nMon 10:00       8   1.9m 12.9s  NW    5kn (g11)   N gl
+ assy\nMon 11:00       8   1.9m 12.8s  NW    5kn (g11)   N glassy\nMon 12:0
+ 0       8   1.9m 12.8s  NW    5kn (g11)   N offshore\nMon 13:00       8   
+ 1.9m 12.8s  NW    5kn (g11)   N offshore\nMon 14:00       8   1.9m 12.7s  
+ NW    5kn (g11) NNW offshore\nMon 15:00       8   1.9m 12.7s  NW    5kn (g
+ 11) NNW offshore\nMon 16:00       8   1.9m 12.6s  NW    5kn (g9)   N offsh
+ ore\nMon 17:00       8   1.9m 12.6s  NW    4kn (g9)   N glassy\n\nGenerate
+ d 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ s.github.io/surf-calendar-plugin/#spot=beliche
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
 LOCATION:Sagres (Beliche)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abe3fcd44f41f6cd@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261201T070000Z
 DTEND:20261201T180000Z
-SUMMARY:👍 Sagres (Beliche) 7/10 · 1.5m 12s NW · 2kn NE
-DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.4 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 07:00   
-     7   1.5m 12.5s  NW    2kn (g6)  NE glassy\nTue 08:00       7   1.4m 12
- .4s  NW    2kn (g6) ENE glassy\nTue 09:00       6   1.4m 12.3s  NW    3kn 
- (g6) ENE glassy\nTue 10:00       6   1.4m 12.2s  NW    3kn (g11)   E glass
- y\nTue 11:00       6   1.4m 12.2s  NW    5kn (g11) ESE glassy\nTue 12:00  
-      6   1.4m 12.1s  NW    6kn (g11) ESE cross\nTue 13:00       7   1.4m 1
- 2.1s  NW    6kn (g12) ESE cross\nTue 14:00       7   1.4m 12.1s  NW    6kn
-  (g12) ESE cross\nTue 15:00       7   1.4m 12.1s  NW    6kn (g12) ESE cros
- s\nTue 16:00       7   1.4m 12.1s  NW    5kn (g9) ESE cross\nTue 17:00    
-    7   1.4m 12.1s  NW    4kn (g9) ESE glassy\n\nGenerated 2026-11-26 03:00
-  UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-c
- alendar-plugin/#spot=beliche
+SUMMARY:👍 Sagres (Beliche) 6.5/10 · 1.3m 12s NW · 5kn SE
+DESCRIPTION:Best 6.5/10 at 13:00. Forecast confidence: low. 4 wave models s
+ ay 1.3 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00 
+       6   1.5m 12.5s  NW    3kn (g7) ESE glassy\nTue 08:00       6   1.4m 
+ 12.4s  NW    2kn (g7) ESE glassy\nTue 09:00       6   1.4m 12.3s  NW    3k
+ n (g7) ESE glassy\nTue 10:00       6   1.4m 12.2s  NW    3kn (g11) ESE gla
+ ssy\nTue 11:00       6   1.4m 12.2s  NW    4kn (g10) ESE glassy\nTue 12:00
+        6   1.3m 12.1s  NW    5kn (g10) ESE cross\nTue 13:00     6.5   1.3m
+  12.1s  NW    5kn (g8)  SE glassy\nTue 14:00     6.5   1.3m 12.0s  NW    4
+ kn (g8)  SE glassy\nTue 15:00     6.5   1.3m 12.0s  NW    4kn (g8) SSE gla
+ ssy\nTue 16:00     6.5   1.3m 12.0s  NW    3kn (g5) SSE glassy\nTue 17:00 
+     6.5   1.3m 12.1s  NW    2kn (g5) SSE glassy\n\nGenerated 2026-11-26 16
+ :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
+ f-calendar-plugin/#spot=beliche
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
 LOCATION:Sagres (Beliche)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a81fcef2bb6f2c61@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Sagres (Beliche) 8/10 · 1.5m 12s WNW · 3kn ENE
+SUMMARY:🔥 Sagres (Beliche) 8/10 · 1.3m 12s WNW · 2kn NE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
-     8   1.5m 12.0s WNW    3kn (g7) ENE glassy\nWed 09:00       7   1.5m 11
- .9s WNW    4kn (g7) ENE glassy\nWed 10:00       7   1.6m 11.8s WNW    5kn 
- (g18)   E cross\nWed 11:00       7   1.6m 11.6s WNW    8kn (g18)   E cross
- \nWed 12:00     5.5   1.7m 11.4s WNW   10kn (g18) ESE cross\nWed 13:00    
-  5.5   1.7m 11.4s WNW   11kn (g20) ESE cross\nWed 14:00     6.5   1.7m 11.
- 4s WNW   11kn (g20) ESE cross\nWed 15:00     6.5   1.8m 11.5s WNW   11kn (
- g20) ESE cross\nWed 16:00     6.5   1.8m 11.5s WNW   10kn (g16) ESE cross\
- nWed 17:00     6.5   1.8m 11.5s WNW    8kn (g16) ESE cross\n\nGenerated 20
- 26-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+  1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
+     8   1.3m 12.0s WNW    2kn (g5)  NE glassy\nWed 09:00       8   1.4m 12
+ .0s WNW    2kn (g5)  NE glassy\nWed 10:00       7   1.4m 11.9s WNW    2kn 
+ (g6) ENE glassy\nWed 11:00       7   1.4m 11.8s WNW    3kn (g6)   E glassy
+ \nWed 12:00       7   1.4m 11.8s WNW    3kn (g6) ESE glassy\nWed 13:00    
+    7   1.4m 11.8s WNW    3kn (g4) ESE glassy\nWed 14:00     6.5   1.5m 11.
+ 9s WNW    2kn (g4)  SE glassy\nWed 15:00     6.5   1.5m 11.9s WNW    1kn (
+ g4)  SE glassy\nWed 16:00     6.5   1.5m 11.8s WNW    1kn (g2)   S glassy\
+ nWed 17:00     6.5   1.5m 11.7s WNW    1kn (g2) WSW glassy\n\nGenerated 20
+ 26-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=beliche
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
+LOCATION:Sagres (Beliche)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:518a25a2088714f6@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261203T080000Z
+DTEND:20261203T180000Z
+SUMMARY:🔥 Sagres (Beliche) 9/10 · 1.7m 12s WNW · 0kn N
+DESCRIPTION:Best 9/10 at 15:00. Forecast confidence: low. 4 wave models say
+  1.6 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
+     8   1.6m 11.6s WNW    2kn (g4)  NE glassy\nThu 09:00       8   1.6m 11
+ .7s WNW    2kn (g4)  NE glassy\nThu 10:00       8   1.7m 11.8s WNW    2kn 
+ (g5) ENE glassy\nThu 11:00       7   1.7m 11.9s WNW    2kn (g5)   E glassy
+ \nThu 12:00       7   1.7m 11.9s WNW    2kn (g5)   E glassy\nThu 13:00    
+    7   1.7m 11.9s WNW    2kn (g4)   E glassy\nThu 14:00       8   1.7m 11.
+ 9s WNW    1kn (g4)   E glassy\nThu 15:00       9   1.7m 11.9s WNW    0kn (
+ g4)   N glassy\nThu 16:00       8   1.7m 11.9s  NW    1kn (g5) WNW glassy\
+ nThu 17:00       8   1.7m 11.9s  NW    1kn (g5)   W glassy\n\nGenerated 20
+ 26-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
  thub.io/surf-calendar-plugin/#spot=beliche
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=beliche
 LOCATION:Sagres (Beliche)

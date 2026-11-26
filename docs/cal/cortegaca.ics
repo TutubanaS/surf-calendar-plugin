@@ -9,65 +9,65 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:f4c530061235ca99@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261126T080000Z
 DTEND:20261126T180000Z
-SUMMARY:🔥 Cortegaça 8.5/10 · 1.7m 11s WNW · 2kn ESE
+SUMMARY:🔥 Cortegaça 8.5/10 · 1.7m 10s WNW · 2kn ESE
 DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: high. 5 wave models 
  say 1.6 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00
-      8.5   1.7m 10.6s WNW    2kn (g7) ESE glassy\nThu 09:00     7.5   1.6m
-  10.2s WNW    2kn (g7)  SE glassy\nThu 10:00       8   1.6m 10.2s WNW    2
- kn (g8)  SE glassy\nThu 11:00       7   1.5m 10.1s WNW    4kn (g10)  SE gl
- assy\nThu 12:00       7   1.5m 10.2s WNW    3kn (g10) SSE glassy\nThu 13:0
- 0       7   1.5m 10.2s WNW    4kn (g11) SSE glassy\nThu 14:00       7   1.
- 5m 10.2s WNW    4kn (g12) SSE glassy\nThu 15:00       7   1.6m 10.2s WNW  
-   4kn (g12) SSE glassy\nThu 16:00       7   1.6m 10.2s WNW    4kn (g11)  S
- E glassy\nThu 17:00       7   1.5m 10.2s WNW    4kn (g11) SSE glassy\n\nGe
- nerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
- tubanas.github.io/surf-calendar-plugin/#spot=cortegaca
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortegaca
-LOCATION:Cortegaça
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:4d19222f756af9c6@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261127T080000Z
-DTEND:20261127T180000Z
-SUMMARY:🔥 Cortegaça 8.5/10 · 1.7m 12s WNW · 4kn S
-DESCRIPTION:Best 8.5/10 at 11:00. Forecast confidence: high. 5 wave models 
- say 1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nFri 08:00
-      7.5   1.6m 10.0s WNW    2kn (g7) SSE glassy\nFri 09:00     7.5   1.7m
-  10.2s WNW    3kn (g7) SSE glassy\nFri 10:00     7.5   1.7m 10.8s WNW    3
- kn (g9) SSE glassy\nFri 11:00     8.5   1.7m 11.7s WNW    4kn (g12)   S gl
- assy\nFri 12:00     8.5   1.7m 12.3s WNW    5kn (g12)   S glassy\nFri 13:0
- 0     8.5   1.7m 12.3s WNW    5kn (g12)   S glassy\nFri 14:00     8.5   1.
- 7m 12.3s WNW    5kn (g12)   S glassy\nFri 15:00     8.5   1.6m 12.3s WNW  
-   4kn (g12)   S glassy\nFri 16:00     8.5   1.6m 12.2s WNW    4kn (g11)   
- S glassy\nFri 17:00     8.5   1.6m 12.1s WNW    3kn (g8)   S glassy\n\nGen
- erated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tut
+      8.5   1.7m 10.5s WNW    2kn (g7) ESE glassy\nThu 09:00     8.5   1.6m
+  10.2s WNW    2kn (g7)  SE glassy\nThu 10:00       7   1.6m 10.2s WNW    3
+ kn (g8)  SE glassy\nThu 11:00       7   1.5m 10.1s WNW    3kn (g9) SSE gla
+ ssy\nThu 12:00       7   1.5m 10.2s WNW    4kn (g11)   S glassy\nThu 13:00
+        7   1.5m 10.2s WNW    4kn (g11) SSE glassy\nThu 14:00       7   1.5
+ m 10.2s WNW    4kn (g11) SSW glassy\nThu 15:00       7   1.5m 10.2s WNW   
+  4kn (g12) SSE glassy\nThu 16:00       8   1.5m 10.2s WNW    4kn (g12)  SE
+  glassy\nThu 17:00       7   1.5m 10.2s WNW    4kn (g11)  SE glassy\n\nGen
+ erated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tut
  ubanas.github.io/surf-calendar-plugin/#spot=cortegaca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortegaca
 LOCATION:Cortegaça
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:4d19222f756af9c6@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261127T080000Z
+DTEND:20261127T180000Z
+SUMMARY:🔥 Cortegaça 8.5/10 · 1.6m 10s WNW · 3kn SE
+DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: high. 5 wave models 
+ say 1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nFri 08:00
+      8.5   1.6m 10.0s WNW    3kn (g8)  SE glassy\nFri 09:00     7.5   1.7m
+  10.2s WNW    3kn (g9)  SE glassy\nFri 10:00     7.5   1.7m 10.8s WNW    3
+ kn (g8)   S glassy\nFri 11:00     8.5   1.7m 11.7s WNW    4kn (g12)   S gl
+ assy\nFri 12:00     8.5   1.7m 12.3s WNW    4kn (g12)   S glassy\nFri 13:0
+ 0     8.5   1.7m 12.3s WNW    4kn (g11) SSE glassy\nFri 14:00     8.5   1.
+ 7m 12.3s WNW    4kn (g11)   S glassy\nFri 15:00     8.5   1.6m 12.3s WNW  
+   4kn (g10)   S glassy\nFri 16:00     8.5   1.6m 12.2s WNW    3kn (g9) SSE
+  glassy\nFri 17:00     8.5   1.7m 12.1s WNW    2kn (g7) SSE glassy\n\nGene
+ rated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
+ banas.github.io/surf-calendar-plugin/#spot=cortegaca
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortegaca
+LOCATION:Cortegaça
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:271ee8decee407a2@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Cortegaça 9/10 · 2.3m 14s WNW · 5kn SSE
-DESCRIPTION:Best 9/10 at 13:00. Forecast confidence: medium. 5 wave models 
- say 2.1 to 2.6 m.\n\nHour (local)  score  waves            wind\nSat 08:00
-        7   2.3m 13.5s WNW    5kn (g12) SSE glassy\nSat 09:00       7   2.3
- m 13.5s WNW    4kn (g12) SSE glassy\nSat 10:00       7   2.3m 13.5s WNW   
-  5kn (g13) SSE cross\nSat 11:00       7   2.3m 13.5s WNW    6kn (g14) SSE 
- cross\nSat 12:00       7   2.3m 13.5s WNW    5kn (g14) SSE cross\nSat 13:0
- 0       9   2.3m 13.5s WNW    5kn (g13) SSE glassy\nSat 14:00       9   2.
- 3m 13.5s WNW    6kn (g14) SSE cross\nSat 15:00       9   2.3m 13.5s WNW   
-  5kn (g13) SSE cross\nSat 16:00       9   2.2m 13.5s WNW    5kn (g13) SSE 
- glassy\nSat 17:00       9   2.2m 13.5s WNW    4kn (g12) SSE glassy\n\nGene
- rated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
+SUMMARY:👍 Cortegaça 7/10 · 2.4m 14s WNW · 4kn SSE
+DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 5 wave models 
+ say 2.2 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00
+        7   2.4m 13.5s WNW    4kn (g12) SSE glassy\nSat 09:00       7   2.4
+ m 13.5s WNW    5kn (g12) SSE glassy\nSat 10:00       7   2.3m 13.5s WNW   
+  5kn (g13) SSE cross\nSat 11:00       7   2.3m 13.5s WNW    5kn (g13) SSE 
+ cross\nSat 12:00       7   2.3m 13.5s WNW    5kn (g14)   S cross\nSat 13:0
+ 0       7   2.3m 13.5s WNW    5kn (g13)   S glassy\nSat 14:00       7   2.
+ 3m 13.5s WNW    4kn (g12)   S glassy\nSat 15:00       7   2.3m 13.5s WNW  
+   4kn (g10)   S glassy\nSat 16:00       7   2.3m 13.5s WNW    3kn (g9)   S
+  glassy\nSat 17:00       7   2.3m 13.5s WNW    4kn (g9)   S glassy\n\nGene
+ rated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
  banas.github.io/surf-calendar-plugin/#spot=cortegaca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortegaca
 LOCATION:Cortegaça
@@ -75,87 +75,109 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c615c0ab0e735eb9@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Cortegaça 8.5/10 · 2.2m 13s NW · 2kn N
-DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 2.1 to 2.4 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
-     8.5   2.2m 12.7s  NW    2kn (g6)   N glassy\nSun 09:00     8.5   2.2m 
- 12.6s  NW    2kn (g6)   N glassy\nSun 10:00     8.5   2.3m 12.5s  NW    2k
- n (g11)   N glassy\nSun 11:00     8.5   2.2m 12.5s  NW    3kn (g11)   N gl
- assy\nSun 12:00     8.5   2.3m 12.4s  NW    4kn (g11)   N glassy\nSun 13:0
- 0     8.5   2.3m 12.4s  NW    4kn (g11)   N glassy\nSun 14:00       8   2.
- 3m 12.4s  NW    4kn (g11) NNW glassy\nSun 15:00       8   2.3m 12.4s  NW  
-   4kn (g11) NNW glassy\nSun 16:00       8   2.2m 12.4s  NW    3kn (g6) NNW
-  glassy\nSun 17:00       8   2.2m 12.4s  NW    3kn (g6) NNW glassy\n\nGene
- rated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
- banas.github.io/surf-calendar-plugin/#spot=cortegaca
+SUMMARY:🔥 Cortegaça 9/10 · 2.2m 14s WNW · 3kn N
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: medium. 5 wave models 
+ say 2.0 to 2.5 m.\n\nHour (local)  score  waves            wind\nSun 08:00
+        9   2.2m 13.5s WNW    3kn (g10)   N glassy\nSun 09:00       9   2.2
+ m 13.5s WNW    3kn (g8)   N glassy\nSun 10:00       9   2.1m 13.5s WNW    
+ 3kn (g9)   N glassy\nSun 11:00       9   2.1m 13.5s WNW    3kn (g9)   N gl
+ assy\nSun 12:00       8   2.1m 12.7s WNW    4kn (g10) NNW glassy\nSun 13:0
+ 0       8   2.1m 12.6s WNW    4kn (g11) NNW glassy\nSun 14:00       8   2.
+ 1m 12.6s WNW    4kn (g11) NNW glassy\nSun 15:00       8   2.1m 12.3s WNW  
+   5kn (g12)  NW glassy\nSun 16:00       8   2.1m 12.3s WNW    5kn (g12)  N
+ W glassy\nSun 17:00       8   2.1m 12.3s WNW    3kn (g11)  NW glassy\n\nGe
+ nerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
+ tubanas.github.io/surf-calendar-plugin/#spot=cortegaca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortegaca
 LOCATION:Cortegaça
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d3f1ca340b4bd228@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Cortegaça 9.5/10 · 2.1m 13s NW · 2kn E
+SUMMARY:🔥 Cortegaça 9.5/10 · 2.1m 13s NW · 2kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     9.5   2.1m 12.6s  NW    2kn (g2)   E glassy\nMon 09:00     9.5   2.1m 
- 12.7s  NW    2kn (g2)   E glassy\nMon 10:00     9.5   2.1m 12.7s  NW    1k
- n (g5) ESE glassy\nMon 11:00     8.5   2.0m 12.8s  NW    1kn (g5)   S glas
- sy\nMon 12:00       8   2.0m 12.8s  NW    2kn (g5)  SW glassy\nMon 13:00  
-      8   2.0m 12.8s  NW    2kn (g9)  SW glassy\nMon 14:00       8   2.0m 1
- 2.8s  NW    3kn (g9) WSW glassy\nMon 15:00       8   2.0m 12.8s  NW    3kn
-  (g9) WSW glassy\nMon 16:00       8   1.9m 12.7s  NW    2kn (g3)  SW glass
- y\nMon 17:00     8.5   1.9m 12.7s  NW    1kn (g3)  SE glassy\n\nGenerated 
- 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=cortegaca
+     9.5   2.1m 12.6s  NW    2kn (g5) ESE glassy\nMon 09:00     9.5   2.1m 
+ 12.7s  NW    2kn (g5) ESE glassy\nMon 10:00     8.5   2.1m 12.7s  NW    2k
+ n (g9) SSE glassy\nMon 11:00     8.5   2.1m 12.7s  NW    2kn (g9)   S glas
+ sy\nMon 12:00     8.5   2.1m 12.8s  NW    3kn (g9)   S glassy\nMon 13:00  
+    8.5   2.0m 12.8s  NW    3kn (g10) SSW glassy\nMon 14:00     8.5   2.0m 
+ 12.8s  NW    4kn (g10) SSW glassy\nMon 15:00       8   2.0m 12.8s  NW    4
+ kn (g10) SSW glassy\nMon 16:00     8.5   1.9m 12.8s  NW    3kn (g4) SSW gl
+ assy\nMon 17:00     8.5   1.9m 12.7s  NW    2kn (g4)   S glassy\n\nGenerat
+ ed 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=cortegaca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortegaca
 LOCATION:Cortegaça
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e0ca700791401fb@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Cortegaça 9.5/10 · 1.6m 12s WNW · 3kn ESE
+SUMMARY:🔥 Cortegaça 9.5/10 · 1.7m 12s WNW · 3kn SE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.4 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.6m 12.3s WNW    3kn (g7) ESE glassy\nTue 09:00     9.5   1.7m 
- 12.3s WNW    3kn (g7) ESE glassy\nTue 10:00     8.5   1.7m 12.3s WNW    3k
- n (g12)  SE glassy\nTue 11:00     8.5   1.7m 12.3s   W    4kn (g12) SSE gl
- assy\nTue 12:00     8.5   1.7m 12.2s   W    5kn (g12)   S cross\nTue 13:00
-      8.5   1.7m 12.2s   W    5kn (g12)   S cross\nTue 14:00     8.5   1.7m
-  12.2s   W    5kn (g12)   S glassy\nTue 15:00     8.5   1.7m 12.1s   W    
- 4kn (g12)   S glassy\nTue 16:00     8.5   1.7m 12.1s   W    4kn (g7) SSE g
- lassy\nTue 17:00     8.5   1.7m 12.1s   W    3kn (g7) SSE glassy\n\nGenera
- ted 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
- nas.github.io/surf-calendar-plugin/#spot=cortegaca
+     9.5   1.7m 12.3s WNW    3kn (g9)  SE glassy\nTue 09:00     9.5   1.7m 
+ 12.3s WNW    3kn (g9)  SE glassy\nTue 10:00     9.5   1.7m 12.3s WNW    3k
+ n (g12)  SE glassy\nTue 11:00     8.5   1.7m 12.3s WNW    4kn (g11) SSE gl
+ assy\nTue 12:00     8.5   1.7m 12.2s   W    4kn (g10)   S glassy\nTue 13:0
+ 0     8.5   1.7m 12.2s   W    4kn (g10)   S glassy\nTue 14:00     8.5   1.
+ 7m 12.2s   W    4kn (g10) SSW glassy\nTue 15:00     8.5   1.8m 12.1s   W  
+   3kn (g10) SSW glassy\nTue 16:00     8.5   1.8m 12.1s   W    3kn (g4) SSW
+  glassy\nTue 17:00     8.5   1.8m 12.0s   W    2kn (g4)   S glassy\n\nGene
+ rated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
+ banas.github.io/surf-calendar-plugin/#spot=cortegaca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortegaca
 LOCATION:Cortegaça
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8d3eec0cc3974bc@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Cortegaça 9.5/10 · 1.9m 11s WNW · 3kn E
+SUMMARY:🔥 Cortegaça 9.5/10 · 1.7m 11s W · 2kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.5 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
-     9.5   1.9m 11.4s WNW    3kn (g6)   E glassy\nWed 09:00     9.5   1.9m 
- 11.4s WNW    2kn (g6)   E glassy\nWed 10:00     9.5   1.9m 11.3s WNW    2k
- n (g2)   E glassy\nWed 11:00     9.5   1.9m 11.2s WNW    1kn (g2)   E glas
- sy\nWed 12:00     9.5   1.9m 11.2s WNW    1kn (g2)  SE glassy\nWed 13:00  
-    9.5   1.9m 11.2s WNW    1kn (g5) ESE glassy\nWed 14:00     9.5   1.9m 1
- 1.2s WNW    1kn (g5)   E glassy\nWed 15:00     9.5   1.9m 11.2s WNW    2kn
-  (g5)   E glassy\nWed 16:00     9.5   1.9m 11.3s WNW    2kn (g2) ENE glass
- y\nWed 17:00     9.5   1.9m 11.3s WNW    1kn (g2)  NE glassy\n\nGenerated 
- 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
+     9.5   1.7m 11.5s   W    2kn (g4)   E glassy\nWed 09:00     9.5   1.7m 
+ 11.4s   W    2kn (g4) ESE glassy\nWed 10:00     9.5   1.7m 11.4s   W    1k
+ n (g2) ESE glassy\nWed 11:00     9.5   1.7m 11.3s   W    0kn (g2)  SE glas
+ sy\nWed 12:00       8   1.7m 11.3s   W    0kn (g2)   W glassy\nWed 13:00  
+      8   1.7m 11.3s   W    1kn (g7)  NW glassy\nWed 14:00       8   1.8m 1
+ 1.4s   W    2kn (g7) NNW glassy\nWed 15:00     8.5   1.8m 11.4s   W    2kn
+  (g7) NNW glassy\nWed 16:00     8.5   1.8m 11.4s   W    2kn (g4)   N glass
+ y\nWed 17:00     8.5   1.8m 11.4s WNW    2kn (g4)   N glassy\n\nGenerated 
+ 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=cortegaca
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortegaca
+LOCATION:Cortegaça
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ded2d9008352205d@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261203T080000Z
+DTEND:20261203T180000Z
+SUMMARY:🔥 Cortegaça 9.5/10 · 1.8m 12s NW · 3kn ENE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.8m 11.8s  NW    3kn (g6) ENE glassy\nThu 09:00     9.5   1.8m 
+ 11.9s  NW    2kn (g6) ENE glassy\nThu 10:00     9.5   1.8m 11.9s  NW    2k
+ n (g5) ESE glassy\nThu 11:00     8.5   1.8m 11.9s  NW    2kn (g5) SSE glas
+ sy\nThu 12:00     8.5   1.8m 11.9s  NW    2kn (g6)   S glassy\nThu 13:00  
+      8   1.8m 11.9s  NW    2kn (g7) WSW glassy\nThu 14:00       8   1.7m 1
+ 1.9s  NW    1kn (g8) WSW glassy\nThu 15:00       8   1.7m 11.9s  NW    1kn
+  (g8) WSW glassy\nThu 16:00     9.5   1.6m 11.9s  NW    0kn (g9) ESE glass
+ y\nThu 17:00     9.5   1.6m 11.9s  NW    1kn (g9)   E glassy\n\nGenerated 
+ 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=cortegaca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortegaca
 LOCATION:Cortegaça

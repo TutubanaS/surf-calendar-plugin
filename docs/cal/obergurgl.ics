@@ -8,69 +8,41 @@ X-WR-TIMEZONE:Europe/Vienna
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:8497716b37149e3b@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261126T080000Z
-DTEND:20261126T150000Z
-SUMMARY:🤏 Obergurgl-Hochgurgl 6/10 · 11 cm new snow · snowing · -6°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
-  score  new snow  sky           temp   wind\nThu 09:00       6     11 cm  
-  snowing         -6°C    5 km/h (g21)\nThu 10:00       6     13 cm   snow
- ing         -6°C    9 km/h (g23)\nThu 11:00       6     15 cm   snowing  
-        -6°C    8 km/h (g22)\nThu 12:00       6     16 cm   snowing       
-   -6°C    9 km/h (g20)\nThu 13:00       6     17 cm   snowing         -6
- °C   10 km/h (g17)\nThu 14:00       6     18 cm   snowing         -7°C  
-  11 km/h (g16)\nThu 15:00       6     19 cm   snowing         -7°C   13 k
- m/h (g18)\n\nWeather at 2700 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: High village\, c
- old and reliable.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull
-  forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurg
- l
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurgl
-LOCATION:Obergurgl-Hochgurgl
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7af971712f064a7e@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261127T080000Z
+UID:dc04a12182434bb6@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261127T120000Z
 DTEND:20261127T150000Z
-SUMMARY:👍 Obergurgl-Hochgurgl 6.5/10 · 5 cm new snow · partly sunny ·
-  -9°C
-DESCRIPTION:Best 6.5/10 at 12:00. Forecast confidence: high.\n\nHour (local
- )  score  new snow  sky           temp   wind\nFri 09:00     5.5     10 cm
-    cloudy         -10°C    8 km/h (g20)\nFri 10:00     5.5      8 cm   cl
- oudy         -10°C    7 km/h (g17)\nFri 11:00     5.5      6 cm   cloudy 
-         -10°C    7 km/h (g14)\nFri 12:00     6.5      5 cm   partly sunny
-     -9°C    8 km/h (g16)\nFri 13:00     6.5      4 cm   sunny           -
- 9°C    8 km/h (g16)\nFri 14:00     6.5      3 cm   sunny           -9°C 
-    8 km/h (g16)\nFri 15:00     6.5      2 cm   sunny           -9°C    7 
- km/h (g15)\n\nWeather at 2700 m. Snow depth and new snow are the weather m
- odel's numbers\, not the resort's own snow report.\nNotes: High village\, 
- cold and reliable.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFul
- l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=obergur
- gl
+SUMMARY:🤏 Obergurgl-Hochgurgl 6/10 · 4 cm new snow · sunny · -8°C
+DESCRIPTION:Best 6/10 at 14:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nFri 13:00       5      4 cm  
+  partly sunny    -8°C    7 km/h (g16)\nFri 14:00       6      4 cm   sunn
+ y           -8°C    8 km/h (g14)\nFri 15:00       6      3 cm   sunny    
+        -8°C    7 km/h (g14)\n\nWeather at 2700 m. Snow depth and new snow
+  are the weather model's numbers\, not the resort's own snow report.\nNote
+ s: High village\, cold and reliable.\nGenerated 2026-11-26 16:00 UTC from 
+ Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
+ ugin/#spot=obergurgl
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurgl
 LOCATION:Obergurgl-Hochgurgl
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:805e7d2da614ce5c@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Obergurgl-Hochgurgl 5.5/10 · 47 cm of snow · sunny · -11°C
+SUMMARY:🤏 Obergurgl-Hochgurgl 5.5/10 · 48 cm of snow · sunny · -10°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
  al)  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 
- cm   sunny          -11°C    9 km/h (g21)\nSat 10:00     5.5      0 cm   
- sunny          -10°C    9 km/h (g22)\nSat 11:00     5.5      0 cm   sunny
-            -8°C    9 km/h (g20)\nSat 12:00     5.5      0 cm   sunny     
-       -6°C    9 km/h (g20)\nSat 13:00     5.5      0 cm   sunny          
-  -5°C    8 km/h (g20)\nSat 14:00     5.5      0 cm   sunny           -4°
- C    8 km/h (g22)\nSat 15:00     5.5      0 cm   sunny           -4°C    
- 8 km/h (g22)\n\nWeather at 2700 m. Snow depth and new snow are the weather
+ cm   sunny          -10°C   10 km/h (g20)\nSat 10:00     5.5      0 cm   
+ sunny           -9°C   10 km/h (g19)\nSat 11:00     5.5      0 cm   sunny
+            -8°C   10 km/h (g17)\nSat 12:00     5.5      0 cm   sunny     
+       -7°C   10 km/h (g17)\nSat 13:00     5.5      0 cm   sunny          
+  -6°C   10 km/h (g20)\nSat 14:00     5.5      0 cm   sunny           -5°
+ C   10 km/h (g21)\nSat 15:00     5.5      0 cm   sunny           -5°C    
+ 9 km/h (g21)\n\nWeather at 2700 m. Snow depth and new snow are the weather
   model's numbers\, not the resort's own snow report.\nNotes: High village\
- , cold and reliable.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nF
+ , cold and reliable.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=oberg
  urgl
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurgl
@@ -78,44 +50,68 @@ LOCATION:Obergurgl-Hochgurgl
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:f7a9462fc132f328@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261201T080000Z
-DTEND:20261201T150000Z
-SUMMARY:🤏 Obergurgl-Hochgurgl 6/10 · 5 cm new snow · sunny · -7°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nTue 09:00       6      5 cm   
- sunny           -7°C    4 km/h (g39)\nTue 10:00       6      5 cm   sunny
-            -7°C    4 km/h (g39)\nTue 11:00       6      5 cm   sunny     
-       -6°C    4 km/h (g38)\nTue 12:00       6      4 cm   sunny          
-  -6°C    4 km/h (g38)\nTue 13:00       6      4 cm   sunny           -5°
- C    4 km/h (g38)\nTue 14:00       6      4 cm   sunny           -5°C    
- 4 km/h (g38)\nTue 15:00       6      3 cm   sunny           -5°C    4 km/
- h (g38)\n\nWeather at 2700 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: High village\, col
- d and reliable.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull f
- orecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurgl
+UID:5edb237b77910fb8@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T150000Z
+SUMMARY:🤏 Obergurgl-Hochgurgl 5.5/10 · 40 cm of snow · sunny · -7°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nSun 09:00     5.5      0 
+ cm   sunny           -7°C    9 km/h (g15)\nSun 10:00     5.5      0 cm   
+ sunny           -6°C    9 km/h (g14)\nSun 11:00     5.5      0 cm   sunny
+            -5°C    8 km/h (g14)\nSun 12:00     5.5      0 cm   sunny     
+       -4°C    6 km/h (g12)\nSun 13:00     5.5      0 cm   sunny          
+  -3°C    5 km/h (g10)\nSun 14:00     5.5      0 cm   sunny           -3°
+ C    4 km/h (g10)\nSun 15:00     5.5      0 cm   sunny           -3°C    
+ 2 km/h (g10)\n\nWeather at 2700 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: High village\
+ , cold and reliable.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
+ ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=oberg
+ urgl
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurgl
 LOCATION:Obergurgl-Hochgurgl
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a50bd88aaef0ca76@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
-SUMMARY:🤏 Obergurgl-Hochgurgl 5.5/10 · 33 cm of snow · sunny · -4°C
+SUMMARY:🤏 Obergurgl-Hochgurgl 5.5/10 · 32 cm of snow · sunny · -4°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    score  new snow  sky           temp   wind\nWed 09:00     5.5      0 cm 
-   sunny           -4°C    4 km/h (g23)\nWed 10:00     5.5      0 cm   sun
- ny           -4°C    4 km/h (g23)\nWed 11:00     5.5      0 cm   sunny   
-         -3°C    4 km/h (g18)\nWed 12:00     5.5      0 cm   sunny        
-    -2°C    4 km/h (g18)\nWed 13:00       5      0 cm   sunny           -2
- °C    4 km/h (g18)\nWed 14:00       5      0 cm   sunny           -1°C  
-   4 km/h (g17)\nWed 15:00       5      0 cm   sunny           -1°C    3 k
- m/h (g17)\n\nWeather at 2700 m. Snow depth and new snow are the weather mo
+   sunny           -4°C    6 km/h (g28)\nWed 10:00     5.5      0 cm   sun
+ ny           -4°C    7 km/h (g28)\nWed 11:00     5.5      0 cm   sunny   
+         -3°C    6 km/h (g27)\nWed 12:00       5      0 cm   sunny        
+    -2°C    7 km/h (g27)\nWed 13:00       5      0 cm   sunny           -1
+ °C    6 km/h (g27)\nWed 14:00       5      0 cm   sunny           -1°C  
+   6 km/h (g22)\nWed 15:00       5      0 cm   sunny           -1°C    6 k
+ m/h (g22)\n\nWeather at 2700 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: High village\, c
- old and reliable.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFull
+ old and reliable.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull
+  forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurg
+ l
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurgl
+LOCATION:Obergurgl-Hochgurgl
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9c15d0b80553b0c4@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261203T080000Z
+DTEND:20261203T150000Z
+SUMMARY:🤏 Obergurgl-Hochgurgl 5.5/10 · 30 cm of snow · sunny · -3°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nThu 09:00     5.5      0 cm 
+   sunny           -3°C    2 km/h (g25)\nThu 10:00     5.5      0 cm   sun
+ ny           -2°C    1 km/h (g25)\nThu 11:00       5      0 cm   sunny   
+         -2°C    2 km/h (g26)\nThu 12:00       5      0 cm   sunny        
+    -2°C    2 km/h (g26)\nThu 13:00       5      0 cm   sunny           -2
+ °C    3 km/h (g26)\nThu 14:00       5      0 cm   sunny           -2°C  
+   3 km/h (g28)\nThu 15:00       5      0 cm   sunny           -2°C    3 k
+ m/h (g28)\n\nWeather at 2700 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: High village\, c
+ old and reliable.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull
   forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurg
  l
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=obergurgl

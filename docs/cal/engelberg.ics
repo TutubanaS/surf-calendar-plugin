@@ -8,43 +8,22 @@ X-WR-TIMEZONE:Europe/Zurich
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:383200f5e7a149fd@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261126T100000Z
-DTEND:20261126T150000Z
-SUMMARY:🤏 Engelberg-Titlis 5/10 · 5 cm new snow · snowing · -5°C
-DESCRIPTION:Best 5/10 at 11:00. Forecast confidence: high.\n\nHour (local) 
-  score  new snow  sky           temp   wind\nThu 11:00       5      5 cm  
-  snowing         -5°C    9 km/h (g43)\nThu 12:00       5      6 cm   snow
- ing         -5°C    9 km/h (g43)\nThu 13:00       5      6 cm   snowing  
-        -5°C    9 km/h (g41)\nThu 14:00       5      7 cm   snowing       
-   -5°C   10 km/h (g41)\nThu 15:00       5      7 cm   snowing         -6
- °C   10 km/h (g42)\n\nWeather at 2350 m. Snow depth and new snow are the 
- weather model's numbers\, not the resort's own snow report.\nNotes: Titlis
-  glacier and serious freeride.\nGenerated 2026-11-26 03:00 UTC from Open-M
- eteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#
- spot=engelberg
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=engelberg
-LOCATION:Engelberg-Titlis
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:1dc7e8373dd2f415@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T150000Z
 SUMMARY:🤏 Engelberg-Titlis 6/10 · 3 cm new snow · sunny · -10°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
   score  new snow  sky           temp   wind\nFri 09:00       6      3 cm  
-  sunny          -10°C    1 km/h (g32)\nFri 10:00       6      3 cm   sunn
- y          -10°C    2 km/h (g31)\nFri 11:00       6      2 cm   sunny    
-       -10°C    2 km/h (g32)\nFri 12:00     5.5      2 cm   sunny         
-   -9°C    2 km/h (g34)\nFri 13:00     5.5      1 cm   sunny           -8
- °C    2 km/h (g36)\nFri 14:00     5.5      0 cm   sunny           -8°C  
-   2 km/h (g37)\nFri 15:00     5.5      0 cm   sunny           -8°C    2 k
+  sunny          -10°C    2 km/h (g35)\nFri 10:00       6      3 cm   sunn
+ y          -10°C    2 km/h (g34)\nFri 11:00       6      2 cm   sunny    
+       -10°C    3 km/h (g35)\nFri 12:00     5.5      2 cm   sunny         
+   -9°C    3 km/h (g36)\nFri 13:00     5.5      1 cm   sunny           -8
+ °C    3 km/h (g37)\nFri 14:00     5.5      0 cm   sunny           -8°C  
+   3 km/h (g38)\nFri 15:00     5.5      0 cm   sunny           -8°C    3 k
  m/h (g40)\n\nWeather at 2350 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Titlis glacier a
- nd serious freeride.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nF
+ nd serious freeride.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=engel
  berg
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=engelberg
@@ -53,44 +32,66 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:05dc38e452dd490f@surf-windows
-DTSTAMP:20261126T030000Z
+DTSTAMP:20261126T160000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Engelberg-Titlis 5.5/10 · 55 cm of snow · sunny · -7°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
- al)  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 
- cm   sunny           -7°C   12 km/h (g44)\nSat 10:00     5.5      0 cm   
- sunny           -6°C   12 km/h (g44)\nSat 11:00     5.5      0 cm   sunny
-            -4°C   11 km/h (g38)\nSat 12:00     5.5      0 cm   sunny     
-       -3°C   11 km/h (g37)\nSat 13:00     5.5      0 cm   sunny          
-  -2°C   10 km/h (g39)\nSat 14:00       5      0 cm   sunny           -1°
- C   10 km/h (g34)\nSat 15:00       5      0 cm   sunny           -1°C   1
- 0 km/h (g30)\n\nWeather at 2350 m. Snow depth and new snow are the weather
-  model's numbers\, not the resort's own snow report.\nNotes: Titlis glacie
- r and serious freeride.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n
- \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=en
- gelberg
+SUMMARY:🤏 Engelberg-Titlis 6/10 · 60 cm of snow · sunny · -5°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nSat 09:00       6      0 cm
+    sunny           -5°C    9 km/h (g34)\nSat 10:00       6      0 cm   su
+ nny           -4°C    9 km/h (g32)\nSat 11:00       6      0 cm   sunny  
+          -3°C    7 km/h (g30)\nSat 12:00     5.5      0 cm   sunny       
+     -2°C    5 km/h (g26)\nSat 13:00     5.5      0 cm   sunny           -
+ 1°C    4 km/h (g21)\nSat 14:00       5      0 cm   sunny           -1°C 
+    4 km/h (g20)\nSat 15:00       5      0 cm   sunny           -1°C    4 
+ km/h (g22)\n\nWeather at 2350 m. Snow depth and new snow are the weather m
+ odel's numbers\, not the resort's own snow report.\nNotes: Titlis glacier 
+ and serious freeride.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\n
+ Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=enge
+ lberg
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=engelberg
 LOCATION:Engelberg-Titlis
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:0f5e294f303eac42@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261130T080000Z
-DTEND:20261130T150000Z
-SUMMARY:👍 Engelberg-Titlis 6.5/10 · 11 cm new snow · snowing · -5°C
-DESCRIPTION:Best 6.5/10 at 10:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nMon 09:00       6     10 cm 
-   snowing         -5°C   10 km/h (g36)\nMon 10:00     6.5     11 cm   sno
- wing         -5°C    9 km/h (g36)\nMon 11:00     6.5     12 cm   snowing 
-         -5°C    9 km/h (g31)\nMon 12:00     6.5     13 cm   snowing      
-    -5°C   10 km/h (g31)\nMon 13:00     6.5     13 cm   snowing         -5
- °C    9 km/h (g31)\nMon 14:00     6.5     14 cm   snowing         -5°C  
-   9 km/h (g28)\nMon 15:00     6.5     14 cm   snowing         -5°C    8 k
- m/h (g28)\n\nWeather at 2350 m. Snow depth and new snow are the weather mo
+UID:6dde86016bb6bcd7@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261201T090000Z
+DTEND:20261201T150000Z
+SUMMARY:🤏 Engelberg-Titlis 5.5/10 · 51 cm of snow · sunny · -5°C
+DESCRIPTION:Best 5.5/10 at 10:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nTue 10:00     5.5      0 cm 
+   sunny           -5°C    8 km/h (g21)\nTue 11:00     5.5      0 cm   sun
+ ny           -4°C    8 km/h (g27)\nTue 12:00     5.5      0 cm   sunny   
+         -3°C    8 km/h (g29)\nTue 13:00       5      0 cm   sunny        
+    -2°C    8 km/h (g31)\nTue 14:00       5      0 cm   sunny           -1
+ °C    7 km/h (g29)\nTue 15:00       5      0 cm   sunny           -1°C  
+   5 km/h (g29)\n\nWeather at 2350 m. Snow depth and new snow are the weath
+ er model's numbers\, not the resort's own snow report.\nNotes: Titlis glac
+ ier and serious freeride.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.
+ \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
+ engelberg
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=engelberg
+LOCATION:Engelberg-Titlis
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:490b2d64eaa9b100@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261202T080000Z
+DTEND:20261202T150000Z
+SUMMARY:🤏 Engelberg-Titlis 5.5/10 · 52 cm of snow · sunny · -3°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nWed 09:00     5.5      0 cm 
+   sunny           -3°C   10 km/h (g27)\nWed 10:00     5.5      0 cm   sun
+ ny           -2°C    9 km/h (g27)\nWed 11:00       5      0 cm   sunny   
+         -1°C    8 km/h (g28)\nWed 12:00       5      0 cm   sunny        
+    -0°C    7 km/h (g28)\nWed 13:00       5      0 cm   sunny            1
+ °C    6 km/h (g28)\nWed 14:00       5      0 cm   sunny            1°C  
+   6 km/h (g25)\nWed 15:00       5      0 cm   sunny            1°C    6 k
+ m/h (g25)\n\nWeather at 2350 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Titlis glacier a
- nd serious freeride.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nF
+ nd serious freeride.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=engel
  berg
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=engelberg
@@ -98,45 +99,22 @@ LOCATION:Engelberg-Titlis
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:7b47109fac1c582a@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261201T080000Z
-DTEND:20261201T150000Z
-SUMMARY:🤏 Engelberg-Titlis 6/10 · 4 cm new snow · sunny · -4°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nTue 09:00       6      4 cm   
- sunny           -4°C    7 km/h (g30)\nTue 10:00       6      4 cm   sunny
-            -3°C    8 km/h (g30)\nTue 11:00       6      3 cm   sunny     
-       -2°C    7 km/h (g36)\nTue 12:00     5.5      2 cm   sunny          
-  -1°C    6 km/h (g36)\nTue 13:00       5      2 cm   sunny           -1°
- C    5 km/h (g36)\nTue 14:00       5      1 cm   sunny           -0°C    
- 5 km/h (g32)\nTue 15:00       5      1 cm   sunny           -0°C    6 km/
- h (g32)\n\nWeather at 2350 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: Titlis glacier and
-  serious freeride.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nFul
- l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=engelbe
- rg
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=engelberg
-LOCATION:Engelberg-Titlis
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:490b2d64eaa9b100@surf-windows
-DTSTAMP:20261126T030000Z
-DTSTART:20261202T080000Z
-DTEND:20261202T150000Z
-SUMMARY:🤏 Engelberg-Titlis 5.5/10 · 48 cm of snow · sunny · -2°C
+UID:f2a391104b5d24e0@surf-windows
+DTSTAMP:20261126T160000Z
+DTSTART:20261203T080000Z
+DTEND:20261203T150000Z
+SUMMARY:🤏 Engelberg-Titlis 5.5/10 · 50 cm of snow · sunny · -5°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nWed 09:00     5.5      0 cm 
-   sunny           -2°C    9 km/h (g25)\nWed 10:00       5      0 cm   sun
- ny           -2°C    9 km/h (g25)\nWed 11:00       5      0 cm   sunny   
-         -1°C    8 km/h (g22)\nWed 12:00       5      0 cm   sunny        
-     0°C    7 km/h (g22)\nWed 13:00       5      0 cm   sunny            1
- °C    6 km/h (g22)\nWed 14:00       5      0 cm   sunny            1°C  
-   5 km/h (g18)\nWed 15:00       5      0 cm   sunny            1°C    4 k
- m/h (g18)\n\nWeather at 2350 m. Snow depth and new snow are the weather mo
+   score  new snow  sky           temp   wind\nThu 09:00     5.5      0 cm 
+   sunny           -5°C    5 km/h (g42)\nThu 10:00     5.5      0 cm   sun
+ ny           -5°C    6 km/h (g42)\nThu 11:00     5.5      0 cm   sunny   
+         -5°C    6 km/h (g45)\nThu 12:00     5.5      0 cm   sunny        
+    -4°C    5 km/h (g45)\nThu 13:00     5.5      0 cm   sunny           -4
+ °C    5 km/h (g45)\nThu 14:00     5.5      0 cm   sunny           -4°C  
+   5 km/h (g44)\nThu 15:00     5.5      0 cm   sunny           -4°C    5 k
+ m/h (g44)\n\nWeather at 2350 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Titlis glacier a
- nd serious freeride.\nGenerated 2026-11-26 03:00 UTC from Open-Meteo.\n\nF
+ nd serious freeride.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=engel
  berg
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=engelberg
