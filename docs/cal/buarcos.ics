@@ -9,43 +9,43 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:edd170ee367a11a7@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
-SUMMARY:👍 Figueira da Foz (Buarcos) 7.5/10 · 1.8m 12s WNW · 5kn SSW
+SUMMARY:👍 Figueira da Foz (Buarcos) 7.5/10 · 1.8m 12s WNW · 4kn S
 DESCRIPTION:Best 7.5/10 at 11:00. Forecast confidence: high. 5 wave models 
  say 1.1 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:00
         7   1.7m 10.0s WNW    2kn (g4)  SE glassy\nFri 09:00       7   1.7m
-  10.2s WNW    3kn (g6) SSE glassy\nFri 10:00       7   1.8m 10.8s WNW    3
- kn (g8) SSE glassy\nFri 11:00     7.5   1.8m 11.7s WNW    5kn (g12) SSW gl
- assy\nFri 12:00     7.5   1.8m 12.3s WNW    5kn (g11)  SW glassy\nFri 13:0
- 0     7.5   1.8m 12.3s WNW    5kn (g12)  SW onshore\nFri 14:00     7.5   1
- .8m 12.3s WNW    5kn (g12)  SW glassy\nFri 15:00     7.5   1.8m 12.3s WNW 
-    5kn (g11)  SW glassy\nFri 16:00     7.5   1.8m 12.2s WNW    4kn (g10)  
- SW glassy\nFri 17:00     7.5   1.8m 12.1s WNW    3kn (g8)   S glassy\n\nGe
- nerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
- tubanas.github.io/surf-calendar-plugin/#spot=buarcos
+  10.2s WNW    2kn (g4)  SE glassy\nFri 10:00       7   1.7m 10.8s WNW    3
+ kn (g8) SSE glassy\nFri 11:00     7.5   1.8m 11.7s WNW    4kn (g9)   S gla
+ ssy\nFri 12:00     7.5   1.8m 12.3s WNW    5kn (g11)  SW glassy\nFri 13:00
+      7.5   1.8m 12.3s WNW    6kn (g13)  SW onshore\nFri 14:00     7.5   1.
+ 8m 12.3s WNW    5kn (g13)  SW onshore\nFri 15:00     7.5   1.8m 12.3s WNW 
+    5kn (g12)  SW glassy\nFri 16:00     7.5   1.8m 12.2s WNW    4kn (g11)  
+ SW glassy\nFri 17:00     7.5   1.9m 12.1s WNW    4kn (g10) SSW glassy\n\nG
+ enerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://t
+ utubanas.github.io/surf-calendar-plugin/#spot=buarcos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=buarcos
 LOCATION:Figueira da Foz (Buarcos)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a7f3a68dd0969099@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Figueira da Foz (Buarcos) 9/10 · 2.7m 14s WNW · 4kn SSE
+SUMMARY:🔥 Figueira da Foz (Buarcos) 9/10 · 2.7m 14s WNW · 3kn SSE
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: high. 5 wave models sa
  y 1.7 to 2.9 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
-      9   2.7m 13.9s WNW    4kn (g8) SSE glassy\nSat 09:00       9   2.6m 1
- 3.5s WNW    4kn (g8) SSE glassy\nSat 10:00       9   2.6m 13.5s WNW    5kn
-  (g10) SSE glassy\nSat 11:00       9   2.6m 13.5s WNW    5kn (g12) SSE cro
- ss\nSat 12:00       9   2.6m 13.5s WNW    6kn (g13) SSE cross\nSat 13:00  
-    8.5   2.6m 13.5s WNW    6kn (g13)   S onshore\nSat 14:00     8.5   2.6m
-  13.5s WNW    5kn (g13)   S glassy\nSat 15:00     8.5   2.6m 13.5s WNW    
- 3kn (g10)   S glassy\nSat 16:00     8.5   2.6m 13.5s WNW    3kn (g8) SSW g
- lassy\nSat 17:00     8.5   2.6m 13.5s WNW    2kn (g6)   S glassy\n\nGenera
- ted 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
+      9   2.7m 13.9s WNW    3kn (g7) SSE glassy\nSat 09:00       9   2.7m 1
+ 3.5s WNW    4kn (g8) SSE glassy\nSat 10:00       9   2.7m 13.5s WNW    4kn
+  (g9) SSE glassy\nSat 11:00       9   2.7m 13.5s WNW    5kn (g12)   S cros
+ s\nSat 12:00       9   2.6m 13.5s WNW    6kn (g14)   S cross\nSat 13:00   
+   8.5   2.6m 13.5s WNW    6kn (g14)   S onshore\nSat 14:00     8.5   2.6m 
+ 13.5s WNW    5kn (g13) SSW onshore\nSat 15:00     8.5   2.6m 13.5s WNW    
+ 4kn (g12)  SW glassy\nSat 16:00     8.5   2.6m 13.5s WNW    2kn (g8)  SW g
+ lassy\nSat 17:00     8.5   2.6m 13.5s WNW    2kn (g5)  SW glassy\n\nGenera
+ ted 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
  nas.github.io/surf-calendar-plugin/#spot=buarcos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=buarcos
 LOCATION:Figueira da Foz (Buarcos)
@@ -53,110 +53,132 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f72b29ef846f4b1f@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Figueira da Foz (Buarcos) 10/10 · 2.5m 14s WNW · 1kn NE
-DESCRIPTION:Best 10/10 at 09:00. Forecast confidence: medium. 5 wave models
-  say 1.5 to 2.7 m.\n\nHour (local)  score  waves            wind\nSun 08:0
- 0       9   2.5m 13.5s WNW    1kn (g4)  SE glassy\nSun 09:00      10   2.5
- m 13.5s WNW    1kn (g3)  NE glassy\nSun 10:00       9   2.5m 13.5s WNW    
- 1kn (g4)   N glassy\nSun 11:00       9   2.5m 13.5s WNW    4kn (g9)   N gl
- assy\nSun 12:00       9   2.5m 13.5s WNW    4kn (g10)   N glassy\nSun 13:0
- 0       9   2.5m 13.5s WNW    6kn (g13) NNW cross\nSun 14:00     8.5   2.4
- m 12.9s WNW    7kn (g16) NNW cross\nSun 15:00       7   2.4m 12.8s WNW    
- 8kn (g18) NNW cross\nSun 16:00     8.5   2.3m 12.8s WNW    8kn (g18)   N c
- ross\nSun 17:00     8.5   2.3m 12.7s WNW    5kn (g16)   N cross\n\nGenerat
- ed 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=buarcos
+SUMMARY:🔥 Figueira da Foz (Buarcos) 9/10 · 2.5m 14s WNW · 2kn ESE
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: medium. 5 wave models 
+ say 1.5 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:00
+        9   2.5m 13.5s WNW    2kn (g4) ESE glassy\nSun 09:00       9   2.5m
+  13.5s WNW    1kn (g3) ESE glassy\nSun 10:00       9   2.5m 13.5s WNW    2
+ kn (g5) ESE glassy\nSun 11:00       9   2.5m 13.5s WNW    1kn (g4) ESE gla
+ ssy\nSun 12:00     8.5   2.5m 13.5s WNW    0kn (g4)  SW glassy\nSun 13:00 
+       9   2.5m 13.5s WNW    2kn (g6)  NW glassy\nSun 14:00     8.5   2.5m 
+ 13.5s WNW    3kn (g8)  NW glassy\nSun 15:00     8.5   2.4m 12.8s WNW    4k
+ n (g10)  NW glassy\nSun 16:00     8.5   2.4m 12.8s WNW    5kn (g10) NNW gl
+ assy\nSun 17:00     8.5   2.4m 12.7s WNW    5kn (g10) NNW glassy\n\nGenera
+ ted 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
+ nas.github.io/surf-calendar-plugin/#spot=buarcos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=buarcos
 LOCATION:Figueira da Foz (Buarcos)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:759cc32b745b14ba@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Figueira da Foz (Buarcos) 8.5/10 · 2.2m 13s NW · 2kn ESE
-DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 2.2 to 2.5 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     8.5   2.2m 12.6s  NW    2kn (g6) ESE glassy\nMon 09:00     8.5   2.2m 
- 12.6s  NW    2kn (g6) ESE glassy\nMon 10:00     8.5   2.2m 12.6s  NW    2k
- n (g7) ESE glassy\nMon 11:00     8.5   2.2m 12.6s  NW    2kn (g7) ESE glas
- sy\nMon 12:00     8.5   2.2m 12.7s  NW    1kn (g7) ESE glassy\nMon 13:00  
-      8   2.2m 12.7s  NW    1kn (g7)   S glassy\nMon 14:00       8   2.1m 1
- 2.8s  NW    2kn (g7) SSW glassy\nMon 15:00       8   2.1m 12.8s  NW    3kn
-  (g7)  SW glassy\nMon 16:00       8   2.1m 12.8s  NW    2kn (g4)  SW glass
- y\nMon 17:00       8   2.1m 12.8s  NW    2kn (g4) WSW glassy\n\nGenerated 
- 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=buarcos
+SUMMARY:🔥 Figueira da Foz (Buarcos) 8.5/10 · 2.3m 13s NW · 1kn SE
+DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 4 wave model
+ s say 2.2 to 2.5 m.\n\nHour (local)  score  waves            wind\nMon 08:
+ 00     8.5   2.3m 12.6s  NW    1kn (g3)  SE glassy\nMon 09:00     8.5   2.
+ 3m 12.6s  NW    2kn (g4) ESE glassy\nMon 10:00     8.5   2.3m 12.6s  NW   
+  2kn (g5)  SE glassy\nMon 11:00     8.5   2.3m 12.7s  NW    2kn (g6)  SE g
+ lassy\nMon 12:00     8.5   2.3m 12.7s  NW    3kn (g8)  SE glassy\nMon 13:0
+ 0     8.5   2.2m 12.8s  NW    3kn (g10) SSE glassy\nMon 14:00       8   2.
+ 2m 12.8s  NW    3kn (g10)   S glassy\nMon 15:00       8   2.2m 12.8s  NW  
+   3kn (g10) SSW glassy\nMon 16:00       8   2.2m 12.8s  NW    3kn (g4) SSW
+  glassy\nMon 17:00       8   2.1m 12.8s  NW    2kn (g4)   S glassy\n\nGene
+ rated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
+ banas.github.io/surf-calendar-plugin/#spot=buarcos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=buarcos
 LOCATION:Figueira da Foz (Buarcos)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a5880077b0dfe502@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Figueira da Foz (Buarcos) 8/10 · 1.7m 12s WNW · 2kn ESE
-DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
-     8   1.7m 12.3s WNW    2kn (g5) ESE glassy\nTue 09:00       8   1.7m 12
- .4s WNW    2kn (g5) ESE glassy\nTue 10:00       8   1.7m 12.4s WNW    3kn 
- (g12)  SE glassy\nTue 11:00       8   1.7m 12.4s WNW    4kn (g12) SSE glas
- sy\nTue 12:00       8   1.7m 12.4s WNW    5kn (g12) SSE cross\nTue 13:00  
-      8   1.8m 12.4s WNW    6kn (g13) SSE cross\nTue 14:00       8   1.7m 1
- 2.3s WNW    6kn (g13) SSE cross\nTue 15:00       8   1.7m 12.2s WNW    6kn
-  (g13) SSE cross\nTue 16:00       8   1.8m 12.2s   W    5kn (g7) SSE glass
- y\nTue 17:00       8   1.8m 12.1s   W    4kn (g7) SSE glassy\n\nGenerated 
- 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=buarcos
+SUMMARY:🔥 Figueira da Foz (Buarcos) 9/10 · 1.8m 12s NW · 2kn E
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
+  1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
+     9   1.8m 12.3s  NW    2kn (g5)   E glassy\nTue 09:00       9   1.8m 12
+ .4s  NW    2kn (g5)   E glassy\nTue 10:00       8   1.8m 12.4s WNW    3kn 
+ (g11) ESE glassy\nTue 11:00       8   1.8m 12.4s WNW    4kn (g11)  SE glas
+ sy\nTue 12:00       8   1.8m 12.4s WNW    4kn (g11) SSE glassy\nTue 13:00 
+       8   1.8m 12.4s WNW    5kn (g12) SSE glassy\nTue 14:00       8   1.8m
+  12.4s WNW    4kn (g12) SSE glassy\nTue 15:00       8   1.8m 12.3s WNW    
+ 4kn (g12) SSE glassy\nTue 16:00       8   1.8m 12.2s WNW    4kn (g5) SSE g
+ lassy\nTue 17:00       8   1.8m 12.2s WNW    3kn (g5) SSE glassy\n\nGenera
+ ted 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
+ nas.github.io/surf-calendar-plugin/#spot=buarcos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=buarcos
 LOCATION:Figueira da Foz (Buarcos)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:31037d63af668cf0@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Figueira da Foz (Buarcos) 8/10 · 1.8m 12s W · 5kn SSE
-DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
+SUMMARY:🔥 Figueira da Foz (Buarcos) 9/10 · 1.8m 11s WNW · 2kn E
+DESCRIPTION:Best 9/10 at 16:00. Forecast confidence: low. 4 wave models say
   1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
-     8   1.8m 11.6s   W    5kn (g12) SSE cross\nWed 09:00       8   1.8m 11
- .6s   W    5kn (g12) SSE cross\nWed 10:00       8   1.8m 11.5s   W    6kn 
- (g14) SSE cross\nWed 11:00       8   1.8m 11.4s WNW    6kn (g14) SSE cross
- \nWed 12:00       8   1.8m 11.4s WNW    6kn (g14) SSE cross\nWed 13:00    
-    8   1.8m 11.4s WNW    6kn (g12) SSE cross\nWed 14:00       8   1.9m 11.
- 3s WNW    5kn (g12) SSE cross\nWed 15:00       8   1.9m 11.3s WNW    5kn (
- g12)   S cross\nWed 16:00     7.5   1.9m 11.4s WNW    5kn (g10)   S glassy
- \nWed 17:00     7.5   1.9m 11.4s WNW    5kn (g10)   S glassy\n\nGenerated 
- 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=buarcos
+     8   1.7m 11.8s WNW    2kn (g5) ESE glassy\nWed 09:00       8   1.7m 11
+ .5s WNW    2kn (g5) ESE glassy\nWed 10:00       8   1.7m 11.4s WNW    3kn 
+ (g7) ESE glassy\nWed 11:00       8   1.7m 11.4s WNW    3kn (g7) ESE glassy
+ \nWed 12:00       8   1.7m 11.3s WNW    3kn (g7) ESE glassy\nWed 13:00    
+    8   1.7m 11.2s WNW    3kn (g7) ESE glassy\nWed 14:00       8   1.7m 11.
+ 2s WNW    3kn (g7) ESE glassy\nWed 15:00       8   1.7m 11.2s WNW    2kn (
+ g7) ESE glassy\nWed 16:00       9   1.8m 11.1s WNW    2kn (g3)   E glassy\
+ nWed 17:00       9   1.8m 11.1s WNW    2kn (g3)  NE glassy\n\nGenerated 20
+ 26-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=buarcos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=buarcos
 LOCATION:Figueira da Foz (Buarcos)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5f66f1052a57e768@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Figueira da Foz (Buarcos) 8/10 · 1.9m 11s NW · 1kn SE
-DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.7 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
-     8   1.9m 11.2s  NW    1kn (g3)  SE glassy\nThu 09:00       8   1.9m 11
- .2s  NW    1kn (g3)  SE glassy\nThu 10:00       8   2.0m 11.2s  NW    1kn 
- (g5) SSE glassy\nThu 11:00     7.5   2.0m 11.3s  NW    1kn (g5)   S glassy
- \nThu 12:00     7.5   2.0m 11.3s  NW    2kn (g5)  SW glassy\nThu 13:00    
-  7.5   2.0m 11.4s  NW    2kn (g10)   W glassy\nThu 14:00     7.5   2.0m 11
- .5s  NW    3kn (g10)   W glassy\nThu 15:00     7.5   2.0m 11.6s  NW    4kn
-  (g10) WNW glassy\nThu 16:00     7.5   1.9m 11.7s  NW    4kn (g4) WNW glas
- sy\nThu 17:00     7.5   1.9m 11.8s  NW    3kn (g4)  NW glassy\n\nGenerated
-  2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
- .github.io/surf-calendar-plugin/#spot=buarcos
+SUMMARY:🔥 Figueira da Foz (Buarcos) 9/10 · 1.9m 12s WNW · 3kn E
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
+  1.7 to 2.1 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
+     9   1.9m 11.8s WNW    3kn (g6)   E glassy\nThu 09:00       9   2.0m 11
+ .9s WNW    3kn (g6)   E glassy\nThu 10:00       9   2.0m 11.9s WNW    3kn 
+ (g11)   E glassy\nThu 11:00       9   2.0m 12.0s WNW    4kn (g11) ENE glas
+ sy\nThu 12:00       9   1.9m 12.1s WNW    5kn (g11) ENE glassy\nThu 13:00 
+       9   1.9m 12.1s WNW    5kn (g10) ENE glassy\nThu 14:00       9   1.9m
+  12.1s WNW    4kn (g10) ENE glassy\nThu 15:00       9   1.9m 12.1s WNW    
+ 4kn (g10) ENE glassy\nThu 16:00       9   1.9m 12.1s WNW    3kn (g4) ENE g
+ lassy\nThu 17:00       9   1.9m 12.1s WNW    2kn (g4) ENE glassy\n\nGenera
+ ted 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
+ nas.github.io/surf-calendar-plugin/#spot=buarcos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=buarcos
+LOCATION:Figueira da Foz (Buarcos)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:42fe4781845a91b7@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261204T080000Z
+DTEND:20261204T180000Z
+SUMMARY:🔥 Figueira da Foz (Buarcos) 8/10 · 1.4m 12s NW · 2kn E
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
+  1.4 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     8   1.4m 11.9s  NW    2kn (g5)   E glassy\nFri 09:00       8   1.4m 11
+ .9s  NW    2kn (g5)   E glassy\nFri 10:00       8   1.4m 11.9s  NW    3kn 
+ (g9)   E glassy\nFri 11:00       8   1.4m 11.9s  NW    4kn (g12)   E glass
+ y\nFri 12:00       8   1.3m 11.9s  NW    5kn (g15)   E glassy\nFri 13:00  
+      8   1.3m 11.8s  NW    6kn (g18)   E offshore\nFri 14:00       8   1.3
+ m 11.8s  NW    5kn (g17)   E offshore\nFri 15:00       8   1.2m 11.8s  NW 
+    5kn (g16) ENE offshore\nFri 16:00       8   1.2m 11.8s  NW    5kn (g15)
+  ENE offshore\nFri 17:00       8   1.2m 11.7s  NW    5kn (g13) ENE offshor
+ e\n\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: htt
+ ps://tutubanas.github.io/surf-calendar-plugin/#spot=buarcos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=buarcos
 LOCATION:Figueira da Foz (Buarcos)
 TRANSP:TRANSPARENT

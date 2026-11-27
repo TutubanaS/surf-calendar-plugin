@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:2cc07f04fa923f8b@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T150000Z
-SUMMARY:👍 Ischgl 7/10 · 10 cm new snow · partly sunny · -10°C
+SUMMARY:👍 Ischgl 7/10 · 10 cm new snow · partly sunny · -9°C
 DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
   score  new snow  sky           temp   wind\nFri 09:00       7     10 cm  
-  partly sunny   -10°C    6 km/h (g20)\nFri 10:00       7      8 cm   sunn
- y           -9°C    4 km/h (g18)\nFri 11:00       7      6 cm   sunny    
-        -8°C    4 km/h (g18)\nFri 12:00       7      5 cm   sunny         
-   -7°C    2 km/h (g18)\nFri 13:00       6      4 cm   sunny           -6
- °C    2 km/h (g17)\nFri 14:00       6      4 cm   sunny           -6°C  
-   5 km/h (g18)\nFri 15:00       5      3 cm   partly sunny    -6°C    6 k
- m/h (g19)\n\nWeather at 2370 m. Snow depth and new snow are the weather mo
+  partly sunny    -9°C    3 km/h (g15)\nFri 10:00       5      8 cm   clou
+ dy          -8°C    2 km/h (g16)\nFri 11:00       6      6 cm   partly su
+ nny    -8°C    2 km/h (g14)\nFri 12:00       6      5 cm   partly sunny  
+   -7°C    3 km/h (g15)\nFri 13:00       6      4 cm   sunny           -6
+ °C    7 km/h (g19)\nFri 14:00       6      4 cm   sunny           -6°C  
+   7 km/h (g19)\nFri 15:00       6      3 cm   sunny           -6°C    6 k
+ m/h (g18)\n\nWeather at 2370 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: High\, snow-sure
- \, links to Samnaun.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nF
+ \, links to Samnaun.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ischg
  l
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ischgl
@@ -32,21 +32,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f0ec12de93b7c6dd@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
 SUMMARY:🤏 Ischgl 5.5/10 · 41 cm of snow · sunny · -7°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
  )  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm
-    sunny           -7°C    8 km/h (g15)\nSat 10:00     5.5      0 cm   su
- nny           -6°C    6 km/h (g14)\nSat 11:00     5.5      0 cm   sunny  
-          -5°C    3 km/h (g14)\nSat 12:00     5.5      0 cm   sunny       
-     -3°C    2 km/h (g13)\nSat 13:00     5.5      0 cm   sunny           -
- 3°C    3 km/h (g12)\nSat 14:00     5.5      0 cm   sunny           -3°C 
-    1 km/h (g13)\nSat 15:00     5.5      0 cm   sunny           -2°C    2 
- km/h (g13)\n\nWeather at 2370 m. Snow depth and new snow are the weather m
+    sunny           -7°C    8 km/h (g20)\nSat 10:00     5.5      0 cm   su
+ nny           -6°C    6 km/h (g16)\nSat 11:00     5.5      0 cm   sunny  
+          -5°C    4 km/h (g15)\nSat 12:00     5.5      0 cm   sunny       
+     -4°C    1 km/h (g13)\nSat 13:00     5.5      0 cm   sunny           -
+ 3°C    2 km/h (g13)\nSat 14:00     5.5      0 cm   sunny           -3°C 
+    2 km/h (g15)\nSat 15:00     5.5      0 cm   sunny           -3°C    2 
+ km/h (g15)\n\nWeather at 2370 m. Snow depth and new snow are the weather m
  odel's numbers\, not the resort's own snow report.\nNotes: High\, snow-sur
- e\, links to Samnaun.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\n
+ e\, links to Samnaun.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\n
  Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=isch
  gl
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ischgl
@@ -54,91 +54,82 @@ LOCATION:Ischgl
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:6f6d1cc3e5d2c8af@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261129T080000Z
-DTEND:20261129T130000Z
-SUMMARY:🤏 Ischgl 5.5/10 · 40 cm of snow · sunny · -5°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
- al)  score  new snow  sky           temp   wind\nSun 09:00     5.5      0 
- cm   sunny           -5°C    9 km/h (g14)\nSun 10:00     5.5      0 cm   
- sunny           -4°C    9 km/h (g15)\nSun 11:00     5.5      0 cm   sunny
-            -2°C    9 km/h (g15)\nSun 12:00       5      0 cm   sunny     
-       -1°C    8 km/h (g14)\nSun 13:00       5      0 cm   sunny          
-  -0°C    6 km/h (g13)\n\nWeather at 2370 m. Snow depth and new snow are t
- he weather model's numbers\, not the resort's own snow report.\nNotes: Hig
- h\, snow-sure\, links to Samnaun.\nGenerated 2026-11-27 01:00 UTC from Ope
- n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
- n/#spot=ischgl
+UID:fe7b6be2c05d3370@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261130T120000Z
+DTEND:20261130T150000Z
+SUMMARY:🤏 Ischgl 5/10 · 32 cm of snow · sunny · -1°C
+DESCRIPTION:Best 5/10 at 13:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nMon 13:00       5      0 cm   
+ sunny           -1°C    3 km/h (g8)\nMon 14:00       5      0 cm   sunny 
+           -1°C    3 km/h (g6)\nMon 15:00       5      0 cm   sunny       
+     -1°C    3 km/h (g6)\n\nWeather at 2370 m. Snow depth and new snow are
+  the weather model's numbers\, not the resort's own snow report.\nNotes: H
+ igh\, snow-sure\, links to Samnaun.\nGenerated 2026-11-27 12:00 UTC from O
+ pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
+ gin/#spot=ischgl
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ischgl
 LOCATION:Ischgl
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3ef5140efecac576@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261201T080000Z
-DTEND:20261201T150000Z
-SUMMARY:🤏 Ischgl 5.5/10 · 32 cm of snow · sunny · -5°C
+DTEND:20261201T110000Z
+SUMMARY:🤏 Ischgl 5.5/10 · 30 cm of snow · sunny · -3°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    score  new snow  sky           temp   wind\nTue 09:00     5.5      0 cm 
-   sunny           -5°C   11 km/h (g18)\nTue 10:00     5.5      0 cm   sun
- ny           -4°C   11 km/h (g18)\nTue 11:00     5.5      0 cm   sunny   
-         -3°C   11 km/h (g22)\nTue 12:00       5      0 cm   sunny        
-    -2°C   11 km/h (g22)\nTue 13:00       5      0 cm   sunny           -1
- °C   11 km/h (g22)\nTue 14:00       5      0 cm   sunny           -1°C  
-  11 km/h (g23)\nTue 15:00       5      0 cm   sunny           -2°C   11 k
- m/h (g23)\n\nWeather at 2370 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: High\, snow-sure
- \, links to Samnaun.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nF
- ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ischg
- l
+   sunny           -3°C    9 km/h (g15)\nTue 10:00     5.5      0 cm   sun
+ ny           -2°C    9 km/h (g15)\nTue 11:00       5      0 cm   sunny   
+         -1°C    9 km/h (g14)\n\nWeather at 2370 m. Snow depth and new sno
+ w are the weather model's numbers\, not the resort's own snow report.\nNot
+ es: High\, snow-sure\, links to Samnaun.\nGenerated 2026-11-27 12:00 UTC f
+ rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
+ r-plugin/#spot=ischgl
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ischgl
 LOCATION:Ischgl
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1dc2af5c71d4cb2e@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261202T080000Z
-DTEND:20261202T150000Z
-SUMMARY:🤏 Ischgl 5.5/10 · 34 cm of snow · sunny · -5°C
+DTEND:20261202T140000Z
+SUMMARY:🤏 Ischgl 5.5/10 · 31 cm of snow · sunny · -4°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    score  new snow  sky           temp   wind\nWed 09:00     5.5      0 cm 
-   sunny           -5°C   10 km/h (g21)\nWed 10:00     5.5      0 cm   sun
- ny           -4°C   10 km/h (g21)\nWed 11:00     5.5      0 cm   sunny   
-         -2°C    9 km/h (g21)\nWed 12:00       5      0 cm   sunny        
-    -1°C    8 km/h (g21)\nWed 13:00       5      0 cm   sunny            0
- °C    8 km/h (g21)\nWed 14:00       5      0 cm   sunny            1°C  
-   8 km/h (g22)\nWed 15:00       5      0 cm   sunny           -0°C    8 k
- m/h (g22)\n\nWeather at 2370 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: High\, snow-sure
- \, links to Samnaun.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nF
- ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ischg
- l
+   sunny           -4°C    6 km/h (g19)\nWed 10:00     5.5      0 cm   sun
+ ny           -3°C    6 km/h (g19)\nWed 11:00       5      0 cm   sunny   
+         -2°C    4 km/h (g15)\nWed 12:00       5      0 cm   sunny        
+    -0°C    2 km/h (g15)\nWed 13:00       5      0 cm   sunny            1
+ °C    1 km/h (g15)\nWed 14:00       5      0 cm   sunny            1°C  
+   1 km/h (g13)\n\nWeather at 2370 m. Snow depth and new snow are the weath
+ er model's numbers\, not the resort's own snow report.\nNotes: High\, snow
+ -sure\, links to Samnaun.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.
+ \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
+ ischgl
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ischgl
 LOCATION:Ischgl
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:27e12940da48c091@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261203T080000Z
-DTEND:20261203T150000Z
-SUMMARY:🤏 Ischgl 5.5/10 · 33 cm of snow · sunny · -6°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nThu 09:00     5.5      0 cm 
-   sunny           -6°C    3 km/h (g22)\nThu 10:00     5.5      0 cm   sun
- ny           -6°C    3 km/h (g22)\nThu 11:00     5.5      0 cm   sunny   
-         -5°C    3 km/h (g22)\nThu 12:00     5.5      0 cm   sunny        
-    -4°C    3 km/h (g22)\nThu 13:00     5.5      0 cm   sunny           -3
- °C    3 km/h (g22)\nThu 14:00     5.5      0 cm   sunny           -3°C  
-   3 km/h (g24)\nThu 15:00     5.5      0 cm   sunny           -3°C    4 k
- m/h (g24)\n\nWeather at 2370 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: High\, snow-sure
- \, links to Samnaun.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nF
- ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ischg
- l
+UID:6947cf925d10ac18@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261204T080000Z
+DTEND:20261204T130000Z
+SUMMARY:🤏 Ischgl 6/10 · 2 cm new snow · sunny · -10°C
+DESCRIPTION:Best 6/10 at 11:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nFri 09:00       5      2 cm   
+ sunny          -12°C    8 km/h (g31)\nFri 10:00       5      2 cm   sunny
+           -12°C    9 km/h (g31)\nFri 11:00       6      2 cm   sunny     
+      -10°C    7 km/h (g21)\nFri 12:00       5      2 cm   partly sunny   
+  -8°C    5 km/h (g21)\nFri 13:00       5      2 cm   partly sunny    -8°
+ C    4 km/h (g21)\n\nWeather at 2370 m. Snow depth and new snow are the we
+ ather model's numbers\, not the resort's own snow report.\nNotes: High\, s
+ now-sure\, links to Samnaun.\nGenerated 2026-11-27 12:00 UTC from Open-Met
+ eo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#sp
+ ot=ischgl
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ischgl
 LOCATION:Ischgl
 TRANSP:TRANSPARENT

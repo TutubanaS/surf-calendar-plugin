@@ -8,45 +8,42 @@ X-WR-TIMEZONE:Europe/Paris
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:62026fb436c6d8ad@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261127T080000Z
+UID:26226a5d10b05a00@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261127T110000Z
 DTEND:20261127T150000Z
-SUMMARY:👍 Alpe d'Huez 6.5/10 · 152 cm of snow · sunny · -6°C
-DESCRIPTION:Best 6.5/10 at 11:00. Forecast confidence: high.\n\nHour (local
- )  score  new snow  sky           temp   wind\nFri 09:00     5.5      0 cm
-    partly sunny    -6°C   12 km/h (g28)\nFri 10:00     5.5      0 cm   pa
- rtly sunny    -6°C   13 km/h (g28)\nFri 11:00     6.5      0 cm   sunny  
-          -6°C   14 km/h (g28)\nFri 12:00     6.5      0 cm   sunny       
-     -6°C   13 km/h (g27)\nFri 13:00     6.5      0 cm   sunny           -
- 5°C   12 km/h (g26)\nFri 14:00     6.5      0 cm   sunny           -5°C 
-   12 km/h (g29)\nFri 15:00     6.5      0 cm   sunny           -5°C   13 
- km/h (g32)\n\nWeather at 2600 m. Snow depth and new snow are the weather m
- odel's numbers\, not the resort's own snow report.\nNotes: Sunny\, with th
- e 16 km Sarenne run.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nF
- ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-
- dhuez
+SUMMARY:👍 Alpe d'Huez 6.5/10 · 152 cm of snow · sunny · -5°C
+DESCRIPTION:Best 6.5/10 at 14:00. Forecast confidence: high.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nFri 12:00     5.8      0 cm
+    sunny           -6°C   18 km/h (g32)\nFri 13:00     5.8      0 cm   su
+ nny           -6°C   17 km/h (g33)\nFri 14:00     6.5      0 cm   sunny  
+          -5°C   13 km/h (g32)\nFri 15:00     6.5      0 cm   sunny       
+     -5°C   12 km/h (g32)\n\nWeather at 2600 m. Snow depth and new snow ar
+ e the weather model's numbers\, not the resort's own snow report.\nNotes: 
+ Sunny\, with the 16 km Sarenne run.\nGenerated 2026-11-27 12:00 UTC from O
+ pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
+ gin/#spot=alpe-dhuez
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhuez
 LOCATION:Alpe d'Huez
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:177ca0bb6dd552ac@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
 SUMMARY:👍 Alpe d'Huez 6.5/10 · 151 cm of snow · sunny · -3°C
 DESCRIPTION:Best 6.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
  )  score  new snow  sky           temp   wind\nSat 09:00     6.5      0 cm
-    sunny           -3°C   10 km/h (g30)\nSat 10:00     6.5      0 cm   su
- nny           -2°C   10 km/h (g27)\nSat 11:00     6.5      0 cm   sunny  
-          -2°C    9 km/h (g27)\nSat 12:00       6      0 cm   sunny       
-     -2°C    4 km/h (g20)\nSat 13:00       6      0 cm   sunny           -
- 0°C    4 km/h (g19)\nSat 14:00       6      0 cm   sunny           -0°C 
-    6 km/h (g20)\nSat 15:00       6      0 cm   sunny           -0°C    9 
- km/h (g24)\n\nWeather at 2600 m. Snow depth and new snow are the weather m
+    sunny           -3°C   13 km/h (g31)\nSat 10:00     6.5      0 cm   su
+ nny           -3°C   12 km/h (g26)\nSat 11:00     6.5      0 cm   sunny  
+          -2°C   10 km/h (g22)\nSat 12:00     6.5      0 cm   sunny       
+     -2°C    8 km/h (g18)\nSat 13:00     6.5      0 cm   sunny           -
+ 3°C    4 km/h (g16)\nSat 14:00       6      0 cm   sunny           -2°C 
+    2 km/h (g16)\nSat 15:00       6      0 cm   sunny           -0°C    6 
+ km/h (g19)\n\nWeather at 2600 m. Snow depth and new snow are the weather m
  odel's numbers\, not the resort's own snow report.\nNotes: Sunny\, with th
- e 16 km Sarenne run.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nF
+ e 16 km Sarenne run.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-
  dhuez
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhuez
@@ -54,63 +51,89 @@ LOCATION:Alpe d'Huez
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2a7d458d6acb7873@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261130T130000Z
-DTEND:20261130T150000Z
-SUMMARY:🤏 Alpe d'Huez 5.5/10 · 2 cm new snow · partly sunny · -3°C
-DESCRIPTION:Best 5.5/10 at 14:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nMon 14:00     5.5      2 cm 
-   partly sunny    -3°C    5 km/h (g20)\nMon 15:00     5.5      2 cm   par
- tly sunny    -3°C    5 km/h (g20)\n\nWeather at 2600 m. Snow depth and ne
- w snow are the weather model's numbers\, not the resort's own snow report.
- \nNotes: Sunny\, with the 16 km Sarenne run.\nGenerated 2026-11-27 01:00 U
- TC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cal
- endar-plugin/#spot=alpe-dhuez
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhuez
-LOCATION:Alpe d'Huez
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:bb84d1a2087610e3@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Alpe d'Huez 6/10 · 111 cm of snow · sunny · -6°C
+SUMMARY:🤏 Alpe d'Huez 6/10 · 106 cm of snow · sunny · -3°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nTue 09:00       6      0 cm   
- sunny           -6°C    4 km/h (g21)\nTue 10:00       6      0 cm   sunny
-            -6°C    5 km/h (g21)\nTue 11:00       6      0 cm   sunny     
-       -6°C    5 km/h (g23)\nTue 12:00       6      0 cm   sunny          
-  -6°C    5 km/h (g23)\nTue 13:00       6      0 cm   sunny           -5°
- C    5 km/h (g23)\nTue 14:00       6      0 cm   sunny           -5°C    
- 5 km/h (g23)\nTue 15:00       6      0 cm   sunny           -5°C    5 km/
- h (g23)\n\nWeather at 2600 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: Sunny\, with the 1
- 6 km Sarenne run.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull
-  forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhu
- ez
+ sunny           -3°C    3 km/h (g11)\nTue 10:00       6      0 cm   sunny
+            -3°C    3 km/h (g11)\nTue 11:00       6      0 cm   sunny     
+       -3°C    2 km/h (g7)\nTue 12:00       6      0 cm   sunny           
+ -2°C    2 km/h (g7)\nTue 13:00       6      0 cm   sunny           -2°C 
+    2 km/h (g7)\nTue 14:00       6      0 cm   sunny           -2°C    2 k
+ m/h (g10)\nTue 15:00       6      0 cm   sunny           -3°C    3 km/h (
+ g10)\n\nWeather at 2600 m. Snow depth and new snow are the weather model's
+  numbers\, not the resort's own snow report.\nNotes: Sunny\, with the 16 k
+ m Sarenne run.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhuez
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhuez
 LOCATION:Alpe d'Huez
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:41ca75b5e969ae14@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
-SUMMARY:🤏 Alpe d'Huez 6/10 · 96 cm of snow · sunny · -5°C
+SUMMARY:🤏 Alpe d'Huez 5.5/10 · 90 cm of snow · sunny · -2°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nWed 09:00     5.5      0 cm 
+   sunny           -2°C    3 km/h (g25)\nWed 10:00     5.5      0 cm   sun
+ ny           -2°C    3 km/h (g25)\nWed 11:00     5.5      0 cm   sunny   
+         -1°C    4 km/h (g20)\nWed 12:00     5.5      0 cm   sunny        
+    -1°C    4 km/h (g20)\nWed 13:00     5.5      0 cm   sunny           -1
+ °C    4 km/h (g20)\nWed 14:00     5.5      0 cm   sunny           -0°C  
+   4 km/h (g13)\nWed 15:00     5.5      0 cm   sunny           -0°C    3 k
+ m/h (g13)\n\nWeather at 2600 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Sunny\, with the
+  16 km Sarenne run.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFu
+ ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-d
+ huez
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhuez
+LOCATION:Alpe d'Huez
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a962bbc9b135cb6e@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261203T090000Z
+DTEND:20261203T150000Z
+SUMMARY:🤏 Alpe d'Huez 6/10 · 90 cm of snow · sunny · -2°C
+DESCRIPTION:Best 6/10 at 11:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nThu 10:00       5      0 cm   
+ partly sunny    -2°C    8 km/h (g16)\nThu 11:00       6      0 cm   sunny
+            -2°C    8 km/h (g12)\nThu 12:00       6      0 cm   sunny     
+       -2°C    7 km/h (g12)\nThu 13:00       6      0 cm   sunny          
+  -2°C    6 km/h (g12)\nThu 14:00       6      0 cm   sunny           -2°
+ C    6 km/h (g21)\nThu 15:00       6      0 cm   sunny           -2°C    
+ 6 km/h (g21)\n\nWeather at 2600 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: Sunny\, with 
+ the 16 km Sarenne run.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\
+ nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alp
+ e-dhuez
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhuez
+LOCATION:Alpe d'Huez
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ec85222dd5cf9193@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261204T080000Z
+DTEND:20261204T150000Z
+SUMMARY:🤏 Alpe d'Huez 6/10 · 87 cm of snow · sunny · -7°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nWed 09:00       6      0 cm   
- sunny           -5°C    6 km/h (g22)\nWed 10:00       6      0 cm   sunny
-            -4°C    6 km/h (g22)\nWed 11:00       6      0 cm   sunny     
-       -4°C    6 km/h (g18)\nWed 12:00       6      0 cm   sunny          
-  -4°C    5 km/h (g18)\nWed 13:00       6      0 cm   sunny           -3°
- C    5 km/h (g18)\nWed 14:00       6      0 cm   sunny           -3°C    
- 5 km/h (g11)\nWed 15:00       6      0 cm   sunny           -3°C    6 km/
- h (g11)\n\nWeather at 2600 m. Snow depth and new snow are the weather mode
+ score  new snow  sky           temp   wind\nFri 09:00       6      0 cm   
+ sunny           -7°C   11 km/h (g45)\nFri 10:00       6      0 cm   sunny
+            -7°C   12 km/h (g45)\nFri 11:00       6      0 cm   sunny     
+       -7°C    9 km/h (g51)\nFri 12:00       6      0 cm   sunny          
+  -6°C    6 km/h (g39)\nFri 13:00       6      0 cm   sunny           -5°
+ C    3 km/h (g28)\nFri 14:00       6      0 cm   sunny           -5°C    
+ 1 km/h (g16)\nFri 15:00       6      0 cm   sunny           -6°C    1 km/
+ h (g17)\n\nWeather at 2600 m. Snow depth and new snow are the weather mode
  l's numbers\, not the resort's own snow report.\nNotes: Sunny\, with the 1
- 6 km Sarenne run.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull
+ 6 km Sarenne run.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull
   forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhu
  ez
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=alpe-dhuez

@@ -8,74 +8,50 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:8a73412e0675e45f@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261126T070000Z
-DTEND:20261126T180000Z
-SUMMARY:🔥 Bouznika 10/10 · 2.3m 13s NW · 2kn SSE
-DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: high. 4 wave models s
- ay 1.9 to 2.7 m.\n\nHour (local)  score  waves            wind\nThu 07:00 
-      10   2.3m 13.4s  NW    2kn (g4) SSE glassy\nThu 08:00      10   2.2m 
- 13.5s  NW    3kn (g5) SSE glassy\nThu 09:00      10   2.2m 13.4s  NW    2k
- n (g5)   S glassy\nThu 10:00       8   2.1m 12.3s  NW    1kn (g4) NNW glas
- sy\nThu 11:00       8   2.1m 12.3s  NW    3kn (g6)   N glassy\nThu 12:00  
-      8   2.1m 12.3s  NW    4kn (g8)   N glassy\nThu 13:00       8   2.0m 1
- 2.2s  NW    5kn (g11)   N onshore\nThu 14:00       6   2.0m 12.3s  NW    6
- kn (g12)   N onshore\nThu 15:00       6   2.0m 12.3s  NW    7kn (g13)   N 
- onshore\nThu 16:00       8   2.0m 11.9s  NW    6kn (g13) NNE onshore\nThu 
- 17:00       8   1.9m 11.2s  NW    4kn (g11)   N glassy\n\nGenerated 2026-1
- 1-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github
- .io/surf-calendar-plugin/#spot=bouznika
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=bouznika
-LOCATION:Bouznika
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:06a267d548d4e9f8@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261127T070000Z
-DTEND:20261127T140000Z
+DTEND:20261127T130000Z
 SUMMARY:🔥 Bouznika 8/10 · 1.4m 10s NW · 4kn SE
 DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: high. 4 wave models sa
  y 1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 07:00  
-      8   1.4m 10.1s  NW    4kn (g7)  SE glassy\nFri 08:00       8   1.3m 1
- 0.1s  NW    4kn (g8)  SE glassy\nFri 09:00       8   1.3m 10.2s  NW    4kn
-  (g8) ESE glassy\nFri 10:00       8   1.3m 10.2s  NW    5kn (g10)   E offs
- hore\nFri 11:00       7   1.3m 10.2s  NW    6kn (g12) ENE cross\nFri 12:00
-        7   1.3m 10.2s  NW    7kn (g14)  NE cross\nFri 13:00       7   1.3m
-  10.2s  NW    8kn (g15) NNE cross\n\nGenerated 2026-11-26 16:00 UTC from O
- pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
- gin/#spot=bouznika
+      8   1.4m 10.2s  NW    4kn (g7)  SE glassy\nFri 08:00       8   1.4m 1
+ 0.1s  NW    4kn (g7)  SE glassy\nFri 09:00       8   1.3m 10.2s  NW    4kn
+  (g7) ESE glassy\nFri 10:00       7   1.3m 10.2s  NW    6kn (g11)   E cros
+ s\nFri 11:00       7   1.3m 10.2s  NW    8kn (g15) ENE cross\nFri 12:00   
+   5.5   1.3m 10.2s  NW    8kn (g16)  NE cross\n\nGenerated 2026-11-27 12:0
+ 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
+ calendar-plugin/#spot=bouznika
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=bouznika
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a883b10e30af1414@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Bouznika 9/10 · 1.5m 12s NW · 4kn SSE
-DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: medium. 4 wave models 
- say 1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nSat 07:00
-        9   1.5m 12.3s  NW    4kn (g7) SSE glassy\nSat 08:00       9   1.5m
-  12.2s  NW    4kn (g7) SSE glassy\nSat 09:00       9   1.5m 12.3s  NW    4
- kn (g7) SSE glassy\nSat 10:00       9   1.5m 12.3s  NW    3kn (g8) SSE gla
- ssy\nSat 11:00       8   1.6m 14.1s  NW    0kn (g6)   W glassy\nSat 12:00 
-     8.5   1.6m 14.8s  NW    2kn (g5)  NW glassy\nSat 13:00     8.5   1.7m 
- 14.8s  NW    4kn (g9)  NW glassy\nSat 14:00     8.5   1.7m 14.8s  NW    6k
- n (g11) NNW onshore\nSat 15:00     8.5   1.7m 14.8s  NW    6kn (g11) NNW o
- nshore\nSat 16:00     8.5   1.8m 14.8s  NW    5kn (g11) NNW glassy\nSat 17
- :00     8.5   1.8m 14.8s  NW    3kn (g9) NNW glassy\n\nGenerated 2026-11-2
- 6 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io
- /surf-calendar-plugin/#spot=bouznika
+DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: high. 4 wave models sa
+ y 1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nSat 07:00  
+      9   1.5m 12.3s  NW    4kn (g8) SSE glassy\nSat 08:00       9   1.5m 1
+ 2.2s  NW    4kn (g8) SSE glassy\nSat 09:00       9   1.5m 12.3s  NW    4kn
+  (g7) SSE glassy\nSat 10:00       9   1.6m 12.3s  NW    4kn (g7)   S glass
+ y\nSat 11:00     8.5   1.6m 14.1s  NW    2kn (g7)  SW glassy\nSat 12:00   
+   8.5   1.6m 14.8s  NW    3kn (g6) WNW glassy\nSat 13:00     8.5   1.7m 14
+ .8s  NW    5kn (g10)  NW glassy\nSat 14:00     8.5   1.7m 14.8s  NW    5kn
+  (g10)  NW onshore\nSat 15:00     8.5   1.8m 14.8s  NW    5kn (g11) NNW on
+ shore\nSat 16:00     8.5   1.8m 14.8s  NW    4kn (g10)  NW glassy\nSat 17:
+ 00     8.5   1.8m 14.8s  NW    2kn (g8) NNW glassy\n\nGenerated 2026-11-27
+  12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
+ surf-calendar-plugin/#spot=bouznika
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=bouznika
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:35d6285ae7ffe5bc@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 Bouznika 10/10 · 2.0m 14s NW · 4kn SSE
@@ -83,107 +59,130 @@ DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: medium. 4 wave models
   say 1.9 to 2.1 m.\n\nHour (local)  score  waves            wind\nSun 07:0
  0      10   2.0m 13.5s  NW    4kn (g8) SSE glassy\nSun 08:00      10   2.0
  m 13.5s  NW    4kn (g8) SSE glassy\nSun 09:00      10   2.0m 13.5s  NW    
- 4kn (g8) SSE glassy\nSun 10:00      10   2.0m 13.5s  NW    5kn (g9) SSE gl
- assy\nSun 11:00      10   2.0m 13.5s  NW    2kn (g9) SSE glassy\nSun 12:00
+ 4kn (g8) SSE glassy\nSun 10:00      10   2.0m 13.5s  NW    4kn (g9)   S gl
+ assy\nSun 11:00      10   2.0m 13.5s  NW    1kn (g8)   S glassy\nSun 12:00
       8.5   2.0m 13.5s  NW    2kn (g5) NNW glassy\nSun 13:00     8.5   2.0m
-  13.5s  NW    5kn (g10) NNW onshore\nSun 14:00     8.5   2.0m 13.5s  NW   
-  6kn (g12) NNW onshore\nSun 15:00     8.5   2.0m 13.5s  NW    6kn (g12) NN
- W onshore\nSun 16:00     8.5   2.0m 13.5s  NW    6kn (g12) NNW onshore\nSu
- n 17:00     8.5   2.0m 13.5s  NW    4kn (g10)   N glassy\n\nGenerated 2026
- -11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gith
- ub.io/surf-calendar-plugin/#spot=bouznika
+  13.5s  NW    4kn (g9) NNW glassy\nSun 14:00     6.5   2.0m 13.5s  NW    6
+ kn (g12) NNW onshore\nSun 15:00     8.5   2.0m 13.5s  NW    6kn (g12) NNW 
+ onshore\nSun 16:00     8.5   2.0m 13.5s  NW    5kn (g12) NNW onshore\nSun 
+ 17:00     8.5   2.0m 13.5s  NW    4kn (g10) NNW glassy\n\nGenerated 2026-1
+ 1-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github
+ .io/surf-calendar-plugin/#spot=bouznika
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=bouznika
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:be7cfabea6d28d44@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Bouznika 10/10 · 1.8m 13s NW · 4kn SSE
-DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: low. 3 wave models sa
- y 1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
-     10   1.8m 13.1s  NW    4kn (g7) SSE glassy\nMon 08:00     9.5   1.8m 1
- 2.8s  NW    4kn (g7) SSE glassy\nMon 09:00     9.5   1.8m 12.5s  NW    4kn
-  (g7)  SE glassy\nMon 10:00     9.5   1.8m 12.4s  NW    2kn (g12) ESE glas
- sy\nMon 11:00     8.5   1.8m 12.4s  NW    4kn (g12)  NE glassy\nMon 12:00 
-       8   1.8m 12.4s  NW    6kn (g12) NNE onshore\nMon 13:00       6   1.8
- m 12.4s  NW    7kn (g16) NNE onshore\nMon 14:00       6   1.8m 12.4s  NW  
-   8kn (g16) NNE onshore\nMon 15:00       6   1.8m 12.5s  NW    8kn (g16) N
- NE onshore\nMon 16:00       6   1.8m 12.6s  NW    8kn (g12) NNE onshore\nM
- on 17:00     8.5   1.8m 12.7s  NW    6kn (g12)  NE cross\n\nGenerated 2026
- -11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gith
- ub.io/surf-calendar-plugin/#spot=bouznika
+SUMMARY:🔥 Bouznika 10/10 · 1.9m 13s NW · 4kn SSE
+DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: medium. 3 wave models
+  say 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nMon 07:0
+ 0      10   1.9m 13.2s  NW    4kn (g7) SSE glassy\nMon 08:00     9.5   1.9
+ m 12.9s  NW    4kn (g7) SSE glassy\nMon 09:00     9.5   1.9m 12.6s  NW    
+ 3kn (g7) SSE glassy\nMon 10:00     9.5   1.9m 12.6s  NW    2kn (g5) ESE gl
+ assy\nMon 11:00     8.5   1.8m 12.6s  NW    3kn (g7) ENE glassy\nMon 12:00
+      8.5   1.8m 12.6s  NW    5kn (g10)  NE glassy\nMon 13:00       6   1.8
+ m 12.6s  NW    6kn (g15) NNE onshore\nMon 14:00       6   1.8m 12.6s  NW  
+   7kn (g15) NNE onshore\nMon 15:00       6   1.8m 12.6s  NW    8kn (g15) N
+ NE onshore\nMon 16:00       6   1.8m 12.7s  NW    7kn (g13) NNE onshore\nM
+ on 17:00       6   1.8m 12.7s  NW    6kn (g13) NNE onshore\n\nGenerated 20
+ 26-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=bouznika
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=bouznika
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:817479d59d7d108a@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261201T070000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Bouznika 9.5/10 · 1.7m 12s NW · 4kn SSE
+SUMMARY:🔥 Bouznika 9.5/10 · 1.8m 12s NW · 3kn SSE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 3 wave models s
  ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 07:00 
-     9.5   1.7m 12.4s  NW    4kn (g7) SSE glassy\nTue 08:00     9.5   1.7m 
- 12.4s  NW    3kn (g7)  SE glassy\nTue 09:00     9.5   1.7m 12.3s  NW    2k
- n (g7)  SE glassy\nTue 10:00     8.5   1.7m 12.3s  NW    2kn (g9)   E glas
- sy\nTue 11:00     8.5   1.7m 12.3s  NW    3kn (g9)  NE glassy\nTue 12:00  
-      8   1.6m 12.4s  NW    4kn (g8) NNE glassy\nTue 13:00       6   1.6m 1
- 2.4s  NW    6kn (g15) NNE onshore\nTue 14:00     5.5   1.6m 12.4s  NW    8
- kn (g15) NNE onshore\nTue 15:00     5.5   1.6m 12.4s  NW    9kn (g15) NNE 
- onshore\nTue 16:00     5.5   1.6m 12.4s  NW    8kn (g12) NNE onshore\nTue 
- 17:00       8   1.6m 12.4s  NW    8kn (g12) NNE cross\n\nGenerated 2026-11
- -26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
- io/surf-calendar-plugin/#spot=bouznika
+     9.5   1.8m 12.4s  NW    3kn (g6) SSE glassy\nTue 08:00     9.5   1.8m 
+ 12.4s  NW    3kn (g6) SSE glassy\nTue 09:00     9.5   1.8m 12.4s  NW    3k
+ n (g6) SSE glassy\nTue 10:00     9.5   1.8m 12.4s  NW    2kn (g6)  SE glas
+ sy\nTue 11:00     8.5   1.7m 12.4s  NW    1kn (g6)  NE glassy\nTue 12:00  
+      8   1.7m 12.4s  NW    3kn (g6) NNE glassy\nTue 13:00       8   1.7m 1
+ 2.4s  NW    4kn (g13)   N glassy\nTue 14:00       6   1.6m 12.4s  NW    6k
+ n (g13)   N onshore\nTue 15:00       6   1.6m 12.4s  NW    7kn (g13)   N o
+ nshore\nTue 16:00       6   1.6m 12.4s  NW    7kn (g11) NNE onshore\nTue 1
+ 7:00     7.5   1.6m 12.4s  NW    6kn (g11) NNE onshore\n\nGenerated 2026-1
+ 1-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github
+ .io/surf-calendar-plugin/#spot=bouznika
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=bouznika
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da5b1139d92a6bad@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261202T070000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Bouznika 9/10 · 1.3m 12s NW · 4kn SE
+SUMMARY:🔥 Bouznika 9/10 · 1.3m 12s NW · 4kn SSE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 3 wave models say
-  1.2 to 1.4 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
-     9   1.3m 12.1s  NW    4kn (g7)  SE glassy\nWed 08:00       9   1.3m 12
- .1s  NW    4kn (g7)  SE glassy\nWed 09:00       9   1.3m 12.2s  NW    3kn 
- (g7)  SE glassy\nWed 10:00       9   1.3m 12.2s  NW    2kn (g9)   E glassy
- \nWed 11:00       8   1.3m 12.2s  NW    3kn (g9)  NE glassy\nWed 12:00    
-  7.5   1.3m 12.2s  NW    5kn (g9) NNE glassy\nWed 13:00     5.5   1.3m 12.
- 2s  NW    6kn (g15) NNE onshore\nWed 14:00     5.5   1.2m 12.2s  NW    8kn
-  (g15) NNE onshore\nWed 15:00     5.5   1.2m 12.2s  NW    9kn (g15) NNE on
- shore\nWed 16:00     5.5   1.3m 12.2s  NW    8kn (g11) NNE onshore\nWed 17
- :00     5.5   1.3m 12.2s  NW    7kn (g11) NNE onshore\n\nGenerated 2026-11
- -26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
- io/surf-calendar-plugin/#spot=bouznika
+  1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
+     9   1.3m 12.0s  NW    4kn (g6) SSE glassy\nWed 08:00       9   1.3m 12
+ .0s  NW    4kn (g6) SSE glassy\nWed 09:00       9   1.3m 12.1s  NW    3kn 
+ (g6)  SE glassy\nWed 10:00       9   1.3m 12.1s  NW    2kn (g7) ESE glassy
+ \nWed 11:00       8   1.3m 12.2s  NW    2kn (g7)  NE glassy\nWed 12:00    
+  7.5   1.2m 12.2s  NW    4kn (g7) NNE glassy\nWed 13:00     7.5   1.2m 12.
+ 2s  NW    5kn (g12) NNE onshore\nWed 14:00     5.5   1.2m 12.2s  NW    6kn
+  (g12) NNE onshore\nWed 15:00     5.5   1.2m 12.2s  NW    7kn (g12) NNE on
+ shore\nWed 16:00     7.5   1.2m 12.2s  NW    6kn (g8) NNE onshore\nWed 17:
+ 00       8   1.3m 12.2s  NW    5kn (g8) NNE glassy\n\nGenerated 2026-11-27
+  12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
+ surf-calendar-plugin/#spot=bouznika
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=bouznika
 LOCATION:Bouznika
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:15093b625b9d9c34@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261203T070000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Bouznika 9/10 · 1.3m 11s NW · 4kn SSE
+SUMMARY:🔥 Bouznika 9/10 · 1.3m 12s NW · 4kn SE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 3 wave models say
-  1.2 to 1.5 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
-     9   1.3m 11.4s  NW    4kn (g8) SSE glassy\nThu 08:00       9   1.4m 11
- .4s  NW    4kn (g8) SSE glassy\nThu 09:00       9   1.4m 11.5s  NW    4kn 
- (g8) SSE glassy\nThu 10:00       9   1.4m 11.5s  NW    2kn (g6)  SE glassy
- \nThu 11:00       8   1.4m 11.5s  NW    1kn (g6) NNE glassy\nThu 12:00    
-  7.5   1.4m 11.5s  NW    3kn (g6)   N glassy\nThu 13:00     7.5   1.4m 11.
- 6s  NW    4kn (g10)   N glassy\nThu 14:00     7.5   1.4m 11.6s  NW    6kn 
- (g10)   N onshore\nThu 15:00     7.5   1.4m 11.6s  NW    6kn (g10)   N ons
- hore\nThu 16:00     7.5   1.5m 11.7s  NW    5kn (g8) NNE onshore\nThu 17:0
- 0     7.5   1.5m 11.7s  NW    4kn (g8) NNE glassy\n\nGenerated 2026-11-26 
- 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
- urf-calendar-plugin/#spot=bouznika
+  1.2 to 1.4 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
+     9   1.3m 12.0s  NW    4kn (g7)  SE glassy\nThu 08:00       9   1.3m 12
+ .1s  NW    4kn (g7)  SE glassy\nThu 09:00       9   1.3m 12.0s  NW    4kn 
+ (g7)  SE glassy\nThu 10:00       9   1.3m 11.8s  NW    3kn (g4)  SE glassy
+ \nThu 11:00       9   1.3m 11.7s  NW    1kn (g4) ESE glassy\nThu 12:00    
+    8   1.3m 11.5s  NW    1kn (g4)  NE glassy\nThu 13:00     7.5   1.3m 11.
+ 4s  NW    3kn (g9) NNE glassy\nThu 14:00     7.5   1.3m 11.4s  NW    4kn (
+ g9)   N glassy\nThu 15:00     7.5   1.3m 11.5s  NW    5kn (g9)   N glassy\
+ nThu 16:00     7.5   1.3m 11.5s  NW    4kn (g6)   N glassy\nThu 17:00     
+ 7.5   1.3m 11.6s  NW    2kn (g6) NNE glassy\n\nGenerated 2026-11-27 12:00 
+ UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-ca
+ lendar-plugin/#spot=bouznika
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=bouznika
+LOCATION:Bouznika
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a1cf4e217522c9c8@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261204T070000Z
+DTEND:20261204T180000Z
+SUMMARY:🔥 Bouznika 9.5/10 · 1.5m 13s NW · 5kn SSE
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 2 wave models s
+ ay 1.4 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 07:00 
+     9.5   1.5m 13.1s  NW    5kn (g8) SSE glassy\nFri 08:00     9.5   1.5m 
+ 13.1s  NW    4kn (g8) SSE glassy\nFri 09:00     9.5   1.5m 13.0s  NW    4k
+ n (g8)   S glassy\nFri 10:00       8   1.4m 12.9s  NW    2kn (g6)  SW glas
+ sy\nFri 11:00     7.5   1.4m 12.8s  NW    2kn (g7) WNW glassy\nFri 12:00  
+    7.5   1.4m 12.8s  NW    3kn (g8) NNW glassy\nFri 13:00     7.5   1.4m 1
+ 2.7s  NW    3kn (g10)   N glassy\nFri 14:00     7.5   1.4m 12.6s  NW    3k
+ n (g11)   N glassy\nFri 15:00     7.5   1.4m 12.6s  NW    3kn (g12)   N gl
+ assy\nFri 16:00     7.5   1.4m 12.5s  NW    3kn (g12) NNE glassy\nFri 17:0
+ 0     7.5   1.3m 12.4s  NW    3kn (g13) NNE glassy\n\nGenerated 2026-11-27
+  12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
+ surf-calendar-plugin/#spot=bouznika
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=bouznika
 LOCATION:Bouznika
 TRANSP:TRANSPARENT

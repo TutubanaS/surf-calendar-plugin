@@ -9,55 +9,18 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:72c9ddf96c94ee17@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T100000Z
-SUMMARY:🤏 Garmisch-Partenkirchen 5/10 · 21 cm of snow · sunny · -6°C
+SUMMARY:🤏 Garmisch-Partenkirchen 5/10 · 20 cm of snow · sunny · -6°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
   score  new snow  sky           temp   wind\nSat 09:00       5      0 cm  
-  sunny           -6°C    2 km/h (g15)\nSat 10:00       5      0 cm   sunn
- y           -4°C    6 km/h (g14)\n\nWeather at 1620 m. Snow depth and new
+  sunny           -6°C    5 km/h (g17)\nSat 10:00       5      0 cm   sunn
+ y           -4°C    2 km/h (g14)\n\nWeather at 1620 m. Snow depth and new
   snow are the weather model's numbers\, not the resort's own snow report.\
- nNotes: Kandahar World Cup run.\nGenerated 2026-11-27 01:00 UTC from Open-
+ nNotes: Kandahar World Cup run.\nGenerated 2026-11-27 12:00 UTC from Open-
  Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/
  #spot=garmisch
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=garmisch
-LOCATION:Garmisch-Partenkirchen
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2b9d14feeafe1a14@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261202T080000Z
-DTEND:20261202T110000Z
-SUMMARY:🤏 Garmisch-Partenkirchen 5/10 · 14 cm of snow · sunny · -5°C
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nWed 09:00       5      0 cm   
- sunny           -5°C    5 km/h (g14)\nWed 10:00       5      0 cm   sunny
-            -4°C    4 km/h (g14)\nWed 11:00       5      0 cm   sunny     
-       -2°C    4 km/h (g17)\n\nWeather at 1620 m. Snow depth and new snow 
- are the weather model's numbers\, not the resort's own snow report.\nNotes
- : Kandahar World Cup run.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.
- \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
- garmisch
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=garmisch
-LOCATION:Garmisch-Partenkirchen
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2779b0ae7ae1b1b0@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261203T080000Z
-DTEND:20261203T100000Z
-SUMMARY:🤏 Garmisch-Partenkirchen 5/10 · 13 cm of snow · sunny · -4°C
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nThu 09:00       5      0 cm   
- sunny           -4°C    4 km/h (g18)\nThu 10:00       5      0 cm   sunny
-            -3°C    4 km/h (g18)\n\nWeather at 1620 m. Snow depth and new 
- snow are the weather model's numbers\, not the resort's own snow report.\n
- Notes: Kandahar World Cup run.\nGenerated 2026-11-27 01:00 UTC from Open-M
- eteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#
- spot=garmisch
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=garmisch
 LOCATION:Garmisch-Partenkirchen
 TRANSP:TRANSPARENT

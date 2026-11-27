@@ -9,131 +9,131 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:4be39de703dbaf3e@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
-SUMMARY:🔥 Praia da Barra 8.5/10 · 1.6m 12s WNW · 2kn SSE
-DESCRIPTION:Best 8.5/10 at 17:00. Forecast confidence: high. 4 wave models 
- say 1.4 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:00
-        8   1.5m 10.0s WNW    3kn (g5)  SE glassy\nFri 09:00       7   1.6m
-  10.2s WNW    3kn (g7)  SE glassy\nFri 10:00       7   1.6m 10.8s WNW    4
- kn (g9)  SE glassy\nFri 11:00       8   1.6m 11.7s WNW    4kn (g11)   S gl
- assy\nFri 12:00     7.5   1.6m 12.3s WNW    4kn (g9) SSW glassy\nFri 13:00
-      7.5   1.6m 12.3s WNW    5kn (g10)  SW glassy\nFri 14:00     7.5   1.6
- m 12.3s WNW    4kn (g10)  SW glassy\nFri 15:00     7.5   1.6m 12.3s WNW   
-  4kn (g9)  SW glassy\nFri 16:00       8   1.6m 12.2s WNW    3kn (g8)   S g
- lassy\nFri 17:00     8.5   1.6m 12.1s WNW    2kn (g6) SSE glassy\n\nGenera
- ted 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
- nas.github.io/surf-calendar-plugin/#spot=praia-da-barra
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
-LOCATION:Praia da Barra
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:3edc66e3d8a1229f@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261128T080000Z
-DTEND:20261128T180000Z
-SUMMARY:👍 Praia da Barra 7/10 · 2.4m 14s NW · 4kn SSE
-DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: high. 4 wave models sa
- y 2.0 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
-      7   2.4m 13.5s  NW    4kn (g9) SSE glassy\nSat 09:00       7   2.4m 1
- 3.5s  NW    4kn (g9) SSE glassy\nSat 10:00       7   2.4m 13.5s  NW    5kn
-  (g10) SSE glassy\nSat 11:00       7   2.4m 13.5s  NW    5kn (g10) SSE cro
- ss\nSat 12:00       7   2.4m 13.5s  NW    6kn (g11) SSE cross\nSat 13:00  
-      7   2.4m 13.5s  NW    5kn (g11)   S cross\nSat 14:00       7   2.4m 1
- 3.5s WNW    4kn (g10)   S glassy\nSat 15:00       7   2.4m 13.5s WNW    3k
- n (g9)   S glassy\nSat 16:00       7   2.3m 13.5s WNW    3kn (g7) SSE glas
- sy\nSat 17:00       7   2.3m 13.5s WNW    2kn (g5)  SE glassy\n\nGenerated
-  2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
- .github.io/surf-calendar-plugin/#spot=praia-da-barra
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
-LOCATION:Praia da Barra
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ed5a73b7026c4ce9@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261129T080000Z
-DTEND:20261129T180000Z
-SUMMARY:🔥 Praia da Barra 9/10 · 2.2m 14s NW · 1kn N
-DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: medium. 4 wave models 
- say 1.9 to 2.5 m.\n\nHour (local)  score  waves            wind\nSun 08:00
-        9   2.2m 13.5s  NW    1kn (g2)   N glassy\nSun 09:00       9   2.2m
-  13.5s  NW    1kn (g3)  NE glassy\nSun 10:00       9   2.2m 13.5s  NW    2
- kn (g5)   N glassy\nSun 11:00       9   2.1m 13.5s  NW    4kn (g9)   N gla
- ssy\nSun 12:00     8.5   2.2m 13.5s  NW    5kn (g10) NNW glassy\nSun 13:00
-      6.5   2.2m 13.2s  NW    7kn (g15)  NW onshore\nSun 14:00       6   2.
- 2m 12.7s  NW    9kn (g18) NNW onshore\nSun 15:00       7   2.2m 12.3s  NW 
-    9kn (g18) NNW cross\nSun 16:00     8.5   2.2m 12.3s  NW    8kn (g18) NN
- W cross\nSun 17:00     8.5   2.1m 12.3s  NW    5kn (g15)   N cross\n\nGene
- rated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
- banas.github.io/surf-calendar-plugin/#spot=praia-da-barra
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
-LOCATION:Praia da Barra
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:91eaeb00cb9231d1@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261130T080000Z
-DTEND:20261130T180000Z
-SUMMARY:🔥 Praia da Barra 9.5/10 · 1.8m 13s NW · 2kn SE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
- ay 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     9.5   1.8m 12.7s  NW    2kn (g5)  SE glassy\nMon 09:00     8.5   1.8m 
- 12.7s  NW    2kn (g5)  SE glassy\nMon 10:00     8.5   1.9m 12.8s  NW    2k
- n (g8) SSE glassy\nMon 11:00     8.5   1.9m 12.8s  NW    3kn (g8)   S glas
- sy\nMon 12:00     8.5   1.9m 12.8s  NW    3kn (g8)   S glassy\nMon 13:00  
-    8.5   1.8m 12.8s  NW    3kn (g9) SSW glassy\nMon 14:00       8   1.8m 1
- 2.9s  NW    4kn (g9) SSW glassy\nMon 15:00       8   1.7m 12.9s  NW    4kn
-  (g9)  SW glassy\nMon 16:00       8   1.7m 12.8s  NW    3kn (g4)  SW glass
- y\nMon 17:00       8   1.7m 12.8s  NW    2kn (g4)  SW glassy\n\nGenerated 
- 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+SUMMARY:🔥 Praia da Barra 8/10 · 1.5m 10s WNW · 2kn SE
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 4 wave models sa
+ y 1.3 to 1.7 m.\n\nHour (local)  score  waves            wind\nFri 08:00  
+      8   1.5m 10.0s WNW    2kn (g5)  SE glassy\nFri 09:00       7   1.6m 1
+ 0.2s WNW    3kn (g6)  SE glassy\nFri 10:00       7   1.6m 10.8s WNW    4kn
+  (g8)  SE glassy\nFri 11:00       8   1.6m 11.7s WNW    4kn (g10) SSE glas
+ sy\nFri 12:00       8   1.6m 12.3s WNW    4kn (g9)   S glassy\nFri 13:00  
+    7.5   1.6m 12.3s WNW    4kn (g9) SSW glassy\nFri 14:00       8   1.6m 1
+ 2.3s WNW    3kn (g9) SSW glassy\nFri 15:00       8   1.6m 12.3s WNW    3kn
+  (g7) SSW glassy\nFri 16:00       8   1.6m 12.2s WNW    3kn (g7)  SW glass
+ y\nFri 17:00       8   1.6m 12.1s WNW    3kn (g6) SSW glassy\n\nGenerated 
+ 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=praia-da-barra
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
 LOCATION:Praia da Barra
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:3edc66e3d8a1229f@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261128T080000Z
+DTEND:20261128T180000Z
+SUMMARY:👍 Praia da Barra 7/10 · 2.4m 14s WNW · 4kn SSE
+DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: high. 4 wave models sa
+ y 2.0 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
+      7   2.4m 13.5s WNW    4kn (g9) SSE glassy\nSat 09:00       7   2.4m 1
+ 3.5s WNW    5kn (g10) SSE cross\nSat 10:00       7   2.4m 13.5s WNW    5kn
+  (g10) SSE glassy\nSat 11:00       7   2.3m 13.5s WNW    5kn (g10) SSE cro
+ ss\nSat 12:00       7   2.3m 13.5s WNW    6kn (g12) SSE cross\nSat 13:00  
+      7   2.3m 13.5s WNW    6kn (g13)   S cross\nSat 14:00       7   2.3m 1
+ 3.5s WNW    6kn (g13) SSW cross\nSat 15:00       7   2.3m 13.5s WNW    3kn
+  (g12) SSW glassy\nSat 16:00       7   2.3m 13.5s WNW    3kn (g10)   S gla
+ ssy\nSat 17:00       7   2.3m 13.5s  NW    2kn (g6)   S glassy\n\nGenerate
+ d 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ s.github.io/surf-calendar-plugin/#spot=praia-da-barra
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
+LOCATION:Praia da Barra
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ed5a73b7026c4ce9@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T180000Z
+SUMMARY:🔥 Praia da Barra 10/10 · 2.1m 14s NW · 2kn ESE
+DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: medium. 4 wave models
+  say 1.8 to 2.5 m.\n\nHour (local)  score  waves            wind\nSun 08:0
+ 0      10   2.1m 13.5s  NW    2kn (g5) ESE glassy\nSun 09:00      10   2.1
+ m 13.5s  NW    2kn (g5) ESE glassy\nSun 10:00       9   2.2m 13.5s  NW    
+ 1kn (g5)   S glassy\nSun 11:00       9   2.2m 13.5s  NW    1kn (g3)   S gl
+ assy\nSun 12:00     8.5   2.2m 13.5s  NW    1kn (g3) WNW glassy\nSun 13:00
+      8.5   2.2m 13.2s  NW    4kn (g9) WNW glassy\nSun 14:00       8   2.2m
+  12.9s  NW    5kn (g10)  NW glassy\nSun 15:00       8   2.2m 12.3s  NW    
+ 5kn (g10) NNW onshore\nSun 16:00       8   2.2m 12.3s  NW    6kn (g12) NNW
+  onshore\nSun 17:00     8.5   2.1m 12.3s  NW    5kn (g12)   N cross\n\nGen
+ erated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tut
+ ubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
+LOCATION:Praia da Barra
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:91eaeb00cb9231d1@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261130T080000Z
+DTEND:20261130T180000Z
+SUMMARY:🔥 Praia da Barra 9.5/10 · 1.9m 13s NW · 2kn SE
+DESCRIPTION:Best 9.5/10 at 09:00. Forecast confidence: medium. 3 wave model
+ s say 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 08:
+ 00     8.5   1.9m 12.7s  NW    2kn (g5) SSE glassy\nMon 09:00     9.5   1.
+ 9m 12.7s  NW    2kn (g6)  SE glassy\nMon 10:00     8.5   1.9m 12.8s  NW   
+  2kn (g5)  SE glassy\nMon 11:00     8.5   1.9m 12.8s  NW    3kn (g7) SSE g
+ lassy\nMon 12:00     8.5   1.9m 12.8s  NW    4kn (g9) SSE glassy\nMon 13:0
+ 0     8.5   1.9m 12.9s  NW    4kn (g10)   S glassy\nMon 14:00     8.5   1.
+ 8m 12.9s  NW    5kn (g10) SSW cross\nMon 15:00       8   1.8m 12.9s  NW   
+  5kn (g10) SSW onshore\nMon 16:00       8   1.8m 12.9s  NW    4kn (g5) SSW
+  glassy\nMon 17:00       8   1.7m 12.8s  NW    3kn (g5)  SW glassy\n\nGene
+ rated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
+ banas.github.io/surf-calendar-plugin/#spot=praia-da-barra
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
+LOCATION:Praia da Barra
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a1bfc3d0824dbb11@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Praia da Barra 9/10 · 1.5m 12s WNW · 3kn SE
+SUMMARY:🔥 Praia da Barra 9/10 · 1.6m 12s WNW · 2kn ESE
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
-     9   1.5m 12.4s WNW    3kn (g6)  SE glassy\nTue 09:00       9   1.5m 12
- .4s WNW    3kn (g6)  SE glassy\nTue 10:00       9   1.5m 12.4s WNW    3kn 
- (g8)  SE glassy\nTue 11:00       8   1.5m 12.4s WNW    3kn (g8) SSE glassy
- \nTue 12:00       8   1.5m 12.4s   W    3kn (g8) SSE glassy\nTue 13:00    
-    8   1.5m 12.4s   W    4kn (g12) SSE glassy\nTue 14:00       8   1.5m 12
- .3s   W    5kn (g12) SSE cross\nTue 15:00       8   1.5m 12.2s   W    6kn 
- (g12) SSE cross\nTue 16:00       8   1.5m 12.1s   W    5kn (g5) SSE glassy
- \nTue 17:00       8   1.5m 12.1s   W    3kn (g5) SSE glassy\n\nGenerated 2
- 026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
- ithub.io/surf-calendar-plugin/#spot=praia-da-barra
+  1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
+     9   1.6m 12.4s WNW    2kn (g5) ESE glassy\nTue 09:00       9   1.5m 12
+ .4s WNW    3kn (g5) ESE glassy\nTue 10:00       9   1.5m 12.4s WNW    3kn 
+ (g10) ESE glassy\nTue 11:00       9   1.5m 12.4s WNW    4kn (g10)  SE glas
+ sy\nTue 12:00       9   1.5m 12.4s WNW    4kn (g10)  SE glassy\nTue 13:00 
+       8   1.5m 12.4s WNW    4kn (g9)  SE glassy\nTue 14:00       8   1.5m 
+ 12.3s WNW    4kn (g9) SSE glassy\nTue 15:00       8   1.5m 12.3s WNW    3k
+ n (g9)   S glassy\nTue 16:00       8   1.5m 12.2s WNW    3kn (g4) SSE glas
+ sy\nTue 17:00       8   1.5m 12.2s WNW    2kn (g4) SSE glassy\n\nGenerated
+  2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
+ .github.io/surf-calendar-plugin/#spot=praia-da-barra
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
 LOCATION:Praia da Barra
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6d1434670b2d9d8c@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Praia da Barra 8/10 · 1.5m 12s W · 6kn SSE
-DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.4 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
-     8   1.5m 11.5s   W    6kn (g12) SSE cross\nWed 09:00       8   1.5m 11
- .5s   W    6kn (g12) SSE cross\nWed 10:00       8   1.5m 11.4s   W    6kn 
- (g14) SSE cross\nWed 11:00       8   1.5m 11.4s   W    6kn (g14) SSE cross
- \nWed 12:00       8   1.6m 11.4s   W    7kn (g14) SSE cross\nWed 13:00    
-    8   1.6m 11.4s   W    7kn (g12) SSE cross\nWed 14:00       8   1.6m 11.
- 4s   W    6kn (g12)   S cross\nWed 15:00       8   1.6m 11.5s   W    5kn (
- g12)   S cross\nWed 16:00       8   1.6m 11.5s   W    5kn (g9)   S glassy\
- nWed 17:00       8   1.6m 11.6s WNW    4kn (g9)   S glassy\n\nGenerated 20
- 26-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+SUMMARY:🔥 Praia da Barra 9/10 · 1.5m 11s WNW · 2kn ESE
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
+  1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
+     9   1.5m 11.5s WNW    2kn (g4) ESE glassy\nWed 09:00       9   1.5m 11
+ .4s WNW    2kn (g4) ESE glassy\nWed 10:00       9   1.5m 11.4s WNW    2kn 
+ (g6)  SE glassy\nWed 11:00       8   1.5m 11.3s WNW    3kn (g6)  SE glassy
+ \nWed 12:00       8   1.5m 11.3s WNW    3kn (g6)  SE glassy\nWed 13:00    
+    8   1.5m 11.2s WNW    2kn (g5)  SE glassy\nWed 14:00       9   1.5m 11.
+ 2s WNW    2kn (g5)  SE glassy\nWed 15:00       9   1.5m 11.2s WNW    1kn (
+ g5) ESE glassy\nWed 16:00       9   1.5m 11.2s WNW    1kn (g3)  NE glassy\
+ nWed 17:00       8   1.6m 11.3s WNW    1kn (g3) NNE glassy\n\nGenerated 20
+ 26-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
  thub.io/surf-calendar-plugin/#spot=praia-da-barra
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
 LOCATION:Praia da Barra
@@ -141,22 +141,44 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0ed389264a75a1e3@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Praia da Barra 9/10 · 1.5m 11s NW · 1kn ESE
-DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.4 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
-     9   1.5m 11.4s  NW    1kn (g2) ESE glassy\nThu 09:00       9   1.5m 11
- .4s  NW    1kn (g2) ESE glassy\nThu 10:00       8   1.5m 11.5s  NW    1kn 
- (g5) SSE glassy\nThu 11:00       8   1.5m 11.6s  NW    2kn (g5)   S glassy
- \nThu 12:00       8   1.5m 11.7s  NW    2kn (g5) SSW glassy\nThu 13:00    
-  7.5   1.5m 11.7s  NW    2kn (g8) WSW glassy\nThu 14:00     7.5   1.5m 11.
- 8s  NW    3kn (g8)   W glassy\nThu 15:00     7.5   1.5m 11.9s  NW    4kn (
- g8) WNW glassy\nThu 16:00     7.5   1.5m 11.9s  NW    3kn (g6)  NW glassy\
- nThu 17:00     7.5   1.5m 11.9s  NW    2kn (g6) NNW glassy\n\nGenerated 20
- 26-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
- thub.io/surf-calendar-plugin/#spot=praia-da-barra
+SUMMARY:🔥 Praia da Barra 9.5/10 · 1.6m 12s WNW · 3kn E
+DESCRIPTION:Best 9.5/10 at 10:00. Forecast confidence: low. 3 wave models s
+ ay 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+       9   1.6m 12.0s WNW    3kn (g5) ESE glassy\nThu 09:00       9   1.6m 
+ 12.1s WNW    3kn (g5)   E glassy\nThu 10:00     9.5   1.6m 12.1s WNW    3k
+ n (g8)   E glassy\nThu 11:00     9.5   1.6m 12.2s WNW    4kn (g8) ESE glas
+ sy\nThu 12:00     9.5   1.6m 12.2s WNW    4kn (g8) ESE glassy\nThu 13:00  
+    9.5   1.6m 12.2s WNW    4kn (g8) ESE glassy\nThu 14:00     9.5   1.6m 1
+ 2.2s WNW    3kn (g8) ESE glassy\nThu 15:00     9.5   1.6m 12.2s WNW    3kn
+  (g8)   E glassy\nThu 16:00       9   1.6m 12.2s WNW    2kn (g2)   E glass
+ y\nThu 17:00       9   1.6m 12.1s WNW    2kn (g2)   E glassy\n\nGenerated 
+ 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=praia-da-barra
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
+LOCATION:Praia da Barra
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3e6bdac0fe2069eb@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261204T080000Z
+DTEND:20261204T180000Z
+SUMMARY:🔥 Praia da Barra 8/10 · 1.1m 12s NW · 2kn ESE
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 2 wave models say
+  1.1 to 1.1 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     8   1.1m 12.2s  NW    2kn (g2) ESE glassy\nFri 09:00       8   1.1m 12
+ .1s  NW    2kn (g2) ESE glassy\nFri 10:00       8   1.1m 12.1s  NW    3kn 
+ (g7) ESE glassy\nFri 11:00       8   1.0m 12.1s  NW    3kn (g9) ESE glassy
+ \nFri 12:00       8   1.0m 12.0s  NW    3kn (g11)   E glassy\nFri 13:00   
+     8   1.0m 11.9s  NW    3kn (g12)   E glassy\nFri 14:00       8   0.9m 1
+ 1.9s  NW    2kn (g12)   E glassy\nFri 15:00       8   0.9m 11.8s  NW    2k
+ n (g11) ENE glassy\nFri 16:00       8   0.9m 11.8s  NW    1kn (g10)  NE gl
+ assy\nFri 17:00       7   0.9m 11.8s  NW    1kn (g10) NNE glassy\n\nGenera
+ ted 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
+ nas.github.io/surf-calendar-plugin/#spot=praia-da-barra
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-da-barra
 LOCATION:Praia da Barra
 TRANSP:TRANSPARENT

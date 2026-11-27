@@ -8,17 +8,17 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:e89d39b7087aec19@surf-windows
-DTSTAMP:20261127T010000Z
-DTSTART:20261129T070000Z
-DTEND:20261129T090000Z
-SUMMARY:🤏 Petten 6/10 · 1.1m 6s SW · 7kn SSE
-DESCRIPTION:Best 6/10 at 08:00. Forecast confidence: medium. 5 wave models 
- say 0.9 to 1.3 m.\n\nHour (local)  score  waves            wind\nSun 08:00
-        6   1.1m  6.3s  SW    7kn (g12) SSE cross\nSun 09:00       6   1.1m
-   6.3s  SW    6kn (g11)   S cross\n\nGenerated 2026-11-27 01:00 UTC from O
- pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
- gin/#spot=petten
+UID:8bb2513527c01b22@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261202T080000Z
+DTEND:20261202T110000Z
+SUMMARY:🤏 Petten 5.5/10 · 1.7m 6s SW · 13kn S
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low. 4 wave models s
+ ay 1.3 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 09:00 
+     5.5   1.7m  6.2s  SW   13kn (g23)   S cross\nWed 10:00     5.5   1.7m 
+  6.2s  SW   13kn (g23)   S cross\nWed 11:00     5.5   1.6m  6.2s  SW   14k
+ n (g24)   S cross\n\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFu
+ ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=petten
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=petten
 LOCATION:Petten
 TRANSP:TRANSPARENT

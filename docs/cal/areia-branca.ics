@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:15aa57630c109558@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
-SUMMARY:🔥 Areia Branca 8.5/10 · 1.7m 10s WNW · 4kn SE
-DESCRIPTION:Best 8.5/10 at 09:00. Forecast confidence: high. 5 wave models 
+SUMMARY:🔥 Areia Branca 8.5/10 · 1.7m 10s WNW · 3kn SE
+DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: high. 5 wave models 
  say 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:00
-      7.5   1.7m 10.0s WNW    3kn (g7) SSE glassy\nFri 09:00     8.5   1.7m
-  10.2s WNW    4kn (g7)  SE glassy\nFri 10:00     7.5   1.7m 10.2s WNW    4
- kn (g9) SSE glassy\nFri 11:00     7.5   1.7m 10.2s WNW    6kn (g12)   S cr
- oss\nFri 12:00       7   1.7m 12.3s WNW    8kn (g15) SSW cross\nFri 13:00 
-       7   1.7m 12.3s WNW    9kn (g16)  SW cross\nFri 14:00       7   1.7m 
- 12.3s WNW    9kn (g16)  SW cross\nFri 15:00       7   1.7m 12.3s WNW    8k
- n (g16)  SW cross\nFri 16:00       6   1.7m 12.2s WNW    8kn (g16)  SW ons
- hore\nFri 17:00     8.5   1.7m 12.1s WNW    7kn (g14) SSW cross\n\nGenerat
- ed 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+      8.5   1.7m 10.0s WNW    3kn (g6)  SE glassy\nFri 09:00     7.5   1.7m
+  10.2s WNW    4kn (g7) SSE glassy\nFri 10:00     7.5   1.7m 10.2s WNW    6
+ kn (g11)   S cross\nFri 11:00     7.5   1.7m 10.2s WNW    7kn (g14) SSW cr
+ oss\nFri 12:00       7   1.7m 12.3s WNW    8kn (g15)  SW cross\nFri 13:00 
+       6   1.7m 12.3s WNW    9kn (g16)  SW onshore\nFri 14:00       7   1.7
+ m 12.3s WNW    8kn (g16)  SW cross\nFri 15:00       7   1.7m 12.3s WNW    
+ 9kn (g16)  SW cross\nFri 16:00       7   1.7m 12.2s WNW    8kn (g16) SSW c
+ ross\nFri 17:00     8.5   1.7m 12.1s WNW    7kn (g15) SSW cross\n\nGenerat
+ ed 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
  as.github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
@@ -31,132 +31,158 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:006762c0da894e24@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Areia Branca 8/10 · 2.6m 14s NW · 4kn ESE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 5 wave models sa
  y 2.3 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
       8   2.6m 13.9s  NW    4kn (g10) ESE glassy\nSat 09:00       8   2.6m 
- 13.5s  NW    5kn (g10) ESE glassy\nSat 10:00       8   2.6m 13.5s  NW    5
- kn (g10)  SE offshore\nSat 11:00       8   2.5m 13.5s  NW    6kn (g12)  SE
-  offshore\nSat 12:00       7   2.5m 13.5s  NW    7kn (g13) SSE cross\nSat 
- 13:00       7   2.5m 13.5s  NW    6kn (g13) SSE cross\nSat 14:00       7  
-  2.4m 13.5s  NW    6kn (g12)   S cross\nSat 15:00       7   2.4m 13.5s  NW
-     5kn (g11) SSW glassy\nSat 16:00     6.5   2.4m 13.5s  NW    4kn (g9)  
- SW glassy\nSat 17:00     6.5   2.4m 13.5s  NW    3kn (g8)  SW glassy\n\nGe
- nerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
- tubanas.github.io/surf-calendar-plugin/#spot=areia-branca
+ 13.5s  NW    5kn (g10)  SE glassy\nSat 10:00       8   2.6m 13.5s  NW    5
+ kn (g11)  SE offshore\nSat 11:00       8   2.5m 13.5s  NW    6kn (g11)  SE
+  offshore\nSat 12:00       8   2.5m 13.5s  NW    6kn (g12)  SE offshore\nS
+ at 13:00       7   2.5m 13.5s  NW    6kn (g12) SSE cross\nSat 14:00       
+ 7   2.5m 13.5s  NW    6kn (g12) SSE cross\nSat 15:00       7   2.5m 13.5s 
+  NW    4kn (g11)   S glassy\nSat 16:00       7   2.5m 13.5s  NW    4kn (g9
+ )   S glassy\nSat 17:00       7   2.5m 13.5s  NW    2kn (g6)   S glassy\n\
+ nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https:/
+ /tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f91cda8033a5f7af@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Areia Branca 8/10 · 2.3m 14s NW · 2kn SE
+SUMMARY:🔥 Areia Branca 8/10 · 2.4m 14s NW · 2kn SE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: medium. 5 wave models 
  say 2.2 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:00
-        8   2.3m 13.5s  NW    2kn (g4)  SE glassy\nSun 09:00       8   2.3m
-  13.5s  NW    2kn (g4) ESE glassy\nSun 10:00       8   2.4m 13.5s  NW    1
- kn (g4)   E glassy\nSun 11:00       7   2.4m 13.5s  NW    4kn (g8)   N gla
- ssy\nSun 12:00       7   2.4m 13.5s  NW    6kn (g10)   N cross\nSun 13:00 
-       7   2.4m 13.5s  NW    8kn (g14)   N cross\nSun 14:00     5.5   2.3m 
- 13.5s  NW   10kn (g19)   N cross\nSun 15:00     7.5   2.3m 13.5s  NW   11k
- n (g20)   N cross\nSun 16:00     7.5   2.2m 13.2s  NW   11kn (g21)   N cro
- ss\nSun 17:00       7   2.2m 12.7s  NW    9kn (g19) NNE cross\n\nGenerated
-  2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
- .github.io/surf-calendar-plugin/#spot=areia-branca
+        8   2.4m 13.5s  NW    2kn (g5)  SE glassy\nSun 09:00       8   2.3m
+  13.5s  NW    3kn (g5)  SE glassy\nSun 10:00       8   2.3m 13.5s  NW    2
+ kn (g5)  SE glassy\nSun 11:00       7   2.3m 13.5s  NW    2kn (g5) SSE gla
+ ssy\nSun 12:00     6.5   2.3m 13.5s  NW    2kn (g5) WSW glassy\nSun 13:00 
+     6.5   2.3m 13.5s  NW    2kn (g5)   W glassy\nSun 14:00     6.5   2.3m 
+ 13.5s  NW    3kn (g6)  NW glassy\nSun 15:00     6.5   2.3m 13.5s  NW    5k
+ n (g9) NNW glassy\nSun 16:00     6.5   2.3m 13.2s  NW    6kn (g11) NNW ons
+ hore\nSun 17:00     6.5   2.3m 12.7s  NW    5kn (g11)   N cross\n\nGenerat
+ ed 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:594bcde25fe55742@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Areia Branca 9.5/10 · 2.1m 13s NW · 2kn ESE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 2.1 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     9.5   2.1m 12.6s  NW    2kn (g5) ESE glassy\nMon 09:00     9.5   2.1m 
- 12.6s  NW    3kn (g5)  SE glassy\nMon 10:00     9.5   2.1m 12.6s  NW    2k
- n (g5)  SE glassy\nMon 11:00     8.5   2.1m 12.5s  NW    2kn (g5)   S glas
- sy\nMon 12:00     8.5   2.1m 12.5s  NW    2kn (g5) SSW glassy\nMon 13:00  
-      8   2.1m 12.6s  NW    2kn (g5)  SW glassy\nMon 14:00       8   2.1m 1
- 2.6s  NW    2kn (g5) WSW glassy\nMon 15:00       8   2.1m 12.6s  NW    2kn
-  (g5) WSW glassy\nMon 16:00       8   2.0m 12.7s  NW    2kn (g3) WSW glass
- y\nMon 17:00       8   2.0m 12.7s  NW    1kn (g3)   W glassy\n\nGenerated 
- 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=areia-branca
+SUMMARY:🔥 Areia Branca 9.5/10 · 2.1m 13s NW · 3kn E
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 4 wave model
+ s say 2.0 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:
+ 00     9.5   2.1m 12.7s  NW    3kn (g5)   E glassy\nMon 09:00     9.5   2.
+ 1m 12.6s  NW    3kn (g6) ESE glassy\nMon 10:00     9.5   2.1m 12.6s  NW   
+  3kn (g6) ESE glassy\nMon 11:00     9.5   2.2m 12.6s  NW    3kn (g6)   E g
+ lassy\nMon 12:00     9.5   2.2m 12.6s  NW    4kn (g8) ESE glassy\nMon 13:0
+ 0     9.5   2.1m 12.6s  NW    3kn (g5) ESE glassy\nMon 14:00     9.5   2.1
+ m 12.6s  NW    2kn (g5)  SE glassy\nMon 15:00     8.5   2.1m 12.6s  NW    
+ 1kn (g5)   S glassy\nMon 16:00     8.5   2.1m 12.7s  NW    1kn (g3) SSE gl
+ assy\nMon 17:00     9.5   2.0m 12.7s  NW    1kn (g3)   E glassy\n\nGenerat
+ ed 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=areia-branca
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a0b9070d6a05361b@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Areia Branca 9.5/10 · 1.6m 12s WNW · 5kn ESE
+SUMMARY:🔥 Areia Branca 9.5/10 · 1.7m 12s NW · 5kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.6m 11.9s WNW    5kn (g12) ESE offshore\nTue 09:00     9.5   1.
- 6m 12.0s WNW    6kn (g12) ESE offshore\nTue 10:00     9.5   1.6m 12.0s WNW
-     5kn (g9)  SE offshore\nTue 11:00     9.5   1.6m 12.1s WNW    5kn (g9) 
-  SE glassy\nTue 12:00     9.5   1.6m 12.2s WNW    5kn (g9)  SE glassy\nTue
-  13:00       9   1.6m 12.2s WNW    5kn (g10)  SE glassy\nTue 14:00       9
-    1.6m 12.3s WNW    5kn (g10)  SE offshore\nTue 15:00       9   1.6m 12.3
- s WNW    5kn (g10)  SE glassy\nTue 16:00       9   1.6m 12.3s   W    4kn (
- g7)  SE glassy\nTue 17:00       9   1.6m 12.2s   W    4kn (g6) ESE glassy\
- n\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https
- ://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
+ ay 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
+     9.5   1.7m 12.1s  NW    5kn (g11) ESE glassy\nTue 09:00     9.5   1.7m
+  12.1s  NW    5kn (g11) ESE offshore\nTue 10:00     9.5   1.7m 12.1s  NW  
+   7kn (g17) ESE offshore\nTue 11:00     9.5   1.6m 12.2s WNW    8kn (g17) 
+ ESE offshore\nTue 12:00     9.5   1.6m 12.2s WNW    9kn (g17) ESE offshore
+ \nTue 13:00       9   1.6m 12.2s WNW    9kn (g13) ESE offshore\nTue 14:00 
+       9   1.6m 12.3s WNW    7kn (g13) ESE offshore\nTue 15:00       9   1.
+ 6m 12.3s WNW    6kn (g13)  SE offshore\nTue 16:00       9   1.6m 12.3s WNW
+     6kn (g12) ESE offshore\nTue 17:00       9   1.6m 12.3s WNW    5kn (g12
+ ) ESE glassy\n\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branc
+ a
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9989a4598b5fdf42@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Areia Branca 9.5/10 · 1.6m 12s WNW · 4kn SE
-DESCRIPTION:Best 9.5/10 at 12:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
-       9   1.6m 11.7s WNW    4kn (g9) ESE glassy\nWed 09:00       9   1.6m 
- 11.6s WNW    4kn (g9) ESE glassy\nWed 10:00       9   1.6m 11.5s WNW    4k
- n (g9) ESE glassy\nWed 11:00       9   1.6m 11.5s WNW    4kn (g9)  SE glas
- sy\nWed 12:00     9.5   1.6m 11.5s WNW    4kn (g9)  SE glassy\nWed 13:00  
-    9.5   1.6m 11.5s WNW    4kn (g9)  SE glassy\nWed 14:00     9.5   1.6m 1
- 1.4s WNW    4kn (g9) SSE glassy\nWed 15:00     8.5   1.7m 11.4s WNW    4kn
-  (g9) SSE glassy\nWed 16:00     8.5   1.7m 11.4s WNW    4kn (g6) SSE glass
- y\nWed 17:00     8.5   1.7m 11.3s WNW    3kn (g6) SSE glassy\n\nGenerated 
- 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=areia-branca
+SUMMARY:🔥 Areia Branca 9.5/10 · 1.6m 11s WNW · 7kn E
+DESCRIPTION:Best 9.5/10 at 15:00. Forecast confidence: low. 4 wave models s
+ ay 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
+       9   1.6m 12.1s WNW    6kn (g12) ESE offshore\nWed 09:00       9   1.
+ 6m 12.1s WNW    6kn (g12) ESE offshore\nWed 10:00       9   1.6m 11.9s WNW
+     7kn (g16) ESE offshore\nWed 11:00       9   1.6m 11.7s WNW    8kn (g16
+ ) ESE offshore\nWed 12:00       9   1.6m 11.5s WNW    8kn (g16) ESE offsho
+ re\nWed 13:00       9   1.6m 11.4s WNW    8kn (g15) ESE offshore\nWed 14:0
+ 0       9   1.6m 11.4s WNW    8kn (g15) ESE offshore\nWed 15:00     9.5   
+ 1.6m 11.3s WNW    7kn (g15)   E offshore\nWed 16:00     9.5   1.6m 11.2s W
+ NW    6kn (g8)   E offshore\nWed 17:00     9.5   1.6m 11.2s WNW    4kn (g8
+ )   E glassy\n\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branc
+ a
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2cc059a154cd45bb@surf-windows
-DTSTAMP:20261127T010000Z
+DTSTAMP:20261127T120000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Areia Branca 9.5/10 · 1.8m 11s NW · 2kn ESE
+SUMMARY:🔥 Areia Branca 9.5/10 · 1.7m 12s WNW · 6kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 2.1 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
-     9.5   1.8m 11.3s  NW    2kn (g3) ESE glassy\nThu 09:00     9.5   1.8m 
- 11.3s  NW    1kn (g3) ESE glassy\nThu 10:00     9.5   1.8m 11.2s  NW    1k
- n (g4) ENE glassy\nThu 11:00     8.5   1.8m 11.2s  NW    2kn (g4) NNE glas
- sy\nThu 12:00     8.5   1.9m 11.2s  NW    2kn (g4)   N glassy\nThu 13:00  
-    8.5   1.9m 11.2s  NW    2kn (g4)   N glassy\nThu 14:00       8   1.9m 1
- 1.2s  NW    2kn (g4) NNW glassy\nThu 15:00       8   1.9m 11.3s  NW    2kn
-  (g4) NNW glassy\nThu 16:00       8   1.9m 11.4s  NW    2kn (g6) NNW glass
- y\nThu 17:00       8   1.9m 11.4s  NW    3kn (g6) NNW glassy\n\nGenerated 
- 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=areia-branca
+ ay 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.7m 11.7s WNW    6kn (g13)   E offshore\nThu 09:00     9.5   1.
+ 7m 11.8s WNW    7kn (g13) ESE offshore\nThu 10:00     9.5   1.8m 11.8s WNW
+     8kn (g19) ESE offshore\nThu 11:00     9.5   1.8m 11.8s WNW    9kn (g19
+ ) ESE offshore\nThu 12:00     9.5   1.8m 11.8s WNW   10kn (g19) ESE offsho
+ re\nThu 13:00     9.5   1.8m 11.8s WNW    9kn (g16) ESE offshore\nThu 14:0
+ 0     9.5   1.8m 11.9s WNW    9kn (g16) ESE offshore\nThu 15:00     9.5   
+ 1.8m 11.9s WNW    8kn (g16)   E offshore\nThu 16:00     9.5   1.8m 11.9s W
+ NW    7kn (g11)   E offshore\nThu 17:00     9.5   1.8m 11.9s WNW    6kn (g
+ 11)   E offshore\n\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-b
+ ranca
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
+LOCATION:Areia Branca
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cf6ccdcad3503359@surf-windows
+DTSTAMP:20261127T120000Z
+DTSTART:20261204T080000Z
+DTEND:20261204T180000Z
+SUMMARY:🔥 Areia Branca 9/10 · 1.4m 12s NW · 5kn ESE
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
+  1.4 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     9   1.4m 11.9s  NW    5kn (g10) ESE glassy\nFri 09:00       9   1.4m 1
+ 1.8s  NW    5kn (g10) ESE offshore\nFri 10:00       9   1.4m 11.7s  NW    
+ 7kn (g16) ESE offshore\nFri 11:00       9   1.3m 11.7s  NW    8kn (g16) ES
+ E offshore\nFri 12:00       9   1.3m 11.6s  NW    8kn (g17)   E offshore\n
+ Fri 13:00       9   1.3m 11.6s  NW    8kn (g18)   E offshore\nFri 14:00   
+     9   1.2m 11.6s  NW    8kn (g18)   E offshore\nFri 15:00       9   1.2m
+  11.6s  NW    7kn (g17)   E offshore\nFri 16:00       8   1.2m 11.6s  NW  
+   7kn (g17)   E offshore\nFri 17:00       8   1.1m 11.6s  NW    6kn (g16) 
+   E offshore\n\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branc
+ a
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=areia-branca
 LOCATION:Areia Branca
 TRANSP:TRANSPARENT
