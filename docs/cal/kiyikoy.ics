@@ -9,44 +9,59 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:adf1c234521bdbe5@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261202T050000Z
-DTEND:20261202T150000Z
-SUMMARY:🤏 Kıyıköy 6/10 · 3.2m 8s NNE · 12kn NNW
-DESCRIPTION:Best 6/10 at 08:00. Forecast confidence: low. 3 wave models say
-  2.3 to 3.2 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
-     6   3.2m  7.6s NNE   12kn (g27) NNW cross\nWed 09:00       6   3.1m  7
- .6s NNE   12kn (g27) NNW cross\nWed 10:00       6   3.0m  7.7s NNE   12kn 
- (g26) NNW cross\nWed 11:00       6   2.9m  7.7s NNE   12kn (g26)   N cross
- \nWed 12:00       5   2.8m  7.7s NNE   12kn (g26)   N onshore\nWed 13:00  
-      5   2.7m  7.6s NNE   12kn (g26)   N onshore\nWed 14:00       5   2.6m
-   7.5s NNE   12kn (g26)   N onshore\nWed 15:00       5   2.5m  7.4s NNE   
- 12kn (g26)   N onshore\nWed 16:00     5.5   2.4m  7.4s NNE   11kn (g24)   
- N onshore\nWed 17:00     5.5   2.4m  7.4s NNE   11kn (g24)   N onshore\n\n
- Generated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://
- tutubanas.github.io/surf-calendar-plugin/#spot=kiyikoy
+DTEND:20261202T130000Z
+SUMMARY:👍 Kıyıköy 7/10 · 3.4m 8s NNE · 10kn NNW
+DESCRIPTION:Best 7/10 at 12:00. Forecast confidence: low. 3 wave models say
+  2.8 to 3.5 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
+     6   3.4m  7.8s NNE   11kn (g24) NNW cross\nWed 09:00       6   3.4m  7
+ .8s NNE   11kn (g24) NNW cross\nWed 10:00       6   3.4m  7.8s NNE   10kn 
+ (g22) NNW cross\nWed 11:00       6   3.4m  7.9s NNE   10kn (g22) NNW cross
+ \nWed 12:00       7   3.4m  8.0s NNE   10kn (g22) NNW cross\nWed 13:00    
+    7   3.3m  8.1s NNE   10kn (g27)   N cross\nWed 14:00       6   3.3m  8.
+ 0s NNE   11kn (g27)   N onshore\nWed 15:00       6   3.3m  8.0s NNE   12kn
+  (g27)   N onshore\n\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nF
+ ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=kiyik
+ oy
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kiyikoy
 LOCATION:Kıyıköy
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:76dbb83ae4ac0d99@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261203T050000Z
 DTEND:20261203T150000Z
-SUMMARY:🔥 Kıyıköy 8/10 · 1.8m 8s NE · 4kn NW
+SUMMARY:👍 Kıyıköy 6.5/10 · 2.4m 7s NNE · 13kn NNW
+DESCRIPTION:Best 6.5/10 at 08:00. Forecast confidence: low. 3 wave models s
+ ay 2.4 to 3.2 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     6.5   2.4m  7.5s NNE   13kn (g28) NNW cross\nThu 09:00     6.5   2.4m 
+  7.5s NNE   13kn (g28) NNW cross\nThu 10:00     6.5   2.4m  7.5s NNE   13k
+ n (g29) NNW cross\nThu 11:00     6.5   2.4m  7.5s NNE   13kn (g29) NNW cro
+ ss\nThu 12:00     6.5   2.3m  7.5s NNE   13kn (g29) NNW cross\nThu 13:00  
+    6.5   2.3m  7.5s NNE   13kn (g28) NNW cross\nThu 14:00     6.5   2.2m  
+ 7.5s NNE   13kn (g28) NNW cross\nThu 15:00     6.5   2.2m  7.5s NNE   13kn
+  (g28) NNW cross\nThu 16:00     6.5   2.1m  7.5s NNE   13kn (g27)   N cros
+ s\nThu 17:00     6.5   2.1m  7.5s NNE   13kn (g27)   N cross\n\nGenerated 
+ 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=kiyikoy
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kiyikoy
+LOCATION:Kıyıköy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:268bc12f41be27e7@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261204T050000Z
+DTEND:20261204T080000Z
+SUMMARY:🔥 Kıyıköy 8/10 · 1.2m 8s NNE · 5kn NNW
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.7 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
-     8   1.8m  7.6s  NE    4kn (g9)  NW glassy\nThu 09:00       8   1.8m  7
- .6s  NE    4kn (g9)  NW glassy\nThu 10:00       8   1.8m  7.6s NNE    5kn 
- (g16) NNW glassy\nThu 11:00       8   1.8m  7.7s NNE    6kn (g16) NNW cros
- s\nThu 12:00     5.5   1.8m  7.7s NNE    7kn (g16)   N onshore\nThu 13:00 
-     5.5   1.8m  7.7s NNE    8kn (g18)   N onshore\nThu 14:00     5.5   1.8
- m  7.7s NNE    8kn (g18)   N onshore\nThu 15:00     5.5   1.8m  7.8s NNE  
-   8kn (g18)   N onshore\nThu 16:00     5.5   1.8m  7.8s NNE    7kn (g13)  
-  N onshore\nThu 17:00       8   1.8m  7.8s NNE    5kn (g13)   N cross\n\nG
- enerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://t
- utubanas.github.io/surf-calendar-plugin/#spot=kiyikoy
+  1.0 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     8   1.2m  8.1s NNE    5kn (g11) NNW glassy\nFri 09:00       8   1.2m  
+ 8.1s NNE    5kn (g11) NNW cross\nFri 10:00       7   1.2m  7.9s NNE    6kn
+  (g22) NNW cross\n\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=kiyikoy
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kiyikoy
 LOCATION:Kıyıköy
 TRANSP:TRANSPARENT

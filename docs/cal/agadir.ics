@@ -8,178 +8,169 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:cc25e46d5096fff2@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261126T070000Z
-DTEND:20261126T180000Z
-SUMMARY:🔥 Agadir 8.5/10 · 1.3m 13s NW · 2kn ENE
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: medium. 5 wave model
- s say 1.0 to 2.4 m.\n\nHour (local)  score  waves            wind\nThu 07:
- 00     8.5   1.3m 13.4s  NW    2kn (g5) ENE glassy\nThu 08:00     8.5   1.
- 3m 13.5s  NW    2kn (g5) ENE glassy\nThu 09:00     8.5   1.3m 13.5s  NW   
-  2kn (g5) ESE glassy\nThu 10:00     7.5   1.3m 13.2s  NW    3kn (g7)  SE g
- lassy\nThu 11:00     6.5   1.3m 12.7s  NW    2kn (g7) SSW glassy\nThu 12:0
- 0     6.5   1.3m 12.3s  NW    3kn (g10) WSW glassy\nThu 13:00     6.5   1.
- 4m 12.2s  NW    4kn (g12) WSW glassy\nThu 14:00     6.5   1.5m 12.2s  NW  
-   5kn (g12) SSW glassy\nThu 15:00     5.5   1.6m  9.1s  NW    5kn (g12) SS
- W glassy\nThu 16:00       6   1.6m  9.1s  NW    5kn (g12) SSE cross\nThu 1
- 7:00       6   1.6m  9.3s  NW    4kn (g12)  SE glassy\n\nGenerated 2026-11
- -26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
- io/surf-calendar-plugin/#spot=agadir
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
-LOCATION:Agadir
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d3d7edbb4322488d@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261127T070000Z
-DTEND:20261127T120000Z
-SUMMARY:👍 Agadir 7/10 · 0.9m 11s NW · 3kn NE
-DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: medium. 5 wave models 
- say 0.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nFri 07:00
-        7   0.9m 11.2s  NW    3kn (g6)  NE glassy\nFri 08:00       7   0.9m
-  11.2s  NW    3kn (g6)  NE glassy\nFri 09:00       7   0.9m 11.2s  NW    2
- kn (g6) ENE glassy\nFri 10:00       5   0.9m 10.8s  NW    2kn (g6)  SE gla
- ssy\nFri 11:00       5   0.9m 10.4s  NW    2kn (g6)   S glassy\n\nGenerate
- d 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
- s.github.io/surf-calendar-plugin/#spot=agadir
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
-LOCATION:Agadir
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6440905d47a5272a@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261128T070000Z
+UID:54a76bcaf05199b6@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261128T100000Z
 DTEND:20261128T180000Z
-SUMMARY:👍 Agadir 7/10 · 0.7m 11s NW · 6kn ESE
-DESCRIPTION:Best 7/10 at 11:00. Forecast confidence: low. 5 wave models say
-  0.5 to 1.3 m.\n\nHour (local)  score  waves            wind\nSat 07:00   
-     6   0.7m 10.2s  NW    4kn (g12)   E glassy\nSat 08:00       6   0.7m 1
- 0.4s  NW    3kn (g9)   E glassy\nSat 09:00       6   0.7m 10.4s  NW    3kn
-  (g8) ESE glassy\nSat 10:00       6   0.7m 10.7s  NW    5kn (g12)  SE glas
- sy\nSat 11:00       7   0.7m 11.4s  NW    6kn (g15) ESE offshore\nSat 12:0
- 0       6   0.8m 12.3s  NW    6kn (g16)  SE cross\nSat 13:00     5.5   0.8
- m 12.3s  NW    4kn (g13) SSW glassy\nSat 14:00       6   0.8m 14.2s  NW   
-  5kn (g12)   W glassy\nSat 15:00       6   0.8m 14.8s  NW    5kn (g13) WNW
-  onshore\nSat 16:00       6   0.9m 14.8s  NW    5kn (g13) WNW onshore\nSat
-  17:00       6   0.9m 14.8s  NW    4kn (g13) WNW glassy\n\nGenerated 2026-
- 11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.githu
- b.io/surf-calendar-plugin/#spot=agadir
+SUMMARY:👍 Agadir 7/10 · 0.7m 11s NW · 9kn E
+DESCRIPTION:Best 7/10 at 11:00. Forecast confidence: medium. 5 wave models 
+ say 0.5 to 1.3 m.\n\nHour (local)  score  waves            wind\nSat 10:00
+        6   0.7m 10.7s  NW    8kn (g17)   E offshore\nSat 11:00       7   0
+ .7m 11.4s  NW    9kn (g21)   E offshore\nSat 12:00       7   0.8m 12.3s  N
+ W    8kn (g22)   E offshore\nSat 13:00       6   0.8m 12.3s  NW    4kn (g2
+ 0)  SE glassy\nSat 14:00       6   0.8m 14.2s  NW    4kn (g11) WSW glassy\
+ nSat 15:00       6   0.8m 14.8s  NW    5kn (g13) WNW onshore\nSat 16:00   
+     6   0.8m 14.8s  NW    4kn (g13) WNW glassy\nSat 17:00       6   0.9m 1
+ 4.8s  NW    4kn (g11) WNW glassy\n\nGenerated 2026-11-27 21:00 UTC from Op
+ en-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plug
+ in/#spot=agadir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
 LOCATION:Agadir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2e126867791f4b4b@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T160000Z
-SUMMARY:👍 Agadir 7.5/10 · 1.1m 14s NW · 3kn ENE
-DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: low. 5 wave models s
- ay 0.8 to 1.9 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
-     7.5   1.1m 13.5s  NW    3kn (g8) ENE glassy\nSun 08:00     7.5   1.1m 
- 13.5s  NW    3kn (g8) ENE glassy\nSun 09:00     7.5   1.1m 13.5s  NW    2k
- n (g7)   E glassy\nSun 10:00     7.5   1.1m 13.5s  NW    3kn (g9) ESE glas
- sy\nSun 11:00     6.5   1.1m 13.5s  NW    3kn (g9)  SE glassy\nSun 12:00  
-      6   1.1m 13.5s  NW    2kn (g8)  SW glassy\nSun 13:00       6   1.1m 1
- 3.5s  NW    5kn (g13)   W glassy\nSun 14:00       6   1.1m 13.5s  NW    5k
- n (g14) WNW onshore\nSun 15:00       6   1.1m 13.5s  NW    6kn (g15) WNW o
- nshore\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast
- : https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
+SUMMARY:👍 Agadir 7.5/10 · 1.1m 15s NW · 3kn ENE
+DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: medium. 5 wave model
+ s say 0.9 to 2.1 m.\n\nHour (local)  score  waves            wind\nSun 07:
+ 00     7.5   1.1m 14.8s  NW    3kn (g8) ENE glassy\nSun 08:00     7.5   1.
+ 1m 14.8s  NW    3kn (g8) ENE glassy\nSun 09:00     7.5   1.1m 14.8s  NW   
+  2kn (g7)   E glassy\nSun 10:00     6.5   1.1m 14.8s  NW    2kn (g6) SSE g
+ lassy\nSun 11:00     6.5   1.1m 14.8s  NW    1kn (g6)   S glassy\nSun 12:0
+ 0       6   1.1m 14.8s  NW    2kn (g7)  SW glassy\nSun 13:00       6   1.1
+ m 14.8s  NW    4kn (g11)   W glassy\nSun 14:00       6   1.1m 14.8s  NW   
+  5kn (g13) WNW onshore\nSun 15:00       6   1.1m 14.8s  NW    6kn (g15) WN
+ W onshore\n\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forec
+ ast: https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
 LOCATION:Agadir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b898cffc786756a@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261130T070000Z
+DTEND:20261130T140000Z
+SUMMARY:👍 Agadir 7.5/10 · 1.1m 14s NW · 3kn NE
+DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: low. 5 wave models s
+ ay 0.9 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
+     7.5   1.1m 13.5s  NW    3kn (g7)  NE glassy\nMon 08:00     7.5   1.1m 
+ 13.5s  NW    3kn (g7)  NE glassy\nMon 09:00     7.5   1.1m 13.5s  NW    2k
+ n (g7) ENE glassy\nMon 10:00     6.5   1.1m 13.5s  NW    1kn (g5)   S glas
+ sy\nMon 11:00       6   1.1m 13.5s  NW    1kn (g5)  SW glassy\nMon 12:00  
+      6   1.1m 13.5s  NW    3kn (g9)   W glassy\nMon 13:00       6   1.1m 1
+ 3.5s  NW    5kn (g13)   W onshore\n\nGenerated 2026-11-27 21:00 UTC from O
+ pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
+ gin/#spot=agadir
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
+LOCATION:Agadir
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:90923be48b45687b@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261130T160000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Agadir 8.5/10 · 1.2m 13s NNW · 3kn ENE
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: low. 4 wave models s
- ay 1.0 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
-     8.5   1.2m 13.3s NNW    3kn (g6) ENE glassy\nMon 08:00     8.5   1.2m 
- 13.3s NNW    2kn (g6) ENE glassy\nMon 09:00     8.5   1.2m 13.3s NNW    1k
- n (g6) ENE glassy\nMon 10:00     8.5   1.2m 13.4s NNW    0kn (g6) ESE glas
- sy\nMon 11:00       7   1.2m 13.4s NNW    1kn (g6) SSW glassy\nMon 12:00  
-      7   1.1m 13.4s NNW    2kn (g6)  SW glassy\nMon 13:00       7   1.1m 1
- 3.4s NNW    3kn (g15)   W glassy\nMon 14:00       7   1.2m 13.3s NNW    5k
- n (g15) WNW glassy\nMon 15:00       5   1.2m 13.3s NNW    6kn (g15) WNW on
- shore\nMon 16:00       5   1.2m 13.1s NNW    6kn (g13) WNW onshore\nMon 17
- :00     6.5   1.2m 12.8s NNW    6kn (g13) WNW onshore\n\nGenerated 2026-11
- -26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
- io/surf-calendar-plugin/#spot=agadir
+SUMMARY:🤏 Agadir 6/10 · 1.1m 14s NW · 6kn WNW
+DESCRIPTION:Best 6/10 at 16:00. Forecast confidence: low. 5 wave models say
+  0.8 to 1.8 m.\n\nHour (local)  score  waves            wind\nMon 16:00   
+     6   1.1m 13.5s  NW    6kn (g15) WNW onshore\nMon 17:00       6   1.1m 
+ 13.5s  NW    5kn (g14) WNW glassy\n\nGenerated 2026-11-27 21:00 UTC from O
+ pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
+ gin/#spot=agadir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
 LOCATION:Agadir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:029fb10f1cbfb6f2@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261201T070000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Agadir 8/10 · 1.1m 13s NNW · 0kn ENE
-DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
-  0.9 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00   
-     7   1.2m 12.7s NNW    2kn (g2) NNW glassy\nTue 08:00       8   1.1m 12
- .7s NNW    0kn (g2) ENE glassy\nTue 09:00       7   1.1m 12.6s NNW    1kn 
- (g2) ESE glassy\nTue 10:00       6   1.1m 12.6s NNW    1kn (g7)  SE glassy
- \nTue 11:00       6   1.1m 12.6s NNW    2kn (g7)   S glassy\nTue 12:00    
-    6   1.1m 12.5s NNW    3kn (g8)   S glassy\nTue 13:00     5.5   1.1m 12.
- 4s NNW    3kn (g10) SSW glassy\nTue 14:00     5.5   1.1m 12.4s NNW    4kn 
- (g10) WSW glassy\nTue 15:00     5.5   1.1m 12.3s NNW    4kn (g10) WSW glas
- sy\nTue 16:00     5.5   1.1m 12.3s NNW    4kn (g7)   W glassy\nTue 17:00  
-    5.5   1.1m 12.2s  NW    3kn (g7)   W glassy\n\nGenerated 2026-11-26 16:
- 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
- -calendar-plugin/#spot=agadir
+SUMMARY:👍 Agadir 7/10 · 1.1m 13s NNW · 2kn NE
+DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
+  0.9 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 07:00   
+     7   1.1m 12.6s NNW    2kn (g4)  NE glassy\nTue 08:00       7   1.1m 12
+ .7s NNW    2kn (g4)  NE glassy\nTue 09:00       7   1.1m 12.7s NNW    1kn 
+ (g4)  NE glassy\nTue 10:00     5.5   1.1m 12.6s NNW    0kn (g8)   W glassy
+ \nTue 11:00     5.5   1.1m 12.6s NNW    2kn (g8) WSW glassy\nTue 12:00    
+  5.5   1.1m 12.5s NNW    3kn (g8) WSW glassy\nTue 13:00     5.5   1.1m 12.
+ 4s NNW    4kn (g13)   W glassy\nTue 14:00     5.5   1.1m 12.4s NNW    5kn 
+ (g13)   W glassy\nTue 15:00     5.5   1.1m 12.4s NNW    5kn (g13) WNW onsh
+ ore\nTue 16:00     5.5   1.1m 12.3s NNW    4kn (g9) WNW glassy\nTue 17:00 
+     5.5   1.0m 12.2s NNW    3kn (g9) WNW glassy\n\nGenerated 2026-11-27 21
+ :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
+ f-calendar-plugin/#spot=agadir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
 LOCATION:Agadir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:31a8ae00144cc847@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261202T070000Z
 DTEND:20261202T180000Z
-SUMMARY:👍 Agadir 7/10 · 0.8m 12s NW · 4kn NE
-DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
-  0.7 to 1.1 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
-     7   0.8m 12.1s  NW    4kn (g9)  NE glassy\nWed 08:00       7   0.8m 12
- .1s  NW    4kn (g9)  NE glassy\nWed 09:00       7   0.8m 12.1s  NW    3kn 
- (g9)  NE glassy\nWed 10:00       7   0.8m 12.1s  NW    1kn (g8)   E glassy
- \nWed 11:00       6   0.8m 12.0s  NW    2kn (g8) SSE glassy\nWed 12:00    
-  5.5   0.8m 12.0s  NW    3kn (g8) SSW glassy\nWed 13:00     5.5   0.8m 11.
- 9s  NW    3kn (g9)  SW glassy\nWed 14:00     5.5   0.8m 11.9s  NW    4kn (
- g9) WSW glassy\nWed 15:00     5.5   0.7m 11.9s  NW    4kn (g9) WSW glassy\
- nWed 16:00     5.5   0.7m 11.9s  NW    4kn (g7)   W glassy\nWed 17:00     
- 5.5   0.7m 11.9s  NW    3kn (g7) WNW glassy\n\nGenerated 2026-11-26 16:00 
- UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-ca
- lendar-plugin/#spot=agadir
+SUMMARY:👍 Agadir 7/10 · 0.8m 12s NW · 1kn ENE
+DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: low. 4 wave models say
+  0.7 to 1.2 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
+     6   0.8m 12.1s NNW    1kn (g2) NNE glassy\nWed 08:00       7   0.8m 12
+ .1s  NW    1kn (g2) ENE glassy\nWed 09:00       7   0.8m 12.1s  NW    1kn 
+ (g2) ESE glassy\nWed 10:00       6   0.8m 12.1s  NW    1kn (g7) SSE glassy
+ \nWed 11:00     5.5   0.8m 12.0s  NW    2kn (g7)  SW glassy\nWed 12:00    
+  5.5   0.8m 12.0s  NW    2kn (g7) WSW glassy\nWed 13:00     5.5   0.8m 11.
+ 9s  NW    3kn (g13)   W glassy\nWed 14:00     5.5   0.8m 11.9s  NW    4kn 
+ (g13)   W glassy\nWed 15:00     5.5   0.8m 11.9s  NW    5kn (g13) WNW onsh
+ ore\nWed 16:00     5.5   0.8m 11.9s  NW    4kn (g9) WNW glassy\nWed 17:00 
+     5.5   0.8m 11.9s  NW    4kn (g8)  NW glassy\n\nGenerated 2026-11-27 21
+ :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
+ f-calendar-plugin/#spot=agadir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
 LOCATION:Agadir
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb312fc94d000dca@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261203T070000Z
 DTEND:20261203T180000Z
-SUMMARY:👍 Agadir 7/10 · 0.8m 12s NW · 5kn NE
+SUMMARY:👍 Agadir 7/10 · 0.8m 12s NW · 6kn ENE
 DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
   0.7 to 1.2 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
-     7   0.8m 12.2s  NW    5kn (g9)  NE offshore\nThu 08:00       7   0.8m 
- 12.2s  NW    4kn (g9)  NE glassy\nThu 09:00       7   0.8m 12.1s  NW    4k
- n (g9)  NE glassy\nThu 10:00       7   0.8m 11.9s  NW    2kn (g7) ENE glas
- sy\nThu 11:00       7   0.8m 11.7s  NW    2kn (g7)  SE glassy\nThu 12:00  
-      6   0.9m 11.6s  NW    2kn (g7) SSE glassy\nThu 13:00       6   0.9m 1
- 1.5s  NW    2kn (g9)   S glassy\nThu 14:00     5.5   0.9m 11.6s  NW    2kn
-  (g9) WSW glassy\nThu 15:00     5.5   0.9m 11.7s  NW    3kn (g9)   W glass
- y\nThu 16:00     5.5   0.9m 11.7s  NW    4kn (g7) WNW glassy\nThu 17:00   
-   5.5   0.9m 11.8s  NW    4kn (g7)  NW glassy\n\nGenerated 2026-11-26 16:0
- 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
- calendar-plugin/#spot=agadir
+     7   0.8m 12.4s  NW    6kn (g11) ENE offshore\nThu 08:00       7   0.8m
+  12.4s  NW    6kn (g11) ENE offshore\nThu 09:00       7   0.8m 12.4s  NW  
+   5kn (g11) ENE offshore\nThu 10:00       7   0.8m 12.4s  NW    5kn (g11) 
+   E glassy\nThu 11:00       7   0.8m 12.4s  NW    5kn (g11) ESE glassy\nTh
+ u 12:00       6   0.8m 12.4s  NW    4kn (g11)  SE glassy\nThu 13:00       
+ 6   0.8m 12.4s  NW    4kn (g10) SSE glassy\nThu 14:00     5.5   0.8m 12.5s
+   NW    4kn (g10) SSW glassy\nThu 15:00     5.5   0.8m 12.5s  NW    5kn (g
+ 10)  SW glassy\nThu 16:00     5.5   0.9m 12.5s  NW    4kn (g8) WSW glassy\
+ nThu 17:00     5.5   0.9m 12.6s  NW    3kn (g8) WNW glassy\n\nGenerated 20
+ 26-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=agadir
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
+LOCATION:Agadir
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e01533ceecd90a90@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261204T070000Z
+DTEND:20261204T160000Z
+SUMMARY:👍 Agadir 7/10 · 1.0m 13s NW · 5kn ENE
+DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
+  0.8 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
+     7   1.0m 12.8s  NW    5kn (g10) ENE offshore\nFri 08:00       7   1.1m
+  12.7s  NW    5kn (g10) ENE offshore\nFri 09:00       7   1.1m 12.7s  NW  
+   5kn (g10) ENE offshore\nFri 10:00       7   1.1m 12.7s  NW    4kn (g10) 
+   E glassy\nFri 11:00       7   1.1m 12.6s  NW    4kn (g10) ESE glassy\nFr
+ i 12:00       6   1.1m 12.6s  NW    4kn (g10)  SE glassy\nFri 13:00       
+ 6   1.1m 12.6s  NW    3kn (g11)   S glassy\nFri 14:00     5.5   1.1m 12.5s
+   NW    3kn (g11) WSW glassy\nFri 15:00     5.5   1.1m 12.5s  NW    6kn (g
+ 11)   W onshore\n\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull
+  forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agadir
 LOCATION:Agadir
 TRANSP:TRANSPARENT

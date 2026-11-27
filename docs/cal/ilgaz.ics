@@ -7,22 +7,4 @@ X-WR-CALNAME:Ski: Ilgaz
 X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
-BEGIN:VEVENT
-UID:e24197c738e60b80@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261204T110000Z
-DTEND:20261204T130000Z
-SUMMARY:🤏 Ilgaz 5.5/10 · 10 cm new snow · snowing · -6°C
-DESCRIPTION:Best 5.5/10 at 14:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nFri 14:00     5.5     10 cm 
-   snowing         -6°C    9 km/h (g32)\nFri 15:00     5.5     10 cm   sno
- wing         -6°C    9 km/h (g28)\n\nWeather at 2070 m. Snow depth and ne
- w snow are the weather model's numbers\, not the resort's own snow report.
- \nNotes: Quiet forest resort.\nGenerated 2026-11-27 12:00 UTC from Open-Me
- teo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#s
- pot=ilgaz
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ilgaz
-LOCATION:Ilgaz
-TRANSP:TRANSPARENT
-END:VEVENT
 END:VCALENDAR

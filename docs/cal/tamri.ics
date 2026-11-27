@@ -8,95 +8,71 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:c9089a69a391b2a9@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261127T070000Z
-DTEND:20261127T180000Z
-SUMMARY:🔥 Tamri 9.5/10 · 1.9m 11s NNW · 5kn ESE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 07:00
-      7.5   1.9m 11.2s NNW    5kn (g7) ESE glassy\nFri 08:00     9.5   1.9m
-  11.2s NNW    5kn (g7) ESE glassy\nFri 09:00     9.5   1.8m 11.2s NNW    4
- kn (g7) ESE glassy\nFri 10:00     8.5   1.7m 10.8s NNW    0kn (g5) ESE gla
- ssy\nFri 11:00       7   1.7m 10.2s NNW    3kn (g6)   W glassy\nFri 12:00 
-       7   1.7m 10.2s NNW    4kn (g8) WNW glassy\nFri 13:00       7   1.6m 
- 10.1s NNW    5kn (g9) WNW glassy\nFri 14:00       7   1.6m 10.1s NNW    4k
- n (g8)  NW glassy\nFri 15:00       7   1.6m 10.2s NNW    6kn (g10) NNW ons
- hore\nFri 16:00       7   1.5m 10.2s NNW    4kn (g10) NNW glassy\nFri 17:0
- 0       7   1.5m 10.2s NNW    3kn (g8) NNW glassy\n\nNotes: Picks up more 
- swell than anywhere nearby.\nGenerated 2026-11-26 16:00 UTC from Open-Mete
- o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
- t=tamri
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=tamri
-LOCATION:Tamri
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:2b143892354e6489@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Tamri 9/10 · 1.6m 15s NW · 5kn N
-DESCRIPTION:Best 9/10 at 17:00. Forecast confidence: medium. 5 wave models 
- say 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nSat 07:00
-      8.5   1.4m 10.2s NNW    4kn (g7)   E glassy\nSat 08:00     8.5   1.4m
-  10.2s NNW    4kn (g7) ESE glassy\nSat 09:00     8.5   1.4m 10.2s NNW    3
- kn (g6) ESE glassy\nSat 10:00       7   1.4m 10.7s NNW    2kn (g4)   W gla
- ssy\nSat 11:00       8   1.4m 11.4s NNW    3kn (g6)   W glassy\nSat 12:00 
-       8   1.4m 12.3s NNW    4kn (g8)   W glassy\nSat 13:00       8   1.5m 
- 12.3s  NW    5kn (g9) WNW glassy\nSat 14:00     8.5   1.5m 14.2s  NW    5k
- n (g9) WNW glassy\nSat 15:00     8.5   1.6m 14.8s  NW    5kn (g9)  NW glas
- sy\nSat 16:00     8.5   1.6m 14.8s  NW    5kn (g9) NNW glassy\nSat 17:00  
-      9   1.6m 14.8s  NW    5kn (g8)   N glassy\n\nNotes: Picks up more swe
- ll than anywhere nearby.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\
- n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=t
- amri
+DESCRIPTION:Best 9/10 at 17:00. Forecast confidence: high. 5 wave models sa
+ y 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nSat 07:00  
+    8.5   1.4m 10.2s NNW    4kn (g7)   E glassy\nSat 08:00     8.5   1.4m 1
+ 0.2s NNW    5kn (g7) ESE glassy\nSat 09:00     8.5   1.4m 10.2s NNW    3kn
+  (g7) ESE glassy\nSat 10:00       7   1.4m 10.7s NNW    1kn (g4)   W glass
+ y\nSat 11:00       8   1.4m 11.4s NNW    4kn (g7)   W glassy\nSat 12:00   
+     8   1.5m 12.3s  NW    5kn (g9)   W onshore\nSat 13:00       8   1.5m 1
+ 2.3s  NW    5kn (g10) WNW onshore\nSat 14:00     8.5   1.5m 14.2s  NW    5
+ kn (g9)  NW onshore\nSat 15:00     8.5   1.5m 14.8s  NW    5kn (g9) NNW gl
+ assy\nSat 16:00     8.5   1.6m 14.8s  NW    5kn (g9) NNW glassy\nSat 17:00
+        9   1.6m 14.8s  NW    5kn (g8)   N cross\n\nNotes: Picks up more sw
+ ell than anywhere nearby.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.
+ \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
+ tamri
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=tamri
 LOCATION:Tamri
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:af157cd4964e0a2c@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Tamri 8/10 · 2.0m 14s NW · 5kn ESE
-DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: medium. 5 wave models 
- say 1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nSun 07:00
-        8   2.0m 13.5s  NW    5kn (g8) ESE offshore\nSun 08:00       8   2.
- 0m 13.5s  NW    5kn (g8) ESE offshore\nSun 09:00       8   2.0m 13.5s  NW 
-    4kn (g8) ESE glassy\nSun 10:00       8   2.0m 13.5s  NW    0kn (g6) ESE
-  glassy\nSun 11:00     6.5   2.0m 13.5s  NW    3kn (g6)   W glassy\nSun 12
- :00     6.5   2.0m 13.5s  NW    4kn (g8) WNW glassy\nSun 13:00     6.5   2
- .0m 13.5s  NW    4kn (g8) WNW glassy\nSun 14:00     6.5   2.0m 13.5s  NW  
-   4kn (g8)  NW glassy\nSun 15:00     6.5   2.0m 13.5s  NW    4kn (g8) NNW 
- glassy\nSun 16:00     6.5   2.0m 13.5s  NW    4kn (g8) NNW glassy\nSun 17:
- 00       7   2.0m 13.5s  NW    5kn (g8)   N cross\n\nNotes: Picks up more 
- swell than anywhere nearby.\nGenerated 2026-11-26 16:00 UTC from Open-Mete
- o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
- t=tamri
+SUMMARY:🔥 Tamri 8/10 · 2.1m 15s NW · 5kn ESE
+DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: high. 5 wave models sa
+ y 1.8 to 2.3 m.\n\nHour (local)  score  waves            wind\nSun 07:00  
+      8   2.1m 14.8s  NW    5kn (g7) ESE glassy\nSun 08:00       8   2.1m 1
+ 4.8s  NW    4kn (g7) ESE glassy\nSun 09:00       8   2.1m 14.8s  NW    3kn
+  (g6)   E glassy\nSun 10:00     6.5   2.1m 14.8s  NW    1kn (g4) NNW glass
+ y\nSun 11:00     6.5   2.1m 14.8s  NW    3kn (g6)  NW glassy\nSun 12:00   
+   6.5   2.1m 14.8s  NW    4kn (g7) WNW glassy\nSun 13:00     6.5   2.1m 14
+ .8s  NW    4kn (g8) WNW glassy\nSun 14:00     6.5   2.1m 14.8s  NW    4kn 
+ (g8)  NW glassy\nSun 15:00     6.5   2.1m 14.8s  NW    4kn (g8)  NW glassy
+ \nSun 16:00     6.5   2.1m 14.8s  NW    4kn (g8) NNW glassy\nSun 17:00    
+    7   2.1m 14.8s  NW    3kn (g7)   N glassy\n\nNotes: Picks up more swell
+  than anywhere nearby.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\
+ nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=tam
+ ri
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=tamri
 LOCATION:Tamri
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a479f49600156275@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Tamri 8.5/10 · 1.9m 13s NNW · 4kn NW
-DESCRIPTION:Best 8.5/10 at 12:00. Forecast confidence: low. 4 wave models s
- ay 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
-       8   2.0m 13.5s NNW    5kn (g7) ESE glassy\nMon 08:00       8   2.0m 
- 13.5s NNW    5kn (g7) ESE glassy\nMon 09:00       8   2.0m 13.5s NNW    4k
- n (g7)   E glassy\nMon 10:00       8   1.9m 13.4s NNW    2kn (g8) ENE glas
- sy\nMon 11:00     6.5   1.9m 13.4s NNW    2kn (g8) NNW glassy\nMon 12:00  
-    8.5   1.9m 13.4s NNW    4kn (g8)  NW glassy\nMon 13:00     8.5   1.9m 1
- 3.4s NNW    5kn (g9)  NW onshore\nMon 14:00     8.5   1.9m 13.3s  NW    5k
- n (g9)  NW glassy\nMon 15:00     8.5   1.9m 13.2s  NW    4kn (g9)  NW glas
- sy\nMon 16:00     8.5   1.9m 13.0s  NW    4kn (g5) NNW glassy\nMon 17:00  
-      8   1.9m 12.7s NNW    4kn (g5) NNW glassy\n\nNotes: Picks up more swe
- ll than anywhere nearby.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\
+SUMMARY:🔥 Tamri 8/10 · 2.1m 14s NW · 5kn E
+DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: medium. 5 wave models 
+ say 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 07:00
+        8   2.1m 13.5s  NW    5kn (g7)   E glassy\nMon 08:00       8   2.1m
+  13.5s  NW    4kn (g7)   E glassy\nMon 09:00       8   2.1m 13.5s  NW    3
+ kn (g7)   E glassy\nMon 10:00       7   2.0m 13.5s  NW    1kn (g5)  NE gla
+ ssy\nMon 11:00     6.5   2.0m 13.5s  NW    2kn (g5)  NW glassy\nMon 12:00 
+     6.5   2.0m 13.5s  NW    4kn (g8)  NW glassy\nMon 13:00     6.5   2.0m 
+ 13.5s  NW    5kn (g9)  NW glassy\nMon 14:00     6.5   2.0m 13.5s  NW    4k
+ n (g8)  NW glassy\nMon 15:00     6.5   2.0m 13.5s  NW    4kn (g8)  NW glas
+ sy\nMon 16:00     6.5   2.0m 13.5s  NW    4kn (g7) NNW glassy\nMon 17:00  
+    6.5   2.0m 13.5s  NW    3kn (g7) NNW glassy\n\nNotes: Picks up more swe
+ ll than anywhere nearby.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\
  n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=t
  amri
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=tamri
@@ -105,22 +81,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8ecf5047b1dd9fa7@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261201T070000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Tamri 9.5/10 · 1.9m 13s NW · 5kn ESE
+SUMMARY:🔥 Tamri 9.5/10 · 1.9m 13s NNW · 4kn ESE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
- ay 1.8 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 07:00 
-     9.5   1.9m 12.8s  NW    5kn (g7) ESE glassy\nTue 08:00     9.5   1.8m 
- 12.8s  NW    5kn (g7) ESE glassy\nTue 09:00     9.5   1.8m 12.7s  NW    4k
- n (g7) ESE glassy\nTue 10:00     9.5   1.8m 12.7s  NW    1kn (g8)   E glas
- sy\nTue 11:00       8   1.8m 12.6s  NW    2kn (g8) WNW glassy\nTue 12:00  
-      8   1.7m 12.6s  NW    4kn (g7) WNW glassy\nTue 13:00       8   1.7m 1
- 2.5s  NW    5kn (g7) WNW glassy\nTue 14:00       8   1.7m 12.4s  NW    4kn
-  (g7) WNW glassy\nTue 15:00       8   1.7m 12.4s  NW    4kn (g7)  NW glass
- y\nTue 16:00       8   1.7m 12.3s  NW    4kn (g5)  NW glassy\nTue 17:00   
-     8   1.7m 12.2s  NW    3kn (g5)  NW glassy\n\nNotes: Picks up more swel
- l than anywhere nearby.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n
+ ay 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 07:00 
+     9.5   1.9m 12.8s NNW    4kn (g7) ESE glassy\nTue 08:00     9.5   1.8m 
+ 12.8s NNW    4kn (g7) ESE glassy\nTue 09:00     9.5   1.8m 12.7s NNW    3k
+ n (g7)   E glassy\nTue 10:00     9.5   1.8m 12.7s NNW    1kn (g8)   E glas
+ sy\nTue 11:00       8   1.8m 12.6s NNW    2kn (g8)  NW glassy\nTue 12:00  
+      8   1.8m 12.5s NNW    4kn (g8)  NW glassy\nTue 13:00       8   1.8m 1
+ 2.4s NNW    5kn (g8)  NW glassy\nTue 14:00       8   1.8m 12.4s NNW    4kn
+  (g8)  NW glassy\nTue 15:00       8   1.7m 12.4s NNW    4kn (g8)  NW glass
+ y\nTue 16:00       8   1.7m 12.3s NNW    4kn (g5) NNW glassy\nTue 17:00   
+   8.5   1.7m 12.2s NNW    4kn (g5)   N glassy\n\nNotes: Picks up more swel
+ l than anywhere nearby.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n
  \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ta
  mri
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=tamri
@@ -129,22 +105,46 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2152216979149060@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261202T070000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Tamri 9/10 · 1.3m 12s NW · 4kn E
+SUMMARY:🔥 Tamri 9.5/10 · 1.4m 12s NNW · 5kn E
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
+ ay 1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nWed 07:00 
+     9.5   1.4m 12.2s NNW    5kn (g8)   E offshore\nWed 08:00     9.5   1.4
+ m 12.2s  NW    5kn (g8)   E offshore\nWed 09:00       9   1.3m 12.2s  NW  
+   4kn (g8)   E glassy\nWed 10:00       9   1.3m 12.1s  NW    2kn (g8)   E 
+ glassy\nWed 11:00     7.5   1.3m 12.1s  NW    2kn (g8)  NW glassy\nWed 12:
+ 00     7.5   1.3m 12.1s  NW    4kn (g8)  NW glassy\nWed 13:00     7.5   1.
+ 3m 12.0s  NW    5kn (g8)  NW glassy\nWed 14:00     7.5   1.3m 12.0s  NW   
+  4kn (g8)  NW glassy\nWed 15:00     7.5   1.2m 11.9s  NW    4kn (g8)  NW g
+ lassy\nWed 16:00     7.5   1.2m 11.9s  NW    3kn (g5) NNW glassy\nWed 17:0
+ 0       8   1.2m 11.9s  NW    3kn (g5)   N glassy\n\nNotes: Picks up more 
+ swell than anywhere nearby.\nGenerated 2026-11-27 21:00 UTC from Open-Mete
+ o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
+ t=tamri
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=tamri
+LOCATION:Tamri
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9526864cf985f262@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261203T070000Z
+DTEND:20261203T180000Z
+SUMMARY:🔥 Tamri 9/10 · 1.2m 12s NW · 4kn E
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.2 to 1.4 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
-     9   1.3m 12.3s  NW    4kn (g6)   E glassy\nWed 08:00       9   1.3m 12
- .3s  NW    4kn (g6)   E glassy\nWed 09:00       9   1.2m 12.2s  NW    3kn 
- (g6)   E glassy\nWed 10:00       8   1.2m 12.2s  NW    2kn (g7)  NE glassy
- \nWed 11:00     7.5   1.2m 12.1s  NW    2kn (g7)  NW glassy\nWed 12:00    
-  7.5   1.2m 12.1s  NW    4kn (g7)  NW glassy\nWed 13:00     7.5   1.2m 12.
- 1s  NW    4kn (g7)  NW glassy\nWed 14:00     7.5   1.2m 12.1s  NW    4kn (
- g7)  NW glassy\nWed 15:00     7.5   1.2m 12.1s  NW    4kn (g7)  NW glassy\
- nWed 16:00     7.5   1.2m 12.1s  NW    4kn (g6) NNW glassy\nWed 17:00     
-   8   1.2m 12.1s  NW    4kn (g6)   N glassy\n\nNotes: Picks up more swell 
- than anywhere nearby.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\n
+  1.1 to 1.3 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
+     9   1.2m 12.4s  NW    4kn (g6)   E glassy\nThu 08:00       9   1.2m 12
+ .3s  NW    3kn (g6)   E glassy\nThu 09:00       9   1.2m 12.3s  NW    2kn 
+ (g6)   E glassy\nThu 10:00       9   1.2m 12.3s  NW    1kn (g5) ESE glassy
+ \nThu 11:00     7.5   1.2m 12.4s  NW    1kn (g5)  SW glassy\nThu 12:00    
+  7.5   1.2m 12.4s  NW    3kn (g5)  SW glassy\nThu 13:00     7.5   1.2m 12.
+ 4s  NW    3kn (g7) WSW glassy\nThu 14:00     7.5   1.3m 12.4s  NW    4kn (
+ g7)   W glassy\nThu 15:00     7.5   1.3m 12.4s  NW    4kn (g7) WNW glassy\
+ nThu 16:00     7.5   1.3m 12.5s  NW    3kn (g3) WNW glassy\nThu 17:00     
+ 7.5   1.3m 12.5s  NW    2kn (g3) NNW glassy\n\nNotes: Picks up more swell 
+ than anywhere nearby.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\n
  Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=tamr
  i
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=tamri
@@ -152,25 +152,25 @@ LOCATION:Tamri
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:9526864cf985f262@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261203T070000Z
-DTEND:20261203T180000Z
-SUMMARY:🔥 Tamri 9/10 · 1.2m 12s NW · 3kn E
-DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.2 to 1.3 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
-     9   1.2m 12.2s  NW    3kn (g7)   E glassy\nThu 08:00       9   1.2m 12
- .2s  NW    4kn (g7)   E glassy\nThu 09:00       9   1.2m 12.1s  NW    4kn 
- (g7)   E glassy\nThu 10:00       9   1.2m 11.9s  NW    2kn (g5)   E glassy
- \nThu 11:00     7.5   1.3m 11.7s  NW    1kn (g5) NNW glassy\nThu 12:00    
-  7.5   1.3m 11.5s  NW    3kn (g5)  NW glassy\nThu 13:00     7.5   1.3m 11.
- 5s  NW    4kn (g8) WNW glassy\nThu 14:00     7.5   1.3m 11.6s  NW    5kn (
- g8)  NW glassy\nThu 15:00     7.5   1.3m 11.7s  NW    5kn (g8)  NW glassy\
- nThu 16:00     7.5   1.3m 11.8s  NW    4kn (g5)  NW glassy\nThu 17:00     
-   8   1.3m 11.8s  NW    4kn (g5) NNW glassy\n\nNotes: Picks up more swell 
- than anywhere nearby.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\n
- Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=tamr
- i
+UID:266ce74e3e0f73e2@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261204T070000Z
+DTEND:20261204T180000Z
+SUMMARY:🔥 Tamri 9.5/10 · 1.5m 13s NW · 4kn E
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
+ ay 1.4 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 07:00 
+     9.5   1.5m 12.8s  NW    4kn (g6)   E glassy\nFri 08:00     9.5   1.5m 
+ 12.8s  NW    4kn (g6)   E glassy\nFri 09:00     9.5   1.5m 12.8s  NW    3k
+ n (g6)   E glassy\nFri 10:00     9.5   1.5m 12.7s  NW    1kn (g7)   E glas
+ sy\nFri 11:00       8   1.5m 12.7s  NW    2kn (g7)   W glassy\nFri 12:00  
+      8   1.5m 12.6s  NW    4kn (g7)   W glassy\nFri 13:00       8   1.5m 1
+ 2.6s  NW    4kn (g6)   W glassy\nFri 14:00       8   1.5m 12.5s  NW    4kn
+  (g6) WNW glassy\nFri 15:00       8   1.5m 12.5s  NW    4kn (g6) WNW glass
+ y\nFri 16:00       8   1.5m 12.4s  NW    2kn (g5)  NW glassy\nFri 17:00   
+   8.5   1.5m 12.4s  NW    2kn (g5)   N glassy\n\nNotes: Picks up more swel
+ l than anywhere nearby.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n
+ \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ta
+ mri
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=tamri
 LOCATION:Tamri
 TRANSP:TRANSPARENT

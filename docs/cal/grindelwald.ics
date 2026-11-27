@@ -8,110 +8,103 @@ X-WR-TIMEZONE:Europe/Zurich
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:8615317be05f9738@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261127T080000Z
-DTEND:20261127T150000Z
-SUMMARY:🤏 Grindelwald 6/10 · 3 cm new snow · sunny · -6°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
-  score  new snow  sky           temp   wind\nFri 09:00       6      3 cm  
-  sunny           -6°C   15 km/h (g22)\nFri 10:00       6      2 cm   sunn
- y           -5°C   13 km/h (g23)\nFri 11:00     5.5      1 cm   sunny    
-        -5°C   10 km/h (g20)\nFri 12:00     5.5      1 cm   sunny         
-   -4°C    8 km/h (g19)\nFri 13:00     5.5      0 cm   sunny           -3
- °C    8 km/h (g18)\nFri 14:00     5.5      0 cm   sunny           -4°C  
-   8 km/h (g18)\nFri 15:00     5.5      0 cm   sunny           -5°C    6 k
- m/h (g16)\n\nWeather at 2010 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Under the Eiger\
- , mostly cruising runs.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n
- \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=gr
- indelwald
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=grindelwald
-LOCATION:Grindelwald
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:f24f01875ac67a10@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Grindelwald 5.5/10 · 53 cm of snow · sunny · -6°C
+SUMMARY:🤏 Grindelwald 5.5/10 · 50 cm of snow · sunny · -6°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
  )  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm
-    sunny           -6°C    5 km/h (g14)\nSat 10:00     5.5      0 cm   su
- nny           -5°C    5 km/h (g15)\nSat 11:00     5.5      0 cm   sunny  
-          -4°C    4 km/h (g14)\nSat 12:00     5.5      0 cm   sunny       
-     -3°C    3 km/h (g13)\nSat 13:00       5      0 cm   sunny           -
- 2°C    1 km/h (g9)\nSat 14:00       5      0 cm   sunny           -2°C  
-   3 km/h (g8)\nSat 15:00       5      0 cm   sunny           -1°C    2 km
- /h (g10)\n\nWeather at 2010 m. Snow depth and new snow are the weather mod
- el's numbers\, not the resort's own snow report.\nNotes: Under the Eiger\,
-  mostly cruising runs.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\
- nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=gri
- ndelwald
+    sunny           -6°C    3 km/h (g13)\nSat 10:00     5.5      0 cm   su
+ nny           -5°C    3 km/h (g13)\nSat 11:00     5.5      0 cm   sunny  
+          -4°C    3 km/h (g11)\nSat 12:00     5.5      0 cm   sunny       
+     -3°C    2 km/h (g11)\nSat 13:00     5.5      0 cm   sunny           -
+ 2°C    2 km/h (g10)\nSat 14:00       5      0 cm   sunny           -2°C 
+    4 km/h (g10)\nSat 15:00       5      0 cm   sunny           -2°C    7 
+ km/h (g11)\n\nWeather at 2010 m. Snow depth and new snow are the weather m
+ odel's numbers\, not the resort's own snow report.\nNotes: Under the Eiger
+ \, mostly cruising runs.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\
+ n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=g
+ rindelwald
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=grindelwald
 LOCATION:Grindelwald
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c0d04c3799f218b2@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261201T080000Z
-DTEND:20261201T120000Z
-SUMMARY:🤏 Grindelwald 5/10 · 55 cm of snow · sunny · 1°C
+DTEND:20261201T110000Z
+SUMMARY:🤏 Grindelwald 5/10 · 56 cm of snow · sunny · 2°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nTue 09:00       5      0 cm   
- sunny            1°C    5 km/h (g12)\nTue 10:00       5      0 cm   sunny
-             2°C    5 km/h (g12)\nTue 11:00       5      0 cm   sunny     
-        2°C    4 km/h (g10)\nTue 12:00       5      0 cm   sunny          
-   3°C    4 km/h (g10)\n\nWeather at 2010 m. Snow depth and new snow are t
- he weather model's numbers\, not the resort's own snow report.\nNotes: Und
- er the Eiger\, mostly cruising runs.\nGenerated 2026-11-27 12:00 UTC from 
- Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
- ugin/#spot=grindelwald
+ sunny            2°C    4 km/h (g8)\nTue 10:00       5      0 cm   sunny 
+            2°C    4 km/h (g8)\nTue 11:00       5      0 cm   sunny       
+      3°C    4 km/h (g9)\n\nWeather at 2010 m. Snow depth and new snow are
+  the weather model's numbers\, not the resort's own snow report.\nNotes: U
+ nder the Eiger\, mostly cruising runs.\nGenerated 2026-11-27 21:00 UTC fro
+ m Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-
+ plugin/#spot=grindelwald
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=grindelwald
 LOCATION:Grindelwald
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef5cf06c40afc4aa@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261202T080000Z
-DTEND:20261202T150000Z
-SUMMARY:🤏 Grindelwald 5.5/10 · 71 cm of snow · sunny · 2°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nWed 09:00     5.5      0 cm 
-   sunny            2°C    3 km/h (g24)\nWed 10:00     5.5      0 cm   sun
- ny            2°C    2 km/h (g24)\nWed 11:00     5.5      0 cm   sunny   
-          3°C    2 km/h (g19)\nWed 12:00       5      0 cm   sunny        
-     3°C    2 km/h (g19)\nWed 13:00       5      0 cm   sunny            3
- °C    1 km/h (g19)\nWed 14:00       5      0 cm   sunny            4°C  
-   1 km/h (g16)\nWed 15:00       5      0 cm   sunny            4°C    1 k
- m/h (g16)\n\nWeather at 2010 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Under the Eiger\
- , mostly cruising runs.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n
- \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=gr
- indelwald
+DTEND:20261202T100000Z
+SUMMARY:🤏 Grindelwald 5/10 · 56 cm of snow · sunny · 2°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nWed 09:00       5      0 cm   
+ sunny            2°C    4 km/h (g6)\nWed 10:00       5      0 cm   sunny 
+            3°C    4 km/h (g6)\n\nWeather at 2010 m. Snow depth and new sn
+ ow are the weather model's numbers\, not the resort's own snow report.\nNo
+ tes: Under the Eiger\, mostly cruising runs.\nGenerated 2026-11-27 21:00 U
+ TC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cal
+ endar-plugin/#spot=grindelwald
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=grindelwald
 LOCATION:Grindelwald
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d46ea5cc198fc04e@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261204T100000Z
-DTEND:20261204T140000Z
-SUMMARY:🤏 Grindelwald 6/10 · 66 cm of snow · sunny · -4°C
-DESCRIPTION:Best 6/10 at 11:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nFri 11:00       6      0 cm   
- sunny           -4°C    7 km/h (g60)\nFri 12:00       6      0 cm   sunny
-            -4°C    6 km/h (g47)\nFri 13:00     5.5      0 cm   sunny     
-       -4°C    4 km/h (g34)\nFri 14:00     5.5      0 cm   sunny          
-  -4°C    1 km/h (g22)\n\nWeather at 2010 m. Snow depth and new snow are t
- he weather model's numbers\, not the resort's own snow report.\nNotes: Und
- er the Eiger\, mostly cruising runs.\nGenerated 2026-11-27 12:00 UTC from 
- Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
- ugin/#spot=grindelwald
+UID:1bca94fea145aa87@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261203T080000Z
+DTEND:20261203T150000Z
+SUMMARY:🤏 Grindelwald 5.5/10 · 74 cm of snow · sunny · 2°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nThu 09:00     5.5      0 cm 
+   sunny            2°C    4 km/h (g6)\nThu 10:00     5.5      0 cm   sunn
+ y            2°C    5 km/h (g6)\nThu 11:00     5.5      0 cm   sunny     
+        2°C    5 km/h (g10)\nThu 12:00       5      0 cm   sunny          
+   3°C    5 km/h (g10)\nThu 13:00       5      0 cm   sunny            4°
+ C    5 km/h (g10)\nThu 14:00       5      0 cm   sunny            4°C    
+ 4 km/h (g9)\nThu 15:00       5      0 cm   sunny            4°C    4 km/h
+  (g9)\n\nWeather at 2010 m. Snow depth and new snow are the weather model'
+ s numbers\, not the resort's own snow report.\nNotes: Under the Eiger\, mo
+ stly cruising runs.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFu
+ ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=grinde
+ lwald
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=grindelwald
+LOCATION:Grindelwald
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b5d4000d378caaf2@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261204T120000Z
+DTEND:20261204T150000Z
+SUMMARY:🤏 Grindelwald 5.5/10 · 73 cm of snow · sunny · 3°C
+DESCRIPTION:Best 5.5/10 at 15:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nFri 13:00       5      0 cm 
+   sunny            4°C    3 km/h (g41)\nFri 14:00       5      0 cm   sun
+ ny            3°C    3 km/h (g27)\nFri 15:00     5.5      0 cm   sunny   
+          3°C    3 km/h (g27)\n\nWeather at 2010 m. Snow depth and new sno
+ w are the weather model's numbers\, not the resort's own snow report.\nNot
+ es: Under the Eiger\, mostly cruising runs.\nGenerated 2026-11-27 21:00 UT
+ C from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-cale
+ ndar-plugin/#spot=grindelwald
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=grindelwald
 LOCATION:Grindelwald
 TRANSP:TRANSPARENT

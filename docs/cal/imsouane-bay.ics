@@ -8,112 +8,47 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:7a475b12a3546d6e@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261126T160000Z
-DTEND:20261126T180000Z
-SUMMARY:🤏 Imsouane (La Baie) 5.5/10 · 2.8m 7s NNW · 24kn NNE
-DESCRIPTION:Best 5.5/10 at 16:00. Forecast confidence: high. 5 wave models 
- say 2.6 to 2.9 m.\n\nHour (local)  score  waves            wind\nThu 16:00
-      5.5   2.8m  7.0s NNW   24kn (g43) NNE offshore\nThu 17:00     5.5   2
- .8m  7.0s NNW   22kn (g43) NNE offshore\n\nNotes: Very long\, gentle right
-  inside the bay.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull 
- forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-
- bay
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay
-LOCATION:Imsouane (La Baie)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:015aa268b6ec5002@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261127T070000Z
-DTEND:20261127T180000Z
-SUMMARY:👍 Imsouane (La Baie) 7/10 · 1.8m 11s NNW · 6kn E
-DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: high. 5 wave models sa
- y 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nFri 07:00  
-      7   1.8m 11.2s NNW    6kn (g9)   E cross\nFri 08:00       7   1.8m 11
- .2s NNW    5kn (g9)   E cross\nFri 09:00       6   1.7m 10.2s NNW    4kn (
- g9)   E glassy\nFri 10:00     5.5   1.6m 10.2s NNW    0kn (g7)  SE glassy\
- nFri 11:00     5.5   1.6m 10.2s NNW    3kn (g7)   W glassy\nFri 12:00     
-   6   1.6m 10.2s NNW    4kn (g9)   W glassy\nFri 13:00       6   1.6m 10.1
- s NNW    5kn (g10) WNW glassy\nFri 14:00       6   1.5m 10.1s NNW    5kn (
- g10) WNW glassy\nFri 15:00       6   1.5m 10.2s NNW    6kn (g13) NNW cross
- \nFri 16:00       6   1.5m 10.2s NNW    6kn (g15) NNW cross\nFri 17:00    
-    6   1.5m 10.2s NNW    3kn (g14) WNW glassy\n\nNotes: Very long\, gentle
-  right inside the bay.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\
- nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ims
- ouane-bay
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay
-LOCATION:Imsouane (La Baie)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:d9f9f05f37f2abea@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Imsouane (La Baie) 8.5/10 · 1.6m 15s NW · 5kn NNW
-DESCRIPTION:Best 8.5/10 at 17:00. Forecast confidence: medium. 5 wave model
- s say 1.5 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 07:
- 00       6   1.4m 10.2s NNW    5kn (g8)   E cross\nSat 08:00       6   1.4
- m 10.2s NNW    5kn (g8)   E cross\nSat 09:00       6   1.4m 10.2s NNW    4
- kn (g8)   E glassy\nSat 10:00       6   1.4m 10.2s NNW    1kn (g6)   W gla
- ssy\nSat 11:00       7   1.4m 11.4s  NW    3kn (g7)   W glassy\nSat 12:00 
-       7   1.4m 12.3s  NW    4kn (g9)   W glassy\nSat 13:00       7   1.5m 
- 12.3s  NW    5kn (g11)   W cross\nSat 14:00     7.5   1.5m 14.2s  NW    5k
- n (g10) WNW glassy\nSat 15:00     7.5   1.5m 14.8s  NW    5kn (g10)  NW cr
- oss\nSat 16:00     7.5   1.6m 14.8s  NW    6kn (g11) NNW cross\nSat 17:00 
-     8.5   1.6m 14.8s  NW    5kn (g10) NNW glassy\n\nNotes: Very long\, gen
- tle right inside the bay.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.
- \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
- imsouane-bay
+SUMMARY:🔥 Imsouane (La Baie) 8.5/10 · 1.7m 15s NW · 6kn NNW
+DESCRIPTION:Best 8.5/10 at 17:00. Forecast confidence: high. 5 wave models 
+ say 1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nSat 07:00
+        6   1.4m 10.2s NNW    5kn (g9)   E cross\nSat 08:00       6   1.4m 
+ 10.2s NNW    6kn (g9)   E cross\nSat 09:00       6   1.4m 10.2s NNW    4kn
+  (g9)   E glassy\nSat 10:00     5.5   1.4m 10.4s  NW    1kn (g6)  SE glass
+ y\nSat 11:00     5.5   1.4m 10.4s  NW    3kn (g7) WSW glassy\nSat 12:00   
+     7   1.5m 12.3s  NW    5kn (g10)   W cross\nSat 13:00       7   1.5m 12
+ .3s  NW    6kn (g11) WNW cross\nSat 14:00     7.5   1.5m 14.2s  NW    6kn 
+ (g11) WNW cross\nSat 15:00     7.5   1.6m 14.8s  NW    6kn (g11)  NW cross
+ \nSat 16:00     7.5   1.6m 14.8s  NW    6kn (g11)  NW cross\nSat 17:00    
+  8.5   1.7m 14.8s  NW    6kn (g12) NNW offshore\n\nNotes: Very long\, gent
+ le right inside the bay.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\
+ n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=i
+ msouane-bay
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay
 LOCATION:Imsouane (La Baie)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0655351ed2351998@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Imsouane (La Baie) 8.5/10 · 2.0m 14s NW · 6kn E
-DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: medium. 5 wave model
- s say 1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nSun 07:
- 00     8.5   2.0m 13.5s  NW    6kn (g10)   E cross\nSun 08:00     8.5   2.
- 0m 13.5s  NW    6kn (g10)   E cross\nSun 09:00     8.5   2.0m 13.5s  NW   
-  5kn (g10)   E glassy\nSun 10:00     8.5   2.0m 13.5s  NW    2kn (g8)   E 
- glassy\nSun 11:00     8.5   2.0m 13.5s  NW    3kn (g7)   W glassy\nSun 12:
- 00     8.5   2.0m 13.5s  NW    5kn (g10) WNW cross\nSun 13:00     8.5   2.
- 0m 13.5s  NW    5kn (g13) WNW cross\nSun 14:00     8.5   2.0m 13.5s  NW   
-  6kn (g14) WNW cross\nSun 15:00     8.5   2.0m 13.5s  NW    6kn (g15)  NW 
- cross\nSun 16:00     8.5   2.0m 13.5s  NW    6kn (g13)  NW cross\nSun 17:0
- 0     8.5   2.0m 13.5s  NW    6kn (g14) NNW cross\n\nNotes: Very long\, ge
- ntle right inside the bay.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo
- .\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot
- =imsouane-bay
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay
-LOCATION:Imsouane (La Baie)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d29e592f8ed3ab63@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261130T070000Z
-DTEND:20261130T180000Z
-SUMMARY:👍 Imsouane (La Baie) 7.5/10 · 2.0m 13s NNW · 5kn E
-DESCRIPTION:Best 7.5/10 at 07:00. Forecast confidence: low. 4 wave models s
- ay 1.8 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 07:00 
-     7.5   2.0m 13.5s NNW    5kn (g8)   E cross\nMon 08:00     7.5   1.9m 1
- 3.5s NNW    5kn (g8)   E cross\nMon 09:00     7.5   1.9m 13.5s NNW    4kn 
- (g8)   E glassy\nMon 10:00     7.5   1.9m 13.4s NNW    2kn (g10) ENE glass
- y\nMon 11:00     7.5   1.9m 13.4s  NW    2kn (g10)  NW glassy\nMon 12:00  
-    7.5   1.9m 13.4s  NW    5kn (g10) WNW glassy\nMon 13:00     7.5   1.9m 
- 13.4s  NW    6kn (g12) WNW cross\nMon 14:00     7.5   1.8m 13.3s  NW    6k
- n (g12) WNW cross\nMon 15:00     7.5   1.8m 13.2s  NW    5kn (g12) WNW cro
- ss\nMon 16:00     7.5   1.8m 13.0s  NW    4kn (g8)  NW glassy\nMon 17:00  
-      7   1.8m 12.7s  NW    4kn (g8)  NW glassy\n\nNotes: Very long\, gentl
- e right inside the bay.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n
+SUMMARY:🔥 Imsouane (La Baie) 8.5/10 · 2.1m 15s NW · 5kn E
+DESCRIPTION:Best 8.5/10 at 07:00. Forecast confidence: high. 5 wave models 
+ say 1.8 to 2.3 m.\n\nHour (local)  score  waves            wind\nSun 07:00
+      8.5   2.1m 14.8s  NW    5kn (g9)   E cross\nSun 08:00     8.5   2.1m 
+ 14.8s  NW    5kn (g9)   E cross\nSun 09:00     8.5   2.1m 14.8s  NW    4kn
+  (g8)   E glassy\nSun 10:00       8   2.1m 14.8s  NW    1kn (g6) WSW glass
+ y\nSun 11:00     8.5   2.1m 14.8s  NW    3kn (g8) WNW glassy\nSun 12:00   
+   8.5   2.1m 14.8s  NW    4kn (g9) WNW glassy\nSun 13:00     8.5   2.1m 14
+ .8s  NW    5kn (g10) WNW cross\nSun 14:00     8.5   2.1m 14.8s  NW    5kn 
+ (g12) WNW cross\nSun 15:00     8.5   2.1m 14.8s  NW    5kn (g12) WNW cross
+ \nSun 16:00     8.5   2.1m 14.8s  NW    5kn (g13)  NW glassy\nSun 17:00   
+   8.5   2.1m 14.2s  NW    3kn (g12)  NW glassy\n\nNotes: Very long\, gentl
+ e right inside the bay.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n
  \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=im
  souane-bay
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay
@@ -121,47 +56,95 @@ LOCATION:Imsouane (La Baie)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:d29e592f8ed3ab63@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261130T070000Z
+DTEND:20261130T180000Z
+SUMMARY:🔥 Imsouane (La Baie) 9.5/10 · 2.0m 14s NW · 1kn ENE
+DESCRIPTION:Best 9.5/10 at 10:00. Forecast confidence: medium. 5 wave model
+ s say 1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 07:
+ 00     8.5   2.1m 13.5s  NW    5kn (g9)   E cross\nMon 08:00     8.5   2.1
+ m 13.5s  NW    5kn (g9)   E cross\nMon 09:00     8.5   2.1m 13.5s  NW    4
+ kn (g8)   E glassy\nMon 10:00     9.5   2.0m 13.5s  NW    1kn (g6) ENE gla
+ ssy\nMon 11:00     8.5   2.0m 13.5s  NW    3kn (g6) WNW glassy\nMon 12:00 
+     8.5   2.0m 13.5s  NW    5kn (g10) WNW cross\nMon 13:00     8.5   2.0m 
+ 13.5s  NW    6kn (g11)  NW cross\nMon 14:00     8.5   2.0m 13.5s  NW    5k
+ n (g11)  NW cross\nMon 15:00     7.5   2.0m 13.5s  NW    4kn (g10)  NW gla
+ ssy\nMon 16:00     7.5   2.0m 13.5s  NW    4kn (g10)  NW glassy\nMon 17:00
+      7.5   2.0m 13.5s  NW    3kn (g10) NNW glassy\n\nNotes: Very long\, ge
+ ntle right inside the bay.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo
+ .\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot
+ =imsouane-bay
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay
+LOCATION:Imsouane (La Baie)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0c9fcbf336b4d198@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261201T070000Z
 DTEND:20261201T180000Z
-SUMMARY:👍 Imsouane (La Baie) 7/10 · 1.8m 13s NW · 5kn E
-DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.8 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 07:00   
-     7   1.8m 12.8s  NW    5kn (g8)   E glassy\nTue 08:00       7   1.8m 12
- .8s  NW    5kn (g8)   E glassy\nTue 09:00       7   1.8m 12.7s  NW    4kn 
- (g8)   E glassy\nTue 10:00       7   1.8m 12.7s  NW    1kn (g9)   E glassy
- \nTue 11:00       7   1.7m 12.6s  NW    2kn (g8) WNW glassy\nTue 12:00    
-    7   1.7m 12.6s  NW    4kn (g8) WNW glassy\nTue 13:00       7   1.7m 12.
- 5s  NW    5kn (g7) WNW glassy\nTue 14:00       7   1.7m 12.4s  NW    4kn (
- g7) WNW glassy\nTue 15:00       7   1.6m 12.4s  NW    4kn (g7)  NW glassy\
- nTue 16:00       7   1.7m 12.3s  NW    4kn (g5)  NW glassy\nTue 17:00     
-   7   1.7m 12.2s  NW    3kn (g5)  NW glassy\n\nNotes: Very long\, gentle r
- ight inside the bay.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
- ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=imsou
- ane-bay
+SUMMARY:🔥 Imsouane (La Baie) 8/10 · 1.6m 12s NW · 3kn NNW
+DESCRIPTION:Best 8/10 at 17:00. Forecast confidence: low. 4 wave models say
+  1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00   
+     7   1.9m 12.8s NNW    5kn (g8)   E glassy\nTue 08:00       7   1.8m 12
+ .8s NNW    5kn (g8)   E glassy\nTue 09:00       7   1.8m 12.7s NNW    4kn 
+ (g8)   E glassy\nTue 10:00       7   1.8m 12.7s NNW    2kn (g10) ENE glass
+ y\nTue 11:00       7   1.8m 12.6s NNW    2kn (g10)  NW glassy\nTue 12:00  
+      7   1.8m 12.5s NNW    5kn (g10) WNW glassy\nTue 13:00       7   1.7m 
+ 12.4s NNW    5kn (g10) WNW cross\nTue 14:00       7   1.7m 12.4s  NW    5k
+ n (g10) WNW cross\nTue 15:00       7   1.7m 12.4s  NW    5kn (g10)  NW gla
+ ssy\nTue 16:00       7   1.7m 12.3s  NW    4kn (g7)  NW glassy\nTue 17:00 
+       8   1.6m 12.2s  NW    3kn (g7) NNW glassy\n\nNotes: Very long\, gent
+ le right inside the bay.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\
+ n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=i
+ msouane-bay
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay
 LOCATION:Imsouane (La Baie)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:626bbd6b6ead4ac4@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261202T070000Z
 DTEND:20261202T180000Z
-SUMMARY:👍 Imsouane (La Baie) 7/10 · 1.2m 12s NW · 2kn NE
-DESCRIPTION:Best 7/10 at 10:00. Forecast confidence: low. 4 wave models say
-  1.1 to 1.4 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
-     6   1.3m 12.3s  NW    4kn (g6)   E glassy\nWed 08:00       6   1.2m 12
- .3s  NW    4kn (g6)   E glassy\nWed 09:00       6   1.2m 12.2s  NW    3kn 
- (g6)   E glassy\nWed 10:00       7   1.2m 12.2s  NW    2kn (g7)  NE glassy
- \nWed 11:00       6   1.2m 12.1s  NW    2kn (g7)  NW glassy\nWed 12:00    
-    6   1.2m 12.1s  NW    4kn (g7)  NW glassy\nWed 13:00       6   1.2m 12.
- 1s  NW    4kn (g7)  NW glassy\nWed 14:00       6   1.2m 12.1s  NW    4kn (
- g7)  NW glassy\nWed 15:00       6   1.1m 12.1s  NW    4kn (g7)  NW glassy\
- nWed 16:00       6   1.1m 12.1s  NW    4kn (g6) NNW glassy\nWed 17:00     
-   7   1.1m 12.1s  NW    4kn (g6)   N glassy\n\nNotes: Very long\, gentle r
- ight inside the bay.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
+SUMMARY:👍 Imsouane (La Baie) 7/10 · 1.4m 12s NW · 6kn E
+DESCRIPTION:Best 7/10 at 07:00. Forecast confidence: low. 4 wave models say
+  1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
+     7   1.4m 12.2s  NW    6kn (g9)   E cross\nWed 08:00       7   1.3m 12.
+ 2s  NW    5kn (g9)   E cross\nWed 09:00       6   1.3m 12.2s  NW    4kn (g
+ 9)   E glassy\nWed 10:00       6   1.3m 12.1s  NW    2kn (g9) ENE glassy\n
+ Wed 11:00       6   1.3m 12.1s  NW    2kn (g9)  NW glassy\nWed 12:00      
+  6   1.3m 12.1s  NW    4kn (g9) WNW glassy\nWed 13:00       6   1.2m 12.0s
+   NW    5kn (g11) WNW cross\nWed 14:00       6   1.2m 12.0s  NW    5kn (g1
+ 1) WNW cross\nWed 15:00       6   1.2m 11.9s  NW    4kn (g11)  NW glassy\n
+ Wed 16:00       6   1.2m 11.9s  NW    4kn (g7)  NW glassy\nWed 17:00      
+  7   1.2m 11.9s  NW    3kn (g7) NNW glassy\n\nNotes: Very long\, gentle ri
+ ght inside the bay.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFu
+ ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=imsoua
+ ne-bay
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay
+LOCATION:Imsouane (La Baie)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:deed2b0ff566f815@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261203T070000Z
+DTEND:20261203T180000Z
+SUMMARY:👍 Imsouane (La Baie) 7/10 · 1.3m 12s NW · 2kn NNW
+DESCRIPTION:Best 7/10 at 17:00. Forecast confidence: low. 4 wave models say
+  1.2 to 1.3 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
+     6   1.2m 12.4s  NW    4kn (g6)   E glassy\nThu 08:00       6   1.2m 12
+ .3s  NW    3kn (g6)   E glassy\nThu 09:00       6   1.2m 12.3s  NW    2kn 
+ (g6)   E glassy\nThu 10:00       6   1.2m 12.3s  NW    1kn (g5) ESE glassy
+ \nThu 11:00     5.5   1.2m 12.4s  NW    1kn (g5)  SW glassy\nThu 12:00    
+  5.5   1.2m 12.4s  NW    3kn (g5)  SW glassy\nThu 13:00     5.5   1.2m 12.
+ 4s  NW    3kn (g7) WSW glassy\nThu 14:00       6   1.3m 12.4s  NW    4kn (
+ g7)   W glassy\nThu 15:00       6   1.3m 12.4s  NW    4kn (g7) WNW glassy\
+ nThu 16:00       6   1.3m 12.5s  NW    3kn (g3) WNW glassy\nThu 17:00     
+   7   1.3m 12.5s  NW    2kn (g3) NNW glassy\n\nNotes: Very long\, gentle r
+ ight inside the bay.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=imsou
  ane-bay
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay
@@ -169,23 +152,23 @@ LOCATION:Imsouane (La Baie)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:deed2b0ff566f815@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261203T070000Z
-DTEND:20261203T180000Z
-SUMMARY:🔥 Imsouane (La Baie) 8/10 · 1.3m 12s NW · 4kn NNW
+UID:66172e607275e544@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261204T070000Z
+DTEND:20261204T180000Z
+SUMMARY:🔥 Imsouane (La Baie) 8/10 · 1.5m 12s NW · 2kn N
 DESCRIPTION:Best 8/10 at 17:00. Forecast confidence: low. 4 wave models say
-  1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
-     6   1.2m 12.2s  NW    3kn (g7)   E glassy\nThu 08:00       6   1.2m 12
- .2s  NW    4kn (g7)   E glassy\nThu 09:00       6   1.2m 12.1s  NW    4kn 
- (g7)   E glassy\nThu 10:00       6   1.2m 11.9s  NW    2kn (g5)   E glassy
- \nThu 11:00       6   1.3m 11.7s  NW    1kn (g5) NNW glassy\nThu 12:00    
-    6   1.3m 11.5s  NW    3kn (g5)  NW glassy\nThu 13:00       6   1.3m 11.
- 5s  NW    4kn (g8) WNW glassy\nThu 14:00       6   1.3m 11.6s  NW    5kn (
- g8)  NW glassy\nThu 15:00       6   1.3m 11.7s  NW    5kn (g8)  NW glassy\
- nThu 16:00       6   1.3m 11.8s  NW    4kn (g5)  NW glassy\nThu 17:00     
-   8   1.3m 11.8s  NW    4kn (g5) NNW glassy\n\nNotes: Very long\, gentle r
- ight inside the bay.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
+  1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nFri 07:00   
+     7   1.5m 12.8s  NW    4kn (g6)   E glassy\nFri 08:00       7   1.5m 12
+ .8s  NW    4kn (g6)   E glassy\nFri 09:00       7   1.5m 12.8s  NW    3kn 
+ (g6)   E glassy\nFri 10:00       7   1.5m 12.7s  NW    1kn (g7)   E glassy
+ \nFri 11:00     6.5   1.5m 12.7s  NW    2kn (g7)   W glassy\nFri 12:00    
+  6.5   1.5m 12.6s  NW    4kn (g7)   W glassy\nFri 13:00       7   1.5m 12.
+ 6s  NW    4kn (g6)   W glassy\nFri 14:00       7   1.5m 12.5s  NW    4kn (
+ g6) WNW glassy\nFri 15:00       7   1.5m 12.5s  NW    4kn (g6) WNW glassy\
+ nFri 16:00       7   1.5m 12.4s  NW    2kn (g5)  NW glassy\nFri 17:00     
+   8   1.5m 12.4s  NW    2kn (g5)   N glassy\n\nNotes: Very long\, gentle r
+ ight inside the bay.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=imsou
  ane-bay
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=imsouane-bay

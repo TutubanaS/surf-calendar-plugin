@@ -8,104 +8,42 @@ X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:7fde27aa071bde9d@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261201T060000Z
-DTEND:20261201T080000Z
-SUMMARY:🤏 Uludağ 5.8/10 · 20 cm new snow · snowing · -8°C
-DESCRIPTION:Best 5.8/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nTue 09:00     5.8     20 cm 
-   snowing         -8°C   26 km/h (g63)\nTue 10:00     5.8     20 cm   sno
- wing         -8°C   26 km/h (g64)\n\nWeather at 2280 m. Snow depth and ne
- w snow are the weather model's numbers\, not the resort's own snow report.
- \nNotes: Closest big resort to Istanbul. Busy at weekends.\nGenerated 2026
- -11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gith
- ub.io/surf-calendar-plugin/#spot=uludag
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=uludag
-LOCATION:Uludağ
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:426051765346ab8a@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261201T110000Z
-DTEND:20261201T130000Z
-SUMMARY:🤏 Uludağ 5.8/10 · 20 cm new snow · snowing · -8°C
-DESCRIPTION:Best 5.8/10 at 14:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nTue 14:00     5.8     20 cm 
-   snowing         -8°C   26 km/h (g60)\nTue 15:00     5.8     20 cm   sno
- wing         -8°C   26 km/h (g60)\n\nWeather at 2280 m. Snow depth and ne
- w snow are the weather model's numbers\, not the resort's own snow report.
- \nNotes: Closest big resort to Istanbul. Busy at weekends.\nGenerated 2026
- -11-27 12:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gith
- ub.io/surf-calendar-plugin/#spot=uludag
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=uludag
-LOCATION:Uludağ
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:39a60d8392fed5c5@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261202T070000Z
+UID:84f71ea13baba402@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261202T110000Z
 DTEND:20261202T130000Z
-SUMMARY:👍 Uludağ 7/10 · 27 cm new snow · snowing · -10°C
-DESCRIPTION:Best 7/10 at 15:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nWed 10:00     6.2     27 cm   
- snowing        -10°C   17 km/h (g62)\nWed 11:00     6.2     27 cm   snowi
- ng        -10°C   16 km/h (g62)\nWed 12:00     6.2     28 cm   snowing   
-      -10°C   16 km/h (g62)\nWed 13:00     6.2     28 cm   snowing        
- -10°C   16 km/h (g54)\nWed 14:00     6.2     27 cm   snowing        -10°
- C   15 km/h (g54)\nWed 15:00       7     27 cm   snowing        -10°C   1
- 4 km/h (g54)\n\nWeather at 2280 m. Snow depth and new snow are the weather
-  model's numbers\, not the resort's own snow report.\nNotes: Closest big r
- esort to Istanbul. Busy at weekends.\nGenerated 2026-11-27 12:00 UTC from 
- Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
- ugin/#spot=uludag
+SUMMARY:🤏 Uludağ 5.8/10 · 20 cm new snow · snowing · -7°C
+DESCRIPTION:Best 5.8/10 at 14:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nWed 14:00     5.8     20 cm 
+   snowing         -7°C   25 km/h (g56)\nWed 15:00     5.8     22 cm   sno
+ wing         -7°C   25 km/h (g56)\n\nWeather at 2280 m. Snow depth and ne
+ w snow are the weather model's numbers\, not the resort's own snow report.
+ \nNotes: Closest big resort to Istanbul. Busy at weekends.\nGenerated 2026
+ -11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gith
+ ub.io/surf-calendar-plugin/#spot=uludag
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=uludag
 LOCATION:Uludağ
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:010ff93d1cc3573d@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261203T070000Z
+UID:2daa3731f78aec8c@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261203T060000Z
 DTEND:20261203T130000Z
-SUMMARY:🤏 Uludağ 5/10 · 9 cm new snow · snowing · -12°C
-DESCRIPTION:Best 5/10 at 10:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nThu 10:00       5      9 cm   
- snowing        -12°C    6 km/h (g19)\nThu 11:00       5      8 cm   snowi
- ng        -11°C    7 km/h (g19)\nThu 12:00       5      7 cm   snowing   
-      -10°C    8 km/h (g19)\nThu 13:00       5      7 cm   snowing        
- -10°C    8 km/h (g30)\nThu 14:00       5      6 cm   snowing        -10°
- C    9 km/h (g30)\nThu 15:00       5      5 cm   snowing        -10°C    
- 9 km/h (g30)\n\nWeather at 2280 m. Snow depth and new snow are the weather
-  model's numbers\, not the resort's own snow report.\nNotes: Closest big r
- esort to Istanbul. Busy at weekends.\nGenerated 2026-11-27 12:00 UTC from 
- Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
- ugin/#spot=uludag
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=uludag
-LOCATION:Uludağ
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1a67185c2f9c19cf@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261204T060000Z
-DTEND:20261204T130000Z
-SUMMARY:🤏 Uludağ 6/10 · 11 cm new snow · snowing · -9°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nFri 09:00       6     11 cm   
- snowing         -9°C    9 km/h (g56)\nFri 10:00       6     11 cm   snowi
- ng         -8°C    9 km/h (g54)\nFri 11:00       6     12 cm   snowing   
-       -8°C    8 km/h (g54)\nFri 12:00       6     12 cm   snowing        
-  -8°C    8 km/h (g54)\nFri 13:00       6     13 cm   snowing         -7°
- C    8 km/h (g44)\nFri 14:00       6     13 cm   snowing         -7°C    
- 7 km/h (g37)\nFri 15:00       6     13 cm   snowing         -7°C    6 km/
- h (g30)\n\nWeather at 2280 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: Closest big resort
-  to Istanbul. Busy at weekends.\nGenerated 2026-11-27 12:00 UTC from Open-
- Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/
- #spot=uludag
+SUMMARY:👍 Uludağ 7.5/10 · 39 cm new snow · snowing · -8°C
+DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nThu 09:00     7.5     39 cm 
+   snowing         -8°C   14 km/h (g63)\nThu 10:00     7.5     40 cm   sno
+ wing         -7°C   14 km/h (g64)\nThu 11:00     7.5     41 cm   snowing 
+         -7°C   14 km/h (g64)\nThu 12:00     7.5     42 cm   snowing      
+    -7°C   14 km/h (g64)\nThu 13:00     7.5     42 cm   snowing         -7
+ °C   14 km/h (g64)\nThu 14:00     7.5     42 cm   snowing         -7°C  
+  14 km/h (g64)\nThu 15:00     7.5     43 cm   snowing         -7°C   14 k
+ m/h (g64)\n\nWeather at 2280 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Closest big reso
+ rt to Istanbul. Busy at weekends.\nGenerated 2026-11-27 21:00 UTC from Ope
+ n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
+ n/#spot=uludag
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=uludag
 LOCATION:Uludağ
 TRANSP:TRANSPARENT

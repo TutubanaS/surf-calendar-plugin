@@ -8,185 +8,162 @@ X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:e61a0161f0fd68ef@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261126T070000Z
-DTEND:20261126T180000Z
-SUMMARY:🔥 Dar Bouazza 10/10 · 2.2m 13s NW · 2kn ESE
-DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: high. 5 wave models s
- ay 2.1 to 2.7 m.\n\nHour (local)  score  waves            wind\nThu 07:00 
-      10   2.2m 13.1s  NW    2kn (g4) ESE glassy\nThu 08:00     9.5   2.2m 
- 12.6s  NW    2kn (g4)  SE glassy\nThu 09:00     9.5   2.2m 12.3s  NW    2k
- n (g4) ESE glassy\nThu 10:00     8.5   2.2m 12.2s  NW    2kn (g5) ENE glas
- sy\nThu 11:00     8.5   2.1m 12.2s  NW    6kn (g10)  NE cross\nThu 12:00  
-    8.5   2.1m 12.3s  NW    6kn (g11)  NE cross\nThu 13:00       6   2.1m 1
- 2.3s  NW    7kn (g13) NNE onshore\nThu 14:00       6   2.1m 12.3s  NW    8
- kn (g14) NNE onshore\nThu 15:00       7   2.1m 12.3s  NW    8kn (g15) NNE 
- cross\nThu 16:00       7   2.0m 11.9s  NW    8kn (g15) NNE cross\nThu 17:0
- 0     8.5   2.0m 11.2s  NW    7kn (g15)  NE cross\n\nGenerated 2026-11-26 
- 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/s
- urf-calendar-plugin/#spot=dar-bouazza
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=dar-bouazza
-LOCATION:Dar Bouazza
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c5e2fc1adcc23b55@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261127T070000Z
-DTEND:20261127T180000Z
-SUMMARY:🔥 Dar Bouazza 8/10 · 1.5m 10s NW · 4kn SE
-DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: high. 5 wave models sa
- y 1.4 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 07:00  
-      8   1.5m 10.1s  NW    4kn (g7)  SE glassy\nFri 08:00       8   1.4m 1
- 0.1s  NW    4kn (g7)  SE glassy\nFri 09:00       8   1.4m 10.2s  NW    4kn
-  (g8) ESE glassy\nFri 10:00       8   1.4m 10.2s  NW    6kn (g10) ESE offs
- hore\nFri 11:00       7   1.4m 10.2s  NW    8kn (g13) ENE cross\nFri 12:00
-      5.5   1.3m 10.2s  NW   10kn (g17)  NE cross\nFri 13:00     5.5   1.3m
-  10.2s  NW   10kn (g18)  NE cross\nFri 14:00     5.5   1.4m 10.2s  NW   12
- kn (g20) NNE cross\nFri 15:00     5.5   1.4m 10.2s NNW   13kn (g22) NNE cr
- oss\nFri 16:00     5.5   1.4m 10.2s NNW   12kn (g22)  NE cross\nFri 17:00 
-     5.5   1.4m 10.2s NNW   11kn (g21)  NE cross\n\nGenerated 2026-11-26 16
- :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
- f-calendar-plugin/#spot=dar-bouazza
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=dar-bouazza
-LOCATION:Dar Bouazza
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:7666f7cb59338103@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Dar Bouazza 10/10 · 1.7m 13s NW · 3kn SSE
-DESCRIPTION:Best 10/10 at 10:00. Forecast confidence: medium. 5 wave models
-  say 1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nSat 07:0
- 0       9   1.6m 12.3s  NW    4kn (g6) SSE glassy\nSat 08:00       9   1.6
- m 12.2s  NW    4kn (g6) SSE glassy\nSat 09:00     9.5   1.6m 12.3s  NW    
- 4kn (g6)  SE glassy\nSat 10:00      10   1.7m 13.1s  NW    3kn (g6) SSE gl
- assy\nSat 11:00      10   1.7m 14.1s  NW    3kn (g6) SSE glassy\nSat 12:00
-      8.5   1.7m 14.8s  NW    1kn (g5)   N glassy\nSat 13:00     8.5   1.8m
-  14.8s  NW    4kn (g8) NNW glassy\nSat 14:00     8.5   1.9m 14.8s  NW    6
- kn (g10) NNW onshore\nSat 15:00     6.5   1.9m 14.8s  NW    6kn (g10) NNW 
- onshore\nSat 16:00     8.5   1.9m 14.8s  NW    4kn (g10) NNW glassy\nSat 1
- 7:00     8.5   2.0m 14.8s  NW    3kn (g8) NNW glassy\n\nGenerated 2026-11-
- 26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.i
- o/surf-calendar-plugin/#spot=dar-bouazza
+DESCRIPTION:Best 10/10 at 10:00. Forecast confidence: high. 5 wave models s
+ ay 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nSat 07:00 
+       9   1.6m 12.3s  NW    4kn (g7) SSE glassy\nSat 08:00     9.5   1.6m 
+ 12.2s  NW    4kn (g7) SSE glassy\nSat 09:00     9.5   1.6m 12.3s  NW    4k
+ n (g7) SSE glassy\nSat 10:00      10   1.7m 13.1s  NW    3kn (g7) SSE glas
+ sy\nSat 11:00      10   1.7m 14.1s  NW    2kn (g6) SSE glassy\nSat 12:00  
+    8.5   1.8m 14.8s  NW    1kn (g5) WNW glassy\nSat 13:00     8.5   1.8m 1
+ 4.8s  NW    4kn (g7)  NW glassy\nSat 14:00     8.5   1.9m 14.8s  NW    6kn
+  (g10)  NW onshore\nSat 15:00     8.5   1.9m 14.8s  NW    6kn (g10)  NW on
+ shore\nSat 16:00     8.5   2.0m 14.8s  NW    5kn (g10)  NW onshore\nSat 17
+ :00     8.5   2.0m 14.8s  NW    3kn (g9) NNW glassy\n\nGenerated 2026-11-2
+ 7 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io
+ /surf-calendar-plugin/#spot=dar-bouazza
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=dar-bouazza
 LOCATION:Dar Bouazza
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eebdc2d68e216ea9@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Dar Bouazza 10/10 · 2.2m 14s NW · 4kn SSE
-DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: medium. 5 wave models
-  say 2.0 to 2.2 m.\n\nHour (local)  score  waves            wind\nSun 07:0
- 0      10   2.2m 13.5s  NW    4kn (g6) SSE glassy\nSun 08:00      10   2.2
- m 13.5s  NW    4kn (g6) SSE glassy\nSun 09:00      10   2.2m 13.5s  NW    
- 4kn (g6) SSE glassy\nSun 10:00      10   2.2m 13.5s  NW    4kn (g7) SSE gl
- assy\nSun 11:00      10   2.1m 13.5s  NW    4kn (g8)  SE glassy\nSun 12:00
-        9   2.1m 13.5s  NW    4kn (g8) ENE glassy\nSun 13:00     8.5   2.1m
-  13.5s  NW    5kn (g9) NNE onshore\nSun 14:00     6.5   2.2m 13.5s  NW    
- 6kn (g11)   N onshore\nSun 15:00     6.5   2.2m 13.5s  NW    8kn (g13)   N
-  onshore\nSun 16:00     6.5   2.2m 13.5s  NW    8kn (g14) NNE onshore\nSun
-  17:00     6.5   2.1m 13.5s  NW    7kn (g14) NNE onshore\n\nGenerated 2026
- -11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gith
- ub.io/surf-calendar-plugin/#spot=dar-bouazza
+SUMMARY:🔥 Dar Bouazza 10/10 · 2.3m 15s NW · 4kn SSE
+DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: high. 5 wave models s
+ ay 2.0 to 2.5 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
+      10   2.3m 14.8s  NW    4kn (g6) SSE glassy\nSun 08:00      10   2.3m 
+ 14.8s  NW    4kn (g7) SSE glassy\nSun 09:00      10   2.2m 14.8s  NW    4k
+ n (g7) SSE glassy\nSun 10:00      10   2.2m 14.8s  NW    3kn (g7) SSE glas
+ sy\nSun 11:00      10   2.2m 14.8s  NW    2kn (g6) ESE glassy\nSun 12:00  
+    8.5   2.2m 14.8s  NW    4kn (g8) NNE glassy\nSun 13:00     6.5   2.2m 1
+ 4.4s  NW    6kn (g11)   N onshore\nSun 14:00     6.5   2.2m 13.9s  NW    7
+ kn (g12)   N onshore\nSun 15:00     6.5   2.2m 13.5s  NW    7kn (g12) NNE 
+ onshore\nSun 16:00     6.5   2.3m 13.5s  NW    6kn (g12) NNE onshore\nSun 
+ 17:00     8.5   2.3m 13.5s  NW    6kn (g11) NNE onshore\n\nGenerated 2026-
+ 11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.githu
+ b.io/surf-calendar-plugin/#spot=dar-bouazza
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=dar-bouazza
 LOCATION:Dar Bouazza
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:73a9c9cc0b1e0d33@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Dar Bouazza 10/10 · 1.9m 13s NW · 4kn SSE
-DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: low. 4 wave models sa
- y 1.8 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 07:00  
-     10   1.9m 13.4s  NW    4kn (g6) SSE glassy\nMon 08:00      10   1.9m 1
- 3.3s  NW    4kn (g6) SSE glassy\nMon 09:00      10   1.9m 13.2s  NW    4kn
-  (g6)  SE glassy\nMon 10:00      10   1.9m 13.0s  NW    3kn (g11) ESE glas
- sy\nMon 11:00     8.5   1.9m 12.7s  NW    4kn (g11) ENE glassy\nMon 12:00 
-     8.5   1.9m 12.5s  NW    6kn (g11)  NE cross\nMon 13:00     8.5   1.9m 
- 12.4s  NW    8kn (g18)  NE cross\nMon 14:00       7   1.9m 12.5s  NW    9k
- n (g18) NNE cross\nMon 15:00       7   1.9m 12.6s  NW   10kn (g18) NNE cro
- ss\nMon 16:00       7   1.9m 12.7s  NW   10kn (g15)  NE cross\nMon 17:00  
-      7   1.9m 12.8s  NW    8kn (g15)  NE cross\n\nGenerated 2026-11-26 16:
- 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
- -calendar-plugin/#spot=dar-bouazza
+SUMMARY:🔥 Dar Bouazza 10/10 · 2.0m 14s NW · 3kn SSE
+DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: medium. 5 wave models
+  say 1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nMon 07:0
+ 0      10   2.0m 13.5s  NW    3kn (g6) SSE glassy\nMon 08:00      10   2.0
+ m 13.5s  NW    4kn (g6) SSE glassy\nMon 09:00      10   2.0m 13.5s  NW    
+ 3kn (g6)  SE glassy\nMon 10:00       9   2.0m 13.5s  NW    3kn (g5)   E gl
+ assy\nMon 11:00       9   2.0m 13.5s  NW    4kn (g8)  NE glassy\nMon 12:00
+        9   2.0m 13.5s  NW    6kn (g11)  NE cross\nMon 13:00     6.5   2.0m
+  13.5s  NW    7kn (g12) NNE onshore\nMon 14:00     6.5   2.0m 13.5s  NW   
+  8kn (g14) NNE onshore\nMon 15:00     6.5   2.0m 13.5s  NW    8kn (g14) NN
+ E onshore\nMon 16:00       9   2.0m 13.5s  NW    7kn (g13) NNE cross\nMon 
+ 17:00       9   2.0m 13.5s  NW    6kn (g12)  NE cross\n\nGenerated 2026-11
+ -27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
+ io/surf-calendar-plugin/#spot=dar-bouazza
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=dar-bouazza
 LOCATION:Dar Bouazza
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:16aaea5a73333d19@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261201T070000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Dar Bouazza 9.5/10 · 1.8m 13s NW · 4kn SSE
+SUMMARY:🔥 Dar Bouazza 9.5/10 · 1.9m 13s NW · 4kn SSE
 DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
  ay 1.8 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 07:00 
-     9.5   1.8m 12.5s  NW    4kn (g6) SSE glassy\nTue 08:00     9.5   1.8m 
- 12.5s  NW    3kn (g6) SSE glassy\nTue 09:00     9.5   1.8m 12.4s  NW    2k
- n (g6)  SE glassy\nTue 10:00     9.5   1.8m 12.4s  NW    2kn (g8) ESE glas
- sy\nTue 11:00     8.5   1.7m 12.5s  NW    3kn (g8) ENE glassy\nTue 12:00  
-    8.5   1.7m 12.5s  NW    4kn (g8)  NE glassy\nTue 13:00     8.5   1.7m 1
- 2.5s  NW    6kn (g14)  NE cross\nTue 14:00     8.5   1.6m 12.5s  NW    7kn
-  (g14)  NE cross\nTue 15:00     8.5   1.6m 12.6s  NW    8kn (g14) NNE cros
- s\nTue 16:00     8.5   1.6m 12.6s  NW    7kn (g11)  NE cross\nTue 17:00   
-     8   1.6m 12.6s  NW    6kn (g11)  NE cross\n\nGenerated 2026-11-26 16:0
- 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
- calendar-plugin/#spot=dar-bouazza
+     9.5   1.9m 12.5s  NW    4kn (g6) SSE glassy\nTue 08:00     9.5   1.9m 
+ 12.4s  NW    3kn (g6) SSE glassy\nTue 09:00     9.5   1.9m 12.4s  NW    3k
+ n (g6) SSE glassy\nTue 10:00     9.5   1.8m 12.4s  NW    1kn (g8)  SE glas
+ sy\nTue 11:00       8   1.8m 12.5s  NW    2kn (g8) NNE glassy\nTue 12:00  
+      8   1.8m 12.5s  NW    4kn (g8) NNE glassy\nTue 13:00       8   1.8m 1
+ 2.5s  NW    6kn (g13)   N onshore\nTue 14:00       6   1.7m 12.6s  NW    7
+ kn (g13)   N onshore\nTue 15:00       6   1.7m 12.6s  NW    8kn (g13) NNE 
+ onshore\nTue 16:00       6   1.7m 12.6s  NW    7kn (g13) NNE onshore\nTue 
+ 17:00     8.5   1.6m 12.6s  NW    7kn (g13)  NE cross\n\nGenerated 2026-11
+ -27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
+ io/surf-calendar-plugin/#spot=dar-bouazza
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=dar-bouazza
 LOCATION:Dar Bouazza
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ec5d086c81127f55@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261202T070000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Dar Bouazza 9/10 · 1.3m 12s NW · 4kn SE
+SUMMARY:🔥 Dar Bouazza 9/10 · 1.4m 12s NW · 4kn SSE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.1 to 1.4 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
-     9   1.3m 12.2s  NW    4kn (g6)  SE glassy\nWed 08:00       9   1.3m 12
- .2s  NW    3kn (g6)  SE glassy\nWed 09:00       9   1.3m 12.3s  NW    3kn 
- (g6)  SE glassy\nWed 10:00       9   1.3m 12.4s  NW    2kn (g9)   E glassy
- \nWed 11:00       8   1.3m 12.4s  NW    3kn (g9)  NE glassy\nWed 12:00    
-    8   1.3m 12.4s  NW    5kn (g9)  NE glassy\nWed 13:00       8   1.3m 12.
- 4s  NW    6kn (g16) NNE cross\nWed 14:00     5.5   1.3m 12.4s  NW    8kn (
- g16) NNE onshore\nWed 15:00     5.5   1.3m 12.4s  NW    9kn (g16) NNE onsh
- ore\nWed 16:00     6.5   1.3m 12.4s  NW    9kn (g14) NNE cross\nWed 17:00 
-       8   1.3m 12.4s  NW    8kn (g14)  NE cross\n\nGenerated 2026-11-26 16
- :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
- f-calendar-plugin/#spot=dar-bouazza
+  1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nWed 07:00   
+     9   1.4m 12.1s  NW    4kn (g6) SSE glassy\nWed 08:00       9   1.4m 12
+ .1s  NW    4kn (g6) SSE glassy\nWed 09:00       9   1.4m 12.2s  NW    3kn 
+ (g6) SSE glassy\nWed 10:00       9   1.4m 12.2s  NW    2kn (g7)  SE glassy
+ \nWed 11:00       8   1.4m 12.3s  NW    2kn (g7) ENE glassy\nWed 12:00    
+    8   1.3m 12.3s  NW    4kn (g7) NNE glassy\nWed 13:00     7.5   1.3m 12.
+ 4s  NW    5kn (g13) NNE onshore\nWed 14:00     5.5   1.3m 12.4s  NW    7kn
+  (g13) NNE onshore\nWed 15:00     5.5   1.3m 12.4s  NW    8kn (g13)   N on
+ shore\nWed 16:00       9   1.3m 12.4s  NW    6kn (g9)   E offshore\nWed 17
+ :00     7.5   1.3m 12.3s  NW    4kn (g9) NNE glassy\n\nGenerated 2026-11-2
+ 7 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io
+ /surf-calendar-plugin/#spot=dar-bouazza
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=dar-bouazza
 LOCATION:Dar Bouazza
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:218a9ab01beba43c@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261203T070000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Dar Bouazza 9/10 · 1.4m 12s NW · 4kn SE
+SUMMARY:🔥 Dar Bouazza 9/10 · 1.4m 12s NW · 3kn SSE
 DESCRIPTION:Best 9/10 at 07:00. Forecast confidence: low. 4 wave models say
-  1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
-     9   1.4m 12.0s  NW    4kn (g5)  SE glassy\nThu 08:00       9   1.4m 11
- .8s  NW    3kn (g5)  SE glassy\nThu 09:00       9   1.4m 11.7s  NW    3kn 
- (g5)  SE glassy\nThu 10:00       9   1.4m 11.6s  NW    2kn (g7) ESE glassy
- \nThu 11:00       8   1.4m 11.7s  NW    2kn (g7) ENE glassy\nThu 12:00    
-    8   1.4m 11.8s  NW    3kn (g7)  NE glassy\nThu 13:00     7.5   1.4m 11.
- 8s  NW    4kn (g12) NNE glassy\nThu 14:00     7.5   1.5m 11.8s  NW    6kn 
- (g12) NNE onshore\nThu 15:00     5.5   1.5m 11.9s  NW    6kn (g12) NNE ons
- hore\nThu 16:00     5.5   1.5m 11.9s  NW    6kn (g10) NNE onshore\nThu 17:
- 00       8   1.5m 11.9s  NW    6kn (g10) NNE cross\n\nGenerated 2026-11-26
-  16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
- surf-calendar-plugin/#spot=dar-bouazza
+  1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nThu 07:00   
+     9   1.4m 12.3s  NW    3kn (g6) SSE glassy\nThu 08:00       9   1.4m 12
+ .4s  NW    4kn (g6) SSE glassy\nThu 09:00       9   1.4m 12.4s  NW    3kn 
+ (g6) SSE glassy\nThu 10:00       9   1.4m 12.5s  NW    2kn (g5) SSE glassy
+ \nThu 11:00     7.5   1.4m 12.6s  NW    0kn (g5) WNW glassy\nThu 12:00    
+  7.5   1.4m 12.5s  NW    2kn (g5) NNW glassy\nThu 13:00     7.5   1.4m 12.
+ 4s  NW    4kn (g12)   N glassy\nThu 14:00     7.5   1.4m 12.2s  NW    6kn 
+ (g12) NNE onshore\nThu 15:00     5.5   1.4m 12.0s  NW    7kn (g12) NNE ons
+ hore\nThu 16:00     5.5   1.4m 12.0s  NW    6kn (g9) NNE onshore\nThu 17:0
+ 0       8   1.4m 12.0s  NW    5kn (g9)  NE cross\n\nGenerated 2026-11-27 2
+ 1:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
+ rf-calendar-plugin/#spot=dar-bouazza
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=dar-bouazza
+LOCATION:Dar Bouazza
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:994e53423dfa4b6c@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261204T070000Z
+DTEND:20261204T180000Z
+SUMMARY:🔥 Dar Bouazza 9.5/10 · 1.6m 13s NW · 3kn SSE
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
+ ay 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nFri 07:00 
+     9.5   1.6m 12.8s  NW    3kn (g6) SSE glassy\nFri 08:00     9.5   1.6m 
+ 12.8s  NW    4kn (g6) SSE glassy\nFri 09:00     9.5   1.6m 12.7s  NW    3k
+ n (g6) SSE glassy\nFri 10:00     9.5   1.6m 12.7s  NW    2kn (g4) SSE glas
+ sy\nFri 11:00       8   1.6m 12.6s  NW    1kn (g4)   W glassy\nFri 12:00  
+    7.5   1.6m 12.6s  NW    2kn (g4)  NW glassy\nFri 13:00     7.5   1.6m 1
+ 2.5s  NW    3kn (g8) NNW glassy\nFri 14:00     7.5   1.6m 12.5s  NW    4kn
+  (g8) NNW glassy\nFri 15:00     7.5   1.5m 12.4s  NW    4kn (g8)   N glass
+ y\nFri 16:00     7.5   1.5m 12.4s  NW    4kn (g6)   N glassy\nFri 17:00   
+   7.5   1.5m 12.4s  NW    3kn (g6) NNE glassy\n\nGenerated 2026-11-27 21:0
+ 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
+ calendar-plugin/#spot=dar-bouazza
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=dar-bouazza
 LOCATION:Dar Bouazza
 TRANSP:TRANSPARENT

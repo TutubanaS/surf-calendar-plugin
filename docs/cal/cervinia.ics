@@ -8,45 +8,22 @@ X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:c7f5802c8675c89d@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261127T080000Z
-DTEND:20261127T150000Z
-SUMMARY:🤏 Cervinia 5.2/10 · 89 cm of snow · sunny · -9°C
-DESCRIPTION:Best 5.2/10 at 09:00. Forecast confidence: high.\n\nHour (local
- )  score  new snow  sky           temp   wind\nFri 09:00     5.2      1 cm
-    sunny           -9°C   24 km/h (g40)\nFri 10:00     5.2      0 cm   su
- nny           -9°C   21 km/h (g41)\nFri 11:00     5.2      0 cm   sunny  
-          -8°C   20 km/h (g45)\nFri 12:00     5.2      0 cm   sunny       
-     -8°C   20 km/h (g48)\nFri 13:00     5.2      0 cm   sunny           -
- 8°C   20 km/h (g52)\nFri 14:00     5.2      0 cm   sunny           -8°C 
-   17 km/h (g50)\nFri 15:00     5.2      0 cm   sunny           -9°C   15 
- km/h (g58)\n\nWeather at 3000 m. Snow depth and new snow are the weather m
- odel's numbers\, not the resort's own snow report.\nNotes: High\, long cru
- isers\, linked with Zermatt.\nGenerated 2026-11-27 12:00 UTC from Open-Met
- eo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#sp
- ot=cervinia
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cervinia
-LOCATION:Cervinia
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:e1bff077f8cc6489@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
 SUMMARY:🤏 Cervinia 6/10 · 89 cm of snow · sunny · -5°C
-DESCRIPTION:Best 6/10 at 10:00. Forecast confidence: high.\n\nHour (local) 
+DESCRIPTION:Best 6/10 at 11:00. Forecast confidence: high.\n\nHour (local) 
   score  new snow  sky           temp   wind\nSat 09:00     5.2      0 cm  
-  sunny           -6°C   17 km/h (g51)\nSat 10:00       6      0 cm   sunn
- y           -5°C   14 km/h (g49)\nSat 11:00       6      0 cm   sunny    
-        -4°C   13 km/h (g45)\nSat 12:00       6      0 cm   sunny         
-   -4°C   10 km/h (g42)\nSat 13:00       6      0 cm   sunny           -4
- °C   11 km/h (g41)\nSat 14:00       6      0 cm   sunny           -3°C  
-  13 km/h (g37)\nSat 15:00       6      0 cm   sunny           -3°C   14 k
- m/h (g36)\n\nWeather at 3000 m. Snow depth and new snow are the weather mo
+  sunny           -6°C   18 km/h (g53)\nSat 10:00     5.2      0 cm   sunn
+ y           -5°C   16 km/h (g50)\nSat 11:00       6      0 cm   sunny    
+        -5°C   14 km/h (g45)\nSat 12:00       6      0 cm   sunny         
+   -4°C   10 km/h (g44)\nSat 13:00       6      0 cm   sunny           -3
+ °C   10 km/h (g40)\nSat 14:00       6      0 cm   sunny           -3°C  
+  12 km/h (g38)\nSat 15:00       6      0 cm   sunny           -3°C   12 k
+ m/h (g37)\n\nWeather at 3000 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: High\, long crui
- sers\, linked with Zermatt.\nGenerated 2026-11-27 12:00 UTC from Open-Mete
+ sers\, linked with Zermatt.\nGenerated 2026-11-27 21:00 UTC from Open-Mete
  o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
  t=cervinia
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cervinia
@@ -54,22 +31,40 @@ LOCATION:Cervinia
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ac786841eb655509@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261130T130000Z
+DTEND:20261130T150000Z
+SUMMARY:🤏 Cervinia 5.5/10 · 3 cm new snow · partly sunny · -6°C
+DESCRIPTION:Best 5.5/10 at 14:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nMon 14:00     5.5      3 
+ cm   partly sunny    -6°C    3 km/h (g20)\nMon 15:00     5.5      3 cm   
+ partly sunny    -6°C    4 km/h (g20)\n\nWeather at 3000 m. Snow depth and
+  new snow are the weather model's numbers\, not the resort's own snow repo
+ rt.\nNotes: High\, long cruisers\, linked with Zermatt.\nGenerated 2026-11
+ -27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
+ io/surf-calendar-plugin/#spot=cervinia
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cervinia
+LOCATION:Cervinia
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fffa25d5f86e9545@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Cervinia 6/10 · 97 cm of snow · sunny · -5°C
+SUMMARY:🤏 Cervinia 6/10 · 99 cm of snow · sunny · -6°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nTue 09:00       6      0 cm   
- sunny           -5°C    6 km/h (g15)\nTue 10:00       6      0 cm   sunny
-            -5°C    5 km/h (g15)\nTue 11:00       6      0 cm   sunny     
-       -4°C    5 km/h (g14)\nTue 12:00       6      0 cm   sunny          
-  -4°C    5 km/h (g14)\nTue 13:00       6      0 cm   sunny           -4°
- C    5 km/h (g14)\nTue 14:00       6      0 cm   sunny           -4°C    
- 5 km/h (g19)\nTue 15:00       6      0 cm   sunny           -4°C    6 km/
- h (g19)\n\nWeather at 3000 m. Snow depth and new snow are the weather mode
+ sunny           -6°C    6 km/h (g22)\nTue 10:00       6      0 cm   sunny
+            -5°C    6 km/h (g22)\nTue 11:00       6      0 cm   sunny     
+       -5°C    6 km/h (g25)\nTue 12:00       6      0 cm   sunny          
+  -4°C    5 km/h (g25)\nTue 13:00       6      0 cm   sunny           -4°
+ C    5 km/h (g25)\nTue 14:00       6      0 cm   sunny           -4°C    
+ 5 km/h (g21)\nTue 15:00       6      0 cm   sunny           -4°C    5 km/
+ h (g21)\n\nWeather at 3000 m. Snow depth and new snow are the weather mode
  l's numbers\, not the resort's own snow report.\nNotes: High\, long cruise
- rs\, linked with Zermatt.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.
+ rs\, linked with Zermatt.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.
  \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
  cervinia
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cervinia
@@ -78,44 +73,64 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b509b79ff6eb95a@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
-SUMMARY:🤏 Cervinia 6/10 · 71 cm of snow · sunny · -6°C
+SUMMARY:🤏 Cervinia 6/10 · 99 cm of snow · sunny · -2°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nWed 09:00       6      0 cm   
- sunny           -6°C    8 km/h (g18)\nWed 10:00       6      0 cm   sunny
-            -5°C    8 km/h (g18)\nWed 11:00       6      0 cm   sunny     
-       -4°C    8 km/h (g11)\nWed 12:00       6      0 cm   sunny          
-  -3°C    7 km/h (g11)\nWed 13:00     5.5      0 cm   sunny           -2°
- C    7 km/h (g11)\nWed 14:00     5.5      0 cm   sunny           -2°C    
- 7 km/h (g12)\nWed 15:00     5.5      0 cm   sunny           -2°C    7 km/
- h (g12)\n\nWeather at 3000 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: High\, long cruise
- rs\, linked with Zermatt.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.
- \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
- cervinia
+ sunny           -2°C    5 km/h (g11)\nWed 10:00     5.5      0 cm   sunny
+            -2°C    4 km/h (g11)\nWed 11:00     5.5      0 cm   sunny     
+       -2°C    4 km/h (g8)\nWed 12:00     5.5      0 cm   sunny           
+ -1°C    4 km/h (g8)\nWed 13:00     5.5      0 cm   sunny           -1°C 
+    4 km/h (g8)\nWed 14:00     5.5      0 cm   sunny           -1°C    4 k
+ m/h (g8)\nWed 15:00     5.5      0 cm   sunny           -1°C    4 km/h (g
+ 8)\n\nWeather at 3000 m. Snow depth and new snow are the weather model's n
+ umbers\, not the resort's own snow report.\nNotes: High\, long cruisers\, 
+ linked with Zermatt.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nF
+ ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=cervi
+ nia
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cervinia
 LOCATION:Cervinia
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:60cba58892726947@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261203T100000Z
 DTEND:20261203T150000Z
-SUMMARY:🤏 Cervinia 5/10 · 70 cm of snow · partly sunny · -5°C
-DESCRIPTION:Best 5/10 at 11:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nThu 11:00       5      0 cm   
- partly sunny    -5°C   13 km/h (g20)\nThu 12:00       5      0 cm   partl
- y sunny    -4°C   12 km/h (g20)\nThu 13:00       5      0 cm   partly sun
- ny    -4°C   11 km/h (g20)\nThu 14:00       5      0 cm   partly sunny   
-  -4°C   11 km/h (g19)\nThu 15:00       5      0 cm   partly sunny    -4°
- C   11 km/h (g19)\n\nWeather at 3000 m. Snow depth and new snow are the we
- ather model's numbers\, not the resort's own snow report.\nNotes: High\, l
- ong cruisers\, linked with Zermatt.\nGenerated 2026-11-27 12:00 UTC from O
- pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
- gin/#spot=cervinia
+SUMMARY:🤏 Cervinia 6/10 · 72 cm of snow · sunny · -5°C
+DESCRIPTION:Best 6/10 at 11:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nThu 11:00       6      0 cm   
+ sunny           -5°C    8 km/h (g9)\nThu 12:00       6      0 cm   sunny 
+           -5°C    7 km/h (g9)\nThu 13:00       6      0 cm   sunny       
+     -5°C    6 km/h (g9)\nThu 14:00       6      0 cm   sunny           -4
+ °C    5 km/h (g9)\nThu 15:00       6      0 cm   sunny           -2°C   
+  5 km/h (g9)\n\nWeather at 3000 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: High\, long c
+ ruisers\, linked with Zermatt.\nGenerated 2026-11-27 21:00 UTC from Open-M
+ eteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#
+ spot=cervinia
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cervinia
+LOCATION:Cervinia
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9be1ece9e5130c24@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261204T080000Z
+DTEND:20261204T120000Z
+SUMMARY:🤏 Cervinia 6/10 · 72 cm of snow · sunny · -5°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nFri 09:00       6      0 cm   
+ sunny           -5°C   11 km/h (g26)\nFri 10:00       6      0 cm   sunny
+            -5°C   11 km/h (g26)\nFri 11:00       5      0 cm   partly sun
+ ny    -4°C   10 km/h (g28)\nFri 12:00       5      0 cm   partly sunny   
+  -3°C    9 km/h (g28)\n\nWeather at 3000 m. Snow depth and new snow are t
+ he weather model's numbers\, not the resort's own snow report.\nNotes: Hig
+ h\, long cruisers\, linked with Zermatt.\nGenerated 2026-11-27 21:00 UTC f
+ rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
+ r-plugin/#spot=cervinia
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cervinia
 LOCATION:Cervinia
 TRANSP:TRANSPARENT

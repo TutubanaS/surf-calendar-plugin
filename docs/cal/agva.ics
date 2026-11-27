@@ -8,19 +8,41 @@ X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:9d97f80e94015ed3@surf-windows
-DTSTAMP:20261123T180000Z
-DTSTART:20261125T050000Z
-DTEND:20261125T110000Z
-SUMMARY:👍 Ağva 7/10 · 1.4m 7s NNW · 4kn SSW
-DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: high. 4 wave models sa
- y 1.2 to 1.5 m.\n\nHour (local)  score  waves            wind\nWed 08:00  
-      7   1.4m  7.0s NNW    4kn (g8) SSW glassy\nWed 09:00       7   1.3m  
- 7.0s NNW    3kn (g7)   S glassy\nWed 10:00       7   1.2m  7.0s NNW    3kn
-  (g7) SSW glassy\nWed 11:00       7   1.2m  7.0s NNW    4kn (g9) SSW glass
- y\nWed 12:00       6   1.1m  7.0s NNW    4kn (g10)  SW glassy\nWed 13:00  
-      6   1.0m  7.0s NNW    3kn (g9)  SW glassy\n\nGenerated 2026-11-23 18:
- 00 UTC from Open-Meteo.
+UID:8d6f4858a19e911c@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261202T080000Z
+DTEND:20261202T150000Z
+SUMMARY:🤏 Ağva 6/10 · 3.1m 9s NNE · 12kn NNE
+DESCRIPTION:Best 6/10 at 11:00. Forecast confidence: low. 3 wave models say
+  2.3 to 3.1 m.\n\nHour (local)  score  waves            wind\nWed 11:00   
+     6   3.1m  8.6s NNE   12kn (g25) NNE onshore\nWed 12:00       6   3.1m 
+  8.5s NNE   12kn (g25) NNE onshore\nWed 13:00       6   3.0m  8.1s NNE   1
+ 1kn (g23) NNE onshore\nWed 14:00       5   2.9m  7.5s   N   11kn (g23) NNE
+  onshore\nWed 15:00       6   2.9m  8.4s   N   11kn (g23) NNE onshore\nWed
+  16:00       6   2.8m  8.4s   N   10kn (g18)  NE onshore\nWed 17:00       
+ 6   2.8m  8.3s   N   10kn (g18)  NE onshore\n\nGenerated 2026-11-27 21:00 
+ UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-ca
+ lendar-plugin/#spot=agva
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agva
+LOCATION:Ağva
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fb441095558b6735@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261203T050000Z
+DTEND:20261203T110000Z
+SUMMARY:🤏 Ağva 5/10 · 2.4m 8s NNE · 15kn NNE
+DESCRIPTION:Best 5/10 at 08:00. Forecast confidence: low. 3 wave models say
+  1.9 to 3.1 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
+     5   2.4m  8.1s NNE   15kn (g29) NNE onshore\nThu 09:00       5   2.4m 
+  8.1s NNE   15kn (g29) NNE onshore\nThu 10:00       5   2.3m  8.1s NNE   1
+ 5kn (g29) NNE onshore\nThu 11:00       5   2.3m  8.1s NNE   15kn (g29) NNE
+  onshore\nThu 12:00       5   2.2m  8.1s NNE   15kn (g29) NNE onshore\nThu
+  13:00       5   2.1m  8.0s NNE   14kn (g26) NNE onshore\n\nGenerated 2026
+ -11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gith
+ ub.io/surf-calendar-plugin/#spot=agva
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=agva
 LOCATION:Ağva
 TRANSP:TRANSPARENT
 END:VEVENT

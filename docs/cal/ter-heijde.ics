@@ -7,4 +7,20 @@ X-WR-CALNAME:Surf: Ter Heijde
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:008d8f7164b813f9@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261203T140000Z
+DTEND:20261203T160000Z
+SUMMARY:🤏 Ter Heijde 5.5/10 · 1.1m 6s NNW · 6kn WNW
+DESCRIPTION:Best 5.5/10 at 15:00. Forecast confidence: low. 4 wave models s
+ ay 0.5 to 1.2 m.\n\nHour (local)  score  waves            wind\nThu 15:00 
+     5.5   1.1m  6.1s NNW    6kn (g14) WNW onshore\nThu 16:00     5.5   1.1
+ m  6.2s NNW    5kn (g15) WNW onshore\n\nGenerated 2026-11-27 21:00 UTC fro
+ m Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-
+ plugin/#spot=ter-heijde
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ter-heijde
+LOCATION:Ter Heijde
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

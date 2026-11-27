@@ -9,85 +9,108 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:625b21c18d8b7e9f@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Laax 5.5/10 · 57 cm of snow · sunny · -7°C
+SUMMARY:🤏 Laax 5.5/10 · 50 cm of snow · sunny · -8°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
  )  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm
-    sunny           -7°C    8 km/h (g18)\nSat 10:00     5.5      0 cm   su
- nny           -6°C    7 km/h (g16)\nSat 11:00     5.5      0 cm   sunny  
-          -5°C    4 km/h (g14)\nSat 12:00     5.5      0 cm   sunny       
-     -5°C    4 km/h (g12)\nSat 13:00     5.5      0 cm   sunny           -
- 4°C    6 km/h (g10)\nSat 14:00     5.5      0 cm   sunny           -3°C 
-    6 km/h (g12)\nSat 15:00     5.5      0 cm   sunny           -3°C    6 
+    sunny           -8°C    6 km/h (g14)\nSat 10:00     5.5      0 cm   su
+ nny           -7°C    5 km/h (g15)\nSat 11:00     5.5      0 cm   sunny  
+          -6°C    4 km/h (g13)\nSat 12:00     5.5      0 cm   sunny       
+     -5°C    6 km/h (g12)\nSat 13:00     5.5      0 cm   sunny           -
+ 4°C    6 km/h (g12)\nSat 14:00     5.5      0 cm   sunny           -4°C 
+    4 km/h (g11)\nSat 15:00     5.5      0 cm   sunny           -3°C    5 
  km/h (g13)\n\nWeather at 2380 m. Snow depth and new snow are the weather m
  odel's numbers\, not the resort's own snow report.\nNotes: Big parks\, a s
- nowboard favourite.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFu
+ nowboard favourite.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFu
  ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
 LOCATION:Laax
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d51db233285ed04d@surf-windows
-DTSTAMP:20261127T120000Z
-DTSTART:20261130T120000Z
-DTEND:20261130T150000Z
-SUMMARY:🤏 Laax 5.5/10 · 50 cm of snow · sunny · -2°C
-DESCRIPTION:Best 5.5/10 at 15:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nMon 13:00       5      0 cm 
-   sunny           -2°C    3 km/h (g8)\nMon 14:00       5      0 cm   sunn
- y           -2°C    2 km/h (g5)\nMon 15:00     5.5      0 cm   sunny     
-       -2°C    2 km/h (g5)\n\nWeather at 2380 m. Snow depth and new snow a
- re the weather model's numbers\, not the resort's own snow report.\nNotes:
-  Big parks\, a snowboard favourite.\nGenerated 2026-11-27 12:00 UTC from O
- pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
- gin/#spot=laax
+UID:f4e60ada3208ff5b@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261130T080000Z
+DTEND:20261130T130000Z
+SUMMARY:🤏 Laax 5/10 · 7 cm new snow · snowing · -5°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nMon 09:00       5      7 cm
+    snowing         -5°C    4 km/h (g13)\nMon 10:00       5      7 cm   sn
+ owing         -5°C    1 km/h (g12)\nMon 11:00       5      7 cm   snowing
+          -5°C    2 km/h (g11)\nMon 12:00       5      7 cm   snowing     
+     -5°C    1 km/h (g12)\nMon 13:00       5      7 cm   snowing         -
+ 5°C    2 km/h (g11)\n\nWeather at 2380 m. Snow depth and new snow are the
+  weather model's numbers\, not the resort's own snow report.\nNotes: Big p
+ arks\, a snowboard favourite.\nGenerated 2026-11-27 21:00 UTC from Open-Me
+ teo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#s
+ pot=laax
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
 LOCATION:Laax
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3a67a2cac508075b@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Laax 5.5/10 · 48 cm of snow · sunny · -4°C
+SUMMARY:🤏 Laax 5.5/10 · 47 cm of snow · sunny · -6°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    score  new snow  sky           temp   wind\nTue 09:00     5.5      0 cm 
-   sunny           -4°C    5 km/h (g9)\nTue 10:00     5.5      0 cm   sunn
- y           -3°C    4 km/h (g9)\nTue 11:00     5.5      0 cm   sunny     
-       -3°C    3 km/h (g5)\nTue 12:00       5      0 cm   sunny           
- -2°C    2 km/h (g5)\nTue 13:00       5      0 cm   sunny           -1°C 
-    2 km/h (g5)\nTue 14:00       5      0 cm   sunny           -1°C    1 k
- m/h (g5)\nTue 15:00       5      0 cm   sunny           -0°C    1 km/h (g
- 5)\n\nWeather at 2380 m. Snow depth and new snow are the weather model's n
- umbers\, not the resort's own snow report.\nNotes: Big parks\, a snowboard
-  favourite.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull forec
- ast: https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
+   sunny           -6°C    4 km/h (g13)\nTue 10:00     5.5      0 cm   sun
+ ny           -5°C    5 km/h (g13)\nTue 11:00     5.5      0 cm   sunny   
+         -4°C    5 km/h (g14)\nTue 12:00     5.5      0 cm   sunny        
+    -3°C    5 km/h (g14)\nTue 13:00     5.5      0 cm   sunny           -2
+ °C    5 km/h (g14)\nTue 14:00       5      0 cm   sunny           -1°C  
+   4 km/h (g10)\nTue 15:00       5      0 cm   sunny           -1°C    3 k
+ m/h (g10)\n\nWeather at 2380 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Big parks\, a sn
+ owboard favourite.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
 LOCATION:Laax
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d7244f2553ffb75c@surf-windows
-DTSTAMP:20261127T120000Z
+DTSTAMP:20261127T210000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
-SUMMARY:🤏 Laax 5.5/10 · 44 cm of snow · sunny · -4°C
+SUMMARY:🤏 Laax 5.5/10 · 46 cm of snow · sunny · -3°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    score  new snow  sky           temp   wind\nWed 09:00     5.5      0 cm 
-   sunny           -4°C    6 km/h (g16)\nWed 10:00     5.5      0 cm   sun
- ny           -4°C    6 km/h (g16)\nWed 11:00     5.5      0 cm   sunny   
-         -3°C    5 km/h (g14)\nWed 12:00     5.5      0 cm   sunny        
-    -2°C    4 km/h (g14)\nWed 13:00       5      0 cm   sunny           -1
- °C    3 km/h (g14)\nWed 14:00       5      0 cm   sunny           -1°C  
-   2 km/h (g9)\nWed 15:00       5      0 cm   sunny           -1°C    2 km
- /h (g9)\n\nWeather at 2380 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: Big parks\, a snow
- board favourite.\nGenerated 2026-11-27 12:00 UTC from Open-Meteo.\n\nFull 
- forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
+   sunny           -3°C    8 km/h (g14)\nWed 10:00     5.5      0 cm   sun
+ ny           -2°C    8 km/h (g14)\nWed 11:00       5      0 cm   sunny   
+         -1°C    7 km/h (g8)\nWed 12:00       5      0 cm   sunny         
+   -0°C    5 km/h (g8)\nWed 13:00       5      0 cm   sunny            1°
+ C    4 km/h (g8)\nWed 14:00       5      0 cm   sunny            1°C    3
+  km/h (g3)\nWed 15:00       5      0 cm   sunny            1°C    2 km/h 
+ (g3)\n\nWeather at 2380 m. Snow depth and new snow are the weather model's
+  numbers\, not the resort's own snow report.\nNotes: Big parks\, a snowboa
+ rd favourite.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull for
+ ecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
+LOCATION:Laax
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:369a44942d978eff@surf-windows
+DTSTAMP:20261127T210000Z
+DTSTART:20261204T100000Z
+DTEND:20261204T150000Z
+SUMMARY:🤏 Laax 5.5/10 · 43 cm of snow · sunny · -2°C
+DESCRIPTION:Best 5.5/10 at 11:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nFri 11:00     5.5      0 cm 
+   sunny           -2°C    5 km/h (g20)\nFri 12:00       5      0 cm   sun
+ ny           -1°C    5 km/h (g20)\nFri 13:00       5      0 cm   sunny   
+         -1°C    4 km/h (g20)\nFri 14:00       5      0 cm   sunny        
+    -1°C    3 km/h (g14)\nFri 15:00       5      0 cm   sunny           -1
+ °C    2 km/h (g14)\n\nWeather at 2380 m. Snow depth and new snow are the 
+ weather model's numbers\, not the resort's own snow report.\nNotes: Big pa
+ rks\, a snowboard favourite.\nGenerated 2026-11-27 21:00 UTC from Open-Met
+ eo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#sp
+ ot=laax
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=laax
 LOCATION:Laax
 TRANSP:TRANSPARENT
