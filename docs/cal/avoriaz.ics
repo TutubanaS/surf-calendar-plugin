@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:2ce7067ec8c3b52d@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T150000Z
 SUMMARY:👍 Avoriaz 6.5/10 · 3 cm new snow · sunny · -7°C
 DESCRIPTION:Best 6.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
  )  score  new snow  sky           temp   wind\nFri 09:00     6.5      3 cm
-    sunny           -7°C    3 km/h (g12)\nFri 10:00     6.5      2 cm   su
+    sunny           -7°C    4 km/h (g12)\nFri 10:00     6.5      2 cm   su
  nny           -6°C    4 km/h (g11)\nFri 11:00       6      1 cm   sunny  
-          -7°C    3 km/h (g12)\nFri 12:00       6      1 cm   sunny       
-     -6°C    5 km/h (g13)\nFri 13:00       6      0 cm   sunny           -
- 6°C    5 km/h (g14)\nFri 14:00       6      0 cm   sunny           -6°C 
-    6 km/h (g16)\nFri 15:00       6      0 cm   sunny           -6°C    6 
- km/h (g18)\n\nWeather at 2240 m. Snow depth and new snow are the weather m
+          -6°C    2 km/h (g10)\nFri 12:00       6      1 cm   sunny       
+     -6°C    4 km/h (g12)\nFri 13:00       6      0 cm   sunny           -
+ 6°C    5 km/h (g13)\nFri 14:00       6      0 cm   sunny           -6°C 
+    6 km/h (g16)\nFri 15:00       6      0 cm   sunny           -6°C    8 
+ km/h (g20)\n\nWeather at 2240 m. Snow depth and new snow are the weather m
  odel's numbers\, not the resort's own snow report.\nNotes: Car-free villag
- e in the Portes du Soleil.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo
+ e in the Portes du Soleil.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo
  .\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot
  =avoriaz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=avoriaz
@@ -32,53 +32,73 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4eac216092d7d3e3@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Avoriaz 6/10 · 71 cm of snow · sunny · -6°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nSat 09:00       6      0 cm
-    sunny           -6°C   13 km/h (g24)\nSat 10:00       6      0 cm   su
- nny           -5°C   12 km/h (g23)\nSat 11:00       6      0 cm   sunny  
-          -4°C   11 km/h (g22)\nSat 12:00       6      0 cm   sunny       
-     -4°C    9 km/h (g20)\nSat 13:00       6      0 cm   sunny           -
- 2°C    7 km/h (g18)\nSat 14:00       6      0 cm   sunny           -2°C 
-    4 km/h (g13)\nSat 15:00       6      0 cm   sunny           -3°C    4 
- km/h (g9)\n\nWeather at 2240 m. Snow depth and new snow are the weather mo
+SUMMARY:🤏 Avoriaz 6/10 · 72 cm of snow · sunny · -6°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nSat 09:00       6      0 cm  
+  sunny           -6°C   14 km/h (g27)\nSat 10:00       6      0 cm   sunn
+ y           -5°C   13 km/h (g27)\nSat 11:00       6      0 cm   sunny    
+        -4°C   12 km/h (g26)\nSat 12:00       6      0 cm   sunny         
+   -3°C   10 km/h (g22)\nSat 13:00       6      0 cm   sunny           -2
+ °C    8 km/h (g19)\nSat 14:00     5.5      0 cm   sunny           -1°C  
+   4 km/h (g15)\nSat 15:00     5.5      0 cm   sunny           -1°C    2 k
+ m/h (g11)\n\nWeather at 2240 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Car-free village
-  in the Portes du Soleil.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.
+  in the Portes du Soleil.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.
  \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
  avoriaz
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=avoriaz
+LOCATION:Avoriaz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:24cc4f77c1546761@surf-windows
+DTSTAMP:20261127T010000Z
+DTSTART:20261130T110000Z
+DTEND:20261130T150000Z
+SUMMARY:🤏 Avoriaz 5.5/10 · 50 cm of snow · sunny · -2°C
+DESCRIPTION:Best 5.5/10 at 12:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nMon 12:00     5.5      1 cm 
+   sunny           -2°C    6 km/h (g20)\nMon 13:00       5      1 cm   sun
+ ny           -2°C    6 km/h (g20)\nMon 14:00       5      1 cm   sunny   
+         -2°C    5 km/h (g21)\nMon 15:00     5.5      1 cm   sunny        
+    -2°C    5 km/h (g21)\n\nWeather at 2240 m. Snow depth and new snow are
+  the weather model's numbers\, not the resort's own snow report.\nNotes: C
+ ar-free village in the Portes du Soleil.\nGenerated 2026-11-27 01:00 UTC f
+ rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
+ r-plugin/#spot=avoriaz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=avoriaz
 LOCATION:Avoriaz
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:54cd7b094bc32194@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Avoriaz 5.5/10 · 51 cm of snow · sunny · -8°C
+SUMMARY:🤏 Avoriaz 5.5/10 · 49 cm of snow · sunny · -5°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nTue 09:00     5.5      1 cm 
-   sunny           -8°C    7 km/h (g13)\nTue 10:00     5.5      1 cm   sun
- ny           -8°C    7 km/h (g13)\nTue 11:00     5.5      1 cm   sunny   
-         -6°C    6 km/h (g11)\nTue 12:00     5.5      1 cm   sunny        
-    -5°C    5 km/h (g13)\nTue 13:00     5.5      0 cm   sunny           -4
- °C    3 km/h (g14)\nTue 14:00     5.5      0 cm   sunny           -3°C  
-   2 km/h (g16)\nTue 15:00     5.5      0 cm   sunny           -3°C    0 k
- m/h (g16)\n\nWeather at 2240 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Car-free village
-  in the Portes du Soleil.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.
- \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
- avoriaz
+   score  new snow  sky           temp   wind\nTue 09:00     5.5      0 cm 
+   sunny           -5°C    8 km/h (g14)\nTue 10:00     5.5      0 cm   sun
+ ny           -5°C    7 km/h (g14)\nTue 11:00     5.5      0 cm   sunny   
+         -4°C    6 km/h (g9)\nTue 12:00     5.5      0 cm   sunny         
+   -2°C    3 km/h (g9)\nTue 13:00       5      0 cm   sunny           -2°
+ C    2 km/h (g9)\nTue 14:00       5      0 cm   sunny           -1°C    2
+  km/h (g4)\nTue 15:00       5      0 cm   sunny           -2°C    1 km/h 
+ (g4)\n\nWeather at 2240 m. Snow depth and new snow are the weather model's
+  numbers\, not the resort's own snow report.\nNotes: Car-free village in t
+ he Portes du Soleil.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nF
+ ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=avori
+ az
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=avoriaz
 LOCATION:Avoriaz
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:27eacc7819cccae0@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
 SUMMARY:🤏 Avoriaz 5.5/10 · 51 cm of snow · sunny · -5°C
@@ -92,7 +112,7 @@ DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    4 km/h (g16)\nWed 15:00       5      0 cm   sunny           -1°C    3 k
  m/h (g16)\n\nWeather at 2240 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Car-free village
-  in the Portes du Soleil.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.
+  in the Portes du Soleil.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.
  \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
  avoriaz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=avoriaz

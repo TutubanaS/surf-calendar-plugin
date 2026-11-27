@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:586a9e71c621de8f@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T150000Z
-SUMMARY:🤏 Val d'Isère 6/10 · 88 cm of snow · sunny · -11°C
+SUMMARY:🤏 Val d'Isère 6/10 · 91 cm of snow · sunny · -11°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
   score  new snow  sky           temp   wind\nFri 09:00       6      0 cm  
-  sunny          -11°C   12 km/h (g22)\nFri 10:00       6      0 cm   sunn
- y          -11°C   10 km/h (g22)\nFri 11:00       6      0 cm   sunny    
-       -11°C   11 km/h (g21)\nFri 12:00       6      0 cm   sunny         
-  -10°C    8 km/h (g21)\nFri 13:00       6      0 cm   sunny           -9
- °C    5 km/h (g19)\nFri 14:00       6      0 cm   sunny           -9°C  
-   4 km/h (g18)\nFri 15:00       6      0 cm   sunny           -8°C    4 k
+  sunny          -11°C   12 km/h (g21)\nFri 10:00       6      0 cm   sunn
+ y          -11°C   10 km/h (g20)\nFri 11:00       5      0 cm   partly su
+ nny   -10°C   10 km/h (g20)\nFri 12:00       6      0 cm   sunny         
+  -10°C    8 km/h (g19)\nFri 13:00       6      0 cm   sunny           -9
+ °C    6 km/h (g19)\nFri 14:00       6      0 cm   sunny           -9°C  
+   4 km/h (g17)\nFri 15:00       6      0 cm   sunny           -8°C    4 k
  m/h (g17)\n\nWeather at 2920 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: High\, big and s
- now-sure.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecas
+ now-sure.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecas
  t: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
 LOCATION:Val d'Isère
@@ -31,63 +31,41 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3e2529c85ee83e0f@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Val d'Isère 6/10 · 89 cm of snow · sunny · -9°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nSat 09:00       6      0 cm
-    sunny           -9°C   14 km/h (g12)\nSat 10:00       6      0 cm   su
- nny           -8°C   14 km/h (g12)\nSat 11:00       6      0 cm   sunny  
-          -7°C   13 km/h (g12)\nSat 12:00       6      0 cm   sunny       
-     -6°C   12 km/h (g10)\nSat 13:00       6      0 cm   sunny           -
- 5°C    9 km/h (g8)\nSat 14:00       6      0 cm   sunny           -6°C  
-   8 km/h (g11)\nSat 15:00       6      0 cm   sunny           -8°C    6 k
- m/h (g13)\n\nWeather at 2920 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: High\, big and s
- now-sure.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecas
- t: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
-LOCATION:Val d'Isère
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:01c7de5b3b820be6@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261130T080000Z
-DTEND:20261130T150000Z
-SUMMARY:🤏 Val d'Isère 5.5/10 · 6 cm new snow · cloudy · -9°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nMon 09:00     5.5      6 cm 
-   cloudy          -9°C    2 km/h (g9)\nMon 10:00     5.5      7 cm   clou
- dy          -9°C    4 km/h (g9)\nMon 11:00     5.5      7 cm   cloudy    
-       -9°C    5 km/h (g14)\nMon 12:00     5.5      7 cm   cloudy         
-  -8°C    5 km/h (g14)\nMon 13:00     5.5      7 cm   cloudy          -8°
- C    6 km/h (g14)\nMon 14:00     5.5      7 cm   cloudy          -8°C    
- 6 km/h (g18)\nMon 15:00     5.5      7 cm   cloudy          -7°C    6 km/
- h (g18)\n\nWeather at 2920 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: High\, big and sno
- w-sure.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast:
-  https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
+SUMMARY:🤏 Val d'Isère 6/10 · 91 cm of snow · sunny · -9°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nSat 09:00       6      0 cm  
+  sunny           -9°C   14 km/h (g13)\nSat 10:00       6      0 cm   sunn
+ y           -8°C   14 km/h (g13)\nSat 11:00       6      0 cm   sunny    
+        -7°C   13 km/h (g13)\nSat 12:00       6      0 cm   sunny         
+   -6°C   11 km/h (g10)\nSat 13:00       6      0 cm   sunny           -5
+ °C    9 km/h (g9)\nSat 14:00       6      0 cm   sunny           -5°C   
+  9 km/h (g13)\nSat 15:00       6      0 cm   sunny           -5°C    9 km
+ /h (g14)\n\nWeather at 2920 m. Snow depth and new snow are the weather mod
+ el's numbers\, not the resort's own snow report.\nNotes: High\, big and sn
+ ow-sure.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast
+ : https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
 LOCATION:Val d'Isère
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:668f648b13642c3f@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261201T100000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Val d'Isère 6/10 · 83 cm of snow · sunny · -11°C
-DESCRIPTION:Best 6/10 at 13:00. Forecast confidence: low.\n\nHour (local)  
+SUMMARY:🤏 Val d'Isère 6/10 · 84 cm of snow · sunny · -8°C
+DESCRIPTION:Best 6/10 at 12:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nTue 11:00       5      0 cm   
- sunny          -13°C    5 km/h (g15)\nTue 12:00       5      0 cm   sunny
-           -12°C    6 km/h (g18)\nTue 13:00       6      0 cm   sunny     
-      -11°C    6 km/h (g20)\nTue 14:00       6      0 cm   sunny          
- -10°C    7 km/h (g21)\nTue 15:00       6      0 cm   sunny          -10°
- C    6 km/h (g21)\n\nWeather at 2920 m. Snow depth and new snow are the we
+ partly sunny    -9°C    6 km/h (g18)\nTue 12:00       6      0 cm   sunny
+            -8°C    6 km/h (g18)\nTue 13:00       6      0 cm   sunny     
+       -8°C    6 km/h (g18)\nTue 14:00       6      0 cm   sunny          
+  -7°C    6 km/h (g18)\nTue 15:00       6      0 cm   sunny           -7°
+ C    6 km/h (g18)\n\nWeather at 2920 m. Snow depth and new snow are the we
  ather model's numbers\, not the resort's own snow report.\nNotes: High\, b
- ig and snow-sure.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull
+ ig and snow-sure.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull
   forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=val-dise
  re
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
@@ -96,7 +74,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:03a8792256b551e9@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
 SUMMARY:🤏 Val d'Isère 6/10 · 80 cm of snow · sunny · -10°C
@@ -110,7 +88,7 @@ DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)
  6 km/h (g13)\nWed 15:00       6      0 cm   sunny           -6°C    6 km/
  h (g13)\n\nWeather at 2920 m. Snow depth and new snow are the weather mode
  l's numbers\, not the resort's own snow report.\nNotes: High\, big and sno
- w-sure.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast:
+ w-sure.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast:
   https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=val-disere
 LOCATION:Val d'Isère

@@ -9,88 +9,87 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:e4d6355108d5ef34@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
-SUMMARY:👍 Peniche (Molhe Leste) 7.5/10 · 1.8m 12s NW · 6kn S
-DESCRIPTION:Best 7.5/10 at 11:00. Forecast confidence: high. 5 wave models 
- say 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:00
-      6.5   1.7m 10.0s  NW    4kn (g6) SSE glassy\nFri 09:00     6.5   1.8m
-  10.2s  NW    4kn (g7) SSE glassy\nFri 10:00     6.5   1.8m 10.8s  NW    5
- kn (g9)   S onshore\nFri 11:00     7.5   1.8m 11.7s  NW    6kn (g10)   S o
- nshore\nFri 12:00     5.5   1.7m 12.3s  NW    7kn (g11)  SW onshore\nFri 1
- 3:00     5.5   1.7m 12.3s  NW    7kn (g12)  SW onshore\nFri 14:00     5.5 
-   1.7m 12.3s  NW    6kn (g12)  SW onshore\nFri 15:00     5.5   1.7m 12.3s 
-  NW    7kn (g11)  SW onshore\nFri 16:00     7.5   1.8m 12.2s  NW    6kn (g
- 11)  SW onshore\nFri 17:00     7.5   1.8m 12.1s  NW    6kn (g9) SSW onshor
- e\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: htt
- ps://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
+SUMMARY:👍 Peniche (Molhe Leste) 6.5/10 · 1.7m 10s NW · 4kn SSE
+DESCRIPTION:Best 6.5/10 at 08:00. Forecast confidence: high. 5 wave models 
+ say 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:00
+      6.5   1.7m 10.0s  NW    4kn (g6) SSE glassy\nFri 09:00     6.5   1.7m
+  10.2s  NW    5kn (g8) SSE glassy\nFri 10:00     6.5   1.8m 10.8s  NW    6
+ kn (g9) SSE onshore\nFri 11:00     5.5   1.8m 11.7s  NW    7kn (g12) SSW o
+ nshore\nFri 12:00     5.5   1.8m 12.3s  NW    9kn (g14) SSW onshore\nFri 1
+ 3:00     5.5   1.7m 12.3s  NW   10kn (g16) SSW onshore\nFri 14:00     5.5 
+   1.7m 12.3s  NW   10kn (g16)  SW onshore\nFri 15:00     5.5   1.7m 12.3s 
+  NW   10kn (g16) SSW onshore\nFri 16:00     5.5   1.8m 12.2s  NW    9kn (g
+ 16) SSW onshore\nFri 17:00     5.5   1.8m 12.1s  NW    8kn (g14) SSW onsho
+ re\n\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: ht
+ tps://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e08ef838db9fb5c4@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Peniche (Molhe Leste) 9/10 · 2.7m 14s NW · 5kn SE
-DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: medium. 5 wave models 
- say 2.3 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00
-        9   2.7m 13.9s  NW    5kn (g8)  SE cross\nSat 09:00     8.5   2.7m 
- 13.5s  NW    6kn (g9)  SE onshore\nSat 10:00     8.5   2.7m 13.5s  NW    6
- kn (g10)  SE onshore\nSat 11:00     6.5   2.6m 13.5s  NW    6kn (g11) SSE 
- onshore\nSat 12:00     6.5   2.6m 13.5s  NW    7kn (g12) SSE onshore\nSat 
- 13:00     6.5   2.6m 13.5s  NW    7kn (g12)   S onshore\nSat 14:00     6.5
-    2.6m 13.5s  NW    7kn (g12) SSW onshore\nSat 15:00     6.5   2.6m 13.5s
-   NW    6kn (g11) SSW onshore\nSat 16:00     8.5   2.6m 13.5s  NW    5kn (
- g10)  SW onshore\nSat 17:00     8.5   2.6m 13.5s  NW    4kn (g8)  SW glass
- y\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: htt
- ps://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
+SUMMARY:🔥 Peniche (Molhe Leste) 9/10 · 2.8m 14s NW · 5kn SE
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: high. 5 wave models sa
+ y 2.3 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
+      9   2.8m 14.1s  NW    5kn (g9)  SE cross\nSat 09:00       9   2.8m 13
+ .5s  NW    5kn (g9)  SE cross\nSat 10:00     6.5   2.7m 13.5s  NW    6kn (
+ g10)  SE onshore\nSat 11:00     6.5   2.7m 13.5s  NW    7kn (g12)  SE onsh
+ ore\nSat 12:00     6.5   2.7m 13.5s  NW    7kn (g12) SSE onshore\nSat 13:0
+ 0     6.5   2.6m 13.5s  NW    7kn (g12) SSE onshore\nSat 14:00     6.5   2
+ .6m 13.5s  NW    6kn (g11)   S onshore\nSat 15:00     8.5   2.6m 13.5s  NW
+     5kn (g10) SSW onshore\nSat 16:00     8.5   2.6m 13.5s  NW    5kn (g9) 
+  SW glassy\nSat 17:00     8.5   2.6m 13.5s  NW    4kn (g8)  SW glassy\n\nG
+ enerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://t
+ utubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:44a0dbb7116b68fd@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Peniche (Molhe Leste) 10/10 · 2.4m 14s NW · 7kn NNE
-DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: medium. 5 wave models
-  say 2.2 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:0
- 0      10   2.4m 13.5s  NW    7kn (g11) NNE offshore\nSun 09:00      10   
- 2.4m 13.5s  NW    8kn (g12) NNE offshore\nSun 10:00      10   2.4m 13.5s  
- NW   10kn (g15) NNE offshore\nSun 11:00      10   2.4m 13.5s  NW   10kn (g
- 16) NNE offshore\nSun 12:00      10   2.4m 13.5s  NW   10kn (g17) NNE offs
- hore\nSun 13:00      10   2.4m 13.5s  NW   10kn (g17) NNE offshore\nSun 14
- :00      10   2.4m 13.5s  NW   10kn (g17)   N offshore\nSun 15:00      10 
-   2.4m 13.5s  NW    9kn (g16)   N offshore\nSun 16:00      10   2.4m 13.2s
-   NW    9kn (g15)   N offshore\nSun 17:00     9.5   2.3m 12.7s  NW    8kn 
- (g15)   N offshore\n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
- ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=molhe
- -leste
+SUMMARY:🔥 Peniche (Molhe Leste) 10/10 · 2.4m 14s NW · 5kn NNE
+DESCRIPTION:Best 10/10 at 11:00. Forecast confidence: medium. 5 wave models
+  say 2.1 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:0
+ 0       9   2.5m 13.5s  NW    2kn (g4) ESE glassy\nSun 09:00       9   2.5
+ m 13.5s  NW    2kn (g4) ESE glassy\nSun 10:00       9   2.4m 13.5s  NW    
+ 1kn (g3)   E glassy\nSun 11:00      10   2.4m 13.5s  NW    5kn (g8) NNE gl
+ assy\nSun 12:00      10   2.4m 13.5s  NW    6kn (g10)   N offshore\nSun 13
+ :00      10   2.4m 13.5s  NW    9kn (g15)   N offshore\nSun 14:00      10 
+   2.4m 13.5s  NW   11kn (g19)   N offshore\nSun 15:00      10   2.4m 13.5s
+   NW   12kn (g20)   N offshore\nSun 16:00      10   2.4m 13.2s  NW   12kn 
+ (g20)   N offshore\nSun 17:00     9.5   2.4m 12.7s  NW   10kn (g19) NNE of
+ fshore\n\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast
+ : https://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b8a92900a31b1132@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Peniche (Molhe Leste) 8.5/10 · 2.1m 13s NW · 2kn SE
+SUMMARY:🔥 Peniche (Molhe Leste) 8.5/10 · 2.2m 13s NW · 2kn SE
 DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 2.1 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     8.5   2.1m 12.6s  NW    2kn (g4)  SE glassy\nMon 09:00     8.5   2.2m 
- 12.5s  NW    2kn (g4)  SE glassy\nMon 10:00       8   2.2m 12.5s  NW    2k
- n (g4) SSE glassy\nMon 11:00       8   2.2m 12.5s  NW    1kn (g4)  SW glas
- sy\nMon 12:00       8   2.2m 12.5s  NW    2kn (g4)   W glassy\nMon 13:00  
-      8   2.2m 12.5s  NW    2kn (g4) WSW glassy\nMon 14:00       8   2.2m 1
- 2.5s  NW    2kn (g4) WSW glassy\nMon 15:00       8   2.2m 12.5s  NW    2kn
-  (g4)  SW glassy\nMon 16:00       8   2.1m 12.6s  NW    2kn (g4) SSW glass
- y\nMon 17:00       8   2.1m 12.6s  NW    2kn (g4)   S glassy\n\nGenerated 
- 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+     8.5   2.2m 12.6s  NW    2kn (g4)  SE glassy\nMon 09:00       8   2.2m 
+ 12.6s  NW    3kn (g4)  SE glassy\nMon 10:00       8   2.2m 12.6s  NW    2k
+ n (g5) SSE glassy\nMon 11:00       8   2.2m 12.5s  NW    2kn (g5)   S glas
+ sy\nMon 12:00       8   2.2m 12.5s  NW    2kn (g5) SSW glassy\nMon 13:00  
+      8   2.2m 12.6s  NW    2kn (g5)  SW glassy\nMon 14:00       8   2.2m 1
+ 2.6s  NW    2kn (g5)  SW glassy\nMon 15:00       8   2.2m 12.6s  NW    2kn
+  (g5)  SW glassy\nMon 16:00       8   2.1m 12.7s  NW    2kn (g3)  SW glass
+ y\nMon 17:00       8   2.1m 12.7s  NW    2kn (g3)  SW glassy\n\nGenerated 
+ 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=molhe-leste
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 LOCATION:Peniche (Molhe Leste)
@@ -98,43 +97,43 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:53b29bdf4b98ba86@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Peniche (Molhe Leste) 8/10 · 1.7m 12s WNW · 8kn ESE
-DESCRIPTION:Best 8/10 at 10:00. Forecast confidence: low. 4 wave models say
+SUMMARY:🔥 Peniche (Molhe Leste) 8/10 · 1.6m 12s WNW · 6kn SE
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
   1.4 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
-   6.5   1.7m 11.9s WNW    8kn (g14)  SE cross\nTue 09:00     6.5   1.7m 11
- .9s WNW    9kn (g14)  SE cross\nTue 10:00       8   1.7m 12.0s WNW    8kn 
- (g14) ESE cross\nTue 11:00       8   1.6m 12.1s WNW    6kn (g12) ESE cross
- \nTue 12:00       8   1.6m 12.1s WNW    5kn (g9) ESE glassy\nTue 13:00    
-    8   1.6m 12.2s WNW    3kn (g7) ESE glassy\nTue 14:00       8   1.6m 12.
- 3s WNW    3kn (g7) ESE glassy\nTue 15:00       8   1.6m 12.3s WNW    3kn (
- g7) ESE glassy\nTue 16:00       8   1.6m 12.3s   W    3kn (g4) ESE glassy\
- nTue 17:00       8   1.6m 12.2s   W    3kn (g4) ESE glassy\n\nGenerated 20
- 26-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
- thub.io/surf-calendar-plugin/#spot=molhe-leste
+     8   1.6m 11.9s WNW    6kn (g10)  SE cross\nTue 09:00       8   1.6m 12
+ .0s WNW    6kn (g10)  SE cross\nTue 10:00       8   1.6m 12.0s WNW    6kn 
+ (g9)  SE cross\nTue 11:00     7.5   1.6m 12.1s WNW    6kn (g9)  SE onshore
+ \nTue 12:00     7.5   1.6m 12.2s WNW    5kn (g9) SSE onshore\nTue 13:00   
+   7.5   1.6m 12.2s WNW    5kn (g9) SSE onshore\nTue 14:00     7.5   1.6m 1
+ 2.3s WNW    5kn (g9)  SE onshore\nTue 15:00       8   1.6m 12.3s WNW    5k
+ n (g9)  SE cross\nTue 16:00       8   1.6m 12.3s   W    5kn (g6)  SE glass
+ y\nTue 17:00       8   1.6m 12.2s   W    4kn (g6)  SE glassy\n\nGenerated 
+ 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=molhe-leste
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9e9978ff72723097@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Peniche (Molhe Leste) 9/10 · 1.7m 11s WNW · 4kn ENE
-DESCRIPTION:Best 9/10 at 14:00. Forecast confidence: low. 4 wave models say
-  1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
-     8   1.7m 11.7s WNW    2kn (g5)   E glassy\nWed 09:00       8   1.7m 11
- .5s WNW    2kn (g5)   E glassy\nWed 10:00       8   1.7m 11.4s WNW    3kn 
- (g8)   E glassy\nWed 11:00       8   1.7m 11.5s WNW    4kn (g8)   E glassy
- \nWed 12:00       8   1.7m 11.5s WNW    4kn (g8)   E glassy\nWed 13:00    
-    8   1.7m 11.5s WNW    4kn (g9)   E glassy\nWed 14:00       9   1.7m 11.
- 4s WNW    4kn (g9) ENE glassy\nWed 15:00       9   1.8m 11.4s WNW    4kn (
- g9) ENE glassy\nWed 16:00       9   1.8m 11.3s WNW    3kn (g4) ENE glassy\
- nWed 17:00       9   1.8m 11.3s WNW    3kn (g4) ENE glassy\n\nGenerated 20
- 26-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+SUMMARY:🔥 Peniche (Molhe Leste) 8/10 · 1.6m 12s WNW · 4kn ESE
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
+  1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
+     8   1.6m 11.7s WNW    4kn (g9) ESE glassy\nWed 09:00       8   1.6m 11
+ .6s WNW    4kn (g9) ESE glassy\nWed 10:00       8   1.6m 11.5s WNW    4kn 
+ (g9) ESE glassy\nWed 11:00       8   1.6m 11.5s WNW    4kn (g9)  SE glassy
+ \nWed 12:00       8   1.6m 11.5s WNW    4kn (g9)  SE glassy\nWed 13:00    
+    8   1.7m 11.5s WNW    4kn (g9)  SE glassy\nWed 14:00     7.5   1.7m 11.
+ 4s WNW    4kn (g9) SSE glassy\nWed 15:00     7.5   1.7m 11.4s WNW    4kn (
+ g9) SSE glassy\nWed 16:00     7.5   1.7m 11.4s WNW    4kn (g6) SSE glassy\
+ nWed 17:00     7.5   1.8m 11.3s WNW    3kn (g6) SSE glassy\n\nGenerated 20
+ 26-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
  thub.io/surf-calendar-plugin/#spot=molhe-leste
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 LOCATION:Peniche (Molhe Leste)
@@ -142,22 +141,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:38655828ca25505a@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Peniche (Molhe Leste) 8/10 · 1.9m 12s NW · 4kn E
-DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.8 to 2.1 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
-     8   1.9m 11.8s  NW    4kn (g8)   E glassy\nThu 09:00       8   1.9m 11
- .8s  NW    4kn (g8)   E glassy\nThu 10:00       8   1.9m 11.8s  NW    6kn 
- (g15)   E cross\nThu 11:00       8   1.9m 11.7s  NW    6kn (g16) ESE cross
- \nThu 12:00       8   1.9m 11.7s  NW    6kn (g16) ESE cross\nThu 13:00    
-    8   1.8m 11.7s  NW    5kn (g16)  SE glassy\nThu 14:00       8   1.8m 11
- .7s  NW    4kn (g15)  SE glassy\nThu 15:00       8   1.8m 11.7s  NW    3kn
-  (g15)  SE glassy\nThu 16:00       8   1.8m 11.7s  NW    2kn (g14)  SE gla
- ssy\nThu 17:00       8   1.8m 11.7s  NW    1kn (g13)  SE glassy\n\nGenerat
- ed 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=molhe-leste
+SUMMARY:🔥 Peniche (Molhe Leste) 9/10 · 1.9m 11s NW · 1kn ENE
+DESCRIPTION:Best 9/10 at 10:00. Forecast confidence: low. 4 wave models say
+  1.6 to 2.1 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
+     8   1.9m 11.3s  NW    2kn (g3) ESE glassy\nThu 09:00       8   1.9m 11
+ .3s  NW    1kn (g3) ESE glassy\nThu 10:00       9   1.9m 11.2s  NW    1kn 
+ (g4) ENE glassy\nThu 11:00       9   1.9m 11.2s  NW    2kn (g4) NNE glassy
+ \nThu 12:00       9   1.9m 11.2s  NW    2kn (g4)   N glassy\nThu 13:00    
+    9   1.9m 11.2s  NW    2kn (g4)   N glassy\nThu 14:00       8   1.9m 11.
+ 2s  NW    2kn (g4) NNW glassy\nThu 15:00       8   1.9m 11.3s  NW    2kn (
+ g4) NNW glassy\nThu 16:00       8   1.9m 11.4s  NW    2kn (g6) NNW glassy\
+ nThu 17:00       9   1.9m 11.4s  NW    3kn (g6) NNW glassy\n\nGenerated 20
+ 26-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=molhe-leste
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=molhe-leste
 LOCATION:Peniche (Molhe Leste)
 TRANSP:TRANSPARENT

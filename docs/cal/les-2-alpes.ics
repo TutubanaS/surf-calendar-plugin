@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:86fca5e32cfe36ec@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T150000Z
-SUMMARY:🤏 Les Deux Alpes 6/10 · 107 cm of snow · sunny · -8°C
+SUMMARY:🤏 Les Deux Alpes 6/10 · 106 cm of snow · sunny · -7°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
   score  new snow  sky           temp   wind\nFri 09:00       6      0 cm  
-  sunny           -8°C    8 km/h (g23)\nFri 10:00       6      0 cm   sunn
- y           -7°C    9 km/h (g27)\nFri 11:00       5      0 cm   partly su
- nny    -7°C   10 km/h (g30)\nFri 12:00       6      0 cm   sunny         
-   -7°C   11 km/h (g33)\nFri 13:00       6      0 cm   sunny           -6
+  sunny           -7°C    9 km/h (g26)\nFri 10:00       5      0 cm   part
+ ly sunny    -7°C    9 km/h (g27)\nFri 11:00       6      0 cm   sunny    
+        -6°C   11 km/h (g31)\nFri 12:00       6      0 cm   sunny         
+   -6°C   11 km/h (g32)\nFri 13:00       6      0 cm   sunny           -6
  °C   12 km/h (g34)\nFri 14:00       6      0 cm   sunny           -6°C  
-  13 km/h (g36)\nFri 15:00       6      0 cm   sunny           -6°C   14 k
- m/h (g40)\n\nWeather at 2830 m. Snow depth and new snow are the weather mo
+  14 km/h (g38)\nFri 15:00       6      0 cm   sunny           -6°C   15 k
+ m/h (g41)\n\nWeather at 2830 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Glacier up top\,
-  snow from November.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
+  snow from November.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2
  -alpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes
@@ -32,44 +32,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ecbf8837d401774c@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Les Deux Alpes 6/10 · 104 cm of snow · sunny · -4°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nSat 09:00       6      0 cm
-    sunny           -4°C   12 km/h (g37)\nSat 10:00       6      0 cm   su
- nny           -4°C   11 km/h (g35)\nSat 11:00       6      0 cm   sunny  
-          -3°C   10 km/h (g32)\nSat 12:00       6      0 cm   sunny       
-     -2°C    8 km/h (g28)\nSat 13:00       6      0 cm   sunny           -
- 2°C    7 km/h (g26)\nSat 14:00       6      0 cm   sunny           -3°C 
-    6 km/h (g27)\nSat 15:00       6      0 cm   sunny           -3°C    6 
- km/h (g31)\n\nWeather at 2830 m. Snow depth and new snow are the weather m
- odel's numbers\, not the resort's own snow report.\nNotes: Glacier up top\
- , snow from November.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\n
- Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=les-
- 2-alpes
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes
-LOCATION:Les Deux Alpes
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:023f7cd5b9600f4b@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261130T080000Z
-DTEND:20261130T150000Z
-SUMMARY:🤏 Les Deux Alpes 5.5/10 · 5 cm new snow · snowing · -7°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nMon 09:00     5.5      5 cm 
-   snowing         -7°C    6 km/h (g24)\nMon 10:00     5.5      5 cm   sno
- wing         -7°C    5 km/h (g24)\nMon 11:00     5.5      5 cm   cloudy  
-         -7°C    4 km/h (g20)\nMon 12:00     5.5      5 cm   cloudy       
-    -6°C    3 km/h (g20)\nMon 13:00     5.5      5 cm   cloudy          -6
- °C    2 km/h (g20)\nMon 14:00     5.5      6 cm   snowing         -6°C  
-   2 km/h (g24)\nMon 15:00     5.5      6 cm   snowing         -6°C    2 k
- m/h (g24)\n\nWeather at 2830 m. Snow depth and new snow are the weather mo
+SUMMARY:🤏 Les Deux Alpes 6/10 · 103 cm of snow · sunny · -4°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nSat 09:00       6      0 cm  
+  sunny           -4°C   12 km/h (g36)\nSat 10:00       6      0 cm   sunn
+ y           -4°C   12 km/h (g34)\nSat 11:00       6      0 cm   sunny    
+        -3°C   10 km/h (g33)\nSat 12:00       6      0 cm   sunny         
+   -2°C    9 km/h (g29)\nSat 13:00     5.5      0 cm   sunny           -2
+ °C    7 km/h (g26)\nSat 14:00       6      0 cm   sunny           -2°C  
+   6 km/h (g24)\nSat 15:00     5.5      0 cm   sunny           -2°C    6 k
+ m/h (g22)\n\nWeather at 2830 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Glacier up top\,
-  snow from November.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nF
+  snow from November.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nF
  ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2
  -alpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes
@@ -78,21 +55,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cfd3f96ce5b9cf5e@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Les Deux Alpes 6/10 · 102 cm of snow · sunny · -9°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nTue 09:00       6      2 cm   
- sunny           -9°C    6 km/h (g31)\nTue 10:00       6      2 cm   sunny
-            -9°C    5 km/h (g31)\nTue 11:00       6      2 cm   sunny     
-       -8°C    5 km/h (g34)\nTue 12:00       6      2 cm   sunny          
-  -8°C    4 km/h (g35)\nTue 13:00       6      2 cm   sunny           -8°
- C    4 km/h (g36)\nTue 14:00       6      1 cm   sunny           -8°C    
- 4 km/h (g35)\nTue 15:00       6      1 cm   sunny           -8°C    4 km/
- h (g35)\n\nWeather at 2830 m. Snow depth and new snow are the weather mode
+SUMMARY:🤏 Les Deux Alpes 6/10 · 96 cm of snow · sunny · -6°C
+DESCRIPTION:Best 6/10 at 11:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nTue 09:00       5      0 cm   
+ partly sunny    -7°C    8 km/h (g36)\nTue 10:00       5      0 cm   partl
+ y sunny    -7°C    8 km/h (g36)\nTue 11:00       6      0 cm   sunny     
+       -6°C    8 km/h (g34)\nTue 12:00       6      0 cm   sunny          
+  -6°C    6 km/h (g34)\nTue 13:00       6      0 cm   sunny           -6°
+ C    5 km/h (g34)\nTue 14:00       6      0 cm   sunny           -6°C    
+ 4 km/h (g27)\nTue 15:00       6      0 cm   sunny           -6°C    3 km/
+ h (g27)\n\nWeather at 2830 m. Snow depth and new snow are the weather mode
  l's numbers\, not the resort's own snow report.\nNotes: Glacier up top\, s
- now from November.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFul
+ now from November.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFul
  l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-a
  lpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes
@@ -101,7 +78,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e5aeb45706c2b50a@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
 SUMMARY:🤏 Les Deux Alpes 6/10 · 96 cm of snow · sunny · -6°C
@@ -115,7 +92,7 @@ DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)
  5 km/h (g11)\nWed 15:00       6      0 cm   sunny           -4°C    6 km/
  h (g11)\n\nWeather at 2830 m. Snow depth and new snow are the weather mode
  l's numbers\, not the resort's own snow report.\nNotes: Glacier up top\, s
- now from November.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFul
+ now from November.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFul
  l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-a
  lpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=les-2-alpes

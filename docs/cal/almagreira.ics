@@ -8,106 +8,83 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:413da4b1fff656e0@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261126T080000Z
-DTEND:20261126T180000Z
-SUMMARY:🔥 Almagreira 9.5/10 · 2.1m 11s NW · 4kn SE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.9 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 08:00
-      9.5   2.1m 11.2s  NW    4kn (g6)  SE glassy\nThu 09:00     9.5   2.1m
-  11.2s  NW    3kn (g6)  SE glassy\nThu 10:00     8.5   2.0m 10.8s  NW    4
- kn (g6)  SE glassy\nThu 11:00     8.5   2.0m 10.3s  NW    4kn (g6) SSE gla
- ssy\nThu 12:00     7.5   1.9m 10.2s  NW    3kn (g7)  SW glassy\nThu 13:00 
-       7   1.9m 10.1s  NW    5kn (g8)   W onshore\nThu 14:00       5   1.8m
-  10.1s  NW    6kn (g10)   W onshore\nThu 15:00       7   1.8m 10.2s  NW   
-  6kn (g10) WSW onshore\nThu 16:00       5   1.8m 10.2s  NW    6kn (g10) WS
- W onshore\nThu 17:00     7.5   1.7m 10.2s  NW    6kn (g10)  SW cross\n\nGe
- nerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
- tubanas.github.io/surf-calendar-plugin/#spot=almagreira
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
-LOCATION:Almagreira
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:e4bba4b49f927caa@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
 SUMMARY:🔥 Almagreira 8.5/10 · 1.7m 10s NW · 4kn SSE
 DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:00
+ say 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:00
       8.5   1.7m 10.0s  NW    4kn (g6) SSE glassy\nFri 09:00     8.5   1.7m
-  10.2s  NW    4kn (g7) SSE glassy\nFri 10:00     7.5   1.8m 10.2s  NW    5
- kn (g9)   S cross\nFri 11:00     7.5   1.8m 10.2s  NW    6kn (g10)   S cro
- ss\nFri 12:00     8.5   1.8m 12.3s  NW    7kn (g11)  SW cross\nFri 13:00  
-    8.5   1.8m 12.3s  NW    7kn (g12)  SW cross\nFri 14:00     8.5   1.8m 1
- 2.3s  NW    6kn (g12)  SW cross\nFri 15:00     8.5   1.8m 12.3s  NW    7kn
-  (g11)  SW cross\nFri 16:00     8.5   1.8m 12.2s  NW    6kn (g11)  SW cros
- s\nFri 17:00     8.5   1.8m 12.1s  NW    6kn (g9) SSW cross\n\nGenerated 2
- 026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
- ithub.io/surf-calendar-plugin/#spot=almagreira
+  10.2s  NW    5kn (g8) SSE glassy\nFri 10:00     8.5   1.8m 10.2s  NW    6
+ kn (g9) SSE offshore\nFri 11:00     7.5   1.8m 10.2s  NW    7kn (g12) SSW 
+ cross\nFri 12:00       7   1.8m 12.3s  NW    9kn (g14) SSW cross\nFri 13:0
+ 0       7   1.8m 12.3s  NW   10kn (g16) SSW cross\nFri 14:00       7   1.8
+ m 12.3s  NW   10kn (g16)  SW cross\nFri 15:00       7   1.8m 12.3s  NW   1
+ 0kn (g16) SSW cross\nFri 16:00       7   1.8m 12.2s  NW    9kn (g16) SSW c
+ ross\nFri 17:00     8.5   1.8m 12.1s  NW    8kn (g14) SSW cross\n\nGenerat
+ ed 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:373c9e4391f4f6a3@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Almagreira 8/10 · 2.7m 14s NW · 5kn SE
-DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: medium. 5 wave models 
- say 2.3 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00
-        8   2.7m 13.9s  NW    5kn (g8)  SE offshore\nSat 09:00       8   2.
- 7m 13.5s  NW    6kn (g9)  SE offshore\nSat 10:00       8   2.6m 13.5s  NW 
-    6kn (g10)  SE offshore\nSat 11:00       8   2.6m 13.5s  NW    6kn (g11)
-  SSE offshore\nSat 12:00       8   2.6m 13.5s  NW    7kn (g12) SSE offshor
- e\nSat 13:00       7   2.6m 13.5s  NW    7kn (g12)   S cross\nSat 14:00   
-     7   2.6m 13.5s  NW    7kn (g12) SSW cross\nSat 15:00       7   2.6m 13
- .5s  NW    6kn (g11) SSW cross\nSat 16:00       7   2.6m 13.5s  NW    5kn 
- (g10)  SW cross\nSat 17:00       7   2.6m 13.5s  NW    4kn (g8)  SW glassy
- \n\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: http
- s://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 5 wave models sa
+ y 2.4 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
+      8   2.7m 13.9s  NW    5kn (g9)  SE offshore\nSat 09:00       8   2.7m
+  13.5s  NW    5kn (g9)  SE offshore\nSat 10:00       8   2.7m 13.5s  NW   
+  6kn (g10)  SE offshore\nSat 11:00       8   2.7m 13.5s  NW    7kn (g12)  
+ SE offshore\nSat 12:00       8   2.7m 13.5s  NW    7kn (g12) SSE offshore\
+ nSat 13:00       8   2.6m 13.5s  NW    7kn (g12) SSE offshore\nSat 14:00  
+      7   2.6m 13.5s  NW    6kn (g11)   S cross\nSat 15:00       7   2.6m 1
+ 3.5s  NW    5kn (g10) SSW cross\nSat 16:00       7   2.6m 13.5s  NW    5kn
+  (g9)  SW glassy\nSat 17:00       7   2.6m 13.5s  NW    4kn (g8)  SW glass
+ y\n\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: htt
+ ps://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:de2d2da05c23fe35@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261129T080000Z
-DTEND:20261129T130000Z
-SUMMARY:👍 Almagreira 7/10 · 2.4m 14s NW · 7kn NNE
-DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 5 wave models 
+DTEND:20261129T120000Z
+SUMMARY:🔥 Almagreira 8/10 · 2.5m 14s NW · 2kn ESE
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: medium. 5 wave models 
  say 2.3 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:00
-        7   2.4m 13.5s  NW    7kn (g11) NNE cross\nSun 09:00       7   2.4m
-  13.5s  NW    8kn (g12) NNE cross\nSun 10:00     5.5   2.4m 13.5s  NW   10
- kn (g15) NNE cross\nSun 11:00     5.5   2.4m 13.5s  NW   10kn (g16) NNE cr
- oss\nSun 12:00     5.5   2.4m 13.5s  NW   10kn (g17) NNE cross\n\nGenerate
- d 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
- s.github.io/surf-calendar-plugin/#spot=almagreira
+        8   2.5m 13.5s  NW    2kn (g4) ESE glassy\nSun 09:00       8   2.5m
+  13.5s  NW    2kn (g4) ESE glassy\nSun 10:00       7   2.5m 13.5s  NW    1
+ kn (g3)   E glassy\nSun 11:00     6.5   2.5m 13.5s  NW    5kn (g8) NNE gla
+ ssy\n\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: h
+ ttps://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c25e9e5ad01c10fc@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Almagreira 9.5/10 · 2.2m 13s NW · 2kn SE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 2.1 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
-     9.5   2.2m 12.6s  NW    2kn (g4)  SE glassy\nMon 09:00     9.5   2.2m 
- 12.6s  NW    2kn (g4)  SE glassy\nMon 10:00     9.5   2.2m 12.5s  NW    2k
- n (g4) SSE glassy\nMon 11:00     8.5   2.2m 12.5s  NW    1kn (g4)  SW glas
- sy\nMon 12:00       8   2.2m 12.5s  NW    2kn (g4)   W glassy\nMon 13:00  
-      8   2.2m 12.5s  NW    2kn (g4) WSW glassy\nMon 14:00     8.5   2.2m 1
- 2.6s  NW    2kn (g4) WSW glassy\nMon 15:00     8.5   2.2m 12.7s  NW    2kn
-  (g4)  SW glassy\nMon 16:00     8.5   2.1m 12.7s  NW    2kn (g4) SSW glass
- y\nMon 17:00     9.5   2.1m 12.8s  NW    2kn (g4)   S glassy\n\nGenerated 
- 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+     9.5   2.2m 12.7s  NW    2kn (g4)  SE glassy\nMon 09:00     9.5   2.3m 
+ 12.6s  NW    3kn (g4)  SE glassy\nMon 10:00     9.5   2.3m 12.6s  NW    2k
+ n (g5) SSE glassy\nMon 11:00     9.5   2.2m 12.6s  NW    2kn (g5)   S glas
+ sy\nMon 12:00     8.5   2.2m 12.6s  NW    2kn (g5) SSW glassy\nMon 13:00  
+    8.5   2.2m 12.6s  NW    2kn (g5)  SW glassy\nMon 14:00     8.5   2.2m 1
+ 2.6s  NW    2kn (g5)  SW glassy\nMon 15:00     8.5   2.2m 12.7s  NW    2kn
+  (g5)  SW glassy\nMon 16:00     8.5   2.2m 12.8s  NW    2kn (g3)  SW glass
+ y\nMon 17:00     8.5   2.1m 12.8s  NW    2kn (g3)  SW glassy\n\nGenerated 
+ 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
@@ -115,66 +92,66 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:42aee01f14f1b156@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Almagreira 9.5/10 · 1.7m 12s NW · 8kn SE
+SUMMARY:🔥 Almagreira 9.5/10 · 1.7m 12s NW · 6kn SE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.4 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.7m 12.0s  NW    8kn (g14)  SE offshore\nTue 09:00     9.5   1.
- 7m 12.0s WNW    9kn (g14)  SE offshore\nTue 10:00     9.5   1.7m 12.1s WNW
-     7kn (g14)  SE offshore\nTue 11:00     9.5   1.7m 12.2s WNW    6kn (g12
- )  SE offshore\nTue 12:00     9.5   1.7m 12.4s WNW    5kn (g9)  SE glassy\
- nTue 13:00     9.5   1.7m 12.4s WNW    3kn (g8)  SE glassy\nTue 14:00     
- 9.5   1.7m 12.4s WNW    3kn (g8)  SE glassy\nTue 15:00     9.5   1.7m 12.4
- s WNW    3kn (g8)  SE glassy\nTue 16:00     9.5   1.7m 12.4s WNW    3kn (g
- 5)  SE glassy\nTue 17:00     9.5   1.7m 12.3s WNW    3kn (g5)  SE glassy\n
- \nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https:
- //tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
+ ay 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
+     9.5   1.7m 12.1s  NW    6kn (g10)  SE offshore\nTue 09:00     9.5   1.
+ 7m 12.1s WNW    6kn (g10)  SE offshore\nTue 10:00     9.5   1.7m 12.2s WNW
+     6kn (g9)  SE offshore\nTue 11:00     9.5   1.6m 12.2s WNW    6kn (g9) 
+  SE offshore\nTue 12:00     9.5   1.6m 12.4s WNW    5kn (g9) SSE offshore\
+ nTue 13:00     9.5   1.6m 12.4s WNW    5kn (g9) SSE offshore\nTue 14:00   
+   9.5   1.6m 12.4s WNW    5kn (g9)  SE offshore\nTue 15:00     9.5   1.6m 
+ 12.4s WNW    5kn (g9)  SE offshore\nTue 16:00     9.5   1.6m 12.4s WNW    
+ 5kn (g6)  SE glassy\nTue 17:00     9.5   1.6m 12.3s WNW    4kn (g6)  SE gl
+ assy\n\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: 
+ https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c57117eb01dccb2a@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Almagreira 9.5/10 · 1.7m 12s WNW · 2kn ESE
+SUMMARY:🔥 Almagreira 9.5/10 · 1.7m 12s WNW · 5kn SE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
-     9.5   1.7m 11.8s WNW    2kn (g5) ESE glassy\nWed 09:00     9.5   1.7m 
- 11.6s WNW    2kn (g5) ESE glassy\nWed 10:00     9.5   1.7m 11.5s WNW    2k
- n (g5)  SE glassy\nWed 11:00     9.5   1.7m 11.6s WNW    2kn (g5)  SE glas
- sy\nWed 12:00     9.5   1.8m 11.6s WNW    2kn (g5)  SE glassy\nWed 13:00  
-    9.5   1.8m 11.5s WNW    1kn (g5)   E glassy\nWed 14:00     8.5   1.8m 1
- 1.4s WNW    1kn (g5)  NE glassy\nWed 15:00     8.5   1.8m 11.4s WNW    2kn
-  (g5) NNE glassy\nWed 16:00     8.5   1.8m 11.4s WNW    2kn (g3)  NE glass
- y\nWed 17:00     8.5   1.8m 11.3s WNW    2kn (g3)  NE glassy\n\nGenerated 
- 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=almagreira
+     9.5   1.7m 11.8s WNW    5kn (g11)  SE offshore\nWed 09:00     9.5   1.
+ 7m 11.6s WNW    5kn (g11)  SE offshore\nWed 10:00     9.5   1.7m 11.6s WNW
+     5kn (g11)  SE offshore\nWed 11:00     9.5   1.7m 11.6s WNW    5kn (g11
+ )  SE offshore\nWed 12:00     9.5   1.7m 11.6s WNW    5kn (g11)  SE glassy
+ \nWed 13:00     9.5   1.7m 11.6s WNW    5kn (g12)  SE glassy\nWed 14:00   
+   9.5   1.7m 11.5s WNW    5kn (g12)  SE glassy\nWed 15:00     9.5   1.8m 1
+ 1.4s WNW    4kn (g12)  SE glassy\nWed 16:00     9.5   1.8m 11.4s WNW    4k
+ n (g7)  SE glassy\nWed 17:00     9.5   1.8m 11.4s WNW    3kn (g7)  SE glas
+ sy\n\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: ht
+ tps://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9c4fd0e75524ae67@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Almagreira 9.5/10 · 2.0m 12s NW · 2kn ESE
+SUMMARY:🔥 Almagreira 9.5/10 · 1.9m 11s NW · 2kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.9 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
-     9.5   2.0m 11.9s  NW    2kn (g5) ESE glassy\nThu 09:00     9.5   2.0m 
- 11.9s  NW    2kn (g5) ESE glassy\nThu 10:00     9.5   2.0m 11.8s  NW    4k
- n (g12) ESE glassy\nThu 11:00     9.5   2.0m 11.8s  NW    5kn (g13) ESE of
- fshore\nThu 12:00     9.5   2.0m 11.8s  NW    5kn (g14)  SE offshore\nThu 
- 13:00     9.5   1.9m 11.8s  NW    5kn (g16)  SE glassy\nThu 14:00     9.5 
-   1.9m 11.8s  NW    4kn (g15)  SE glassy\nThu 15:00     9.5   1.9m 11.8s  
- NW    3kn (g15)  SE glassy\nThu 16:00     9.5   1.9m 11.8s  NW    2kn (g14
- )  SE glassy\nThu 17:00     9.5   1.9m 11.8s  NW    1kn (g13)  SE glassy\n
- \nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https:
- //tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
+ ay 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.9m 11.4s  NW    2kn (g3) ESE glassy\nThu 09:00     9.5   1.9m 
+ 11.4s  NW    2kn (g3) ESE glassy\nThu 10:00     9.5   1.9m 11.3s  NW    1k
+ n (g4)   E glassy\nThu 11:00     8.5   1.9m 11.3s  NW    1kn (g4)   E glas
+ sy\nThu 12:00     8.5   1.9m 11.3s  NW    1kn (g4)  NE glassy\nThu 13:00  
+      8   1.9m 11.4s  NW    1kn (g6) NNW glassy\nThu 14:00       8   1.9m 1
+ 1.4s  NW    2kn (g6) WNW glassy\nThu 15:00       8   1.9m 11.5s  NW    3kn
+  (g6) WNW glassy\nThu 16:00       8   1.9m 11.6s  NW    3kn (g7)  NW glass
+ y\nThu 17:00       8   1.9m 11.6s  NW    2kn (g7) NNW glassy\n\nGenerated 
+ 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=almagreira
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=almagreira
 LOCATION:Almagreira
 TRANSP:TRANSPARENT

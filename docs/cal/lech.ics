@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:76b6cb2e3fe14ae4@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T150000Z
-SUMMARY:👍 Lech Zürs 7/10 · 6 cm new snow · sunny · -8°C
-DESCRIPTION:Best 7/10 at 11:00. Forecast confidence: high.\n\nHour (local) 
-  score  new snow  sky           temp   wind\nFri 09:00       6      8 cm  
-  partly sunny    -9°C   10 km/h (g27)\nFri 10:00       6      8 cm   part
- ly sunny    -9°C    8 km/h (g24)\nFri 11:00       7      6 cm   sunny    
-        -8°C    8 km/h (g24)\nFri 12:00       6      5 cm   sunny         
-   -7°C    6 km/h (g22)\nFri 13:00       6      4 cm   sunny           -7
- °C    4 km/h (g20)\nFri 14:00       6      2 cm   sunny           -6°C  
-   3 km/h (g18)\nFri 15:00     5.5      2 cm   sunny           -7°C    2 k
- m/h (g18)\n\nWeather at 2110 m. Snow depth and new snow are the weather mo
+SUMMARY:👍 Lech Zürs 7/10 · 8 cm new snow · sunny · -9°C
+DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
+  score  new snow  sky           temp   wind\nFri 09:00       7      8 cm  
+  sunny           -9°C    8 km/h (g27)\nFri 10:00       7      8 cm   sunn
+ y           -8°C    9 km/h (g24)\nFri 11:00       7      6 cm   sunny    
+        -7°C    8 km/h (g24)\nFri 12:00       6      5 cm   sunny         
+   -6°C    7 km/h (g23)\nFri 13:00       5      4 cm   partly sunny    -6
+ °C    4 km/h (g22)\nFri 14:00       5      2 cm   partly sunny    -6°C  
+   1 km/h (g18)\nFri 15:00     5.5      2 cm   sunny           -6°C    2 k
+ m/h (g17)\n\nWeather at 2110 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Lots of snow\, q
- uiet and upmarket.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFul
+ uiet and upmarket.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFul
  l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 LOCATION:Lech Zürs
@@ -31,67 +31,71 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5918bead9028c349@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:🤏 Lech Zürs 5.5/10 · 45 cm of snow · sunny · -7°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
- al)  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 
- cm   sunny           -7°C    7 km/h (g24)\nSat 10:00     5.5      0 cm   
- sunny           -6°C    7 km/h (g21)\nSat 11:00     5.5      0 cm   sunny
-            -5°C    5 km/h (g20)\nSat 12:00     5.5      0 cm   sunny     
-       -4°C    3 km/h (g14)\nSat 13:00     5.5      0 cm   sunny          
-  -3°C    2 km/h (g11)\nSat 14:00     5.5      0 cm   sunny           -2°
- C    2 km/h (g10)\nSat 15:00     5.5      0 cm   sunny           -2°C    
- 3 km/h (g10)\n\nWeather at 2110 m. Snow depth and new snow are the weather
-  model's numbers\, not the resort's own snow report.\nNotes: Lots of snow\
- , quiet and upmarket.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\n
- Full forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
+SUMMARY:🤏 Lech Zürs 5.5/10 · 43 cm of snow · sunny · -6°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm
+    sunny           -6°C    7 km/h (g23)\nSat 10:00     5.5      0 cm   su
+ nny           -5°C    5 km/h (g21)\nSat 11:00     5.5      0 cm   sunny  
+          -4°C    3 km/h (g17)\nSat 12:00     5.5      0 cm   sunny       
+     -3°C    2 km/h (g14)\nSat 13:00       5      0 cm   sunny           -
+ 2°C    2 km/h (g12)\nSat 14:00       5      0 cm   sunny           -2°C 
+    2 km/h (g10)\nSat 15:00       5      0 cm   sunny           -2°C    2 
+ km/h (g11)\n\nWeather at 2110 m. Snow depth and new snow are the weather m
+ odel's numbers\, not the resort's own snow report.\nNotes: Lots of snow\, 
+ quiet and upmarket.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFu
+ ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 LOCATION:Lech Zürs
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e12fe837359dc2c@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261129T080000Z
-DTEND:20261129T100000Z
-SUMMARY:🤏 Lech Zürs 5.5/10 · 43 cm of snow · sunny · -5°C
+DTEND:20261129T120000Z
+SUMMARY:🤏 Lech Zürs 5.5/10 · 40 cm of snow · sunny · -6°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
  al)  score  new snow  sky           temp   wind\nSun 09:00     5.5      0 
- cm   sunny           -5°C    8 km/h (g13)\nSun 10:00     5.5      0 cm   
- sunny           -4°C    8 km/h (g13)\n\nWeather at 2110 m. Snow depth and
-  new snow are the weather model's numbers\, not the resort's own snow repo
- rt.\nNotes: Lots of snow\, quiet and upmarket.\nGenerated 2026-11-26 16:00
-  UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-c
- alendar-plugin/#spot=lech
+ cm   sunny           -6°C    8 km/h (g13)\nSun 10:00     5.5      0 cm   
+ sunny           -4°C    7 km/h (g13)\nSun 11:00     5.5      0 cm   sunny
+            -3°C    6 km/h (g12)\nSun 12:00       5      0 cm   sunny     
+       -1°C    5 km/h (g11)\n\nWeather at 2110 m. Snow depth and new snow 
+ are the weather model's numbers\, not the resort's own snow report.\nNotes
+ : Lots of snow\, quiet and upmarket.\nGenerated 2026-11-27 01:00 UTC from 
+ Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
+ ugin/#spot=lech
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 LOCATION:Lech Zürs
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:5cce06a008a05748@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261201T110000Z
+UID:d119fdf45295d68f@surf-windows
+DTSTAMP:20261127T010000Z
+DTSTART:20261201T080000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Lech Zürs 5.5/10 · 38 cm of snow · sunny · -3°C
-DESCRIPTION:Best 5.5/10 at 12:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nTue 12:00     5.5      0 cm 
-   sunny           -3°C    5 km/h (g11)\nTue 13:00       5      0 cm   sun
- ny           -1°C    4 km/h (g12)\nTue 14:00       5      0 cm   sunny   
-         -1°C    4 km/h (g10)\nTue 15:00       5      0 cm   sunny        
-    -1°C    4 km/h (g10)\n\nWeather at 2110 m. Snow depth and new snow are
-  the weather model's numbers\, not the resort's own snow report.\nNotes: L
- ots of snow\, quiet and upmarket.\nGenerated 2026-11-26 16:00 UTC from Ope
- n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
- n/#spot=lech
+SUMMARY:🤏 Lech Zürs 5.5/10 · 34 cm of snow · sunny · -4°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nTue 09:00     5.5      0 cm 
+   sunny           -4°C    8 km/h (g13)\nTue 10:00     5.5      0 cm   sun
+ ny           -4°C    8 km/h (g13)\nTue 11:00     5.5      0 cm   sunny   
+         -2°C    7 km/h (g11)\nTue 12:00       5      0 cm   sunny        
+    -1°C    6 km/h (g11)\nTue 13:00       5      0 cm   sunny            1
+ °C    6 km/h (g11)\nTue 14:00       5      0 cm   sunny            1°C  
+   6 km/h (g10)\nTue 15:00       5      0 cm   sunny            0°C    6 k
+ m/h (g10)\n\nWeather at 2110 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Lots of snow\, q
+ uiet and upmarket.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 LOCATION:Lech Zürs
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8a0752a28359cb78@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
 SUMMARY:🤏 Lech Zürs 5.5/10 · 36 cm of snow · sunny · -6°C
@@ -105,7 +109,7 @@ DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    4 km/h (g15)\nWed 15:00       5      0 cm   sunny            0°C    5 k
  m/h (g15)\n\nWeather at 2110 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Lots of snow\, q
- uiet and upmarket.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFul
+ uiet and upmarket.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFul
  l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 LOCATION:Lech Zürs
@@ -113,7 +117,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2afaa6e45bc01961@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T150000Z
 SUMMARY:🤏 Lech Zürs 5.5/10 · 35 cm of snow · sunny · -7°C
@@ -127,7 +131,7 @@ DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    3 km/h (g19)\nThu 15:00     5.5      0 cm   sunny           -2°C    4 k
  m/h (g19)\n\nWeather at 2110 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Lots of snow\, q
- uiet and upmarket.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFul
+ uiet and upmarket.\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFul
  l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=lech
 LOCATION:Lech Zürs

@@ -7,27 +7,4 @@ X-WR-CALNAME:Ski: Sarıkamış
 X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
-BEGIN:VEVENT
-UID:293fc2b5bb8d5c38@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261130T060000Z
-DTEND:20261130T130000Z
-SUMMARY:🤏 Sarıkamış 5/10 · 10 cm new snow · snowing · -1°C
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nMon 09:00       5     10 cm   
- snowing         -1°C    4 km/h (g15)\nMon 10:00       5     11 cm   snowi
- ng         -1°C    3 km/h (g8)\nMon 11:00       5     11 cm   snowing    
-      -1°C    3 km/h (g8)\nMon 12:00       5     11 cm   snowing         -
- 1°C    3 km/h (g8)\nMon 13:00       5     11 cm   snowing         -1°C  
-   3 km/h (g10)\nMon 14:00       5     11 cm   snowing         -2°C    3 k
- m/h (g10)\nMon 15:00       5     12 cm   snowing         -2°C    3 km/h (
- g10)\n\nWeather at 2490 m. Snow depth and new snow are the weather model's
-  numbers\, not the resort's own snow report.\nNotes: Pine forest and famou
- sly dry\, crystal snow.\nGenerated 2026-11-26 16:00 UTC from Open-Meteo.\n
- \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=sa
- rikamis
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sarikamis
-LOCATION:Sarıkamış
-TRANSP:TRANSPARENT
-END:VEVENT
 END:VCALENDAR

@@ -8,46 +8,23 @@ X-WR-TIMEZONE:Europe/Lisbon
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:6533caa0cddc7237@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261126T080000Z
-DTEND:20261126T180000Z
-SUMMARY:🔥 Figueira da Foz (Cabedelo) 8.5/10 · 2.0m 11s WNW · 2kn E
-DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: high. 5 wave models 
- say 1.2 to 2.1 m.\n\nHour (local)  score  waves            wind\nThu 08:00
-      8.5   2.0m 10.6s WNW    2kn (g4)   E glassy\nThu 09:00     8.5   1.9m
-  10.6s WNW    2kn (g6) ESE glassy\nThu 10:00     8.5   1.8m 10.4s WNW    3
- kn (g7) ESE glassy\nThu 11:00     8.5   1.8m 10.2s WNW    2kn (g7) ESE gla
- ssy\nThu 12:00     7.5   1.8m 10.2s WNW    2kn (g7) SSE glassy\nThu 13:00 
-       7   1.7m 10.2s WNW    2kn (g6) SSW glassy\nThu 14:00       7   1.7m 
- 10.2s WNW    4kn (g10)  SW glassy\nThu 15:00       7   1.7m 10.2s WNW    5
- kn (g12)  SW glassy\nThu 16:00       7   1.6m 10.2s WNW    4kn (g12)  SW g
- lassy\nThu 17:00     7.5   1.6m 10.2s WNW    2kn (g9)   S glassy\n\nGenera
- ted 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
- nas.github.io/surf-calendar-plugin/#spot=figueira-cabedelo
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
- o
-LOCATION:Figueira da Foz (Cabedelo)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:d1e9051bed456bb7@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261127T080000Z
 DTEND:20261127T180000Z
-SUMMARY:🔥 Figueira da Foz (Cabedelo) 8.5/10 · 1.8m 12s WNW · 3kn S
+SUMMARY:🔥 Figueira da Foz (Cabedelo) 8.5/10 · 1.8m 12s WNW · 5kn SSW
 DESCRIPTION:Best 8.5/10 at 11:00. Forecast confidence: high. 5 wave models 
  say 1.1 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:00
-      7.5   1.7m 10.0s WNW    2kn (g5) SSE glassy\nFri 09:00     7.5   1.7m
+      7.5   1.7m 10.0s WNW    2kn (g4)  SE glassy\nFri 09:00     7.5   1.7m
   10.2s WNW    3kn (g6) SSE glassy\nFri 10:00     7.5   1.8m 10.8s WNW    3
- kn (g7) SSE glassy\nFri 11:00     8.5   1.8m 11.7s WNW    3kn (g8)   S gla
- ssy\nFri 12:00     8.5   1.8m 12.3s WNW    4kn (g10) SSW glassy\nFri 13:00
-        8   1.8m 12.3s WNW    5kn (g11) SSW glassy\nFri 14:00       8   1.8
- m 12.3s WNW    5kn (g11)  SW glassy\nFri 15:00       8   1.8m 12.3s WNW   
-  4kn (g11)  SW glassy\nFri 16:00       8   1.8m 12.2s WNW    3kn (g10)  SW
-  glassy\nFri 17:00     8.5   1.8m 12.1s WNW    1kn (g7) SSW glassy\n\nGene
- rated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutu
- banas.github.io/surf-calendar-plugin/#spot=figueira-cabedelo
+ kn (g8) SSE glassy\nFri 11:00     8.5   1.8m 11.7s WNW    5kn (g12) SSW gl
+ assy\nFri 12:00       8   1.8m 12.3s WNW    5kn (g11)  SW glassy\nFri 13:0
+ 0       8   1.8m 12.3s WNW    5kn (g12)  SW onshore\nFri 14:00       8   1
+ .8m 12.3s WNW    5kn (g12)  SW glassy\nFri 15:00       8   1.8m 12.3s WNW 
+    5kn (g11)  SW glassy\nFri 16:00       8   1.8m 12.2s WNW    4kn (g10)  
+ SW glassy\nFri 17:00     8.5   1.8m 12.1s WNW    3kn (g8)   S glassy\n\nGe
+ nerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
+ tubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedelo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
  o
 LOCATION:Figueira da Foz (Cabedelo)
@@ -55,44 +32,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b199a1bd691972a@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:👍 Figueira da Foz (Cabedelo) 7/10 · 2.6m 14s WNW · 3kn SSE
-DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 5 wave models 
- say 1.7 to 2.9 m.\n\nHour (local)  score  waves            wind\nSat 08:00
-        7   2.6m 13.9s WNW    3kn (g8) SSE glassy\nSat 09:00       7   2.6m
-  13.5s WNW    3kn (g7) SSE glassy\nSat 10:00       7   2.6m 13.5s WNW    4
- kn (g10) SSE glassy\nSat 11:00       7   2.6m 13.5s WNW    6kn (g13) SSE c
- ross\nSat 12:00       7   2.6m 13.5s WNW    6kn (g14) SSE cross\nSat 13:00
-        7   2.5m 13.5s WNW    6kn (g14)   S cross\nSat 14:00     6.5   2.5m
-  13.5s WNW    5kn (g13) SSW glassy\nSat 15:00     6.5   2.5m 13.5s WNW    
- 5kn (g11)  SW glassy\nSat 16:00     6.5   2.5m 13.5s WNW    4kn (g11)  SW 
- glassy\nSat 17:00     6.5   2.5m 13.5s WNW    3kn (g8) SSW glassy\n\nGener
- ated 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
- anas.github.io/surf-calendar-plugin/#spot=figueira-cabedelo
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
- o
-LOCATION:Figueira da Foz (Cabedelo)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:93569b3823e8807d@surf-windows
-DTSTAMP:20261126T160000Z
-DTSTART:20261129T080000Z
-DTEND:20261129T180000Z
-SUMMARY:👍 Figueira da Foz (Cabedelo) 7/10 · 2.4m 14s WNW · 5kn N
-DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: medium. 5 wave models 
- say 1.5 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:00
-        7   2.4m 13.5s WNW    5kn (g11)   N cross\nSun 09:00       7   2.4m
-  13.5s WNW    5kn (g13)   N cross\nSun 10:00       7   2.4m 13.5s WNW    6
- kn (g13) NNE cross\nSun 11:00       7   2.4m 13.5s WNW    5kn (g13)   N cr
- oss\nSun 12:00       7   2.4m 13.5s WNW    5kn (g12)   N cross\nSun 13:00 
-       7   2.4m 13.5s WNW    6kn (g14) NNW cross\nSun 14:00     6.5   2.4m 
- 12.7s WNW    6kn (g14)   N cross\nSun 15:00     6.5   2.4m 12.6s WNW    6k
- n (g14) NNW cross\nSun 16:00     6.5   2.4m 12.6s WNW    6kn (g15) NNW cro
- ss\nSun 17:00     6.5   2.4m 12.6s WNW    5kn (g14)   N glassy\n\nGenerate
- d 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+SUMMARY:👍 Figueira da Foz (Cabedelo) 7/10 · 2.7m 14s WNW · 4kn SSE
+DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: high. 5 wave models sa
+ y 1.7 to 2.9 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
+      7   2.7m 13.9s WNW    4kn (g8) SSE glassy\nSat 09:00       7   2.6m 1
+ 3.5s WNW    4kn (g8) SSE glassy\nSat 10:00       7   2.6m 13.5s WNW    5kn
+  (g10) SSE glassy\nSat 11:00       7   2.6m 13.5s WNW    5kn (g12) SSE cro
+ ss\nSat 12:00       7   2.6m 13.5s WNW    6kn (g13) SSE cross\nSat 13:00  
+      7   2.6m 13.5s WNW    6kn (g13)   S cross\nSat 14:00       7   2.6m 1
+ 3.5s WNW    5kn (g13)   S glassy\nSat 15:00       7   2.6m 13.5s WNW    3k
+ n (g10)   S glassy\nSat 16:00       7   2.6m 13.5s WNW    3kn (g8) SSW gla
+ ssy\nSat 17:00       7   2.6m 13.5s WNW    2kn (g6)   S glassy\n\nGenerate
+ d 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
  s.github.io/surf-calendar-plugin/#spot=figueira-cabedelo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
  o
@@ -100,22 +54,60 @@ LOCATION:Figueira da Foz (Cabedelo)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:93569b3823e8807d@surf-windows
+DTSTAMP:20261127T010000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T140000Z
+SUMMARY:🔥 Figueira da Foz (Cabedelo) 8/10 · 2.5m 14s WNW · 1kn SE
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: medium. 5 wave models 
+ say 1.5 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:00
+        8   2.5m 13.5s WNW    1kn (g4)  SE glassy\nSun 09:00       7   2.5m
+  13.5s WNW    1kn (g3)  NE glassy\nSun 10:00       7   2.5m 13.5s WNW    1
+ kn (g4)   N glassy\nSun 11:00       7   2.5m 13.5s WNW    4kn (g9)   N gla
+ ssy\nSun 12:00       7   2.5m 13.5s WNW    4kn (g10)   N glassy\nSun 13:00
+      6.5   2.5m 13.5s WNW    6kn (g13) NNW onshore\n\nGenerated 2026-11-27
+  01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
+ surf-calendar-plugin/#spot=figueira-cabedelo
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
+ o
+LOCATION:Figueira da Foz (Cabedelo)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1171f47b9a718452@surf-windows
+DTSTAMP:20261127T010000Z
+DTSTART:20261129T150000Z
+DTEND:20261129T180000Z
+SUMMARY:👍 Figueira da Foz (Cabedelo) 6.5/10 · 2.3m 13s WNW · 8kn N
+DESCRIPTION:Best 6.5/10 at 16:00. Forecast confidence: low. 5 wave models s
+ ay 1.4 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 15:00 
+       5   2.4m 12.8s WNW    8kn (g18) NNW cross\nSun 16:00     6.5   2.3m 
+ 12.8s WNW    8kn (g18)   N cross\nSun 17:00     6.5   2.3m 12.7s WNW    5k
+ n (g16)   N cross\n\nGenerated 2026-11-27 01:00 UTC from Open-Meteo.\n\nFu
+ ll forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=figuei
+ ra-cabedelo
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
+ o
+LOCATION:Figueira da Foz (Cabedelo)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:933711ef32fc32ab@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
 SUMMARY:🔥 Figueira da Foz (Cabedelo) 9.5/10 · 2.2m 13s NW · 2kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 2.1 to 2.5 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
+ ay 2.2 to 2.5 m.\n\nHour (local)  score  waves            wind\nMon 08:00 
      9.5   2.2m 12.6s  NW    2kn (g6) ESE glassy\nMon 09:00     9.5   2.2m 
  12.6s  NW    2kn (g6) ESE glassy\nMon 10:00     9.5   2.2m 12.6s  NW    2k
- n (g6) ESE glassy\nMon 11:00     9.5   2.2m 12.6s  NW    2kn (g6)  SE glas
- sy\nMon 12:00     8.5   2.2m 12.7s  NW    2kn (g6) SSE glassy\nMon 13:00  
-    8.5   2.1m 12.7s  NW    2kn (g9)   S glassy\nMon 14:00     8.5   2.1m 1
- 2.8s  NW    3kn (g9) SSW glassy\nMon 15:00       8   2.1m 12.8s  NW    3kn
-  (g9) SSW glassy\nMon 16:00       8   2.1m 12.8s  NW    3kn (g5)  SW glass
- y\nMon 17:00       8   2.0m 12.8s  NW    2kn (g5) SSW glassy\n\nGenerated 
- 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ n (g7) ESE glassy\nMon 11:00     9.5   2.2m 12.6s  NW    2kn (g7) ESE glas
+ sy\nMon 12:00     9.5   2.2m 12.7s  NW    1kn (g7) ESE glassy\nMon 13:00  
+    8.5   2.2m 12.7s  NW    1kn (g7)   S glassy\nMon 14:00     8.5   2.1m 1
+ 2.8s  NW    2kn (g7) SSW glassy\nMon 15:00       8   2.1m 12.8s  NW    3kn
+  (g7)  SW glassy\nMon 16:00       8   2.1m 12.8s  NW    2kn (g4)  SW glass
+ y\nMon 17:00       8   2.1m 12.8s  NW    2kn (g4) WSW glassy\n\nGenerated 
+ 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=figueira-cabedelo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
  o
@@ -124,21 +116,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fce0ca70df1fc814@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Figueira da Foz (Cabedelo) 9.5/10 · 1.7m 12s WNW · 4kn SE
+SUMMARY:🔥 Figueira da Foz (Cabedelo) 9.5/10 · 1.7m 12s WNW · 2kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.5 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.7m 12.2s WNW    4kn (g11)  SE glassy\nTue 09:00     9.5   1.7m
-  12.3s WNW    5kn (g11)  SE glassy\nTue 10:00     8.5   1.7m 12.3s WNW    
- 6kn (g16)  SE cross\nTue 11:00     8.5   1.7m 12.4s WNW    6kn (g16)  SE c
- ross\nTue 12:00     8.5   1.7m 12.4s WNW    7kn (g16)  SE cross\nTue 13:00
-      8.5   1.7m 12.4s WNW    7kn (g15)  SE cross\nTue 14:00     8.5   1.7m
-  12.3s WNW    7kn (g15) SSE cross\nTue 15:00     8.5   1.8m 12.2s WNW    6
- kn (g15) SSE cross\nTue 16:00     8.5   1.8m 12.2s   W    6kn (g13) SSE cr
- oss\nTue 17:00     8.5   1.7m 12.1s   W    6kn (g13)  SE cross\n\nGenerate
- d 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
+     9.5   1.7m 12.3s WNW    2kn (g5) ESE glassy\nTue 09:00     9.5   1.7m 
+ 12.4s WNW    2kn (g5) ESE glassy\nTue 10:00     9.5   1.7m 12.4s WNW    3k
+ n (g12)  SE glassy\nTue 11:00     8.5   1.7m 12.4s WNW    4kn (g12) SSE gl
+ assy\nTue 12:00     8.5   1.7m 12.4s WNW    5kn (g12) SSE cross\nTue 13:00
+      8.5   1.7m 12.4s WNW    6kn (g13) SSE cross\nTue 14:00     8.5   1.7m
+  12.3s WNW    6kn (g13) SSE cross\nTue 15:00     8.5   1.7m 12.2s WNW    6
+ kn (g13) SSE cross\nTue 16:00     8.5   1.7m 12.2s   W    5kn (g7) SSE gla
+ ssy\nTue 17:00     8.5   1.7m 12.1s   W    4kn (g7) SSE glassy\n\nGenerate
+ d 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
  s.github.io/surf-calendar-plugin/#spot=figueira-cabedelo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
  o
@@ -147,21 +139,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b1aee35ddba0a3ad@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
 SUMMARY:🔥 Figueira da Foz (Cabedelo) 8.5/10 · 1.8m 12s W · 5kn SSE
 DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
      8.5   1.8m 11.6s   W    5kn (g12) SSE cross\nWed 09:00     8.5   1.8m 
- 11.5s   W    5kn (g12) SSE cross\nWed 10:00     8.5   1.8m 11.4s   W    6k
- n (g14) SSE cross\nWed 11:00     8.5   1.9m 11.4s WNW    6kn (g14) SSE cro
- ss\nWed 12:00     8.5   1.9m 11.4s WNW    6kn (g14) SSE cross\nWed 13:00  
-    8.5   1.9m 11.3s WNW    6kn (g12) SSE cross\nWed 14:00     8.5   1.9m 1
+ 11.6s   W    5kn (g12) SSE cross\nWed 10:00     8.5   1.8m 11.5s   W    6k
+ n (g14) SSE cross\nWed 11:00     8.5   1.8m 11.4s WNW    6kn (g14) SSE cro
+ ss\nWed 12:00     8.5   1.8m 11.4s WNW    6kn (g14) SSE cross\nWed 13:00  
+    8.5   1.8m 11.4s WNW    6kn (g12) SSE cross\nWed 14:00     8.5   1.9m 1
  1.3s WNW    5kn (g12) SSE cross\nWed 15:00     8.5   1.9m 11.3s WNW    5kn
-  (g12)   S cross\nWed 16:00     8.5   1.9m 11.3s WNW    5kn (g10)   S glas
- sy\nWed 17:00     8.5   1.9m 11.3s WNW    5kn (g10)   S glassy\n\nGenerate
- d 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+  (g12)   S cross\nWed 16:00     8.5   1.9m 11.4s WNW    5kn (g10)   S glas
+ sy\nWed 17:00     8.5   1.9m 11.4s WNW    5kn (g10)   S glassy\n\nGenerate
+ d 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
  s.github.io/surf-calendar-plugin/#spot=figueira-cabedelo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
  o
@@ -170,21 +162,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6633f5bd1bf5f8a7@surf-windows
-DTSTAMP:20261126T160000Z
+DTSTAMP:20261127T010000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Figueira da Foz (Cabedelo) 9.5/10 · 2.0m 12s NW · 1kn SE
+SUMMARY:🔥 Figueira da Foz (Cabedelo) 9.5/10 · 1.9m 11s NW · 1kn SE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.9 to 2.1 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
-     9.5   2.0m 11.8s  NW    1kn (g3)  SE glassy\nThu 09:00     9.5   2.0m 
- 11.8s  NW    1kn (g3)  SE glassy\nThu 10:00     8.5   2.0m 11.8s  NW    1k
- n (g5) SSE glassy\nThu 11:00     8.5   1.9m 11.8s  NW    1kn (g5)   S glas
- sy\nThu 12:00       8   1.9m 11.8s  NW    2kn (g5)  SW glassy\nThu 13:00  
-      8   1.9m 11.8s  NW    2kn (g10)   W glassy\nThu 14:00       8   1.9m 
- 11.8s  NW    3kn (g10)   W glassy\nThu 15:00       8   1.9m 11.9s  NW    4
- kn (g10) WNW glassy\nThu 16:00       8   1.9m 11.9s  NW    4kn (g4) WNW gl
- assy\nThu 17:00       8   1.8m 11.9s  NW    3kn (g4)  NW glassy\n\nGenerat
- ed 2026-11-26 16:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ ay 1.7 to 2.2 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.9m 11.2s  NW    1kn (g3)  SE glassy\nThu 09:00     9.5   1.9m 
+ 11.2s  NW    1kn (g3)  SE glassy\nThu 10:00     8.5   2.0m 11.2s  NW    1k
+ n (g5) SSE glassy\nThu 11:00     8.5   2.0m 11.3s  NW    1kn (g5)   S glas
+ sy\nThu 12:00       8   2.0m 11.3s  NW    2kn (g5)  SW glassy\nThu 13:00  
+      8   2.0m 11.4s  NW    2kn (g10)   W glassy\nThu 14:00       8   2.0m 
+ 11.5s  NW    3kn (g10)   W glassy\nThu 15:00       8   2.0m 11.6s  NW    4
+ kn (g10) WNW glassy\nThu 16:00       8   1.9m 11.7s  NW    4kn (g4) WNW gl
+ assy\nThu 17:00       8   1.9m 11.8s  NW    3kn (g4)  NW glassy\n\nGenerat
+ ed 2026-11-27 01:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
  as.github.io/surf-calendar-plugin/#spot=figueira-cabedelo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=figueira-cabedel
  o
