@@ -9,5 +9,16 @@
   "summary": "🤏 Wijk aan Zee 5/10 · 0.5m 6s W · 7kn SE",
   "description": "Best 5/10 at 10:00. Forecast confidence: high. 4 wave models say 0.4 to 0.6 m.\n\nHour (local)  score  waves            wind\nTue 10:00       5   0.5m  6.3s   W    7kn (g13)  SE offshore\nTue 11:00       5   0.5m  6.7s   W    6kn (g12)  SE offshore\nTue 12:00       5   0.5m  6.8s   W    7kn (g12)  SE offshore\nTue 13:00       5   0.5m  6.9s   W    7kn (g13) ESE offshore\nTue 14:00       5   0.5m  7.0s   W    8kn (g14) ESE offshore\n\nCheck the webcam before you go: https://www.surfweer.nl/webcams/\nNotes: Picks up more swell than Scheveningen; north pier shelters from N.\nGenerated 2026-11-24 10:00 UTC from Open-Meteo.",
   "conf": "high"
+ },
+ {
+  "uid": "eb20741ebf8618f0@surf-windows",
+  "spot_id": "wijk-aan-zee",
+  "spot_name": "Wijk aan Zee",
+  "start": "2026-12-04T11:00:00+00:00",
+  "end": "2026-12-04T16:00:00+00:00",
+  "best": 5.0,
+  "summary": "🤏 Wijk aan Zee 5/10 · 0.7m 9s NNW · 4kn SW",
+  "description": "Best 5/10 at 12:00. Forecast confidence: low. 3 wave models say 0.4 to 0.9 m.\n\nHour (local)  score  waves            wind\nFri 12:00       5   0.7m  8.9s NNW    4kn (g9)  SW glassy\nFri 13:00       5   0.7m 10.1s NNW    5kn (g9)  SW glassy\nFri 14:00       5   0.7m 10.3s NNW    5kn (g10)  SW glassy\nFri 15:00       5   0.7m 10.2s NNW    5kn (g10)  SW onshore\nFri 16:00       5   0.7m 10.2s NNW    5kn (g10)  SW glassy\n\nCheck the webcam before you go: https://www.surfweer.nl/webcams/\nNotes: Picks up more swell than Scheveningen; north pier shelters from N.\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.",
+  "conf": "low"
  }
 ]

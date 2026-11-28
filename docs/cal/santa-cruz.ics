@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:f6b6ec611472db6f@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Santa Cruz 8/10 · 2.7m 15s NW · 3kn ESE
+SUMMARY:🔥 Santa Cruz 8/10 · 2.9m 15s NW · 3kn ESE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 5 wave models sa
  y 2.3 to 2.9 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
-      8   2.7m 14.8s  NW    3kn (g6) ESE glassy\nSat 09:00       8   2.8m 1
- 4.8s  NW    4kn (g7)  SE glassy\nSat 10:00       8   2.8m 14.8s  NW    4kn
-  (g8)  SE glassy\nSat 11:00       8   2.8m 14.8s  NW    5kn (g9)  SE glass
- y\nSat 12:00       7   2.8m 14.8s  NW    5kn (g10) SSE cross\nSat 13:00   
-     7   2.8m 14.8s  NW    5kn (g10)   S cross\nSat 14:00     6.5   2.8m 14
- .8s  NW    5kn (g10)  SW glassy\nSat 15:00     6.5   2.8m 14.8s  NW    4kn
-  (g9)  SW glassy\nSat 16:00     6.5   2.8m 14.8s  NW    3kn (g8)  SW glass
- y\nSat 17:00       7   2.8m 14.8s  NW    2kn (g6) SSW glassy\n\nGenerated 
- 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+      8   2.9m 14.8s  NW    3kn (g6) ESE glassy\nSat 09:00       8   2.9m 1
+ 4.8s  NW    4kn (g7) ESE glassy\nSat 10:00       8   2.9m 14.8s  NW    4kn
+  (g9)  SE glassy\nSat 11:00       8   2.9m 14.8s  NW    5kn (g10)  SE glas
+ sy\nSat 12:00       7   2.8m 14.8s  NW    5kn (g9) SSE cross\nSat 13:00   
+     7   2.8m 14.8s  NW    5kn (g10)   S cross\nSat 14:00       7   2.8m 14
+ .8s  NW    5kn (g10) SSW glassy\nSat 15:00     6.5   2.8m 14.8s  NW    4kn
+  (g9)  SW glassy\nSat 16:00     6.5   2.8m 14.8s  NW    4kn (g8)  SW glass
+ y\nSat 17:00     6.5   2.8m 14.8s  NW    2kn (g7)  SW glassy\n\nGenerated 
+ 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=santa-cruz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 LOCATION:Santa Cruz
@@ -31,145 +31,168 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a673a4fb4c7e7b7b@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261129T080000Z
-DTEND:20261129T130000Z
-SUMMARY:🔥 Santa Cruz 8/10 · 2.5m 14s NW · 2kn SE
+DTEND:20261129T140000Z
+SUMMARY:🔥 Santa Cruz 8/10 · 2.6m 15s NW · 2kn ESE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 5 wave models sa
- y 2.1 to 2.7 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
-      8   2.5m 13.5s  NW    2kn (g3)  SE glassy\nSun 09:00       8   2.5m 1
- 3.5s  NW    1kn (g3) ESE glassy\nSun 10:00       8   2.5m 13.5s  NW    1kn
-  (g3)  SE glassy\nSun 11:00     6.5   2.5m 13.5s  NW    1kn (g3)   W glass
- y\nSun 12:00     6.5   2.5m 13.5s  NW    4kn (g9)  NW glassy\n\nGenerated 
- 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=santa-cruz
+ y 2.1 to 2.8 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
+      8   2.6m 14.8s  NW    2kn (g4) ESE glassy\nSun 09:00       8   2.5m 1
+ 4.8s  NW    2kn (g4) ESE glassy\nSun 10:00       8   2.6m 14.4s  NW    1kn
+  (g3) ESE glassy\nSun 11:00       7   2.6m 13.9s  NW    2kn (g4) SSW glass
+ y\nSun 12:00     6.5   2.6m 13.5s  NW    4kn (g7)   W glassy\nSun 13:00   
+   6.5   2.6m 13.4s  NW    5kn (g10) WNW onshore\n\nGenerated 2026-11-28 17
+ :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
+ f-calendar-plugin/#spot=santa-cruz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 LOCATION:Santa Cruz
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:25d6f78e79b9e86f@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261129T140000Z
+UID:b6cc9d3553ab54b4@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261129T150000Z
 DTEND:20261129T180000Z
-SUMMARY:👍 Santa Cruz 7/10 · 2.5m 14s NW · 8kn NNE
-DESCRIPTION:Best 7/10 at 16:00. Forecast confidence: high. 5 wave models sa
- y 2.2 to 2.7 m.\n\nHour (local)  score  waves            wind\nSun 14:00  
-    5.5   2.5m 13.5s  NW    9kn (g17)   N cross\nSun 15:00     5.5   2.5m 1
- 3.5s  NW   10kn (g18)   N cross\nSun 16:00       7   2.5m 13.5s  NW    8kn
-  (g18) NNE cross\nSun 17:00       7   2.5m 13.5s  NW    7kn (g14)   N cros
- s\n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: htt
- ps://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
+SUMMARY:👍 Santa Cruz 7/10 · 2.6m 14s NW · 8kn N
+DESCRIPTION:Best 7/10 at 17:00. Forecast confidence: high. 5 wave models sa
+ y 2.2 to 2.8 m.\n\nHour (local)  score  waves            wind\nSun 15:00  
+    5.5   2.7m 13.5s  NW    9kn (g16)   N cross\nSun 16:00     5.5   2.7m 1
+ 3.5s  NW    9kn (g17) NNE cross\nSun 17:00       7   2.6m 13.5s  NW    8kn
+  (g16)   N cross\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-c
+ ruz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 LOCATION:Santa Cruz
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ede5e9de4f39dcdf@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Santa Cruz 10/10 · 2.2m 14s NW · 2kn ESE
-DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: medium. 5 wave models
-  say 2.0 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:0
- 0      10   2.2m 13.5s  NW    2kn (g4) ESE glassy\nMon 09:00      10   2.2
- m 13.5s  NW    2kn (g4) ESE glassy\nMon 10:00      10   2.2m 13.5s  NW    
- 2kn (g4) ESE glassy\nMon 11:00      10   2.2m 13.5s  NW    1kn (g4) ENE gl
- assy\nMon 12:00       9   2.2m 13.5s  NW    2kn (g5)   N glassy\nMon 13:00
-      8.5   2.2m 13.5s  NW    4kn (g7) NNW glassy\nMon 14:00     8.5   2.2m
-  13.5s  NW    4kn (g8) NNW glassy\nMon 15:00     8.5   2.2m 13.5s  NW    5
- kn (g9) NNW glassy\nMon 16:00     8.5   2.1m 13.5s  NW    5kn (g9) NNW gla
- ssy\nMon 17:00       9   2.1m 13.5s  NW    4kn (g9)   N glassy\n\nGenerate
- d 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
- s.github.io/surf-calendar-plugin/#spot=santa-cruz
+SUMMARY:🔥 Santa Cruz 10/10 · 2.3m 14s NW · 2kn ESE
+DESCRIPTION:Best 10/10 at 09:00. Forecast confidence: medium. 5 wave models
+  say 1.9 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 08:0
+ 0       8   2.3m 13.5s  NW    2kn (g4) ESE glassy\nMon 09:00      10   2.3
+ m 13.5s  NW    2kn (g4) ESE glassy\nMon 10:00      10   2.3m 13.5s  NW    
+ 1kn (g3)   E glassy\nMon 11:00       9   2.3m 13.5s  NW    2kn (g4)   N gl
+ assy\nMon 12:00     8.5   2.2m 13.5s  NW    5kn (g9) NNW glassy\nMon 13:00
+      8.5   2.2m 13.5s  NW    5kn (g10) NNW glassy\nMon 14:00     8.5   2.2
+ m 13.5s  NW    5kn (g9) NNW glassy\nMon 15:00     8.5   2.2m 13.5s  NW    
+ 4kn (g9) NNW glassy\nMon 16:00     8.5   2.1m 13.5s  NW    4kn (g7) NNW gl
+ assy\nMon 17:00     8.5   2.1m 13.5s  NW    3kn (g7) NNW glassy\n\nGenerat
+ ed 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=santa-cruz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 LOCATION:Santa Cruz
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:053196cfdb2ec3da@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Santa Cruz 9.5/10 · 1.8m 12s NW · 2kn E
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.8m 11.9s  NW    2kn (g5)   E glassy\nTue 09:00     9.5   1.7m 
- 11.9s  NW    2kn (g5) ESE glassy\nTue 10:00     9.5   1.7m 12.0s  NW    3k
- n (g8) ESE glassy\nTue 11:00     9.5   1.7m 12.1s  NW    4kn (g8) ESE glas
- sy\nTue 12:00     9.5   1.7m 12.2s  NW    4kn (g8) ESE glassy\nTue 13:00  
-    9.5   1.7m 12.2s  NW    5kn (g10) ESE glassy\nTue 14:00     9.5   1.7m 
- 12.3s  NW    5kn (g10) ESE offshore\nTue 15:00     9.5   1.7m 12.3s WNW   
-  5kn (g10) ESE offshore\nTue 16:00     9.5   1.7m 12.3s WNW    5kn (g7) ES
- E glassy\nTue 17:00     9.5   1.7m 12.2s WNW    4kn (g7) ESE glassy\n\nGen
- erated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tut
- ubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
+SUMMARY:🔥 Santa Cruz 9.5/10 · 1.8m 12s NW · 2kn ESE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 5 wave model
+ s say 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:
+ 00     9.5   1.8m 12.3s  NW    2kn (g4) ESE glassy\nTue 09:00     9.5   1.
+ 8m 12.3s  NW    2kn (g4)   E glassy\nTue 10:00     9.5   1.8m 12.3s  NW   
+  2kn (g5)   E glassy\nTue 11:00     9.5   1.8m 12.3s  NW    5kn (g9) ESE g
+ lassy\nTue 12:00     9.5   1.8m 12.3s  NW    5kn (g9) ESE offshore\nTue 13
+ :00     9.5   1.8m 12.3s  NW    4kn (g9) ESE glassy\nTue 14:00     9.5   1
+ .8m 12.3s  NW    4kn (g8) ESE glassy\nTue 15:00     9.5   1.8m 12.3s  NW  
+   3kn (g7) ESE glassy\nTue 16:00     9.5   1.8m 12.3s  NW    4kn (g7) ESE 
+ glassy\nTue 17:00     9.5   1.7m 12.3s  NW    4kn (g7) ESE glassy\n\nGener
+ ated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
+ anas.github.io/surf-calendar-plugin/#spot=santa-cruz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 LOCATION:Santa Cruz
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d4425fcd3d5a8401@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Santa Cruz 9.5/10 · 1.6m 12s WNW · 5kn ESE
-DESCRIPTION:Best 9.5/10 at 14:00. Forecast confidence: low. 4 wave models s
+SUMMARY:🔥 Santa Cruz 9.5/10 · 1.6m 12s WNW · 2kn ESE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
-       9   1.6m 11.3s WNW    3kn (g7)   E glassy\nWed 09:00       9   1.6m 
- 11.5s WNW    4kn (g7)   E glassy\nWed 10:00       9   1.6m 11.7s WNW    4k
- n (g11) ESE glassy\nWed 11:00       9   1.6m 11.9s WNW    5kn (g11) ESE gl
- assy\nWed 12:00       9   1.6m 12.1s WNW    5kn (g11) ESE offshore\nWed 13
- :00       9   1.6m 12.2s WNW    5kn (g9) ESE offshore\nWed 14:00     9.5  
-  1.6m 12.1s WNW    5kn (g9) ESE glassy\nWed 15:00     9.5   1.6m 12.0s WNW
-     4kn (g9) ESE glassy\nWed 16:00     9.5   1.6m 12.0s WNW    3kn (g5) ES
- E glassy\nWed 17:00     9.5   1.6m 11.9s WNW    3kn (g5)   E glassy\n\nGen
- erated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tut
- ubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
+     9.5   1.6m 11.8s WNW    2kn (g5) ESE glassy\nWed 09:00     9.5   1.6m 
+ 12.1s WNW    3kn (g5)   E glassy\nWed 10:00     9.5   1.6m 12.1s WNW    4k
+ n (g10)   E glassy\nWed 11:00     9.5   1.7m 12.1s WNW    5kn (g10)   E gl
+ assy\nWed 12:00     9.5   1.7m 12.1s WNW    6kn (g10)   E offshore\nWed 13
+ :00     9.5   1.7m 12.1s WNW    5kn (g9)   E offshore\nWed 14:00     9.5  
+  1.7m 12.1s WNW    5kn (g9)   E offshore\nWed 15:00     9.5   1.7m 12.0s W
+ NW    5kn (g9) ENE glassy\nWed 16:00     9.5   1.7m 12.0s WNW    4kn (g5) 
+ ENE glassy\nWed 17:00     9.5   1.7m 11.9s WNW    3kn (g5) ENE glassy\n\nG
+ enerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://t
+ utubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 LOCATION:Santa Cruz
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:325f31d34340fc52@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Santa Cruz 9.5/10 · 1.8m 12s WNW · 3kn E
+SUMMARY:🔥 Santa Cruz 9.5/10 · 1.7m 12s WNW · 3kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
-     9.5   1.8m 11.5s WNW    3kn (g6)   E glassy\nThu 09:00     9.5   1.8m 
- 11.5s WNW    3kn (g6)   E glassy\nThu 10:00     9.5   1.8m 11.5s WNW    4k
- n (g10)   E glassy\nThu 11:00     9.5   1.8m 11.5s WNW    4kn (g10)   E gl
- assy\nThu 12:00     9.5   1.9m 11.5s WNW    5kn (g10)   E offshore\nThu 13
- :00     9.5   1.9m 11.5s WNW    5kn (g10)   E offshore\nThu 14:00     9.5 
-   1.9m 11.5s WNW    5kn (g10)   E offshore\nThu 15:00     9.5   1.9m 11.6s
-  WNW    5kn (g10)   E offshore\nThu 16:00     9.5   1.9m 11.8s WNW    4kn 
- (g5)   E glassy\nThu 17:00     9.5   1.9m 12.0s WNW    4kn (g5)   E glassy
- \n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: http
- s://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
+ ay 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.7m 12.1s WNW    3kn (g6)   E glassy\nThu 09:00     9.5   1.7m 
+ 12.1s WNW    3kn (g6)   E glassy\nThu 10:00     9.5   1.7m 12.1s WNW    5k
+ n (g15)   E glassy\nThu 11:00     9.5   1.8m 12.1s WNW    7kn (g15)   E of
+ fshore\nThu 12:00     9.5   1.8m 12.1s WNW    8kn (g15)   E offshore\nThu 
+ 13:00     9.5   1.8m 12.1s WNW    8kn (g14)   E offshore\nThu 14:00     9.
+ 5   1.8m 12.1s WNW    7kn (g14)   E offshore\nThu 15:00     9.5   1.8m 12.
+ 1s WNW    6kn (g14)   E offshore\nThu 16:00     9.5   1.8m 12.1s WNW    5k
+ n (g5)   E offshore\nThu 17:00     9.5   1.8m 12.2s  NW    4kn (g5)   E gl
+ assy\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: 
+ https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 LOCATION:Santa Cruz
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50a35a4f64a2a47a@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261204T080000Z
 DTEND:20261204T180000Z
-SUMMARY:🔥 Santa Cruz 9/10 · 1.5m 12s NW · 3kn ESE
+SUMMARY:🔥 Santa Cruz 9/10 · 1.4m 12s NW · 3kn ESE
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.3 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
-     9   1.5m 11.5s  NW    3kn (g6) ESE glassy\nFri 09:00       9   1.5m 11
- .3s  NW    3kn (g6) ESE glassy\nFri 10:00       9   1.4m 11.2s  NW    4kn 
- (g10) ESE glassy\nFri 11:00       9   1.4m 11.2s  NW    4kn (g10) ESE glas
- sy\nFri 12:00       9   1.4m 11.2s  NW    5kn (g10) ESE glassy\nFri 13:00 
-       9   1.4m 11.2s  NW    4kn (g7) ESE glassy\nFri 14:00       9   1.3m 
- 11.2s  NW    4kn (g7) ESE glassy\nFri 15:00       9   1.3m 11.2s  NW    3k
- n (g7)   E glassy\nFri 16:00       9   1.3m 11.2s  NW    3kn (g4)   E glas
- sy\nFri 17:00       9   1.2m 11.2s  NW    3kn (g4)   E glassy\n\nGenerated
-  2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
- .github.io/surf-calendar-plugin/#spot=santa-cruz
+  1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     9   1.4m 11.5s  NW    3kn (g6) ESE glassy\nFri 09:00       9   1.4m 11
+ .3s  NW    3kn (g6)   E glassy\nFri 10:00       9   1.4m 11.2s  NW    4kn 
+ (g10)   E glassy\nFri 11:00       9   1.4m 11.2s WNW    4kn (g10)   E glas
+ sy\nFri 12:00       9   1.4m 11.2s WNW    5kn (g10)   E glassy\nFri 13:00 
+       9   1.3m 11.2s WNW    5kn (g9)   E offshore\nFri 14:00       9   1.3
+ m 11.2s WNW    5kn (g9)   E glassy\nFri 15:00       9   1.2m 11.2s WNW    
+ 5kn (g9)   E glassy\nFri 16:00       9   1.2m 11.2s WNW    4kn (g5)   E gl
+ assy\nFri 17:00       8   1.2m 11.2s WNW    3kn (g5)   E glassy\n\nGenerat
+ ed 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=santa-cruz
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
+LOCATION:Santa Cruz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:71cedd91e556888a@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261205T080000Z
+DTEND:20261205T180000Z
+SUMMARY:🔥 Santa Cruz 9.5/10 · 1.2m 15s WNW · 8kn E
+DESCRIPTION:Best 9.5/10 at 14:00. Forecast confidence: low. 4 wave models s
+ ay 1.1 to 1.6 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
+     8.5   1.0m 13.9s WNW    5kn (g10)   E glassy\nSat 09:00     8.5   1.0m
+  14.3s WNW    5kn (g10)   E offshore\nSat 10:00     8.5   1.1m 14.7s WNW  
+   7kn (g17) ESE offshore\nSat 11:00     8.5   1.1m 15.1s WNW    8kn (g17) 
+ ESE offshore\nSat 12:00     8.5   1.1m 15.3s WNW    9kn (g17) ESE offshore
+ \nSat 13:00     8.5   1.2m 15.4s WNW    9kn (g15)   E offshore\nSat 14:00 
+     9.5   1.2m 15.3s WNW    8kn (g15)   E offshore\nSat 15:00     9.5   1.
+ 2m 15.1s WNW    8kn (g15)   E offshore\nSat 16:00     9.5   1.3m 15.0s WNW
+     7kn (g9)   E offshore\nSat 17:00     9.5   1.3m 14.8s WNW    5kn (g9) 
+   E offshore\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=santa-cruz
 LOCATION:Santa Cruz
 TRANSP:TRANSPARENT

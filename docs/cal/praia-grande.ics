@@ -9,101 +9,101 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:6f082ff7d762899c@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 Praia Grande (Sintra) 8/10 · 2.6m 15s NW · 5kn SE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 4 wave models sa
- y 2.4 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
-      8   2.6m 14.8s  NW    5kn (g15)  SE offshore\nSat 09:00       8   2.7
- m 14.8s  NW    5kn (g15)  SE offshore\nSat 10:00       7   2.7m 14.8s  NW 
-    5kn (g15)  SE cross\nSat 11:00       7   2.7m 14.8s  NW    5kn (g15) SS
- E cross\nSat 12:00       7   2.8m 14.8s  NW    5kn (g14) SSE cross\nSat 13
- :00       7   2.8m 14.8s  NW    6kn (g13)   S cross\nSat 14:00       7   2
- .8m 14.8s  NW    6kn (g14)   S cross\nSat 15:00       7   2.8m 14.8s  NW  
-   4kn (g13)   S glassy\nSat 16:00       7   2.8m 14.8s  NW    4kn (g10)   
- S glassy\nSat 17:00       7   2.8m 14.8s  NW    4kn (g9)   S glassy\n\nGen
- erated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tut
- ubanas.github.io/surf-calendar-plugin/#spot=praia-grande
+ y 2.4 to 2.9 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
+      8   2.6m 14.8s  NW    5kn (g15)  SE glassy\nSat 09:00       8   2.7m 
+ 14.8s  NW    5kn (g14)  SE offshore\nSat 10:00       8   2.7m 14.8s  NW   
+  5kn (g15)  SE offshore\nSat 11:00       7   2.8m 14.8s  NW    5kn (g15) S
+ SE cross\nSat 12:00       7   2.8m 14.8s  NW    5kn (g14) SSE cross\nSat 1
+ 3:00       7   2.8m 14.8s  NW    6kn (g13)   S cross\nSat 14:00       7   
+ 2.8m 14.8s  NW    5kn (g13)   S cross\nSat 15:00       7   2.8m 14.8s  NW 
+    5kn (g12)   S glassy\nSat 16:00       7   2.8m 14.8s  NW    4kn (g12)  
+  S glassy\nSat 17:00       7   2.8m 14.8s  NW    3kn (g10) SSE glassy\n\nG
+ enerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://t
+ utubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 LOCATION:Praia Grande (Sintra)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3b68553f6fc416ec@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261129T080000Z
-DTEND:20261129T140000Z
-SUMMARY:🔥 Praia Grande (Sintra) 8/10 · 2.4m 13s NW · 2kn SE
+DTEND:20261129T150000Z
+SUMMARY:🔥 Praia Grande (Sintra) 8/10 · 2.6m 15s NW · 3kn ESE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 4 wave models sa
- y 2.2 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
-      8   2.4m 13.5s  NW    2kn (g5)  SE glassy\nSun 09:00       8   2.4m 1
- 3.5s  NW    2kn (g5)  SE glassy\nSun 10:00       8   2.4m 13.5s  NW    2kn
-  (g4)  SE glassy\nSun 11:00       7   2.4m 13.5s  NW    1kn (g4) SSW glass
- y\nSun 12:00     6.5   2.3m 13.5s  NW    2kn (g6) WSW glassy\nSun 13:00   
-   6.5   2.4m 13.5s  NW    4kn (g11) WNW glassy\n\nGenerated 2026-11-28 07:
- 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
- -calendar-plugin/#spot=praia-grande
+ y 2.2 to 2.7 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
+      8   2.6m 14.9s  NW    3kn (g6) ESE glassy\nSun 09:00       8   2.5m 1
+ 4.8s  NW    3kn (g6) ESE glassy\nSun 10:00       7   2.5m 14.0s  NW    2kn
+  (g5) SSE glassy\nSun 11:00       7   2.5m 13.7s  NW    2kn (g5) SSW glass
+ y\nSun 12:00     6.5   2.5m 13.5s  NW    3kn (g6) WSW glassy\nSun 13:00   
+   6.5   2.5m 13.4s  NW    4kn (g8)   W glassy\nSun 14:00     6.5   2.5m 13
+ .5s  NW    5kn (g11) WNW glassy\n\nGenerated 2026-11-28 17:00 UTC from Ope
+ n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
+ n/#spot=praia-grande
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 LOCATION:Praia Grande (Sintra)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:914a5efb2bb87851@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261129T150000Z
+UID:a1727b2ae28b629d@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261129T160000Z
 DTEND:20261129T180000Z
-SUMMARY:👍 Praia Grande (Sintra) 7/10 · 2.4m 14s NW · 8kn NNE
-DESCRIPTION:Best 7/10 at 15:00. Forecast confidence: high. 4 wave models sa
- y 2.2 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 15:00  
-      7   2.4m 13.5s  NW    8kn (g16) NNE cross\nSun 16:00     5.5   2.4m 1
- 3.5s  NW    8kn (g17) NNE cross\nSun 17:00     5.5   2.4m 13.5s  NW    9kn
-  (g18)   N cross\n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFul
- l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-g
- rande
+SUMMARY:👍 Praia Grande (Sintra) 7/10 · 2.5m 14s NW · 6kn N
+DESCRIPTION:Best 7/10 at 16:00. Forecast confidence: high. 4 wave models sa
+ y 2.3 to 2.7 m.\n\nHour (local)  score  waves            wind\nSun 16:00  
+      7   2.5m 13.5s  NW    6kn (g16)   N cross\nSun 17:00       7   2.5m 1
+ 3.5s  NW    8kn (g18) NNE cross\n\nGenerated 2026-11-28 17:00 UTC from Ope
+ n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
+ n/#spot=praia-grande
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 LOCATION:Praia Grande (Sintra)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bfc7aacbd5971480@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Praia Grande (Sintra) 10/10 · 2.1m 14s NW · 3kn ENE
+SUMMARY:🔥 Praia Grande (Sintra) 10/10 · 2.2m 14s NW · 3kn ENE
 DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: medium. 4 wave models
-  say 1.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:0
- 0      10   2.1m 13.5s  NW    3kn (g10) ENE glassy\nMon 09:00       9   2.
- 1m 13.5s  NW    2kn (g9) NNE glassy\nMon 10:00       9   2.1m 13.5s  NW   
-  3kn (g9) NNE glassy\nMon 11:00       9   2.1m 13.5s  NW    3kn (g9)   N g
- lassy\nMon 12:00       9   2.1m 13.5s  NW    3kn (g7)   N glassy\nMon 13:0
- 0     8.5   2.1m 13.5s  NW    4kn (g9) NNW glassy\nMon 14:00     8.5   2.1
- m 13.5s  NW    5kn (g12) NNW onshore\nMon 15:00     6.5   2.1m 13.5s  NW  
-   6kn (g13) NNW onshore\nMon 16:00       9   2.0m 13.5s  NW    6kn (g13)  
-  N cross\nMon 17:00       9   2.0m 13.5s  NW    5kn (g12)   N cross\n\nGen
- erated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tut
- ubanas.github.io/surf-calendar-plugin/#spot=praia-grande
+  say 2.0 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 08:0
+ 0      10   2.2m 13.5s  NW    3kn (g10) ENE glassy\nMon 09:00      10   2.
+ 2m 13.5s  NW    2kn (g9) ENE glassy\nMon 10:00       9   2.1m 13.5s  NW   
+  3kn (g10) NNE glassy\nMon 11:00       9   2.1m 13.5s  NW    5kn (g11)   N
+  cross\nMon 12:00       9   2.1m 13.5s  NW    6kn (g14)   N cross\nMon 13:
+ 00       9   2.1m 13.5s  NW    6kn (g14)   N cross\nMon 14:00       9   2.
+ 1m 13.5s  NW    6kn (g13)   N cross\nMon 15:00       9   2.1m 13.5s  NW   
+  6kn (g13)   N cross\nMon 16:00       9   2.0m 13.5s  NW    6kn (g13)   N 
+ cross\nMon 17:00       9   2.0m 13.5s  NW    6kn (g13)   N cross\n\nGenera
+ ted 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuba
+ nas.github.io/surf-calendar-plugin/#spot=praia-grande
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 LOCATION:Praia Grande (Sintra)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b04379351200cb90@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Praia Grande (Sintra) 9.5/10 · 1.7m 12s NW · 2kn ESE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
- ay 1.4 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.7m 12.3s  NW    2kn (g5) ESE glassy\nTue 09:00     9.5   1.8m 
- 12.3s  NW    2kn (g5) ESE glassy\nTue 10:00     9.5   1.8m 12.3s  NW    2k
- n (g7)  SE glassy\nTue 11:00     9.5   1.8m 12.3s  NW    2kn (g7) ESE glas
- sy\nTue 12:00     9.5   1.8m 12.3s  NW    2kn (g7) ESE glassy\nTue 13:00  
-    9.5   1.8m 12.3s WNW    3kn (g10)  SE glassy\nTue 14:00     9.5   1.8m 
- 12.3s WNW    4kn (g10)  SE glassy\nTue 15:00     9.5   1.8m 12.3s WNW    4
- kn (g10)  SE glassy\nTue 16:00     9.5   1.8m 12.3s WNW    4kn (g9)  SE gl
- assy\nTue 17:00     9.5   1.8m 12.3s WNW    4kn (g9) ESE glassy\n\nGenerat
- ed 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+SUMMARY:🔥 Praia Grande (Sintra) 9.5/10 · 1.8m 12s NW · 3kn E
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 4 wave model
+ s say 1.5 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 08:
+ 00     9.5   1.8m 12.3s  NW    3kn (g6)   E glassy\nTue 09:00     9.5   1.
+ 8m 12.3s  NW    2kn (g6)   E glassy\nTue 10:00     9.5   1.8m 12.3s  NW   
+  2kn (g6) ESE glassy\nTue 11:00     9.5   1.8m 12.3s  NW    3kn (g7) ESE g
+ lassy\nTue 12:00     9.5   1.8m 12.3s  NW    2kn (g7) ESE glassy\nTue 13:0
+ 0     8.5   1.8m 12.3s  NW    1kn (g5) SSE glassy\nTue 14:00     8.5   1.8
+ m 12.3s  NW    2kn (g4) SSW glassy\nTue 15:00     8.5   1.8m 12.3s WNW    
+ 2kn (g4) SSW glassy\nTue 16:00     8.5   1.8m 12.3s WNW    1kn (g4) SSW gl
+ assy\nTue 17:00     9.5   1.8m 12.3s WNW    0kn (g2) ESE glassy\n\nGenerat
+ ed 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
  as.github.io/surf-calendar-plugin/#spot=praia-grande
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 LOCATION:Praia Grande (Sintra)
@@ -111,66 +111,89 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:865191d0afbb4ad9@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Praia Grande (Sintra) 9.5/10 · 1.6m 11s WNW · 4kn E
+SUMMARY:🔥 Praia Grande (Sintra) 9.5/10 · 1.6m 12s WNW · 4kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
- ay 1.3 to 1.7 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
-     9.5   1.6m 11.3s WNW    4kn (g9)   E glassy\nWed 09:00     9.5   1.6m 
- 11.2s WNW    4kn (g9)   E glassy\nWed 10:00     9.5   1.7m 11.3s WNW    4k
- n (g9)   E glassy\nWed 11:00     9.5   1.7m 11.6s WNW    3kn (g9) ESE glas
- sy\nWed 12:00     9.5   1.7m 11.9s WNW    3kn (g9) ESE glassy\nWed 13:00  
-    9.5   1.7m 12.1s WNW    2kn (g7)   E glassy\nWed 14:00     9.5   1.7m 1
- 2.2s WNW    2kn (g7) ENE glassy\nWed 15:00     9.5   1.7m 12.3s WNW    2kn
-  (g7) ENE glassy\nWed 16:00     9.5   1.7m 12.3s WNW    2kn (g6) ENE glass
- y\nWed 17:00     9.5   1.7m 12.3s WNW    2kn (g6)   E glassy\n\nGenerated 
- 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=praia-grande
+ ay 1.4 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
+     9.5   1.6m 11.8s WNW    4kn (g8)   E glassy\nWed 09:00     9.5   1.6m 
+ 11.9s WNW    3kn (g8)   E glassy\nWed 10:00     9.5   1.6m 12.0s WNW    3k
+ n (g12)   E glassy\nWed 11:00     9.5   1.6m 12.2s WNW    3kn (g12) ENE gl
+ assy\nWed 12:00     9.5   1.6m 12.3s WNW    3kn (g12) ENE glassy\nWed 13:0
+ 0     8.5   1.6m 12.3s WNW    3kn (g9)  NE glassy\nWed 14:00     8.5   1.7
+ m 12.3s WNW    4kn (g9)  NE glassy\nWed 15:00     8.5   1.7m 12.3s WNW    
+ 4kn (g9)  NE glassy\nWed 16:00     8.5   1.7m 12.3s WNW    3kn (g10)  NE g
+ lassy\nWed 17:00     9.5   1.7m 12.3s WNW    3kn (g10) ENE glassy\n\nGener
+ ated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
+ anas.github.io/surf-calendar-plugin/#spot=praia-grande
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 LOCATION:Praia Grande (Sintra)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b89249d4d53c11ee@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Praia Grande (Sintra) 9.5/10 · 1.9m 11s WNW · 3kn E
+SUMMARY:🔥 Praia Grande (Sintra) 9.5/10 · 1.7m 12s WNW · 5kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
- ay 1.4 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
-     9.5   1.9m 11.2s WNW    3kn (g10)   E glassy\nThu 09:00     9.5   1.9m
-  11.2s WNW    4kn (g10)   E glassy\nThu 10:00     9.5   1.9m 11.2s WNW    
- 4kn (g12)   E glassy\nThu 11:00     9.5   1.9m 11.2s WNW    4kn (g12)   E 
- glassy\nThu 12:00     9.5   2.0m 11.2s WNW    4kn (g12)   E glassy\nThu 13
- :00     9.5   2.0m 11.1s WNW    5kn (g10)   E glassy\nThu 14:00     9.5   
- 2.0m 11.1s WNW    5kn (g10)   E glassy\nThu 15:00     9.5   2.0m 11.2s WNW
-     4kn (g10)   E glassy\nThu 16:00     9.5   2.0m 11.5s WNW    4kn (g8)  
-  E glassy\nThu 17:00     9.5   2.0m 11.9s WNW    3kn (g8)   E glassy\n\nGe
- nerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
- tubanas.github.io/surf-calendar-plugin/#spot=praia-grande
+ ay 1.5 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.7m 12.0s WNW    5kn (g18)   E glassy\nThu 09:00     9.5   1.7m
+  11.9s WNW    5kn (g18)   E glassy\nThu 10:00     9.5   1.7m 12.0s WNW    
+ 5kn (g16)   E offshore\nThu 11:00     9.5   1.7m 12.2s WNW    5kn (g17)   
+ E offshore\nThu 12:00     9.5   1.7m 12.3s WNW    6kn (g17)   E offshore\n
+ Thu 13:00     9.5   1.7m 12.3s WNW    6kn (g13)   E offshore\nThu 14:00   
+   9.5   1.7m 12.3s WNW    5kn (g13)   E glassy\nThu 15:00     9.5   1.7m 1
+ 2.3s WNW    4kn (g13)   E glassy\nThu 16:00     9.5   1.7m 12.3s WNW    4k
+ n (g8)   E glassy\nThu 17:00     9.5   1.7m 12.3s WNW    3kn (g8)   E glas
+ sy\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: ht
+ tps://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 LOCATION:Praia Grande (Sintra)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:57e7d3a71870aa1f@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261204T080000Z
 DTEND:20261204T180000Z
-SUMMARY:🔥 Praia Grande (Sintra) 9/10 · 1.5m 12s NW · 3kn E
+SUMMARY:🔥 Praia Grande (Sintra) 9/10 · 1.5m 12s WNW · 3kn E
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
-     9   1.5m 11.8s  NW    3kn (g8)   E glassy\nFri 09:00       9   1.5m 11
- .6s  NW    3kn (g8)   E glassy\nFri 10:00       9   1.4m 11.4s  NW    3kn 
- (g10)   E glassy\nFri 11:00       9   1.4m 11.2s WNW    4kn (g10)   E glas
- sy\nFri 12:00       9   1.4m 11.2s WNW    4kn (g10)   E glassy\nFri 13:00 
-       9   1.4m 11.1s WNW    3kn (g8) ESE glassy\nFri 14:00       9   1.4m 
- 11.2s WNW    3kn (g8) ESE glassy\nFri 15:00       9   1.3m 11.2s WNW    3k
- n (g8) ESE glassy\nFri 16:00       9   1.3m 11.2s WNW    2kn (g5) ESE glas
- sy\nFri 17:00       9   1.3m 11.2s WNW    2kn (g5)   E glassy\n\nGenerated
-  2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
+  1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     9   1.5m 12.3s WNW    3kn (g9)   E glassy\nFri 09:00       9   1.4m 12
+ .3s WNW    3kn (g9)   E glassy\nFri 10:00       9   1.4m 12.1s WNW    3kn 
+ (g10)   E glassy\nFri 11:00       9   1.4m 11.8s WNW    4kn (g10)   E glas
+ sy\nFri 12:00       9   1.4m 11.6s WNW    4kn (g10)   E glassy\nFri 13:00 
+       9   1.3m 11.4s WNW    3kn (g7)   E glassy\nFri 14:00       9   1.3m 
+ 11.2s WNW    3kn (g7)   E glassy\nFri 15:00       9   1.3m 11.2s WNW    3k
+ n (g7) ENE glassy\nFri 16:00       9   1.2m 11.1s WNW    3kn (g6) ENE glas
+ sy\nFri 17:00       9   1.2m 11.2s WNW    3kn (g6) ENE glassy\n\nGenerated
+  2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
  .github.io/surf-calendar-plugin/#spot=praia-grande
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
+LOCATION:Praia Grande (Sintra)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab6ce94cb02ff2de@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261205T080000Z
+DTEND:20261205T180000Z
+SUMMARY:🔥 Praia Grande (Sintra) 9.5/10 · 1.2m 15s WNW · 7kn E
+DESCRIPTION:Best 9.5/10 at 12:00. Forecast confidence: low. 3 wave models s
+ ay 1.0 to 1.3 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
+     8.5   1.0m 15.0s WNW    5kn (g14)   E offshore\nSat 09:00     8.5   1.
+ 0m 14.8s WNW    6kn (g14)   E offshore\nSat 10:00     8.5   1.1m 14.8s WNW
+     6kn (g17)   E offshore\nSat 11:00     8.5   1.1m 14.8s WNW    6kn (g17
+ )   E offshore\nSat 12:00     9.5   1.2m 14.8s WNW    7kn (g17)   E offsho
+ re\nSat 13:00     9.5   1.3m 14.8s WNW    7kn (g15)   E offshore\nSat 14:0
+ 0     9.5   1.3m 14.8s WNW    7kn (g15)   E offshore\nSat 15:00     9.5   
+ 1.3m 14.8s WNW    7kn (g15)   E offshore\nSat 16:00     9.5   1.4m 14.8s W
+ NW    6kn (g12)   E offshore\nSat 17:00     9.5   1.4m 14.8s WNW    5kn (g
+ 12)   E glassy\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull 
+ forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-gra
+ nde
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=praia-grande
 LOCATION:Praia Grande (Sintra)
 TRANSP:TRANSPARENT

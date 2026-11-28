@@ -9,22 +9,22 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:b7d53dd6d1360568@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
 SUMMARY:🔥 São Torpes (Sines) 10/10 · 2.0m 15s NW · 5kn E
 DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: high. 5 wave models s
  ay 1.9 to 2.1 m.\n\nHour (local)  score  waves            wind\nSat 07:00 
       10   2.0m 14.8s  NW    5kn (g9)   E offshore\nSat 08:00      10   2.1
- m 14.8s  NW    6kn (g10)   E offshore\nSat 09:00      10   2.1m 14.8s  NW 
-    6kn (g11)   E offshore\nSat 10:00      10   2.1m 14.8s  NW    7kn (g12)
-    E offshore\nSat 11:00      10   2.1m 14.8s  NW    6kn (g12)   E offshor
- e\nSat 12:00      10   2.2m 14.8s  NW    4kn (g10)   E glassy\nSat 13:00  
-     10   2.2m 14.8s  NW    3kn (g8)   E glassy\nSat 14:00      10   2.2m 1
- 4.8s  NW    3kn (g6) ESE glassy\nSat 15:00      10   2.3m 14.8s  NW    1kn
-  (g5)   E glassy\nSat 16:00       9   2.2m 14.8s  NW    2kn (g3) NNW glass
- y\nSat 17:00       9   2.2m 14.8s  NW    2kn (g4) NNW glassy\n\nGenerated 
- 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ m 14.8s  NW    5kn (g10)   E offshore\nSat 09:00      10   2.1m 14.8s  NW 
+    7kn (g11)   E offshore\nSat 10:00      10   2.2m 14.8s  NW    7kn (g12)
+    E offshore\nSat 11:00      10   2.2m 14.8s  NW    6kn (g12)   E offshor
+ e\nSat 12:00      10   2.3m 14.8s  NW    4kn (g10) ESE glassy\nSat 13:00  
+     10   2.3m 14.8s  NW    2kn (g7) ESE glassy\nSat 14:00       9   2.3m 1
+ 4.8s  NW    1kn (g5)  SE glassy\nSat 15:00     8.5   2.3m 14.8s  NW    2kn
+  (g5) WNW glassy\nSat 16:00     8.5   2.2m 14.8s  NW    4kn (g7)  NW glass
+ y\nSat 17:00       9   2.2m 14.8s  NW    4kn (g7) NNW glassy\n\nGenerated 
+ 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=sao-torpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 LOCATION:São Torpes (Sines)
@@ -32,110 +32,110 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:98c72bda38ff2305@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261129T070000Z
 DTEND:20261129T180000Z
 SUMMARY:🔥 São Torpes (Sines) 10/10 · 2.2m 14s NW · 4kn E
 DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: high. 5 wave models s
- ay 2.0 to 2.2 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
-      10   2.2m 13.5s  NW    4kn (g7)   E glassy\nSun 08:00      10   2.1m 
+ ay 2.0 to 2.3 m.\n\nHour (local)  score  waves            wind\nSun 07:00 
+      10   2.2m 13.5s  NW    4kn (g6)   E glassy\nSun 08:00      10   2.1m 
  13.5s  NW    4kn (g7)   E glassy\nSun 09:00      10   2.1m 13.5s  NW    4k
- n (g7)   E glassy\nSun 10:00      10   2.1m 13.5s  NW    4kn (g8)   E glas
- sy\nSun 11:00      10   2.1m 13.5s  NW    4kn (g7)   E glassy\nSun 12:00  
-     10   2.0m 13.5s  NW    2kn (g7)   E glassy\nSun 13:00      10   2.0m 1
- 3.5s  NW    2kn (g5) ENE glassy\nSun 14:00       9   2.0m 13.5s  NW    3kn
-  (g6) NNW glassy\nSun 15:00       9   1.9m 13.5s  NW    7kn (g13) NNW cros
- s\nSun 16:00       9   1.9m 13.5s  NW    5kn (g13) NNW cross\nSun 17:00   
-     9   1.9m 13.5s  NW    4kn (g9) NNW glassy\n\nGenerated 2026-11-28 07:0
- 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
- calendar-plugin/#spot=sao-torpes
+ n (g8)   E glassy\nSun 10:00      10   2.1m 13.5s  NW    4kn (g8)   E glas
+ sy\nSun 11:00      10   2.1m 13.5s  NW    3kn (g7)   E glassy\nSun 12:00  
+     10   2.1m 13.5s  NW    2kn (g6) ESE glassy\nSun 13:00       9   2.0m 1
+ 3.5s  NW    3kn (g5)   N glassy\nSun 14:00       9   2.0m 13.5s  NW    5kn
+  (g9) NNW glassy\nSun 15:00       9   2.0m 13.5s  NW    7kn (g12) NNW cros
+ s\nSun 16:00       9   2.0m 13.5s  NW    6kn (g12) NNW cross\nSun 17:00   
+     9   2.0m 13.5s  NW    4kn (g10) NNW glassy\n\nGenerated 2026-11-28 17:
+ 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
+ -calendar-plugin/#spot=sao-torpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:44d39c4cbb2565b2@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 São Torpes (Sines) 10/10 · 1.9m 13s NW · 4kn NNE
-DESCRIPTION:Best 10/10 at 11:00. Forecast confidence: medium. 5 wave models
-  say 1.6 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 08:0
- 0     9.5   1.9m 12.6s  NW    2kn (g4)  NE glassy\nMon 09:00     9.5   1.9
- m 12.3s  NW    3kn (g5) ENE glassy\nMon 10:00     9.5   1.9m 12.6s  NW    
- 4kn (g8) ENE glassy\nMon 11:00      10   1.9m 13.1s  NW    4kn (g8) NNE gl
- assy\nMon 12:00       9   1.9m 13.1s  NW    3kn (g6) NNE glassy\nMon 13:00
-        9   1.8m 13.0s  NW    3kn (g5)   N glassy\nMon 14:00     8.5   1.8m
-  12.9s  NW    3kn (g6) NNW glassy\nMon 15:00     8.5   1.8m 12.8s  NW    4
- kn (g6)  NW glassy\nMon 16:00     8.5   1.8m 12.8s  NW    4kn (g7) NNW gla
- ssy\nMon 17:00     8.5   1.8m 12.8s  NW    4kn (g7) NNW glassy\n\nGenerate
- d 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
- s.github.io/surf-calendar-plugin/#spot=sao-torpes
+SUMMARY:🔥 São Torpes (Sines) 10/10 · 2.0m 14s NW · 4kn E
+DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: medium. 5 wave models
+  say 1.7 to 2.0 m.\n\nHour (local)  score  waves            wind\nMon 08:0
+ 0      10   2.0m 13.5s  NW    4kn (g6)   E glassy\nMon 09:00      10   2.0
+ m 13.5s  NW    5kn (g9)   E offshore\nMon 10:00      10   2.0m 13.5s  NW  
+   6kn (g12)   E offshore\nMon 11:00      10   2.0m 13.5s  NW    5kn (g11) 
+   E offshore\nMon 12:00      10   1.9m 13.5s  NW    3kn (g9)  NE glassy\nM
+ on 13:00      10   1.9m 13.5s  NW    2kn (g5) ENE glassy\nMon 14:00       
+ 9   1.9m 13.5s  NW    1kn (g4)   N glassy\nMon 15:00       9   1.9m 13.5s 
+  NW    2kn (g4) NNW glassy\nMon 16:00     8.5   1.9m 13.5s  NW    3kn (g5)
+   NW glassy\nMon 17:00     8.5   1.9m 13.5s  NW    4kn (g7)  NW glassy\n\n
+ Generated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://
+ tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9c6e312de56310ea@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 São Torpes (Sines) 9/10 · 1.5m 12s NW · 6kn E
-DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.3 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
-     9   1.5m 12.2s  NW    6kn (g11)   E offshore\nTue 09:00       9   1.5m
-  12.1s  NW    7kn (g11)   E offshore\nTue 10:00       9   1.5m 12.1s  NW  
-   7kn (g13)   E offshore\nTue 11:00       9   1.5m 12.0s WNW    7kn (g13) 
-   E offshore\nTue 12:00       9   1.6m 12.0s WNW    7kn (g13)   E offshore
- \nTue 13:00       9   1.6m 12.0s WNW    6kn (g10)   E offshore\nTue 14:00 
-       9   1.5m 12.1s WNW    6kn (g10)   E offshore\nTue 15:00       9   1.
- 5m 12.1s WNW    6kn (g10)   E offshore\nTue 16:00       9   1.5m 12.2s WNW
-     5kn (g9)   E offshore\nTue 17:00       9   1.5m 12.2s WNW    5kn (g9) 
-   E offshore\n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull fo
- recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
+SUMMARY:🔥 São Torpes (Sines) 9/10 · 1.5m 12s WNW · 7kn E
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: medium. 5 wave models 
+ say 1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nTue 08:00
+        9   1.5m 12.3s WNW    7kn (g12)   E offshore\nTue 09:00       9   1
+ .6m 12.3s WNW    7kn (g12)   E offshore\nTue 10:00       9   1.6m 12.3s WN
+ W    8kn (g14)   E offshore\nTue 11:00       9   1.6m 12.3s WNW    8kn (g1
+ 4)   E offshore\nTue 12:00       9   1.6m 12.3s WNW    7kn (g14)   E offsh
+ ore\nTue 13:00       9   1.6m 12.3s WNW    7kn (g13)   E offshore\nTue 14:
+ 00       9   1.6m 12.3s WNW    6kn (g13)   E offshore\nTue 15:00       9  
+  1.6m 12.3s WNW    5kn (g11)   E glassy\nTue 16:00       9   1.6m 12.3s WN
+ W    4kn (g8)   E glassy\nTue 17:00       9   1.5m 12.3s WNW    4kn (g7)  
+  E glassy\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forec
+ ast: https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7585037c3dd6ed16@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 São Torpes (Sines) 9/10 · 1.4m 11s WNW · 8kn E
+SUMMARY:🔥 São Torpes (Sines) 9/10 · 1.4m 11s WNW · 7kn E
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.3 to 1.5 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
-     9   1.4m 11.1s WNW    8kn (g14)   E offshore\nWed 09:00       9   1.4m
-  11.2s WNW    8kn (g14)   E offshore\nWed 10:00       9   1.4m 11.2s WNW  
-   9kn (g15)   E offshore\nWed 11:00       9   1.4m 11.2s WNW    9kn (g15) 
-   E offshore\nWed 12:00       9   1.4m 11.3s WNW    9kn (g15)   E offshore
- \nWed 13:00       9   1.4m 11.4s WNW    8kn (g13)   E offshore\nWed 14:00 
-       9   1.4m 11.5s WNW    7kn (g13)   E offshore\nWed 15:00       9   1.
- 4m 11.6s WNW    6kn (g13)   E offshore\nWed 16:00       9   1.4m 11.6s WNW
-     6kn (g7)   E offshore\nWed 17:00       9   1.4m 11.6s WNW    5kn (g7) 
- ENE glassy\n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull fore
- cast: https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
+  1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
+     9   1.4m 11.1s WNW    7kn (g12)   E offshore\nWed 09:00       9   1.4m
+  11.2s WNW    7kn (g12)   E offshore\nWed 10:00       9   1.4m 11.2s WNW  
+   7kn (g15)   E offshore\nWed 11:00       9   1.4m 11.2s WNW    8kn (g15) 
+   E offshore\nWed 12:00       9   1.4m 11.3s WNW    8kn (g15)   E offshore
+ \nWed 13:00       9   1.4m 11.4s WNW    7kn (g12) ENE offshore\nWed 14:00 
+       9   1.4m 11.4s WNW    7kn (g12) ENE offshore\nWed 15:00       9   1.
+ 4m 11.6s WNW    7kn (g12) ENE offshore\nWed 16:00       9   1.4m 11.8s WNW
+     6kn (g9) ENE offshore\nWed 17:00       9   1.4m 12.0s WNW    5kn (g9) 
+ ENE offshore\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ec118ef9dba9555f@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 São Torpes (Sines) 9/10 · 1.5m 11s WNW · 5kn E
+SUMMARY:🔥 São Torpes (Sines) 9/10 · 1.5m 11s WNW · 8kn E
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
   1.4 to 1.7 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
-     9   1.5m 11.3s WNW    5kn (g10)   E offshore\nThu 09:00       9   1.5m
-  11.4s WNW    6kn (g10)   E offshore\nThu 10:00       9   1.5m 11.4s WNW  
-   6kn (g13)   E offshore\nThu 11:00       9   1.5m 11.5s WNW    7kn (g13) 
-   E offshore\nThu 12:00       9   1.5m 11.6s WNW    7kn (g13)   E offshore
- \nThu 13:00       9   1.5m 11.6s WNW    7kn (g12)   E offshore\nThu 14:00 
-       9   1.6m 11.7s WNW    6kn (g12)   E offshore\nThu 15:00       9   1.
- 6m 11.8s WNW    6kn (g12)   E offshore\nThu 16:00       9   1.6m 11.8s WNW
-     5kn (g7)   E glassy\nThu 17:00       9   1.6m 11.8s WNW    4kn (g7) EN
- E glassy\n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull foreca
+     9   1.5m 11.3s WNW    8kn (g14)   E offshore\nThu 09:00       9   1.5m
+  11.4s WNW    8kn (g14)   E offshore\nThu 10:00       9   1.5m 11.4s WNW  
+   8kn (g16)   E offshore\nThu 11:00       9   1.5m 11.5s WNW    8kn (g15) 
+   E offshore\nThu 12:00       9   1.5m 11.6s WNW    7kn (g13) ENE offshore
+ \nThu 13:00       9   1.5m 11.7s WNW    6kn (g11) ENE offshore\nThu 14:00 
+       9   1.5m 11.7s WNW    6kn (g11) ENE offshore\nThu 15:00       9   1.
+ 5m 11.8s WNW    5kn (g11) ENE offshore\nThu 16:00       9   1.5m 11.8s WNW
+     5kn (g6) ENE glassy\nThu 17:00       9   1.5m 11.7s WNW    4kn (g6) EN
+ E glassy\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull foreca
  st: https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 LOCATION:São Torpes (Sines)
@@ -143,22 +143,44 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1ae94602202850ec@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261204T080000Z
 DTEND:20261204T180000Z
 SUMMARY:🔥 São Torpes (Sines) 9/10 · 1.4m 12s WNW · 5kn E
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
   1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
-     9   1.4m 12.3s WNW    5kn (g10)   E offshore\nFri 09:00       9   1.4m
-  12.2s WNW    5kn (g10)   E offshore\nFri 10:00       9   1.3m 12.0s WNW  
-   6kn (g11)   E offshore\nFri 11:00       9   1.3m 11.8s WNW    6kn (g11) 
-   E offshore\nFri 12:00       9   1.3m 11.6s WNW    6kn (g11)   E offshore
- \nFri 13:00       9   1.3m 11.4s WNW    5kn (g8)   E glassy\nFri 14:00    
-    9   1.2m 11.4s WNW    4kn (g8)   E glassy\nFri 15:00       9   1.2m 11.
- 4s WNW    3kn (g8)   E glassy\nFri 16:00       9   1.2m 11.4s WNW    3kn (
- g6) ENE glassy\nFri 17:00       8   1.2m 11.4s WNW    3kn (g6) ENE glassy\
- n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https
- ://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
+     9   1.4m 12.2s WNW    5kn (g9)   E glassy\nFri 09:00       9   1.3m 12
+ .2s WNW    5kn (g9)   E glassy\nFri 10:00       9   1.3m 12.2s WNW    5kn 
+ (g9)   E glassy\nFri 11:00       9   1.3m 12.2s WNW    4kn (g9) ESE glassy
+ \nFri 12:00       9   1.3m 12.1s WNW    4kn (g9) ESE glassy\nFri 13:00    
+    8   1.2m 11.9s WNW    2kn (g3) ESE glassy\nFri 14:00       8   1.2m 11.
+ 7s WNW    0kn (g3)   S glassy\nFri 15:00     7.5   1.2m 11.4s WNW    1kn (
+ g3) WNW glassy\nFri 16:00     6.5   1.2m 11.4s WNW    2kn (g4) WNW glassy\
+ nFri 17:00       7   1.1m 11.3s WNW    2kn (g4)  NW glassy\n\nGenerated 20
+ 26-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ thub.io/surf-calendar-plugin/#spot=sao-torpes
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
+LOCATION:São Torpes (Sines)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5d0e207ca839ad31@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261205T080000Z
+DTEND:20261205T180000Z
+SUMMARY:🔥 São Torpes (Sines) 9.5/10 · 1.2m 15s WNW · 4kn ENE
+DESCRIPTION:Best 9.5/10 at 16:00. Forecast confidence: low. 4 wave models s
+ ay 1.0 to 1.3 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
+     8.5   0.9m 13.1s WNW    5kn (g10)   E offshore\nSat 09:00     8.5   1.
+ 0m 13.9s WNW    6kn (g10)   E offshore\nSat 10:00     8.5   1.0m 14.4s WNW
+     6kn (g11)   E offshore\nSat 11:00     8.5   1.0m 14.7s WNW    6kn (g11
+ )   E offshore\nSat 12:00     8.5   1.0m 14.9s WNW    6kn (g11)   E offsho
+ re\nSat 13:00     8.5   1.1m 15.0s WNW    5kn (g9)   E offshore\nSat 14:00
+      8.5   1.1m 15.1s WNW    5kn (g9)   E offshore\nSat 15:00     8.5   1.
+ 1m 15.1s WNW    5kn (g9) ENE glassy\nSat 16:00     9.5   1.2m 15.1s WNW   
+  4kn (g8) ENE glassy\nSat 17:00     9.5   1.2m 15.1s WNW    4kn (g8) ENE g
+ lassy\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast:
+  https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sao-torpes
 LOCATION:São Torpes (Sines)
 TRANSP:TRANSPARENT

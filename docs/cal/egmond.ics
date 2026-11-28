@@ -7,4 +7,22 @@ X-WR-CALNAME:Surf: Egmond aan Zee
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:f878c18f3dad83aa@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261204T110000Z
+DTEND:20261204T160000Z
+SUMMARY:🤏 Egmond aan Zee 5/10 · 0.7m 9s NNW · 4kn W
+DESCRIPTION:Best 5/10 at 12:00. Forecast confidence: low. 3 wave models say
+  0.4 to 0.8 m.\n\nHour (local)  score  waves            wind\nFri 12:00   
+     5   0.7m  8.9s NNW    4kn (g9)   W glassy\nFri 13:00       5   0.7m 10
+ .1s NNW    4kn (g9)   W glassy\nFri 14:00       5   0.7m 10.3s NNW    4kn 
+ (g9)   W glassy\nFri 15:00       5   0.7m 10.2s NNW    4kn (g10)   W glass
+ y\nFri 16:00       5   0.7m 10.2s NNW    4kn (g10) WSW glassy\n\nGenerated
+  2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
+ .github.io/surf-calendar-plugin/#spot=egmond
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=egmond
+LOCATION:Egmond aan Zee
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

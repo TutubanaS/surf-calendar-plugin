@@ -7,24 +7,4 @@ X-WR-CALNAME:Ski: Garmisch-Partenkirchen
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
-BEGIN:VEVENT
-UID:72c9ddf96c94ee17@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261128T080000Z
-DTEND:20261128T130000Z
-SUMMARY:🤏 Garmisch-Partenkirchen 5/10 · 21 cm of snow · sunny · -7°C
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
-  score  new snow  sky           temp   wind\nSat 09:00       5      0 cm  
-  sunny           -7°C    1 km/h (g9)\nSat 10:00       5      0 cm   sunny
-            -5°C    3 km/h (g8)\nSat 11:00       5      0 cm   sunny      
-      -2°C    2 km/h (g9)\nSat 12:00       5      0 cm   sunny           -
- 3°C    2 km/h (g9)\nSat 13:00       5      0 cm   sunny           -3°C  
-   3 km/h (g9)\n\nWeather at 1620 m. Snow depth and new snow are the weathe
- r model's numbers\, not the resort's own snow report.\nNotes: Kandahar Wor
- ld Cup run.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forec
- ast: https://tutubanas.github.io/surf-calendar-plugin/#spot=garmisch
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=garmisch
-LOCATION:Garmisch-Partenkirchen
-TRANSP:TRANSPARENT
-END:VEVENT
 END:VCALENDAR

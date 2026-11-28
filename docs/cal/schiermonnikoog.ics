@@ -7,4 +7,20 @@ X-WR-CALNAME:Surf: Schiermonnikoog
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:03fd473eb4567309@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261204T140000Z
+DTEND:20261204T160000Z
+SUMMARY:🤏 Schiermonnikoog 5/10 · 0.6m 9s NNW · 8kn W
+DESCRIPTION:Best 5/10 at 15:00. Forecast confidence: low. 4 wave models say
+  0.4 to 0.7 m.\n\nHour (local)  score  waves            wind\nFri 15:00   
+     5   0.6m  8.9s NNW    8kn (g10)   W cross\nFri 16:00       5   0.6m  8
+ .9s NNW    8kn (g10)   W cross\n\nGenerated 2026-11-28 17:00 UTC from Open
+ -Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin
+ /#spot=schiermonnikoog
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=schiermonnikoog
+LOCATION:Schiermonnikoog
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

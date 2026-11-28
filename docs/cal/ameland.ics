@@ -9,32 +9,36 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:c73e1a45a3f6adde@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261204T080000Z
-DTEND:20261204T100000Z
-SUMMARY:👍 Ameland (Nes) 6.5/10 · 0.8m 8s NNW · 8kn W
+DTEND:20261204T160000Z
+SUMMARY:👍 Ameland (Nes) 6.5/10 · 0.8m 8s NNW · 5kn W
 DESCRIPTION:Best 6.5/10 at 09:00. Forecast confidence: low. 4 wave models s
- ay 0.5 to 1.1 m.\n\nHour (local)  score  waves            wind\nFri 09:00 
-     6.5   0.8m  8.0s NNW    8kn (g12)   W cross\nFri 10:00     6.5   0.8m 
-  8.0s NNW    8kn (g13)   W cross\n\nGenerated 2026-11-28 07:00 UTC from Op
- en-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plug
- in/#spot=ameland
+ ay 0.6 to 1.0 m.\n\nHour (local)  score  waves            wind\nFri 09:00 
+     6.5   0.8m  8.5s NNW    5kn (g10)   W cross\nFri 10:00     6.5   0.8m 
+  8.9s NNW    6kn (g10)   W cross\nFri 11:00     6.5   0.8m  9.0s NNW    5k
+ n (g10)   W cross\nFri 12:00     6.5   0.8m  8.9s NNW    6kn (g10)   W cro
+ ss\nFri 13:00     6.5   0.8m  8.9s NNW    6kn (g10)   W cross\nFri 14:00  
+    6.5   0.7m  8.9s NNW    6kn (g10)   W cross\nFri 15:00     6.5   0.7m  
+ 8.8s NNW    6kn (g10)   W cross\nFri 16:00     6.5   0.7m  8.8s NNW    6kn
+  (g10) WSW cross\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ameland
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ameland
 LOCATION:Ameland (Nes)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:03f7140e3e5bca94@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261204T120000Z
-DTEND:20261204T160000Z
-SUMMARY:👍 Ameland (Nes) 7/10 · 0.7m 11s NNW · 8kn WSW
-DESCRIPTION:Best 7/10 at 16:00. Forecast confidence: low. 4 wave models say
-  0.5 to 0.9 m.\n\nHour (local)  score  waves            wind\nFri 13:00   
-     5   0.8m  8.0s NNW    8kn (g15) WSW cross\nFri 14:00       5   0.8m  8
- .8s NNW    8kn (g16) WSW cross\nFri 15:00     6.5   0.7m  9.8s NNW    8kn 
- (g16) WSW cross\nFri 16:00       7   0.7m 10.5s NNW    8kn (g16) WSW cross
- \n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: http
+UID:a6f787a9f5245976@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261205T120000Z
+DTEND:20261205T160000Z
+SUMMARY:🤏 Ameland (Nes) 5/10 · 0.6m 10s NW · 10kn WSW
+DESCRIPTION:Best 5/10 at 13:00. Forecast confidence: low. 4 wave models say
+  0.3 to 1.1 m.\n\nHour (local)  score  waves            wind\nSat 13:00   
+     5   0.6m 10.2s  NW   10kn (g20) WSW cross\nSat 14:00       5   0.6m 10
+ .3s  NW   10kn (g20) WSW cross\nSat 15:00       5   0.6m 10.2s  NW   10kn 
+ (g20) WSW cross\nSat 16:00       5   0.6m 10.1s  NW    9kn (g20) WSW cross
+ \n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: http
  s://tutubanas.github.io/surf-calendar-plugin/#spot=ameland
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=ameland
 LOCATION:Ameland (Nes)

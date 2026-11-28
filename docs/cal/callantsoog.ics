@@ -7,4 +7,40 @@ X-WR-CALNAME:Surf: Callantsoog
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:e3ce77a3e69e686f@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261201T110000Z
+DTEND:20261201T150000Z
+SUMMARY:🤏 Callantsoog 5.5/10 · 1.8m 6s SW · 11kn S
+DESCRIPTION:Best 5.5/10 at 12:00. Forecast confidence: medium. 5 wave model
+ s say 1.4 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 12:
+ 00     5.5   1.8m  6.2s  SW   11kn (g24)   S cross\nTue 13:00     5.5   1.
+ 8m  6.3s  SW   12kn (g22)   S cross\nTue 14:00     5.5   1.8m  6.3s  SW   
+ 12kn (g22)   S cross\nTue 15:00     5.5   1.8m  6.3s  SW   10kn (g22) SSE 
+ cross\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast:
+  https://tutubanas.github.io/surf-calendar-plugin/#spot=callantsoog
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=callantsoog
+LOCATION:Callantsoog
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2d967974604854f5@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261204T100000Z
+DTEND:20261204T160000Z
+SUMMARY:🤏 Callantsoog 6/10 · 0.8m 8s NNW · 5kn WNW
+DESCRIPTION:Best 6/10 at 12:00. Forecast confidence: low. 4 wave models say
+  0.6 to 0.9 m.\n\nHour (local)  score  waves            wind\nFri 11:00   
+     5   0.8m  7.4s NNW    5kn (g9) WNW onshore\nFri 12:00       6   0.8m  
+ 8.2s NNW    5kn (g10) WNW onshore\nFri 13:00       6   0.8m  8.7s NNW    5
+ kn (g10) WNW onshore\nFri 14:00       6   0.8m  8.8s NNW    5kn (g10) WNW 
+ onshore\nFri 15:00       6   0.8m  8.8s NNW    5kn (g11)   W glassy\nFri 1
+ 6:00       6   0.8m  8.7s NNW    4kn (g11)   W glassy\n\nGenerated 2026-11
+ -28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
+ io/surf-calendar-plugin/#spot=callantsoog
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=callantsoog
+LOCATION:Callantsoog
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

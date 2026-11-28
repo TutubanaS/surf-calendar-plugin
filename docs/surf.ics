@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:c3107170a6d4d89c@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261124T090000Z
 DTEND:20261124T140000Z
 SUMMARY:🤏 Wijk aan Zee 5/10 · 0.5m 6s W · 7kn SE
@@ -23,6 +23,26 @@ DESCRIPTION:Best 5/10 at 10:00. Forecast confidence: high. 4 wave models sa
  es: Picks up more swell than Scheveningen\; north pier shelters from N.\nG
  enerated 2026-11-24 10:00 UTC from Open-Meteo.\n\nFull forecast: https://t
  utubanas.github.io/surf-calendar-plugin/#spot=wijk-aan-zee
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=wijk-aan-zee
+LOCATION:Wijk aan Zee
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eb20741ebf8618f0@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261204T110000Z
+DTEND:20261204T160000Z
+SUMMARY:🤏 Wijk aan Zee 5/10 · 0.7m 9s NNW · 4kn SW
+DESCRIPTION:Best 5/10 at 12:00. Forecast confidence: low. 3 wave models say
+  0.4 to 0.9 m.\n\nHour (local)  score  waves            wind\nFri 12:00   
+     5   0.7m  8.9s NNW    4kn (g9)  SW glassy\nFri 13:00       5   0.7m 10
+ .1s NNW    5kn (g9)  SW glassy\nFri 14:00       5   0.7m 10.3s NNW    5kn 
+ (g10)  SW glassy\nFri 15:00       5   0.7m 10.2s NNW    5kn (g10)  SW onsh
+ ore\nFri 16:00       5   0.7m 10.2s NNW    5kn (g10)  SW glassy\n\nCheck t
+ he webcam before you go: https://www.surfweer.nl/webcams/\nNotes: Picks up
+  more swell than Scheveningen\; north pier shelters from N.\nGenerated 202
+ 6-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.git
+ hub.io/surf-calendar-plugin/#spot=wijk-aan-zee
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=wijk-aan-zee
 LOCATION:Wijk aan Zee
 TRANSP:TRANSPARENT

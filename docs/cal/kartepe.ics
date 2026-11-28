@@ -8,84 +8,110 @@ X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:8843b88117d38dd3@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261130T060000Z
-DTEND:20261130T080000Z
-SUMMARY:🤏 Kartepe 5.8/10 · 25 cm new snow · snowing · -3°C
-DESCRIPTION:Best 5.8/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
- al)  score  new snow  sky           temp   wind\nMon 09:00     5.8     25 
- cm   snowing         -3°C   16 km/h (g70)\nMon 10:00     5.8     26 cm   
- snowing         -3°C   17 km/h (g69)\n\nWeather at 1600 m. Snow depth and
-  new snow are the weather model's numbers\, not the resort's own snow repo
- rt.\nNotes: Low: rain is never far away.\nGenerated 2026-11-28 07:00 UTC f
- rom Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calenda
- r-plugin/#spot=kartepe
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
-LOCATION:Kartepe
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:db7c6c4fc41f29c7@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261201T060000Z
 DTEND:20261201T130000Z
-SUMMARY:👍 Kartepe 7/10 · 32 cm new snow · snowing · -4°C
-DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nTue 09:00       7     32 cm
-    snowing         -4°C   15 km/h (g59)\nTue 10:00       7     31 cm   sn
- owing         -4°C   15 km/h (g63)\nTue 11:00     6.2     30 cm   snowing
-          -4°C   15 km/h (g63)\nTue 12:00     6.2     30 cm   snowing     
-     -4°C   15 km/h (g63)\nTue 13:00     6.2     29 cm   snowing         -
- 4°C   15 km/h (g58)\nTue 14:00       7     28 cm   snowing         -4°C 
-   15 km/h (g58)\nTue 15:00       7     26 cm   snowing         -4°C   15 
- km/h (g58)\n\nWeather at 1600 m. Snow depth and new snow are the weather m
- odel's numbers\, not the resort's own snow report.\nNotes: Low: rain is ne
- ver far away.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull for
- ecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
+SUMMARY:🤏 Kartepe 6.2/10 · 21 cm new snow · snowing · -5°C
+DESCRIPTION:Best 6.2/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nTue 09:00     6.2     21 
+ cm   snowing         -5°C   17 km/h (g64)\nTue 10:00     6.2     20 cm   
+ snowing         -5°C   17 km/h (g64)\nTue 11:00     5.2     19 cm   snowi
+ ng         -5°C   17 km/h (g64)\nTue 12:00     5.2     19 cm   snowing   
+       -5°C   16 km/h (g63)\nTue 13:00       6     18 cm   snowing        
+  -5°C   15 km/h (g60)\nTue 14:00       6     18 cm   snowing         -5°
+ C   14 km/h (g57)\nTue 15:00       6     17 cm   snowing         -4°C   1
+ 4 km/h (g54)\n\nWeather at 1600 m. Snow depth and new snow are the weather
+  model's numbers\, not the resort's own snow report.\nNotes: Low: rain is 
+ never far away.\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull f
+ orecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
 LOCATION:Kartepe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3944c9e4fd897461@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261202T060000Z
 DTEND:20261202T130000Z
-SUMMARY:👍 Kartepe 7/10 · 20 cm new snow · snowing · -4°C
+SUMMARY:👍 Kartepe 7/10 · 25 cm new snow · snowing · -4°C
 DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nWed 09:00       7     20 cm   
- snowing         -4°C    9 km/h (g36)\nWed 10:00       7     20 cm   snowi
- ng         -4°C    9 km/h (g40)\nWed 11:00       6     20 cm   snowing   
-       -3°C    9 km/h (g40)\nWed 12:00       6     19 cm   snowing        
-  -3°C   10 km/h (g40)\nWed 13:00       6     19 cm   snowing         -3°
- C   10 km/h (g46)\nWed 14:00       6     19 cm   snowing         -3°C   1
- 0 km/h (g46)\nWed 15:00       6     19 cm   snowing         -3°C   11 km/
- h (g46)\n\nWeather at 1600 m. Snow depth and new snow are the weather mode
+ score  new snow  sky           temp   wind\nWed 09:00       7     25 cm   
+ snowing         -4°C   10 km/h (g41)\nWed 10:00       7     25 cm   snowi
+ ng         -4°C   10 km/h (g47)\nWed 11:00       7     25 cm   snowing   
+       -4°C   10 km/h (g47)\nWed 12:00       7     26 cm   snowing        
+  -3°C   11 km/h (g47)\nWed 13:00       7     25 cm   snowing         -3°
+ C   11 km/h (g53)\nWed 14:00       7     25 cm   snowing         -3°C   1
+ 2 km/h (g53)\nWed 15:00       7     25 cm   snowing         -3°C   12 km/
+ h (g53)\n\nWeather at 1600 m. Snow depth and new snow are the weather mode
  l's numbers\, not the resort's own snow report.\nNotes: Low: rain is never
-  far away.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull foreca
+  far away.\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull foreca
  st: https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
 LOCATION:Kartepe
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:7ca381ea24ccc12b@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261203T060000Z
+DTEND:20261203T130000Z
+SUMMARY:👍 Kartepe 7.5/10 · 39 cm new snow · snowing · -1°C
+DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nThu 09:00     7.5     39 cm 
+   snowing         -1°C   10 km/h (g40)\nThu 10:00     7.5     40 cm   sno
+ wing         -1°C   10 km/h (g42)\nThu 11:00     7.5     42 cm   snowing 
+         -1°C   10 km/h (g42)\nThu 12:00     7.5     43 cm   snowing      
+    -1°C   11 km/h (g42)\nThu 13:00     7.5     45 cm   snowing         -1
+ °C   12 km/h (g60)\nThu 14:00     7.5     47 cm   snowing         -1°C  
+  14 km/h (g64)\nThu 15:00     6.8     49 cm   snowing         -1°C   15 k
+ m/h (g67)\n\nWeather at 1600 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Low: rain is nev
+ er far away.\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull fore
+ cast: https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
+LOCATION:Kartepe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:478a1173b749d1d4@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261204T060000Z
 DTEND:20261204T130000Z
-SUMMARY:👍 Kartepe 7.5/10 · 27 cm new snow · snowing · -4°C
-DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nFri 09:00     7.5     27 cm 
-   snowing         -4°C   10 km/h (g48)\nFri 10:00     7.5     25 cm   clo
- udy          -4°C   10 km/h (g46)\nFri 11:00     7.5     23 cm   cloudy  
-         -3°C    9 km/h (g46)\nFri 12:00     7.5     21 cm   cloudy       
-    -3°C   10 km/h (g46)\nFri 13:00     6.5     19 cm   snowing         -3
- °C   10 km/h (g45)\nFri 14:00     6.5     17 cm   snowing         -3°C  
-  11 km/h (g45)\nFri 15:00     6.5     16 cm   snowing         -3°C   12 k
- m/h (g45)\n\nWeather at 1600 m. Snow depth and new snow are the weather mo
+SUMMARY:🔥 Kartepe 8/10 · 36 cm new snow · snowing · -4°C
+DESCRIPTION:Best 8/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nFri 09:00       8     36 cm   
+ snowing         -4°C   10 km/h (g40)\nFri 10:00     7.5     34 cm   cloud
+ y          -4°C   10 km/h (g48)\nFri 11:00     7.5     31 cm   cloudy    
+       -4°C   10 km/h (g48)\nFri 12:00     7.5     29 cm   cloudy         
+  -4°C   11 km/h (g48)\nFri 13:00     7.5     26 cm   snowing         -4°
+ C   12 km/h (g45)\nFri 14:00     7.5     23 cm   snowing         -4°C   1
+ 2 km/h (g45)\nFri 15:00     6.5     20 cm   snowing         -4°C   12 km/
+ h (g45)\n\nWeather at 1600 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Low: rain is never
+  far away.\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull foreca
+ st: https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
+LOCATION:Kartepe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff8e73ee161a883f@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261205T060000Z
+DTEND:20261205T130000Z
+SUMMARY:👍 Kartepe 6.5/10 · 14 cm new snow · snowing · -7°C
+DESCRIPTION:Best 6.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nSat 09:00     6.5     14 cm 
+   snowing         -7°C   10 km/h (g51)\nSat 10:00     6.5     15 cm   sno
+ wing         -7°C   10 km/h (g40)\nSat 11:00     6.5     16 cm   snowing 
+         -6°C   10 km/h (g40)\nSat 12:00     6.5     17 cm   snowing      
+    -6°C   10 km/h (g40)\nSat 13:00     6.5     18 cm   snowing         -6
+ °C   10 km/h (g44)\nSat 14:00     6.5     19 cm   snowing         -6°C  
+  11 km/h (g44)\nSat 15:00     6.5     20 cm   snowing         -6°C   11 k
+ m/h (g44)\n\nWeather at 1600 m. Snow depth and new snow are the weather mo
  del's numbers\, not the resort's own snow report.\nNotes: Low: rain is nev
- er far away.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull fore
+ er far away.\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull fore
  cast: https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kartepe
 LOCATION:Kartepe

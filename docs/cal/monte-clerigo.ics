@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:f67f330eafefd16b@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261128T070000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Monte Clérigo 10/10 · 2.1m 15s NW · 3kn ESE
+SUMMARY:🔥 Monte Clérigo 10/10 · 2.2m 15s NW · 4kn ESE
 DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: high. 5 wave models s
- ay 1.9 to 2.2 m.\n\nHour (local)  score  waves            wind\nSat 07:00 
-      10   2.1m 14.8s  NW    3kn (g6) ESE glassy\nSat 08:00      10   2.2m 
- 14.8s  NW    3kn (g6) ESE glassy\nSat 09:00      10   2.3m 14.8s  NW    3k
- n (g6) ESE glassy\nSat 10:00       8   2.3m 14.8s  NW    1kn (g5) ESE glas
- sy\nSat 11:00     6.5   2.4m 14.8s  NW    2kn (g4)   W glassy\nSat 12:00  
-    6.5   2.5m 14.8s  NW    3kn (g7) WNW glassy\nSat 13:00     6.5   2.5m 1
- 4.8s  NW    4kn (g7) WNW glassy\nSat 14:00     6.5   2.5m 14.8s  NW    3kn
-  (g7) WNW glassy\nSat 15:00     6.5   2.5m 14.8s  NW    3kn (g6) WNW glass
- y\nSat 16:00     6.5   2.5m 14.8s  NW    3kn (g6)  NW glassy\nSat 17:00   
-   6.5   2.5m 14.8s  NW    3kn (g6) NNW glassy\n\nGenerated 2026-11-27 21:0
+ ay 2.0 to 2.3 m.\n\nHour (local)  score  waves            wind\nSat 07:00 
+      10   2.2m 14.8s  NW    4kn (g6) ESE glassy\nSat 08:00      10   2.2m 
+ 14.8s  NW    4kn (g6) ESE glassy\nSat 09:00       8   2.3m 14.8s  NW    3k
+ n (g6) ESE glassy\nSat 10:00       8   2.4m 14.8s  NW    1kn (g5)   E glas
+ sy\nSat 11:00     6.5   2.5m 14.8s  NW    2kn (g4)   W glassy\nSat 12:00  
+    6.5   2.6m 14.8s  NW    3kn (g6)   W glassy\nSat 13:00     6.5   2.6m 1
+ 4.8s  NW    4kn (g7) WNW glassy\nSat 14:00     6.5   2.6m 14.8s  NW    4kn
+  (g7) WNW glassy\nSat 15:00     6.5   2.6m 14.8s  NW    3kn (g7)  NW glass
+ y\nSat 16:00     6.5   2.6m 14.8s  NW    4kn (g7) NNW glassy\nSat 17:00   
+     7   2.6m 14.8s  NW    4kn (g7)   N glassy\n\nGenerated 2026-11-28 17:0
  0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
  calendar-plugin/#spot=monte-clerigo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=monte-clerigo
@@ -32,90 +32,88 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c93b3c25697b0ac0@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261129T070000Z
-DTEND:20261129T180000Z
-SUMMARY:🔥 Monte Clérigo 9/10 · 2.3m 14s NW · 7kn N
-DESCRIPTION:Best 9/10 at 15:00. Forecast confidence: high. 5 wave models sa
- y 2.1 to 2.4 m.\n\nHour (local)  score  waves            wind\nSun 07:00  
-      8   2.4m 13.5s  NW    3kn (g5) ESE glassy\nSun 08:00       8   2.4m 1
- 3.5s  NW    3kn (g5) ENE glassy\nSun 09:00       8   2.4m 13.5s  NW    2kn
-  (g5) ENE glassy\nSun 10:00       7   2.4m 13.5s  NW    3kn (g5) NNE glass
- y\nSun 11:00       7   2.4m 13.5s  NW    4kn (g8) NNE glassy\nSun 12:00   
-     7   2.3m 13.5s  NW    5kn (g10) NNE cross\nSun 13:00       7   2.3m 13
- .5s  NW    6kn (g12) NNE cross\nSun 14:00       7   2.3m 13.5s  NW    7kn 
- (g13) NNE cross\nSun 15:00       9   2.3m 13.5s  NW    7kn (g13)   N cross
- \nSun 16:00     7.5   2.3m 13.5s  NW    8kn (g14)   N cross\nSun 17:00    
-    9   2.3m 13.5s  NW    6kn (g14)   N cross\n\nGenerated 2026-11-27 21:00
-  UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-c
- alendar-plugin/#spot=monte-clerigo
+DTEND:20261129T160000Z
+SUMMARY:🔥 Monte Clérigo 8/10 · 2.5m 15s NW · 3kn E
+DESCRIPTION:Best 8/10 at 07:00. Forecast confidence: high. 5 wave models sa
+ y 2.2 to 2.8 m.\n\nHour (local)  score  waves            wind\nSun 07:00  
+      8   2.5m 14.8s  NW    3kn (g6)   E glassy\nSun 08:00       8   2.5m 1
+ 4.8s  NW    3kn (g6)   E glassy\nSun 09:00       8   2.5m 14.8s  NW    2kn
+  (g5)   E glassy\nSun 10:00       7   2.5m 14.8s  NW    2kn (g4) NNE glass
+ y\nSun 11:00       7   2.4m 14.8s  NW    3kn (g6) NNE glassy\nSun 12:00   
+     7   2.4m 14.8s  NW    4kn (g7) NNE glassy\nSun 13:00       7   2.4m 14
+ .8s  NW    4kn (g8)   N glassy\nSun 14:00       7   2.4m 14.8s  NW    5kn 
+ (g10)   N cross\nSun 15:00       7   2.3m 13.9s  NW    7kn (g12)   N cross
+ \n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: http
+ s://tutubanas.github.io/surf-calendar-plugin/#spot=monte-clerigo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=monte-clerigo
 LOCATION:Monte Clérigo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4198722943a3c423@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261130T070000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Monte Clérigo 10/10 · 2.1m 14s NW · 3kn E
+SUMMARY:🔥 Monte Clérigo 10/10 · 2.3m 14s NW · 3kn E
 DESCRIPTION:Best 10/10 at 07:00. Forecast confidence: medium. 5 wave models
   say 2.0 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 07:0
- 0      10   2.1m 13.6s  NW    3kn (g5)   E glassy\nMon 08:00      10   2.1
- m 13.6s  NW    3kn (g5)   E glassy\nMon 09:00      10   2.1m 13.5s  NW    
- 2kn (g6)   E glassy\nMon 10:00      10   2.1m 13.2s  NW    2kn (g4)   E gl
- assy\nMon 11:00       8   2.1m 12.7s  NW    1kn (g4)  NW glassy\nMon 12:00
-        8   2.0m 12.3s  NW    2kn (g4) WSW glassy\nMon 13:00       8   2.0m
-  12.3s  NW    2kn (g5)  SW glassy\nMon 14:00       8   2.1m 12.3s  NW    4
- kn (g7)   W glassy\nMon 15:00       8   2.1m 12.3s  NW    5kn (g9) WNW gla
- ssy\nMon 16:00       8   2.1m 12.3s  NW    4kn (g9)  NW glassy\nMon 17:00 
-       8   2.1m 12.3s  NW    1kn (g6) NNW glassy\n\nGenerated 2026-11-27 21
- :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
- f-calendar-plugin/#spot=monte-clerigo
+ 0      10   2.3m 13.5s  NW    3kn (g5)   E glassy\nMon 08:00      10   2.2
+ m 13.5s  NW    3kn (g6)   E glassy\nMon 09:00      10   2.2m 13.5s  NW    
+ 3kn (g5) ENE glassy\nMon 10:00      10   2.2m 13.5s  NW    3kn (g6) ENE gl
+ assy\nMon 11:00       9   2.2m 13.5s  NW    4kn (g7)  NE glassy\nMon 12:00
+        9   2.2m 13.5s  NW    4kn (g7) NNE glassy\nMon 13:00       9   2.2m
+  13.5s  NW    5kn (g10)   N cross\nMon 14:00       9   2.2m 13.5s  NW    4
+ kn (g10)   N glassy\nMon 15:00     8.5   2.2m 13.5s  NW    5kn (g9) NNW on
+ shore\nMon 16:00     8.5   2.2m 13.5s  NW    5kn (g10) NNW onshore\nMon 17
+ :00     8.5   2.2m 13.5s  NW    4kn (g9) NNW glassy\n\nGenerated 2026-11-2
+ 8 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io
+ /surf-calendar-plugin/#spot=monte-clerigo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=monte-clerigo
 LOCATION:Monte Clérigo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8bf8bcc21354d78c@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261201T070000Z
 DTEND:20261201T180000Z
 SUMMARY:🔥 Monte Clérigo 9.5/10 · 1.7m 12s NW · 4kn ESE
-DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nTue 07:00 
-     9.5   1.7m 12.4s  NW    4kn (g6) ESE glassy\nTue 08:00     9.5   1.7m 
- 12.4s  NW    4kn (g6) ESE glassy\nTue 09:00     9.5   1.6m 12.3s  NW    3k
- n (g6) ESE glassy\nTue 10:00     9.5   1.6m 12.2s  NW    2kn (g5) ESE glas
- sy\nTue 11:00       8   1.6m 12.2s  NW    1kn (g5) WSW glassy\nTue 12:00  
-      8   1.6m 12.1s  NW    3kn (g5) WNW glassy\nTue 13:00       8   1.6m 1
- 2.1s  NW    4kn (g8) WNW glassy\nTue 14:00       8   1.6m 12.0s  NW    4kn
-  (g8) WNW glassy\nTue 15:00       8   1.6m 12.0s  NW    4kn (g8)  NW glass
- y\nTue 16:00       8   1.6m 12.0s  NW    3kn (g3)  NW glassy\nTue 17:00   
-     8   1.6m 12.1s  NW    2kn (g3) NNW glassy\n\nGenerated 2026-11-27 21:0
- 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
- calendar-plugin/#spot=monte-clerigo
+DESCRIPTION:Best 9.5/10 at 07:00. Forecast confidence: medium. 5 wave model
+ s say 1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 07:
+ 00     9.5   1.7m 12.3s  NW    4kn (g6) ESE glassy\nTue 08:00     9.5   1.
+ 7m 12.3s  NW    4kn (g6) ESE glassy\nTue 09:00     9.5   1.7m 12.3s  NW   
+  3kn (g6) ESE glassy\nTue 10:00     9.5   1.7m 12.3s  NW    2kn (g5) ESE g
+ lassy\nTue 11:00     9.5   1.7m 12.3s  NW    2kn (g4)  SE glassy\nTue 12:0
+ 0     8.5   1.7m 12.3s  NW    2kn (g5) SSW glassy\nTue 13:00       8   1.7
+ m 12.3s  NW    2kn (g5) WSW glassy\nTue 14:00       8   1.7m 12.3s  NW    
+ 4kn (g8) WNW glassy\nTue 15:00       8   1.7m 12.3s  NW    5kn (g10)  NW o
+ nshore\nTue 16:00       8   1.7m 12.3s  NW    5kn (g9) NNW glassy\nTue 17:
+ 00     8.5   1.7m 12.3s  NW    3kn (g8)   N glassy\n\nGenerated 2026-11-28
+  17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/
+ surf-calendar-plugin/#spot=monte-clerigo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=monte-clerigo
 LOCATION:Monte Clérigo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d2044e40fdf71821@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Monte Clérigo 9/10 · 1.6m 12s WNW · 4kn ESE
+SUMMARY:🔥 Monte Clérigo 9/10 · 1.6m 12s NW · 3kn E
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
   1.5 to 1.6 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
-     9   1.6m 11.9s WNW    4kn (g6) ESE glassy\nWed 09:00       9   1.5m 11
- .9s WNW    3kn (g6) ESE glassy\nWed 10:00       9   1.5m 11.8s WNW    2kn 
- (g3) ESE glassy\nWed 11:00       9   1.5m 11.8s WNW    1kn (g3)   E glassy
- \nWed 12:00       8   1.5m 11.8s WNW    0kn (g3) NNE glassy\nWed 13:00    
-  7.5   1.5m 11.9s WNW    2kn (g9)  NW glassy\nWed 14:00     7.5   1.6m 11.
- 9s WNW    4kn (g9)  NW glassy\nWed 15:00     7.5   1.6m 12.0s WNW    5kn (
- g9)  NW glassy\nWed 16:00     7.5   1.6m 12.1s WNW    4kn (g5) WNW glassy\
- nWed 17:00     7.5   1.6m 12.1s WNW    2kn (g4)   W glassy\n\nGenerated 20
- 26-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+     9   1.6m 11.9s  NW    3kn (g6)   E glassy\nWed 09:00       9   1.6m 11
+ .8s  NW    3kn (g6)   E glassy\nWed 10:00       9   1.6m 11.8s  NW    2kn 
+ (g4)   E glassy\nWed 11:00       9   1.6m 11.8s  NW    1kn (g4) ENE glassy
+ \nWed 12:00       8   1.6m 11.8s  NW    1kn (g4)   N glassy\nWed 13:00    
+  7.5   1.6m 11.9s  NW    2kn (g7) NNW glassy\nWed 14:00     7.5   1.6m 11.
+ 9s  NW    4kn (g7) NNW glassy\nWed 15:00     7.5   1.6m 12.1s  NW    4kn (
+ g7) NNW glassy\nWed 16:00     7.5   1.6m 12.1s  NW    4kn (g7) NNW glassy\
+ nWed 17:00       8   1.6m 12.2s  NW    3kn (g7)   N glassy\n\nGenerated 20
+ 26-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
  thub.io/surf-calendar-plugin/#spot=monte-clerigo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=monte-clerigo
 LOCATION:Monte Clérigo
@@ -123,21 +121,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b985c1eb812fc20b@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Monte Clérigo 9.5/10 · 1.6m 12s WNW · 3kn ESE
+SUMMARY:🔥 Monte Clérigo 9.5/10 · 1.6m 12s WNW · 3kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
-     9.5   1.6m 11.6s WNW    3kn (g5) ESE glassy\nThu 09:00     9.5   1.6m 
- 11.7s WNW    3kn (g5) ESE glassy\nThu 10:00     9.5   1.7m 11.8s WNW    3k
- n (g7)  SE glassy\nThu 11:00     8.5   1.7m 11.9s WNW    3kn (g7) SSE glas
- sy\nThu 12:00     8.5   1.7m 12.0s WNW    4kn (g7)   S glassy\nThu 13:00  
-    8.5   1.7m 12.1s WNW    4kn (g5) SSW glassy\nThu 14:00       8   1.7m 1
- 2.1s WNW    3kn (g5)  SW glassy\nThu 15:00       8   1.8m 12.2s WNW    2kn
-  (g5) WSW glassy\nThu 16:00       8   1.8m 12.3s WNW    2kn (g4) WSW glass
- y\nThu 17:00       8   1.8m 12.6s  NW    2kn (g4)   W glassy\n\nGenerated 
- 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ ay 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.6m 11.9s WNW    3kn (g6)   E glassy\nThu 09:00     9.5   1.6m 
+ 11.9s WNW    3kn (g6)   E glassy\nThu 10:00     9.5   1.6m 12.0s WNW    2k
+ n (g3)   E glassy\nThu 11:00     8.5   1.6m 12.1s WNW    1kn (g3)  NE glas
+ sy\nThu 12:00     9.5   1.6m 12.1s WNW    1kn (g3) ESE glassy\nThu 13:00  
+    8.5   1.6m 12.2s WNW    1kn (g5) NNE glassy\nThu 14:00     8.5   1.6m 1
+ 2.4s WNW    2kn (g5)   N glassy\nThu 15:00       8   1.6m 12.4s WNW    3kn
+  (g5) NNW glassy\nThu 16:00       8   1.7m 12.5s WNW    3kn (g6) NNW glass
+ y\nThu 17:00       8   1.7m 12.6s WNW    3kn (g6) NNW glassy\n\nGenerated 
+ 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=monte-clerigo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=monte-clerigo
 LOCATION:Monte Clérigo
@@ -145,22 +143,44 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1df7e0f0a3f6e52a@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261204T080000Z
 DTEND:20261204T180000Z
-SUMMARY:🔥 Monte Clérigo 9/10 · 1.6m 12s NW · 3kn ESE
+SUMMARY:🔥 Monte Clérigo 9/10 · 1.6m 12s NW · 3kn E
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.5 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
-     9   1.6m 12.4s  NW    3kn (g5) ESE glassy\nFri 09:00       9   1.5m 12
- .4s  NW    3kn (g5) ESE glassy\nFri 10:00       9   1.5m 12.3s  NW    2kn 
- (g5)  SE glassy\nFri 11:00       8   1.5m 12.3s  NW    2kn (g5) SSE glassy
- \nFri 12:00       8   1.4m 12.2s  NW    2kn (g5)   S glassy\nFri 13:00    
-    8   1.4m 12.2s  NW    2kn (g4) SSW glassy\nFri 14:00     7.5   1.4m 12.
- 2s  NW    2kn (g4)  SW glassy\nFri 15:00     7.5   1.4m 12.1s  NW    2kn (
- g4) WSW glassy\nFri 16:00     7.5   1.3m 12.1s  NW    2kn (g4)   W glassy\
- nFri 17:00     7.5   1.3m 12.0s  NW    1kn (g4)   W glassy\n\nGenerated 20
- 26-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+  1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     9   1.6m 12.3s  NW    3kn (g6)   E glassy\nFri 09:00       9   1.5m 12
+ .3s  NW    3kn (g6) ESE glassy\nFri 10:00       9   1.5m 12.3s  NW    3kn 
+ (g5) ESE glassy\nFri 11:00       9   1.5m 12.2s WNW    2kn (g5)  SE glassy
+ \nFri 12:00       8   1.5m 12.2s WNW    2kn (g5)   S glassy\nFri 13:00    
+    8   1.4m 11.9s WNW    2kn (g5) SSW glassy\nFri 14:00     7.5   1.4m 11.
+ 7s WNW    2kn (g5) WSW glassy\nFri 15:00     7.5   1.4m 11.5s WNW    3kn (
+ g5)   W glassy\nFri 16:00     7.5   1.4m 11.4s WNW    3kn (g7) WNW glassy\
+ nFri 17:00     7.5   1.3m 11.4s WNW    3kn (g7)  NW glassy\n\nGenerated 20
+ 26-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
  thub.io/surf-calendar-plugin/#spot=monte-clerigo
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=monte-clerigo
+LOCATION:Monte Clérigo
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3cb5cf35332475ed@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261205T080000Z
+DTEND:20261205T180000Z
+SUMMARY:🔥 Monte Clérigo 8.5/10 · 1.0m 14s WNW · 3kn E
+DESCRIPTION:Best 8.5/10 at 09:00. Forecast confidence: low. 4 wave models s
+ ay 0.9 to 1.3 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
+       8   1.0m 12.8s WNW    3kn (g6)   E glassy\nSat 09:00     8.5   1.0m 
+ 13.7s WNW    3kn (g6)   E glassy\nSat 10:00     8.5   1.0m 14.1s WNW    2k
+ n (g4)   E glassy\nSat 11:00     8.5   1.0m 14.3s WNW    2kn (g4)   E glas
+ sy\nSat 12:00     8.5   1.1m 14.5s WNW    2kn (g4) ENE glassy\nSat 13:00  
+    7.5   1.1m 14.7s WNW    2kn (g7) NNE glassy\nSat 14:00     7.5   1.1m 1
+ 4.8s WNW    3kn (g7)   N glassy\nSat 15:00     7.5   1.2m 14.9s WNW    4kn
+  (g7)   N glassy\nSat 16:00     8.5   1.2m 15.0s WNW    4kn (g8)   N glass
+ y\nSat 17:00     8.5   1.3m 15.1s WNW    4kn (g8) NNE glassy\n\nGenerated 
+ 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=monte-clerigo
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=monte-clerigo
 LOCATION:Monte Clérigo
 TRANSP:TRANSPARENT

@@ -9,122 +9,123 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:6a7f826b497ed791@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Foz do Lizandro 8/10 · 2.7m 15s NW · 4kn SE
+SUMMARY:🔥 Foz do Lizandro 8/10 · 2.8m 15s NW · 4kn SE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 5 wave models sa
  y 2.3 to 2.9 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
-      8   2.7m 14.8s  NW    4kn (g8)  SE glassy\nSat 09:00       8   2.8m 1
- 4.8s  NW    5kn (g9)  SE glassy\nSat 10:00       8   2.8m 14.8s  NW    4kn
-  (g9)  SE glassy\nSat 11:00       7   2.8m 14.8s  NW    5kn (g9) SSE cross
- \nSat 12:00       7   2.8m 14.8s  NW    5kn (g10) SSE cross\nSat 13:00    
-    7   2.8m 14.8s  NW    6kn (g10)   S cross\nSat 14:00       7   2.8m 14.
- 8s  NW    5kn (g10) SSW cross\nSat 15:00     6.5   2.8m 14.8s  NW    5kn (
- g10) SSW glassy\nSat 16:00     6.5   2.8m 14.8s  NW    4kn (g9) SSW glassy
- \nSat 17:00       7   2.8m 14.8s  NW    3kn (g7) SSW glassy\n\nGenerated 2
- 026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
- ithub.io/surf-calendar-plugin/#spot=foz-do-lizandro
+      8   2.8m 14.8s  NW    4kn (g8)  SE glassy\nSat 09:00       8   2.8m 1
+ 4.8s  NW    5kn (g8)  SE offshore\nSat 10:00       8   2.9m 14.8s  NW    5
+ kn (g9)  SE glassy\nSat 11:00       7   2.9m 14.8s  NW    5kn (g9)  SE cro
+ ss\nSat 12:00       7   2.9m 14.8s  NW    5kn (g9) SSE glassy\nSat 13:00  
+      7   2.8m 14.8s  NW    5kn (g10)   S cross\nSat 14:00       7   2.8m 1
+ 4.8s  NW    6kn (g10) SSW cross\nSat 15:00     6.5   2.8m 14.8s  NW    5kn
+  (g10) SSW onshore\nSat 16:00       7   2.8m 14.8s  NW    5kn (g10) SSW gl
+ assy\nSat 17:00       7   2.8m 14.8s  NW    3kn (g8)   S glassy\n\nGenerat
+ ed 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 LOCATION:Foz do Lizandro
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cd1636ebf11e32ff@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261129T080000Z
-DTEND:20261129T130000Z
-SUMMARY:🔥 Foz do Lizandro 8/10 · 2.6m 14s NW · 2kn SE
+DTEND:20261129T140000Z
+SUMMARY:🔥 Foz do Lizandro 8/10 · 2.6m 15s NW · 3kn ESE
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 5 wave models sa
- y 2.1 to 2.7 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
-      8   2.6m 13.5s  NW    2kn (g4)  SE glassy\nSun 09:00       8   2.5m 1
- 3.5s  NW    2kn (g4)  SE glassy\nSun 10:00       7   2.5m 13.5s  NW    1kn
-  (g3) SSE glassy\nSun 11:00     6.5   2.5m 13.5s  NW    2kn (g3) WSW glass
- y\nSun 12:00     6.5   2.5m 13.5s  NW    4kn (g7) WNW glassy\n\nGenerated 
- 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=foz-do-lizandro
+ y 2.1 to 2.8 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
+      8   2.6m 14.8s  NW    3kn (g5) ESE glassy\nSun 09:00       8   2.6m 1
+ 3.9s  NW    3kn (g5) ESE glassy\nSun 10:00       7   2.6m 13.8s  NW    1kn
+  (g4)  SE glassy\nSun 11:00     6.5   2.6m 13.8s  NW    2kn (g4) WSW glass
+ y\nSun 12:00     6.5   2.6m 13.5s  NW    4kn (g7)   W glassy\nSun 13:00   
+   6.5   2.6m 13.5s  NW    5kn (g9) WNW glassy\n\nGenerated 2026-11-28 17:0
+ 0 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-
+ calendar-plugin/#spot=foz-do-lizandro
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 LOCATION:Foz do Lizandro
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:309298455b756169@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261129T140000Z
+UID:f9676fb4ec689546@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261129T150000Z
 DTEND:20261129T180000Z
 SUMMARY:👍 Foz do Lizandro 7/10 · 2.6m 14s NW · 7kn NNW
-DESCRIPTION:Best 7/10 at 14:00. Forecast confidence: high. 5 wave models sa
- y 2.3 to 2.7 m.\n\nHour (local)  score  waves            wind\nSun 14:00  
-      7   2.6m 13.5s  NW    7kn (g13) NNW cross\nSun 15:00     5.5   2.6m 1
- 3.5s  NW    8kn (g14)   N cross\nSun 16:00     5.5   2.6m 13.5s  NW    8kn
-  (g14) NNE cross\nSun 17:00     5.5   2.6m 13.5s  NW    8kn (g14)   N cros
- s\n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: htt
- ps://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
+DESCRIPTION:Best 7/10 at 15:00. Forecast confidence: high. 5 wave models sa
+ y 2.2 to 2.8 m.\n\nHour (local)  score  waves            wind\nSun 15:00  
+      7   2.6m 13.5s  NW    7kn (g13) NNW cross\nSun 16:00       7   2.7m 1
+ 3.5s  NW    7kn (g13)   N cross\nSun 17:00       7   2.7m 13.5s  NW    8kn
+  (g13) NNE cross\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-
+ lizandro
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 LOCATION:Foz do Lizandro
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ba83c5682665a6c9@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Foz do Lizandro 10/10 · 2.3m 14s NW · 3kn E
-DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: medium. 5 wave models
-  say 2.0 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:0
- 0      10   2.3m 13.5s  NW    3kn (g4)   E glassy\nMon 09:00       8   2.3
- m 13.5s  NW    2kn (g4) ENE glassy\nMon 10:00       8   2.3m 13.5s  NW    
- 2kn (g4)  NE glassy\nMon 11:00       9   2.3m 13.5s  NW    3kn (g6) NNE gl
- assy\nMon 12:00       9   2.3m 13.5s  NW    3kn (g6)   N glassy\nMon 13:00
-      8.5   2.3m 13.5s  NW    4kn (g7) NNW glassy\nMon 14:00     8.5   2.2m
-  13.5s  NW    5kn (g9) NNW glassy\nMon 15:00     6.5   2.2m 13.5s  NW    6
- kn (g11) NNW onshore\nMon 16:00       9   2.2m 13.5s  NW    6kn (g12) NNW 
- cross\nMon 17:00       9   2.2m 13.5s  NW    5kn (g11)   N glassy\n\nGener
- ated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
- anas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
+SUMMARY:🔥 Foz do Lizandro 9/10 · 2.3m 14s NW · 6kn N
+DESCRIPTION:Best 9/10 at 14:00. Forecast confidence: medium. 5 wave models 
+ say 1.9 to 2.4 m.\n\nHour (local)  score  waves            wind\nMon 08:00
+        8   2.3m 13.5s  NW    3kn (g5)   E glassy\nMon 09:00       8   2.3m
+  13.5s  NW    2kn (g4) ESE glassy\nMon 10:00       7   2.3m 13.5s  NW    2
+ kn (g4)  NE glassy\nMon 11:00       7   2.4m 13.5s  NW    4kn (g8)   N gla
+ ssy\nMon 12:00       7   2.3m 13.5s  NW    6kn (g11)   N cross\nMon 13:00 
+       7   2.3m 13.5s  NW    6kn (g11)   N cross\nMon 14:00       9   2.3m 
+ 13.5s  NW    6kn (g10)   N cross\nMon 15:00       9   2.2m 13.5s  NW    6k
+ n (g11)   N cross\nMon 16:00       9   2.2m 13.5s  NW    5kn (g10)   N cro
+ ss\nMon 17:00       9   2.2m 13.5s  NW    5kn (g10)   N cross\n\nGenerated
+  2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
+ .github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 LOCATION:Foz do Lizandro
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:432e400fe1a65d6a@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
 SUMMARY:🔥 Foz do Lizandro 9.5/10 · 1.8m 12s NW · 2kn ESE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.8m 12.0s  NW    2kn (g4) ESE glassy\nTue 09:00     9.5   1.8m 
- 12.0s  NW    2kn (g4) ESE glassy\nTue 10:00     9.5   1.8m 12.1s  NW    2k
- n (g6) ESE glassy\nTue 11:00     9.5   1.8m 12.1s  NW    2kn (g6) ESE glas
- sy\nTue 12:00     9.5   1.8m 12.2s  NW    3kn (g6) ESE glassy\nTue 13:00  
-    9.5   1.8m 12.2s  NW    4kn (g9) ESE glassy\nTue 14:00     9.5   1.8m 1
- 2.3s  NW    4kn (g9)  SE glassy\nTue 15:00     9.5   1.8m 12.4s WNW    5kn
-  (g9)  SE glassy\nTue 16:00     9.5   1.8m 12.4s WNW    4kn (g8)  SE glass
- y\nTue 17:00     9.5   1.7m 12.3s WNW    4kn (g8) ESE glassy\n\nGenerated 
- 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=foz-do-lizandro
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 5 wave model
+ s say 1.8 to 2.0 m.\n\nHour (local)  score  waves            wind\nTue 08:
+ 00     9.5   1.8m 12.3s  NW    2kn (g4) ESE glassy\nTue 09:00     9.5   1.
+ 9m 12.3s  NW    2kn (g4) ESE glassy\nTue 10:00     9.5   1.9m 12.3s WNW   
+  2kn (g4)   E glassy\nTue 11:00     9.5   1.9m 12.3s WNW    4kn (g7) ESE g
+ lassy\nTue 12:00     9.5   1.9m 12.3s WNW    3kn (g7) ESE glassy\nTue 13:0
+ 0     9.5   1.9m 12.3s WNW    2kn (g6)  SE glassy\nTue 14:00     8.5   1.8
+ m 12.3s WNW    2kn (g4) SSE glassy\nTue 15:00     8.5   1.8m 12.3s WNW    
+ 1kn (g4)   S glassy\nTue 16:00     9.5   1.8m 12.3s WNW    1kn (g3)  SE gl
+ assy\nTue 17:00     9.5   1.8m 12.3s WNW    1kn (g2)   E glassy\n\nGenerat
+ ed 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ as.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 LOCATION:Foz do Lizandro
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6b640256a4e066b5@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Foz do Lizandro 9.5/10 · 1.6m 11s WNW · 3kn E
+SUMMARY:🔥 Foz do Lizandro 9.5/10 · 1.7m 12s WNW · 3kn ESE
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
  ay 1.6 to 1.7 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
-     9.5   1.6m 11.3s WNW    3kn (g6)   E glassy\nWed 09:00       9   1.6m 
- 11.5s WNW    3kn (g6)   E glassy\nWed 10:00     9.5   1.6m 11.8s WNW    3k
- n (g7)   E glassy\nWed 11:00     9.5   1.6m 12.0s WNW    3kn (g7) ESE glas
- sy\nWed 12:00     9.5   1.6m 12.2s WNW    3kn (g7) ESE glassy\nWed 13:00  
-    9.5   1.6m 12.3s WNW    2kn (g4) ESE glassy\nWed 14:00     9.5   1.7m 1
- 2.2s WNW    2kn (g4) ESE glassy\nWed 15:00     9.5   1.7m 12.2s WNW    1kn
-  (g4)   E glassy\nWed 16:00     9.5   1.7m 12.1s WNW    2kn (g4)   E glass
- y\nWed 17:00     9.5   1.7m 12.1s WNW    2kn (g4)   E glassy\n\nGenerated 
- 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+     9.5   1.7m 11.8s WNW    3kn (g5) ESE glassy\nWed 09:00     9.5   1.7m 
+ 12.1s WNW    3kn (g5) ESE glassy\nWed 10:00     9.5   1.7m 12.2s WNW    3k
+ n (g6)   E glassy\nWed 11:00     9.5   1.7m 12.2s WNW    3kn (g6)   E glas
+ sy\nWed 12:00     9.5   1.7m 12.2s WNW    3kn (g6)   E glassy\nWed 13:00  
+    9.5   1.7m 12.2s WNW    4kn (g9) ENE glassy\nWed 14:00     9.5   1.7m 1
+ 2.2s WNW    4kn (g9) ENE glassy\nWed 15:00     9.5   1.7m 12.2s WNW    5kn
+  (g9) ENE glassy\nWed 16:00     9.5   1.7m 12.1s WNW    4kn (g5) ENE glass
+ y\nWed 17:00     9.5   1.8m 12.1s WNW    3kn (g5) ENE glassy\n\nGenerated 
+ 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 LOCATION:Foz do Lizandro
@@ -132,44 +133,67 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5434951757071097@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Foz do Lizandro 9.5/10 · 1.8m 12s WNW · 4kn E
+SUMMARY:🔥 Foz do Lizandro 9.5/10 · 1.7m 12s WNW · 5kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
-     9.5   1.8m 11.6s WNW    4kn (g8)   E glassy\nThu 09:00     9.5   1.8m 
- 11.7s WNW    4kn (g8) ESE glassy\nThu 10:00     9.5   1.8m 11.7s WNW    4k
- n (g8) ESE glassy\nThu 11:00     9.5   1.8m 11.7s WNW    4kn (g8) ESE glas
- sy\nThu 12:00     9.5   1.9m 11.7s WNW    4kn (g8) ESE glassy\nThu 13:00  
-    9.5   1.9m 11.7s WNW    4kn (g9)   E glassy\nThu 14:00     9.5   1.9m 1
- 1.7s WNW    4kn (g9)   E glassy\nThu 15:00     9.5   1.9m 11.7s WNW    5kn
-  (g9) ENE glassy\nThu 16:00     9.5   1.9m 11.9s WNW    4kn (g6) ENE glass
- y\nThu 17:00     9.5   1.9m 12.1s WNW    4kn (g6) ENE glassy\n\nGenerated 
- 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=foz-do-lizandro
+ ay 1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.7m 12.2s WNW    5kn (g11)   E offshore\nThu 09:00     9.5   1.
+ 8m 12.2s WNW    6kn (g11)   E offshore\nThu 10:00     9.5   1.8m 12.2s WNW
+     7kn (g12)   E offshore\nThu 11:00     9.5   1.8m 12.2s WNW    7kn (g13
+ )   E offshore\nThu 12:00     9.5   1.8m 12.2s WNW    7kn (g13)   E offsho
+ re\nThu 13:00     9.5   1.8m 12.2s WNW    6kn (g10)   E offshore\nThu 14:0
+ 0     9.5   1.8m 12.2s WNW    6kn (g10)   E offshore\nThu 15:00     9.5   
+ 1.8m 12.2s WNW    5kn (g10)   E glassy\nThu 16:00     9.5   1.8m 12.2s WNW
+     4kn (g6)   E glassy\nThu 17:00     9.5   1.8m 12.2s  NW    4kn (g6)   
+ E glassy\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull foreca
+ st: https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 LOCATION:Foz do Lizandro
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:536ba969c4a68bec@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261204T080000Z
 DTEND:20261204T180000Z
 SUMMARY:🔥 Foz do Lizandro 9/10 · 1.5m 12s NW · 4kn ESE
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.4 to 1.8 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+  1.4 to 1.6 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
      9   1.5m 11.7s  NW    4kn (g7) ESE glassy\nFri 09:00       9   1.5m 11
- .4s  NW    4kn (g7) ESE glassy\nFri 10:00       9   1.5m 11.3s  NW    4kn 
- (g7) ESE glassy\nFri 11:00       9   1.5m 11.3s  NW    3kn (g7) ESE glassy
- \nFri 12:00       9   1.4m 11.3s  NW    3kn (g7) ESE glassy\nFri 13:00    
-    9   1.4m 11.2s  NW    2kn (g4) ESE glassy\nFri 14:00       9   1.4m 11.
- 2s  NW    2kn (g4) ESE glassy\nFri 15:00       9   1.4m 11.2s  NW    1kn (
- g4) ESE glassy\nFri 16:00       9   1.3m 11.2s  NW    1kn (g3)   E glassy\
- nFri 17:00       9   1.3m 11.2s  NW    2kn (g3) ENE glassy\n\nGenerated 20
- 26-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+ .4s  NW    4kn (g7) ESE glassy\nFri 10:00       9   1.4m 11.3s  NW    3kn 
+ (g6) ESE glassy\nFri 11:00       9   1.4m 11.3s WNW    3kn (g6) ESE glassy
+ \nFri 12:00       9   1.4m 11.3s WNW    3kn (g6)   E glassy\nFri 13:00    
+    9   1.4m 11.2s WNW    3kn (g6)   E glassy\nFri 14:00       9   1.3m 11.
+ 2s WNW    3kn (g6) ENE glassy\nFri 15:00       9   1.3m 11.2s WNW    3kn (
+ g6) ENE glassy\nFri 16:00       9   1.3m 11.2s WNW    3kn (g6) ENE glassy\
+ nFri 17:00       9   1.2m 11.2s WNW    3kn (g6)   E glassy\n\nGenerated 20
+ 26-11-28 17:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
  thub.io/surf-calendar-plugin/#spot=foz-do-lizandro
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
+LOCATION:Foz do Lizandro
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f351f3be0491db3a@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261205T080000Z
+DTEND:20261205T180000Z
+SUMMARY:🔥 Foz do Lizandro 9.5/10 · 1.2m 15s WNW · 9kn E
+DESCRIPTION:Best 9.5/10 at 13:00. Forecast confidence: low. 4 wave models s
+ ay 1.1 to 1.5 m.\n\nHour (local)  score  waves            wind\nSat 08:00 
+     8.5   1.1m 13.9s WNW    6kn (g11)   E offshore\nSat 09:00     8.5   1.
+ 1m 14.3s WNW    6kn (g11)   E offshore\nSat 10:00     8.5   1.1m 14.7s WNW
+     7kn (g16)   E offshore\nSat 11:00     8.5   1.2m 15.1s WNW    8kn (g16
+ ) ESE offshore\nSat 12:00     8.5   1.2m 15.4s WNW    9kn (g16) ESE offsho
+ re\nSat 13:00     9.5   1.2m 15.4s WNW    9kn (g14)   E offshore\nSat 14:0
+ 0     9.5   1.3m 15.3s WNW    8kn (g14)   E offshore\nSat 15:00     9.5   
+ 1.3m 15.2s WNW    8kn (g14)   E offshore\nSat 16:00     9.5   1.4m 15.1s W
+ NW    7kn (g11)   E offshore\nSat 17:00     9.5   1.4m 14.9s WNW    6kn (g
+ 11)   E offshore\n\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFul
+ l forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-
+ lizandro
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=foz-do-lizandro
 LOCATION:Foz do Lizandro
 TRANSP:TRANSPARENT

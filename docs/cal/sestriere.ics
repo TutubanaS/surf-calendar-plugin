@@ -8,36 +8,17 @@ X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:054edad201e3b9e0@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261128T080000Z
-DTEND:20261128T110000Z
-SUMMARY:🤏 Sestriere 5/10 · 17 cm of snow · sunny · -6°C
-DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
-  score  new snow  sky           temp   wind\nSat 09:00       5      0 cm  
-  sunny           -6°C    9 km/h (g26)\nSat 10:00       5      0 cm   sunn
- y           -4°C    2 km/h (g23)\nSat 11:00       5      0 cm   sunny    
-        -2°C    2 km/h (g17)\n\nWeather at 2330 m. Snow depth and new snow
-  are the weather model's numbers\, not the resort's own snow report.\nNote
- s: Via Lattea: big\, sunny and dry.\nGenerated 2026-11-28 07:00 UTC from O
- pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
- gin/#spot=sestriere
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sestriere
-LOCATION:Sestriere
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9dcc22f9e5e8e3c6@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261130T080000Z
-DTEND:20261130T100000Z
-SUMMARY:🤏 Sestriere 5/10 · 24 cm of snow · sunny · -4°C
+UID:4e6648a0dbb358dd@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261201T080000Z
+DTEND:20261201T100000Z
+SUMMARY:🤏 Sestriere 5/10 · 22 cm of snow · sunny · -5°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: medium.\n\nHour (local
- )  score  new snow  sky           temp   wind\nMon 09:00       5      0 cm
-    sunny           -4°C    6 km/h (g16)\nMon 10:00       5      0 cm   su
- nny           -3°C    6 km/h (g16)\n\nWeather at 2330 m. Snow depth and n
+ )  score  new snow  sky           temp   wind\nTue 09:00       5      0 cm
+    sunny           -5°C    6 km/h (g11)\nTue 10:00       5      0 cm   su
+ nny           -4°C    5 km/h (g12)\n\nWeather at 2330 m. Snow depth and n
  ew snow are the weather model's numbers\, not the resort's own snow report
- .\nNotes: Via Lattea: big\, sunny and dry.\nGenerated 2026-11-28 07:00 UTC
+ .\nNotes: Via Lattea: big\, sunny and dry.\nGenerated 2026-11-28 17:00 UTC
   from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calen
  dar-plugin/#spot=sestriere
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sestriere
@@ -45,18 +26,37 @@ LOCATION:Sestriere
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:4e6648a0dbb358dd@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261201T080000Z
-DTEND:20261201T110000Z
-SUMMARY:🤏 Sestriere 5/10 · 23 cm of snow · sunny · -5°C
+UID:931ef67cc734ef9a@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261204T080000Z
+DTEND:20261204T110000Z
+SUMMARY:🤏 Sestriere 5/10 · 18 cm of snow · sunny · -4°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nTue 09:00       5      0 cm   
- sunny           -5°C    7 km/h (g15)\nTue 10:00       5      0 cm   sunny
-            -4°C    6 km/h (g15)\nTue 11:00       5      0 cm   sunny     
-       -3°C    5 km/h (g18)\n\nWeather at 2330 m. Snow depth and new snow 
+ score  new snow  sky           temp   wind\nFri 09:00       5      0 cm   
+ sunny           -4°C    9 km/h (g25)\nFri 10:00       5      0 cm   sunny
+            -4°C    8 km/h (g25)\nFri 11:00       5      0 cm   sunny     
+       -2°C    7 km/h (g17)\n\nWeather at 2330 m. Snow depth and new snow 
  are the weather model's numbers\, not the resort's own snow report.\nNotes
- : Via Lattea: big\, sunny and dry.\nGenerated 2026-11-28 07:00 UTC from Op
+ : Via Lattea: big\, sunny and dry.\nGenerated 2026-11-28 17:00 UTC from Op
+ en-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plug
+ in/#spot=sestriere
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sestriere
+LOCATION:Sestriere
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c0827f9951c2e0b0@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261205T080000Z
+DTEND:20261205T110000Z
+SUMMARY:🤏 Sestriere 5/10 · 17 cm of snow · sunny · -4°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSat 09:00       5      0 cm   
+ sunny           -4°C    8 km/h (g14)\nSat 10:00       5      0 cm   sunny
+            -3°C    8 km/h (g14)\nSat 11:00       5      0 cm   sunny     
+       -2°C    8 km/h (g12)\n\nWeather at 2330 m. Snow depth and new snow 
+ are the weather model's numbers\, not the resort's own snow report.\nNotes
+ : Via Lattea: big\, sunny and dry.\nGenerated 2026-11-28 17:00 UTC from Op
  en-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plug
  in/#spot=sestriere
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=sestriere

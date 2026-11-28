@@ -8,101 +8,83 @@ X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:8021b32fbf2cf677@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261128T080000Z
-DTEND:20261128T150000Z
-SUMMARY:🤏 Cortina d'Ampezzo 5.5/10 · 32 cm of snow · sunny · -9°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
- )  score  new snow  sky           temp   wind\nSat 09:00     5.5      0 cm
-    sunny           -9°C    6 km/h (g10)\nSat 10:00     5.5      0 cm   su
- nny           -8°C    7 km/h (g13)\nSat 11:00     5.5      0 cm   sunny  
-          -7°C    4 km/h (g11)\nSat 12:00     5.5      0 cm   sunny       
-     -6°C    1 km/h (g9)\nSat 13:00     5.5      0 cm   sunny           -5
- °C    1 km/h (g11)\nSat 14:00     5.5      0 cm   sunny           -4°C  
-   2 km/h (g12)\nSat 15:00     5.5      0 cm   sunny           -4°C    1 k
- m/h (g10)\n\nWeather at 2360 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Tofana and Falor
- ia\, big views.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull f
- orecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=cortina
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortina
-LOCATION:Cortina d'Ampezzo
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ce02a4e49739cdaf@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261129T090000Z
-DTEND:20261129T130000Z
-SUMMARY:🤏 Cortina d'Ampezzo 5.5/10 · 31 cm of snow · sunny · -9°C
-DESCRIPTION:Best 5.5/10 at 10:00. Forecast confidence: high.\n\nHour (local
- )  score  new snow  sky           temp   wind\nSun 10:00     5.5      0 cm
-    sunny           -9°C    2 km/h (g2)\nSun 11:00     5.5      0 cm   sun
- ny           -7°C    2 km/h (g1)\nSun 12:00     5.5      0 cm   sunny    
-        -5°C    1 km/h (g2)\nSun 13:00     5.5      0 cm   sunny          
-  -5°C    0 km/h (g5)\n\nWeather at 2360 m. Snow depth and new snow are th
- e weather model's numbers\, not the resort's own snow report.\nNotes: Tofa
- na and Faloria\, big views.\nGenerated 2026-11-28 07:00 UTC from Open-Mete
- o.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spo
- t=cortina
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortina
-LOCATION:Cortina d'Ampezzo
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:18cd0f94d29a4990@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261201T080000Z
-DTEND:20261201T120000Z
-SUMMARY:🤏 Cortina d'Ampezzo 5.5/10 · 30 cm of snow · sunny · -5°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nTue 09:00     5.5      0 cm 
-   sunny           -5°C    6 km/h (g21)\nTue 10:00     5.5      0 cm   sun
- ny           -4°C    5 km/h (g21)\nTue 11:00     5.5      0 cm   sunny   
-         -3°C    4 km/h (g14)\nTue 12:00       5      0 cm   sunny        
-    -2°C    3 km/h (g14)\n\nWeather at 2360 m. Snow depth and new snow are
-  the weather model's numbers\, not the resort's own snow report.\nNotes: T
- ofana and Faloria\, big views.\nGenerated 2026-11-28 07:00 UTC from Open-M
- eteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#
- spot=cortina
+DTEND:20261201T150000Z
+SUMMARY:🤏 Cortina d'Ampezzo 5.5/10 · 31 cm of snow · sunny · -5°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: medium.\n\nHour (loc
+ al)  score  new snow  sky           temp   wind\nTue 09:00     5.5      0 
+ cm   sunny           -5°C    5 km/h (g10)\nTue 10:00     5.5      0 cm   
+ sunny           -4°C    5 km/h (g9)\nTue 11:00     5.5      0 cm   sunny 
+           -3°C    3 km/h (g8)\nTue 12:00       5      0 cm   sunny       
+     -2°C    1 km/h (g5)\nTue 13:00       5      0 cm   sunny           -1
+ °C    2 km/h (g2)\nTue 14:00       5      0 cm   sunny           -1°C   
+  2 km/h (g4)\nTue 15:00       5      0 cm   sunny           -1°C    2 km/
+ h (g6)\n\nWeather at 2360 m. Snow depth and new snow are the weather model
+ 's numbers\, not the resort's own snow report.\nNotes: Tofana and Faloria\
+ , big views.\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull fore
+ cast: https://tutubanas.github.io/surf-calendar-plugin/#spot=cortina
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortina
 LOCATION:Cortina d'Ampezzo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ddfa4068f5353456@surf-windows
-DTSTAMP:20261128T070000Z
-DTSTART:20261203T080000Z
-DTEND:20261203T110000Z
-SUMMARY:🤏 Cortina d'Ampezzo 5/10 · 27 cm of snow · sunny · -5°C
+UID:22cd0ed6f85645d7@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261202T080000Z
+DTEND:20261202T140000Z
+SUMMARY:🤏 Cortina d'Ampezzo 5/10 · 30 cm of snow · sunny · -1°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nThu 09:00       5      0 cm   
- sunny           -5°C    7 km/h (g13)\nThu 10:00       5      0 cm   sunny
-            -4°C    6 km/h (g13)\nThu 11:00       5      0 cm   sunny     
-       -2°C    5 km/h (g8)\n\nWeather at 2360 m. Snow depth and new snow a
- re the weather model's numbers\, not the resort's own snow report.\nNotes:
-  Tofana and Faloria\, big views.\nGenerated 2026-11-28 07:00 UTC from Open
- -Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin
- /#spot=cortina
+ score  new snow  sky           temp   wind\nWed 09:00       5      0 cm   
+ sunny           -1°C    6 km/h (g12)\nWed 10:00       5      0 cm   sunny
+            -1°C    5 km/h (g12)\nWed 11:00       5      0 cm   sunny     
+       -0°C    3 km/h (g6)\nWed 12:00       5      0 cm   sunny           
+  1°C    2 km/h (g6)\nWed 13:00       5      0 cm   sunny            1°C 
+    0 km/h (g6)\nWed 14:00       5      0 cm   sunny            1°C    1 k
+ m/h (g5)\n\nWeather at 2360 m. Snow depth and new snow are the weather mod
+ el's numbers\, not the resort's own snow report.\nNotes: Tofana and Falori
+ a\, big views.\nGenerated 2026-11-28 17:00 UTC from Open-Meteo.\n\nFull fo
+ recast: https://tutubanas.github.io/surf-calendar-plugin/#spot=cortina
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortina
 LOCATION:Cortina d'Ampezzo
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3df61a97ab793b26@surf-windows
-DTSTAMP:20261128T070000Z
+DTSTAMP:20261128T170000Z
 DTSTART:20261204T080000Z
 DTEND:20261204T110000Z
-SUMMARY:🤏 Cortina d'Ampezzo 5/10 · 26 cm of snow · sunny · -5°C
+SUMMARY:🤏 Cortina d'Ampezzo 5/10 · 29 cm of snow · sunny · -5°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nFri 09:00       5      0 cm   
- sunny           -5°C    6 km/h (g14)\nFri 10:00       5      0 cm   sunny
-            -4°C    5 km/h (g14)\nFri 11:00       5      0 cm   sunny     
-       -3°C    4 km/h (g17)\n\nWeather at 2360 m. Snow depth and new snow 
+ sunny           -5°C    3 km/h (g13)\nFri 10:00       5      0 cm   sunny
+            -4°C    3 km/h (g13)\nFri 11:00       5      0 cm   sunny     
+       -3°C    3 km/h (g19)\n\nWeather at 2360 m. Snow depth and new snow 
  are the weather model's numbers\, not the resort's own snow report.\nNotes
- : Tofana and Faloria\, big views.\nGenerated 2026-11-28 07:00 UTC from Ope
+ : Tofana and Faloria\, big views.\nGenerated 2026-11-28 17:00 UTC from Ope
  n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
  n/#spot=cortina
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortina
+LOCATION:Cortina d'Ampezzo
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ec6115d9be0da32e@surf-windows
+DTSTAMP:20261128T170000Z
+DTSTART:20261205T080000Z
+DTEND:20261205T120000Z
+SUMMARY:🤏 Cortina d'Ampezzo 5/10 · 28 cm of snow · sunny · -6°C
+DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nSat 09:00       5      0 cm   
+ sunny           -6°C    7 km/h (g27)\nSat 10:00       5      0 cm   sunny
+            -5°C    6 km/h (g27)\nSat 11:00       5      0 cm   sunny     
+       -4°C    5 km/h (g19)\nSat 12:00       5      0 cm   sunny          
+  -2°C    3 km/h (g19)\n\nWeather at 2360 m. Snow depth and new snow are t
+ he weather model's numbers\, not the resort's own snow report.\nNotes: Tof
+ ana and Faloria\, big views.\nGenerated 2026-11-28 17:00 UTC from Open-Met
+ eo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#sp
+ ot=cortina
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=cortina
 LOCATION:Cortina d'Ampezzo
 TRANSP:TRANSPARENT
