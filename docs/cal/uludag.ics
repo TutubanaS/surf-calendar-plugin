@@ -8,42 +8,46 @@ X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:84f71ea13baba402@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261202T110000Z
-DTEND:20261202T130000Z
-SUMMARY:🤏 Uludağ 5.8/10 · 20 cm new snow · snowing · -7°C
-DESCRIPTION:Best 5.8/10 at 14:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nWed 14:00     5.8     20 cm 
-   snowing         -7°C   25 km/h (g56)\nWed 15:00     5.8     22 cm   sno
- wing         -7°C   25 km/h (g56)\n\nWeather at 2280 m. Snow depth and ne
- w snow are the weather model's numbers\, not the resort's own snow report.
- \nNotes: Closest big resort to Istanbul. Busy at weekends.\nGenerated 2026
- -11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gith
- ub.io/surf-calendar-plugin/#spot=uludag
+UID:010ff93d1cc3573d@surf-windows
+DTSTAMP:20261128T070000Z
+DTSTART:20261203T070000Z
+DTEND:20261203T130000Z
+SUMMARY:🤏 Uludağ 6.2/10 · 25 cm new snow · snowing · -6°C
+DESCRIPTION:Best 6.2/10 at 10:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nThu 10:00     6.2     25 cm 
+   snowing         -6°C   16 km/h (g70)\nThu 11:00     6.2     26 cm   sno
+ wing         -6°C   16 km/h (g70)\nThu 12:00     6.2     27 cm   snowing 
+         -6°C   16 km/h (g70)\nThu 13:00     6.2     28 cm   snowing      
+    -6°C   16 km/h (g62)\nThu 14:00     6.2     28 cm   snowing         -6
+ °C   16 km/h (g62)\nThu 15:00     6.2     29 cm   snowing         -6°C  
+  16 km/h (g62)\n\nWeather at 2280 m. Snow depth and new snow are the weath
+ er model's numbers\, not the resort's own snow report.\nNotes: Closest big
+  resort to Istanbul. Busy at weekends.\nGenerated 2026-11-28 07:00 UTC fro
+ m Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-
+ plugin/#spot=uludag
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=uludag
 LOCATION:Uludağ
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2daa3731f78aec8c@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261203T060000Z
-DTEND:20261203T130000Z
-SUMMARY:👍 Uludağ 7.5/10 · 39 cm new snow · snowing · -8°C
-DESCRIPTION:Best 7.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nThu 09:00     7.5     39 cm 
-   snowing         -8°C   14 km/h (g63)\nThu 10:00     7.5     40 cm   sno
- wing         -7°C   14 km/h (g64)\nThu 11:00     7.5     41 cm   snowing 
-         -7°C   14 km/h (g64)\nThu 12:00     7.5     42 cm   snowing      
-    -7°C   14 km/h (g64)\nThu 13:00     7.5     42 cm   snowing         -7
- °C   14 km/h (g64)\nThu 14:00     7.5     42 cm   snowing         -7°C  
-  14 km/h (g64)\nThu 15:00     7.5     43 cm   snowing         -7°C   14 k
- m/h (g64)\n\nWeather at 2280 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Closest big reso
- rt to Istanbul. Busy at weekends.\nGenerated 2026-11-27 21:00 UTC from Ope
- n-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugi
- n/#spot=uludag
+UID:1a67185c2f9c19cf@surf-windows
+DTSTAMP:20261128T070000Z
+DTSTART:20261204T060000Z
+DTEND:20261204T130000Z
+SUMMARY:👍 Uludağ 7/10 · 21 cm new snow · cloudy · -9°C
+DESCRIPTION:Best 7/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
+ score  new snow  sky           temp   wind\nFri 09:00       7     21 cm   
+ cloudy          -9°C   15 km/h (g56)\nFri 10:00       6     19 cm   cloud
+ y          -8°C   14 km/h (g55)\nFri 11:00       6     18 cm   cloudy    
+       -8°C   15 km/h (g55)\nFri 12:00       6     16 cm   cloudy         
+  -7°C   14 km/h (g55)\nFri 13:00       6     16 cm   cloudy          -7°
+ C   15 km/h (g51)\nFri 14:00       6     14 cm   cloudy          -7°C   1
+ 5 km/h (g51)\nFri 15:00       6     14 cm   cloudy          -7°C   15 km/
+ h (g51)\n\nWeather at 2280 m. Snow depth and new snow are the weather mode
+ l's numbers\, not the resort's own snow report.\nNotes: Closest big resort
+  to Istanbul. Busy at weekends.\nGenerated 2026-11-28 07:00 UTC from Open-
+ Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/
+ #spot=uludag
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=uludag
 LOCATION:Uludağ
 TRANSP:TRANSPARENT

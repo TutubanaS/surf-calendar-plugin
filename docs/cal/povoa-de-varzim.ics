@@ -9,131 +9,131 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:41fe827467786dcb@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:👍 Póvoa de Varzim 7/10 · 2.5m 15s W · 8kn SSE
+SUMMARY:👍 Póvoa de Varzim 7/10 · 2.6m 15s W · 8kn SSE
 DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: high. 4 wave models sa
- y 2.4 to 2.7 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
-      7   2.5m 14.8s   W    8kn (g15) SSE cross\nSat 09:00     5.5   2.5m 1
- 4.8s   W    8kn (g16)   S cross\nSat 10:00     5.5   2.5m 14.8s   W    8kn
-  (g17)   S cross\nSat 11:00     5.5   2.5m 14.8s   W    8kn (g17)   S cros
- s\nSat 12:00     5.5   2.5m 14.8s   W    9kn (g18)   S cross\nSat 13:00   
-   5.5   2.5m 14.8s   W    8kn (g18) SSW cross\nSat 14:00       7   2.5m 14
- .8s   W    7kn (g17) SSW cross\nSat 15:00       7   2.5m 14.8s   W    7kn 
- (g15) SSW cross\nSat 16:00       7   2.5m 14.8s WNW    6kn (g15) SSW cross
- \nSat 17:00       7   2.5m 14.8s WNW    4kn (g13) SSW glassy\n\nGenerated 
- 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
- github.io/surf-calendar-plugin/#spot=povoa-de-varzim
+ y 2.5 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
+      7   2.6m 14.8s   W    8kn (g15) SSE cross\nSat 09:00       7   2.6m 1
+ 4.8s   W    8kn (g15) SSE cross\nSat 10:00       7   2.6m 14.8s   W    8kn
+  (g15) SSE cross\nSat 11:00     5.5   2.6m 14.8s   W    8kn (g16) SSE cros
+ s\nSat 12:00     5.5   2.6m 14.8s   W    8kn (g16)   S cross\nSat 13:00   
+   5.5   2.6m 14.8s   W    9kn (g17)   S cross\nSat 14:00     5.5   2.6m 14
+ .8s   W    8kn (g17)   S cross\nSat 15:00       7   2.6m 14.8s   W    7kn 
+ (g17)   S cross\nSat 16:00     5.5   2.6m 14.8s   W    8kn (g17) SSW cross
+ \nSat 17:00       7   2.6m 14.8s   W    6kn (g16)   S cross\n\nGenerated 2
+ 026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.g
+ ithub.io/surf-calendar-plugin/#spot=povoa-de-varzim
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 LOCATION:Póvoa de Varzim
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ae9ebd4268c051d@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Póvoa de Varzim 10/10 · 2.2m 14s WNW · 2kn NE
-DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: high. 4 wave models s
- ay 2.1 to 2.3 m.\n\nHour (local)  score  waves            wind\nSun 08:00 
-      10   2.2m 13.5s WNW    2kn (g4)  NE glassy\nSun 09:00       9   2.2m 
- 13.5s WNW    2kn (g4)  NE glassy\nSun 10:00       9   2.2m 13.5s WNW    3k
- n (g6) NNW glassy\nSun 11:00       9   2.2m 13.5s WNW    4kn (g9)   N glas
- sy\nSun 12:00       9   2.2m 13.5s WNW    4kn (g10)   N glassy\nSun 13:00 
-     8.5   2.2m 13.5s WNW    4kn (g9)  NW glassy\nSun 14:00     8.5   2.2m 
- 13.5s WNW    5kn (g10)  NW glassy\nSun 15:00     8.5   2.2m 13.5s WNW    4
- kn (g10) NNW glassy\nSun 16:00       9   2.1m 13.3s WNW    3kn (g9) NNW gl
- assy\nSun 17:00     8.5   2.1m 13.2s WNW    2kn (g6) NNW glassy\n\nGenerat
- ed 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
+SUMMARY:🔥 Póvoa de Varzim 9/10 · 2.3m 14s WNW · 5kn NNW
+DESCRIPTION:Best 9/10 at 11:00. Forecast confidence: high. 4 wave models sa
+ y 2.2 to 2.4 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
+      7   2.3m 13.5s WNW    5kn (g12) NNW cross\nSun 09:00       7   2.3m 1
+ 3.5s WNW    5kn (g10) NNW glassy\nSun 10:00     6.5   2.3m 13.5s WNW    5k
+ n (g11) NNW onshore\nSun 11:00       9   2.3m 13.5s WNW    5kn (g12) NNW c
+ ross\nSun 12:00     8.5   2.3m 13.5s WNW    5kn (g11) NNW onshore\nSun 13:
+ 00     8.5   2.3m 13.5s WNW    6kn (g12)  NW onshore\nSun 14:00     8.5   
+ 2.2m 13.5s WNW    6kn (g12)  NW onshore\nSun 15:00     6.5   2.2m 13.5s WN
+ W    6kn (g13)  NW onshore\nSun 16:00     8.5   2.2m 13.5s WNW    5kn (g12
+ ) NNW onshore\nSun 17:00     8.5   2.1m 13.5s WNW    3kn (g10)  NW glassy\
+ n\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https
+ ://tutubanas.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 LOCATION:Póvoa de Varzim
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:11ef1a37e3b0b7c0@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Póvoa de Varzim 9.5/10 · 2.0m 12s WNW · 3kn E
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: medium. 4 wave model
- s say 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 08:
- 00     9.5   2.0m 12.3s WNW    3kn (g6)   E glassy\nMon 09:00     9.5   2.
- 0m 12.3s WNW    2kn (g6)   E glassy\nMon 10:00     9.5   2.0m 12.3s WNW   
-  3kn (g6) ESE glassy\nMon 11:00     9.5   2.0m 12.3s WNW    3kn (g6) ESE g
- lassy\nMon 12:00     8.5   1.9m 12.3s WNW    2kn (g7) SSE glassy\nMon 13:0
- 0       8   1.9m 12.3s WNW    2kn (g6) SSW glassy\nMon 14:00       8   1.9
- m 12.3s WNW    3kn (g7)  SW glassy\nMon 15:00       8   1.9m 12.3s WNW    
- 3kn (g7) WSW glassy\nMon 16:00       8   1.8m 12.3s WNW    2kn (g7) WSW gl
- assy\nMon 17:00       8   1.8m 12.3s WNW    0kn (g4)  SW glassy\n\nGenerat
- ed 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
+SUMMARY:🔥 Póvoa de Varzim 10/10 · 2.1m 13s WNW · 3kn E
+DESCRIPTION:Best 10/10 at 08:00. Forecast confidence: medium. 4 wave models
+  say 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 08:0
+ 0      10   2.1m 13.3s WNW    3kn (g6)   E glassy\nMon 09:00      10   2.0
+ m 13.5s WNW    3kn (g6)   E glassy\nMon 10:00      10   2.0m 13.5s WNW    
+ 3kn (g7) ESE glassy\nMon 11:00       9   2.0m 13.5s WNW    3kn (g8) SSE gl
+ assy\nMon 12:00       9   2.0m 13.5s WNW    4kn (g9)   S glassy\nMon 13:00
+        9   1.9m 13.3s WNW    4kn (g9) SSW glassy\nMon 14:00       9   1.9m
+  13.2s WNW    4kn (g9) SSW glassy\nMon 15:00     8.5   1.9m 13.2s WNW    3
+ kn (g9) SSW glassy\nMon 16:00       9   1.8m 13.1s WNW    2kn (g7) SSW gla
+ ssy\nMon 17:00       9   1.8m 13.0s WNW    1kn (g5) SSW glassy\n\nGenerate
+ d 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ s.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 LOCATION:Póvoa de Varzim
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f46735fe1a4f6036@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T180000Z
-SUMMARY:🔥 Póvoa de Varzim 9.5/10 · 1.7m 12s WNW · 3kn E
+SUMMARY:🔥 Póvoa de Varzim 9.5/10 · 1.8m 12s WNW · 2kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
- ay 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     9.5   1.7m 12.4s WNW    3kn (g8)   E glassy\nTue 09:00     9.5   1.7m 
- 12.4s WNW    4kn (g8)   E glassy\nTue 10:00     9.5   1.7m 12.4s WNW    4k
- n (g9) ESE glassy\nTue 11:00     9.5   1.7m 12.4s WNW    4kn (g9)  SE glas
- sy\nTue 12:00     8.5   1.7m 12.3s WNW    4kn (g9)  SE glassy\nTue 13:00  
-    8.5   1.7m 12.2s WNW    5kn (g10) SSE glassy\nTue 14:00     8.5   1.7m 
- 12.2s WNW    5kn (g10) SSE cross\nTue 15:00     8.5   1.7m 12.1s WNW    5k
- n (g10) SSE cross\nTue 16:00     8.5   1.7m 12.1s WNW    4kn (g4) SSE glas
- sy\nTue 17:00     8.5   1.7m 12.0s WNW    3kn (g4)   S glassy\n\nGenerated
-  2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
- .github.io/surf-calendar-plugin/#spot=povoa-de-varzim
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
-LOCATION:Póvoa de Varzim
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:47941c7a76fe4fdb@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261202T080000Z
-DTEND:20261202T180000Z
-SUMMARY:🔥 Póvoa de Varzim 9.5/10 · 1.8m 12s W · 4kn ESE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
- ay 1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
-     9.5   1.8m 11.6s   W    4kn (g8) ESE glassy\nWed 09:00     9.5   1.8m 
- 11.5s   W    4kn (g8)  SE glassy\nWed 10:00     9.5   1.8m 11.4s   W    4k
- n (g10)  SE glassy\nWed 11:00     8.5   1.8m 11.2s WSW    4kn (g10)  SE gl
- assy\nWed 12:00     8.5   1.8m 11.2s WSW    4kn (g10)  SE glassy\nWed 13:0
- 0     8.5   1.8m 11.2s WSW    4kn (g8) SSE glassy\nWed 14:00     8.5   1.8
- m 11.2s WSW    4kn (g8) SSE glassy\nWed 15:00     8.5   1.8m 11.3s WSW    
- 4kn (g8) SSE glassy\nWed 16:00     8.5   1.8m 11.4s WSW    5kn (g10) SSE c
- ross\nWed 17:00     8.5   1.8m 11.4s WSW    6kn (g12) SSE cross\n\nGenerat
- ed 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
+ ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
+     9.5   1.8m 12.3s WNW    2kn (g5)   E glassy\nTue 09:00     9.5   1.7m 
+ 12.4s WNW    2kn (g5)   E glassy\nTue 10:00     9.5   1.7m 12.4s WNW    3k
+ n (g12)  SE glassy\nTue 11:00     8.5   1.7m 12.3s WNW    4kn (g12) SSE gl
+ assy\nTue 12:00     8.5   1.7m 12.3s WNW    6kn (g12) SSE cross\nTue 13:00
+      8.5   1.7m 12.2s WNW    6kn (g11) SSE cross\nTue 14:00     8.5   1.7m
+  12.2s WNW    5kn (g11)   S cross\nTue 15:00     8.5   1.7m 12.1s WNW    4
+ kn (g11)   S glassy\nTue 16:00     8.5   1.7m 12.0s WNW    4kn (g6)   S gl
+ assy\nTue 17:00     8.5   1.7m 12.0s WNW    3kn (g6)   S glassy\n\nGenerat
+ ed 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
  as.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 LOCATION:Póvoa de Varzim
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:47941c7a76fe4fdb@surf-windows
+DTSTAMP:20261128T070000Z
+DTSTART:20261202T080000Z
+DTEND:20261202T180000Z
+SUMMARY:🔥 Póvoa de Varzim 9.5/10 · 1.6m 11s WNW · 3kn ESE
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
+ ay 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
+     9.5   1.6m 11.3s WNW    3kn (g7) ESE glassy\nWed 09:00     9.5   1.7m 
+ 11.3s WNW    3kn (g7) ESE glassy\nWed 10:00     9.5   1.7m 11.2s WNW    3k
+ n (g9) ESE glassy\nWed 11:00     9.5   1.7m 11.2s   W    3kn (g9)  SE glas
+ sy\nWed 12:00     8.5   1.7m 11.2s   W    4kn (g9)  SE glassy\nWed 13:00  
+    8.5   1.7m 11.4s   W    4kn (g9) SSE glassy\nWed 14:00     8.5   1.7m 1
+ 1.5s   W    4kn (g9)   S glassy\nWed 15:00     8.5   1.7m 11.6s   W    4kn
+  (g9)   S glassy\nWed 16:00     8.5   1.7m 11.6s   W    3kn (g4)   S glass
+ y\nWed 17:00     8.5   1.7m 11.5s   W    2kn (g4) SSE glassy\n\nGenerated 
+ 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=povoa-de-varzim
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
+LOCATION:Póvoa de Varzim
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2690356c2b0c7c68@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Póvoa de Varzim 8.5/10 · 1.8m 12s WNW · 2kn NE
-DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 3 wave models s
- ay 1.8 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
-     8.5   1.8m 11.9s WNW    2kn (g5)  NE glassy\nThu 09:00     8.5   1.8m 
- 12.0s WNW    2kn (g5)  NE glassy\nThu 10:00     8.5   1.8m 12.0s WNW    2k
- n (g6) NNE glassy\nThu 11:00     8.5   1.8m 12.0s WNW    2kn (g6)   N glas
- sy\nThu 12:00     8.5   1.8m 12.0s WNW    2kn (g6) NNW glassy\nThu 13:00  
-    8.5   1.8m 12.2s WNW    3kn (g8) NNW glassy\nThu 14:00     8.5   1.8m 1
- 2.4s WNW    3kn (g8) NNW glassy\nThu 15:00     8.5   1.8m 12.6s WNW    3kn
-  (g8) NNW glassy\nThu 16:00     8.5   1.7m 12.6s WNW    2kn (g3)   N glass
- y\nThu 17:00     8.5   1.7m 12.5s WNW    2kn (g3)   N glassy\n\nGenerated 
- 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+SUMMARY:🔥 Póvoa de Varzim 9.5/10 · 1.7m 12s WNW · 2kn E
+DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 3 wave models s
+ ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.7m 11.5s WNW    2kn (g4)   E glassy\nThu 09:00     9.5   1.7m 
+ 11.6s WNW    2kn (g4)   E glassy\nThu 10:00     9.5   1.7m 11.7s WNW    2k
+ n (g5)   E glassy\nThu 11:00     9.5   1.7m 11.7s WNW    2kn (g5) ESE glas
+ sy\nThu 12:00     9.5   1.7m 11.8s WNW    2kn (g5) ESE glassy\nThu 13:00  
+    9.5   1.6m 11.8s WNW    2kn (g4) ESE glassy\nThu 14:00     9.5   1.6m 1
+ 1.9s WNW    2kn (g4)  SE glassy\nThu 15:00     9.5   1.6m 12.0s WNW    1kn
+  (g4)  SE glassy\nThu 16:00     9.5   1.6m 12.1s WNW    1kn (g1) ESE glass
+ y\nThu 17:00     9.5   1.6m 12.0s WNW    1kn (g1) ENE glassy\n\nGenerated 
+ 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 LOCATION:Póvoa de Varzim
@@ -141,21 +141,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5909ff5aa2e20b1@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261204T080000Z
 DTEND:20261204T180000Z
-SUMMARY:🔥 Póvoa de Varzim 9/10 · 1.3m 12s WNW · 2kn ENE
+SUMMARY:🔥 Póvoa de Varzim 9/10 · 1.3m 11s WNW · 2kn ENE
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.2 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
-     9   1.3m 11.7s WNW    2kn (g6) ENE glassy\nFri 09:00       9   1.3m 11
- .5s WNW    3kn (g6) ENE glassy\nFri 10:00       9   1.3m 11.4s WNW    3kn 
- (g8) ENE glassy\nFri 11:00       9   1.2m 11.4s WNW    3kn (g8)   E glassy
- \nFri 12:00       8   1.2m 11.4s WNW    3kn (g8)   E glassy\nFri 13:00    
-    8   1.2m 11.4s WNW    3kn (g7)   E glassy\nFri 14:00       8   1.2m 11.
- 4s WNW    2kn (g7) ESE glassy\nFri 15:00       8   1.1m 11.3s WNW    2kn (
- g7) ESE glassy\nFri 16:00       8   1.1m 11.3s WNW    2kn (g3)   E glassy\
- nFri 17:00       8   1.1m 11.2s WNW    2kn (g3) ENE glassy\n\nGenerated 20
- 26-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
+  1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     9   1.3m 11.4s WNW    2kn (g5) ENE glassy\nFri 09:00       9   1.3m 11
+ .4s WNW    2kn (g5) ENE glassy\nFri 10:00       9   1.3m 11.4s WNW    2kn 
+ (g5)   E glassy\nFri 11:00       9   1.3m 11.4s WNW    2kn (g5) ESE glassy
+ \nFri 12:00       9   1.3m 11.4s WNW    2kn (g5)  SE glassy\nFri 13:00    
+    8   1.2m 11.4s WNW    2kn (g7)   S glassy\nFri 14:00     7.5   1.2m 11.
+ 3s WNW    2kn (g7) SSW glassy\nFri 15:00     6.5   1.2m 11.3s WNW    3kn (
+ g7)  SW glassy\nFri 16:00     6.5   1.2m 11.2s WNW    2kn (g1)  SW glassy\
+ nFri 17:00     6.5   1.1m 11.2s WNW    1kn (g1) SSW glassy\n\nGenerated 20
+ 26-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.gi
  thub.io/surf-calendar-plugin/#spot=povoa-de-varzim
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=povoa-de-varzim
 LOCATION:Póvoa de Varzim

@@ -9,36 +9,36 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:51b29ca872f6acdc@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T110000Z
-SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 24 cm of snow · sunny · -6°C
+SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 21 cm of snow · sunny · -6°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: high.\n\nHour (local) 
   score  new snow  sky           temp   wind\nSat 09:00       5      0 cm  
-  sunny           -6°C    6 km/h (g13)\nSat 10:00       5      0 cm   sunn
- y           -4°C    2 km/h (g10)\nSat 11:00       5      0 cm   sunny    
-        -2°C    2 km/h (g8)\n\nWeather at 1660 m. Snow depth and new snow 
- are the weather model's numbers\, not the resort's own snow report.\nNotes
- : Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11-27 2
- 1:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/su
- rf-calendar-plugin/#spot=oberstdorf
+  sunny           -6°C    4 km/h (g10)\nSat 10:00       5      0 cm   sunn
+ y           -4°C    6 km/h (g9)\nSat 11:00       5      0 cm   sunny     
+       -2°C    3 km/h (g8)\n\nWeather at 1660 m. Snow depth and new snow a
+ re the weather model's numbers\, not the resort's own snow report.\nNotes:
+  Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11-28 07
+ :00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/sur
+ f-calendar-plugin/#spot=oberstdorf
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=oberstdorf
 LOCATION:Oberstdorf Fellhorn
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a7f06b1d79f74c4d@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T100000Z
-SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 20 cm of snow · sunny · -4°C
+SUMMARY:🤏 Oberstdorf Fellhorn 5/10 · 20 cm of snow · sunny · -3°C
 DESCRIPTION:Best 5/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nThu 09:00       5      0 cm   
- sunny           -4°C   10 km/h (g20)\nThu 10:00       5      0 cm   sunny
-            -2°C    9 km/h (g20)\n\nWeather at 1660 m. Snow depth and new 
+ sunny           -3°C    9 km/h (g19)\nThu 10:00       5      0 cm   sunny
+            -2°C    9 km/h (g19)\n\nWeather at 1660 m. Snow depth and new 
  snow are the weather model's numbers\, not the resort's own snow report.\n
  Notes: Fellhorn and Kanzelwalz\, the Allgäu's biggest.\nGenerated 2026-11
- -27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
+ -28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.
  io/surf-calendar-plugin/#spot=oberstdorf
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=oberstdorf
 LOCATION:Oberstdorf Fellhorn

@@ -7,27 +7,4 @@ X-WR-CALNAME:Ski: Kartalkaya
 X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
-BEGIN:VEVENT
-UID:0d5f6f05a4c8f7b7@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261203T060000Z
-DTEND:20261203T130000Z
-SUMMARY:🤏 Kartalkaya 5.5/10 · 12 cm new snow · snowing · -6°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nThu 09:00     5.5     12 cm 
-   snowing         -6°C    4 km/h (g17)\nThu 10:00     5.5     12 cm   sno
- wing         -5°C    3 km/h (g17)\nThu 11:00     5.5     12 cm   snowing 
-         -4°C    3 km/h (g17)\nThu 12:00     5.5     12 cm   snowing      
-    -4°C    4 km/h (g17)\nThu 13:00     5.5     12 cm   snowing         -3
- °C    4 km/h (g16)\nThu 14:00     5.5     12 cm   snowing         -3°C  
-   4 km/h (g16)\nThu 15:00     5.5     12 cm   snowing         -4°C    5 k
- m/h (g16)\n\nWeather at 2100 m. Snow depth and new snow are the weather mo
- del's numbers\, not the resort's own snow report.\nNotes: Forest runs\, we
- t Black Sea snow.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull
-  forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=kartalka
- ya
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=kartalkaya
-LOCATION:Kartalkaya
-TRANSP:TRANSPARENT
-END:VEVENT
 END:VCALENDAR

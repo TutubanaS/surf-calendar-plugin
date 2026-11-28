@@ -9,21 +9,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:a629556c9a63c7fb@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T150000Z
-SUMMARY:👍 Chamonix 6.5/10 · 144 cm of snow · sunny · -3°C
+SUMMARY:👍 Chamonix 6.5/10 · 144 cm of snow · sunny · -2°C
 DESCRIPTION:Best 6.5/10 at 09:00. Forecast confidence: high.\n\nHour (local
  )  score  new snow  sky           temp   wind\nSat 09:00     6.5      0 cm
-    sunny           -3°C   12 km/h (g26)\nSat 10:00     6.5      0 cm   su
- nny           -2°C   12 km/h (g24)\nSat 11:00       6      0 cm   sunny  
-          -2°C   10 km/h (g22)\nSat 12:00       6      0 cm   sunny       
-     -1°C    8 km/h (g21)\nSat 13:00       6      0 cm   sunny           -
- 1°C    3 km/h (g19)\nSat 14:00       6      0 cm   sunny           -1°C 
-    2 km/h (g16)\nSat 15:00       6      0 cm   sunny           -1°C    2 
- km/h (g14)\n\nWeather at 2530 m. Snow depth and new snow are the weather m
+    sunny           -2°C   13 km/h (g29)\nSat 10:00     6.5      0 cm   su
+ nny           -2°C   11 km/h (g27)\nSat 11:00       6      0 cm   sunny  
+          -1°C    5 km/h (g23)\nSat 12:00       6      0 cm   sunny       
+     -1°C    3 km/h (g20)\nSat 13:00       6      0 cm   sunny           -
+ 1°C    2 km/h (g18)\nSat 14:00       6      0 cm   sunny           -1°C 
+    1 km/h (g16)\nSat 15:00       6      0 cm   sunny           -1°C    3 
+ km/h (g15)\n\nWeather at 2530 m. Snow depth and new snow are the weather m
  odel's numbers\, not the resort's own snow report.\nNotes: Steep\, high an
- d serious: Grands Montets.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo
+ d serious: Grands Montets.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo
  .\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot
  =chamonix
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=chamonix
@@ -32,44 +32,44 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30f27dc035ebce5e@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T150000Z
-SUMMARY:👍 Chamonix 6.5/10 · 5 cm new snow · sunny · -5°C
-DESCRIPTION:Best 6.5/10 at 10:00. Forecast confidence: medium.\n\nHour (loc
- al)  score  new snow  sky           temp   wind\nMon 09:00     5.5      5 
- cm   partly sunny    -6°C    8 km/h (g23)\nMon 10:00     6.5      5 cm   
- sunny           -5°C    9 km/h (g24)\nMon 11:00     6.5      5 cm   sunny
-            -4°C    9 km/h (g26)\nMon 12:00     6.5      5 cm   sunny     
-       -4°C    8 km/h (g26)\nMon 13:00     6.5      5 cm   sunny          
-  -4°C    6 km/h (g24)\nMon 14:00     6.5      5 cm   sunny           -3°
- C    5 km/h (g24)\nMon 15:00     6.5      5 cm   sunny           -3°C    
- 5 km/h (g28)\n\nWeather at 2530 m. Snow depth and new snow are the weather
-  model's numbers\, not the resort's own snow report.\nNotes: Steep\, high 
- and serious: Grands Montets.\nGenerated 2026-11-27 21:00 UTC from Open-Met
- eo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#sp
- ot=chamonix
+SUMMARY:🤏 Chamonix 6/10 · 92 cm of snow · sunny · -5°C
+DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: medium.\n\nHour (local
+ )  score  new snow  sky           temp   wind\nMon 09:00       6      1 cm
+    sunny           -5°C    6 km/h (g18)\nMon 10:00       6      1 cm   su
+ nny           -5°C    6 km/h (g15)\nMon 11:00       6      1 cm   sunny  
+          -4°C    6 km/h (g20)\nMon 12:00       6      1 cm   sunny       
+     -4°C    4 km/h (g26)\nMon 13:00       6      1 cm   sunny           -
+ 4°C    1 km/h (g30)\nMon 14:00       6      1 cm   sunny           -4°C 
+    1 km/h (g31)\nMon 15:00       6      1 cm   sunny           -4°C    2 
+ km/h (g30)\n\nWeather at 2530 m. Snow depth and new snow are the weather m
+ odel's numbers\, not the resort's own snow report.\nNotes: Steep\, high an
+ d serious: Grands Montets.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo
+ .\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot
+ =chamonix
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=chamonix
 LOCATION:Chamonix
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e9c426efd0d46d2e@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261201T080000Z
 DTEND:20261201T150000Z
-SUMMARY:🤏 Chamonix 6/10 · 91 cm of snow · sunny · -3°C
+SUMMARY:🤏 Chamonix 6/10 · 90 cm of snow · sunny · -3°C
 DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
  score  new snow  sky           temp   wind\nTue 09:00       6      0 cm   
- sunny           -3°C   11 km/h (g35)\nTue 10:00       6      0 cm   sunny
-            -3°C   12 km/h (g35)\nTue 11:00       6      0 cm   sunny     
-       -2°C   12 km/h (g34)\nTue 12:00     5.5      0 cm   sunny          
-  -2°C   11 km/h (g34)\nTue 13:00     5.5      0 cm   sunny           -1°
- C   11 km/h (g34)\nTue 14:00     5.5      0 cm   sunny           -1°C   1
- 0 km/h (g26)\nTue 15:00     5.5      0 cm   sunny           -1°C   10 km/
- h (g26)\n\nWeather at 2530 m. Snow depth and new snow are the weather mode
+ sunny           -3°C    7 km/h (g31)\nTue 10:00       6      0 cm   sunny
+            -3°C    8 km/h (g31)\nTue 11:00       6      0 cm   sunny     
+       -2°C    8 km/h (g23)\nTue 12:00     5.5      0 cm   sunny          
+  -2°C    8 km/h (g23)\nTue 13:00     5.5      0 cm   sunny           -2°
+ C    8 km/h (g23)\nTue 14:00     5.5      0 cm   sunny           -1°C    
+ 8 km/h (g18)\nTue 15:00     5.5      0 cm   sunny           -1°C    8 km/
+ h (g18)\n\nWeather at 2530 m. Snow depth and new snow are the weather mode
  l's numbers\, not the resort's own snow report.\nNotes: Steep\, high and s
- erious: Grands Montets.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n
+ erious: Grands Montets.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n
  \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ch
  amonix
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=chamonix
@@ -78,64 +78,67 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9492a47c870ea0e6@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T150000Z
-SUMMARY:🤏 Chamonix 5.5/10 · 90 cm of snow · sunny · -0°C
+SUMMARY:🤏 Chamonix 5.5/10 · 90 cm of snow · sunny · -1°C
 DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
    score  new snow  sky           temp   wind\nWed 09:00     5.5      0 cm 
-   sunny           -0°C    5 km/h (g10)\nWed 10:00     5.5      0 cm   sun
- ny           -0°C    5 km/h (g10)\nWed 11:00     5.5      0 cm   sunny   
-         -0°C    5 km/h (g9)\nWed 12:00     5.5      0 cm   sunny         
-   -0°C    4 km/h (g9)\nWed 13:00     5.5      0 cm   sunny           -0°
- C    4 km/h (g9)\nWed 14:00     5.5      0 cm   sunny            0°C    4
-  km/h (g5)\nWed 15:00     5.5      0 cm   sunny            1°C    3 km/h 
- (g5)\n\nWeather at 2530 m. Snow depth and new snow are the weather model's
-  numbers\, not the resort's own snow report.\nNotes: Steep\, high and seri
- ous: Grands Montets.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nF
- ull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=chamo
- nix
+   sunny           -1°C    4 km/h (g22)\nWed 10:00     5.5      0 cm   sun
+ ny           -0°C    5 km/h (g22)\nWed 11:00     5.5      0 cm   sunny   
+         -0°C    6 km/h (g17)\nWed 12:00     5.5      0 cm   sunny        
+    -0°C    6 km/h (g17)\nWed 13:00     5.5      0 cm   sunny           -0
+ °C    7 km/h (g17)\nWed 14:00     5.5      0 cm   sunny           -0°C  
+   7 km/h (g12)\nWed 15:00     5.5      0 cm   sunny           -0°C    7 k
+ m/h (g12)\n\nWeather at 2530 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Steep\, high and
+  serious: Grands Montets.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.
+ \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
+ chamonix
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=chamonix
 LOCATION:Chamonix
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:3fafb874af7e27d3@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261203T080000Z
+UID:eddeadc34cba5cb6@surf-windows
+DTSTAMP:20261128T070000Z
+DTSTART:20261203T100000Z
 DTEND:20261203T150000Z
-SUMMARY:🤏 Chamonix 5.5/10 · 75 cm of snow · sunny · -1°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nThu 09:00     5.5      0 cm 
-   sunny           -1°C    4 km/h (g13)\nThu 10:00     5.5      0 cm   sun
- ny           -1°C    4 km/h (g13)\nThu 11:00     5.5      0 cm   sunny   
-         -1°C    3 km/h (g14)\nThu 12:00     5.5      0 cm   sunny        
-    -0°C    4 km/h (g14)\nThu 13:00     5.5      0 cm   sunny            0
- °C    4 km/h (g14)\nThu 14:00     5.5      0 cm   sunny           -0°C  
-   4 km/h (g5)\nThu 15:00     5.5      0 cm   sunny           -1°C    4 km
- /h (g5)\n\nWeather at 2530 m. Snow depth and new snow are the weather mode
- l's numbers\, not the resort's own snow report.\nNotes: Steep\, high and s
- erious: Grands Montets.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n
- \nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=ch
- amonix
+SUMMARY:🤏 Chamonix 5.5/10 · 74 cm of snow · sunny · -0°C
+DESCRIPTION:Best 5.5/10 at 11:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nThu 11:00     5.5      0 cm 
+   sunny           -0°C    3 km/h (g20)\nThu 12:00     5.5      0 cm   sun
+ ny            0°C    3 km/h (g20)\nThu 13:00     5.5      0 cm   sunny   
+          0°C    2 km/h (g20)\nThu 14:00     5.5      0 cm   sunny        
+     0°C    1 km/h (g19)\nThu 15:00     5.5      0 cm   sunny           -0
+ °C    1 km/h (g19)\n\nWeather at 2530 m. Snow depth and new snow are the 
+ weather model's numbers\, not the resort's own snow report.\nNotes: Steep\
+ , high and serious: Grands Montets.\nGenerated 2026-11-28 07:00 UTC from O
+ pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
+ gin/#spot=chamonix
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=chamonix
 LOCATION:Chamonix
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f4dc4a80032d92b@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261204T080000Z
-DTEND:20261204T100000Z
-SUMMARY:🤏 Chamonix 6/10 · 75 cm of snow · sunny · -2°C
-DESCRIPTION:Best 6/10 at 09:00. Forecast confidence: low.\n\nHour (local)  
- score  new snow  sky           temp   wind\nFri 09:00       6      0 cm   
- sunny           -2°C    6 km/h (g25)\nFri 10:00     5.5      0 cm   sunny
-            -1°C    6 km/h (g25)\n\nWeather at 2530 m. Snow depth and new 
- snow are the weather model's numbers\, not the resort's own snow report.\n
- Notes: Steep\, high and serious: Grands Montets.\nGenerated 2026-11-27 21:
- 00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf
- -calendar-plugin/#spot=chamonix
+DTEND:20261204T150000Z
+SUMMARY:🤏 Chamonix 5.5/10 · 74 cm of snow · sunny · -0°C
+DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
+   score  new snow  sky           temp   wind\nFri 09:00     5.5      0 cm 
+   sunny           -0°C    2 km/h (g24)\nFri 10:00     5.5      0 cm   sun
+ ny           -0°C    3 km/h (g24)\nFri 11:00     5.5      0 cm   sunny   
+         -0°C    3 km/h (g26)\nFri 12:00     5.5      0 cm   sunny        
+    -0°C    3 km/h (g26)\nFri 13:00     5.5      0 cm   sunny           -0
+ °C    4 km/h (g26)\nFri 14:00     5.5      0 cm   sunny           -0°C  
+   3 km/h (g25)\nFri 15:00     5.5      0 cm   sunny           -0°C    3 k
+ m/h (g25)\n\nWeather at 2530 m. Snow depth and new snow are the weather mo
+ del's numbers\, not the resort's own snow report.\nNotes: Steep\, high and
+  serious: Grands Montets.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.
+ \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
+ chamonix
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=chamonix
 LOCATION:Chamonix
 TRANSP:TRANSPARENT

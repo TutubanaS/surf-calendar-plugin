@@ -7,24 +7,4 @@ X-WR-CALNAME:Ski: Davraz
 X-WR-TIMEZONE:Europe/Istanbul
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
-BEGIN:VEVENT
-UID:be1cc15c38585813@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261204T060000Z
-DTEND:20261204T100000Z
-SUMMARY:🤏 Davraz 5.5/10 · 11 cm new snow · snowing · -4°C
-DESCRIPTION:Best 5.5/10 at 09:00. Forecast confidence: low.\n\nHour (local)
-   score  new snow  sky           temp   wind\nFri 09:00     5.5     11 cm 
-   snowing         -4°C   13 km/h (g58)\nFri 10:00     5.5     11 cm   sno
- wing         -4°C   14 km/h (g61)\nFri 11:00     5.5     11 cm   snowing 
-         -3°C   14 km/h (g61)\nFri 12:00     5.5     11 cm   snowing      
-    -3°C   14 km/h (g61)\n\nWeather at 2050 m. Snow depth and new snow are
-  the weather model's numbers\, not the resort's own snow report.\nNotes: S
- mall\, with views of Lake Eğirdir.\nGenerated 2026-11-27 21:00 UTC from O
- pen-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plu
- gin/#spot=davraz
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=davraz
-LOCATION:Davraz
-TRANSP:TRANSPARENT
-END:VEVENT
 END:VCALENDAR

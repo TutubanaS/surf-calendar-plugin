@@ -9,160 +9,174 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:6e0ff6749a9970ee@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T180000Z
-SUMMARY:🔥 Matosinhos 8.5/10 · 2.5m 15s WNW · 5kn SSW
-DESCRIPTION:Best 8.5/10 at 17:00. Forecast confidence: high. 4 wave models 
- say 2.5 to 2.8 m.\n\nHour (local)  score  waves            wind\nSat 08:00
-      7.5   2.5m 14.8s WNW    9kn (g17) SSE cross\nSat 09:00     7.5   2.5m
-  14.8s WNW    9kn (g18) SSE cross\nSat 10:00     6.5   2.5m 14.8s WNW    9
- kn (g18)   S onshore\nSat 11:00     6.5   2.5m 14.8s WNW    9kn (g17)   S 
- onshore\nSat 12:00     6.5   2.5m 14.8s WNW    9kn (g18)   S onshore\nSat 
- 13:00     6.5   2.5m 14.8s WNW    9kn (g18) SSW onshore\nSat 14:00     6.5
-    2.5m 14.8s WNW    8kn (g18) SSW onshore\nSat 15:00     6.5   2.5m 14.8s
-  WNW    8kn (g16) SSW onshore\nSat 16:00     6.5   2.5m 14.8s WNW    6kn (
- g15) SSW onshore\nSat 17:00     8.5   2.5m 14.8s WNW    5kn (g13) SSW onsh
- ore\n\nNotes: Sheltered by the Leixões harbour wall\, so it needs a solid
-  swell.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast:
-  https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
+SUMMARY:👍 Matosinhos 7.5/10 · 2.6m 15s WNW · 8kn SSE
+DESCRIPTION:Best 7.5/10 at 08:00. Forecast confidence: high. 4 wave models 
+ say 2.6 to 3.0 m.\n\nHour (local)  score  waves            wind\nSat 08:00
+      7.5   2.6m 14.8s WNW    8kn (g16) SSE cross\nSat 09:00     7.5   2.6m
+  14.8s WNW    9kn (g16) SSE cross\nSat 10:00     7.5   2.6m 14.8s WNW    8
+ kn (g17) SSE cross\nSat 11:00     7.5   2.6m 14.8s WNW    9kn (g17)   S cr
+ oss\nSat 12:00     6.5   2.6m 14.8s WNW    9kn (g18)   S onshore\nSat 13:0
+ 0     6.5   2.6m 14.8s WNW    9kn (g18)   S onshore\nSat 14:00     6.5   2
+ .6m 14.8s WNW    8kn (g18)   S onshore\nSat 15:00     6.5   2.6m 14.8s WNW
+     9kn (g18) SSW onshore\nSat 16:00     6.5   2.6m 14.8s WNW    8kn (g19)
+    S onshore\nSat 17:00     6.5   2.6m 14.8s WNW    7kn (g16)   S onshore\
+ n\nNotes: Sheltered by the Leixões harbour wall\, so it needs a solid swe
+ ll.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: htt
+ ps://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7c076c0e08bde638@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261129T080000Z
 DTEND:20261129T180000Z
-SUMMARY:🔥 Matosinhos 9.5/10 · 2.3m 14s WNW · 2kn NNE
-DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: high. 4 wave models 
- say 2.1 to 2.4 m.\n\nHour (local)  score  waves            wind\nSun 08:00
-      9.5   2.3m 13.5s WNW    2kn (g5) NNE glassy\nSun 09:00     9.5   2.3m
-  13.5s WNW    2kn (g4) NNE glassy\nSun 10:00     8.5   2.3m 13.5s WNW    4
- kn (g8)   N glassy\nSun 11:00     8.5   2.3m 13.5s WNW    5kn (g10)   N gl
- assy\nSun 12:00     8.5   2.3m 13.5s WNW    4kn (g10)   N glassy\nSun 13:0
- 0     8.5   2.3m 13.5s WNW    5kn (g10)  NW glassy\nSun 14:00     8.5   2.
- 3m 13.5s WNW    6kn (g11)  NW cross\nSun 15:00     8.5   2.3m 13.5s WNW   
-  5kn (g12) NNW cross\nSun 16:00     8.5   2.2m 13.3s WNW    4kn (g11) NNW 
- glassy\nSun 17:00     8.5   2.2m 13.2s WNW    3kn (g8) NNW glassy\n\nNotes
- : Sheltered by the Leixões harbour wall\, so it needs a solid swell.\nGen
- erated 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tut
- ubanas.github.io/surf-calendar-plugin/#spot=matosinhos
+SUMMARY:🔥 Matosinhos 9/10 · 2.3m 14s NW · 6kn N
+DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: high. 4 wave models sa
+ y 2.2 to 2.6 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
+      9   2.3m 13.5s  NW    6kn (g14)   N cross\nSun 09:00       9   2.3m 1
+ 3.5s  NW    6kn (g12) NNW cross\nSun 10:00       9   2.4m 13.5s  NW    6kn
+  (g13) NNW cross\nSun 11:00       9   2.3m 13.5s  NW    6kn (g13) NNW cros
+ s\nSun 12:00       9   2.4m 13.5s  NW    5kn (g11) NNW cross\nSun 13:00   
+     9   2.3m 13.5s  NW    6kn (g13)  NW cross\nSun 14:00       9   2.3m 13
+ .5s  NW    6kn (g13)  NW cross\nSun 15:00       9   2.3m 13.5s  NW    6kn 
+ (g13)  NW cross\nSun 16:00       9   2.3m 13.5s  NW    6kn (g13) NNW cross
+ \nSun 17:00     8.5   2.3m 13.5s  NW    4kn (g12) NNW glassy\n\nNotes: She
+ ltered by the Leixões harbour wall\, so it needs a solid swell.\nGenerate
+ d 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ s.github.io/surf-calendar-plugin/#spot=matosinhos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:492dc7866fc5a197@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261130T080000Z
 DTEND:20261130T180000Z
-SUMMARY:🔥 Matosinhos 9/10 · 2.1m 12s WNW · 3kn E
-DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: medium. 4 wave models 
- say 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 08:00
-        9   2.1m 12.3s WNW    3kn (g6)   E glassy\nMon 09:00       9   2.1m
-  12.3s WNW    3kn (g6)   E glassy\nMon 10:00       9   2.1m 12.3s WNW    3
- kn (g6) ESE glassy\nMon 11:00       8   2.1m 12.3s WNW    3kn (g7) ESE gla
- ssy\nMon 12:00       8   2.1m 12.3s WNW    2kn (g7) SSE glassy\nMon 13:00 
-     7.5   2.0m 12.3s WNW    2kn (g5)  SW glassy\nMon 14:00     7.5   2.0m 
- 12.3s WNW    3kn (g7) WSW glassy\nMon 15:00     7.5   1.9m 12.3s WNW    3k
- n (g7)   W glassy\nMon 16:00     7.5   1.9m 12.3s WNW    2kn (g7) WNW glas
- sy\nMon 17:00       8   1.9m 12.3s WNW    1kn (g4)  NW glassy\n\nNotes: Sh
- eltered by the Leixões harbour wall\, so it needs a solid swell.\nGenerat
- ed 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=matosinhos
+SUMMARY:🔥 Matosinhos 8.5/10 · 2.2m 13s WNW · 3kn ESE
+DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: medium. 4 wave model
+ s say 1.8 to 2.2 m.\n\nHour (local)  score  waves            wind\nMon 08:
+ 00     8.5   2.2m 13.3s WNW    3kn (g8) ESE glassy\nMon 09:00     8.5   2.
+ 1m 13.5s WNW    3kn (g6) ESE glassy\nMon 10:00     8.5   2.1m 13.5s WNW   
+  4kn (g7)  SE glassy\nMon 11:00     8.5   2.1m 13.5s WNW    4kn (g8)  SE g
+ lassy\nMon 12:00       8   2.1m 13.5s WNW    4kn (g8) SSW glassy\nMon 13:0
+ 0       8   2.0m 13.3s WNW    4kn (g9) SSW glassy\nMon 14:00       8   2.0
+ m 13.2s WNW    4kn (g9) SSW glassy\nMon 15:00       8   2.0m 13.2s WNW    
+ 3kn (g8) SSW glassy\nMon 16:00       8   1.9m 13.1s WNW    2kn (g7) SSW gl
+ assy\nMon 17:00     7.5   1.9m 12.4s WNW    1kn (g4)  SW glassy\n\nNotes: 
+ Sheltered by the Leixões harbour wall\, so it needs a solid swell.\nGener
+ ated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutub
+ anas.github.io/surf-calendar-plugin/#spot=matosinhos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17881e78d1169ed9@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261201T080000Z
-DTEND:20261201T180000Z
-SUMMARY:🔥 Matosinhos 9/10 · 1.7m 12s WNW · 4kn E
+DTEND:20261201T130000Z
+SUMMARY:🔥 Matosinhos 9/10 · 1.8m 12s WNW · 3kn E
 DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
-     9   1.7m 12.4s WNW    4kn (g9)   E glassy\nTue 09:00       9   1.7m 12
- .4s WNW    5kn (g9) ESE glassy\nTue 10:00       8   1.7m 12.4s WNW    4kn 
- (g9) ESE glassy\nTue 11:00       7   1.7m 12.4s WNW    4kn (g9)  SE glassy
- \nTue 12:00       7   1.7m 12.3s WNW    4kn (g9)  SE glassy\nTue 13:00    
-    7   1.7m 12.2s WNW    4kn (g10) SSE glassy\nTue 14:00     6.5   1.7m 12
- .2s WNW    4kn (g10)   S glassy\nTue 15:00     6.5   1.7m 12.1s WNW    4kn
-  (g10)   S glassy\nTue 16:00     6.5   1.7m 12.1s WNW    4kn (g6)   S glas
- sy\nTue 17:00     7.5   1.7m 12.0s WNW    3kn (g6)   S glassy\n\nNotes: Sh
- eltered by the Leixões harbour wall\, so it needs a solid swell.\nGenerat
- ed 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=matosinhos
+  1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00   
+     9   1.8m 12.3s WNW    3kn (g6)   E glassy\nTue 09:00       8   1.7m 12
+ .4s WNW    2kn (g6) ESE glassy\nTue 10:00       8   1.7m 12.4s WNW    3kn 
+ (g14)  SE glassy\nTue 11:00       8   1.7m 12.3s WNW    5kn (g14) SSE cros
+ s\nTue 12:00       7   1.7m 12.3s WNW    7kn (g14)   S cross\n\nNotes: She
+ ltered by the Leixões harbour wall\, so it needs a solid swell.\nGenerate
+ d 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubana
+ s.github.io/surf-calendar-plugin/#spot=matosinhos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
+LOCATION:Matosinhos
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1502e719aafa842e@surf-windows
+DTSTAMP:20261128T070000Z
+DTSTART:20261201T140000Z
+DTEND:20261201T180000Z
+SUMMARY:👍 Matosinhos 6.5/10 · 1.7m 12s WNW · 6kn S
+DESCRIPTION:Best 6.5/10 at 14:00. Forecast confidence: low. 3 wave models s
+ ay 1.6 to 1.8 m.\n\nHour (local)  score  waves            wind\nTue 14:00 
+     6.5   1.7m 12.2s WNW    6kn (g11)   S onshore\nTue 15:00     6.5   1.7
+ m 12.1s WNW    5kn (g11)   S onshore\nTue 16:00     6.5   1.7m 12.0s WNW  
+   4kn (g7)   S glassy\nTue 17:00     6.5   1.7m 12.0s WNW    4kn (g7)   S 
+ glassy\n\nNotes: Sheltered by the Leixões harbour wall\, so it needs a so
+ lid swell.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull foreca
+ st: https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91abace40838c716@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Matosinhos 8/10 · 1.8m 12s W · 4kn SE
-DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.7 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00   
-     8   1.8m 11.6s   W    4kn (g8)  SE glassy\nWed 09:00       8   1.8m 11
- .5s   W    4kn (g8)  SE glassy\nWed 10:00       8   1.8m 11.4s   W    4kn 
- (g11)  SE glassy\nWed 11:00       8   1.8m 11.2s WSW    5kn (g11) SSE glas
- sy\nWed 12:00       8   1.8m 11.2s WSW    5kn (g11) SSE cross\nWed 13:00  
-      8   1.8m 11.2s WSW    5kn (g9) SSE cross\nWed 14:00       8   1.8m 11
- .2s WSW    5kn (g9) SSE glassy\nWed 15:00       8   1.8m 11.3s WSW    4kn 
- (g9) SSE glassy\nWed 16:00       8   1.8m 11.4s WSW    6kn (g12) SSE cross
- \nWed 17:00       8   1.8m 11.4s WSW    6kn (g15) SSE cross\n\nNotes: Shel
- tered by the Leixões harbour wall\, so it needs a solid swell.\nGenerated
-  2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas
- .github.io/surf-calendar-plugin/#spot=matosinhos
+SUMMARY:👍 Matosinhos 7.5/10 · 1.7m 12s W · 4kn S
+DESCRIPTION:Best 7.5/10 at 14:00. Forecast confidence: low. 3 wave models s
+ ay 1.5 to 1.8 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
+       7   1.6m 11.3s WNW    4kn (g7) ESE glassy\nWed 09:00       7   1.7m 
+ 11.3s WNW    4kn (g7) ESE glassy\nWed 10:00       7   1.7m 11.2s WNW    4k
+ n (g10)  SE glassy\nWed 11:00       7   1.7m 11.2s   W    4kn (g10)  SE gl
+ assy\nWed 12:00       7   1.7m 11.2s   W    4kn (g10) SSE glassy\nWed 13:0
+ 0       7   1.7m 11.4s   W    5kn (g10) SSE glassy\nWed 14:00     7.5   1.
+ 7m 11.5s   W    4kn (g10)   S glassy\nWed 15:00     7.5   1.7m 11.6s   W  
+   4kn (g10) SSW glassy\nWed 16:00     7.5   1.7m 11.6s   W    4kn (g6)   S
+  glassy\nWed 17:00     6.5   1.7m 11.5s   W    2kn (g6)   S glassy\n\nNote
+ s: Sheltered by the Leixões harbour wall\, so it needs a solid swell.\nGe
+ nerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tu
+ tubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a3799747fb6570a0@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Matosinhos 9/10 · 1.8m 12s WNW · 2kn NE
-DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.8 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
-     9   1.8m 11.9s WNW    2kn (g5)  NE glassy\nThu 09:00       9   1.8m 12
- .0s WNW    2kn (g5)  NE glassy\nThu 10:00       9   1.8m 12.0s WNW    2kn 
- (g9) NNE glassy\nThu 11:00       8   1.8m 12.0s WNW    3kn (g9)   N glassy
- \nThu 12:00       8   1.8m 12.0s WNW    4kn (g9)   N glassy\nThu 13:00    
-    8   1.8m 12.2s WNW    4kn (g10)   N glassy\nThu 14:00       8   1.8m 12
- .4s WNW    4kn (g10)   N glassy\nThu 15:00       8   1.8m 12.6s WNW    4kn
-  (g10)   N glassy\nThu 16:00       8   1.8m 12.6s WNW    4kn (g6)   N glas
- sy\nThu 17:00       8   1.7m 12.5s WNW    3kn (g6)   N glassy\n\nNotes: Sh
- eltered by the Leixões harbour wall\, so it needs a solid swell.\nGenerat
- ed 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutuban
- as.github.io/surf-calendar-plugin/#spot=matosinhos
+SUMMARY:🔥 Matosinhos 8/10 · 1.7m 12s WNW · 2kn E
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
+  1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00   
+     8   1.7m 11.5s WNW    2kn (g5)   E glassy\nThu 09:00       8   1.7m 11
+ .6s WNW    2kn (g5)   E glassy\nThu 10:00       8   1.7m 11.7s WNW    2kn 
+ (g5)   E glassy\nThu 11:00       7   1.7m 11.7s WNW    2kn (g5) ESE glassy
+ \nThu 12:00       7   1.7m 11.8s WNW    2kn (g5) ESE glassy\nThu 13:00    
+    7   1.6m 11.8s WNW    1kn (g2) ESE glassy\nThu 14:00       7   1.6m 11.
+ 9s WNW    1kn (g2) ESE glassy\nThu 15:00     6.5   1.6m 12.0s WNW    0kn (
+ g2)   W glassy\nThu 16:00     6.5   1.6m 12.1s WNW    0kn (g1)   W glassy\
+ nThu 17:00     6.5   1.6m 12.0s WNW    0kn (g1)  SW glassy\n\nNotes: Shelt
+ ered by the Leixões harbour wall\, so it needs a solid swell.\nGenerated 
+ 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ github.io/surf-calendar-plugin/#spot=matosinhos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 LOCATION:Matosinhos
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:86d41df49765ea47@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261204T080000Z
 DTEND:20261204T180000Z
-SUMMARY:🔥 Matosinhos 8/10 · 1.3m 12s WNW · 3kn E
+SUMMARY:🔥 Matosinhos 8/10 · 1.3m 11s WNW · 2kn E
 DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 3 wave models say
-  1.2 to 1.5 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
-     8   1.3m 11.7s WNW    3kn (g6)   E glassy\nFri 09:00       8   1.3m 11
- .5s WNW    3kn (g6)   E glassy\nFri 10:00       8   1.3m 11.4s WNW    2kn 
- (g7)   E glassy\nFri 11:00       8   1.2m 11.4s WNW    2kn (g7)   E glassy
- \nFri 12:00       8   1.2m 11.4s WNW    2kn (g7)   E glassy\nFri 13:00    
-    8   1.2m 11.4s WNW    2kn (g4)   E glassy\nFri 14:00       8   1.2m 11.
- 4s WNW    2kn (g4)   E glassy\nFri 15:00       7   1.1m 11.3s WNW    1kn (
- g4)   E glassy\nFri 16:00       7   1.1m 11.3s WNW    1kn (g3) ENE glassy\
- nFri 17:00       7   1.1m 11.2s WNW    1kn (g3)  NE glassy\n\nNotes: Shelt
+  1.3 to 1.4 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     8   1.3m 11.4s WNW    2kn (g4)   E glassy\nFri 09:00       8   1.3m 11
+ .4s WNW    2kn (g4)   E glassy\nFri 10:00       8   1.3m 11.4s WNW    2kn 
+ (g5)   E glassy\nFri 11:00       7   1.3m 11.4s WNW    1kn (g5)  SE glassy
+ \nFri 12:00       7   1.3m 11.4s WNW    1kn (g5) SSE glassy\nFri 13:00    
+  6.5   1.2m 11.4s WNW    1kn (g7)  SW glassy\nFri 14:00     6.5   1.2m 11.
+ 3s WNW    2kn (g7) WSW glassy\nFri 15:00     6.5   1.2m 11.3s WNW    3kn (
+ g7) WSW glassy\nFri 16:00     5.5   1.1m 11.2s WNW    2kn (g1) WSW glassy\
+ nFri 17:00     5.5   1.1m 11.2s WNW    1kn (g1)  SW glassy\n\nNotes: Shelt
  ered by the Leixões harbour wall\, so it needs a solid swell.\nGenerated 
- 2026-11-27 21:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
+ 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.
  github.io/surf-calendar-plugin/#spot=matosinhos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=matosinhos
 LOCATION:Matosinhos

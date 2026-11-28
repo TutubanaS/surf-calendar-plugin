@@ -9,104 +9,17 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:cbc791e076b8b515@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261128T080000Z
 DTEND:20261128T130000Z
-SUMMARY:👍 Peniche (Supertubos) 7/10 · 2.7m 15s NW · 6kn SE
+SUMMARY:👍 Peniche (Supertubos) 7/10 · 2.8m 15s NW · 6kn SE
 DESCRIPTION:Best 7/10 at 08:00. Forecast confidence: high. 5 wave models sa
- y 2.3 to 3.0 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
-      7   2.7m 14.8s  NW    6kn (g9)  SE cross\nSat 09:00       7   2.8m 14
- .8s  NW    6kn (g9)  SE cross\nSat 10:00       7   2.7m 14.8s  NW    6kn (
- g10)  SE cross\nSat 11:00       7   2.7m 14.8s  NW    7kn (g11)  SE cross\
- nSat 12:00       7   2.7m 14.8s  NW    6kn (g12) SSE cross\n\nNotes: Heavy
- \, hollow beach break.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\n\
- nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=sup
- ertubos
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
-LOCATION:Peniche (Supertubos)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:609170ee2cc60043@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261128T140000Z
-DTEND:20261128T180000Z
-SUMMARY:👍 Peniche (Supertubos) 6.5/10 · 2.7m 15s NW · 6kn SSW
-DESCRIPTION:Best 6.5/10 at 14:00. Forecast confidence: high. 5 wave models 
- say 2.2 to 3.2 m.\n\nHour (local)  score  waves            wind\nSat 14:00
-      6.5   2.7m 14.8s  NW    6kn (g10) SSW onshore\nSat 15:00     6.5   2.
- 7m 14.8s  NW    6kn (g10)  SW onshore\nSat 16:00     6.5   2.7m 14.8s  NW 
-    5kn (g9)  SW glassy\nSat 17:00     6.5   2.7m 14.8s  NW    4kn (g8) SSW
-  glassy\n\nNotes: Heavy\, hollow beach break.\nGenerated 2026-11-27 21:00 
- UTC from Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-ca
- lendar-plugin/#spot=supertubos
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
-LOCATION:Peniche (Supertubos)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d17f113bfeaebcb9@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261129T080000Z
-DTEND:20261129T180000Z
-SUMMARY:🔥 Peniche (Supertubos) 8/10 · 2.5m 14s NW · 3kn NNE
-DESCRIPTION:Best 8/10 at 12:00. Forecast confidence: high. 5 wave models sa
- y 2.2 to 2.7 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
-      7   2.5m 13.5s  NW    2kn (g4)  SE glassy\nSun 09:00       7   2.5m 1
- 3.5s  NW    2kn (g4) ESE glassy\nSun 10:00     6.5   2.5m 13.5s  NW    2kn
-  (g4) SSW glassy\nSun 11:00     6.5   2.5m 13.5s  NW    1kn (g3)  SW glass
- y\nSun 12:00       8   2.5m 13.5s  NW    3kn (g5) NNE glassy\nSun 13:00   
-     7   2.5m 13.5s  NW    5kn (g8) NNW glassy\nSun 14:00       7   2.5m 13
- .5s  NW    5kn (g8)   N cross\nSun 15:00       7   2.5m 13.5s  NW    6kn (
- g10)   N cross\nSun 16:00       8   2.5m 13.5s  NW    7kn (g11) NNE offsho
- re\nSun 17:00       8   2.5m 13.5s  NW    7kn (g12) NNE offshore\n\nNotes:
-  Heavy\, hollow beach break.\nGenerated 2026-11-27 21:00 UTC from Open-Met
- eo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#sp
- ot=supertubos
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
-LOCATION:Peniche (Supertubos)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:80fb7531c7c61fe9@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261130T080000Z
-DTEND:20261130T180000Z
-SUMMARY:🔥 Peniche (Supertubos) 9.5/10 · 2.3m 13s NW · 4kn N
-DESCRIPTION:Best 9.5/10 at 14:00. Forecast confidence: medium. 5 wave model
- s say 1.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:
- 00     7.5   2.3m 12.9s  NW    3kn (g4)   E glassy\nMon 09:00     7.5   2.
- 3m 12.8s  NW    3kn (g5)   E glassy\nMon 10:00     7.5   2.3m 12.8s  NW   
-  3kn (g5)   E glassy\nMon 11:00     7.5   2.3m 12.8s  NW    2kn (g5) ENE g
- lassy\nMon 12:00     7.5   2.3m 12.7s  NW    3kn (g5) ENE glassy\nMon 13:0
- 0     7.5   2.3m 12.7s  NW    3kn (g5)  NE glassy\nMon 14:00     9.5   2.3
- m 12.7s  NW    4kn (g8)   N glassy\nMon 15:00     9.5   2.3m 12.8s  NW    
- 6kn (g9)   N offshore\nMon 16:00     9.5   2.2m 12.8s  NW    5kn (g9)   N 
- offshore\nMon 17:00     9.5   2.2m 12.8s  NW    4kn (g9) NNE glassy\n\nNot
- es: Heavy\, hollow beach break.\nGenerated 2026-11-27 21:00 UTC from Open-
- Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/
- #spot=supertubos
-URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
-LOCATION:Peniche (Supertubos)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:15ac4be5afc0ec08@surf-windows
-DTSTAMP:20261127T210000Z
-DTSTART:20261201T080000Z
-DTEND:20261201T180000Z
-SUMMARY:🔥 Peniche (Supertubos) 8.5/10 · 1.7m 12s NW · 4kn SE
-DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
-     8.5   1.7m 11.9s  NW    4kn (g8)  SE glassy\nTue 09:00     8.5   1.7m 
- 11.9s  NW    5kn (g8)  SE glassy\nTue 10:00     8.5   1.7m 12.0s  NW    5k
- n (g11)  SE cross\nTue 11:00     8.5   1.7m 12.1s WNW    6kn (g11)  SE cro
- ss\nTue 12:00     8.5   1.7m 12.2s WNW    6kn (g11)  SE cross\nTue 13:00  
-    8.5   1.7m 12.2s WNW    6kn (g11)  SE cross\nTue 14:00     8.5   1.7m 1
- 2.3s WNW    6kn (g11)  SE cross\nTue 15:00     8.5   1.7m 12.4s WNW    6kn
-  (g11)  SE cross\nTue 16:00     8.5   1.7m 12.4s WNW    6kn (g10)  SE cros
- s\nTue 17:00     8.5   1.7m 12.3s WNW    6kn (g10)  SE cross\n\nNotes: Hea
- vy\, hollow beach break.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\
+ y 2.3 to 3.2 m.\n\nHour (local)  score  waves            wind\nSat 08:00  
+      7   2.8m 14.8s  NW    6kn (g10)  SE cross\nSat 09:00       7   2.9m 1
+ 4.8s  NW    6kn (g10)  SE cross\nSat 10:00       7   2.9m 14.8s  NW    6kn
+  (g10)  SE cross\nSat 11:00       7   2.9m 14.8s  NW    7kn (g12) SSE cros
+ s\nSat 12:00       7   2.9m 14.8s  NW    7kn (g12) SSE cross\n\nNotes: Hea
+ vy\, hollow beach break.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\
  n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=s
  upertubos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
@@ -114,22 +27,107 @@ LOCATION:Peniche (Supertubos)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:9e010a699e0fa3d5@surf-windows
+DTSTAMP:20261128T070000Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:👍 Peniche (Supertubos) 6.5/10 · 2.8m 15s NW · 5kn SSW
+DESCRIPTION:Best 6.5/10 at 16:00. Forecast confidence: high. 5 wave models 
+ say 2.2 to 3.3 m.\n\nHour (local)  score  waves            wind\nSat 16:00
+      6.5   2.8m 14.8s  NW    5kn (g10) SSW onshore\nSat 17:00     6.5   2.
+ 8m 14.8s  NW    5kn (g9) SSW glassy\n\nNotes: Heavy\, hollow beach break.\
+ nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\nFull forecast: https:/
+ /tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
+LOCATION:Peniche (Supertubos)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d17f113bfeaebcb9@surf-windows
+DTSTAMP:20261128T070000Z
+DTSTART:20261129T080000Z
+DTEND:20261129T180000Z
+SUMMARY:🔥 Peniche (Supertubos) 8/10 · 2.6m 14s NW · 2kn NE
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: high. 5 wave models sa
+ y 2.1 to 2.9 m.\n\nHour (local)  score  waves            wind\nSun 08:00  
+      8   2.6m 13.5s  NW    2kn (g4)  NE glassy\nSun 09:00       8   2.6m 1
+ 3.5s  NW    3kn (g6) ENE glassy\nSun 10:00     6.5   2.6m 13.5s  NW    1kn
+  (g5)   S glassy\nSun 11:00       7   2.6m 13.5s  NW    3kn (g5) NNW glass
+ y\nSun 12:00     5.5   2.6m 13.5s  NW    9kn (g14)   N cross\nSun 13:00   
+     8   2.6m 13.5s  NW   12kn (g19)   N offshore\nSun 14:00       8   2.7m
+  13.5s  NW   12kn (g20)   N offshore\nSun 15:00       8   2.7m 13.5s  NW  
+  11kn (g20)   N offshore\nSun 16:00       8   2.7m 13.5s  NW   10kn (g18) 
+   N offshore\nSun 17:00       8   2.6m 13.5s  NW   10kn (g16)   N offshore
+ \n\nNotes: Heavy\, hollow beach break.\nGenerated 2026-11-28 07:00 UTC fro
+ m Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-
+ plugin/#spot=supertubos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
+LOCATION:Peniche (Supertubos)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:80fb7531c7c61fe9@surf-windows
+DTSTAMP:20261128T070000Z
+DTSTART:20261130T080000Z
+DTEND:20261130T180000Z
+SUMMARY:🔥 Peniche (Supertubos) 9/10 · 2.3m 14s NW · 4kn NNW
+DESCRIPTION:Best 9/10 at 16:00. Forecast confidence: medium. 5 wave models 
+ say 1.9 to 2.3 m.\n\nHour (local)  score  waves            wind\nMon 08:00
+        7   2.4m 13.5s  NW    2kn (g3)   E glassy\nMon 09:00       7   2.4m
+  13.5s  NW    1kn (g3)   E glassy\nMon 10:00       8   2.4m 13.5s  NW    1
+ kn (g2)   E glassy\nMon 11:00       8   2.4m 13.5s  NW    1kn (g2)   N gla
+ ssy\nMon 12:00       7   2.4m 13.5s  NW    3kn (g5) NNW glassy\nMon 13:00 
+       7   2.3m 13.5s  NW    4kn (g7) NNW glassy\nMon 14:00       7   2.3m 
+ 13.5s  NW    4kn (g7) NNW glassy\nMon 15:00       7   2.3m 13.5s  NW    5k
+ n (g8) NNW glassy\nMon 16:00       9   2.3m 13.5s  NW    4kn (g8) NNW glas
+ sy\nMon 17:00       9   2.2m 13.5s  NW    3kn (g6)   N glassy\n\nNotes: He
+ avy\, hollow beach break.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.
+ \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
+ supertubos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
+LOCATION:Peniche (Supertubos)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:15ac4be5afc0ec08@surf-windows
+DTSTAMP:20261128T070000Z
+DTSTART:20261201T080000Z
+DTEND:20261201T180000Z
+SUMMARY:🔥 Peniche (Supertubos) 8.5/10 · 1.8m 12s NW · 4kn ESE
+DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.7 to 1.9 m.\n\nHour (local)  score  waves            wind\nTue 08:00 
+     8.5   1.8m 11.9s  NW    4kn (g8) ESE glassy\nTue 09:00     8.5   1.8m 
+ 11.9s  NW    4kn (g8) ESE glassy\nTue 10:00     8.5   1.8m 12.0s  NW    5k
+ n (g10)  SE cross\nTue 11:00     8.5   1.8m 12.1s  NW    6kn (g10)  SE cro
+ ss\nTue 12:00     8.5   1.8m 12.2s WNW    6kn (g10)  SE cross\nTue 13:00  
+    8.5   1.8m 12.2s WNW    7kn (g11)  SE cross\nTue 14:00     8.5   1.8m 1
+ 2.3s WNW    7kn (g11)  SE cross\nTue 15:00     8.5   1.8m 12.3s WNW    6kn
+  (g11)  SE cross\nTue 16:00     8.5   1.8m 12.3s WNW    6kn (g9)  SE cross
+ \nTue 17:00     8.5   1.7m 12.2s WNW    5kn (g9)  SE cross\n\nNotes: Heavy
+ \, hollow beach break.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\
+ nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=sup
+ ertubos
+URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
+LOCATION:Peniche (Supertubos)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:338ac52056524f0f@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261202T080000Z
 DTEND:20261202T180000Z
-SUMMARY:🔥 Peniche (Supertubos) 8.5/10 · 1.6m 12s W · 8kn SE
-DESCRIPTION:Best 8.5/10 at 14:00. Forecast confidence: low. 4 wave models s
- ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
-       7   1.6m 12.0s WNW    8kn (g14) ESE cross\nWed 09:00       7   1.6m 
- 12.1s WNW    8kn (g14) ESE cross\nWed 10:00       7   1.6m 12.1s WNW    8k
- n (g14)  SE cross\nWed 11:00       7   1.6m 12.1s WNW    8kn (g14)  SE cro
- ss\nWed 12:00       7   1.6m 12.1s WNW    8kn (g14)  SE cross\nWed 13:00  
-      7   1.6m 12.1s WNW    8kn (g13)  SE cross\nWed 14:00     8.5   1.6m 1
- 2.1s   W    8kn (g13)  SE cross\nWed 15:00     8.5   1.7m 11.9s   W    8kn
-  (g13)  SE cross\nWed 16:00     8.5   1.7m 11.7s   W    7kn (g10)  SE cros
- s\nWed 17:00     8.5   1.7m 11.4s   W    6kn (g10)  SE cross\n\nNotes: Hea
- vy\, hollow beach break.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\
+SUMMARY:🔥 Peniche (Supertubos) 8.5/10 · 1.6m 12s WNW · 7kn ESE
+DESCRIPTION:Best 8.5/10 at 08:00. Forecast confidence: low. 4 wave models s
+ ay 1.5 to 1.7 m.\n\nHour (local)  score  waves            wind\nWed 08:00 
+     8.5   1.6m 12.0s WNW    7kn (g12) ESE cross\nWed 09:00     8.5   1.6m 
+ 12.1s WNW    8kn (g12) ESE cross\nWed 10:00       7   1.6m 12.1s WNW    8k
+ n (g15) ESE cross\nWed 11:00       7   1.6m 12.1s WNW    9kn (g15)  SE cro
+ ss\nWed 12:00       7   1.6m 12.1s WNW    9kn (g15)  SE cross\nWed 13:00  
+      7   1.6m 12.1s WNW    8kn (g12)  SE cross\nWed 14:00     8.5   1.6m 1
+ 2.1s WNW    7kn (g12)  SE cross\nWed 15:00     8.5   1.7m 12.0s WNW    6kn
+  (g12)  SE cross\nWed 16:00     8.5   1.7m 12.0s WNW    5kn (g7)  SE glass
+ y\nWed 17:00     8.5   1.7m 11.9s WNW    4kn (g7) ESE glassy\n\nNotes: Hea
+ vy\, hollow beach break.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\
  n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=s
  upertubos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
@@ -138,46 +136,46 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:560a31b3bae7d609@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261203T080000Z
 DTEND:20261203T180000Z
-SUMMARY:🔥 Peniche (Supertubos) 9.5/10 · 1.9m 12s NW · 2kn NE
+SUMMARY:🔥 Peniche (Supertubos) 9.5/10 · 1.8m 12s WNW · 3kn E
 DESCRIPTION:Best 9.5/10 at 08:00. Forecast confidence: low. 4 wave models s
- ay 1.8 to 2.0 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
-     9.5   1.9m 11.8s  NW    2kn (g5)  NE glassy\nThu 09:00     9.5   1.9m 
- 11.9s  NW    2kn (g5)  NE glassy\nThu 10:00     9.5   1.9m 12.1s  NW    3k
- n (g9)  NE glassy\nThu 11:00     9.5   1.9m 12.3s  NW    4kn (g9)  NE glas
- sy\nThu 12:00     9.5   1.9m 12.4s  NW    4kn (g9)  NE glassy\nThu 13:00  
-    9.5   1.9m 12.5s  NW    4kn (g8) NNE glassy\nThu 14:00     9.5   1.9m 1
- 2.4s  NW    4kn (g8)   N glassy\nThu 15:00     8.5   1.9m 12.4s  NW    4kn
-  (g8)   N glassy\nThu 16:00     8.5   1.9m 12.4s  NW    4kn (g9)   N glass
- y\nThu 17:00     8.5   1.9m 12.4s  NW    4kn (g9)   N glassy\n\nNotes: Hea
- vy\, hollow beach break.\nGenerated 2026-11-27 21:00 UTC from Open-Meteo.\
- n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=s
- upertubos
+ ay 1.6 to 1.9 m.\n\nHour (local)  score  waves            wind\nThu 08:00 
+     9.5   1.8m 11.5s WNW    3kn (g7)   E glassy\nThu 09:00     8.5   1.9m 
+ 11.5s WNW    4kn (g7)   E glassy\nThu 10:00     8.5   1.9m 11.5s WNW    4k
+ n (g13)   E glassy\nThu 11:00     8.5   1.9m 11.4s WNW    6kn (g13)   E cr
+ oss\nThu 12:00     8.5   1.9m 11.5s WNW    6kn (g13)   E cross\nThu 13:00 
+     8.5   1.9m 11.7s WNW    7kn (g12)   E cross\nThu 14:00     8.5   1.9m 
+ 11.9s WNW    6kn (g12)   E cross\nThu 15:00     8.5   1.9m 12.1s WNW    6k
+ n (g12)   E cross\nThu 16:00     9.5   1.9m 12.2s WNW    5kn (g6)   E glas
+ sy\nThu 17:00     9.5   1.9m 12.2s WNW    4kn (g6)   E glassy\n\nNotes: He
+ avy\, hollow beach break.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.
+ \n\nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=
+ supertubos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
 LOCATION:Peniche (Supertubos)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:683d87e12beb3f1d@surf-windows
-DTSTAMP:20261127T210000Z
+DTSTAMP:20261128T070000Z
 DTSTART:20261204T080000Z
 DTEND:20261204T180000Z
-SUMMARY:🔥 Peniche (Supertubos) 9/10 · 1.5m 12s NW · 2kn E
-DESCRIPTION:Best 9/10 at 08:00. Forecast confidence: low. 4 wave models say
-  1.3 to 2.0 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
-     9   1.5m 12.1s  NW    2kn (g5)   E glassy\nFri 09:00       9   1.5m 12
- .0s  NW    2kn (g5)   E glassy\nFri 10:00       9   1.4m 11.9s  NW    3kn 
- (g12)   E glassy\nFri 11:00       9   1.4m 11.8s  NW    5kn (g12)   E glas
- sy\nFri 12:00       9   1.4m 11.7s  NW    6kn (g12)   E offshore\nFri 13:0
- 0       9   1.3m 11.5s  NW    6kn (g11)   E offshore\nFri 14:00       9   
- 1.3m 11.4s  NW    6kn (g11)   E offshore\nFri 15:00       9   1.3m 11.3s  
- NW    6kn (g11)   E offshore\nFri 16:00       9   1.2m 11.2s  NW    5kn (g
- 7)   E glassy\nFri 17:00       9   1.2m 11.2s  NW    4kn (g7) ENE glassy\n
- \nNotes: Heavy\, hollow beach break.\nGenerated 2026-11-27 21:00 UTC from 
- Open-Meteo.\n\nFull forecast: https://tutubanas.github.io/surf-calendar-pl
- ugin/#spot=supertubos
+SUMMARY:🔥 Peniche (Supertubos) 8/10 · 1.5m 11s NW · 4kn ESE
+DESCRIPTION:Best 8/10 at 08:00. Forecast confidence: low. 4 wave models say
+  1.3 to 1.9 m.\n\nHour (local)  score  waves            wind\nFri 08:00   
+     8   1.5m 11.4s  NW    4kn (g9) ESE glassy\nFri 09:00       8   1.5m 11
+ .3s  NW    4kn (g9) ESE glassy\nFri 10:00       8   1.4m 11.2s  NW    5kn 
+ (g14) ESE cross\nFri 11:00       8   1.4m 11.2s  NW    6kn (g14) ESE cross
+ \nFri 12:00       8   1.4m 11.2s  NW    7kn (g14) ESE cross\nFri 13:00    
+    8   1.4m 11.2s  NW    7kn (g12) ESE cross\nFri 14:00       8   1.3m 11.
+ 2s  NW    6kn (g12) ESE cross\nFri 15:00       8   1.3m 11.2s  NW    5kn (
+ g12) ESE cross\nFri 16:00       8   1.3m 11.2s  NW    4kn (g5) ESE glassy\
+ nFri 17:00       8   1.2m 11.2s  NW    3kn (g5) ESE glassy\n\nNotes: Heavy
+ \, hollow beach break.\nGenerated 2026-11-28 07:00 UTC from Open-Meteo.\n\
+ nFull forecast: https://tutubanas.github.io/surf-calendar-plugin/#spot=sup
+ ertubos
 URL:https://tutubanas.github.io/surf-calendar-plugin/#spot=supertubos
 LOCATION:Peniche (Supertubos)
 TRANSP:TRANSPARENT
